@@ -1,17 +1,19 @@
 [tool.poetry]
-name = "monarch-ingest"
+name = "kg-alzheimers"
 version = "0.8.0"
 description = ""
 authors = [
-    "The Monarch Initiative <info@monarchinitiative.org>",
+    "Justin Reese <justinreese@lbl.gov>",
+    "J. Harry Caufield <jhc@lbl.gov>",
     "Kevin Schaper <kevinschaper@gmail.com>",
     "Victoria Soesanto <victoria.soesanto@cuanschutz.edu>",
     "Glass Elsarboukh <g.elsarboukh@gmail.com>",
     "Kent Shefchek <kent@tislab.org>",
     "Richard Bruskiewich <richard.bruskiewich@delphinai.com>",
+    "The Monarch Initiative <info@monarchinitiative.org>",
 ]
 packages = [
-    { include = "monarch_ingest", from = "src" },
+    { include = "kg_alzheimers", from = "src" },
 ]
 
 [tool.poetry.dependencies]
@@ -49,7 +51,7 @@ black = "^24.3"
 ruff = "*"
 
 [tool.poetry.scripts]
-ingest = "monarch_ingest.main:typer_app"
+ingest = "kg_alzheimers.main:typer_app"
 
 [build-system]
 requires = ["poetry-core>=1.0.0"]
@@ -63,7 +65,7 @@ skip-string-normalization = true
 line-length = 120
 ignore = [
     "F541", # f-strings with no placeholders
-
 ]
+
 [tool.ruff.lint.per-file-ignores]
 "tests/**.py" = ["F811"] # redefinition of unused imports (mock_koza)
