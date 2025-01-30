@@ -9,7 +9,7 @@ def source_name():
 
 @pytest.fixture
 def script():
-    return "./src/monarch_ingest/ingests/alliance/gene.py"
+    return "./src/kg_alzheimers/ingests/alliance/gene.py"
 
 
 @pytest.fixture

@@ -31,7 +31,7 @@ def entities(mock_koza, global_table):
     return mock_koza(
         name="pombase_gene_to_phenotype",
         data=row,
-        transform_code="./src/monarch_ingest/ingests/pombase/gene_to_phenotype.py",
+        transform_code="./src/kg_alzheimers/ingests/pombase/gene_to_phenotype.py",
         global_table=global_table,
     )
 

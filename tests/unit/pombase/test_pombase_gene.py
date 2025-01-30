@@ -18,7 +18,7 @@ def gene_information_entities(mock_koza, taxon_label_map_cache, global_table):
     return mock_koza(
         "pombase_gene",
         row,
-        "./src/monarch_ingest/ingests/pombase/gene.py",
+        "./src/kg_alzheimers/ingests/pombase/gene.py",
         map_cache=taxon_label_map_cache,
         global_table=global_table,
     )
@@ -40,7 +40,7 @@ def gene_entity_no_name(mock_koza, taxon_label_map_cache, global_table):
     return mock_koza(
         "pombase_gene",
         row,
-        "./src/monarch_ingest/ingests/pombase/gene.py",
+        "./src/kg_alzheimers/ingests/pombase/gene.py",
         map_cache=taxon_label_map_cache,
         global_table=global_table,
     )

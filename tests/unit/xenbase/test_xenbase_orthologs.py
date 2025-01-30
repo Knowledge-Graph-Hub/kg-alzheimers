@@ -20,14 +20,14 @@ def script():
     """
     :return: string path to Xenbase Gene Orthology relationships ingest script
     """
-    return "./src/monarch_ingest/ingests/xenbase/orthologs.py"
+    return "./src/kg_alzheimers/ingests/xenbase/orthologs.py"
 
 
 @pytest.fixture
 def map_cache():
-    return { 
+    return {
         'genepage-2-gene': {
-            'XB-GENEPAGE-478063': { 
+            'XB-GENEPAGE-478063': {
                 'tropicalis_id':'XB-GENE-478064',
                 'laevis_l_id': 'XB-GENE-6461998',
                 'laevis_s_id': 'XB-GENE-17342561',
@@ -51,8 +51,8 @@ def orthology_record(mock_koza, source_name, script, global_table, map_cache):
         global_table=global_table,
     )
 
-@pytest.mark.parametrize("index, expected_subject", 
-                         [(0, "Xenbase:XB-GENE-478064"), 
+@pytest.mark.parametrize("index, expected_subject",
+                         [(0, "Xenbase:XB-GENE-478064"),
                           (1, "Xenbase:XB-GENE-6461998"),
                           (2, "Xenbase:XB-GENE-17342561")])
 def test_orthology_records(orthology_record, index: int, expected_subject: str):

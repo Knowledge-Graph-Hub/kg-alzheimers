@@ -11,7 +11,7 @@ def source_name():
 # This is the location of the transform code
 @pytest.fixture
 def script():
-    return "./src/monarch_ingest/ingests/rgd/publication_to_gene.py"
+    return "./src/kg_alzheimers/ingests/rgd/publication_to_gene.py"
 
 
 # Create a fixture for a full row, it should be relatively representative of the rows ingested, and can

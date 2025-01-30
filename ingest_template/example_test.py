@@ -4,7 +4,7 @@ from koza.cli_utils import get_translation_table
 
 @pytest.fixture
 def tt():
-    return get_translation_table("src/monarch_ingest/translation_table.yaml", None)
+    return get_translation_table("src/kg_alzheimers/translation_table.yaml", None)
 
 # This name must match the ingest name in the transform code
 @pytest.fixture
@@ -14,7 +14,7 @@ def source_name():
 # This is the location of the transform code
 @pytest.fixture
 def script():
-    return "./src/monarch_ingest/ingests/somethingbase/something2somethingelse.py"
+    return "./src/kg_alzheimers/ingests/somethingbase/something2somethingelse.py"
 
 
 # If the ingest requires a map, it can be created here with just the entries that are required

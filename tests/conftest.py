@@ -3,7 +3,7 @@ import pytest
 
 @pytest.fixture(scope="package")
 def global_table():
-    return "src/monarch_ingest/translation_table.yaml"
+    return "src/kg_alzheimers/translation_table.yaml"
 
 
 @pytest.fixture

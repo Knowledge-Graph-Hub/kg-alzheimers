@@ -10,7 +10,7 @@ from koza.io.yaml_loader import UniqueIncludeLoader
 from koza.model.config.source_config import OutputFormat, PrimaryFileConfig
 from koza.model.source import Source
 
-from monarch_ingest.ingests.bgee.gene_to_expression_utils import filter_group_by_rank, get_row_group, write_group
+from kg_alzheimers.ingests.bgee.gene_to_expression_utils import filter_group_by_rank, get_row_group, write_group
 
 
 def get_mock_koza(
@@ -81,7 +81,7 @@ def get_koza_rows(mock_koza: KozaApp, n_rows: int) -> List[Dict]:
 
 @pytest.fixture
 def bgee_yaml():
-    return "src/monarch_ingest/ingests/bgee/gene_to_expression.yaml"
+    return "src/kg_alzheimers/ingests/bgee/gene_to_expression.yaml"
 
 
 @pytest.fixture

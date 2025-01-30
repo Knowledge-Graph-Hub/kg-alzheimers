@@ -4,7 +4,7 @@ import pytest
 from biolink_model.datamodel.pydanticmodel_v2 import GeneToPhenotypicFeatureAssociation
 from koza.utils.testing_utils import mock_koza  # noqa: F401
 
-from monarch_ingest.ingests.dictybase.utils import parse_phenotypes
+from kg_alzheimers.ingests.dictybase.utils import parse_phenotypes
 
 
 @pytest.fixture
@@ -77,7 +77,7 @@ def script():
     """
     :return: string path to Dictybase Gene to Phenotype ingest script
     """
-    return "./src/monarch_ingest/ingests/dictybase/gene_to_phenotype.py"
+    return "./src/kg_alzheimers/ingests/dictybase/gene_to_phenotype.py"
 
 
 @pytest.fixture

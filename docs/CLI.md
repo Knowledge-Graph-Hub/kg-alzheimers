@@ -17,9 +17,12 @@ $ ingest [OPTIONS] COMMAND [ARGS]...
 
 * `closure`
 * `download`: Downloads data defined in download.yaml
+* `export`
 * `jsonl`
 * `merge`: Merge nodes and edges into kg
+* `prepare-release`
 * `release`: Copy data to Monarch GCP data buckets
+* `report`: Run Koza QC on specified Monarch ingests
 * `solr`
 * `sqlite`
 * `transform`: Run Koza transformation on specified...
@@ -50,6 +53,19 @@ $ ingest download [OPTIONS]
 
 * `--ingests TEXT`: Which ingests to download data for
 * `--all / --no-all`: Download all ingest datasets  [default: no-all]
+* `--write-metadata / --no-write-metadata`: Write versions of ingests to metadata.yaml  [default: no-write-metadata]
+* `--help`: Show this message and exit.
+
+## `ingest export`
+
+**Usage**:
+
+```console
+$ ingest export [OPTIONS]
+```
+
+**Options**:
+
 * `--help`: Show this message and exit.
 
 ## `ingest jsonl`
@@ -81,6 +97,18 @@ $ ingest merge [OPTIONS]
 * `-d, --debug / -q, --quiet`: Use --quiet to suppress log output, --debug for verbose
 * `--help`: Show this message and exit.
 
+## `ingest prepare-release`
+
+**Usage**:
+
+```console
+$ ingest prepare-release [OPTIONS]
+```
+
+**Options**:
+
+* `--help`: Show this message and exit.
+
 ## `ingest release`
 
 Copy data to Monarch GCP data buckets
@@ -95,6 +123,20 @@ $ ingest release [OPTIONS]
 
 * `--dir TEXT`: Directory with kg to be released  [default: output]
 * `--kghub / --no-kghub`: Also release to kghub S3 bucket  [default: no-kghub]
+* `--help`: Show this message and exit.
+
+## `ingest report`
+
+Run Koza QC on specified Monarch ingests
+
+**Usage**:
+
+```console
+$ ingest report [OPTIONS]
+```
+
+**Options**:
+
 * `--help`: Show this message and exit.
 
 ## `ingest solr`
@@ -142,4 +184,5 @@ $ ingest transform [OPTIONS]
 * `-d, --debug / -q, --quiet`: Use --quiet to suppress log output, --debug for verbose, including Koza logs
 * `-l, --log`: Write DEBUG level logs to ./logs/ for each ingest
 * `-n, --row-limit INTEGER`: Number of rows to process
+* `--write-metadata / --no-write-metadata`: Write data/package versions to output_dir/metadata.yaml  [default: no-write-metadata]
 * `--help`: Show this message and exit.

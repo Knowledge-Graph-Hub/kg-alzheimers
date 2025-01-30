@@ -11,7 +11,7 @@ def source_name():
 
 @pytest.fixture
 def script():
-    return "./src/monarch_ingest/ingests/alliance/publication.py"
+    return "./src/kg_alzheimers/ingests/alliance/publication.py"
 
 
 @pytest.fixture

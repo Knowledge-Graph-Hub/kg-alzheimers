@@ -17,26 +17,21 @@ RUN = poetry run
 .PHONY: all
 all: install format test clean
 
-
 .PHONY: install
 install:
 	poetry install
 
-
 .PHONY: install-full
 install-full:
 	poetry install --with dev
-	
 
 .PHONY: test
 test: install
 	$(RUN) python -m pytest tests
 
-
 .PHONY: docs
 docs: install-full
-	$(RUN) typer src/monarch_ingest/main.py utils docs --name ingest --output docs/CLI.md
-	
+	$(RUN) typer src/kg_alzheimers/main.py utils docs --name ingest --output docs/CLI.md
 
 .PHONY: clean
 clean:
@@ -45,12 +40,10 @@ clean:
 	rm -rf .pytest_cache
 	rm -rf dist
 
-
 .PHONY: lint
 lint: install-full
 	$(RUN) ruff check --diff --exit-zero src/ tests/
 	$(RUN) black --check --diff -l 120 src/ tests/
-
 
 .PHONY: format
 format: install-full
