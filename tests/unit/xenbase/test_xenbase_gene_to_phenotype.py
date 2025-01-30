@@ -22,7 +22,7 @@ def entities(
         "IS_DEFINED_BY": "",
         "QUALIFIER": "",
     }
-    return mock_koza("xenbase_gene_to_phenotype", row, "./src/monarch_ingest/ingests/xenbase/gene_to_phenotype.py")
+    return mock_koza("xenbase_gene_to_phenotype", row, "./src/kg_alzheimers/ingests/xenbase/gene_to_phenotype.py")
 
 
 def test_gene2_phenotype_transform(entities):

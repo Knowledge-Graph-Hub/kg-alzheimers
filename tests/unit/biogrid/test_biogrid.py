@@ -19,7 +19,7 @@ def script():
     """
     :return: BioGRID path to BioGRID protein links ingest script
     """
-    return "./src/monarch_ingest/ingests/biogrid/biogrid.py"
+    return "./src/kg_alzheimers/ingests/biogrid/biogrid.py"
 
 
 @pytest.fixture

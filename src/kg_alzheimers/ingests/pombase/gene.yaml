@@ -1,0 +1,46 @@
+name: 'pombase_gene'
+
+files:
+  - './data/pombase/gene_IDs_names_products.tsv' # url: https://www.pombase.org/data/names_and_identifiers/gene_IDs_names_products.tsv
+
+format: 'csv'
+
+delimiter: '\t'
+
+metadata: './src/kg_alzheimers/ingests/pombase/metadata.yaml'
+global_table: './src/kg_alzheimers/translation_table.yaml'
+
+header: none
+
+filters:
+  - inclusion: 'include'
+    column: "gene_type"
+    filter_code: 'eq'
+    value: 'protein coding gene'
+
+columns:
+  - "gene_systematic_id"
+  - "gene_systematic_id_with_prefix"
+  - "gene_name"
+  - "chromosome_id"
+  - "gene_product"
+  - "uniprot_id"
+  - "gene_type"
+  - "synonyms"
+
+depends_on:
+  - './src/kg_alzheimers/maps/taxon-labels.yaml'
+
+node_properties:
+  - 'id'
+  - 'category'
+  - 'name'
+  - 'symbol'
+  - 'full_name'
+  - 'in_taxon'
+  - 'in_taxon_label'
+  - 'xref'
+  - 'synonym'
+  - 'provided_by'
+
+transform_mode: 'flat'

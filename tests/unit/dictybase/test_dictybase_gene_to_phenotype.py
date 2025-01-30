@@ -77,7 +77,7 @@ def script():
     """
     :return: string path to Dictybase Gene to Phenotype ingest script
     """
-    return "./src/monarch_ingest/ingests/dictybase/gene_to_phenotype.py"
+    return "./src/kg_alzheimers/ingests/dictybase/gene_to_phenotype.py"
 
 
 @pytest.fixture

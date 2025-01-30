@@ -18,7 +18,7 @@ def script():
     """
     :return: string path to Dictybase Gene ngest script
     """
-    return "./src/monarch_ingest/ingests/dictybase/gene.py"
+    return "./src/kg_alzheimers/ingests/dictybase/gene.py"
 
 
 @pytest.fixture

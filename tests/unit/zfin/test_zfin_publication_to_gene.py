@@ -19,7 +19,7 @@ def basic_entities(mock_koza, basic_row, global_table):
     return mock_koza(
         "zfin_publication_to_gene",
         basic_row,
-        "./src/monarch_ingest/ingests/zfin/publication_to_gene.py",
+        "./src/kg_alzheimers/ingests/zfin/publication_to_gene.py",
         global_table=global_table,
     )
 
