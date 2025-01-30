@@ -1198,7 +1198,7 @@
 
 <span class="nd">@pytest</span><span class="o">.</span><span class="n">fixture</span>
 <span class="k">def</span> <span class="nf">tt</span><span class="p">():</span>
-    <span class="k">return</span> <span class="n">get_translation_table</span><span class="p">(</span><span class="s2">&quot;src/monarch_ingest/translation_table.yaml&quot;</span><span class="p">,</span> <span class="kc">None</span><span class="p">)</span>
+    <span class="k">return</span> <span class="n">get_translation_table</span><span class="p">(</span><span class="s2">&quot;src/kg_alzheimers/translation_table.yaml&quot;</span><span class="p">,</span> <span class="kc">None</span><span class="p">)</span>
 
 <span class="c1"># This name must match the ingest name in the transform code</span>
 <span class="nd">@pytest</span><span class="o">.</span><span class="n">fixture</span>
@@ -1208,7 +1208,7 @@
 <span class="c1"># This is the location of the transform code</span>
 <span class="nd">@pytest</span><span class="o">.</span><span class="n">fixture</span>
 <span class="k">def</span> <span class="nf">script</span><span class="p">():</span>
-    <span class="k">return</span> <span class="s2">&quot;./src/monarch_ingest/ingests/somethingbase/something2somethingelse.py&quot;</span>
+    <span class="k">return</span> <span class="s2">&quot;./src/kg_alzheimers/ingests/somethingbase/something2somethingelse.py&quot;</span>
 </code></pre></div>
 <h5 id="a-map-if-necessary">A map, if necessary</h5>
 <p>Some ingests will depend on one or more maps, that fixture can be set up here. Note that this fixture must return a map of maps, and that the inner maps will map from an ID to a dictionary representing column headers and values. </p>
