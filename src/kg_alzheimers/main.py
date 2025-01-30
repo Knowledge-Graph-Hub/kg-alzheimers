@@ -3,7 +3,7 @@ from typing import List, Optional
 
 import yaml
 from kghub_downloader.download_utils import download_from_yaml
-from monarch_ingest.cli_utils import (
+from kg_alzheimers.cli_utils import (
     apply_closure,
     do_prepare_release,
     do_release,
@@ -30,7 +30,7 @@ OUTPUT_DIR = "output"
 @typer_app.callback(invoke_without_command=True)
 def callback(version: Optional[bool] = typer.Option(None, "--version", is_eager=True)):
     if version:
-        from monarch_ingest import __version__
+        from kg_alzheimers import __version__
 
         typer.echo(f"kg_alzheimers version: {__version__}")
         raise typer.Exit()

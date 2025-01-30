@@ -1,7 +1,7 @@
 import uuid
 
 from koza.cli_utils import get_koza_app
-from monarch_ingest.ingests.dictybase.utils import parse_phenotypes
+from kg_alzheimers.ingests.dictybase.utils import parse_phenotypes
 
 from biolink_model.datamodel.pydanticmodel_v2 import (
     GeneToPhenotypicFeatureAssociation,

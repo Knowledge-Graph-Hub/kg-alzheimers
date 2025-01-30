@@ -8,7 +8,7 @@ from koza.cli_utils import get_koza_app
 
 from biolink_model.datamodel.pydanticmodel_v2 import GeneToGeneHomologyAssociation, KnowledgeLevelEnum, AgentTypeEnum
 
-from monarch_ingest.ingests.panther.orthology_utils import parse_gene, ncbitaxon_catalog
+from kg_alzheimers.ingests.panther.orthology_utils import parse_gene, ncbitaxon_catalog
 
 
 koza_app = get_koza_app("panther_genome_orthologs")

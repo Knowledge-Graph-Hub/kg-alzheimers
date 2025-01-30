@@ -7,7 +7,7 @@ from biolink_model.datamodel.pydanticmodel_v2 import (
     KnowledgeLevelEnum,
     AgentTypeEnum,
 )
-from monarch_ingest.constants import BIOLINK_TREATS_OR_APPLIED_OR_STUDIED_TO_TREAT
+from kg_alzheimers.constants import BIOLINK_TREATS_OR_APPLIED_OR_STUDIED_TO_TREAT
 
 koza_app = get_koza_app("ctd_chemical_to_disease")
 

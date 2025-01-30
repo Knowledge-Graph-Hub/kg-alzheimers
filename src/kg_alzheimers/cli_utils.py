@@ -23,9 +23,9 @@ from koza.cli_utils import transform_source
 from koza.model.config.source_config import OutputFormat
 from linkml_runtime.utils.formatutils import camelcase
 
-from monarch_ingest.utils.ingest_utils import ingest_output_exists, file_exists, get_ingests
-from monarch_ingest.utils.log_utils import get_logger
-from monarch_ingest.utils.export_utils import export
+from kg_alzheimers.utils.ingest_utils import ingest_output_exists, file_exists, get_ingests
+from kg_alzheimers.utils.log_utils import get_logger
+from kg_alzheimers.utils.export_utils import export
 
 
 OUTPUT_DIR = "output"
