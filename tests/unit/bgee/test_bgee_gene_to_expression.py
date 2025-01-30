@@ -10,7 +10,7 @@ from koza.io.yaml_loader import UniqueIncludeLoader
 from koza.model.config.source_config import OutputFormat, PrimaryFileConfig
 from koza.model.source import Source
 
-from monarch_ingest.ingests.bgee.gene_to_expression_utils import filter_group_by_rank, get_row_group, write_group
+from kg_alzheimers.ingests.bgee.gene_to_expression_utils import filter_group_by_rank, get_row_group, write_group
 
 
 def get_mock_koza(

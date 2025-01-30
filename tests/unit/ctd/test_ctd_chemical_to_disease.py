@@ -2,7 +2,7 @@ import pytest
 from biolink_model.datamodel.pydanticmodel_v2 import ChemicalToDiseaseOrPhenotypicFeatureAssociation
 from koza.utils.testing_utils import mock_koza  # noqa: F401
 
-from monarch_ingest.constants import BIOLINK_TREATS_OR_APPLIED_OR_STUDIED_TO_TREAT
+from kg_alzheimers.constants import BIOLINK_TREATS_OR_APPLIED_OR_STUDIED_TO_TREAT
 
 
 @pytest.fixture
