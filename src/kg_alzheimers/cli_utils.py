@@ -342,7 +342,7 @@ def get_pkg_versions(output_dir: str = OUTPUT_DIR, release_version: Optional[str
     packages = {}
     packages["biolink"] = version("biolink-model")
     packages["koza"] = version("koza")
-    packages["monarch-ingest"] = version("monarch-ingest")
+    packages["kg-alzheimers"] = version("kg-alzheimers")
     kg_version = get_release_version() if release_version is None else release_version
     with open("data/metadata.yaml", "r") as f:
         data_versions = yaml.load(f, Loader=yaml.FullLoader)["data"]
@@ -359,7 +359,7 @@ def get_pkg_versions(output_dir: str = OUTPUT_DIR, release_version: Optional[str
 
 
 def merge_files(
-    name: str = "monarch-kg",
+    name: str = "kg-alzhimers",
     input_dir: str = f"{OUTPUT_DIR}/transform_output",
     output_dir: str = OUTPUT_DIR,
     verbose: Optional[bool] = None,
@@ -378,7 +378,7 @@ def merge_files(
 
 
 def apply_closure(
-    name: str = "monarch-kg",
+    name: str = "kg-alzheimers",
     closure_file: str = f"data/monarch/phenio-relation-filtered.tsv",
     output_dir: str = OUTPUT_DIR,
 ):
@@ -422,7 +422,7 @@ def load_solr():
 
 
 def load_jsonl():
-    db = duckdb.connect('output/monarch-kg.duckdb')
+    db = duckdb.connect('output/kg-alzheimers.duckdb')
 
     biolink_model = SchemaView(
         f"https://raw.githubusercontent.com/biolink/biolink-model/v{model.version}/biolink-model.yaml"
@@ -458,7 +458,7 @@ def load_jsonl():
       select nodes.* replace (ancestors as category, {mv_node_replacement}) 
       from nodes
         join class_ancestor_df on category = classname  
-    ) to 'output/monarch-kg_nodes.jsonl' (FORMAT JSON);
+    ) to 'output/kg_alzheimers_nodes.jsonl' (FORMAT JSON);
     """
     )
 
@@ -468,26 +468,26 @@ def load_jsonl():
       select edges.* replace (ancestors as category, {mv_edge_replacement}),  
       from edges
         join class_ancestor_df on category = classname  
-    ) to 'output/monarch-kg_edges.jsonl' (FORMAT JSON);
+    ) to 'output/kg_alzheimers_edges.jsonl' (FORMAT JSON);
     """
     )
 
 
 def create_qc_reports():
-    database_file = "output/monarch-kg.duckdb"
+    database_file = "output/kg-alzheimers.duckdb"
     # error if the database exists but needs to be gunzipped
     if Path(database_file + ".gz").is_file():
         raise FileExistsError(database_file + ".gz", "Database exists but needs to be decompressed")
     # error if the database doesn't exist
     if not Path(database_file).is_file():
         raise FileNotFoundError(database_file, "Database not found")
-    
+
     qc_sql = Path("scripts/generate_reports.sql")
     if not qc_sql.is_file():
         raise FileNotFoundError(qc_sql, "generate_reports.sql QC SQL script not found")
     sql = qc_sql.read_text()
 
-    con = duckdb.connect('output/monarch-kg.duckdb')
+    con = duckdb.connect('output/kg_alzheimers.duckdb')
     con.execute(sql)
 
 def export_tsv():
@@ -497,22 +497,22 @@ def export_tsv():
 def do_prepare_release(dir: str = OUTPUT_DIR):
 
     compressed_artifacts = [
-        'output/monarch-kg.duckdb',
-        'output/monarch-kg-denormalized-edges.tsv',
-        'output/monarch-kg-denormalized-nodes.tsv',
+        'output/kg-alzheimers.duckdb',
+        'output/kg-alzheimer-denormalized-edges.tsv',
+        'output/kg-alzheimer-denormalized-nodes.tsv',
     ]
 
     for artifact in compressed_artifacts:
         if Path(artifact).exists() and not Path(f"{artifact}.gz").exists():
             sh.pigz(artifact, force=True)
 
-    jsonl_tar = tarfile.open("output/monarch-kg.jsonl.tar.gz", "w:gz")
-    jsonl_tar.add("output/monarch-kg_nodes.jsonl", arcname="monarch-kg_nodes.jsonl")
-    jsonl_tar.add("output/monarch-kg_edges.jsonl", arcname="monarch-kg_edges.jsonl")
+    jsonl_tar = tarfile.open("output/kg-alzheimer.jsonl.tar.gz", "w:gz")
+    jsonl_tar.add("output/kg-alzheimer_nodes.jsonl", arcname="kg-alzheimer_nodes.jsonl")
+    jsonl_tar.add("output/kg-alzheimer_edges.jsonl", arcname="kg-alzheimerg_edges.jsonl")
     jsonl_tar.close()
 
-    os.remove("output/monarch-kg_nodes.jsonl")
-    os.remove("output/monarch-kg_edges.jsonl")
+    os.remove("output/kg-alzheimer_nodes.jsonl")
+    os.remove("output/kg-alzheimer_edges.jsonl")
 
 
 def do_release(dir: str = OUTPUT_DIR, kghub: bool = False):
