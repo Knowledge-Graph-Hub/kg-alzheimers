@@ -498,21 +498,21 @@ def do_prepare_release(dir: str = OUTPUT_DIR):
 
     compressed_artifacts = [
         'output/kg-alzheimers.duckdb',
-        'output/kg-alzheimer-denormalized-edges.tsv',
-        'output/kg-alzheimer-denormalized-nodes.tsv',
+        'output/kg-alzheimers-denormalized-edges.tsv',
+        'output/kg-alzheimers-denormalized-nodes.tsv',
     ]
 
     for artifact in compressed_artifacts:
         if Path(artifact).exists() and not Path(f"{artifact}.gz").exists():
             sh.pigz(artifact, force=True)
 
-    jsonl_tar = tarfile.open("output/kg-alzheimer.jsonl.tar.gz", "w:gz")
-    jsonl_tar.add("output/kg-alzheimer_nodes.jsonl", arcname="kg-alzheimer_nodes.jsonl")
-    jsonl_tar.add("output/kg-alzheimer_edges.jsonl", arcname="kg-alzheimerg_edges.jsonl")
+    jsonl_tar = tarfile.open("output/kg-alzheimers.jsonl.tar.gz", "w:gz")
+    jsonl_tar.add("output/kg-alzheimers_nodes.jsonl", arcname="kg-alzheimers_nodes.jsonl")
+    jsonl_tar.add("output/kg-alzheimers_edges.jsonl", arcname="kg-alzheimers_edges.jsonl")
     jsonl_tar.close()
 
-    os.remove("output/kg-alzheimer_nodes.jsonl")
-    os.remove("output/kg-alzheimer_edges.jsonl")
+    os.remove("output/kg-alzheimers_nodes.jsonl")
+    os.remove("output/kg-alzheimers_edges.jsonl")
 
 
 def do_release(dir: str = OUTPUT_DIR, kghub: bool = False):
