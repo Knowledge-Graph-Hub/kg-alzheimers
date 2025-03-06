@@ -30,9 +30,10 @@ pipeline {
                     sh 'echo "Path: $PATH"'
                     sh 'python3 --version'
                     sh 'pip --version'
-                    sh 'poetry --version'
-                    sh 'poetry install --with dev'
-                    sh 'poetry run which ingest'
+                    // sh 'poetry --version'
+                    // sh 'poetry install --with dev'
+                    // sh 'poetry run which ingest'
+                    sh 'pip install .'
                 }
             }
         }
@@ -55,7 +56,8 @@ pipeline {
         }
         stage('transform') {
             steps {
-                sh 'poetry run ingest transform --all --log --rdf --write-metadata'
+                // sh 'poetry run ingest transform --all --log --rdf --write-metadata'
+                sh 'ingest transform --all --log --rdf --write-metadata'
                 sh '''
                    sed -i.bak 's@\r@@g' output/transform_output/*.tsv
                    rm output/transform_output/*.bak
@@ -70,17 +72,20 @@ pipeline {
         }
         stage('merge') {
             steps {
-                sh 'poetry run ingest merge'
+                // sh 'poetry run ingest merge'
+                sh 'ingest merge'
             }
         }
         stage('upload files') {
             steps {
-                sh 'poetry run ingest release --kghub'
+                // sh 'poetry run ingest release --kghub'
+                sh 'ingest release --kghub'
             }
         }
         stage('create github release') {
             steps {
-                sh 'poetry run python scripts/create_github_release.py --kg-version ${RELEASE}'
+                // sh 'poetry run python scripts/create_github_release.py --kg-version ${RELEASE}'
+                sh 'python scripts/create_github_release.py --kg-version ${RELEASE}'
             }
         }
     }
