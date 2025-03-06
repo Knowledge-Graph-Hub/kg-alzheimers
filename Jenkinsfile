@@ -84,10 +84,20 @@ pipeline {
     }
     post {
         always {
-            sh 'docker rm -f neo || true'
+            echo 'Cleaning workspace...'
+            cleanWs()
+        }
+        success {
+            echo 'Success!'
+        }
+        unstable {
+            echo 'Build unstable'
         }
         failure {
-            sh 'echo haz fail oh noes'
+            echo 'haz fail oh noes'
+        }
+        changed {
+            echo 'A change has happened'
         }
     }
 }
