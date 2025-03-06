@@ -14,6 +14,10 @@ pipeline {
         AWS_SECRET_ACCESS_KEY = credentials('AWS_SECRET_ACCESS_KEY')
         GH_RELEASE_TOKEN = credentials('GH_RELEASE_TOKEN')
     }
+    options {
+        timestamps()
+        disableConcurrentBuilds()
+    }
     stages {
         stage('setup') {
             steps {
