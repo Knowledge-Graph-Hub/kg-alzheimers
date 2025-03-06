@@ -359,7 +359,7 @@ def get_pkg_versions(output_dir: str = OUTPUT_DIR, release_version: Optional[str
 
 
 def merge_files(
-    name: str = "kg-alzhimers",
+    name: str = "kg-alzheimers",
     input_dir: str = f"{OUTPUT_DIR}/transform_output",
     output_dir: str = OUTPUT_DIR,
     verbose: Optional[bool] = None,
