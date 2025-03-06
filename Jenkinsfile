@@ -62,11 +62,6 @@ pipeline {
                 sh 'poetry run ingest merge'
             }
         }
-        stage('prepare release') {
-            steps {
-                sh 'poetry run ingest prepare-release'
-            }
-        }
         stage('upload files') {
             steps {
                 sh 'poetry run ingest release --kghub'
