@@ -1,5 +1,10 @@
 pipeline {
-    agent { label 'monarch-agent-xlarge' }
+    agent {
+        docker {
+            reuseNode false
+            image 'caufieldjh/kg-hub-3_10:2'
+        }
+    }
     environment {
         HOME = "${env.WORKSPACE}"
         RELEASE = sh(script: "echo `date +%Y-%m-%d`", returnStdout: true).trim()
