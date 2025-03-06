@@ -78,7 +78,7 @@ pipeline {
             sh 'docker rm -f neo || true'
         }
         failure {
-            sh 'gsutil cp -r . gs://monarch-archive/monarch-kg-failed/${RELEASE}-${BUILD_TIMESTAMP}'
+            sh 'echo haz fail oh noes'
         }
     }
 }
