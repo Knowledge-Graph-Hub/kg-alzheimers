@@ -21,17 +21,19 @@ pipeline {
     stages {
         stage('setup') {
             steps {
-                sh '''
-                    echo "Current directory: \\$(pwd)"
-                    echo "Path: $PATH"
-
-                    python3 --version
-                    pip --version
-                    poetry --version
-
-                    poetry install --with dev
-                    poetry run which ingest
-                '''
+                dir('./gitrepo') {
+                    git(
+                            url: 'https://github.com/Knowledge-Graph-Hub/kg-alzheimers',
+                            branch: env.BRANCH_NAME
+                    )
+                    sh 'echo "Current directory: \\$(pwd)"'
+                    sh 'echo "Path: $PATH"'
+                    sh 'python3 --version'
+                    sh 'pip --version'
+                    sh 'poetry --version'
+                    sh 'poetry install --with dev'
+                    sh 'poetry run which ingest'
+                }
             }
         }
         stage('download') {
