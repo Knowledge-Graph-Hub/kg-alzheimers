@@ -33,6 +33,7 @@ pipeline {
                     // sh 'poetry --version'
                     // sh 'poetry install --with dev'
                     // sh 'poetry run which ingest'
+
                     sh 'pip install .'
                 }
             }
@@ -40,10 +41,7 @@ pipeline {
         stage('download') {
             steps {
                 sh '''
-                    mkdir data || true
-                    gsutil -q -m cp -r gs://monarch-ingest-data-cache/* data/
-                    ls -lafs
-                    ls -la data
+                ingest download --all --write-metadata
                 '''
             }
         }
