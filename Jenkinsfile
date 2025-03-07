@@ -2,7 +2,7 @@ pipeline {
     agent {
         docker {
             reuseNode false
-            image 'caufieldjh/kg-hub-3_10:2'
+            image 'caufieldjh/kg-hub-3_10:3'
         }
     }
     environment {
@@ -32,13 +32,10 @@ pipeline {
                     sh 'python3 --version'
                     sh 'pip --version'
 
-                    sh 'curl -sSL https://install.python-poetry.org | python3 -'
-
+                    sh 'which poetry'
                     sh 'poetry --version'
                     sh 'poetry install --with dev'
                     sh 'poetry run which ingest'
-
-                    // sh 'pip install .'
                 }
             }
         }
@@ -58,8 +55,7 @@ pipeline {
         }
         stage('transform') {
             steps {
-                // sh 'poetry run ingest transform --all --log --rdf --write-metadata'
-                sh 'ingest transform --all --log --rdf --write-metadata'
+                sh 'poetry run ingest transform --all --log --rdf --write-metadata'
                 sh '''
                    sed -i.bak 's@\r@@g' output/transform_output/*.tsv
                    rm output/transform_output/*.bak
@@ -74,20 +70,17 @@ pipeline {
         }
         stage('merge') {
             steps {
-                // sh 'poetry run ingest merge'
-                sh 'ingest merge'
+                sh 'poetry run ingest merge'
             }
         }
         stage('upload files') {
             steps {
-                // sh 'poetry run ingest release --kghub'
-                sh 'ingest release --kghub'
+                sh 'poetry run ingest release --kghub'
             }
         }
         stage('create github release') {
             steps {
-                // sh 'poetry run python scripts/create_github_release.py --kg-version ${RELEASE}'
-                sh 'python scripts/create_github_release.py --kg-version ${RELEASE}'
+                sh 'poetry run python scripts/create_github_release.py --kg-version ${RELEASE}'
             }
         }
     }
