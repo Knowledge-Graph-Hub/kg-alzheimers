@@ -34,6 +34,7 @@ pipeline {
 
                     sh 'which poetry'
                     sh 'poetry --version'
+                    sh 'poetry config virtualenvs.in-project true'
                     sh 'poetry install --with dev'
                     sh 'poetry run which ingest'
                 }
