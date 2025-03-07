@@ -9,8 +9,8 @@ pipeline {
         HOME = "${env.WORKSPACE}"
         RELEASE = sh(script: "echo `date +%Y-%m-%d`", returnStdout: true).trim()
         BUILD_TIMESTAMP = sh(script: "echo `date +%s`", returnStdout: true).trim()
-        PATH = "/opt/poetry/bin:${env.PATH}"
-        POETRY_CACHE_DIR="/var/cache/pypoetry"
+        PATH = "/usr/local/bin/:${env.PATH}"
+        // POETRY_CACHE_DIR="/var/cache/pypoetry"
         // AWS_ACCESS_KEY_ID = credentials('AWS_ACCESS_KEY_ID')
         // AWS_SECRET_ACCESS_KEY = credentials('AWS_SECRET_ACCESS_KEY')
         // GH_RELEASE_TOKEN = credentials('GH_RELEASE_TOKEN')
