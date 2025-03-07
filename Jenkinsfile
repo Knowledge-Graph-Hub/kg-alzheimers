@@ -10,6 +10,8 @@ pipeline {
         RELEASE = sh(script: "echo `date +%Y-%m-%d`", returnStdout: true).trim()
         BUILD_TIMESTAMP = sh(script: "echo `date +%s`", returnStdout: true).trim()
         PATH = "/opt/poetry/bin:${env.PATH}"
+        POETRY_CACHE_DIR="/var/cache/pypoetry"
+        POETRY_HOME="/usr/local"
         // AWS_ACCESS_KEY_ID = credentials('AWS_ACCESS_KEY_ID')
         // AWS_SECRET_ACCESS_KEY = credentials('AWS_SECRET_ACCESS_KEY')
         // GH_RELEASE_TOKEN = credentials('GH_RELEASE_TOKEN')
@@ -30,18 +32,21 @@ pipeline {
                     sh 'echo "Path: $PATH"'
                     sh 'python3 --version'
                     sh 'pip --version'
-                    // sh 'poetry --version'
-                    // sh 'poetry install --with dev'
-                    // sh 'poetry run which ingest'
 
-                    sh 'pip install .'
+                    sh 'curl -sSL https://install.python-poetry.org | python3 -'
+
+                    sh 'poetry --version'
+                    sh 'poetry install --with dev'
+                    sh 'poetry run which ingest'
+
+                    // sh 'pip install .'
                 }
             }
         }
         stage('download') {
             steps {
                 sh '''
-                ingest download --all --write-metadata
+                poetry run ingest download --all --write-metadata
                 '''
             }
         }
