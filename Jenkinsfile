@@ -35,8 +35,7 @@ pipeline {
                     sh 'which poetry'
                     sh 'poetry --version'
                     sh 'poetry config virtualenvs.in-project true'
-                    sh 'ping -c 2 pypi.org'
-                    sh 'poetry install'
+                    sh 'poetry -v install'
                     sh 'poetry run which ingest'
                 }
             }
