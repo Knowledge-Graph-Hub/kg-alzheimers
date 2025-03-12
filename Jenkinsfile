@@ -2,7 +2,7 @@ pipeline {
     agent {
         docker {
             reuseNode false
-            image 'caufieldjh/kg-hub-3_10:3'
+            image 'caufieldjh/kg-hub-3_10:4'
         }
     }
     environment {
