@@ -37,6 +37,7 @@ pipeline {
 
                     sh 'which poetry'
                     sh 'poetry --version'
+                    sh 'poetry config cache-dir'
                     sh 'poetry config virtualenvs.in-project true'
                     sh 'poetry -v install'
                     sh 'poetry run which ingest'
