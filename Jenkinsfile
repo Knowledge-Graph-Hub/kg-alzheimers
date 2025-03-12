@@ -46,46 +46,54 @@ pipeline {
         }
         stage('download') {
             steps {
-                sh '''
-                poetry run ingest download --all --write-metadata
-                '''
+                dir('./gitrepo') {
+                    sh 'poetry run ingest download --all --write-metadata'
+                }
             }
         }
         stage('post-process') {
             steps {
-                sh '''
-                    scripts/after_download.sh
-                '''
+                dir('./gitrepo') {
+                    sh 'scripts/after_download.sh'
+                }
             }
         }
         stage('transform') {
             steps {
-                sh 'poetry run ingest transform --all --log --rdf --write-metadata'
-                sh '''
-                   sed -i.bak 's@\r@@g' output/transform_output/*.tsv
-                   rm output/transform_output/*.bak
-                '''
-                sh '''
-                  gunzip output/rdf/*.gz
-                  sed -i.bak 's@\\r@@g' output/rdf/*.nt
-                  rm output/rdf/*.bak
-                  gzip output/rdf/*.nt
-                '''
+                dir('./gitrepo') {
+                    sh 'poetry run ingest transform --all --log --rdf --write-metadata'
+                    sh '''
+                    sed -i.bak 's@\r@@g' output/transform_output/*.tsv
+                    rm output/transform_output/*.bak
+                    '''
+                    sh '''
+                    gunzip output/rdf/*.gz
+                    sed -i.bak 's@\\r@@g' output/rdf/*.nt
+                    rm output/rdf/*.bak
+                    gzip output/rdf/*.nt
+                    '''
+                }
             }
         }
         stage('merge') {
             steps {
-                sh 'poetry run ingest merge'
+                dir('./gitrepo') {
+                    sh 'poetry run ingest merge'
+                }
             }
         }
         stage('upload files') {
             steps {
-                sh 'poetry run ingest release --kghub'
+                dir('./gitrepo') {
+                    sh 'poetry run ingest release --kghub'
+                }
             }
         }
         stage('create github release') {
             steps {
-                sh 'poetry run python scripts/create_github_release.py --kg-version ${RELEASE}'
+                dir('./gitrepo') {
+                    sh 'poetry run python scripts/create_github_release.py --kg-version ${RELEASE}'
+                }
             }
         }
     }
