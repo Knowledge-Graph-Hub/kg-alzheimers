@@ -32,6 +32,9 @@ pipeline {
                     sh 'python3 --version'
                     sh 'pip --version'
 
+                    sh 'id'
+                    sh 'whoami' //should be jenkinsuser
+
                     sh 'which poetry'
                     sh 'poetry --version'
                     sh 'poetry config virtualenvs.in-project true'
