@@ -177,11 +177,10 @@ def prepare_release():
 
 @typer_app.command()
 def release(
-    dir: str = typer.Option(f"{OUTPUT_DIR}", help="Directory with kg to be released"),
-    kghub: bool = typer.Option(False, help="Also release to kghub S3 bucket"),
+    dir: str = typer.Option(f"{OUTPUT_DIR}", help="Directory with kg to be released")
 ):
     """Copy data to Monarch GCP data buckets"""
-    do_release(dir, kghub)
+    do_release(dir)
 
 
 #######################################################
