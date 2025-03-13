@@ -85,7 +85,7 @@ pipeline {
         stage('upload files') {
             steps {
                 dir('./gitrepo') {
-                    sh 'poetry run ingest release --kghub'
+                    sh 'poetry run ingest release'
                 }
             }
         }
