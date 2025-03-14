@@ -11,9 +11,10 @@ pipeline {
         BUILD_TIMESTAMP = sh(script: "echo `date +%s`", returnStdout: true).trim()
         PATH = "/usr/local/bin/:${env.PATH}"
         POETRY_CACHE_DIR="~/.cache/pypoetry"
-        AWS_ACCESS_KEY_ID = credentials('AWS_ACCESS_KEY_ID')
-        AWS_SECRET_ACCESS_KEY = credentials('AWS_SECRET_ACCESS_KEY')
-        AWS_CLOUDFRONT_DISTRIBUTION_ID = credentials('AWS_CLOUDFRONT_DISTRIBUTION_ID')
+        // AWS credentials are handled in the withCredentials block in the upload stage
+        // AWS_ACCESS_KEY_ID = credentials('AWS_ACCESS_KEY_ID')
+        // AWS_SECRET_ACCESS_KEY = credentials('AWS_SECRET_ACCESS_KEY')
+        // AWS_CLOUDFRONT_DISTRIBUTION_ID = credentials('AWS_CLOUDFRONT_DISTRIBUTION_ID')
         // Comment out until the credential is set up in Jenkins
         // GH_RELEASE_TOKEN = credentials('GH_RELEASE_TOKEN')
     }
@@ -137,7 +138,8 @@ pipeline {
                                 echo "[preview]" > ./awscli_config.txt
                                 echo "cloudfront=true" >> ./awscli_config.txt
                             '''
-                            sh "AWS_CONFIG_FILE=./awscli_config.txt aws cloudfront create-invalidation --distribution-id \$AWS_CLOUDFRONT_DISTRIBUTION_ID --paths \"/*\""
+                            echo "Skipping CloudFront invalidation until AWS_CLOUDFRONT_DISTRIBUTION_ID credential is set up"
+                            // sh "AWS_CONFIG_FILE=./awscli_config.txt aws cloudfront create-invalidation --distribution-id \$AWS_CLOUDFRONT_DISTRIBUTION_ID --paths \"/*\""
                         }
 
                         // Clean up files
