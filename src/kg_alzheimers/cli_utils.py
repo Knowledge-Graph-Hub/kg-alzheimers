@@ -515,48 +515,4 @@ def do_prepare_release(dir: str = OUTPUT_DIR):
     os.remove("output/kg-alzheimers_edges.jsonl")
 
 
-def do_release(dir: str = OUTPUT_DIR):
-
-    # ensure that files that should be compressed are
-
-    with open(f"{dir}/metadata.yaml", "r") as f:
-        versions = yaml.load(f, Loader=yaml.FullLoader)
-
-    release_ver = versions["kg-version"]
-
-    logger = get_logger()
-    logger.info(f"Creating dated release: {release_ver}...")
-
-    try:
-        # index and upload to kghub s3 bucket
-        kghub_release_ver = str(release_ver).replace("-", "")
-        logger.info(f"Uploading to kghub: {kghub_release_ver}...")
-
-        # index files locally and upload to s3
-        sh.multi_indexer(
-            *f"-v --directory {dir} --prefix https://kghub.io/kg-alzheimers/{kghub_release_ver} -x -u".split(" ")
-        )
-        kg_hub_files = f"{dir}/kg-alzheimers.tar.gz {dir}/rdf/ {dir}/merged_graph_stats.yaml"
-        sh.gsutil(
-            *f"-q -m cp -r -a public-read {kg_hub_files} s3://kg-hub-public-data/kg-/{kghub_release_ver}".split(
-                " "
-            )
-        )
-        sh.gsutil(
-            *f"-q -m cp -r -a public-read {kg_hub_files} s3://kg-hub-public-data/kg-alzheimers/current".split(" ")
-        )
-        # index files on s3 after upload
-        sh.multi_indexer(
-            *f"-v --prefix https://kghub.io/kg-monarch/ -b kg-hub-public-data -r kg-alzheimers -x".split(" ")
-        )
-        sh.gsutil(*f"-q -m cp -a public-read ./index.html s3://kg-hub-public-data/kg-alzheimers".split(" "))
-
-        logger.debug("Cleaning up files...")
-        sh.rm(f"output/{release_ver}")
-
-        logger.info(f"Successfuly uploaded release!")
-    except BaseException as e:
-        exc_type, exc_obj, exc_tb = sys.exc_info()
-        fname = os.path.split(exc_tb.tb_frame.f_code.co_filename)[1]
-        logger.error(f"Oh no! Something went wrong:\n{fname}:{exc_tb.tb_lineno} - {exc_type} - {exc_obj}")
-        logger.error(f"Traceback: \n{e.stderr}")
+# do_release function has been moved to Jenkinsfile

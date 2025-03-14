@@ -85,7 +85,47 @@ pipeline {
         stage('upload files') {
             steps {
                 dir('./gitrepo') {
-                    sh 'poetry run ingest release'
+                    sh '''
+                    # Extract release version from metadata.yaml
+                    release_ver=$(grep "kg-version" output/metadata.yaml | cut -d' ' -f2)
+                    echo "Creating dated release: ${release_ver}..."
+                    
+                    # Ensure the files that should be compressed are
+                    if [ ! -f output/kg-alzheimers.duckdb.gz ] && [ -f output/kg-alzheimers.duckdb ]; then
+                        pigz -f output/kg-alzheimers.duckdb
+                    fi
+                    
+                    if [ ! -f output/kg-alzheimers-denormalized-edges.tsv.gz ] && [ -f output/kg-alzheimers-denormalized-edges.tsv ]; then
+                        pigz -f output/kg-alzheimers-denormalized-edges.tsv
+                    fi
+                    
+                    if [ ! -f output/kg-alzheimers-denormalized-nodes.tsv.gz ] && [ -f output/kg-alzheimers-denormalized-nodes.tsv ]; then
+                        pigz -f output/kg-alzheimers-denormalized-nodes.tsv
+                    fi
+                    
+                    # Convert the release version for kghub (remove hyphens)
+                    kghub_release_ver=$(echo ${release_ver} | tr -d '-')
+                    echo "Uploading to kghub: ${kghub_release_ver}..."
+                    
+                    # Index files locally and upload to s3
+                    multi_indexer -v --directory output --prefix https://kghub.io/kg-alzheimers/${kghub_release_ver} -x -u
+                    
+                    kg_hub_files="output/kg-alzheimers.tar.gz output/rdf/ output/merged_graph_stats.yaml"
+                    gsutil -q -m cp -r -a public-read ${kg_hub_files} s3://kg-hub-public-data/kg-alzheimers/${kghub_release_ver}
+                    gsutil -q -m cp -r -a public-read ${kg_hub_files} s3://kg-hub-public-data/kg-alzheimers/current
+                    
+                    # Index files on s3 after upload
+                    multi_indexer -v --prefix https://kghub.io/kg-monarch/ -b kg-hub-public-data -r kg-alzheimers -x
+                    gsutil -q -m cp -a public-read ./index.html s3://kg-hub-public-data/kg-alzheimers
+                    
+                    # Clean up files
+                    echo "Cleaning up files..."
+                    if [ -d "output/${release_ver}" ]; then
+                        rm -rf output/${release_ver}
+                    fi
+                    
+                    echo "Successfully uploaded release!"
+                    '''
                 }
             }
         }
