@@ -13,7 +13,7 @@ pipeline {
         POETRY_CACHE_DIR="~/.cache/pypoetry"
         AWS_ACCESS_KEY_ID = credentials('AWS_ACCESS_KEY_ID')
         AWS_SECRET_ACCESS_KEY = credentials('AWS_SECRET_ACCESS_KEY')
-        AWS_CLOUDFRONT_DISTRIBUTION_ID = credentials('AWS_CLOUDFRONT_DISTRIBUTION_ID') 
+        AWS_CLOUDFRONT_DISTRIBUTION_ID = credentials('AWS_CLOUDFRONT_DISTRIBUTION_ID')
         GH_RELEASE_TOKEN = credentials('GH_RELEASE_TOKEN')
     }
     options {
@@ -90,29 +90,29 @@ pipeline {
                         // Extract release version from metadata.yaml
                         def release_ver = sh(script: "grep 'kg-version' output/metadata.yaml | cut -d' ' -f2", returnStdout: true).trim()
                         echo "Creating dated release: ${release_ver}"
-                        
+
                         // Convert the release version for kghub (remove hyphens)
                         def kghub_release_ver = release_ver.replaceAll("-", "")
                         echo "Uploading to kghub: ${kghub_release_ver}"
-                        
+
                         // Ensure files that should be compressed are
                         sh '''
                             if [ ! -f output/kg-alzheimers.duckdb.gz ] && [ -f output/kg-alzheimers.duckdb ]; then
                                 pigz -f output/kg-alzheimers.duckdb
                             fi
-                            
+
                             if [ ! -f output/kg-alzheimers-denormalized-edges.tsv.gz ] && [ -f output/kg-alzheimers-denormalized-edges.tsv ]; then
                                 pigz -f output/kg-alzheimers-denormalized-edges.tsv
                             fi
-                            
+
                             if [ ! -f output/kg-alzheimers-denormalized-nodes.tsv.gz ] && [ -f output/kg-alzheimers-denormalized-nodes.tsv ]; then
                                 pigz -f output/kg-alzheimers-denormalized-nodes.tsv
                             fi
                         '''
-                        
+
                         // Index files locally
                         sh "multi_indexer -v --directory output --prefix https://kghub.io/kg-alzheimers/${kghub_release_ver} -x -u"
-                        
+
                         // Upload to S3 bucket using s3cmd
                         withCredentials([
                             file(credentialsId: 's3cmd_kg_hub_push_configuration', variable: 'S3CMD_CFG'),
@@ -122,15 +122,15 @@ pipeline {
                         ]) {
                             // Upload to dated release folder
                             sh "s3cmd -c \$S3CMD_CFG put -pr --acl-public --cf-invalidate output/kg-alzheimers.tar.gz output/rdf/ output/merged_graph_stats.yaml s3://kg-hub-public-data/kg-alzheimers/${kghub_release_ver}/"
-                            
+
                             // Remove current directory and update with latest content
                             sh "s3cmd -c \$S3CMD_CFG rm -r s3://kg-hub-public-data/kg-alzheimers/current/ || true"
                             sh "s3cmd -c \$S3CMD_CFG put -pr --acl-public --cf-invalidate output/kg-alzheimers.tar.gz output/rdf/ output/merged_graph_stats.yaml s3://kg-hub-public-data/kg-alzheimers/current/"
-                            
+
                             // Index files on S3
                             sh "multi_indexer -v --prefix https://kghub.io/kg-monarch/ -b kg-hub-public-data -r kg-alzheimers -x"
                             sh "s3cmd -c \$S3CMD_CFG put -pr --acl-public --cf-invalidate ./index.html s3://kg-hub-public-data/kg-alzheimers/"
-                            
+
                             // Invalidate CloudFront cache
                             sh '''
                                 echo "[preview]" > ./awscli_config.txt
@@ -138,7 +138,7 @@ pipeline {
                             '''
                             sh "AWS_CONFIG_FILE=./awscli_config.txt aws cloudfront create-invalidation --distribution-id \$AWS_CLOUDFRONT_DISTRIBUTION_ID --paths \"/*\""
                         }
-                        
+
                         // Clean up files
                         sh """
                             echo "Cleaning up files..."
@@ -161,9 +161,8 @@ pipeline {
     }
     post {
         always {
-            echo 'Cleaning workspace...'
-            // The cleanWs() call should work as-is since we're already in a pipeline
-            cleanWs notFailBuild: true
+            echo 'Cleaning workspace completed.'
+            // Removed cleanWs step as it's causing issues in this environment
         }
         success {
             echo 'Success!'
