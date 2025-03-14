@@ -162,7 +162,10 @@ pipeline {
     post {
         always {
             echo 'Cleaning workspace...'
-            cleanWs()
+            // Wrap cleanWs in a node block to provide proper context
+            node {
+                cleanWs()
+            }
         }
         success {
             echo 'Success!'
