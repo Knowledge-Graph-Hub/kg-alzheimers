@@ -14,7 +14,8 @@ pipeline {
         AWS_ACCESS_KEY_ID = credentials('AWS_ACCESS_KEY_ID')
         AWS_SECRET_ACCESS_KEY = credentials('AWS_SECRET_ACCESS_KEY')
         AWS_CLOUDFRONT_DISTRIBUTION_ID = credentials('AWS_CLOUDFRONT_DISTRIBUTION_ID')
-        GH_RELEASE_TOKEN = credentials('GH_RELEASE_TOKEN')
+        // Comment out until the credential is set up in Jenkins
+        // GH_RELEASE_TOKEN = credentials('GH_RELEASE_TOKEN')
     }
     options {
         timestamps()
@@ -154,7 +155,8 @@ pipeline {
         stage('create github release') {
             steps {
                 dir('./gitrepo') {
-                    sh 'poetry run python scripts/create_github_release.py --kg-version ${RELEASE}'
+                    echo 'Skipping GitHub release creation until GH_RELEASE_TOKEN credential is set up'
+                    // sh 'poetry run python scripts/create_github_release.py --kg-version ${RELEASE}'
                 }
             }
         }
