@@ -130,7 +130,7 @@ pipeline {
                             sh "s3cmd -c \$S3CMD_CFG put -pr --acl-public --cf-invalidate output/kg-alzheimers.tar.gz output/rdf/ output/merged_graph_stats.yaml s3://kg-hub-public-data/kg-alzheimers/current/"
 
                             // Index files on S3
-                            sh "multi_indexer -v --prefix https://kghub.io/kg-monarch/ -b kg-hub-public-data -r kg-alzheimers -x"
+                            sh "multi_indexer -v --prefix https://kghub.io/kg-alzheimers/ -b kg-hub-public-data -r kg-alzheimers -x"
                             sh "s3cmd -c \$S3CMD_CFG put -pr --acl-public --cf-invalidate ./index.html s3://kg-hub-public-data/kg-alzheimers/"
 
                             // Invalidate CloudFront cache

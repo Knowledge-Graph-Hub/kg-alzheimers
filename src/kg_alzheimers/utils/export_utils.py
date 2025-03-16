@@ -67,7 +67,7 @@ def export(
     config_file: str = "./src/kg_alzheimers/data-dump-config.yaml",
     output_dir: str = "./output/tsv/",
     output_format: OutputType = OutputType.tsv,
-    database_file='output/monarch-kg.duckdb',
+    database_file='output/kg-alzheimers.duckdb',
 ):
 
     if output_format not in OUTPUT_TYPES:
@@ -78,7 +78,7 @@ def export(
             with open(database_file, 'wb') as f_out:
                 f_out.write(f_in.read())
 
-    database = duckdb.connect('output/monarch-kg.duckdb')
+    database = duckdb.connect('output/kg-alzheimers.duckdb')
     dir_path = Path(output_dir)
 
     # Fetch all associations

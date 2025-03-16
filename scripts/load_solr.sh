@@ -6,12 +6,12 @@ set -e
 docker stop my_solr || true
 docker rm my_solr || true
 
-if test -f "output/monarch-kg-denormalized-edges.tsv.gz"; then
-    gunzip --force output/monarch-kg-denormalized-edges.tsv.gz
+if test -f "output/kg-alzheimers-denormalized-edges.tsv.gz"; then
+    gunzip --force output/kg-alzheimers-denormalized-edges.tsv.gz
 fi
 
-if test -f "output/monarch-kg-denormalized-nodes.tsv.gz"; then
-    gunzip --force output/monarch-kg-denormalized-nodes.tsv.gz
+if test -f "output/kg-alzheimers-denormalized-nodes.tsv.gz"; then
+    gunzip --force output/kg-alzheimers-denormalized-nodes.tsv.gz
 fi
 
 echo "Download the schema from monarch-py"
@@ -68,10 +68,10 @@ poetry run lsolr bulkload -C sssom -s model.yaml headless.gene_mappings.sssom.ts
 poetry run lsolr bulkload -C sssom -s model.yaml headless.mesh_chebi_biomappings.sssom.tsv
 
 echo "Loading entities"
-poetry run lsolr bulkload -C entity -s model.yaml output/monarch-kg-denormalized-nodes.tsv
+poetry run lsolr bulkload -C entity -s model.yaml output/kg-alzheimers-denormalized-nodes.tsv
 
 echo "Loading associations"
-poetry run lsolr bulkload -C association -s model.yaml --processor frequency_update_processor output/monarch-kg-denormalized-edges.tsv
+poetry run lsolr bulkload -C association -s model.yaml --processor frequency_update_processor output/kg-alzheimers-denormalized-edges.tsv
 curl "http://localhost:8983/solr/association/select?q=*:*"
 
 mkdir solr-data || true
