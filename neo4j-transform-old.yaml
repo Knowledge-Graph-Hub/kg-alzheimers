@@ -3,13 +3,13 @@ configuration:
   checkpoint: false
 transform:
   source:
-    monarch-kg:
+    kg-alzheimers:
       input:
         name: "Monarch KG"
         format: tsv
         compression: tar.gz
         filename:
-          - output/monarch-kg.tar.gz
+          - output/kg-alzheimers.tar.gz
       output:
         format: neo4j
         uri: http://localhost:7474
