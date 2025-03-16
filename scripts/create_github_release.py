@@ -7,9 +7,8 @@ from pathlib import Path
 DIR = Path(__file__).parent.parent / "output"
 GH_TOKEN = os.environ["GH_RELEASE_TOKEN"]
 UPLOAD_FILES = [
-    "monarch-kg.tar.gz",
+    "kg-alzheimers.tar.gz",
     "merged_graph_stats.yaml",
-    "monarch-kg-denormalized-edges.tsv.gz",
     "qc_report.yaml",
     "metadata.yaml",
 ]
@@ -18,7 +17,7 @@ UPLOAD_FILES = [
 def create_release(kg_version: str):
     print(f"Creating release for {kg_version}")
     response = requests.post(
-        url="https://api.github.com/repos/monarch-initiative/monarch-ingest/releases",
+        url="https://api.github.com/Knowledge-Graph-Hub/kg-alzheimers/releases",
         headers={
             "Accept": "application/vnd.github+json",
             "Authorization": f"Bearer {GH_TOKEN}",
@@ -48,7 +47,7 @@ def upload_assets(kg_version: str, release_id: str, files: list):
         print(f"Uploading {file} as {upload_name}...")
         with open(f"{DIR}/{file}", "rb") as f:
             response = requests.post(
-                url=f"https://uploads.github.com/repos/monarch-initiative/monarch-ingest/releases/{release_id}/assets?name={upload_name}",
+                url=f"https://uploads.github.com/Knowledge-Graph-Hub/kg-alzheimers/releases/{release_id}/assets?name={upload_name}",
                 headers={
                     "Accept": "application/vnd.github+json",
                     "Authorization": f"Bearer {GH_TOKEN}",

@@ -6,7 +6,6 @@ from kghub_downloader.download_utils import download_from_yaml
 from kg_alzheimers.cli_utils import (
     apply_closure,
     do_prepare_release,
-    do_release,
     export_tsv,
     create_qc_reports,
     get_data_versions,
@@ -177,11 +176,11 @@ def prepare_release():
 
 @typer_app.command()
 def release(
-    dir: str = typer.Option(f"{OUTPUT_DIR}", help="Directory with kg to be released"),
-    kghub: bool = typer.Option(False, help="Also release to kghub S3 bucket"),
+    dir: str = typer.Option(f"{OUTPUT_DIR}", help="Directory with kg to be released")
 ):
     """Copy data to Monarch GCP data buckets"""
-    do_release(dir, kghub)
+    print("The release command functionality has been moved to the Jenkinsfile.")
+    print("This command is deprecated and will be removed in a future version.")
 
 
 #######################################################

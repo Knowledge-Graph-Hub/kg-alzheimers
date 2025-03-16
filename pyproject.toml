@@ -1,6 +1,6 @@
 [tool.poetry]
 name = "kg-alzheimers"
-version = "0.8.0"
+version = "0.0.1"
 description = ""
 authors = [
     "Justin Reese <justinreese@lbl.gov>",
