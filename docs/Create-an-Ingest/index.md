@@ -9,9 +9,9 @@
     With 2 post-processing steps:
 
     - Merging the output into a KGX knowledge graph
-    - Releasing the result to the Monarch Initiative Google Cloud bucket
+    - Releasing the result to the KG-Alzheimers S3 bucket
 
-**Let's go through the process for running an existing monarch ingest!**
+**Let's go through the process for running an existing KG-Alzheimers ingest!**
 
 !!! list ""
     **Step 1. Download**

@@ -1,7 +1,7 @@
-site_name: 'Monarch Ingest Documentation'
-site_url: 'https://monarch-initiative.github.io/monarch-ingest/'
-repo_name: 'monarch-initiative/monarch-ingest'
-repo_url: 'https://github.com/monarch-initiative/monarch-ingest'
+site_name: 'KG-Alzheimers Documentation'
+site_url: 'https://Knowledge-Graph-Hub.github.io/kg-alzheimers/'
+repo_name: 'Knowledge-Graph-Hub/kg-alzheimers'
+repo_url: 'https://github.com/Knowledge-Graph-Hub/kg-alzheimers'
 
 
 nav:
@@ -93,7 +93,7 @@ markdown_extensions:
 extra:
   social:
     - icon: 'fontawesome/solid/house'
-      link: 'https://monarchinitiative.org'
+      link: 'https://kghub.io'
     - icon: 'fontawesome/brands/github-alt'
-      link: 'https://github.com/monarch-initiative'
+      link: 'https://github.com/Knowledge-Graph-Hub'
 

@@ -1,19 +1,17 @@
-# Monarch Ingest
+# KG-Alzheimers
 
 ## Overview
 
-The Monarch Ingest generates [KGX](https://github.com/biolink/kgx/blob/master/specification/kgx-format.md) formatted files conforming to the [BioLink Model](https://biolink.github.io/biolink-model/) from a wide variety of biomedical data sources.
+KG-Alzheimers generates [KGX](https://github.com/biolink/kgx/blob/master/specification/kgx-format.md) formatted files conforming to the [BioLink Model](https://biolink.github.io/biolink-model/) from a wide variety of biomedical data sources focused on Alzheimer's disease.
 
-The eventual output of the Monarch Ingest process is the **Monarch KG**.  
-The latest version of this can be found at [data.monarchinitiative.org](https://data.monarchinitiative.org/monarch-kg-dev/latest/monarch-kg.tar.gz)
+The eventual output of the KG-Alzheimers process is the **Alzheimer's Knowledge Graph**.  
+The latest version can be found at [kghub.io](https://kghub.io/kg-alzheimers/current/).
 
-See also the folder [monarch-kg-dev/latest](https://data.monarchinitiative.org/monarch-kg-dev/latest/)
-
-Monarch Ingest is built using [Poetry](https://python-poetry.org), which will create its own virtual environment. 
+KG-Alzheimers is built using [Poetry](https://python-poetry.org), which will create its own virtual environment.
 
 ## Installation
 
-monarch-ingest is a Python 3.8+ package, installable via [Poetry](https://python-poetry.org).  
+kg-alzheimers is a Python 3.8+ package, installable via [Poetry](https://python-poetry.org).  
 
 1. <a href="https://python-poetry.org/docs/" target="_blank">Install Poetry</a>, if you don't already have it:  
 ```bash
@@ -25,12 +23,12 @@ poetry config virtualenvs.in-project true
 
 1. Clone the repo and build the code:
 ```bash
-git clone git@github.com/monarch-initiative/monarch-ingest
+git clone git@github.com:Knowledge-Graph-Hub/kg-alzheimers.git
 ```
 
-1. Install monarch-ingest:
+1. Install kg-alzheimers:
 ```bash
-cd monarch-ingest
+cd kg-alzheimers
 poetry install
 ```
 
@@ -62,7 +60,7 @@ CLI usage is available in the [CLI tab](CLI.md), gcor by running `ingest --help`
     ingest merge
     ```
 
-    - Upload the results to the Monarch Ingest Google bucket
+    - Upload the results to the KG-Alzheimers S3 bucket
     ```bash
     ingest release
     ```
