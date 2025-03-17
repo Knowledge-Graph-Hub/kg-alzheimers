@@ -111,7 +111,7 @@ $ ingest prepare-release [OPTIONS]
 
 ## `ingest release`
 
-Copy data to Monarch GCP data buckets
+Copy data to KG-Alzheimers S3 bucket
 
 **Usage**:
 
@@ -122,12 +122,11 @@ $ ingest release [OPTIONS]
 **Options**:
 
 * `--dir TEXT`: Directory with kg to be released  [default: output]
-* `--kghub / --no-kghub`: Also release to kghub S3 bucket  [default: no-kghub]
 * `--help`: Show this message and exit.
 
 ## `ingest report`
 
-Run Koza QC on specified Monarch ingests
+Run Koza QC on specified KG-Alzheimers ingests
 
 **Usage**:
 
@@ -165,7 +164,7 @@ $ ingest sqlite [OPTIONS]
 
 ## `ingest transform`
 
-Run Koza transformation on specified Monarch ingests
+Run Koza transformation on specified KG-Alzheimers ingests
 
 **Usage**:
 
