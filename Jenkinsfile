@@ -123,7 +123,7 @@ pipeline {
                             string(credentialsId: 'aws_kg_hub_secret_key', variable: 'AWS_SECRET_ACCESS_KEY')
                         ]) {
                             // Upload to dated release folder
-                            sh "s3cmd -c \$S3CMD_CFG put -pr --acl-public --cf-invalidate output/kg-alzheimers.tar.gz output/rdf/ output/merged_graph_stats.yaml s3://kg-hub-public-data/kg-alzheimers/${kghub_release_ver}/"
+                            sh "s3cmd -c \$S3CMD_CFG put -pr --acl-public --cf-invalidate output/kg-alzheimers.tar.gz output/merged_graph_stats.yaml s3://kg-hub-public-data/kg-alzheimers/${kghub_release_ver}/"
 
                             // Remove current directory and update with latest content
                             sh "s3cmd -c \$S3CMD_CFG rm -r s3://kg-hub-public-data/kg-alzheimers/current/ || true"
