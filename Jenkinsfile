@@ -127,7 +127,7 @@ pipeline {
 
                             // Remove current directory and update with latest content
                             sh "s3cmd -c \$S3CMD_CFG rm -r s3://kg-hub-public-data/kg-alzheimers/current/ || true"
-                            sh "s3cmd -c \$S3CMD_CFG put -pr --acl-public --cf-invalidate output/kg-alzheimers.tar.gz output/rdf/ output/merged_graph_stats.yaml s3://kg-hub-public-data/kg-alzheimers/current/"
+                            sh "s3cmd -c \$S3CMD_CFG put -pr --acl-public --cf-invalidate output/kg-alzheimers.tar.gz output/merged_graph_stats.yaml s3://kg-hub-public-data/kg-alzheimers/current/"
 
                             // Index files on S3
                             sh "multi_indexer -v --prefix https://kghub.io/kg-alzheimers/ -b kg-hub-public-data -r kg-alzheimers -x"
