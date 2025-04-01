@@ -177,8 +177,14 @@ def main():
         else:
             writer.writerow(["subject", "predicate", "object"])
 
+    # Set to track unique edges
+    unique_edges = set()
+    duplicate_count = 0
+
     # Process edges file
     count = 0
+    written_count = 0
+
     with open(edges_file, 'r') as f_in, open(output_file, 'a', newline='') as f_out:
         reader = csv.reader(f_in, delimiter='\t')
         writer = csv.writer(f_out, delimiter='\t')
@@ -187,6 +193,8 @@ def main():
         for row in reader:
             if debug_limit > 0 and count >= debug_limit:
                 break
+
+            count += 1  # Increment before possible continue to correctly count processed edges
 
             if len(row) > max(subject_col_idx, predicate_col_idx, object_col_idx):
                 subject_id = row[subject_col_idx]
@@ -214,18 +222,28 @@ def main():
                 # Humanize predicate
                 predicate = humanize_predicate(predicate, id_to_name)
 
+                # Create output row based on whether source is available
                 if has_source and len(row) > source_col_idx:
                     source = row[source_col_idx]
                     source = humanize_source(source)
-                    writer.writerow(
-                        [subject_name, predicate, object_name, source])
+                    output_row = [subject_name, predicate, object_name, source]
                 else:
-                    writer.writerow([subject_name, predicate, object_name])
+                    output_row = [subject_name, predicate, object_name]
 
-            count += 1
+                # Check if this is a duplicate edge
+                edge_key = tuple(output_row)
+                if edge_key in unique_edges:
+                    duplicate_count += 1
+                    continue  # Skip writing this edge
+
+                # Add to set of unique edges and write to output
+                unique_edges.add(edge_key)
+                writer.writerow(output_row)
+                written_count += 1
 
     print(f"Processed {count} edges")
-    print(f"{limit_msg} humanized edges have been saved to {output_file}")
+    print(f"Found {duplicate_count} duplicate edges")
+    print(f"{written_count} unique humanized edges have been saved to {output_file}")
 
 
 if __name__ == "__main__":
