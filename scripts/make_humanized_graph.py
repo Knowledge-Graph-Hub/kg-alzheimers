@@ -38,14 +38,14 @@ def humanize_category(category):
     """Humanize a category by removing prefixes and formatting for display."""
     if not category:
         return ""
-        
+
     if ':' in category:
         category = category.split(':', 1)[1]
-    
+
     # Convert CamelCase to spaces (e.g., "GeneProduct" -> "Gene Product")
     import re
     category = re.sub(r'([a-z])([A-Z])', r'\1 \2', category).lower()
-    
+
     # Add article prefix
     if category[0].lower() in 'aeiou':
         return f"an {category}"
@@ -102,7 +102,8 @@ def main():
         print("Warning: Could not find 'category' column in nodes file")
         print("Node categories will not be included in the output")
 
-    print(f"In nodes file: ID column is {id_col_idx+1}, Name column is {name_col_idx+1}")
+    print(
+        f"In nodes file: ID column is {id_col_idx+1}, Name column is {name_col_idx+1}")
     if has_categories:
         print(f"Category column is {category_col_idx+1}")
 
@@ -137,7 +138,7 @@ def main():
     # Load node ID to name mapping and categories
     id_to_name = {}
     id_to_category = {}
-    
+
     with open(nodes_file, 'r') as f:
         reader = csv.reader(f, delimiter='\t')
         next(reader)  # Skip header
@@ -145,12 +146,12 @@ def main():
             if len(row) > max(id_col_idx, name_col_idx):
                 node_id = row[id_col_idx]
                 node_name = row[name_col_idx]
-                
+
                 # Get category if available
                 node_category = ""
                 if has_categories and len(row) > category_col_idx:
                     node_category = row[category_col_idx]
-                
+
                 if node_id:
                     id_to_name[node_id] = node_name
                     if node_category:
@@ -199,12 +200,14 @@ def main():
                 # Add category information if available
                 if has_categories:
                     if subject_id in id_to_category and id_to_category[subject_id]:
-                        humanized_category = humanize_category(id_to_category[subject_id])
+                        humanized_category = humanize_category(
+                            id_to_category[subject_id])
                         if humanized_category:
                             subject_name = f"{subject_name} ({humanized_category})"
-                    
+
                     if object_id in id_to_category and id_to_category[object_id]:
-                        humanized_category = humanize_category(id_to_category[object_id])
+                        humanized_category = humanize_category(
+                            id_to_category[object_id])
                         if humanized_category:
                             object_name = f"{object_name} ({humanized_category})"
 
