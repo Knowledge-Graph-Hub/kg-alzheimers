@@ -34,6 +34,25 @@ def humanize_source(source):
     return source
 
 
+def humanize_category(category):
+    """Humanize a category by removing prefixes and formatting for display."""
+    if not category:
+        return ""
+        
+    if ':' in category:
+        category = category.split(':', 1)[1]
+    
+    # Convert CamelCase to spaces (e.g., "GeneProduct" -> "Gene Product")
+    import re
+    category = re.sub(r'([a-z])([A-Z])', r'\1 \2', category).lower()
+    
+    # Add article prefix
+    if category[0].lower() in 'aeiou':
+        return f"an {category}"
+    else:
+        return f"a {category}"
+
+
 def main():
     # Parse debug limit if provided
     debug_limit = 0
@@ -69,6 +88,7 @@ def main():
 
     id_col_idx = find_column_index(nodes_header, "id")
     name_col_idx = find_column_index(nodes_header, "name")
+    category_col_idx = find_column_index(nodes_header, "category")
 
     if id_col_idx == -1:
         print("Error: Could not find 'id' column in nodes file")
@@ -77,8 +97,14 @@ def main():
         print("Error: Could not find 'name' column in nodes file")
         sys.exit(1)
 
-    print(
-        f"In nodes file: ID column is {id_col_idx+1}, Name column is {name_col_idx+1}")
+    has_categories = category_col_idx != -1
+    if not has_categories:
+        print("Warning: Could not find 'category' column in nodes file")
+        print("Node categories will not be included in the output")
+
+    print(f"In nodes file: ID column is {id_col_idx+1}, Name column is {name_col_idx+1}")
+    if has_categories:
+        print(f"Category column is {category_col_idx+1}")
 
     # Find column indices in edges file
     with open(edges_file, 'r') as f:
@@ -108,8 +134,10 @@ def main():
     if has_source:
         print(f"Knowledge source column is {source_col_idx+1}")
 
-    # Load node ID to name mapping
+    # Load node ID to name mapping and categories
     id_to_name = {}
+    id_to_category = {}
+    
     with open(nodes_file, 'r') as f:
         reader = csv.reader(f, delimiter='\t')
         next(reader)  # Skip header
@@ -117,10 +145,20 @@ def main():
             if len(row) > max(id_col_idx, name_col_idx):
                 node_id = row[id_col_idx]
                 node_name = row[name_col_idx]
+                
+                # Get category if available
+                node_category = ""
+                if has_categories and len(row) > category_col_idx:
+                    node_category = row[category_col_idx]
+                
                 if node_id:
                     id_to_name[node_id] = node_name
+                    if node_category:
+                        id_to_category[node_id] = node_category
 
     print(f"Loaded {len(id_to_name)} node mappings")
+    if has_categories:
+        print(f"Loaded {len(id_to_category)} node categories")
 
     # Show mode info
     if debug_limit > 0:
@@ -154,9 +192,21 @@ def main():
                 predicate = row[predicate_col_idx]
                 object_id = row[object_col_idx]
 
-                # Look up names
+                # Get basic names
                 subject_name = id_to_name.get(subject_id, subject_id)
                 object_name = id_to_name.get(object_id, object_id)
+
+                # Add category information if available
+                if has_categories:
+                    if subject_id in id_to_category and id_to_category[subject_id]:
+                        humanized_category = humanize_category(id_to_category[subject_id])
+                        if humanized_category:
+                            subject_name = f"{subject_name} ({humanized_category})"
+                    
+                    if object_id in id_to_category and id_to_category[object_id]:
+                        humanized_category = humanize_category(id_to_category[object_id])
+                        if humanized_category:
+                            object_name = f"{object_name} ({humanized_category})"
 
                 # Humanize predicate
                 predicate = humanize_predicate(predicate, id_to_name)
