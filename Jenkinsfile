@@ -86,6 +86,9 @@ pipeline {
             }
         }
         stage('upload files') {
+            when {
+                branch 'main'
+            }
             steps {
                 dir('./gitrepo') {
                     script {
@@ -155,6 +158,9 @@ pipeline {
             }
         }
         stage('create github release') {
+            when {
+                branch 'main'
+            }
             steps {
                 dir('./gitrepo') {
                     echo 'Skipping GitHub release creation until GH_RELEASE_TOKEN credential is set up'
