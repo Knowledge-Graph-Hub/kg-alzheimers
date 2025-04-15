@@ -22,6 +22,10 @@ pipeline {
         timestamps()
         disableConcurrentBuilds()
     }
+    triggers {
+        // Every 2 months on the 10th at 9 AM (Jan, Mar, May, Jul, Sep, Nov)
+        cron('0 9 10 1,3,5,7,9,11 *')
+    }
     stages {
         stage('setup') {
             steps {
