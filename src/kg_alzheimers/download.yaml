@@ -194,7 +194,9 @@
 
 ### Flybase
 -
-  url: http://ftp.flybase.org/releases/FB2021_05/precomputed_files/references/entity_publication_fb_2021_05.tsv.gz
+  # this seems to be down:
+  # http://ftp.flybase.org/releases/FB2021_05/precomputed_files/references/entity_publication_fb_2021_05.tsv.gz
+  url: http://kg-hub-public-data.s3.amazonaws.com/frozen_incoming_data/entity_publication_fb.tsv.gz
   local_name: data/flybase/entity_publication_fb.tsv.gz
   tag: flybase_publication_to_gene
 
@@ -235,7 +237,7 @@
   local_name: data/monarch/mondo.sssom.tsv
   tag: mapping
 
-- 
+-
   url: https://data.monarchinitiative.org/mappings/latest/mesh_chebi_biomappings.sssom.tsv
   local_name: data/monarch/mesh_chebi_biomappings.sssom.tsv
   tag: mapping
