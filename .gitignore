@@ -143,3 +143,4 @@ test-output/
 
 # Transform logs
 logs/
+.claude

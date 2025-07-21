@@ -39,6 +39,13 @@ linkml-runtime = "^1.7.5"
 # Remove this once cat-merge fixes its pandas dependency
 pandas = "2.0.3"
 closurizer = "0.7.2"
+# Optional dependencies for XML processing
+lxml = { version = "^4.9", optional = true }
+beautifulsoup4 = { version = "^4.12", optional = true }
+jupyter = "^1.1.1"
+
+[tool.poetry.extras]
+xml = ["lxml", "beautifulsoup4"]
 
 [tool.poetry.group.dev]
 optional = true
