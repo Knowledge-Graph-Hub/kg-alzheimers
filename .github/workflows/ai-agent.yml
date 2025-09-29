@@ -30,6 +30,7 @@ jobs:
         with:
           github-token: ${{ secrets.PAT_FOR_PR }}
           fallback-controllers: 'jtr4v'
+          mention-pattern: '@alzassistant\\s+(.*)'
 
   respond-to-mention:
     needs: check-mention
