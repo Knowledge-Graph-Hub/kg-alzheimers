@@ -21,7 +21,7 @@ $ ingest [OPTIONS] COMMAND [ARGS]...
 * `jsonl`
 * `merge`: Merge nodes and edges into kg
 * `prepare-release`
-* `release`: Copy data to Monarch GCP data buckets
+* `release`: Deprecated wrapper for legacy Monarch uploads
 * `report`: Run Koza QC on specified Monarch ingests
 * `solr`
 * `sqlite`
@@ -111,7 +111,8 @@ $ ingest prepare-release [OPTIONS]
 
 ## `ingest release`
 
-Copy data to KG-Alzheimers S3 bucket
+Deprecated wrapper for the historical release workflow; Jenkins now handles
+remote publication and this command only prints a deprecation notice.
 
 **Usage**:
 

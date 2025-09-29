@@ -40,9 +40,9 @@ poetry shell
 
 ## Usage
 
-For a detailed tutorial on ingests and how to make one, see the [Create an Ingest tab](Create-an-Ingest/index.md). 
+For a detailed tutorial on ingests and how to make one, see the [Create an Ingest tab](Create-an-Ingest/index.md).
 
-CLI usage is available in the [CLI tab](CLI.md), gcor by running `ingest --help`.
+CLI usage is available in the [CLI tab](CLI.md), or by running `ingest --help`.
 
 ??? tip "Run the whole pipeline!"
     - Download the source data:
@@ -60,10 +60,14 @@ CLI usage is available in the [CLI tab](CLI.md), gcor by running `ingest --help`
     ingest merge
     ```
 
-    - Upload the results to the KG-Alzheimers S3 bucket
+    - (Optional) Generate closure-enriched denormalized tables and prepare release artifacts
     ```bash
-    ingest release
+    ingest closure
+    ingest prepare-release
     ```
+
+    - (CI only) Artifact publication to S3 is automated by Jenkins (`Jenkinsfile`); the
+      local `ingest release` command now emits a deprecation notice.
 
 <meta http-equiv='cache-control' content='no-cache'> 
 <meta http-equiv='expires' content='0'> 
