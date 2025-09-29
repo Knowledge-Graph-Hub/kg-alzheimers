@@ -26,11 +26,77 @@ jobs:
 
       - name: Detect AI mention
         id: detect
-        uses: dragon-ai-agent/github-mention-detector@v1.0.0
+        uses: actions/github-script@v7
         with:
           github-token: ${{ secrets.PAT_FOR_PR }}
-          fallback-controllers: 'jtr4v'
-          mention-pattern: '@alzassistant\\s+(.*)'
+          script: |
+            // Load allowed users from config
+            const fs = require('fs');
+            let allowedUsers = [];
+            try {
+              const configContent = fs.readFileSync('.github/ai-controllers.json', 'utf8');
+              allowedUsers = JSON.parse(configContent);
+            } catch (error) {
+              console.log('Error loading allowed users:', error);
+              // Use fallback controllers if provided
+              const fallback = 'jtr4v';
+              allowedUsers = fallback ? fallback.split(',').map(u => u.trim()) : [];
+            }
+            
+            // Get content and user from event payload
+            let content = '';
+            let userLogin = '';
+            let itemType = '';
+            let itemNumber = 0;
+            
+            if (context.eventName === 'issues') {
+              content = context.payload.issue.body || '';
+              userLogin = context.payload.issue.user.login;
+              itemType = 'issue';
+              itemNumber = context.payload.issue.number;
+            } else if (context.eventName === 'pull_request') {
+              content = context.payload.pull_request.body || '';
+              userLogin = context.payload.pull_request.user.login;
+              itemType = 'pull_request';
+              itemNumber = context.payload.pull_request.number;
+            } else if (context.eventName === 'issue_comment') {
+              content = context.payload.comment.body || '';
+              userLogin = context.payload.comment.user.login;
+              itemType = 'issue';
+              itemNumber = context.payload.issue.number;
+            } else if (context.eventName === 'pull_request_review_comment') {
+              content = context.payload.comment.body || '';
+              userLogin = context.payload.comment.user.login;
+              itemType = 'pull_request';
+              itemNumber = context.payload.pull_request.number;
+            }
+            
+            // Check if user is allowed and mention exists
+            const isAllowed = allowedUsers.includes(userLogin);
+            const mentionRegex = new RegExp('@alzassistant\\s+(.*)', 'i');
+            const mentionMatch = content.match(mentionRegex);
+            
+            const qualifiedMention = isAllowed && mentionMatch !== null;
+            const prompt = qualifiedMention ? mentionMatch[1].trim() : '';
+            
+            console.log(`User: ${userLogin}, Allowed: ${isAllowed}, Has mention: ${mentionMatch !== null}, Content: "${content}"`);
+            
+            // Set outputs
+            core.setOutput('qualified-mention', qualifiedMention);
+            core.setOutput('prompt', prompt);
+            core.setOutput('user', userLogin);
+            core.setOutput('item-type', itemType);
+            core.setOutput('item-number', itemNumber);
+            core.setOutput('controllers', allowedUsers.map(u => '@' + u).join(', '));
+            
+            return {
+              qualifiedMention,
+              itemType,
+              itemNumber,
+              prompt,
+              user: userLogin,
+              controllers: allowedUsers.map(u => '@' + u).join(', ')
+            };
 
   respond-to-mention:
     needs: check-mention
