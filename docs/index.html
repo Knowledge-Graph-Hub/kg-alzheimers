@@ -1148,8 +1148,8 @@ poetry<span class="w"> </span>shell
 </li>
 </ol>
 <h2 id="usage">Usage</h2>
-<p>For a detailed tutorial on ingests and how to make one, see the <a href="Create-an-Ingest/">Create an Ingest tab</a>. </p>
-<p>CLI usage is available in the <a href="CLI/">CLI tab</a>, gcor by running <code>ingest --help</code>.</p>
+<p>For a detailed tutorial on ingests and how to make one, see the <a href="Create-an-Ingest/">Create an Ingest tab</a>.</p>
+<p>CLI usage is available in the <a href="CLI/">CLI tab</a>, or by running <code>ingest --help</code>.</p>
 <details class="tip">
 <summary>Run the whole pipeline!</summary>
 <ul>
@@ -1169,9 +1169,14 @@ poetry<span class="w"> </span>shell
 </code></pre></div></p>
 </li>
 <li>
-<p>Upload the results to the KG-Alzheimers S3 bucket
-<div class="highlight"><pre><span></span><code>ingest<span class="w"> </span>release
+<p>(Optional) Generate closure-enriched denormalized tables and prepare release artifacts
+<div class="highlight"><pre><span></span><code>ingest<span class="w"> </span>closure
+ingest<span class="w"> </span>prepare-release
 </code></pre></div></p>
+</li>
+<li>
+<p>(CI only) Artifact publication to S3 is automated by Jenkins (<code>Jenkinsfile</code>); the
+  local <code>ingest release</code> command now emits a deprecation notice.</p>
 </li>
 </ul>
 </details>
