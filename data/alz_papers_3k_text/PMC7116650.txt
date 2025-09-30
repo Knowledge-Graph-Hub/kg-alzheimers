@@ -1,0 +1,5 @@
+# Title
+TDP-43 Mutations in Familial and Sporadic Amyotrophic Lateral Sclerosis
+
+# Abstract
+Amyotrophic lateral sclerosis (ALS) is a fatal motor neuron disorder characterised pathologically by ubiquitinated TAR DNA binding protein (TDP-43) inclusions. The function of TDP-43 in the nervous system is uncertain and a mechanistic role in neurodegeneration remains speculative. We identified neighbouring mutations in a highly conserved region of TARDBP in sporadic and familial ALS cases. TARDBP M337V segregated with disease within one kindred and a genome-wide scan confirmed that linkage was restricted to chromosome 1p36, which contains the TARDBP locus. Mutant forms of TDP-43 fragmented more readily than wild-type in vitro and caused neural apoptosis and developmental delay in the chick embryo in vivo. Our evidence suggests a pathophysiological link between TDP-43 and ALS.

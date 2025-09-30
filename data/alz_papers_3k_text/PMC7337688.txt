@@ -1,0 +1,5 @@
+# Title
+ApoEe4e4 Genotype and Mortality With COVID-19 in UK Biobank
+
+## Funding
+C.L.K., L.C.P., G.A.K., and D.M. are supported in part by an R21 grant (R21AG060018) funded by National Institute on Aging, National Institutes of Health, USA. UK Medical Research Council award MR/S009892/1 (PI Melzer) supports J.L.A. J.A.H.M. is supported by National Institute for Health Research, UK Doctoral Research Fellowship DRF-2014-07-177. The views expressed in this publication are those of the author(s) and not necessarily those of the NHS, the National Institute for Health Research or the Department of Health.

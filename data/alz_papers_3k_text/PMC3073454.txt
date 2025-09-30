@@ -1,0 +1,5 @@
+# Title
+Decreased Clearance of CNS Amyloid-β in Alzheimer’s Disease
+
+# Abstract
+Alzheimer’s disease is thought to be caused by an imbalance between amyloid-β (Aβ) production and clearance leading to Aβ accumulation in the Central Nervous System (CNS). Aβ production and clearance are key targets in the development of disease modifying therapeutic agents for Alzheimer’s disease. However, there has not been direct evidence of altered Aβ production or clearance in Alzheimer’s disease. Using metabolic labeling, we measured Aβ42 and Aβ40 production and clearance rates in the CNS of patients with Alzheimer’s disease and cognitively normal controls. Clearance rates for both Aβ42 and Aβ40 were impaired in Alzheimer’s disease compared to controls. On average, there were no differences in Aβ42 or Aβ40 production rates. Thus, the common late-onset form of Alzheimer’s disease may involve an overall impairment of Aβ clearance.

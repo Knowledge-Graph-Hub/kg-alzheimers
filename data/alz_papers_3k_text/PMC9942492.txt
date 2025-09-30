@@ -1,0 +1,5 @@
+# Title
+Two FTD-ALS genes converge on the endosomal pathway to induce TDP-43 pathology and degeneration
+
+# Abstract
+Frontotemporal dementia and amyotrophic lateral sclerosis (FTD-ALS) are associated with both a repeat expansion in the C9orf72 gene and mutations in the TANK-binding kinase 1 ( TBK1) gene. We found that TBK1 is phosphorylated in response to C9orf72 poly(Gly-Ala) [poly(GA)] aggregation and sequestered into inclusions, which leads to a loss of TBK1 activity and contributes to neurodegeneration. When we reduced TBK1 activity using a TBK1-R228H (Arg 228 →His) mutation in mice, poly(GA)-induced phenotypes were exacerbated. These phenotypes included an increase in TAR DNA binding protein 43 (TDP-43) pathology and the accumulation of defective endosomes in poly(GA)-positive neurons. Inhibiting the endosomal pathway induced TDP-43 aggregation, which highlights the importance of this pathway and TBK1 activity in pathogenesis. This interplay between C9orf72, TBK1 , and TDP-43 connects three different facets of FTD-ALS into one coherent pathway.

@@ -1,0 +1,5 @@
+# Title
+Senescent intimal foam cells are deleterious at all stages of atherosclerosis
+
+# Abstract
+Advanced atherosclerotic lesions contain senescent cells, but the role of these cells in atherogenesis remains unclear. Using transgenic and pharmacological approaches to eliminate senescent cells in atherosclerosis-prone low-density lipoprotein receptor–deficient ( Ldlr −/− ) mice, we show that these cells are detrimental throughout disease pathogenesis. We find that foamy macrophages with senescence markers accumulate in the subendothelial space at the onset of atherosclerosis, where they drive pathology by increasing expression of key atherogenic and inflammatory cytokines and chemokines. In advanced lesions, senescent cells promote features of plaque instability, including elastic fiber degradation and fibrous cap thinning, by heightening metalloprotease production. Together, these results demonstrate that senescent cells are key drivers of atheroma formation and maturation and suggest that selective clearance of these cells by senolytic agents holds promise for the treatment of atherosclerosis.

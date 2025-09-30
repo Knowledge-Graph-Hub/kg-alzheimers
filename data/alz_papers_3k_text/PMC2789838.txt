@@ -1,0 +1,5 @@
+# Title
+Amyloid-β Dynamics are Regulated by Orexin and the Sleep-Wake Cycle
+
+# Abstract
+Amyloid-β (Aβ) accumulation in the brain extracellular space is a hallmark of Alzheimer’s disease (AD). The factors regulating this process are only partly understood. Aβ aggregation is a concentration-dependent process that is likely to be dependent on changes in brain interstitial fluid (ISF) levels of Aβ. Using in vivo microdialysis, we found that ISF Aβ levels correlated with wakefulness. ISF Aβ levels also significantly increased during acute sleep deprivation and during orexin infusion, whereas they decreased with infusion of a dual orexin receptor antagonist. Importantly, chronic sleep restriction significantly increased and a dual orexin receptor antagonist decreased Aβ plaque formation in amyloid precursor protein transgenic mice. Thus, the sleep-wake cycle and orexin may play a role in the pathogenesis of AD.

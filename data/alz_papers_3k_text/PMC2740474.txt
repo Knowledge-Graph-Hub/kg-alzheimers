@@ -1,0 +1,18 @@
+# Title
+γ-Secretase Heterogeneity in the Aph1 Subunit: Relevance for Alzheimer’s Disease
+
+# Abstract
+The γ-secretase complex plays a role in Alzheimer’s disease (AD) and cancer progression. The development of clinical useful inhibitors, however, is complicated by the role of the γ-secretase complex in regulated intramembrane proteolysis of Notch and other essential proteins. Different γ-secretase complexes containing different Presenilin or Aph1 protein subunits are present in various tissues. Here we show that these complexes have heterogeneous biochemical and physiological properties. Specific inactivation of the Aph1B γ-secretase in a murine Alzheimer’s disease model led to improvements of Alzheimer’s disease-relevant phenotypic features without any Notch-related side effects. The Aph1B complex contributes to total γ-secretase activity in the human brain, thus specific targeting of Aph1B-containing γ-secretase complexes may be helpful in generating less toxic therapies for Alzheimer’s disease.
+
+## Supplementary Material
+www.sciencemag.org/cgi/content/full/1171176/DC1
+
+Materials and Methods
+
+SOM Text
+
+Figs. S1 to S7
+
+Table S1
+
+References

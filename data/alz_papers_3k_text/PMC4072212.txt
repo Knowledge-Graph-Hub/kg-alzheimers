@@ -1,0 +1,5 @@
+# Title
+MicroglialCx3cr1knockout prevents neuron loss in a mouse model of Alzheimer’s disease
+
+# Abstract
+Microglia, the immune cells of the brain, can have a beneficial effect in Alzheimer’s disease by phagocytosing amyloid-β. Two-photon in vivo imaging of neuron loss in the intact brain of living Alzheimer’s disease mice revealed an involvement of microglia in neuron elimination, indicated by locally increased number and migration velocity of microglia around lost neurons. Knockout of the microglial chemokine receptor Cx3cr1 , which is critical in neuron-microglia communication, prevented neuron loss.

@@ -1,0 +1,361 @@
+# Title
+Effect of Citalopram on Agitation in Alzheimer's Disease – The
+CitAD Randomized Controlled Trial
+
+# Abstract
+Agitation is common, persistent, and associated with adverse
+consequences for patients with Alzheimer's disease (AD). Pharmacological
+treatment options, including antipsychotics are not satisfactory. The primary objective was to evaluate the efficacy of citalopram for
+agitation in patients with AD. Key secondary objectives examined effects of
+citalopram on function, caregiver distress, safety, cognitive safety, and
+tolerability. The Citalopram for Agitation in Alzheimer's Disease Study (CitAD) was
+a multicenter, randomized, placebo-controlled, double-blind, parallel group
+trial that enrolled 186 patients with probable AD and clinically significant
+agitation from eight academic centers in the US and Canada from August 2009
+to January 2013. Participants (n=186) were randomized to receive a psychosocial
+intervention plus either citalopram (n=94) or placebo (n=92) for 9 weeks.
+Dose began at 10 mg/d with planned titration to 30 mg/d over 3 weeks based
+on response and tolerability. Primary outcome measures were the Neurobehavioral Rating Scale,
+agitation subscale (NBRS-A) and the modified Alzheimer Disease Cooperative
+Study-Clinical Global Impression of Change (mADCS-CGIC) Other outcomes were
+the Cohen-Mansfield Agitation Inventory (CMAI), Neuropsychiatric Inventory
+(NPI), activities of daily living (ADLs), caregiver distress, cognitive
+safety (MMSE), and adverse events. Participants on citalopram showed significant improvement compared to
+placebo on both primary outcome measures. NBRS-A estimated treatment
+difference at week 9 (citalopram minus placebo) was −0.93 [95% CI:
+−1.80 to −0.06], p = 0.036. mADCS-CGIC results showed 40% of
+citalopram participants having moderate or marked improvement from baseline
+compared to 26% on placebo, with estimated treatment effect (odds ratio of
+being at or better than a given CGIC category) of 2.13 [95% CI 1.23 to
+3.69], p = 0.007. Participants on citalopram showed significant improvement
+on the CMAI, total NPI and caregiver distress scores but not on the NPI
+agitation subscale, ADLs, or in less use of rescue lorazepam. Worsening of
+cognition (−1.05 points [95% CI: −1.97 to −0.13], p =
+0.026) and QT interval prolongation (18.1 ms [95% CI: 6.1, 30.1], p = 0.004)
+were seen in the citalopram group. Among patients with probable Alzheimer's disease and agitation
+receiving psychosocial intervention, the addition of citalopram compared
+with placebo significantly reduced agitation and caregiver distress, but
+cognitive and cardiac adverse effects of citalopram may limit its practical
+application at the 30 mg/d dose studied in this trial.
+
+## Introduction
+Neuropsychiatric symptoms occur in a majority of patients with Alzheimer's
+disease (AD). Agitation refers to emotional distress, excessive psychomotor
+activity, aggressive behaviors, disruptive irritability, and disinhibition.
+Agitation is common, persistent, difficult to treat, costly, and associated with
+severe adverse consequences for patients and caregivers 1 – 5 .
+Psychological, environmental and pharmacologic therapies have proven inadequate.
+Antipsychotics continue to be widely used for agitation, despite serious safety
+concerns, including increased mortality, and uncertain efficacy 5 – 10 .
+
+Citalopram, a selective serotonin reuptake inhibitor (SSRI), is frequently
+used in older individuals 11 – 12 and has been suggested as an
+alternative to antipsychotic drugs for agitation and aggression in
+dementia 13 – 16 . Yet, there is limited evidence
+for its efficacy and safety. In a short-term, unmasked study and two randomized,
+masked follow-up studies, Pollock and colleagues demonstrated the utility of
+citalopram for agitation in dementia, but these preliminary data require replication
+in a larger randomized, double-blind, placebo-controlled trial specific to an AD
+population 17 – 19 .
+
+The primary objective of the Citalopram for Agitation in Alzheimer's Disease
+Study (CitAD) was to evaluate the efficacy of citalopram for agitation in patients
+with AD and without major depression. Secondary objectives were 3-fold: (1) examine
+the effects of citalopram on patients' functional abilities, and on caregiver
+distress; (2) examine the safety of citalopram comparing treatment groups on vital
+signs, weight, gait stability, cognitive effects, side effects, electrolyte panels,
+adverse event reports, and ECG (added later during the study); and (3) examine
+predictors of citalopram response. This paper will address the primary objective and
+item 1 and 2 of the secondary objectives.
+
+## Methods
+The CitAD study was an investigator-initiated multicenter, randomized,
+placebo-controlled, double-blind, two-arm, parallel group trial funded by the
+National Institute on Aging (NIA) with additional funding provided by the
+National Institute of Mental Health (NIMH). CitAD enrolled patients from eight
+academic centers in the US and Canada. The study design including complete
+eligibility criteria, data collection schedule and detailed statistical analysis
+was previously reported 20 .
+
+CitAD had an independent Data Safety and Monitoring Board (DSMB). The
+study protocol and amendments were approved by Institutional Review Boards (IRB)
+or Research Ethics Board (REB) at each clinical center and the coordinating
+center. Written informed consent was obtained from all participants and
+informants based on local IRB requirements regarding capacity to consent and
+surrogate consent. Generic citalopram was purchased and over-encapsulated for
+use in this study.
+
+All clinical center personnel and participants were masked to treatment
+assignment. Unmasking occurred routinely at the week 9 visit after data
+collection was complete, enabling study physicians and participants to make
+informed decisions about continued treatment 20 .
+
+CitAD participants had probable AD by National Institute of Neurological
+and Communication Disorders and Stroke-Alzheimer's Disease and Related Disorders
+Association 21 criteria
+with Mini-Mental State Examination (MMSE) 22 scores from 5–28 inclusive, and had
+“clinically significant agitation” for which a physician
+determined that medication was appropriate and was rated as 1) occurring `very
+frequently' or 2) occurring `frequently' with `moderate' or `marked' severity on
+the agitation/aggression domain (one screening question that if answered yes
+proceeds to 8 subquestions) of the Neuropsychiatric Inventory (NPI) 23 . Participants were excluded if
+they had a major depressive episode or psychosis requiring antipsychotic
+treatment. A caregiver who spent at least several hours a week with the patient
+was required to supervise medications and participate in outcomes assessments.
+Medications for the treatment of AD (cholinesterase inhibitors and memantine) at
+stable doses within the month preceding randomization were allowed. Withdrawal
+of psychotropic medications other than pre-defined rescue medications was
+required. Adequate previous treatment or contraindication to citalopram was
+exclusionary. Prolonged QT interval on ECG was later added as an exclusion
+criterion (see below). Race and ethnicity were self-reported based on categories
+defined by the National Institutes of Health.
+
+Participants received identically appearing citalopram or placebo
+capsules allocated in a 1:1 ratio, stratified by clinical center. Target dose of
+citalopram was 30 mg/day as a single dose in the morning, with planned titration
+over 3 weeks from a starting dose of 10 mg with subsequent dose changes based on
+response and tolerability. Lorazepam (0.5 mg daily) and trazodone (≤ 50
+mg nightly) were permitted as `rescue' medications for significant agitation or
+sleep disturbance.
+
+On August 22, 2011, the Food and Drug Administration (FDA) issued an
+advisory regarding dose-dependent risk of QT prolongation with citalopram
+therapy 24 .
+Consequently, the CitAD Steering Committee amended the protocol to exclude
+individuals with QTc > 450ms for men and >475ms for women at
+screening, to include an ECG at week 3 and at the visit after dose increase to
+30 mg for those on slower titration, and added serum magnesium to routine
+electrolyte monitoring.
+
+In order to ensure all study patients and caregivers received
+appropriate standard of care and to limit potentially variable effects of
+individual site interactions with the participants and caregivers, a trained
+study clinician conducted a standardized and practical psychosocial intervention
+consisting of three components: provision of educational materials; 24-hour
+availability for crisis management; and a 20 – 30 minute counseling
+session at each of the scheduled study visits including the design of a
+supportive care plan during the randomization visit, review and adjustment of
+the supportive care plan at subsequent visits, emotional support and an
+opportunity to ventilate feelings, counseling regarding specific caregiving
+skills, and assistance with problem-solving of specific issues brought up by the
+caregiver or study participant 20 .
+
+Primary efficacy outcome measures were the agitation subscale of the
+Neurobehavioral Rating Scale (NBRS-A) 25 (range: 0, 18; higher scores indicate more severe
+symptoms) and the modified Alzheimer Disease Cooperative Study-Clinical Global
+Impression of Change (mADCS-CGIC) 26 (range 1–7 where 1 indicates marked improvement and
+7 indicates marked worsening from baseline). The NBRS-A assesses agitation,
+hostility/uncooperativeness, and disinhibition. The clinician-administered
+mADCS-CGIC was modified to assess items specific to agitation in AD, producing a
+global rating of change in agitation and a measure of clinical significance.
+
+Secondary efficacy outcomes were the Neuropsychiatric Inventory
+(NPI) 23 (frequency by
+severity range: 0, 144; higher scores indicate more severe symptoms), individual
+NPI domain ratings, NPI caregiver distress ratings (range: 0, 60; higher scores
+indicate more severe distress), Cohen-Mansfield Agitation Inventory
+(CMAI) 27 (range: 14,
+70; higher scores indicate more severe symptoms), the Alzheimer Disease
+Cooperative Study-Activities of Daily Living (ADCS-ADL) 28 (range: 0, 78; higher scores
+indicate better functioning), and cumulative lorazepam dose. Important secondary
+safety outcomes included Mini-Mental State Examination (MMSE) 22 (range: 0, 30; higher scores
+indicate better functioning), a measure of cognitive abilities, and the Get Up
+and Go (GUG) 29 , assessing
+mobility and gait, and elicitation of adverse events using both symptom
+checklists and open-ended questions.
+
+Primary assessment of efficacy was based on intention-to-treat (ITT)
+comparison of the difference in the NBRS-A scores at week 9 and comparison at
+week 9 for the mADCS-CGIC. Crude between-treatment difference at week 9 NBRS-A
+scores was assessed using a t-test. Adjusted differences were assessed using
+mixed effects regression models with a random intercept for patient, indicators
+for each visit, treatment by visit interactions, and covarying for baseline
+NBRS-A scores and baseline MMSE (due to baseline imbalance). The difference in
+the linear slope of NBRS-A scores over all study visits was also estimated using
+mixed effects regression. All available visit data for the 186 participants were
+incorporated into the NBRS-A model. Other continuous scale scores were modeled
+in the same way.
+
+We also performed sensitivity analyses for the NBRS-A outcome: 1) using
+generalized estimating equations (GEE) model for mean visit scores with
+unstructured covariance structure for within-person longitudinal measurements
+and robust standard errors for effect estimates 30 .
+
+The mADCS-CGIC ratings of change (“marked worsening” to
+“marked improvement” on a 7 point scale) at week 9 were compared
+between treatment groups including all participants with week 9 mADCS-CGIC data
+using proportional odds logistic regression 31 . We performed sensitivity analyses for the mADCS-CGIC
+outcome by using multiple imputation to estimate missing week 9 data.
+
+The proportion of participants experiencing adverse events was compared
+between treatment groups using Fisher's exact test for small cells (unadjusted),
+or logistic regression, adjusting for baseline report of the same symptom if
+necessary due to baseline imbalance. Adherence was assessed by pill counts from
+returned medication bottles using the Wilcoxon rank sum test.
+
+Statistical analyses used SAS version 9.2 and R version 2.13.1. All
+p-values are two-sided and p < .05 was the threshold for statistical
+significance. No adjustments were made for multiple comparisons.
+
+A detailed description of the power calculations has been
+published 20 . For the
+NBRS-A, the study was designed to have 85% power to detect a standardized
+difference at week 9 of 40% for citalopram compared to placebo. For the
+mADCS-CGIC proportional odds analysis, the study was designed to have power
+greater than 80% to detect a difference of 20% between citalopram and placebo in
+the proportions of patients who improve (or worsen).
+
+## Results
+186 participants were enrolled between August 2009 and January 2013, 94
+assigned to citalopram and 92 to placebo. We intended to enroll 200 participants
+per protocol by December 31, 2012 but recruitment slowed notably towards the end
+of this timeframe. Figure 1 summarizes
+patient recruitment, participation and attrition. Baseline characteristics were
+similar ( Table 1 ), except participants on
+placebo had lower mean MMSE scores. Participants were on average in their late
+70s, 46% female, two-thirds white and non-Hispanic, community dwelling, and
+diagnosed with dementia for 5 years. About two-thirds took cholinesterase
+inhibitors and just over 40% took memantine. Over 90 % of both groups completed
+the 9 week trial and about 80% remained on treatment. At week 9, 78% of the
+sample were receiving 30 mg citalopram daily and 15 % were receiving 20 mg
+citalopram daily.
+
+Participants on citalopram showed significant improvement compared with
+placebo on both primary outcome measures ( Table
+2 ). The raw NBRS-A scores are shown in Figure 2 ; at week 9 the unadjusted mean scores were 4.1 (SD = 3.0)
+on citalopram and 5.4 (SD= 3.2) on placebo (crude difference = 1.3 [95% CI: 2.6,
+3.5]; p = 0.010). The mixed model estimated difference in week 9 NBRS-A scores
+for citalopram – placebo was −0.93 [95% CI: −1.80 to
+−0.06] p = 0.036 (negative numbers favor citalopram). The model estimated
+differences in scores at the two interim visits were: −0.58 (95% CI:
+−1.44, 0.29); p = 0.190 at week 3; and −1.12 (95% CI:
+−1.98, −0.26); p = 0.012 at week 6. The estimated difference in
+linear slopes over all study visits is −0.12 (95% CI: −0.22,
+−0.02); p = 0.022. Results for the NBRS-A were virtually identical for
+the GEE model; the GEE estimated difference in week 9 scores was: −0.94
+(−1.80, −0.07); p = 0.033
+
+mADCS-CGIC results showed that 40% of citalopram participants had
+moderate or marked improvement from baseline severity vs. 26% of placebo
+participants, with an estimated treatment effect from the proportional odds
+model including participants with week 9 data (odds ratio of being at or better
+than a given CGIC category) of 2.13 [95% CI: 1.23 to 3.69], p = 0.007. The
+estimated OR for the sensitivity analysis including imputed values for missing
+data was 2.10 [95% CI:1.21 to 3.64].
+
+Relative to placebo, citalopram was associated with improved scores on
+CMAI with an estimated difference in week 9 scores of −2.38 [95% CI
+−4.13 to −0.63], p = 0.008. On the NPI total score, estimated
+differences for citalopram over placebo in week 9 scores were −6.03 [95%
+CI: −10.75 to −1.32], p = 0.013; on the NPI agitation subscale,
+−0.78 [95% CI: −1.77 to 0.21], p = 0.123; and on NPI caregiver
+distress, −2.70 [95% CI: −4.94 to −0.47], p = 0.018. There
+was no significant difference between groups on the ADCS-ADL scale. There was no
+difference between the two treatment groups in the use of rescue lorazepam
+( Table 2 ).
+
+There was no difference in adherence between the two study groups. MMSE
+results showed greater cognitive worsening with citalopram, −1.05 points
+[95% CI: −1.97 to −0.13], p = 0.026 ( Table 2 ). Anorexia, diarrhea and fever were more common on
+citalopram and weight loss and insomnia on placebo ( Table 3 ). Falls were more frequent on citalopram, and
+remained even after controlling for baseline differences. An increase in upper
+respiratory infections was also noted in the citalopram group. The citalopram
+group may have shown a slight increase in gait impairment as measured by the
+GUG, but the rate of hyponatremia did not differ appreciably between the groups.
+Frequency of serious adverse events was comparable between treatment groups
+( supplemental table
+1 ). There was one death in the placebo group.
+
+ECG monitoring was initiated after 138 patients were randomized and was
+available for 48 patients (24 citalopram and 24 placebo). Citalopram was
+associated with greater increase in QTc interval than placebo, 18.1 ms [95% CI:
+6.1, 30.1], p = 0.004, and more participants on citalopram than placebo showed a
+> 30 ms QTc increase from enrollment to week 3 (7 versus 1; Fisher's
+exact p = 0.046). Three citalopram and one placebo participants showed QTc
+prolongation (> 450ms for men and > 475ms for women).
+
+## Discussion
+Citalopram treatment led to a reduction in agitation in patients with AD.
+The effect size is clinically relevant: 40% of citalopram-treated participants were
+judged to be much or very much improved on mADCS-CGIC vs. 26% of those on placebo.
+Adverse events were generally modest and consistent with known SSRI-mediated adverse
+events (increases in gastrointestinal complaints, respiratory tract infections, and
+falls), except that no weight loss or hyponatremia was seen. The cognitive worsening
+and QT interval prolongation observed in the citalopram group raise concern about
+the 30 mg/d dose used in this study and may limit the clinical utility of the
+findings.
+
+Safe and effective treatments for agitation remain elusive with options
+limited. Patients in this trial had substantial, disruptive behavioral symptoms at
+the same level or higher than patients with AD who received antipsychotics in the
+CATIE-AD study, 7 , 16 other studies of atypical antipsychotics for
+dementia, 6 and in trials of
+donepezil and memantine as primary treatments of agitation 32 – 33 .
+Improvement over the course of the trial as measured by total NPI scores was
+comparable to that of antipsychotics in other trials 6 – 7 , 16 and improvement on the mADCS-CGIC
+was superior in CitAD. The consistency of outcomes on other scales lends credibility
+and clinical significance to the trial's outcome that 30 mg/d of citalopram improved
+agitation. Similar to previous studies we saw a robust rating scales response on
+placebo 6 .
+
+We used the MMSE to monitor for cognitive changes that might be adversely
+affected by treatment. Greater cognitive decline was seen in the citalopram group
+over 9 weeks. MMSE scores modestly improved on placebo but worsened on citalopram,
+with no difference in spontaneously reported somnolence or confusion. The MMSE
+treatment effect, approximately 1 point, is similar to the mean worsening of 0.73
+points with antipsychotics in similarly designed trials 6 but lower than the minimum clinically significant
+change of 1.4 points considered by many experts 38 . This finding is consistent with another study reporting
+declines in verbal learning and psychomotor speed in patients taking
+citalopram 34 , and with
+prior epidemiological data 35 .
+Conversely citalopram at 20 mg/d showed significant improvement on the cognitive
+subscale of the Neurobehavioral Rating Scale (NBRS) in one of the preliminary
+citalopram studies 18 and the
+DIADS-2 study indicated that another SSRI, sertraline, neither improved nor impaired
+cognitive function in patients with depression of Alzheimer's disease 39 . Therefore, while citalopram had a
+small negative impact on cognitive functioning in this study, its clinical
+significance is uncertain. Also unknown are whether this cognitive effect continues
+beyond 9-weeks, and whether citalopram adversely effects the course of AD.
+
+The QT interval prolongation observed here is consistent with the FDA
+advisory 24 and
+citalopram's current prescribing information. We maintained a 30 mg/day target dose
+of citalopram after the FDA advisory and our findings suggest that 30 mg/day in
+patients with AD should generally be avoided. Current prescribing information
+recommends a maximum daily dose of 20 mg of citalopram for patients over 60 years of
+age because of substantially higher exposures, decreased clearance, and prolonged
+cardiac repolarization potential 37 . Our trial did not have enough patients treated with 20 mg/day to
+assess the efficacy of that dose.
+
+Strengths of the study include: 1) randomized treatment assignment with
+inclusion of placebo control; 2) double blind treatment assignment with rigorous
+adherence to masked rating; 3) high retention rates (>90% over 9 weeks) and
+adherence to study drug; 4) careful definition of agitation of moderate or higher
+severity; 5) relatively few medical or medication exclusions resulting in a study
+population that is broadly representative of AD patients; 6) semi-structured
+psychosocial intervention administered to all patients and caregivers; 7) consistent
+results across sites supporting generalizability; 8) consistent findings across
+multiple measures of agitation and analysis methods.
+
+Limitations of the study include: 1) participants comprised a sample of
+convenience in US and Canadian academic medical centers that may not generalize to
+other settings; 2) short duration of treatment; 3) unknown effectof citalopram on
+agitation in non-AD forms of dementia; 4) unknown effectof citalopram in the more
+mild and more severe forms of agitation or in inpatient settings; 5) no dose ranging
+information; 6) baseline differences in the MMSE; 7) absence of more comprehensive
+assessment of cognition; 8) lack of data collection on potential participants who
+declined to participate or failed screening.
+
+Identifying drugs outside the antipsychotic class with targeted
+anti-agitation effects that provide greater benefit or lower risk among patients
+with Alzheimer's disease is a research priority. While citalopram, at 30 mg
+daily, was associated with clinically meaningful reduction in agitation in
+patients with AD over 9 weeks of treatment comparable to what is seen with
+antipsychotics, citalopram showed mild cognitive and concerning cardiac adverse
+effects, and cannot be generally recommended as an alternative treatment option
+at that dose. There are insufficient data, however on efficacy for agitation at
+lower doses. An assessment of individual patient circumstances, including
+symptom severity, value of improvement, cognitive function and change, cardiac
+conduction, vulnerability to adverse effects, and effectiveness of behavioral
+interventions can help guide appropriate medication use in patients with marked
+agitation or aggression.

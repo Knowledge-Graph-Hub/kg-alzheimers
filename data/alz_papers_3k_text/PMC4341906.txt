@@ -1,0 +1,5 @@
+# Title
+Structure and Activity of Tryptophan-rich TSPO Translocator Proteins
+
+# Abstract
+TSPO translocator proteins bind steroids and porphyrins, and they are implicated in many human diseases, for which they serve as biomarkers and therapeutic targets. TSPOs have tryptophan-rich sequences that are fhighly conserved from bacteria to mammals. We report crystal structures for Bacillus cereus TSPO ( Bc TSPO) down to 1.7Å resolution, including a complex with the benzodiazepine-like inhibitor PK11195. We also describe Bc TSPO-mediated protoporphyrin IX (PpIX) reactions, including catalytic degradation to a previously undescribed heme derivative. We used structure-inspired mutations to investigate reaction mechanisms, and we showed that TSPOs from Xenopus and man have similar PpIX-directed activities. Although TSPOs have been regarded as transporters, the catalytic activity in PpIX degradation suggests physiological importance for TSPOs in protection against oxidative stress.

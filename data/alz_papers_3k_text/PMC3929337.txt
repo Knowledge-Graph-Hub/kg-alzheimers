@@ -1,0 +1,601 @@
+# Title
+Soluble γ-Secretase Modulators Selectively Inhibit the Production of the 42-Amino Acid Amyloid β Peptide Variant and Augment the Production of Multiple Carboxy-Truncated Amyloid β Species
+
+# Abstract
+ Alzheimer’s
+disease (AD) is characterized pathologically
+by an abundance of extracellular neuritic plaques composed primarily
+of the 42-amino acid amyloid β peptide variant (Aβ42).
+In the majority of familial AD (FAD) cases, e.g., those harboring
+mutations in presenilin 1 (PS1), there is a relative increase in the
+levels of Aβ42 compared to the levels of Aβ40. We previously
+reported the characterization of a series of aminothiazole-bridged
+aromates termed aryl aminothiazole γ-secretase modulators or
+AGSMs [Kounnas, M. Z., et al. (2010) Neuron 67 , 769–780]
+and showed their potential for use in the treatment of FAD [Wagner,
+S. L., et al. (2012) Arch. Neurol. 69 , 1255–1258].
+Here we describe a series of GSMs with physicochemical properties
+improved compared to those of AGSMs. Specific heterocycle replacements
+of the phenyl rings in AGSMs provided potent molecules with improved
+aqueous solubilities. A number of these soluble γ-secretase
+modulators (SGSMs) potently lowered Aβ42 levels without inhibiting
+proteolysis of Notch or causing accumulation of amyloid precursor
+protein carboxy-terminal fragments, even at concentrations approximately
+1000-fold greater than their IC 50 values for reducing Aβ42
+levels. The effects of one potent SGSM on Aβ peptide production
+were verified by matrix-assisted laser desorption ionization time-of-flight
+mass spectrometry, showing enhanced production of a number of carboxy-truncated
+Aβ species. This SGSM also inhibited Aβ42 peptide production
+in a highly purified reconstituted γ-secretase in vitro assay system and retained the ability to modulate γ-secretase-mediated
+proteolysis in a stably transfected cell culture model overexpressing
+a human PS1 mutation validating the potential for use in FAD.
+
+## Materials and Methods
+All SGSM
+compounds were designed
+at the University of California, San Diego, and Massachusetts General
+Hospital and synthesized at Synchem (Elk Grove Village, IL) and determined
+to be >95% pure based on liquid chromatography–tandem mass
+spectrometry and nuclear magnetic resonance analyses. Aβ peptides
+were purchased from Bachem (Torrance, CA).
+
+Kinetic solubility
+measurements were conducted at Analiza (Cleveland, OH) using chemiluminescent
+nitrogen detection (CLND) from DMSO stock solutions at pH 6.6 and
+7.4 or using ultraviolet (UV) detection in phosphate-buffered saline
+(PBS, pH 7.4) at Albany Molecular Research, Inc. (AMRI, Albany, NY).
+ClogP values were calculated using Advanced Chemistry Development
+Laboratories, Inc. (ACD/Laboratories), software (Toronto, ON).
+
+Human SHSY5Y neuroblastoma cells stably overexpressing
+wild-type human APP751 (SHSY5Y-APP) have been described previously. 19 Aβ peptide variants in conditioned medium
+from SHSY5Y-APP cells following treatment for 24 h with either vehicle
+or SGSM were quantitated using sandwich ELISAs for human Aβ42,
+human Aβ40, and total human Aβ as described previously. 19 Aβ42, Aβ40, and Aβ38 peptides
+from stably transfected CHO-APP-PS1M146L cells treated for 24 h were
+quantitated in conditioned medium by an ELISA utilizing Meso Scale
+Sector 6000 multiplex technology (Gaithersburg, MD). Total Aβ
+peptide levels were quantitated in conditioned medium by a sandwich
+ELISA as described previously. 19
+
+Human
+H4 neuroglioma cells stably overexpressing the human APP751 isoform,
+or H4-APP751 cells, were transfected with the Myc-tagged Notch (NΔE)
+construct and then treated with compounds or vehicle (DMSO) at a variety
+of concentrations by serial dilution for an additional 24 h. Cells
+were harvested 48 h post-transfection, and cell lysates were prepared
+and analyzed for levels of NICD by Western blotting using an anti-Myc
+antibody (1:1000) (Cell Signaling, Danvers, MA). APP and the C99 and
+C83 APP carboxyl-terminal fragments (APP-CTFs) were probed with the
+APP carboxyl-terminal antibody, A8717 (Sigma, St. Louis, MO), targeting
+the 19 carboxyl-terminal amino acids of APP. β-Actin was probed
+using an anti-β-actin antibody (1:10000) (Sigma). Compound activity
+was verified by simultaneously analyzing aliquots of conditioned medium
+for extracellular levels of Aβ42 that were quantitated by ELISA
+kits (Wako, Richmond, VA). HRP-conjugated secondary antibodies (anti-mouse
+and anti-rabbit) were used at a 1:10000 dilution (Pierce, Rockford,
+IL).
+
+Human SHSY5Y-APP neuroblastoma cells were treated for 24 h with
+either vehicle (DMSO), compound, 49 or compound 46 . Harvested medium was immunoprecipitated using the mAb4G8
+antibody (Cell Sciences, Canton, MA), and the immune precipitates
+were extracted with a trifluoroacetic acid/water/acetonitrile mixture
+[1/20/20 (v/v/v)] and subjected to matrix-assisted UV laser desorption
+ionization time-of-flight mass spectrometry (MALDI-TOF-MS) as described
+previously. 19
+
+In vitro γ-secretase assays
+capable of detecting the generation of Aβ42 and Aβ40 from
+a truncated, biotinylated APP artificial substrate (APP Sb4) were
+conducted using either γ-secretase-enriched HeLa cell membrane
+preparations or TAP protein−γ-secretase isolated complexes
+exactly as described previously. 19 , 21 In
+vitro γ-secretase assays capable of detecting NICD
+from a truncated biotinylated Notch 1 artificial substrate (N1-Sb1)
+were conducted using both the TAP protein−γ-secretase
+subunit-containing complexes and γ-secretase-enriched HeLa cell
+membranes as described previously. 19 , 22
+
+## Results
+The
+key structural features of aryl aminothiazole γ-secretase modulators
+(AGSMs) versus heterocycle-containing or soluble γ-secretase
+modulators (SGSMs) are schematically illustrated below (Figure 1 ). Kinetic solubility measurements for a number
+of aryl aminothiazole AGSMs described previously 19 were below the limits of detection (<0.1 μM) regardless
+of which method of detection was utilized (S. L. Wagner, data not
+shown). These compounds were focused around diarylimidazoles with
+an aminothiazole linker (C ring). 19 SGSMs
+were synthesized utilizing specific heterocycle substitutions replacing
+the phenyl B rings and D rings of the AGSMs to improve aqueous solubilities
+while retaining good potencies. Twenty structurally related SGSMs
+were synthesized and characterized using the assays described and
+depicted in Table 1 and Figure 2 . ClogP values as low as 3.3 and as high as 5.7 were calculated
+for the 20 SGSM compounds. Kinetic solubility measurements using the
+chemiluminescent nitrogen detection (CLND) method from DMSO stock
+solutions were very similar between those performed at pH 6.6 or 7.4.
+In addition, kinetic solubility measurements for several SGSM compounds
+were conducted using an ultraviolet (UV) detection method. In the
+few circumstances where UV detection and CLND methods were compared
+(compounds 31 , 36 , and 38 ),
+UV detection gave slightly lower estimates of kinetic solubility than
+did the CLND method (Table 1 ). In summary,
+the various B ring and D ring heterocycle substitutions resulted in
+compounds containing a broad spectrum of kinetic solubilities ranging
+from 18.4 to ≤1.6 μM (the lower limit of detection for
+the UV method). The vast majority had kinetic solubilities (regardless
+of the method of detection) significantly higher than those of the
+AGSM series.
+
+Schematic illustration of the key structural features
+of AGSMs
+vs SGSMs. Synthesis of SGSMs was achieved by replacing the phenyl
+D ring and/or B ring of AGSMs with a variety of different heterocycles.
+
+Representative concentration response curves
+depicting effects
+of two SGSMs (compounds 36 and 49 ) on steady
+state levels of specific Aβ peptide variants and total Aβ
+peptide levels secreted by SHSY5Y-APP cells treated for 24 h with
+various concentrations of either SGSM 36 , SGSM 49 , or vehicle (DMSO). Individual Aβ peptide variants
+(Aβ42, Aβ40, and Aβ38) and total Aβ peptide
+levels were quantitated using MesoScale Sector 6000 multiplex technology
+and sandwich ELISAs, respectively. IC 50 values were derived
+using four-parameter fit nonlinear regression analyses.
+
+The various B ring and D ring substitutions
+also led to a wide range of potencies for the inhibition of Aβ42
+production. These IC 50 values were determined with highly
+reproducible cell-based assays utilizing a human SHSY5Y neuroblastoma
+cell line stably overexpressing the wild-type human APP751 amino acid
+isoform (SHSY5Y-APP) 19 and were derived
+from 10-point concentration response curves (in duplicate at each
+concentration) using a four-parameter fit nonlinear regression analysis
+following a 24 h treatment with either compound or vehicle. The assays
+were required to demonstrate a Z ′ score of
+≥0.5 and to have a test–retest reliability with an r 2 of ≥0.75 for the 20 SGSM compounds
+representing a broad range of potencies (IC 50 values for
+inhibiting the production of Aβ42 ranging from ∼1.3 μM
+to 30 nM).
+
+The structure–activity relationships (SARs)
+with respect to the heterocycle substitutions in the D ring, for compounds
+containing a fluorophenyl B ring (compounds 28 , 46 , 48 , and 36 ), showed that substitution
+of either an ethyl ( 36 ), n -propyl ( 48 ), or isopropyl ( 46 ) group for the methyl group
+( 28 ) at position 1 of the pyrazole D ring led to a 3-fold
+increase in potency (compare compound 28 to compounds 36 , 46 , and 48 ). These same pyrazole
+D ring substitutions did not have any effects on potencies for compounds
+containing the methoxyphenyl B ring (compare compounds 43 , 29 , 45 , and 37 ).
+
+Briefly,
+in terms of the B ring SAR, for compounds containing the
+3- tert -butyl-1-ethylpyrazole D ring ( 38 , 35 , 37 , and 36 ), introduction
+of a fluoro group at position 2 of the phenyl B ring (compare 36 to 35 ) led to a 2–3-fold increase in
+potency; introduction of a methoxy group at position 2 of the phenyl
+B ring led to a <2-fold increase in potency (compare 37 to 35 ). Alternatively, substituting the phenyl B ring
+with the 2-pyridyl ring (compare 38 to 35 ) caused a >2-fold loss of potency. A similar B ring substitution
+pattern in terms of effects on potency held for compounds containing
+the 2-ethyl-tetrahydro-indazole D ring (compare compounds 42 , 39 , and 40 ; potency for the fluorophenyl 40 > phenyl 39 > pyridyl 42 ). However,
+the most striking effect on potency in terms of B ring substitution
+was achieved by replacing the phenyl B ring ( 39 ) with
+a 2-methoxy 3-pyridyl B ring ( 49 ). This led to a >10-fold
+increase in potency.
+
+Regardless of compound potency, there was a consistent relationship
+between the IC 50 values for Aβ42 and Aβ40 in
+the SHSY5Y-APP cell-based assay using ELISAs for Aβ42 and Aβ40 19 or the MesoScale multiplex ELISA used herein.
+Interestingly, via comparison of the IC 50 values for decreasing
+the level of Aβ42 (in Table 1 , compounds
+are listed in order of increasing potency based on IC 50 values for decreasing the level of Aβ42) and the IC 50 values for decreasing the level of Aβ40, IC 50 values
+for decreasing the level of Aβ42 are significantly more potent
+(∼3–5-fold). This is consistent across a range of IC 50 values extending from the least potent compound 42 (Aβ42 IC 50 = 1275 ± 92 nM) to the most potent
+compound 49 (Aβ42 IC 50 = 30 ± 6
+nM). The IC 50 ’ values for decreasing the level of
+Aβ40 for this same series of SGSMs also defined a wide range
+of potencies extending from the least potent compound 42 (Aβ40 IC 50 = 4125 ± 1534 nM) to the most potent
+compound 49 (Aβ40 IC 50 = 104 ±
+4 nM). This relationship is well-illustrated for the two most potent
+SGSMs, compounds 49 and 36 (Figure 2 ). These data suggest that this series of aminothiazole-bridged
+heterocycle-containing methylimidazoles impact enzyme activity differently
+with respect to cleavage events leading to Aβ42 and Aβ40.
+Remarkably, the discrepancy between Aβ42 and Aβ40 potencies
+was not seen with respect to the EC 50 values for the potentiation
+of Aβ38 and the relationship between the concentrations of these
+SGSMs required for decreasing the level of Aβ42 and those required
+for the potentiation of Aβ38. Importantly, all of the SGSMs
+within this series maximally increased the levels of Aβ38 approximately
+1.5–3-fold. In general, there was more variability with respect
+to measuring levels of Aβ38 in this multiplex ELISA, especially
+at the lower SGSM concentrations compared to those of Aβ42 (see
+Figure 2 ). For example, compound 49 , the most potent SGSM based on Aβ42 inhibition, displayed
+an EC 50 for potentiating Aβ38 (305 ± 54 nM)
+that was 10-fold higher than its IC 50 for inhibiting Aβ42
+(30 ± 6 nM). Alternatively, compound 46 potentiated
+Aβ38 with an EC 50 (131 ± 11 nM) that was very
+similar to its IC 50 for inhibiting Aβ42 (121 ±
+9 nM).
+
+We used MALDI-TOF to evaluate the effects of these two
+molecules on Aβ peptide variant levels at each of their respective
+IC 50 values (for inhibiting Aβ42) using the conditioned
+medium from SHSY5Y-APP cells treated for 24 h to comprehensively assess
+their effects on Aβ peptide variants at these concentrations
+(Figure 3 ). MALDI-TOF analysis, though semiquantitative,
+showed good agreement with the multiplex ELISAs. As expected, both
+compounds 49 and 46 substantially lowered
+Aβ42 levels at concentrations near their IC 50 values
+(30 and 150 nM for compounds 49 and 46 ,
+respectively). Both compounds also increased the levels of Aβ34
+and Aβ33, and neither had a comparable effect on the level of
+Aβ40 or Aβ39 at these concentrations (although compound 49 did lower the levels of Aβ40 only slightly at a concentration
+of 30 nM). Interestingly, at 30 nM, compound 49 significantly
+increased the level of Aβ37 to a greater extent than it did
+the level of Aβ38. This was not the case for compound 46 , which when tested near its IC 50 increased the
+level of Aβ38 more so than it did that of Aβ37. Whether
+differential effects on other Aβ peptide variants (e.g., Aβ37)
+can explain differences between the IC 50 for Aβ42
+inhibition and the EC 50 for Aβ38 potentiation for
+compounds such as 49 is unknown at this time but does
+offer an interesting possibility. For example, for compound 49 , the EC 50 for Aβ37 potentiation may be
+closer to the IC 50 for decreasing the level of Aβ42
+than is the EC 50 for the potentiation of Aβ38. However,
+because of the lack of a robust Aβ37 ELISA, we could not make
+this determination at this time. For the nine most potent compounds,
+in terms of decreasing the level of Aβ42 (IC 50 values
+of ≤200 nM), all enhanced Aβ38 generation at EC 50 values above their corresponding Aβ42 IC 50 values
+(see Table 1 ); however, a few of these, including
+compound 46 , had EC 50 values for Aβ38
+that were very near their corresponding Aβ42 IC 50 values. Interestingly, previous studies investigating the equilibrium
+between Aβ42 inhibition and Aβ38 potentiation in cell-based
+assays overexpressing a number of different FAD-linked PS1 mutations
+and the effects of NSAID-like carboxylic acid-containing GSMs on decreasing
+the level of Aβ42 versus Aβ38 potentiation clearly demonstrated
+that these two activities are not coupled, 23 yet those compounds described herein with IC 50 values
+for decreasing the level of Aβ42 that are the same as their
+EC 50 values for potentiating Aβ38 raise the possibility
+that they could be.
+
+(A) Immune precipitation–MALDI-TOF analysis of
+Aβ
+peptide variants in conditioned medium of SHSY5Y-APP cells following
+a 24 h treatment with either the DMSO vehicle (top) or SGSM 49 at a concentration of 30 nM (bottom). (B) Immune precipitation–MALDI-TOF
+analysis of Aβ peptide variants in conditioned medium of SHSY5Y-APP
+cells following a 24 h treatment with either the DMSO vehicle (top)
+or SGSM 46 at a concentration of 150 nM (bottom). The
+Aβ12–28 internal standard (i.s.) was used as the immune
+precipitation loading control.
+
+We also assessed the effects of the two most potent SGSMs
+(compounds 49 and 36 ) on total Aβ
+peptide levels using
+a sandwich ELISA that detects total Aβ peptides provided they
+contain the first six amino acids of the Aβ peptide motif (Figure 2 ). When SHSY5Y-APP cells were treated (for 24 h)
+with increasing amounts of each compound over a broad range of concentrations
+(100 pM to 10 μM), they failed to elicit a change in total Aβ
+peptide levels. While levels of Aβ42 and Aβ40 were reduced
+in a concentration-dependent manner, Aβ38 levels increased to
+a maximum that was approximately 2.5–3-fold greater than that
+of vehicle-treated cells in a concentration-dependent manner for these
+two compounds.
+
+It was also critical to assess whether these SGSMs had any effect
+on γ-secretase-mediated proteolysis of the Notch 1 receptor.
+We utilized three different assays to fully evaluate this. The first
+was cell-based and utilized human H4 neuroglioma cells overexpressing
+both the APP751 isoform and the NΔE Notch 1 receptor construct.
+We used the dipeptidic carboxamide GSI, DAPT, as a positive control
+and treated cells with increasing concentrations of either DAPT, SGSM 49 , or vehicle for 24 h. For the DAPT-treated cells (Figure 4 ), inhibition of the Notch intracellular domain
+(NICD) occurred at concentrations as low as 300 nM (the lowest concentration
+tested). Alternatively, in the SGSM 49 -treated cells
+(Figure 4 ), there was no inhibition of NICD
+generation, even at concentrations as high as 20 μM, which is
+almost 1000-fold higher than its IC 50 for inhibiting Aβ42
+production in these very same cells (data not shown). In the SGSM 49 -treated cells, we did observe a slight decrease in the
+level of NICD generation at a concentration of 30 μM; however,
+at this extremely high concentration, we also observed a decrease
+in holo-APP and β-actin levels that was supported by toxicity
+measurements at this very high concentration (data not shown). These
+latter findings suggest a toxic effect rather than inhibition of γ-secretase-mediated
+ε-site proteolysis. In addition, the lack of an effect of SGSM 49 on the accumulation of APP-CTFs (Figure 4 ) is consistent with the lack of effect on NICD production
+and further demonstrates the fact that SGSM 49 does not
+affect the ability of γ-secretase to perform ε-site cleavages
+of either of these substrates.
+
+Stable H4 human neuroglioma cells overexpressing
+human APP751,
+or H4-APP751 cells, were transfected with the NΔED construct
+(top panel, lanes 1–12) and then treated with either vehicle
+(lanes 1 and 7), DAPT (lanes 2–6), or SGSM 49 (lanes
+8–12) for an additional 24 h. Cells were harvested 48 h post-transfection,
+processed, and subjected to Western blotting analysis. The Myc antibody
+was utilized to assess the NΔED and NICD tagged with Myc at
+their N-termini (top). APP (second panel from top) and C99 and C83
+APP-CTFs (bottom two panels) were probed with the APP carboxyl-terminal
+antibody (A8717). The bottom panel included a longer exposure to visualize
+the C99 (APP β-CTFs). β-Actin (middle) was utilized as
+the loading control.
+
+We confirmed that SGSM 49 did not inhibit γ-secretase-mediated
+ε-site proteolysis using both a cell-free HeLa cell membrane in vitro γ-secretase assay and a reconstituted γ-secretase
+assay with highly purified tandem affinity-purified (TAP) γ-secretase
+subunits (Figure 5 ). In both systems (Figure 6 ), SGSM 49 effectively inhibited cleavage
+of a truncated, biotinylated APP artificial substrate (Sb4) 21 at the Aβ42 cleavage site with IC 50 values in the single-digit nanomolar range (IC 50 values of 6 and 7 nM for the HeLa membrane and TAP γ-secretase
+assays, respectively). SGSM 49 was slightly less efficacious
+at inhibiting γ-secretase-mediated cleavage at the Aβ40
+site (IC 50 values of 37 and 132 nM for the HeLa membrane
+and TAP γ-secretase assays, respectively) yet required concentrations
+that were 200–400 times higher to inhibit cleavage of a truncated,
+biotinylated Notch 1 receptor artificial substrate (N1-Sb1) 22 at the NICD cleavage site by 50% [IC 50 values of 2042 and 1423 nM for the cell-free HeLa membranes and
+TAP γ-secretase assays, respectively (Figure 6 )]. Collectively, these studies demonstrate that SGSM 49 is “notch sparing” and apparently unable
+to affect γ-secretase-mediated proteolysis at the ε-sites
+at concentrations required to affect γ-secretase-mediated proteolysis
+at γ-sites.
+
+Silver staining of TAP γ-secretase subunit purification:
+bovine serum albumin (BSA), 500 ng (lane 1); molecular mass markers
+(lane 2), with masses in kilodaltons given at the left; purified γ-secretase
+components (lane 3), indicated at the right. Note that PS1 NTF has
+a higher than expected mass because of the presence of the calmodulin
+binding peptide tag (CBP). The faint band for Pen 2 is due to its
+known low affinity for silver stain. 19 Aph1a
+and PS1-CTF comigrate. Nicastrin (NCT), calmodulin binding peptide-tagged
+PS1 N-terminal fragment (CBP-PS1 NTF), anterior pharynx defective
+1 homologue A (Aph1a), PS1 carboxyl-terminal fragment (PS1-CTF), and
+presenilin enhancer 2 (Pen 2).
+
+Concentration response curves of SGSM 49 for the inhibition
+of Aβ42 (blue), Aβ40 (red), and NICD (green) in a HeLa
+cell membrane (left) or in TAP reconstituted γ-secretase subunits
+(right) during in vitro γ-secretase assays.
+IC 50 values were derived using four-parameter fit nonlinear
+regression analyses.
+
+Finally, we conducted
+experiments aimed at discerning whether SGSM 49 was capable
+of modulating Aβ peptide variant production in a cell-based
+assay harboring a missense mutation in PS1 (M146L). In these experiments,
+two different cell lines (CHO-APP wt/PS1 and CHO-APP M146L/PS1) were
+utilized. Ten-point concentration response curve experiments were
+conducted exactly like those performed using the human SHSY5Y-APP
+cell line. In the experiment involving the CHO-APPwt/PS1M146L cells,
+SGSM 49 was essentially as effective at inhibiting Aβ42
+(IC 50 = 47 ± 5 nM) and Aβ40 (IC 50 = 103 ± 4 nM) and at potentiating Aβ38 (EC 50 = 499 ± 203 nM) as the wild-type CHO-APPwt/PS1wt cells (Aβ42
+IC 50 = 47 ± 17 nM; Aβ40 IC 50 = 130
+± 35 nM; Aβ38 EC 50 = 646 ± 326 nM) and
+the human SHSY5Y-APP751 cell line (Aβ42 IC 50 = 30
+± 6 nM; Aβ40 IC 50 = 104 ± 4 nM; Aβ38
+EC 50 = 305 ± 54 nM) (Figure 7 ).
+
+## Discussion
+Since the recent demise of the GSIs, γ-secretase
+modulation
+via GSMs has attracted the majority of the attention in terms of exploiting
+γ-secretase as a therapeutic target for AD. 24 GSMs can be broken down into two basic classes of molecules:
+(1) NSAID-derived GSMs and (2) non-NSAID-derived GSMs. 24 The original series of non-NSAID-derived GSMs
+were recently shown to be capable of effectively attenuating β-amyloid
+deposition in a transgenic mouse model of AD following chronic administration. 19 These small molecules are aryl aminothiazole
+GSMs (AGSMs) and have the general structure schematically depicted
+in Figure 1 . The most potent of these are very
+lipophilic in character with very poor aqueous solubilities. This
+particular scaffold has been the basis of a large number of medicinal
+chemistry investigations that have focused mostly on C ring substitutions. 24 We attempted to identify permissive heterocycle
+substitutions of the phenyl B and D rings in the hope of attaining
+more aqueously soluble molecules while retaining the excellent potencies
+of some of those from the original AGSM series. 19 We were able to synthesize and characterize 20 SGSM compounds;
+nine of these had IC 50 values of <200 nM (for inhibiting
+Aβ42 production) with kinetic solubilities ranging from <1.6
+to 18.4 μM. All 20 of these SGSM molecules, regardless of their
+potency for inhibiting Aβ42, had the same profile with respect
+to their effects on Aβ peptide variant production. They consistently
+inhibited Aβ42 with potencies much better than those for inhibition
+of Aβ40, and they enhanced the production of Aβ38 with
+potencies that were highly variable. This profile of inhibiting Aβ42
+much more effectively than Aβ40 would seem to be ideal for a
+disease-modifying AD drug. 20 This is based
+on a large number of observations involving both early onset familial
+AD (EOFAD) 9 , 23 and the more common sporadic late-onset
+form of AD 8 that denote the pathogenic
+character of the Aβ42 peptide variant. In terms of EOFAD resulting
+from missense mutations in one of three genes ( APP , PSEN1 , and PSEN2 ), the vast majority
+of these genetic mutations cause an increase in the Aβ42/Aβ40
+ratio. 25 A pivotal study utilizing transgenic
+mice expressing fusion proteins between the BRI protein and either
+Aβ42 or Aβ40 demonstrated that Aβ42 was essential
+for both parenchymal and vascular amyloid deposition. 26 This latter study also showed that overexpression of Aβ40
+in a well-characterized AD transgenic mouse model (Tg2576) caused
+a reduction in the extent of amyloid pathology and that overexpression
+of Aβ42 increased the extent of amyloid pathology in the same
+model. 26 The large disparity between the
+ability of the SGSMs described here to inhibit Aβ42 versus Aβ40
+would seem to be desirable, and one would be expected to be able achieve
+dosing regimens that would allow selective inhibition of Aβ42
+without affecting the levels of Aβ40 and therefore effectively
+reversing the biochemical phenotype (increased Aβ42/Aβ40
+ratio) elicited by the large number of EOFAD-linked mutations.
+
+The most potent of these SGSM compounds, 49 , contained
+a methylimidazole A ring, a methoxypyridyl B ring, an aminothiazole
+C ring, and a 2-ethyl-terahydro-indazole D ring. This compound inhibited
+Aβ42 in the SHSY5Y-APP cell-based assay with an IC 50 of 30 ± 6 nM, while the IC 50 for inhibiting Aβ40
+was >3-fold higher (IC 50 = 104 ± 4 nM). This compound
+was also studied in a number of additional assays, including MALDI-TOF
+mass spectrometry to assess its effects on total Aβ peptide
+production, the ability to inhibit Notch 1 receptor proteolysis, APP
+ε-site proteolysis, the ability to modulate γ-secretase
+in cell-free and purified enzyme assays, and the ability to modulate
+γ-secretase in cell-based assays harboring a missense mutation
+in PS1.
+
+As expected, compound 49 , although able
+to effectively
+inhibit the production of Aβ42 and Aβ40 (much less effectively),
+was able to potentiate the generation of Aβ38 yet was unable
+to affect total Aβ levels over a broad range of concentrations
+(100 pM to 10 μM). MALDI-TOF analysis demonstrated that when
+SHSY5Y-APP cells were treated with 30 nM compound 49 (the
+IC 50 for inhibiting Aβ42 in this SHSY5Y-APP cell-based
+assay) there was a decrease in the levels of Aβ42; a slight
+decrease in the levels of Aβ40; an increase in the levels of
+Aβ38, Aβ34, and Aβ33; and a considerable increase
+in the levels of Aβ37. This particular Aβ variant profile
+is distinct from that elicited by the NSAID-like carboxylic acid-containing
+GSMs, such as GSM-1; 27 however, it is very
+similar to the profile generated through treatment of cells overexpressing
+APP by the original AGSM series, 19 although
+that series of AGSMs did not demonstrate the ability to increase the
+levels of the shorter Aβ variants Aβ34 and Aβ33.
+Upon comparison of Aβ profiles elicited by a large number of
+different GSMs from multiple chemotypes, it appears that there is
+considerable diversity, even when examining molecules within the same
+structural class (e.g., methylimidazole-containing GSMs or phenylacetic
+acid-containing GSMs). 10
+
+Upon rigorous
+evaluation of the ability of compound 49 to inhibit γ-secretase-mediated
+proteolysis of the Notch 1
+receptor by implementing cell-based, cell-free, and purified γ-secretase
+subunit-containing reconstituted enzymatic assays, it is clear that
+this molecule has a very limited liability in this regard. This notch-sparing
+feature appears to be a general property of GSMs of all structural
+classes that is not shared by GSIs. 7 , 10 , 19 , 28 The cell-based assay
+utilizing H4 glioma cells overexpressing both APP and the NΔE
+truncated Notch 1 receptor construct also demonstrated that compound 49 had no effect on ε-site proteolysis of APP, even
+at concentrations ∼1000-fold greater than its IC 50 for inhibiting Aβ42 production in the H4 glioma cell-based
+assay system. When compound 49 was tested for the ability
+to inhibit γ-secretase-mediated proteolysis in both cell-free
+and reconstituted TAP-purified γ-secretase subunit enzyme assays
+using artificial substrates for both APP (Sb4) and Notch (N1-Sb1),
+a similar disparity was observed between the ability of compound 49 to inhibit production of Aβ42 versus Aβ40 and
+the ability to inhibit Aβ42 versus the ability to inhibit NICD
+production. Although the IC 50 values were lower in these
+assays than the corresponding IC 50 values in the cell-based
+assay systems, the same general rank order of potencies held (i.e.,
+compound 49 inhibited the production of Aβ42 ≫
+Aβ40 ≫ NICD).
+
+Compound 49 was also
+tested for the ability to modulate
+γ-secretase activity in cell-based assay systems harboring a
+missense mutation in PS1 (M146L). Previous studies have determined
+that although cell-based assays overexpressing APP mutations respond
+to first-generation NSAID GSMs, cell-based assays overexpressing PS1
+mutations for the most part do not. 27 , 29 Alternatively,
+second-generation NSAID-like phenylacetic acid-containing GSMs, such
+as GSM-1, for the most part are able to modulate Aβ peptide
+production in cell-based assays harboring PS1 mutants in a pattern
+similar to how they affect cell-based assays harboring wild-type PS1
+(selectively decreasing Aβ42 levels and selectively increasing
+Aβ38 levels). 27 However, when tested
+against the G384A PS1 mutant, GSM-1 effectively lowered Aβ42,
+Aβ40, and Aβ37 (thus removing the Aβ42 selectivity).
+Other notable exceptions were the PS1 mutants L166P and N135S that
+were resistant to inhibition of Aβ42 by GSM-1; however, GSM-1
+was able to cause increases in Aβ38 levels in these same PS1
+mutant-expressing cell lines. 27
+
+Compound 49 was tested against a mutant-harboring
+cell line (PS1M146L), and it behaved the same as it did in the corresponding
+wild-type PS1-expressing cell lines with respect to the effects on
+Aβ42 and Aβ40; Aβ38 levels were increased approximately
+1.5-fold following treatment with compound 49 . Previous
+studies demonstrated that a compound termed “TorreyPines”,
+a first-generation AGSM with a distinct scaffold similar to that of
+compound 49 , however, with a potency for inhibiting Aβ42
+much lower in our hands than that of compound 49 , when
+tested against a large number of PS1 mutants, including both FAD-linked
+and synthetic or artificial mutations (P117L, N135I, M146L, L166P,
+M233V, Y256S, ΔE9, L383W, and G384A), was able to increase Aβ38
+levels in all of the PS1 mutant-harboring cell lines (as was the case
+with GSM-1) and inhibited Aβ42 production in all except the
+N135I and L166P PS1 mutant-expressing cell lines. 27 Another methylimidazole-containing GSM with a cinnamide
+linker (as opposed to an aminothiazole C ring) termed “Eisai”
+behaved like the “TorreyPines” compound in that study. 27 However, those carefully performed experiments
+utilized a cell-based assay system encompassing HEK cells overexpressing
+the various PS1 mutants as well as human APP harboring a “Swedish”
+mutation to provide optimal amounts of the βCTF (β-carboxyl-terminal
+fragment of APP) substrate for γ-secretase, 27 and it has been shown that increased levels of βCTF
+can further augment the Aβ42/Aβ40 ratio. 30 Perhaps cell-based assay systems utilizing human neurons
+differentiated from iPSC cell lines derived from FAD patient fibroblasts
+may provide a more accurate assay system for evaluating whether transgenic
+animals and ultimately patients carrying certain PS1 mutations will
+respond to a given GSM chemotype. Nonetheless, the previously published
+studies make a strong case for evaluating these molecules against
+FAD-linked mutations in vitro prior to embarking
+on in vivo studies encompassing these various mutations.
+
+The SGSMs described in these studies (aminothiazole-bridged heterocycles)
+appear to work through a mechanism similar to that of the AGSM chemotype
+(aminothiazole-bridged aromates) described previously. 19 This is based on the similarity in Aβ
+profiles generated by treatment of cells overexpressing wild-type
+APP with either of these types of non-NSAID-like GSMs. The only difference
+was the ability of the SGSMs to cause an increase in the shorter Aβ34
+and Aβ33 variants. It is currently unknown precisely how these
+types of GSMs (AGSMs and SGSMs) alter the Aβ peptide profiles.
+A number of photoaffinity labeling studies, 31 including “photophore walking” 22 utilizing a variety photoprobes of different GSM chemotypes,
+competition studies with various GSMs, and the use of clickable probes, 32 , 33 suggest that there are multiple allosteric sites within the catalytic
+PS1-NTF subunit that can accommodate binding of various GSMs 10 (for review).
+
+A recent model describing
+the sequential generation of shorter
+Aβ peptide variants from longer Aβ peptides via successive
+proteolysis or “processivity” 34 has been used to describe one potential mechanism of action of GSMs. 10 , 35 In this model, the GSMs induce a conformational change in the γ-secretase
+catalytic center that inhibits Aβ42 release and allows for Aβ42
+to be proteolytically processed to shorter Aβ peptide variants
+such as Aβ38. The identification of specific tripeptide products
+resulting from carboxy-terminal trimming of the longer Aβ peptides
+clearly provides support for this model, 34 yet another model has been proposed, the independent cleavage model, 10 which postulates that GSMs induce a conformational
+change in the active site of the enzyme (within the PS1-NTF) that
+alters one of the preferred γ-secretase cleavages (preventing
+cleavage at Aβ42 and augmenting cleavage at, e.g., Aβ38).
+The SGSMs described here appear to be much more effective at inhibiting
+cleavage at Aβ42 than inhibiting cleavage at Aβ40. At
+much higher doses (3–5-fold), inhibition of Aβ40 production
+eventually occurs, along with potentiation of Aβ38; however,
+with several of the SGSMs described here, potentiation of Aβ38
+occurred at concentrations much lower than those required for inhibition
+of Aβ40.
+
+MALDI-TOF analysis of SHSY5Y-APP cells treated
+with two different
+types of SGSMs [(1) compound 49 , which inhibited Aβ42
+production with an IC 50 nearly 10-fold lower than its EC 50 for potentiating Aβ38, and (2) compound 46 , which inhibited Aβ42 production with an IC 50 nearly
+identical to its EC 50 for potentiating Aβ38 production]
+revealed that both of these compounds potentiated not only Aβ38
+but also Aβ37, Aβ34, and Aβ33. Interestingly, compound 49 appeared to potentiate Aβ37 to a greater degree than
+Aβ38 upon being tested near its Aβ42 IC 50 (30
+nM); however, this was not the case for compound 46 ,
+which actually augmented Aβ38 to a greater degree than Aβ37
+upon being tested at a concentration near its Aβ42 IC 50 (150 nM). One possible interpretation of these data that could explain
+the apparent disparity between two compounds like 49 and 46 is that for compounds such as 49 that display
+large differences between their Aβ42 IC 50 and their
+Aβ38 EC 50 one or more of the shorter peptides (e.g.,
+Aβ37, Aβ34, and/or Aβ33) are actually potentiated
+at concentrations of SGSMs similar to those required for inhibiting
+Aβ42. Thus, if this proves to be correct, this would support
+the alternative or independent cleavage model in which cleavage at
+Aβ37, Aβ34, and/or Aβ33 takes the place of Aβ42
+cleavage.
+
+Under normal circumstances, Aβ40 is by far the
+most abundant
+product of γ-secretase (γ-site cleavage product), suggesting
+it as the preferred γ-site cleavage. With this in mind, another
+model to consider, especially for most of these SGSMs described here
+(those that inhibit Aβ42 at concentrations much lower than that
+required for either inhibiting Aβ40 or potentiating Aβ38,
+e.g., compound 49 ), is one in which they bind initially
+to a high-affinity site (at relatively low concentrations) that prevents
+cleavage at the Aβ42 γ-site and then at another perhaps
+lower-affinity site (at relatively higher concentrations) that eventually
+reduces the amount of cleavage at Aβ40 and concomitantly promotes
+cleavage at Aβ38, Aβ37, Aβ34, and Aβ33 instead.
+
+Concentration
+response curves displaying differential effects of
+SGSM 49 on steady state levels of specific Aβ peptide
+variants and total Aβ peptide levels secreted by CHO cells overexpressing
+human APP751 and either wild-type human PS1 (left) or a mutant human
+PS1 (M146L) (right) following treatment with either SGSM 49 or vehicle (DMSO). Individual Aβ peptide variants (Aβ42,
+Aβ40, and Aβ38) and total Aβ peptide levels were
+quantitated using MesoScale Sector 6000 multiplex technology and a
+sandwich ELISA, respectively. IC 50 values were derived
+using four-parameter fit nonlinear regression analyses.

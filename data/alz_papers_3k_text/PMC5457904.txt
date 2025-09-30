@@ -1,0 +1,39 @@
+# Title
+Microbes and Alzheimer’s Disease
+
+## EVIDENCE FOR AN INFECTIOUS/IMMUNE COMPONENT
+Viruses and other microbes are present in the brain of most elderly people [ 11 – 13 ]. Although usually dormant, reactivation can occur after stress and immunosuppression; for example, HSV1 DNA is amplified in the brain of immunosuppressed patients [ 14 ].
+
+Herpes simplex encephalitis (HSE) produces damage in localized regions of the CNS related to the limbic system, which are associated with memory, cognitive and affective processes [ 15 ], as well as personality (the same as those affected in AD).
+
+In brain of AD patients, pathogen signatures (e.g., HSV1 DNA) specifically colocalize with AD pathology [ 13 , 16 , 17 ].
+
+HSV infection, as revealed by seropositivity, is significantly associated with development of AD [ 18 – 21 ].
+
+AD has long been known to have a prominent inflammatory component characteristic of infection (reviewed in [ 22 , 23 ]).
+
+Polymorphisms in the apolipoprotein E gene, APOE , that modulate immune function and susceptibility to infectious disease [ 24 ], also govern AD risk (reviewed in [ 25 , 26 ]). Genome-wide association studies reveal that other immune system components, including virus receptor genes, are further AD risk factors [ 27 – 32 ].
+
+Features of AD pathology are transmissible by inoculation of AD brain to primates [ 33 , 34 ] and mice [ 35 , 36 ].
+
+## EVIDENCE FOR CAUSATION
+In humans, brain infection (e.g., by HIV, herpesvirus, measles) is known to be associated with AD-like pathology [ 37 – 42 ]. Historical evidence shows that the clinical and pathological hallmarks of AD occur also in syphilitic dementia, caused by a spirochaete [ 4 ].
+
+In mice and in cell culture, Aβ deposition and tau abnormalities typical of AD are observed after infection with HSV1 [ 43 – 52 ] or bacteria [ 16 , 53 – 55 ]; a direct interaction between AβPP and HSV1 has been reported [ 56 ]. Antivirals, including acyclovir, in vitro block HSV1-induced Aβ and tau pathology [ 57 ].
+
+Olfactory dysfunction is an early symptom of AD [ 58 ]. The olfactory nerve, which leads to the lateral entorhinal cortex, the initial site from where characteristic AD pathology subsequently spreads through the brain [ 59 , 60 ], is a likely portal of entry of HSV1 [ 61 ] and other viruses [ 62 ], as well as Chlamydia pneumoniae , into the brain [ 63 ], implicating such agents in damage to this region. Further, brainstem areas that harbor latent HSV directly irrigate these brain regions: brainstem virus reactivation would thus disrupt the same tissues as those affected in AD [ 64 ].
+
+## GROWING EVIDENCE FOR MECHANISM: ROLE OF Aβ
+The gene encoding cholesterol 25-hydroxylase (CH25H) is selectively upregulated by virus infection, and its enzymatic product (25-hydroxycholesterol, 25OHC) induces innate antiviral immunity [ 65 , 66 ].
+
+Polymorphisms in human CH25H govern both AD susceptibility and Aβ deposition [ 67 ], arguing that Aβ induction is likely to be among the targets of 25OHC, providing a potential mechanistic link between infection and Aβ production [ 68 ].
+
+Aβ is an antimicrobial peptide with potent activity against multiple bacteria and yeast [ 69 ]. Aβ also has antiviral activity [ 70 – 72 ].
+
+Another antimicrobial peptide (β-defensin 1) is upregulated in AD brain [ 73 ].
+
+Regarding HSV1, about 100 publications by many groups indicate directly or indirectly that this virus is a major factor in the disease. They include studies suggesting that the virus confers risk of the disease when present in brain of carriers of the ε 4 allele of APOE [ 74 ], an established susceptibility factor for AD ( APOE ε4 determines susceptibility in several disorders of infectious origin [ 75 ], including herpes labialis, caused usually by HSV1). The only opposing reports, two not detecting HSV1 DNA in elderly brains and another not finding an HSV1– APOE association, were published over a decade ago [ 76 – 78 ]. However, despite all the supportive evidence, the topic is often dismissed as ‘controversial’. One recalls the widespread opposition initially to data showing that viruses cause some types of cancer, and that a bacterium causes stomach ulcers.
+
+In summary, we propose that infectious agents, including HSV1, Chlamydia pneumonia , and spirochetes, reach the CNS and remain there in latent form. These agents can undergo reactivation in the brain during aging, as the immune system declines, and during different types of stress (which similarly reactivate HSV1 in the periphery). The consequent neuronal damage—caused by direct viral action and by virus-induced inflammation—occurs recurrently, leading to (or acting as a cofactor for) progressive synaptic dysfunction, neuronal loss, and ultimately AD. Such damage includes the induction of Aβ which, initially, appears to be only a defense mechanism.
+
+AD causes great emotional and physical harm to sufferers and their carers, as well as having enormously damaging economic consequences. Given the failure of the 413 trials of other types of therapy for AD carried out in the period 2002–2012 [ 79 ], antiviral/antimicrobial treatment of AD patients, notably those who are APOE ε4 carriers, could rectify the ‘no drug works’ impasse. We propose that further research on the role of infectious agents in AD causation, including prospective trials of antimicrobial therapy, is now justified.

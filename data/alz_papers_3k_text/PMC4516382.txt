@@ -1,0 +1,5 @@
+# Title
+Mutations in FUS, an RNA Processing Protein, Cause Familial Amyotrophic Lateral Sclerosis Type 6
+
+# Abstract
+Amyotrophic lateral sclerosis (ALS) is a fatal neurodegenerative disease that is familial in 10% of cases. We have identified a missense mutation in the gene encoding fused in sarcoma (FUS) in a British kindred, linked to ALS6. In a survey of 197 familial ALS index cases, we identified two further missense mutations in eight families. Postmortem analysis of three cases with FUS mutations showed FUS-immunoreactive cytoplasmic inclusions and predominantly lower motor neuron degeneration. Cellular expression studies revealed aberrant localization of mutant FUS protein. FUS is involved in the regulation of transcription and RNA splicing and transport, and it has functional homology to another ALS gene, TARDBP , which suggests that a common mechanism may underlie motor neuron degeneration.

@@ -1,0 +1,5 @@
+# Title
+Complement and Microglia Mediate Early Synapse Loss in Alzheimer Mouse Models
+
+# Abstract
+Synapse loss in Alzheimer's disease (AD) correlates with cognitive decline. Involvement of microglia and complement in AD has been attributed to neuroinflammation, prominent late in disease. Here we show in mouse models that complement and microglia mediate synaptic loss early in AD. C1q, the initiating protein of the classical complement cascade, is increased and associated with synapses before overt plaque deposition. Inhibition of C1q, C3 or the microglial complement receptor CR3, reduces the number of phagocytic microglia as well as the extent of early synapse loss. C1q is necessary for the toxic effects of soluble β-amyloid (Aβ) oligomers on synapses and hippocampal long-term potentiation (LTP). Finally, microglia in adult brains engulf synaptic material in a CR3-dependent process when exposed to soluble Aβ oligomers. Together, these findings suggest that the complement-dependent pathway and microglia that prune excess synapses in development are inappropriately activated and mediate synapse loss in AD.

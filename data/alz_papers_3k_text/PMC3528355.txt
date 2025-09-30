@@ -1,0 +1,5 @@
+# Title
+The Amyloid Precursor Protein has a Flexible Transmembrane Domain and Binds Cholesterol
+
+# Abstract
+C99 is the transmembrane carboxyl-terminal domain of the amyloid precursor protein that is cleaved by γ-secretase to release the amyloid-β polypeptides, which are associated with Alzheimer’s disease. Nuclear magnetic resonance and electron paramagnetic resonance spectroscopy show that the extracellular amino terminus of C99 includes a surface-embedded “N-helix” followed by a short “N-loop” connecting to the transmembrane domain (TMD). The TMD is a flexibly curved α helix, making it well suited for processive cleavage by γ-secretase. Titration of C99 reveals a binding site for cholesterol, providing mechanistic insight into how cholesterol promotes amyloidogenesis. Membrane-buried GXXXG motifs (G, Gly; X, any amino acid), which have an established role in oligomerization, were also shown to play a key role in cholesterol binding. The structure and cholesterol binding properties of C99 may aid in the design of Alzheimer’s therapeutics.

@@ -1,0 +1,5 @@
+# Title
+The sleep-wake cycle regulates brain interstitial fluid tau in mice and CSF tau in humans
+
+# Abstract
+The sleep-wake cycle regulates interstitial fluid (ISF) and cerebrospinal (CSF) levels of amyloid-β (Aβ) that accumulates in Alzheimer disease (AD) and chronic sleep deprivation (SD) increases Aβ plaques. However, tau not Aβ accumulation appears to drive AD neurodegeneration. Therefore, we tested whether ISF/CSF tau and tau seeding/spreading was influenced by the sleep-wake cycle and SD. Mouse ISF tau was increased ~90% during normal wakefulness vs. sleep and ~100% during SD. Human CSF tau also increased over 50% during SD. In a tau seeding and spreading model, chronic SD increased tau pathology spreading. Chemogenetically-driven wakefulness in mice also significantly increased both ISF Aβ and tau. Thus, the sleep-wake cycle regulates ISF tau and sleep deprivation increases ISF and CSF tau as well as tau pathology spreading.

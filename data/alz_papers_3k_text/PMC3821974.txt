@@ -1,0 +1,112 @@
+# Title
+Activation of transposable elements during aging and neuronal decline inDrosophila
+
+# Abstract
+We report the surprising finding that several transposable elements are highly active in Drosophila brain during normal aging. We also show that mutations in Drosophila Argonaute 2 ( dAgo2 ) exhibit exacerbated transposon expression in brain, progressive and age-dependent memory impairment and shortened lifespan. These findings suggest that transposon activation may contribute to age-dependent loss of neuronal function.
+
+## ONLINE METHODS
+The wild type flies utilized in this study were w 1118 (isoCJ1 ), a Canton-S derivative 21 . The dAgo2 mutants and UAS::dAgo2 transgenic strains were backcrossed to the above wild type strain for at least five generations. Flies were cultured in standard fly food and laboratory room temperature (22.5°C). The “gypsy-TRAP” transgenic flies were made by cloning a ~500bp Ovo binding site 15 into the NotI site between Tubulin promoter and GAL80 gene in the Tubp-GAL80 in pCaSpeR4 plasmid. The resulting construct was injected into w1118 (isoCJ1) recipient embryos and transformant lines were isolated by standard procedures at the BestGene, Inc. The mutated “gypsy-TRAP” transgenic flies were made by injecting a similar construct bearing mutations in Ovo binding sites 15 . The MB247 , Repo and Elav - Gal4 lines are as reported previously 22 .
+
+Aversive Pavlovian olfactory task was performed by training flies in a T-maze apparatus using a Pavlovian conditioning paradigm. Approximately 50–100 flies were loaded into an electrifiable training grid. For a single training session, flies were exposed sequentially to one odor (the conditioned stimulus, CS+), which was paired with a 60-volt electric shock and then a second odor (the unconditioned stimulus, CS−) without shock. 2 minutes after this training session, the flies were tested and allowed to choose between the two odors. A half performance index was calculated by dividing the number of flies that chose correctly, minus the flies that chose incorrectly by the total number of flies in the experiment. The same protocol was then performed with another group of 50–100 flies and reciprocal odor presentation. The final PI was calculated by averaging both reciprocal half PIs. The long-term-memory (LTM) experiment was an adaptation of this training protocol. Flies were subjected to ten such training sessions in robotic trainers spaced out with a 15-minute rest interval between each. Flies then were transferred into food vials and incubated at 18 °C until being tested 24 hours after the training. All genotypes were trained and tested in parallel, and rotated between all the robotic trainers to ensure a balanced experiment. Odor pairs and concentrations used for these behavior paradigms are: 3-Octanol (1.5×10 −3 v/v) and 4-Methylcyclohexanol (1×10 −3 v/v), or, 3-Octanol (1.5×10 −3 v/v) and Benzaldehyde (0.5×10 −3 v/v). Pure odors were purchased from Sigma and delivered as the stated concentrations with air flow at 750ml/min. In all cases, behavior experiments within a figure were performed in parallel. Behavioral data are normally distributed and are shown as means ± SEM. One-Way ANOVA and post-hoc analyses were performed.
+
+Lifespan were measured with ~50–150 animals/genotype. Equal numbers of male and female flies were used for each genotype. Survival analyses were performed with the Kaplan-Meier Method. Log-rank test and Gehan-Breslow-Wilcoxon test were used to compare survival curves. Pair-wise comparisons were made with Bonferroni corrections.
+
+The QPCR was performed according to the assay manual. In brief, massive numbers of fly heads were collected for each genotype and total RNA was purified with Trizol (Invitrogen) and treated by DNaseI (Promega). Total RNA concentrations were determined using a NanoDrop ND-1000 spectrophotometer. For the reverse transcription (RT) reaction, each 20μl RT reaction was performed with 2μg total RNA using the High capacity RNA-to-cDNA kit (Applied Biosystems). The QPCR reactions for each assay were carried out in duplicate, and each 20μl reaction mixture included 1μl previous RT products. The QPCR reaction was carried out and analyzed in an Applied Biosystems 7900HT Fast Real-Time PCR System in 96-well plates at 95°C for 10 min, followed by 40 cycles of 95°C for 15 sec and 60°C for 1 min. Linearity tests were performed on all custom designed primers and probes to ensure linearity.
+
+All TaqMan ® Gene Expression Assays (Applied Biosystems) utilized the FAM Reporter and MGB Quencher. TaqMan ® probes for each transcript were designed following the vendor’s custom assay design service manual. The customized gene-specific Taqman probes and inventoried Taqman probes had the following sequences and Assay IDs.
+
+R1-ORF2 (Assay ID AID1TD0, FBgn0003908):
+
+probe: 5′-ACATACGCCATAATCTG-3′
+
+Blood-ORF2 (assay ID AIFARJ8, FBgn0000199)
+
+Probe: 5′-TCGGTGCATAACTTAGTTAGTTCA-3′
+
+GypsyORF2 (Assay ID AI5IO6V, FBgn0001167)
+
+Probe: 5′-AAGCATTTGTGTTTGATTTC-3′
+
+Gypsy4-ORF2 (AID1TGU, FBgn0063433)
+
+Probe: 5′-CCCGATCTGGGTTGTC-3′
+
+ZAM-ORF2 (Assay IDAICSVAM, FBgn0023131)
+
+Probe: 5′-CCCCATGATTAGTCTTTACTG-3′
+
+1731-ORF2 (Assay ID AICSU7S, FBgn0000007)
+
+Probe: 5′-AAGCTGAAGACTGATTTATG-3′
+
+297-ORF2 (Assay ID AI70LJB, FBgn0000005)
+
+Probe: 5′-TTGATCAAACATACAAATTAATTAC-3′
+
+R25 ′ (Assay ID AJ0IV12, FBgn0003909)
+
+Probe: 5′-GAATGCCATTCCAAATGGAGAGCCC-3′
+
+R23 ′ (Assay ID AJY9XVU, FBgn0003909)
+
+Probe: 5′-TAGAAAAATATTGGGCGAACAAGTT-3′
+
+DBV (Assay ID AIV13YJ)
+
+Probe: 5′-CCTATTAGTGATCCGCTCGCG-3′
+
+DTRV (Assay ID AIS07L3)
+
+Probe: 5′-CTTCGATCCGAGGTATGC-3′
+
+DAV (Assay ID AIX00AZ)
+
+Probe: 5′-AAGGTAGTAGGTTACATTTGTC-3′
+
+Sigma V (Assay ID AIWR14R)
+
+Probe: 5′-CCGTAGTCCGATGGTTCC-3′
+
+Nora V (Assay ID AIQJA9N)
+
+Probe: 5′-CTGAGGCTTCTCTTGTTTAAT-3′
+
+DCV (Assay ID AIPAC3F)
+
+Probe: 5′-TTGTCGACGCAATTCTT-3′
+
+DXV (Assay ID AIRR9FV)
+
+Probe: 5′-TCATAGATGATGTCAAATTT-3′
+
+ANV (Assay ID AIT95SB)
+
+Probe: 5′-CAGACAATTTCTCAGAATCAT-3′
+
+Act5C (Assay ID Dm02361909_s1)
+
+Loki (Assay ID Dm01811114_g1)
+
+Ago2 (Assay ID Dm01805432_g1 and Dm01805433_g1)
+
+Dcr-2 (Assay ID Dm01821537_g1 and Dm01821540_g1)
+
+~15 adult fly heads per sample were homogenized in 20ul Nupage @ sample loading buffer, heated to 95 °C for 5 min and 10 μl loaded onto Nupage @ 4–12% Bis-Tris gels, then transferred to PVDF membrane (Invitrogen) and blotted by standard protocols. Primary antibodies used were anti-tubulin (1:10,000, E7, Developmental Studies Hybridoma Bank), anti-ENV (1:5000). The WesternBreeze® Chemiluminescent Kit–Anti-Mouse system was used to visualize the blotted bands on films.
+
+In order to remove virus infection in fly stocks, 2hr embryos from wild type controls and dAgo2 mutants were collected and treated with 50% bleach 2 times for 20 minutes each. Treated embryos were then grown in a virus free clean room equipped with UV lamps to sterilize surfaces. Expanded fly stocks after bleach treatment are proven to be virus-free. All strains also were grown on a rotating set of 6 antibiotics.
+
+Dissection, fixation, immunolabeling and confocal imaging acquisition were performed as previously described 23 . Ascites containing anti-gypsy ENV monoclonal antibody (mAb) was prepared from the anti-gypsy ENV 7B3 hybridoma cell line 24 . A 1:100 dilution of ENV primary mAb and a 1: 200 dilution of secondary antibody of Cy3-conjugated goat anti-mouse IgG were used. We used 2μM DilC18(5)-DS lipophilic dye solution (Molecular Probes) to label cell membranes throughout the brain as counterstaining. For Env immunolabeling, we imaged multiple brains of each genotype and age. Representative images are shown in figures. Totals numbers imaged for wild type were: 6 (0–4day), 14 (14day), 16 (21–28 day), 4 (70 day). For dAgo2 414 , total number imaged were: 8 (14 day), 7 (21–28 day). For dAgo2-51b, total number imaged were: 5 (0–4 day), 6 (14 day), 6 (21–28 day), 3 (70 day). For dAgo2 454 , total number imaged were 9 (0–4 day), 13 (14 day), 6 (21–28 day).
+
+DNA was extracted from ~300 fly heads of the indicated ages. Standard PCR was preformed in nested fashion with the first round of PCR utilizing primer 1 and 3 followed by a second round of pcr with primer 2 and 4. Primer sequences are listed below. Nested PCR was then run on .9% agarose gel (Sigma) and size was estimated according to 1 kb plus DNA ladder (Invitrogen). The PCR product was then gel purified using illustra GFX PCR DNA and Gel Band Purification Kit from GE Healthcare. The fragment was cloned using the TOPO TA Cloning Kit for sequencing from Invitrogen and sequenced by ELIM BIOPHARM using the Sanger sequencing method. MacVector was used to display sequencing results.
+
+Primers
+
+Primer 1 - CAACTCTGCACCCACGACTA
+
+Primer 3 - CAGCGGAAAGCTGACACTTC
+
+Primer 2 - CACACACCCATGGAATTGAA
+
+Primer 4 - GGCTCATTGCCGTTAAACAT
+
+Behavioral data from the Pavlovian memory task are normally distributed 21 and are shown in all figures as means ± SEM. For these data, one-Way ANOVA and post-hoc analyses were performed. For the life-span curves, survival analyses were performed with the Kaplan-Meier Method. Log-rank test and Gehan-Breslow-Wilcoxon test were used to compare survival curves. Pair-wise comparisons were made with Bonferroni corrections.

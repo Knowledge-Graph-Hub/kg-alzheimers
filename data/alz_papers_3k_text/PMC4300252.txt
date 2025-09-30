@@ -1,0 +1,430 @@
+# Title
+Partial Volume Correction in Quantitative Amyloid Imaging
+
+# Abstract
+Amyloid imaging is a valuable tool for research and diagnosis in dementing
+disorders. As positron emission tomography (PET) scanners have limited spatial resolution,
+measured signals are distorted by partial volume effects. Various techniques have been
+proposed for correcting partial volume effects, but there is no consensus as to whether
+these techniques are necessary in amyloid imaging, and, if so, how they should be
+implemented. We evaluated a two-component partial volume correction technique and a
+regional spread function technique using both simulated and human Pittsburgh compound B
+(PiB) PET imaging data. Both correction techniques compensated for partial volume effects
+and yielded improved detection of subtle changes in PiB retention. However, the regional
+spread function technique was more accurate in application to simulated data. Because PiB
+retention estimates depend on the correction technique, standardization is necessary to
+compare results across groups. Partial volume correction has sometimes been avoided
+because it increases the sensitivity to inaccuracy in image registration and segmentation.
+However, our results indicate that appropriate PVC may enhance our ability to detect
+changes in amyloid deposition.
+
+## 1. Introduction
+Alzheimer’s disease (AD) is the most common form of dementia ( Holtzman et al., 2011 ). The prevalence of AD is expected
+to increase dramatically worldwide over the next 50 years ( Brookmeyer et al., 2007 ). It is well established that the pathological hallmarks
+of AD are amyloid plaques and neurofibrillary tangles ( Holtzman et al., 2011 ). However, the underlying disease mechanisms remain under
+study. There currently are no proven disease-modifying treatments ( Aisen, 2009 ; Aisen et al.,
+2011 ; Doody et al., 2013 ; Huang and Mucke, 2012 ). Evidence suggests that pathological changes
+begin 10 to 20 years before the onset of clinical symptoms ( Bateman et al., 2012 ; Morris and Price,
+2001 ), which implies that successful treatment of AD may require early
+intervention. Hence, validated surrogate biomarkers for AD are needed for the design of
+therapeutic trials in asymptomatic individuals ( Aisen,
+2009 ; Aisen et al., 2011 ).
+
+Positron emission tomography (PET) imaging of beta-amyloid (Aβ) plaques
+with tracers such as [ 11 C]PiB
+(N-methyl-[ 11 C]2-(4-methylaminophenyl)-6-hydroxybenzothiazole)
+( Klunk et al., 2004 ),
+[ 18 F]florbetapir ( Wong et al.,
+2010 ), [ 18 F]florbetaben ( Rowe et al., 2008 ) and [ 18 F]flutemetamol ( Vandenberghe et al., 2010 ), enables in
+vivo measurement of fibrillar Aβ deposition, which provides an early
+indicator of AD pathology. Accurate quantification of Aβ burden is essential to
+better understand disease mechanisms, to develop early diagnostic techniques, and to
+identify suitable surrogate indicators for treatment monitoring.
+
+Partial volume effect (PVE) in positron emission tomography (PET) is a consequence
+of the poor spatial resolution of PET scanners, which typically is 5 to 6 mm
+full-width-half-max (FWHM). Because of PVE, the intensity of a particular voxel reflects the
+tracer concentration not only of the tissue within that voxel but also the surrounding area.
+In addition, PVE depends on the physical size and the shape of a region-of-interest (ROI)
+and its relative contrast with surrounding regions ( Soret et
+al., 2007 ). When PET is used to measure amyloid burden, the impact of PVE becomes
+more complicated. Previous studies indicate that amyloid plaques primarily develop in the
+cortical and subcortical gray matter while the signal observed in white matter mainly comes
+from non-specific binding ( Klunk et al., 2004 ).
+Non-specific PiB binding in white matter would not be a problem if the spatial resolution of
+PET permitted imaging gray matter without partial volume contributions from white matter.
+However, the resolution of PET is only ~5–6 mm. Hence, partial volume effect cannot
+be avoided. Without appropriate partial volume correction (PVC), quantification based on the
+raw PET images yields only a qualitative representation of the amyloid burden, not a
+quantitative one. Only when we apply appropriate PVC can we obtain quantitative measurement
+of amyloid burden. For a simple demonstration please refer to the supplementary material .
+
+Currently, the approach to addressing PVE differs from one group to another and
+there is no consensus regarding whether correction for PVE is necessary and, if so, what
+type of correction should be used. We believe that this uncertainty is attributable to the
+limited understanding of the impact of PVE on quantitative amyloid imaging. In a recent
+longitudinal study ( Villemagne et al., 2011 ), PVC
+increased the estimated regional standard uptake value ratios (SUVRs), but similar trends
+were obtained with and without PVC. The authors elected to not report PVC results to avoid
+potential inaccuracies resulting from segmentation errors ( Villemagne et al., 2011 ). Other groups ( Aizenstein
+et al., 2008 ; Lopresti et al., 2005 ; Lowe et al., 2009 ) use two-component PVC ( Meltzer et al., 1996 ), which defines two types of tissue, i.e.,
+brain and non-brain, and corrects for the underestimation of signal due to PVE caused by
+non-brain tissue. In a comparative study of two- vs. three-component (gray matter, white
+matter, and non-brain) PVC, it was concluded that the two-component method is better because
+it is less sensitive to registration and segmentation errors, although the three-component
+method is capable of more accurate absolute quantification ( Meltzer et al., 1999 ). In contrast, a more recent paper ( Thomas et al., 2011 ) advocates a region-based voxel-wise correction
+method to improve quantitative accuracy.
+
+The goal of this study is to evaluate the impact of PVE on quantitative amyloid
+imaging in both cross sectional and longitudinal studies using simulated and human research
+data. In addition, we specifically examine the impact of individual variability in cortical
+thickness and brain atrophy upon quantification. We also investigate the test-retest
+reliability of PVC attributable to variability in registration and segmentation.
+
+## 2. Methods
+Three cohorts were involved in this study ( Table
+I ). The first cohort included 16 participants recruited from the Knight Alzheimer
+Disease Research Center (ADRC). One of the 16 participants had a CDR score of 0.5 (very
+mild dementia) while the CDR ratings for the rest were 0 (cognitively normal). This cohort
+was studied using a MRI test-retest (MRTRT) design to examine the sensitivity of PVC to
+uncertainty related to MRI images used as anatomical reference. Each participant in the
+MRTRT cohort underwent two separate MR scans on different days, using different MR
+sequences, and on different MR scanners, as described below in the imaging protocol.
+Another MRTRT experiment with anatomical MR acquired twice during the same imaging session
+was described in supplementary 2 .
+The second cohort comprised 74 participants recruited at multiple sites as part of the
+international Dominantly Inherited Alzheimer Network (DIAN) initiative ( Morris et al., 2012 ). The DIAN cohort included only individuals
+known to carry an autosomal dominant mutation leading to early onset AD. The DIAN cohort
+was analyzed to investigate the impact of PVC on cross sectional studies. The estimated
+year-to-onset (EYO) was calculated for each individual in this cohort as the difference of
+the age of mutation carrier at the time of study and the parental age at onset ( Bateman et al., 2012 ). EYO was used as the reference
+indicator of disease stage. The third cohort (LONG) included 42 participants from Knight
+ADRC, studied to investigate the impact of PVC on longitudinal studies. Six participants
+had a baseline CDR score of 0.5 while the rest had a CDR score of 0. Each LONG participant
+had a baseline visit and a follow-up visit at a mean interval of 2.2 years. The LONG
+cohort included only individuals with a baseline mean cortical binding potential (MCBP)
+greater than 0.06, as measured by PiB PET imaging ( Mintun
+et al., 2006 ), to enhance the probability of observing an increase in amyloid
+deposition at the second visit ( Sojkova et al.,
+2011 ). All three cohorts were independent and there was no overlap among the
+cohorts.
+
+All assessment and imaging procedures were approved by Washington
+University’s (WashU) Human Research Protection Office. Written informed consent
+was obtained from all individuals or their care givers. Local institutional review
+boards also approved the collection of scans for archiving and future study at each
+non-WashU study site.
+
+In all cohorts, PET imaging for quantitative estimation of amyloid deposition
+was performed using [ 11 C]PiB, prepared according to the
+published protocol ( Mathis et al., 2003 ). In the
+MRTRT cohort, dynamic PET imaging was conducted for one hour with a Biograph 40 PET/CT
+scanner (Siemens Medical Solutions, Erlangen, Germany) in three-dimensional mode after
+intravenous administration of approximately 12mCi of PiB. The images were reconstructed on
+a 128 × 128 × 109 matrix (2.32 × 2.32 × 2.03 mm voxels)
+using filtered back-projection. Typical dynamic scans had 12 × 10-second frames, 3
+× 60-second frames, and 11 × 5-minute frames. Anatomic MRI were acquired
+with an unaccelerated T1-weighted magnetization-prepared rapid gradient echo (MPRAGE)
+sequence (1 mm isotropic voxels) using a Siemens Trio 3T scanner (Siemens Medical
+Solutions, Erlangen, Germany). In order to assess the sensitivity of PET quantification to
+variability in MRI acquisition, MRI processing (i.e. segmentation), and PET to MRI
+registration, a separate sagittal MPRAGE scan within 2 weeks from the PET/CT session was
+obtained on a Siemens Biograph mMR scanner (Siemens Medical Solutions, Erlangen, Germany)
+using an accelerated 3D Generalized Autocalibrating Partially Parallel Acquisition
+(GRAPPA) sequence with 1.1 × 1.1 × 1.2 mm voxels.
+
+In the DIAN cohort, structural MRI was performed using the Alzheimer’s
+Disease Neuroimaging Initiative (ADNI) protocol ( Jack et
+al., 2010 ; Jack et al., 2008 ). A 3T
+scanner (Philips 3.0 T Achieva scanner (Philip Healthcare, Best, Netherlands) and a
+Siemens Trio 3T scanner was used at all participating sites; the scanners were required to
+pass initial and regular follow-up quality control assessments to insure acquisition
+uniformity. The MRI protocol included an accelerated 3D GRAPPA sequence for MPRAGE
+acquisition same as the sequence used in the MRTRT study on the Biograph mMR. These images
+were screened for artifacts and protocol compliance by the ADNI MR Imaging Core before
+further analysis. For PET imaging, each site underwent an initial evaluation to insure
+compliance with the common PiB PET ADNI protocol. The PET scanners included in this study
+were EXACT 962 HR+ scanner (Siemens Medical Solutions, Erlangen, Germany) or a
+Biograph 40 PET/CT scanner. Dynamic PiB PET acquisition consisted of either a 70-minute
+scan starting at injection or a 30-minute scan beginning 40 minutes post-injection. Only
+full dynamic scans (70-minute) were included in this study. Reconstruction was performed
+using filtered back-projection (128 × 128 × 63 matrix, 2.12 × 2.12
+× 2.43 mm voxels on the HR+ scanner; 128 × 128 × 109
+matrix, 2.32 × 2.32 × 2.03 mm voxels on the Biograph 40 scanner).
+
+The LONG cohort imaging protocol was similar to that of the MRTRT cohort. MPRAGE
+scans were acquired with a Siemens Trio 3T scanner. PiB PET was acquired on an EXACT 962
+HR+ scanner or a Biograph 40 PET/CT scanner. Each LONG participant contributed MRI
+and PET data acquired during initial and follow-up visits.
+
+FreeSurfer v5.1 (Martinos Center for Biomedical Imaging, Charlestown,
+Massachusetts, USA) ( https://surfer.nmr.mgh.harvard.edu/fswiki ) was used to automatically segment
+the brain into various regions (as defined in the wmparc.mgz file, please refer to
+FreeSurfer wiki for the output files from FreeSurfer analysis of the brain). Visual
+inspection of the automated segmentation results was performed for quality assurance
+purposes in all datasets. Corrections were made when necessary according to the FreeSurfer
+manual. Reconstructed PET images were smoothed to achieve a common spatial resolution of
+8mm to minimize scanner differences ( Joshi et al.,
+2009 ). Inter-frame motion correction for the dynamic PET images was performed
+using standard image registration techniques ( Hajnal et
+al., 1995 ) implemented with in-house software ( Eisenstein et al., 2012 ). PET-MR registration was performed using a
+vector-gradient algorithm (VGM) ( Rowland et al.,
+2005 ) in a symmetric fashion (i.e. average transformation for PET->MR and
+inverse of MR->PET was used as the final transformation matrix). Regional time-activity
+curves for each ROI were extracted by resampling the PET data to patient MR space.
+Regional binding potentials (BP ND ) were estimated using Logan graphical
+analysis ( Logan et al., 1990 ) with the cerebellar
+cortex serving as the reference ( Logan et al.,
+1996 ). BP ND calculation was based on the first 60 minutes of data.
+Although the brainstem has been used as the reference region in prior analyses of the DIAN
+cohort ( Bateman et al., 2012 ), the cerebellar cortex
+was used here to obtain consistency across all three cohorts. Mean cortical binding
+potentials (MCBP) ( Mintun et al., 2006 ) were
+calculated based on a selected set of cortical regions ( Su
+et al., 2013 ). The washout rate constant (k 2 ) of the reference region
+(cerebellum) was set to 0.16/minute ( Mintun et al.,
+2006 ). The impact of PVC technique was assessed using BP ND measures
+evaluated in three regions of interest. To assess the impact of different PVC techniques,
+(i) MCBP ( Mintun et al., 2006 ) was examined to
+assess global effects; (ii) precuneus was chosen as representative cortical region with
+known high predisposition to amyloid deposition ( Mintun et
+al., 2006 ); and (iii) putamen was chosen as an example of a subcortical region
+that can have elevated PiB uptake in AD ( Su et al.,
+2013 ).
+
+Two PVC methods were compared in this study. The first method is the
+two-component (PVC2C) approach ( Meltzer et al.,
+1996 ), which is most widely represented in amyloid imaging literature ( Aizenstein et al., 2008 ; Lopresti et al., 2005 ; Lowe et al., 2009 ; Rosario et al., 2011 ). In our implementation, a
+brain tissue mask is generated based on FreeSurfer segmentation, a CSF dilution factor is
+calculated for each region, and the raw time activity curve for each region is corrected
+by this dilution factor before BP ND is calculated. The second method is based
+on computation of the regional spread function (RSF) ( Rousset et al., 2008 ; Rousset et al.,
+1998 ), which has also been extensively applied in PET imaging analysis ( Kim et al., 2013 ; Kuhn
+et al., 2014 ; Le Pogam et al., 2011 ). Our
+implementation of RSF PVC also included additional ROIs outside the brain (hence, not
+defined by FreeSurfer) to account for tracer uptake in non-brain tissue. The combined ROI
+set was used as the basis for RSF PVC, in which a matrix of regional transfer coefficients
+( Rousset et al., 1998 ) was calculated using the
+ROI map and an 8-mm FWHM Gaussian smoothing kernel. Corrected ROI values were calculated
+by solving a linear system relating regional transfer coefficients to observed regional
+values ( Eq. 1 ): (1) O = W ∗ T where, O is a column vector corresponds to
+the observed regional mean intensity for n ROIs, and T is a column vector representing the true intensity values in regions 1 to n . Each element ( w ij ) in the matrix W on the right hand side of Eq.
+1 is a regional transfer coefficient that determines the signal spillover from
+region i to region j . In other words, PVC2C performs the
+correction by scaling the regional measurement by a pre-computed correction factor which
+only depends on the scanner point spread function and relative location of the voxel/ROI
+to the boundary. These correction factors ignore gray-white contrast and therefore remain
+constant throughout a dynamic scan. On the other hand, after RSF PVC correction, the
+corrected/uncorrected ratio takes into account the local contrast which changes over time.
+Because of this difference the PVC2C only changes the magnitude of a TAC while the
+RSF-based PVC restore both the shape and magnitude of a TAC, two attributes that
+ultimately determine the estimated binding parameters at each voxel or region.
+
+Simulation was conducted to evaluate the impact of brain atrophy and partial
+volume effects on amyloid imaging quantification. The procedure for generating simulated
+PiB PET imaging data was similar to that previously described ( Su and Shoghi, 2008 ) and is summarized in Figure 1 . MR images of six participants with different cortical
+thicknesses (2.3–2.8mm), as measured using FreeSurfer, were chosen from our Knight
+ADRC cohort (see Fig 2A and 2B as an example). To
+generate simulated dynamic PET data, each region was assigned a time-activity curve (TAC)
+similar to Fig 2C . These TACs were obtained from
+actual patient data with 5 different level of amyloid load as measured by PiB PET imaging.
+After assignment of regional TACs, an example frame was shown in Fig. 2D . An 8mm FWHM Gaussian kernel was used to smooth the
+simulated data ( Fig. 2E ). Noise was added to the PET
+data in sinogram space ( Su and Shoghi, 2008 ).
+Poisson distributed noise was added and the magnitude of the noise is controlled by the
+counts, which was calibrated to the typical counting statistics of our patient imaging
+data. The sinogram were then reconstructed using filtered back-projection (FBP) technique.
+FBP based reconstruction was also performed on the noiseless version of the sinogram data
+and the difference between the reconstructed images created with and without sinogram
+noise was calculated as the noise image. The noise image is added back to the original
+simulated noiseless imaging data ( Fig. 2E ) to
+generate the final simulated PiB PET data ( Fig. 2F ).
+This procedure is to ensure the simulated PET image indeed has 8mm resolution while also
+has realistic imaging noise. A total of 30 simulated dynamic PET datasets were created for
+different combinations of MR and PET. To simulate longitudinal studies, a follow up MRI
+scan more than a year apart of the same participant from three of the six subjects was
+also used to create additional simulations to evaluate the impact of atrophy.
+
+One concern in applying MRI-based PVC techniques in quantitative PET is that
+variability related to MRI acquisition and processing may propagate to the final
+correction and increase noise ( Frouin et al., 2002 ; Zaidi et al., 2006 ). To examine this issue, a MR
+test-retest study was performed in the MRTRT cohort, in which each participant underwent
+two separate MPRAGE scanning using different scanners, MR sequences, and on different
+days. Quantification with and without PVC was performed using these two MPRAGE images with
+the same PET scan. Each image was independently segmented by FreeSurfer and co-registered
+with the PiB PET. A mean test-retest variability measurement was calculated for each
+region with and without PVC according to Eq.
+2 : (2) R B P % = 1 N ∑ i | B P NDi 1 - B P NDi 2 | 1 + B P NDi 1 × 100 % , where N is the total number of participants (16); i indexes participant; BP NDi1 was calculated based on MPRAGE
+acquired on the Trio scanner; and BP NDi2 was calculated based on MPRAGE
+acquired on the mMR scanner. In addition, a volumetric variability measurement was also
+calculated for each region based on the repeated MPRAGE and FreeSurfer outputs following Eq. 3 : (3) R VOL % = 1 N ∑ i | VOL i 1 - VOL i 2 | VOL i 1 × 100 % , where VOL i1 and VOL i2 are the volumes in each FreeSurfer region obtained
+from Trio and mMR scans respectively, indexed by participant ( i ).
+
+## 3. Results
+The simulation study demonstrated that, without PVC, lower cortical thicknesses
+led to a greater underestimation of the binding potential for both global (MCBP) and local
+measurements ( Fig. 2 ). This outcome is expected on
+the basis of PVE principles. The estimated binding potential without PVC positively
+correlated with cortical thickness. The slope of the linear relationship, as calculated by
+linear regression of BP ND vs. thickness, increased with increasing amyloid
+load. For each millimeter loss in cortical thickness, the estimated MCBP was reduced by
+0.11 to 0.24, depending on the underlying amyloid load. The estimated precuneus binding
+potential was reduced by 0.21 to 0.43 for each mm loss in precuneus thickness. Both PVC
+techniques corrected the estimated binding potentials so that BP ND remained
+constant across different cortical thicknesses. However, the PVC2C method differentially
+underestimated the “true” binding potential depending on amyloid burden.
+This underestimation was minimal at low amyloid load and large at high amyloid load. The
+impact of PVE was greater in high Aβ regions such as the precuneus as compared to
+global measures.
+
+Similar partial volume effect was observed in the simulated longitudinal data
+( Fig. 3 ). PiB binding was modeled as constant over
+both time points. In general, without PVC, the estimated binding potentials decreased with
+decreasing cortical thickness and this effect was more pronounced at higher amyloid loads.
+Underestimation of MCBP ranged from 0.14 per millimeter decrease in cortical thickness at
+low amyloid load to 0.36 per millimeter decrease in cortical thickness at high amyloid
+load. The slope of decrease for the precuneus BP ND ranged from 0.27 per
+millimeter decrease in cortical thickness to 0.61 per millimeter decrease in cortical
+thickness. Therefore, it is possible to observe false decreases in BP ND if PVC
+is not performed when atrophy occurs during longitudinal studies. Both PVC techniques
+reduced the impact of PVE but the RSF technique was more stable.
+
+The MRTRT dataset showed low variability in estimated BP ND ( Table II ). For MCBP, the average
+R BP % was 1.57±1.01% without PVC,
+1.41±2.13% using PVC2C and 2.09±1.78% using RSF PVC. In
+comparison, the variability for FreeSurfer ROI volumes was greater than ~2% or
+more for all regions.
+
+Partial volume correction generally resulted in higher estimated binding
+potentials in cortical regions ( Fig. 4 ). In left
+precuneus, the estimated PiB binding was approximately 2.2 times higher on average using
+the RSF method than without PVC and ~1.2 times higher on average using PVC2C. In the
+putamen, PVC2C resulted in lower PiB binding estimation (0.45 times the uncorrected
+version for left putamen); and RSF resulted in slightly higher PiB binding estimation (1.1
+times the uncorrected values for left putamen).
+
+Figure 5 shows the relation between PiB
+binding potentials estimated with PVC (two methods) vs. without PVC. These relations are
+remarkably linear (r = 0.99) across participants with varying levels of Aβ
+accumulation. However, the slope and intercept of these linear relationships based on
+particular brain regions are strongly regionally specific.
+
+The results of the longitudinal study are summarized in Table III . On average, the left precuneus lost volume at a rate
+of 0.04 cc/year (0.42%/year); and the left putamen lost volume at a rate of 0.05
+cc/year (0.93%/year). Without PVC, BP ND increased at a rate of
+0.021/year (1.57%/year) in left precuneus and increased at 0.012/year
+(0.87%/year) in left putamen. With RSF PVC, BP ND increased at a rate of
+0.077/year (4.23%/year) in the left precuneus and increased 0.033/year
+(2.26%/year) in the left putamen. The PVC2C results fell in between the
+uncorrected and the RSF PVC measurements. The significance of longitudinal difference in
+BP ND appears to be enhanced with RSF PVC, as manifested by more significant
+p-values in a two-tailed paired t-test. The p-value changed only moderately when PVC2C was
+applied. Without PVC, decreased MCBP was observed in 9 participants and decreased
+precuneus BP ND was observed in 11. When RSF PVC was performed, 4 of the 9
+decreases in MCBP reversed, and 7 of the 11 decreases in precuneus BP ND reversed. This indicates the observed decrease in BP ND without PVC maybe an
+artifact of brain atrophy.
+
+## 4. Discussion
+We compared two partial volume correction techniques in the context of
+quantitative PET amyloid imaging using both simulated and participant data. Both PVC methods
+reduced bias caused by partial volume effects. RSF PVC yielded more accurate binding
+potential estimations based on the simulation study. The simulation (forward model)
+accounted for time activity curves in gray matter, white matter, and non-brain regions.
+Thus, the forward model can be viewed as an expansion of three-component approach ( Meltzer et al., 1999 ) except that each ROI was
+independently assigned its own TAC. That RSF PVC performed best with the simulations is
+expected because it effectively inverts the forward model except for the addition of noise.
+The RSF technique assumes within region homogeneity in tracer uptake, while in reality the
+variability may not follow anatomical driven ROI definition. Other PVC technique such as the
+region-based (RBV) correction ( Thomas et al., 2011 )
+or the Gaussian mixture deconvolution (GMD) ( Bousse et al.,
+2012 ) are voxel-wise methods. Such methods potentially preserve greater detail at
+the voxel level but should give similar results at regional level. Further investigation is
+needed to understand the robustness and accuracy of these techniques.
+
+It should be pointed out that while we adopted the resolution normalization
+technique ( Joshi et al., 2009 ) to achieve
+approximately 8mm in spatial resolution across different scanners, the scanner resolution is
+inherently spatially varying, and our normalization filtering cannot fully account for this
+which may lead to subtle differences between scanners. This can potentially be improved by
+measuring the individual scanner point spread function using physical phantoms and
+performing PVC based on that. It should also be pointed out that our imaging analysis
+procedure assumes the different MR scanners have the same spatial resolution, while in fact
+there are small between scanner differences in scanner resolution, these factors may further
+complicate the PET quantification.
+
+The objective of PVC is to reduce bias in point estimates of gray matter
+Aβ burden. The cost of PVC is that it can amplify noise in PET quantification
+attributable to PET to MR registration and segmentation of anatomical MR data ( Meltzer et al., 1999 ). We examined this issue using an
+MPRAGE test-retest design and confirmed the general principle. The observed change in
+binding potential (BP ND ) estimates attributable to the variability in MPRAGE
+registration and segmentation was less than 3% with and without PVC. In comparison,
+full test-retest BP ND variability has been reported to be approximately
+5% ( Lopresti et al., 2005 ). It has been
+demonstrated that differences in imaging sequence, scanner, and magnet strength can cause
+discrepancy in brain segmentation ( Han et al., 2006 ; Jovicich et al., 2009 ). It is important to keep
+this in mind in study design to minimize possible complications. As demonstrated in another
+MR test-retest study using repeated MPRAGE scans acquired within the same imaging session
+using the same MR sequence the MR test-retest variability is substantially smaller at less
+than 1% ( Supplementary 2 ),
+which gives us an idea of how much improvements we can possibly achieve by limiting the
+variability in MR acquisition.
+
+The impact of PVC to the estimated BP ND is highly regional specific as
+demonstrated by the relationship between BP ND and EYO ( Fig. 4 ) and corrected vs. uncorrected BP ND ( Fig. 5 ). This can be explained by examining the regional
+TACs with and without PVC, as shown in lower panel of Fig.
+4 . A substantially greater intensity value for the precuneus cortex and a slightly
+lower intensity value for the cerebellar cortex (the reference) resulted in a large increase
+in estimated BP ND using RSF PVC. On the other hand, PVC2C resulted in higher ROI
+values for both precuneus and cerebellar cortex, hence, only a slightly increased
+BP ND . For a subcortical region such as the putamen, neither PVC technique
+significantly changed PET image intensity values; altered BP ND values were mainly
+attributable to differences in the reference region TAC with and without PVC. Increased
+cerebellar cortex intensity with PVC2C resulted in lower BP ND of putamen;
+slightly lower cerebellar cortex intensity with RSF PVC resulted in slightly higher
+BP ND . These regionally specific constants reflect the interaction between
+limited PET resolution and varying levels of non-specific vs. specific tracer binding as
+well as ROI shape. Thus, quantitative PiB imaging strongly depends on use of PVC and type of
+PVC.
+
+The high levels of linear correlation between BP ND with and without PVC
+in the cross sectional study ( Fig. 5 ) may seem
+counter-intuitive. In theory, as the disease progresses, more severe atrophy should result
+in a larger impact of PVE, as demonstrated in Fig. 4 ,
+therefore a non-linear relationship would be expected. This may because our participants are
+either asymptomatic or early symptomatic AD patients and the amount of atrophy is relatively
+small. In addition, people with high BP ND do not necessarily have more atrophy
+because of the high variability of amyloid deposition at a given cortical thickness level.
+PVC is expected to be more critical for measuring amyloid deposition in brain with more
+severe atrophy.
+
+Based on our longitudinal study, the annual rate of amyloid accumulation (signal)
+was 3.4 times greater when RSF PVC is applied and 1.59 times greater with PVC2C in
+comparison to the values without PVC ( Table III ),
+while the standard deviation in the rate of amyloid accumulation (noise) was only 1.82 and
+1.24 times greater with RSF PVC and PVC2C respectively. In addition, the observed difference
+in amyloid load between the baseline and follow-up study in the LONG cohort was more
+significant (smaller p values) when PVC was applied, especially with the RSF PVC technique.
+Therefore, we believe PVC will improve our ability to detect amyloid load change in
+longitudinal studies.
+
+Finally, comparisons of amyloid load across different regions within the same
+subject would be difficult without PVC, because of the differential impact of partial volume
+effects on regions of different size and shape as shown by the regionally different slopes
+in Fig. 5 . Our study demonstrates that, if the goal of
+amyloid imaging is to obtain a single numerical measurement of amyloid load, for example to
+provide diagnostic information, then PVC only provide minor additional information because
+of the highly linear relationship between the uncorrected and corrected binding potentials.
+However, if the goal of amyloid imaging is to better understand the disease mechanism, to
+assess the regional differences in the amyloid plaque pathology, then PVC is an important
+step.
+
+## 5. Conclusion
+The impact of partial volume correction (PVC) on quantitative amyloid imaging was
+investigated using both simulated and participant data. PVC compensates for partial volume
+effects, which, if uncorrected, lead to underestimation of amyloid load. A theoretical cost
+of PVC is that it increases the noise of amyloid load measurement due to uncertainties in
+image registration and segmentation. However, our data demonstrate that PVC improved the
+sensitivity of detecting subtle changes in amyloid binding, especially when using the RSF
+technique. We therefore recommend PVC be performed in all amyloid imaging studies, although
+standardization of the PVC technique is needed to compare studies across different
+groups.

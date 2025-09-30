@@ -1,0 +1,332 @@
+# Title
+Central nervous system regeneration is driven by microglia
+necroptosis and repopulation
+
+# Abstract
+Failed regeneration of central nervous system myelin contributes to
+clinical decline in neuroinflammatory and neurodegenerative diseases, for which
+there is an unmet therapeutic need. Here, we reveal that efficient remyelination
+requires death of pro-inflammatory microglia followed by repopulation to a
+pro-regenerative state. We propose that impaired microglia death and/or
+repopulation may underpin dysregulated microglia activation in neurological
+diseases, and reveal novel therapeutic targets to promote white matter
+regeneration.
+
+## Methods
+Experiments were performed under a UK Home Office project licence issued
+under the Animals (Scientific Procedures) Act. Animals were housed at 6 animals
+per cage in a 12 hour light/dark cycle with unrestricted access to food and
+water. Wild type CD1 mice were used for organotypic cerebellar explant cultures
+and C57Bl6/J mice were used for in vivo demyelination
+experiments. To track monocyte infiltration into in vivo lesions, we used heterozygous Ccr2 knock-in reporter mice
+(B6;129(Cg)- Ccr2 tm2.1lfc /J). For lineage
+tracing, Ai9 (B6;129S6-Gt(ROSA)26Sor tm9(CAG-tdTomato)Hze /J) were
+crossed with C57Bl6-Tg( Nes -CreERT2)KEisc/J to induce tdTomato
+expression in Nestin+ cells, or crossed to Cx3cr1 -CreER to
+induce tdTomato expression in microglia. Recombination in vivo was induced by 2 subcutaneous injections of tamoxifen (2 mg in 200 µl of
+corn oil; Sigma-Aldrich T5648) 48 hours apart, 5-7 days prior to brain
+lesioning. Recombination in explants was induced by overnight treatment with 1
+µM 4-hydroxy-tamoxifen (4OHT; Sigma-Aldrich), followed by three washes
+and an additional 3 media changes over the course of the subsequent week, prior
+to demyelination. For live imaging, MacGreen mice (B6N.Cg-Tg(Csf1r-EGFP)1Hume/J)
+were used. Sprague-Dawley rats were used for primary microglial cultures. All
+animals were purchased from Jackson Laboratories.
+
+Cerebellum and hindbrain were isolated from P0–P2 CD1 mouse pups
+of both sexes and sectioned sagittally at 300 μm on a McIlwain tissue
+chopper. Explants were plated onto Millipore-Millicell-CM mesh inserts (Fisher
+Scientific) in 6-well culture plates at 6 explants per insert for
+immunofluorescence or 3 explants per insert for live imaging. Explant culture
+media consisted of 50% minimal essential media, 25% heat-inactivated horse
+serum, 25% Earle's balanced salt solution (all from GIBCO), 6.5
+mgml −1 glucose (Sigma-Aldrich), 1% penicillin-streptomycin
+(Life Technologies), 1% Glutamax (Life Technologies) and 1% HEPES (Invitrogen),
+and was changed every 2–3 days. Demyelination was induced at 21 days in vitro by application of 0.5 mg.ml −1 lysophosphatidyl choline (LPC; Sigma Aldrich) for 18-20 hours which was
+subsequently washed off in fresh media for 10 minutes; comparisons were made to
+vehicle (phosphate buffered saline; PBS)-treated explants. Necrostatin-1 (10
+µM; Sigma-Aldrich) or vehicle (DMSO; 1:1000) was supplemented to media
+upon LPC treatment and in each subsequent media change prior to fixation.
+Propidium iodide (25 µg.ml -1 ; Sigma-Aldrich) was supplemented
+to the media for the last 1 hour prior to fixation, and explants were washed
+thrice in PBS before fixation in the dark. Explants were fixed in 4% PFA for 10
+minutes. Each n is the average of 3 explants from 1 litter, with 3 – 5
+litters per time point/ condition. Neutralizing antibody against IFNAR2
+(R&D Systems, AF1083; 5 µg/ml final concentration), or goat
+isotype IgG control of matched concentration, was applied to explants up to 1
+and 7 days post-LPC.
+
+Explants were permeabilized and blocked for 1 hour in 5% horse serum and
+0.3% Triton-X 100 in PBS, and primary antibodies were applied for 2 nights
+overnight at 4°C in a humid chamber. Primary antibodies used include rat
+anti-CD68 (Abcam, ab53444, 1: 100), rabbit anti-IBA-1 (Wako Chemicals,
+019-19741, 1:50), goat anti-PU.1 (Santa Cruz Biotechnology, sc5949, 1:100),
+mouse anti-iNOS (BD Biosciences, 610329, 1:100), goat anti-Arginase-1 (Santa
+Cruz Biotechnology, sc18355, 1:50), rabbit anti-RIPK3 (Novus Biologicals,
+NBP1-77299, 1:100), rat anti-MLKL (Merck-Millipore, MABC604, 1:100), rabbit
+anti-cleaved Caspase-3 (BD Pharmingen, 559565, 1:100), mouse anti-cleaved
+Caspase-1 (Santa Cruz Biotechnology, sc22165, 1:100), rat anti-myelin basic
+protein (MBP; AbD Serotec, MCA409S, 1:250), chicken anti-neurofilament heavy
+chain (NF-H; Encor Biotechnology, CPCA-NF-H, 1:10,000), mouse anti-Nestin
+(Abcam, ab6142, 1:100), rabbit anti-Olig2 (Merck, AB9610, 1:100), rabbit
+anti-GFAP (DAKO, Z0334, 1:500), mouse anti-NeuN (Merck Millipore, MAB377,
+1:100), rabbit anti-Musashi-1 (Abcam, ab52865, 1:100), mouse anti-Sox2 (Abcam,
+ab171380, 1:100), mouse anti-phospho-STAT1 (P-Y701) (Abcam, ab29045, 1:100).
+Subsequent to washes in PBS, fluorescently conjugated secondary antibodies were
+applied for 2 h at 20–25°C in a humid chamber (anti-goat IgG
+(A21432, A11055), anti-rabbit IgG (A11034, A21206, A10042, A11011), anti-rat IgG
+(A21434, A11006, A21247), anti-mouse IgG (A31570, A21235, A31571, A21042), and
+anti-chicken IgG (A11039)) (1:1000, Invitrogen). Explants were counterstained
+with Hoechst, mounted on slides and coverslipped with Fluoromount-G (Southern
+Biotech). Z-stacks of explants were acquired with an Olympus spinning disk
+confocal microscope using a 20X objective with Slidebook 6 software.
+Remyelination in explants was assessed by determining area of co-localization of
+MBP and NF-H signal normalized to NF-H pixel counts using Volocity 6.3 software
+(Perkin Elmer).
+
+An insert with cultured explants was adhered by the feet to a single 4
+cm petri dish with molten wax and left briefly to dry. Media was first pipetted
+into the petri dish to diffuse under the mesh then gently pipetted onto the
+surface of mesh. Z-stacks were acquired using a 20X wet-immersion objective on
+the Olympus spinning disk confocal microscope using Slidebook 6 software,
+incubated at 37°C (high humidity) and 5% CO 2 . Large Z-stacks
+were acquired to ensure the explant was always in focus, and maximum projection
+videos are shown.
+
+10 week-old male C57Bl/6J mice were anaesthetized with isoflurane before
+being stereotaxically injected with 2 μl of 1% lysolecithin (LPC;
+vol/vol) into the corpus callosum. Control mice underwent the same procedure
+with a sham injection. Mice were allowed to recover before sacrifice by
+perfusion-fixation at 3, 7, and 10 days post LPC (dpl) with 4% paraformaldehyde
+(PFA) for immunofluorescence, or 3.8% sodium citrate in phosphate buffered
+saline (PBS) for flow cytometric analysis. The former were post-fixed overnight
+with 4% PFA, cryoprotected in sucrose, and cryosectioned at 12 µm
+thickness. A minimum of 3 animals were analyzed per time point.
+
+Kolliphor HS15 ® (0.169 g),
+Lipoïd ® (0.15 g; Lipoid Gmbh), NaCl (0.0178 g),
+Labrafac ® (0.2056 g; Gattefosse SA) and water (0.592 g)
+were mixed under gentle magnetic stirring at 50°C for 5 min. The solution
+was progressively heated (90°C) and cooled (60°C) three times.
+During the last cooling, cold water (2.408 g at 4°C) was added at
+72-74°C under high-speed stirring. Necrostatin-1-loaded LNCs were
+prepared by adding 25.9 µl of necrostatin-1 stock solution (30 mg/ml in
+DMSO) during the last cooling of LNC preparation. Control LNCs were prepared
+following the same protocol using DMSO. Fluorescent LNCs
+(1,1'-Dioctadecyl-3,3,3',3' Tetramethylindodicarbocyanine,
+4-Chlorobenzenesulfonate Salt; DiD; ThermoFisher Scientific) were prepared with
+the same protocol using 220 µl of DiD solution (1 mg/ml in absolute
+ethanol). The nanoparticles were filtered on a sterile 0.2 µm filter and
+stored at 4°C until further use. The concentration of necrostatin-loaded
+LNC stock solution was 1 mM of necrostatin-1 and 126 mg/ml of nanoparticles.
+Size, ζ-potential and PDI of nanoparticles were measured using a Malvern
+Zetasizer Nano ZS (Malvern Instruments) (N=3, n=3). For the measurement of size
+and PDI, samples were diluted 1/100 (v/v) in water. For the measurement of
+ζ-potential, samples were diluted 1/100 (v/v) in NaCl 10 mM. The
+encapsulation efficiency of necrostatin-1 was calculated by using the following
+formula: E n c a p s u l a t i o n E f f i c i e n c y = N e c r o s t a t i n 1 t o t a l ( u g ) − n o n e n c a p s u l a t e d N e c r o s t a t i n 1 ( u g ) N e c r o s t a t i n 1 i n t r o d u c e d i n t h e f o r m u l a t i o n ( u g ) * 100
+
+Necrostatin-1 was extracted from necrostatin-1 LNC by dissolution in
+methanol at a ratio 1:20 (v/v) (‘Necrostatin-1 total’).
+Necrostatin-1 was quantified by Reverse phase-High Liquid Chromatography
+(Waters) with a Macherey-Nagel 125/4 NUCLEODUR 100-5 C 18 column. A gradient
+mobile phase was composed of 0.1 % TFA in water (A) and 0.1% TFA in acetonitrile
+(B). The gradient was set as follows: for the first 2 min, the gradient was set
+at 80% of A and 20% B. Then, A decreased to 60 % for the 3 following minutes and
+for the last 2 min, A decreased to 20%. The flow was set for both solutions at 1
+ml/min with a volume of injection of 20 μl and the detection wavelength
+was set at 269 nm. To determine the percentage of non-encapsulated
+necrostatin-1, necrostatin-1 LNCs were centrifuged in a VIVAPSIN 500 with a
+membrane that possess a 30 KDa MWCO at 13,000 g for 10 min and the filtered
+solution was collected and quantified by Reverse Phase High Liquid
+Chromatography. The properties of the LNCs were as follows: i) necrostatin-1
+LNCs: 54.2 nm/ 0.05 PDI/ -2.0 mv ζ–potential/ 263.8 µg/ml/
+100% encapsulation efficiency, ii) DMSO LNCs: 56.4 nm/ 0.06 PDI/ -1.7 mv
+ζ–potential/ 0.86% (vol/vol) concentration, iii) DiD LNCs: 64.1
+nm/ 0.08 PDI/ -1.8 mv ζ–potential/ 14.7% (vol/vol) concentration.
+LNCs were stereotaxically injected into the corpus callosum of adult mice at the
+time of lesioning, and mice sacrificed at 3 or 10 dpl. 3D surface view in
+Slidebook 6 was used for 3D rendering to visualize DiD-LNC localization.
+
+Lesioned corpus callosum of 8-12 week old male C57Bl6J mice was
+homogenized using a 2 ml Dounce and filtrated (250 µm filter; Pierce).
+Following a spin at 600 g for 5 min (with brake), cells were resuspended in 100
+% fetal bovine serum (FBS) and 33 % Percoll (1:10), overlaid with 1 ml of 10 %
+FBS, and spun for 15 min at 800 g at 4°C without brake. The cell pellet
+was washed in FACS buffer and spun for 10 min at 600 g at 4°C, and
+incubated in anti-mouse CD16/32 Fc-block (Clone 93, BioLegend, 1:200) on ice for
+10 min. Fluorescently-conjugated antibodies CD11b-PeCy7 (Clone M1/70,
+Invitrogen, 1:100), CD45-BV605 (Clone 30D11, Biolegend, 1:200), Ly6G-PerCP Cy5
+(Clone 1A8, BioLegend, 1:200), and CD3-APC (Clone 17A2, BioLegend, 1:200) were
+applied on ice for 30 min. Following centrifugation and filtration (30
+μm), cells were sorted by flow cytometry into FBS-coated Eppendorf tubes
+on ice (BD FACSAria Fusion, 100 µm nozzle). Use of differential CD45
+expression (on the logarithmic scale) to distinguish between microglia (lo) and
+infiltrating monocyte-derived macrophages (hi) in white matter injury has been
+previously validated using transgenic reporters and bone barrow chimeras. Cells
+were spun at 800 g for 5 min, resuspended in RLT Plus buffer with
+β-mercaptoethanol, and centrifuged at 10,000 rpm for 2 min in QIAshredder
+tubes (Qiagen). RNA was extracted using the AllPrep DNA/RNA/miRNA kit (Qiagen)
+as per the manufacturer’s instructions, and quantity/quality analyzed
+using the Bioanalyser 2100 (Agilent) and RNA 6000 Pico kit (Agilent) as per the
+manufacturer’s instructions. cDNA production/ library preparation was
+performed using the NuGEN Ovation RNAseq System v2 kit (NuGEN) by BGI (Hong
+Kong). End Repair Mix was added to the amplified cDNA and incubated at
+20°C for 30 min. AxyPrep Mag PCR clean up kit (Axygen) was used to purify
+the end-repaired DNA, which was then combined with A-tailing Mix (Enzymatic) and
+incubated at 37°C for 30 min. Adaptors (Invitrogen) were ligated to the
+Adenylate 3’ ends DNA, and incubated at 16°C for 16 h. Insert size
+was used to select the adaptor-ligated DNA fragments. Several rounds of PCR
+amplification with PCR Primer cocktail (Invitrogen) and PCR Master Mix (New
+England Biolabs) were performed to enrich the adaptor-ligated DNA fragments to
+produce the final library, purified using AxyPrep Mag PCR clean up kit (Axygen).
+The final library average molecule length was determined using the Bioanalyser
+2100 using the DNA 1000 kit (Agilent) and was quantified by real-time qPCR
+(TaqMan probe). cBot (Illumina) was used to amplify the libraries to generate
+the cluster on the Flow Cell (HiSeq 4000, Illumina). An average of 40 million
+clean 100 paired-end reads (read lengths approximately 100 bp) were achieved per
+sample, with >91% uniquely mapped reads. Data was processed to remove
+adaptors and low quality reads from raw reads.
+
+Raw data analysis was carried out by Fios Genomics Ltd (Edinburgh,
+United Kingdom). RNAseq data was pre-processed and aligned to the mouse genome
+(GRCm38) using STAR aligner, and the number of mapped read-pairs per gene were
+quantified based on the GENCODE vM12 annotation. A total of 6 samples (3 per
+time point) were QC analyzed using the ‘array Quality Metrics’
+package in Bioconductor. Data were normalized using trimmed mean of M values
+(TMM) and transformed using VOOM to Log 2 -counts per million, with
+associated precision weights. Comparisons were undertaken using linear modelling
+using Limma package in Bioconductor to determine differentially expressed genes
+(p<0.05); empirical Bayesian analysis for Log 2 fold change was
+applied. Differentially expressed genes were used for functional enrichment
+analysis by investigation of Kyoto Encyclopaedia of Genes and Genomes (KEGG)
+pathways (p<0.05), Gene Ontology (GO) terms (p<0.05), Venny 2.1
+( http://bioinfogp.cnb.csic.es/tools/venny/ ), and
+Ingenuity Pathway Analysis (IPA) (p<0.05).
+
+Real-time (RT) quantitative polymerase chain reaction (qPCR) was run
+using BioRad Custom PrimePCR plates, as per the manufacturer’s
+instructions. Briefly, cDNA was synthesized using 5x iScript Advanced Reaction
+Mix and iScript Advanced Reverse Transcriptase (BioRad) at 46 °C for 20
+min then 95 °C for 1 min. cDNA samples were mixed with 2x iTaq Universal
+SYBR-green Supermix and iScript Reverse Transcriptase. The RT qPCR was performed
+at 50 °C for 10 min, 95 °C for 1 min, 95 °C for 15 sec (40
+cycles), 60 °C for 60 sec (40 cycles). Data was analyzed using CFX
+manager and presented as 2 -ΔCt .
+
+Sections of frozen tissue were air dried for 15 minutes before being
+permeabilized and blocked for 1 hour (5% horse serum and 0.3% Triton-X-100 in
+PBS) then incubated with primary antibodies overnight at 4°C in a humid
+chamber. Primary antibodies used include rabbit anti-Tmem119 (Abcam, ab209064,
+1:100), rat anti-CD68 (Abcam, As53444, 1: 100), rabbit anti-IBA-1 (Wako
+Chemicals, 019-19741, 1:50), rabbit anti-RIPK3 (Novus Biologicals, NBP1-77299,
+1:100), rat anti-MLKL (Merck-Millipore, MABC604, 1:100), mouse anti-iNOS (BD
+Bioscience, 610329, 1:100), goat anti-Arginase-1 (Santa Cruz Biotechnology,
+sc18355, 1:50), mouse anti-Nestin (Abcam, ab6142, 1:100), mouse anti-MAG (EMD
+Millipore, MAB1567, 1:100), rat anti-MBP (AbD Serotec, MCA409S, 1:250), rabbit
+anti-Ki67 (EMD Millipore, AB9260, 1:100), mouse anti-Olig1 (EMD Millipore,
+MAB5540, 1:100), mouse anti-phospho-STAT1 (P-Y701; Abcam, ab29045, 1:100),
+rabbit anti-IFNAR2 (Abcam, ab56070, 1:100). Subsequent to washes in PBS,
+fluorescently conjugated secondary antibodies were applied for 2 h at
+20–25°C in a humid chamber (anti-rabbit IgG (A11034, A21206,
+A10042, A11011) and anti-rat IgG (A21434, A11006, A21247) all at a concentration
+of 1:1000 (all from Invitrogen). Slides were counterstained with Hoechst and
+coverslipped with Fluoromount-G (Southern Biotech). Images were acquired with an
+Olympus spinning disk confocal microscope with a 20X or 60X objectives with
+Slidebook software. Percentage of IBA-1/ Nestin or Tmem119/ CD68 co-localization
+was measured by determining area of co-localization relative to total IBA-1 or
+CD68 pixel counts, respectively, using Volocity 6.3 software (Perkin Elmer). MAG
+intensity within lesions was quantified using Adobe Photoshop CS4 with
+respective background intensity outside the lesion subtracted.
+
+Focal demyelinated lesions of the corpus callosum of 8-12 week old
+C57Bl6J male mice were dissected out and homogenized with a 2 ml dounce. A
+Percoll (Sigma-Aldrich) gradient was used to isolate cells from myelin debris.
+Samples were blocked with Fc-block [LEAF-purified anti-mouse CD16/32 (Biolegend,
+101321)], then incubated with fluorochrome-conjugated antibodies CD11b-PeCy7
+(eBioscience, 25-0112-82, 1:100) and CD45-BV605 (Biolegend, 103139, 1:100) for
+30 minutes on ice, followed by incubation with ‘FITC Annexin-V apoptosis
+detection kit with 7-AAD’ for 15 minutes at room temperature (Biolegend,
+640922, 1:20). Following washes in buffer, samples were run on the BD LSR
+Fortessa (6 laser) analyser, and analysed using FlowJo version 9/10 software
+(FlowJo LLC).
+
+Microglia were derived from mixed glial cultures of P0-P3 Sprague-Dawley
+rats of both sexes by differential adhesion, as previously described 3 . Cells were plated on
+poly- D -lysine-coated 16-well glass chamberslides (Lab-TEK)
+at 5 x 10 4 cells per well in Dulbecco’s Modified Essential
+Media (DMEM) containing 4.5 g/L glucose, l-glutamine, pyruvate, 10% fetal calf
+serum (vol/vol) and 1% penicillin/streptomycin (vol/vol). Treatment included
+lysophosphatidyl choline (0.5 mg.ml -1 ), (Sigma-Aldrich) prior to
+fixation with 4% paraformaldehyde (Sigma) for 10 min. Cells were blocked for 1
+hour and incubated with primary antibodies at room temperature for 1 hour, for 1
+hour at room temperature prior to counterstaining with Hoechst, mounting onto
+slides and coverslipping with Fluoromount-G.
+
+Paraffin-embedded sections of tissue from cuprizone-fed mice underwent
+deparaffinization using Histoclear (2 x 10 min) and a gradient of ethanol (EtOH)
+concentrations, each for 5 minutes in the following order: 2 x 100%, 1 x 95%, 1
+x 70% and 1 x 50%, before being washed in Tris-buffered saline (TBS) for 3 x 5
+minute washes. Slides were then placed in Vector Unmasking Solution under high
+heat and pressure for 20 minutes before a final TBS wash. Slides were
+permeabilized and blocked for 1 hour (5% horse serum and 0.3% Triton-X-100 in
+PBS) before incubation with primary antibodies overnight at 4°C in a
+humid chamber. Microglia/macrophages were detected with rat anti-CD68 (Abcam,
+Ab53444, 1: 100) and cell death was assessed using rabbit anti-RIPK3 (Novus
+Biologicals, NBP1-77299, 1:100) and rat anti-MLKL (Merck-Millipore, MABC604,
+1:100). Following washes in PBS, fluorescently conjugated secondary antibodies
+were applied (Invitrogen, 1:1000). Slides were counterstained with Hoechst and
+coverslipped with Fluoromount-G (Southern Biotech). Images were acquired with an
+Olympus spinning disk confocal microscope using a 60X objective with Slidebook 6
+software. 3 animals were analyzed per time point.
+
+Post-mortem tissue from multiple sclerosis (MS) patients and controls
+that died of non-neurological causes were obtained via a UK prospective donor
+scheme with full ethical approval from the UK Multiple Sclerosis Tissue Bank
+(MREC/02/2/39) and their use was in accord with the terms of the informed
+consents. Diagnosis of MS was confirmed by neuropathological means by F.
+Roncaroli (Imperial College London) and clinical history was provided by R.
+Nicholas (Imperial College London). Snap frozen unfixed tissue blocks (2
+× 2 × 1 cm) were cut at 10 μm and stored at
+−80°C. Lesions were classified according to the International
+Classification of Neurological Disease using Luxol Fast Blue staining and CD68+
+immunoreactivity. Following washes in 0.1% Tween-20 (vol/vol) in Tris-buffered
+saline (TBS), sections were microwaved in Vector unmasking solution for 10
+minutes, washed once, and endogenous phosphatase and peroxidase activity blocked
+for 5 minutes (Bloxall, Vector). Tissue was incubated with primary antibodies in
+a humid chamber overnight. Sections were then washed in TBS and stains
+visualized by Vector Blue substrate kit according to the manufacturer’s
+instructions (maximum 15 minutes). For co-staining, sections were washed thrice
+and re-blocked to quench any remaining phosphatase activity (Bloxall, Vector)
+prior to application of primary antibody then developed using Vector Red
+substrate kit according to the manufacturer’s instructions (maximum 15
+minutes). Following washes in water, the sections were counterstained with
+Hoechst and coverslipped with Fluoromount-G. Primary antibodies used include
+goat anti- CD68 (Santa Cruz Biotechnology, sc7082, 1:100), mouse anti-Nestin
+(Santa Cruz Biotechnology, sc23927, 1:100), goat anti-PU.1 (Santa Cruz
+Biotechnology, sc5949, 1:100), rat anti-MLKL (Merck-Millipore, MABC604, 1:100)
+and rat anti-RIPK3 (Novus Biologicals, NBP1-77299, 1:100). Entire tissue
+sections were imaged using a Zeiss AxioScan Z.1 SlideScanner, and digital lesion
+maps were prepared for each tissue in Zeiss Zen2 software using Luxol Fast
+Blue-stained sections. Fields of 360 μm × 360 μm were
+counted per lesion and counts were multiplied to determine density of
+immunopositive cells per mm 2 . For quantification of Nestin+ PU.1+
+cells, staining with blood vessel morphology was excluded from counts.
+
+Details on experimental design and reagents can be found in the Life
+Sciences Reporting Summary. For animal experiments, power was calculated by
+two-sided 95% confidence interval using the normal approximation method using
+OpenEpi software and gave between 88-100% power for all experiments. Animals
+were randomly selected for experimental groups, and littermates were compared
+for all treatment groups. All manual cell counts for explants cultures, in vivo lesioned tissue, and MS tissue were performed in a
+blinded manner. Data are represented as mean ± s.e.m. from a minimum of 3
+mice ( in vivo experiments) or litters (explants). Data
+distribution was assessed using the Kolmogorov-Smirnov test. Data was
+statistically analyzed by 2-tailed Student’s t -test or
+Mann-Whitney test for ≤2 comparisons, one sample t -test
+for analysis of normalized data or comparison to sham, and either Kruskal-Wallis
+test with Dunn’s Multiple Comparison post-test or One-way ANOVA with
+Sidak’s post-test (for select comparisons between groups) for ≥3
+comparisons. P values of ≤ 0.05 were considered statistically significant
+at a confidence interval of 95%. Data handling and statistical processing was
+performed using Microsoft Excel and GraphPad Prism 7 and 8 Software. Diagrams
+were created with BioRender software.

@@ -1,0 +1,15 @@
+# Title
+Disease‐Associated Tau Phosphorylation Hinders Tubulin Assembly within Tau Condensates
+
+# Abstract
+Cellular condensation of intrinsically disordered proteins (IDPs) through liquid–liquid phase separation (LLPS) allows dynamic compartmentalization and regulation of biological processes. The IDP tau, which promotes the assembly of microtubules and is hyperphosphorylated in Alzheimer's disease, undergoes LLPS in solution and on the surface of microtubules. Little is known, however, about the influence of tau phosphorylation on its ability to nucleate microtubule bundles in conditions of tau LLPS. Herein, we show that unmodified tau as well as tau phosphorylated at disease‐associated epitopes condense into liquid‐like droplets. Although tubulin partitioned into and reached high concentrations inside all tau droplets, it was unable to grow into microtubules form the inside of droplets formed by tau phosphorylated at the AT180 epitope (T231/S235). In contrast, neither phosphorylation of tau in the repeat domain nor at its tyrosine residues inhibited the assembly of tubulin from tau droplets. Because LLPS of IDPs has been shown to promote different types of cytoskeletal assembly, our study suggests that IDP phosphorylation might be a broadly used mechanism for the modulation of condensate‐mediated cytoskeletal assembly.
+
+## Conflict of interest
+The authors declare no conflict of interest.
+
+## Supporting information
+As a service to our authors and readers, this journal provides supporting information supplied by the authors. Such materials are peer reviewed and may be re‐organized for online delivery, but are not copy‐edited or typeset. Technical support issues arising from supporting information (other than missing files) should be addressed to the authors.
+
+Supplementary
+
+Click here for additional data file.

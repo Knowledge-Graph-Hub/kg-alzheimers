@@ -1,0 +1,5 @@
+# Title
+Polarization of the Effects of Autoimmune and Neurodegenerative Risk Alleles in Leukocytes
+
+# Abstract
+To extend our understanding of the genetic basis of human immune function and dysfunction, we performed an expression quantitative trait locus (eQTL) study of purified CD4 + T cells and monocytes, representing adaptive and innate immunity, in a multi-ethnic cohort of 461 healthy individuals. Context-specific cis- and trans-eQTLs were identified, and cross-population mapping allowed, in some cases, putative functional assignment of candidate causal regulatory variants for disease-associated loci. We note an over-representation of T cell–specific eQTLs among susceptibility alleles for autoimmune diseases and of monocyte-specific eQTLs among Alzheimer’s and Parkinson’s disease variants. This polarization implicates specific immune cell types in these diseases and points to the need to identify the cell-autonomous effects of disease susceptibility variants.

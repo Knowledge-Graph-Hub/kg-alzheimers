@@ -1,0 +1,337 @@
+# Title
+Isolation of single-base genome-edited human iPS cells without
+antibiotic selection
+
+# Abstract
+Precise editing of human genomes in pluripotent stem cells by
+homology-driven repair of targeted nuclease-induced cleavage has been hindered
+by the difficulty of isolating rare clones. We developed an efficient method to
+capture rare mutational events, enabling isolation of mutant lines with
+single-base substitutions without antibiotic selection. This method facilitates
+efficient induction or reversion of mutations associated with human disease in
+isogenic human induced pluripotent stem cells.
+
+## Online Methods
+The sample numbers for the experiments to compare ddPCR and canonical
+genotyping PCR ( Supplementary
+Fig. 1 ) with the plasmid DNA were technical replicates. Those for the
+Surveyor assay and ddPCR experiments in HEK293T cells ( Supplementary Figs. 3 and 4 ) were
+all biological replicates (independent transfections of HEK293T cells). We did
+not exclude any samples.
+
+TALEN Targeter ( https://tale-nt.cac.cornell.edu/tutorials/talentargeterupdated ) 20 was used to design the PHOX2B
+and the PRKAG2 TALENs. ZiFiT ( http://zifit.partners.org/ZiFiT/ChoiceMenu.aspx ) 21 , 22 was used to design the PKP2 and BAG3 TALENs. TALENs
+were constructed using the Voytas laboratory's Golden Gate assembly
+system provided through Addgene ( http://www.addgene.org/TALeffector/goldengateV2/ ) 23 except the backbone vector. We
+interchangeably used the Goldy 24 and the MR015 (a gift from Drs. M. Porteus and M. Rahdar)
+TALEN backbones for the PHOX2B TALENs. We observed that these two backbones had
+similar activity in human iPS cells (data not shown). We used the MR015 TALEN
+backbone for all other TALENs used in this study. The TALEN target sequences
+were aligned against the reference genome by BLAST ( http://blast.ncbi.nlm.nih.gov/Blast.cgi ) to ensure that they
+were unique sites. We used the NN repeat variable di-residues (RVDs) for all the
+TALENs used in this study. For PHOX2B and PKP2, the NN versions are described as
+the “strong” TALENs. In addition, we made TALENs in which the
+binding sequence was the same, except that the NN RVDs were substituted with NK
+RVDs (which induces less frequent recombination 25 , 26 ) to create the “weak” TALENs. For the
+individual TALEN target sequences, see Supplementary Table 4 .
+
+For the CRISPR/Cas system, we searched the reference human genome for
+unique CRISPR target sites (GN 20 GG) that fit with the Church
+laboratory's system provided through Addgene ( http://www.addgene.org/crispr/church/ ) 18 , and found a unique site encompassing
+the RBM20 mutation site (GGTCT C GTAGTCCGGTGAGCCGG, where
+the underlined C was mutated to A). We followed the guidelines provided through
+Addgene to generate the gRNA expression construct.
+
+To design the primers and probes, we used the TaqMan MGB Allelic
+Discrimination option in Primer Express 3.0 software (Life Technologies). For
+the PHOX2B mutation, the default setting (minimal amplicon size was 50 bp) was
+selected, whereas for the PKP2, RBM20, and PRKAG2 mutations, the amplicon size
+setting was changed to 100 bp to give optimal probe-primer sequences. For the
+BAG3 mutation, we manually designed the primers and probe by following the
+instructions of Primer Express 3.0, as the default program did not give us any
+candidates. The point mutations were inputted as “SNPs for allelic
+discrimination”, and designed custom TaqMan MGB probes were purchased
+from Life Technologies. Optimal primer sequences identified by the software were
+manually checked to ensure that at least one of the primers would anneal outside
+of the donor sequence. Oligonucleotide donors were manually designed to target
+the point mutation to the middle of the oligonucleotide sequence. Primers and
+oligonucleotide donors that underwent standard desalting purification were
+purchased from Integrated DNA Technologies. For sequences of the primers,
+probes, and oligonucleotide donors, see Supplementary Table 5 .
+
+HEK293T cells were maintained in Dulbecco's modified Eagle
+medium with high glucose, sodium pyruvate, and L-glutamine (Life Technologies)
+supplemented with 10% FetalPlex (Gemini Bio-Products) and 50 units/ml
+penicillin-streptomycin (Life Technologies). For transfection, 4 x
+10 5 or 2 x 10 5 cells were plated into a 12- or 24-well
+plate, respectively. One day after plating, the cells were transfected with DNA
+with Lipofectamine 2000 (Life Technologies), according to manufacturer's
+instructions. For point mutagenesis by TALENs, 400 or 200 ng of each TALEN
+vector and 800 or 400 ng of an oligonucleotide donor DNA were transfected per
+well in a 12- or 24-well plate, respectively. For point mutagenesis by
+CRISPR/Cas, 400 or 200 ng of Cas9 vector, 400 or 200 ng of gRNA vector, and 800
+or 400 ng of an oligonucleotide donor DNA were transfected per 12- or 24-well,
+respectively. Genomic DNA was extracted from the cells 3 days after transfection
+with the DNeasy Blood & Tissue Kit (Qiagen).
+
+The Surveyor assay was carried out according to manufacturer's
+instructions (Transgenomics). Using Lipofectamine 2000, 800 ng or 400 ng of each
+TALEN vector was transfected into HEK293T cells plated into a 12- or 24-well
+plate, respectively. To PCR-amplify the target genomic regions, we used Phusion
+High-Fidelity DNA Polymerase (New England Biolabs) and the following primers:
+PHOX2B FW 5′-CTCCAGCCACCTTCTCCATA-3′, PHOX2B RV
+5′-CGCTGAGAAAGCTGAAGGTC-3′, PKP2 FW
+5′-CAAACTCAAGAATCTCATGATAACAGAA-3′, PKP2 RV
+5′-ACAAACCATCAAACAAACTGTG-3′. The digested DNA fragments were
+analyzed by 15% acrylamide gel electrophoresis. The intensities of the
+bands were quantified by ImageJ ( http://rsbweb.nih.gov/ij/ ). Quantification of the frequency of NHEJ
+was calculated using the formula; 100 x {1 – [1
+– a/(a + b)] 1/2 }, where a =
+the integrated intensity of both cleavage product bands, and b = the
+integrated intensity of the uncleaved PCR product band.
+
+For iPS cells, UCSF Committee on human research #10-02521
+approved the study protocol. The human iPS cell lines used in this study were
+generated from a healthy male patient, WTC10 and WTC11 27 , using the episomal reprogramming
+method 28 . We
+successfully applied our ddPCR/sib-selection method to another iPS cell line,
+WTB6, which was generated from a healthy female patient using episomal
+reprogramming method 28 (data
+not shown). Informed consent was obtained for this procedure. iPS cells were
+maintained on Matrigel (BD Biosciences) in Essential 8 medium (Life
+Technologies), which was exchanged every other day. To sparsely populated wells
+(i.e., passaged wells), we added 10 μM Y-27632, a Rho-associated kinase
+(ROCK) inhibitor (Millipore), to promote cell survival 29 .
+
+For TALEN and donor transfections, we used the Human Stem Cell
+Nucleofector Kit-1 and a Nucleofector 2b Device (Lonza). WTC11 was used for the
+BAG3 mutagenesis, whereas WTC10 was used for the mutagenesis of other genes.
+When cells were 60–70% confluent in six-well plates, the medium
+was changed to Essential 8 with 10 μM Y-27632 at least 1 hour before
+transfection. The medium was then transferred into a conical tube to be used as
+conditioned medium. Cells were washed with 2 ml/well phosphate-buffered saline
+(PBS) and treated with 500 μl/well Accutase (Millipore) at 37°C
+for 5–10 minutes. Cells were then resuspended in PBS and counted using a
+Countess Automated Cell Counter (Life Technologies).
+
+For each transfection, 2 million cells were then transferred into a
+conical tube and spun down at 1,500 rpm for 5 minutes. The supernatant was
+aspirated, the cells were resuspended in 100 μl/transfection of Human
+Stem Cell Solution 1, and 3 μg of each TALEN vector (10 μg of
+each TALEN vector was used only in Supplementary Fig. 6b ) and 6
+μg of an oligonucleotide donor were added. The total volume of the DNA
+solution was less than 10 μl. The suspension was transferred to a
+cuvette and electroporated using program A-23. Conditioned medium (500
+μl/transfection) was added to the transfected cells, which were then
+transferred to a conical tube with 9.5 ml of conditioned medium. The cells were
+plated into a Matrigel-coated 96-well plate using a multichannel
+micropipetter.
+
+The composition of the pre-mixtures of allele-specific TaqMan probes and
+primers was 5 μM of an allele-specific FAM or VIC TaqMan MGB probe, 18
+μM of a forward primer, and 18 μM of a reverse primer in water.
+For optimization of the PCR annealing and extension temperatures, we mixed the
+following reagents in 1.5 ml tubes: 9 μl water, 12.5 μl 2x ddPCR
+Supermix for Probes (Bio-Rad), 1.25 μl FAM probe and primer pre-mixture,
+1.25 μl VIC probe and primer pre-mixture, and 1 μl 0.5
+pg/μl 1:1 plasmid mixture of a wild-type allele and a mutant allele (25
+μl total volume). Droplet generation with a QX100 Droplet Generator was
+performed according to the manufacturer's instructions (Bio-Rad), and
+the reaction was transferred into a 96-well PCR plate for standard PCR on a
+C1000 Thermal Cycler (Bio-Rad). The thermal cycling program conducted was: Step 1: 95°C 10 minutes; Step 2: 94°C 30 seconds; Step 3: 50°C–58 or 60°C gradient 1
+minute, go back to Step 2 39 times; Step 4: 98°C 10 minutes.
+
+Step 1: 95°C 10 minutes;
+
+Step 2: 94°C 30 seconds;
+
+Step 3: 50°C–58 or 60°C gradient 1
+minute, go back to Step 2 39 times;
+
+Step 4: 98°C 10 minutes.
+
+After the PCR was complete, the droplets were analyzed using a QX100
+Droplet Reader (Bio-Rad) with the “absolute quantification”
+option. We first checked whether a probe set could properly discriminate between
+negative, FAM-positive, VIC-positive, and double-positive populations. We then
+chose the highest annealing temperature that gave the best separation of the
+four distinct populations as the optimal temperature (see also Supplementary Fig. 2 ). The optimal
+temperatures differed between different probe-primer sets. For example, for the
+PHOX2B mutation shown in Supplementary Fig. 2 , the optimal annealing and extension
+temperature was 51°C. For the PKP2-, RBM20-, PRKAG2-, and BAG3-
+mutations, the optimal annealing temperatures were 57°C, 57°C,
+51°C, and 55°C, respectively (data not shown).
+
+For ddPCR to detect point mutagenesis, we mixed the following reagents
+in 0.2 ml PCR 8-tube strips: 9 μl (for HEK293T cells) or 4 μl
+(for iPS cells) water, 12.5μl 2x ddPCR Supermix for Probes (Bio-Rad),
+1.25 μl FAM probe and primer pre-mixture, 1.25 μl VIC probe and
+primer pre-mixture, and 1 μl (for HEK293T cells, 100 ng) or 5 μl
+(for iPS cells, 50-150 ng) genomic DNA solution (25 μl total volume).
+Droplets were generated, followed by PCR at the optimal temperatures, and the
+droplets were analyzed as described for the temperature optimization to
+calculated mutant allelic frequencies in a wild-type allelic background. For iPS
+cells, a multichannel micropipetter was used to directly transfer genomic DNA
+extracted from 96-well plates to reaction mixtures, and then to transfer the
+reaction mixtures to a cartridge for droplet generation.
+
+When iPS cells (plated in 96-well plates) were 80–90%
+confluent, the cells were washed with 100 μl/well PBS and treated with
+30 μl/well Accutase at 37°C for 5–10 minutes. Half of
+the detached cells were placed into a 96-well plate for genomic DNA extraction,
+and the other half left in the original 96-well plate were frozen at −80
+°C for future sib-selection. For genomic DNA extraction, 50 μl
+of genomic DNA lysis buffer [10 mM Tris pH 7.5, 10 mM EDTA pH 8.0, 10 mM
+NaCl, 0.5%N-lauroylsarcosine, and 1 mg/ml proteinase K (added
+fresh)] was aliquoted into each well on another 96-well plate. We
+transferred 15 μl/well of the cell suspension (in Accutase) to the
+96-well plate containing the lysis buffer, and the mixture was combined using a
+multichannel micropipetter. The plate was then incubated at 55°C
+overnight in a plastic container with a small amount of water (to prevent
+drying). Then, 100 μl 75 mM NaCl in ethanol that had been stored at
+-80°C was added to each well, the solution was mixed, and the plate was
+incubated at room temperature for 2 hours. The solution was discarded by
+inverting the plate (the DNA remained adhered to the plate), and each well was
+washed with 100 μl 70% ethanol twice. The plate was then
+air-dried for 30–45 minutes to remove all residual alcohol. After
+drying, DNA in each well was dissolved in 30 μl TE buffer, and the DNA
+concentration was measured. For most wells, we obtained DNA concentrations of
+10–30 ng/μl.
+
+For cell freezing, 75 μl freezing medium [HyClone Fetal
+Bovine Serum (Thermo Scientific) with 10% dimethyl sulfoxide
+(Sigma)] was added to cells in each well of the 96-well plate and mixed
+by pipetting up and down, taking care to avoid creating too many bubbles. Then,
+75 μl of mineral oil (Sigma, embryo culture grade) was layered onto the
+cell suspension. The 96-well plate was sealed with Parafilm and frozen at
+-80°C in a Styrofoam container. When thawing the cells, the plate was
+placed in a 37°C CO 2 incubator for 10–15 minutes. The
+cell suspension was transferred to a 1.5-ml tube, mixed with 0.5 ml Essential 8
+medium with 10 μM Y-27632, and the number of cells was counted using a
+Countess Automated Cell Counter. An aliquot of the cell suspension was then
+removed and placed into a conical tube containing Essential 8 medium
+supplemented with 10 μM Y-27632 and mixed well. Cells were then plated
+into Matrigel-coated 96-well plates at the appropriate cell density.
+
+For sib-selection, cell pools containing mutated cells were plated at a
+density of 500 cells/well into a 96-well plate, fed with Essential 8 medium with
+10 μM Y-27632 every other day for 6 days, and then fed with Essential 8
+every other day for the next 4 days. After culturing cells in these conditions,
+they were 80–90% confluent and ready for the next round of
+sib-selection or cloning.
+
+The process of thawing a cell pool from which iPS clones were isolated
+was the same as described for sib-selection (above). For isolating iPS cell
+clones, the cells were plated at limiting dilutions for an average density of
+100 cells/well into 96-well plates. The cells were fed with Essential 8 medium
+with Y-27632 every other day for 10 days, and then fed with Essential 8 every
+other day for the next 8 or 10 days. By 18 or 20 days after plating, cells in
+only 10–30% of wells survived. Wells containing cells with
+pluripotent morphology that were likely to have been derived from a single clone
+were chosen for clonal analyses. We are aware that iPS cells purified via
+limiting dilution may be the progeny of more than one cell (mixed colony).
+However analysis via ddPCR allowed us to rapidly determine whether a putative
+clone is genetically homogenous by quantifying the alleles. After the initial
+purification we also frequently recloned cells to be sure that populations are
+homogenous (see Genotyping PCR and expansion of isolated clones and Supplementary Fig. 6g ).
+These wells were washed in 100 μl/well PBS, and cells were detached with
+30 μl/well Accutase. Cells were divided into two even pools for genomic
+DNA extraction and freezing as described above, except that the transferred
+cells were strategically arranged in wells of new 96-well plates. In this way,
+the genomic DNA samples could be readily analyzed by genotyping PCR on a
+384-well format, as described below. The concentration of genomic DNA extracted
+from the clones was 3–10 ng/μl, which was sufficient for
+genotyping PCR. Some investigators prefer cloning human iPS cells on feeder
+cells, and this process also works well with our method. However we have found
+that using feeder free culture conditions to be more compatible with higher
+throughput production and analysis in a 96-well plate format. However it is
+essential to confirm homogeneity of the alleles via ddPCR and/or subsequent
+subcloning.
+
+The following reagents were mixed in each well of a 384-well plate: 2.5
+μl 2x TaqMan Genotyping Master Mix (Life Technologies), 0.125 μl
+FAM probe and primer pre-mixture (the same pre-mixture used for ddPCR), 0.25
+μl VIC probe and primer pre-mixture (the same pre-mixture used for
+ddPCR), 1.625 μl water, and either 0.5 μl extracted genomic DNA
+from iPS clones, 0.5 μl 0.5 pg/μl mutant allele
+plasmid/wild-type allele plasmid/1:1 mixture of both plasmids, or 0.5 μl
+water (no template control) (5 μl total). We made a master mix of these
+reagents, excluding the templates, aliquoted 4.5 μl of the master mix
+into each well on a 384-well plate, and added 0.5 μl of each template to
+the relevant wells. After mixing, the plate was centrifuged at 1,300 rpm for 5
+minutes. PCR genotyping was carried out using the Applied Biosystems 7500 or
+7900 Fast Real-Time PCR System (Life Technologies) using the SDS2.4 software
+(Life Technologies). Plate documents of Allelic Discrimination (AD) and the
+Standard Curve (AQ) for the samples were created according to the
+manufacturers' instructions. Pre-Read was performed to measure
+background signals of each well with the AD plate document, a thermal cycling
+was performed with the AQ plate document, and finally Post-Read and genotyping
+were done with the AD plate document (according to manufacturer's
+instructions). The thermal cycling parameters for the default condition of the
+AQ plate document were as follows:
+
+Step 1: 50°C 2 minutes;
+
+Step 2: 95°C 10 minutes;
+
+Step 3: 95°C 15 seconds;
+
+Step 4: 60°C 1 minute, go back to Step 3 39 times.
+
+During thermal cycling, both the FAM and VIC signals were monitored.
+
+The target genomic regions were amplified by conventional PCR with
+Phusion High-Fidelity DNA Polymerase from the genomic DNA of clones that were
+genotyped as positive for mutant alleles, and sequence-verified for the
+mutations. The 96-well plates that had the positive clones were then thawed in
+the same way as for sib-selection (described above). The cell suspension was
+mixed with 0.5 ml Essential 8 medium with 10 μM Y-27632 in a 1.5-ml
+tube, and the cells were spun down at 6,000 rpm for 5 minutes. Using a
+micropipetter, the surface oil layer followed by the medium was carefully
+removed. The cells were then resuspended in Essential 8 medium with 10
+μM Y-27632 and plated into Matrigel-coated 6- or 12-well plates. Wells
+containing iPS cells that partially differentiated during the cloning step were
+passaged at a 1:10 ratio 2–3 times, to remove these cells and recover
+pools that are fully pluripotent.
+
+We confirmed that the mutant allele: wild-type allele ratio was 1:1 and
+1:0 for heterozygous and homozygous mutant lines, respectively, by ddPCR to
+verify that they were pure clones. The results for the PRKAG2-mutant Het are
+shown in Supplementary Fig.
+6g as an example.
+
+iPS cells cultured in 24-well plates were washed with 500
+μl/well PBS, fixed with 250 μl/well 4% paraformaldehyde
+at room temperature for 20 minutes, and then washed with 500 μl/well PBS
+three times. The cells were blocked and permeabilized with 250 μl/well
+PBS with 0.1% Triton-X (PBS-T) supplemented with 5% bovine serum
+albumin (BSA) at room temperature for 1 hour, and then in 200 μl/well
+primary antibodies diluted 200 times in PBS-T with 5% BSA at 4°C
+overnight. The primary antibodies (all purchased from Abcam) used in this study
+were SOX2 (ab59776), OCT4 (ab19857), SSEA4 (ab16287), and TRA-1-81 (ab16289).
+The cells were washed with 500 μl/well PBS-T three times, incubated with
+200 μl/well secondary antibodies diluted 500 times in PBS-T with
+5% BSA at room temperature for 1 hour, and then washed with 500
+μl/well PBS three times. The secondary antibodies used were Alexa Fluor
+488 Goat Anti-Mouse IgG (A-11001) and Alexa Fluor 488 (A-11008) or 594 (A-11012)
+Goat Anti-Rabbit IgG (Life Technologies). Finally, the cells were mounted with
+75 μl/well VECTASHIELD Mounting Medium with DAPI (H-1200) (Vector
+Laboratories). The pictures were taken by using BZ-9000 microscope
+(Keyence).
+
+Karyotyping was carried out by Cell Line Genetics (Madison, WI).
+
+Potential off-target sites for the PHOX2B and PRKAG2 TALENs were
+predicted by a recently reported bioinformatic tool, TALENoffer 30 . We set the distance between
+two TALEN binding sites from 12 to 24 bp, and other parameters were the default
+settings for the prediction. For both TALEN pairs, the top candidates were their
+on-targets, indicating that the prediction was properly done. We chose top 10
+off-target sites for each TALEN pair and designed primers that amplify
+400–1100-bp genomic regions around the off-target sites. The genomic
+regions were amplified by using Phusion High-Fidelity DNA Polymerase from the
+PHOX2B-mutant Het, PHOX2B-mutant Homo, PRKAG2-mutant Het, PRKAG2-mutant Het 2,
+and Independent PRKAG2-mutant Het lines, as well as the parental iPS cell line,
+WTC10. The amplicons were sequenced from both 5′ and 3′ ends by
+using the primers that amplified them. All the sequencing results from the
+mutant lines were compared to those from WTC10. We did not see any mutations in
+the mutant lines (see Supplementary Table 3 for the details).

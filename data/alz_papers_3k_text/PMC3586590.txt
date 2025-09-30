@@ -1,0 +1,5 @@
+# Title
+Recent Explosive Human Population Growth Has Resulted in an Excess of Rare Genetic Variants
+
+# Abstract
+Human populations have experienced recent explosive growth, expanding by at least three orders of magnitude over the past 400 generations. This departure from equilibrium skews patterns of genetic variation and distorts basic principles of population genetics. We characterized the empirical signatures of explosive growth on the site frequency spectrum and found that the discrepancy in rare variant abundance across demographic modeling studies is mostly due to differences in sample size. Rapid recent growth increases the load of rare variants and is likely to play a role in the individual genetic burden of complex disease risk. Hence, the extreme recent human population growth needs to be taken into consideration in studying the genetics of complex diseases and traits.

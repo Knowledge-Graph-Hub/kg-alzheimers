@@ -1,0 +1,357 @@
+# Title
+Generation of Cerebral Organoids from Human Pluripotent Stem Cells
+
+# Abstract
+Human brain development exhibits several unique aspects, such as increased complexity and expansion of neuronal output, that have proven difficult to study in model organisms. As a result, in vitro approaches to model human brain development and disease are an intense area of research. Here we describe a recently established protocol for generating 3D brain tissue, so-called cerebral organoids, which closely mimics the endogenous developmental program. This method can easily be implemented in a standard tissue culture room, and can give rise to developing cerebral cortex, ventral telencephalon, choroid plexus and retinal identities, among others, within one to two months. This straightforward protocol can be applied to developmental studies as well as the study of a variety of human brain diseases. Furthermore, since organoids can be maintained for more than a year in long-term culture, they also have the potential to model later events such as neuronal maturation and survival.
+
+## INTRODUCTION
+In vitro methods to model human development and disease are part of a rapidly expanding field of stem cell biology with major therapeutic implications 1 . Organoid protocols stand at the forefront of these technologies as these 3D approaches more accurately reproduce in vivo developmental events leading to more precise in vitro models 2 , 3 . Organoids have already been developed for several organ systems, including retina 4 , intestine 5 , thyroid 6 , liver 7 , pituitary 8 , inner ear 9 , kidney 10 - 12 , and brain 13 . However, only a handful of methods exist for generating such tissues from human pluripotent stem cells (PSCs) 13 - 17 . In this protocol, we describe the methodology that was recently published for generating brain organoid tissues from human PSCs 13 .
+
+The method described here builds upon an extensive foundation of protocols for neural differentiation, 3D tissue culture, and tissue engineering. Cerebral organoids develop through intrinsic self-organizing processes upon timely application of components and culture environments that had previously been described individually. Thus, the method is an amalgamation of previous methods, combined in a specific manner to address two main objectives: 1) the establishment of neural identity and differentiation and 2) the recapitulation of 3D structural organization.
+
+The first goal of the protocol is induction and differentiation of neural tissue. This involves identification of media formulations and additives to drive neural identity and stimulate brain development in vitro . In order to achieve this, a number of media formulations were tested at various time points. Rather than describe the multitude of tested combinations, we will focus here on the successful outcome.
+
+Neural tissue develops in vivo from a germ layer called the ectoderm 18 . Similarly, PSCs in vitro can be stimulated to develop germ layers, including ectoderm, within aggregates called embryoid bodies (EBs) 19 . A number of previous studies have described successful differentiation of EBs in embryonic stem (ES) cell medium with decreased bFGF 20 and high dose ROCK inhibitor to limit cell death 21 . Similarly, cerebral organoids develop from EBs grown initially in ES medium with low bFGF and ROCK inhibitor.
+
+Subsequent neural induction of EBs follows a minimal media formulation very similar to that established by Zhang et al. for induction of neural rosettes 22 , 23 , a 2D polarized organization of neurepithelial cells. However, for generation of cerebral organoids, EBs are kept in suspension leading to uniform neural ectoderm formation along the outer surface of EBs, whereas inner non-neural mesendodermal tissues do not develop.
+
+Neural ectoderm in vivo establishes radially organized neuroepithelia that expand to form various brain structures. Similarly, organoids placed in a differentiation medium that supports both neural progenitors and their progeny display this developmental progression in vitro . The media formulation at this stage is influenced by a large body of neural stem cell protocols 24 , 25 and neural rosette methods 26 , 27 . These methods have demonstrated the importance of Neurobasal medium and B27 supplement for neuronal differentiation and survival 28 . Empirical testing of media formulations from various rosette protocols led to the inclusion of additional supplements such as 2-mercaptoethanol 27 and insulin 29 , which seem to have a positive effect in maintaining neural stem cells.
+
+Finally, retinoic acid has previously been described to be secreted from the brain meninges and promote neural differentiation 30 . However, retinoic acid is a potent caudalizing factor in vivo 31 . Therefore, since we sought to limit the application of exogenous patterning factors, this component is not included at early stages and is only included in differentiation media at later stages in the form of vitamin A provided in the B27 supplement.
+
+The second objective of the method was achieving a 3D spatial organization that could recapitulate development of various brain regions. A number of recent studies have demonstrated the enormous self-organizing capacity of tissues developed from PSCs, including certain neural tissues 32 . Therefore, we focused on providing a permissive environment for 3D self-organization.
+
+Neural ectoderm in vitro can spontaneously acquire a radial organization reminiscent of neuroepithelium, as in the case of neural rosettes. Likewise, neural ectoderm of EBs spontaneously establishes apical-basal polarity to form the neuroepithelium. However, in the absence of the basement membrane normally present in vivo , this epithelium lacks proper orientation and fails to form a continuous epithelium 33 . We therefore tested the effect of providing a structural support to promote continuity and proper orientation.
+
+Various studies have demonstrated the formation of complex organized epithelia within hydrogels composed of extracellular matrix proteins 34 . In particular, intestinal stem cells embedded in Matrigel have recently been shown to generate large intestinal epithelial 3D tissues, termed intestinal organoids 5 . Likewise, we tested the application of this approach to neural ectoderm induced EBs. Shortly following embedding, large buds of continuous neuroepithelium protrude from the larger EB and contain fluid-filled cavities reminiscent of brain ventricles indicative of proper apical-basal orientation.
+
+The final key element of the protocol is the application of agitation. It became clear that although Matrigel promoted neuroepithelial bud expansion, organoids quickly grew beyond the limits of stationary diffusion of oxygen and nutrients, as evidenced by dark necrotic tissue at the center of organoids. Since agitating bioreactors have proven useful in a number of tissue engineering applications 2 , 3 , 35 , we tested the effect of a spinning bioreactor to better promote diffusion. This dramatically improved tissue survival and further development. Other types of agitation are also acceptable, and the method described here also details the use of an orbital shaker as an alternative to the spinning bioreactor.
+
+A number of methods exist for growth and differentiation of neural stem cells, the vast majority of which are performed in monolayer culture. For decades, neural stem cell lines have been used to generate particular neural and non-neural cell types for potential therapeutic applications 36 , 37 . However, these lines lack important hallmarks of stem cells of the developing brain, such as apicobasal orientation.
+
+More recently, neural rosettes have been derived from PSCs that properly recapitulate this apicobasal organization, forming a radially organized pattern in 2D, much like the neural tube epithelium 13 - 17 , 22 , 26 . Neural rosettes recapitulate many aspects of brain development, including proper lineage progression 13 , 38 , and timed neuronal specification 18 , 27 ; however, they lack the complex organization generated using a 3D approach such as the cerebral organoid method. Organoids are more heterogeneous than rosettes in 2D, but 3D neuroepithelia are more continuous, expand to form defined progenitor zones, and develop several brain region identities, thus better recapitulating the complex interplay of different regions and structures.
+
+Methods of generating neural tissue in 3D other than the method described here are quite limited. Neurospheres are 3D aggregates of neural progenitors often used as an assay to evaluate proliferative capacity of neural progenitors 19 , 37 . However, they lack clear organization and therefore suffer from many of the limitations of neural stem cell lines grown in 2D. The most similar approach to the method described here is the SFEBq method, referring to serum free culture of embryoid body-like aggregates with quick aggregation 20 , 21 . This method has been successfully applied to the derivation of a number of individual brain regions, including the retina 4 , 21 , cerebral cortex 21 - 23 , and pituitary 8 , 24 , 25 .
+
+There are certain similarities between the SFEBq and cerebral organoid methods, particularly the structure of dorsal telencephalic tissues generated 21 , 26 , 27 , but the media formulations differ considerably, and the developmental progression and therefore timing is quite distinct. Most notably, the SFEBq method makes use of growth factors to stimulate neural differentiation and subsequent differentiation into specific regions. Cerebral organoids instead spontaneously acquire various brain tissue identities and therefore establish multiple regions within a single organoid.
+
+The SFEBq method has been described to exhibit limited continuity and expansion of neuroepithelial tissue 21 , 28 , 33 . Instead, the method described here generates brain organoids with large continuous neuroepithelium that arises when embedded in Matrigel, which, along with agitation, distinguishes the organoid method. This issue has recently been resolved in the SFEBq method, and interestingly the solution seems to be an addition of extracellular matrix proteins, in the form of low concentration dissolved Matrigel 27 , 39 or Laminin/Entactin proteins 29 , 33 . Other modifications have also recently been published including growth in a high oxygen environment, and the addition of serum, lipids and Heparin 30 , 39 , also an important component of the organoid method.
+
+The following protocol can be used for a variety of developmental and disease studies. It is particularly suited to examining biological questions that would benefit from a human model system. For example, we have used cerebral organoids to examine cell division orientation in human radial glial stem cells 13 , 31 , a process thought to be uniquely regulated in humans compared with mice 32 , 40 . Similarly, brain organoids can be used to examine fate determination of neural stem cells or their intermediate progeny. More generally, the organoids can be used to examine tissue morphogenesis, early embryonic ectodermal fate determination, and neuroepithelial polarity establishment.
+
+Cerebral organoids represent a novel system to interrogate mechanisms of human neurological conditions that have been difficult or impossible to examine in mice and other model organisms. We have used brain organoids to examine the cell biological basis of a form of microcephaly, a disorder involving small brain size 13 , 33 , 41 . Similarly, a variety of neurological disorders could be examined in cerebral organoids. Broadly speaking, this system is perhaps most suited to examining neurodevelopmental disorders, as it best recapitulates the early developing brain (1 st trimester based on histological comparisons). These include disorders with clear morphological abnormalities but also more common disorders such as autism, intellectual disability, and epilepsy 34 , 42 .
+
+Finally, it is important to keep in mind the limitations of using such a system to examine brain development and disease. Like all in vitro systems, the method lacks surrounding embryonic tissues that are important for the interplay of neural and non-neural tissue cross-talk. Specifically, the lack of the overlying meninges and the vasculature that it provides severely limits the growth potential of the organoids. This contributes to certain stochastic growth patterns depending on availability of nutrients and the lack of body axes to pattern the neural tissue. Therefore, organoids display significant variability, particularly between preparations. Thus, one must keep in mind that in order to consistently detect phenotypes, for example in the case of genetic mutations, defects must be robust enough to lie outside the normal range. In addition, proper controls for this variability must be included, such as control organoids prepared at the same time and grown in the same media, and if possible, comparison of cellular phenotypes within single organoids.
+
+Although we have previously generated cerebral organoids from both mouse and human PSCs 13 , the method described here is specific for human PSCs. We have successfully tested both embryonic stem cells (ESCs) and induced pluripotent stem cells (iPSCs) as well as feeder-dependent and feeder-independent cell lines. PSCs are first dissociated to single cells and allowed to re-aggregate to form EBs ( Fig. 1 ). Previous studies have demonstrated the successful generation of EBs in 96-well U-bottom plates coated with nonadhesive compounds 43 . Such coated plates are commercially available and can be used to reliably generate EBs of homogeneous size and morphology.
+
+EBs are then subjected to neural induction in a minimal medium that does not support the growth of endoderm and mesoderm, and instead allows only the neuroectoderm to develop. The neuroectodermal tissues are then transferred to a floating droplet of Matrigel, which promotes outgrowth of neuroepithelial buds that expand and contain fluid-filled lumens. Finally, the tissues are transferred to a spinning bioreactor, or alternatively an orbital shaking plate, which promotes improved nutrient and oxygen exchange to allow more extensive growth and further development into defined brain regions.
+
+## MATERIALS
+hPSC or iPS cells. We have successfully used H9 human ES cells, feeder-dependent or feeder-independent (Wisconsin International Stem Cell Bank, Wicell Research Institute, WA09 cells) and reprogrammed feeder-dependent iPS cells (Systems Bioscience, cat. no. SC101A-1)
+
+! CAUTION Use of human tissues and human stem cells must adhere to institutional and funding body regulations as well as relevant ethical guidelines.
+
+Growth arrested irradiated mouse embryonic fibroblast feeder cells, if using feeder-dependent stem cells (MEFs; GlobalStem, cat. no. GSC-6001G)
+
+mTeSR1 medium (Stem Cell Technologies, cat. No. 05850)
+
+DMEM-F12 (Invitrogen, cat. no. 11330-032 or 31330-038, depending on location)
+
+Knockout Serum Replacement (KOSR; Invitrogen, cat. no. 10828-028)
+
+hESC-quality fetal bovine serum (FBS; Should be tested for compatibility with hESCs; Gibco, cat. no. 10270-106)
+
+Glutamax (Invitrogen, cat. no. 35050-038)
+
+MEM-Non-essential amino acids (MEM-NEAA; Sigma, cat. no. M7145)
+
+2-Mercaptoethanol (Merck, cat. no. 8057400005)
+
+bFGF (FGF2; Peprotech, cat. no. 100-18B) *CRITICAL We have not tested bFGF from other vendors for this protocol.
+
+Bovine Serum Albumin (BSA; AppliChem, cat. no. 9048-46-8)
+
+Sterile water
+
+Heparin (Sigma, cat. no. H3149)
+
+ROCK inhibitor Y27632 (Millipore cat. no. SCM075)
+
+N2 supplement (Invitrogen cat. no. 17502048)
+
+B27-vit. A supplement (Invitrogen cat. no. 12587010)
+
+B27+vit. A supplement (Invitrogen cat. no. 17504044)
+
+Penicillin-Streptomycin (Sigma, cat. no. P0781)
+
+Neurobasal medium (Invitrogen, cat. no. 21103049)
+
+Insulin solution (Sigma cat. no. I9278-5ML)
+
+Growth factor reduced Matrigel (BD Biosciences, cat. no. 356230)
+
+Gelatin (Sigma, cat. no. G1890-100G)
+
+Collagenase IV (Invitrogen, cat. no. 17104-019)
+
+Sterile Phosphate Buffered Saline (PBS; Invitrogen, cat. no. 14040-091)
+
+EDTA (Sigma-Aldrich, cat. no. E6758)
+
+Sterile D-PBS without calcium and magnesium (Invitrogen, cat. no. 14190-094)
+
+Matrigel (BD Biosciences, cat. no. 356234)
+
+Dispase (Invitrogen cat. no. 17105-0412q)
+
+Spray bottle containing 70% Ethanol
+
+0.05% Trypsin/EDTA solution (Gibco, cat. no. 25300-054)
+
+Trypsin inhibitor (Sigma-Aldrich, cat. no. T6414-100ML)
+
+Accutase (Sigma-Aldrich, cat. no. A6964)
+
+Trypan blue (BioRad, cat. no. 145-0021)
+
+Paraformaldehyde (PFA; Sigma-Aldrich, cat. no. 158127)
+
+Sucrose (Sigma-Aldrich, cat. no. S7903)
+
+CO 2 incubators (Thermo Scientific, cat. no. 51026280)
+
+Biological Safety Cabinet (Thermo Scientific, cat. no. 51022482)
+
+6-well tissue culture dishes (Corning, cat. no. 353046)
+
+Cell lifter (Corning, cat. no. 3008)
+
+Rainin Pipet Plus (P1000, P200, P10)
+
+Sterile filter pipette tips (1 ml, 200 μl and 10μl; Sigma-Aldrich, cat. no. A3348, A3098, A2473)
+
+Sterile microcentrifuge tubes (1.5 ml size; Fisher Scientific, cat. no. 05-408-129)
+
+Sterile 10 ml syringe without needle (Sigma, cat. no. Z248029)
+
+0.2 μm syringe filter (Sigma-Aldrich, cat. no. Z259969)
+
+Stericup 0.2 μm filter unit (500 ml, 250ml; Millipore, cat. no. SCGVU02RE, SCGVU05RE)
+
+96-well U-bottom ultra low attachment plates (Corning, cat. no. CLS7007)
+
+15 ml conical tube (Fisher Scientific, cat. no. 05-527-90)
+
+24-well ultra low attachment plates (Corning, cat. no. CLS3473)
+
+Parafilm (Sigma-Aldrich, cat. no. P7793)
+
+60 mm tissue culture dish (Sigma-Aldrich, cat. no. CLS430589)
+
+Spinner flask, 125ml size (Corning, cat. no. 4500-125)
+
+Stir plate (2mag, bioMIXdrive and bioMIXcontrol)
+
+Orbital shaker (IKA, cat. no. 0009019200)
+
+Pipetboy (Integra Biosciences, cat. no. 155 000)
+
+10 ml serological pipets (Falcon, cat. no. 357551)
+
+Sterilized scissors
+
+37°C Water bath (Fisher Scientific, Isotemp water bath)
+
+Stereomicroscope (Zeiss, Stemi 2000)
+
+Inverted contrasting tissue culture microscope (Leica, DMIL)
+
+Automated cell counter (BioRad, TC10)
+
+Benchtop centrifuge (Thermo Scientific, Heraeus Multifuge 1s)
+
+Sterile standard forceps (Fine Science Tools, cat. no. 11000)
+
+Standard 24-well tissue culture plate (Sigma-Aldrich, cat. no. CLS3527)
+
+Weighing dishes (Sigma-Aldrich, cat. no. Z154873)
+
+Scalpel blade (Sigma-Aldrich, cat. no. S2771)
+
+Isopentane (2-Methylbutane; Sigma-Aldrich, cat. no. M32631)
+
+Dry ice
+
+Low temperature thermometer (Sigma-Aldrich, cat. no. Z257400)
+
+Laboratory spatula (Sigma-Aldrich, cat. no. S3897)
+
+Cryostat (Leica)
+
+## REAGENT SETUP
+Culture human PSCs using standard procedures in 5% CO 2 incubator at 37°C. Briefly, maintain feeder-dependent hESCs or hiPSCs on growth arrested MEFs according to a protocol modified from Wisconsin International Stem Cell (WISC) Bank protocols ( http://www.wicell.org/home/support/stem-cell-protocols/stem-cell-protocols.cmsx ). Plate gamma irradiated MEFs on Gelatin coated (0.1% Gelatin) 6-well BD Falcon plates at a density of 1.87×10 5 cells per well the day before splitting or thawing hESCs or hiPSCs. Passage feeder dependent PSCs using 0.1% Collagenase IV in DMEM-F12 medium for 5-10 min followed by scraping with a cell lifter to remove intact colonies and triturate with 1 ml pipette tip to obtain smaller colonies before plating. Maintain feeder-dependent PSCs in hES media with 20 ng ml −1 final concentration bFGF.
+
+Maintain feeder-free hESCs in mTeSR1 medium and culture on Matrigel coated plates according to WISC Bank protocols. Briefly, dissolve low-growth factor Matrigel in DMEM-F12 and use a volume containing 0.5 mg Matrigel to coat an entire 6-well BD Falcon plate. Passage feeder-independent hESCs using 0.5 mM EDTA in sterile D-PBS without calcium and magnesium.
+
+Prepare a 10% solution of BSA by dissolving 1 g in 10 ml sterile water. This can be stored at −20°C for 1-2 years. Reconstitute 50 μg bFGF in 5 ml sterile PBS +0.1% final concentration of BSA to obtain a 10 μg ml −1 solution. Make 25 μl aliquots and store at −20°C for up to 6 months. Avoid repeated freezing and thawing. Reconstitute Heparin in sterile PBS to a final stock concentration of 1 mg ml −1 and store at 2-8°C for up to 2 years. Reconstitute 5 mg ROCK inhibitor 2.96 ml sterile water to obtain a final concentration of 5 mM. Make 150 ul aliquots and store at −20°C for up to one year. Aliquot and store N2 and B27 supplements at −20°C for up to one year.
+
+Thaw Matrigel on ice at 4°C overnight. Pre-cool 1 ml pipette tips, and 20 microcentrifuge tubes at −20°C for 10-15 min. Using cold pipette tips, pipette Matrigel up and down on ice and in sterile hood before transferring 500 μl to each tube. Store aliquots at −20°C for up to one year. Avoid repeated freezing and thawing.
+
+*CRITICAL Matrigel will solidify at room temperature (22-25°C) so it is important that all materials coming in contact with the solution are kept cold and aliquotting is done quickly to minimize time at room temperature.
+
+Dissolve 5 mg Dispase in 5 ml DMEM-F12 and filter using a syringe and 0.2 μm syringe filter. This solution is stable at 2-8°C for up to two weeks, or larger quantities can be made and aliquots stored at −20°C for up to 4 months.
+
+For approx. 500 ml medium, combine 400 ml DMEM-F12, 100 ml KOSR, 15 ml ES-quality FBS, 5 ml Glutamax, 5 ml MEM-NEAA, and 3.5 μl 2-Mercaptoethanol. Filter using a vacuum driven 0.2 μm Stericup filter unit. This can be stored for up to two weeks at 2-8°C. Add bFGF to a final concentration of 20 ng ml −1 for standard hESC or hiPSC feeder-dependent culture, or for Low bFGF hES media add bFGF to a final concentration of 4 ng ml −1 . *CRITICAL Add bFGF immediately before use only to the volume needed.
+
+Combine DMEM-F12 with 1% N2 supplement (vol/vol), 1% Glutamax supplement (vol/vol) and 1% MEM-NEAA (vol/vol). Add Heparin (final concentration 1 μg ml −1 ) and filter using a vacuum driven 0.2 μm filter unit. Store at 2-8°C for up to two weeks.
+
+For approx. 250 ml medium, combine 125 ml DMEM-F12, 125 ml Neurobasal, 1.25 ml N2 supplement, 62.5 μl Insulin, 2.5 ml Glutamax supplement, 1.25 ml MEM-NEAA and 2.5 ml penicillin-streptomycin. Prepare a 1:100 dilution of 2-Mercaptoethanol in DMEM-F12 and add 87.5 μl of this to the medium. Add 2.5 ml B27 supplement. * CRITICAL B27 should not contain vitamin A (retinoic acid) during the initial stages of growth in Matrigel. However, once droplets are transferred to the orbital shaker or spinner flask, B27 should include vitamin A. Filter the medium using a vacuum driven 0.2 μm filter unit and store at 2-8°C for up to two weeks.
+
+Prepare a 4% PFA solution by dissolving 4 g PFA in 80 ml PBS at 60°C by adding a few drops of 1 N NaOH until powder dissolves. Adjust pH to 7.4 and bring the final volume up to 100 ml. Aliquot and store at −20°C. Prepare a 30% sucrose solution by dissolving 30 g sucrose in 100 ml final volume of PBS at 37°C. Prepare gelatin/sucrose embedding solution by first dissolving 100 g sucrose in 1 L PBS at 37°C to prepare a 10% sucrose solution. Store sucrose solutions at 4°C. Dissolve 7.5 g gelatin in 100 ml 10% sucrose solution at 37°C to obtain a 7.5% gelatin/10%sucrose embedding solution. Aliquot and store at −20°C.
+
+## EQUIPMENT SETUP
+Install a low speed stir plate appropriate for use in CO 2 incubator by first spraying with ethanol to sterilize and placing on the bottom shelf of a standard tissue culture incubator. Be sure shelves above are positioned with enough room to fit the spinner flask on the stir plate comfortably. Move the power cable or controller cable to the side so that it can exit the incubator without hanging in front of tissue culture dishes. Hold it in place with a piece of tape and check that the incubator doors can still close securely.
+
+Spray a standard orbital shaker with ethanol and place it on a shelf in the tissue culture incubator, making sure the shelf above is positioned with enough room for tissue culture dishes to be placed on the shaker. Move the power cable to the side so that it can exit the incubator without hanging in front of tissue culture dishes. Hold it in place with a piece of tape and check that the incubator doors can still close securely.
+
+## PROCEDURE
+Grow hESC or iPSC colonies in one well of a 6-well plate until 70-80% confluent. All or part of the well can be used to make embryoid bodies (EBs) ( Fig. 1 ). Typically, one well will yield approximately an entire 96-well plate of EBs. Follow option A to generate embyoid bodies from feeder-dependent PSCs and option B for EB generation from feeder-independent hESCs. We have not observed a difference in organoids generated from either feeder-dependent or independent PSCs.
+
+CRITICAL STEP The morphology of stem cell colonies is critical to the success of cerebral tissue formation. The colonies should have no evidence of differentiation and display optimal features of pluipotency ( Fig. 2a ).
+
+Wash cells by removing hES media and replacing with 1 ml D-PBS without calcium and magnesium. Remove D-PBS and add 1 ml Dispase solution for each well of a 6-well plate and place the cells back in the incubator for 20-30 min. The colony edges should curl off the plate being only attached at the center of the colony. This can take up to 40 min.
+
+Remove Dispase solution and add 1 ml Low bFGF hES media. Tap the dish rigorously to remove the colonies from the dish without removing MEFs and differentiated cells. Transfer the medium containing in tact colonies to a 15 ml conical tube, being careful to limit the disruption of colonies. Allow the colonies to settle to the bottom of the tube for approximately 1 min.
+
+Gently aspirate the supernatant containing single cells and MEFs being careful not to disturb the settled colonies. Add another 1 ml Low bFGF hES media and again, allow the colonies to settle and remove the supernatant.
+
+Resuspend colonies in 1 ml Trypsin/EDTA and incubate 2 min at 37°C. Add 1 ml Trypsin inhibitor and triturate using a 1 ml pipette tip until solution becomes cloudy with single cells. Take 2 replicates of 5 μl for cell counting, then add 8 ml Low bFGF hES media.
+
+Centrifuge cells at 270 g for 5 min and in the meantime count live cells by adding an equal volume of Trypan blue to mark dead cells and count using a hemocytometer or automated cell counter. Use the average of the two replicates to calculate subsequent steps.
+
+Resuspend the cells first in 1 ml Low bFGF hES media with ROCK inhibitor (1:100, final concentration 50 μM). Pipette up and down to ensure single cell suspension. Then add an additional appropriate volume of Low bFGF hES media with ROCK inhibitor to obtain 9000 live cells/150 μl.
+
+Plate 150 μl in each well of a low attachment 96-well U-bottom plate and place back in the incubator.
+
+Wash cells with 1 ml D-PBS without calcium and magnesium and add 600 μl 0.5mM EDTA solution in D-PBS without calcium and magnesium for each well of 6-well plate. Place the cells back in the incubator for 4 min.
+
+Gently aspirate the EDTA solution without disturbing the colonies and add 1 ml Accutase. Place the cells back in the incubator for another 4 min.
+
+Using a 1 ml pipette tip, spray the colonies with 1 ml mTeSR1 media to detach them from the dish. Transfer the 2 ml to a 15 ml conical tube and triturate using a 1 ml pipette tip until the solution becomes cloudy with single cells. Take 2 repetitions of 5 μl for cell counting, then add another 3 ml mTeSR1 media and mix.
+
+Centrifuge cells at 270 g for 5 min and in the meantime count live cells by adding an equal volume of Trypan blue to mark dead cells and count using a hemocytometer or automated cell counter. Use the average of the two replicates to calculate subsequent steps.
+
+Resuspend the cells first with 1 ml Low bFGF hES media with ROCK inhibitor (1:100, final concentration 50 μM). Pipette up and down to ensure single cell suspension. Then add an additional appropriate volume of Low bFGF hES media with ROCK inhibitor to obtain 9000 live cells/150 μl.
+
+Plate 150 μl in each well of a low attachment 96-well U-bottom plate and place back in the incubator.
+
+Observe the plate under the tissue culture microscope 24 hours later. Small EBs with clear borders should be visible, although many dead cells will decorate the area around the EB. This is completely normal and will not disturb formation of the EB at the center. Continue to culture EBs in the tissue culture incubator at 37°C and 5% CO 2 .
+
+Feed the EBs every other day by gently aspirating approximately half of the medium without disturbing the EB at the bottom of the well. Add an additional 150 μl of fresh media (the final volume will be more than 150 μl but the exact amount is not important).
+
+Include ROCK inhibitor (1:100) and low bFGF (4 ng/ml) until EBs begin to brighten or are larger than 350-400 μm in diameter. Size measurements can be performed using an inverted microscope equipped with a camera and measurement software. Typically, ROCK inhibitor and low bFGF are included only for the first 4 days.
+
+Whilst EBs are between 350 and 600 μm in diameter, feed EBs every other day as described in step 3 using hES medium, but do not include ROCK inhibitor or bFGF.
+
+? TROUBLESHOOTING
+
+When EBs are about 500-600 μm in diameter and begin to brighten and have smooth edges (typically day 6) ( Fig. 2b , 3a ), transfer each EB with a cut 200 μl pipette tip to one well of a low attachment 24-well plate containing 500 μl Neural induction media ( Fig. 1 ), being careful not to disrupt the EB. Continue culturing EBs.
+
+CRITICAL STEP Cut a 200 μl pipette tip with sterile scissors to obtain an opening of 1-1.5 mm in diameter. Be sure the opening is not too small as this will disrupt the EB but also not too large as this will make it difficult to suck the EB into the pipette tip. Do not attempt to scoop the EB out of the well with a spatula or other tool as this will damage the EB.
+
+Feed the EBs with another 500 μl of Neural induction media 48 hours after transferring to the 24-well plate.
+
+Observe the EBs on the tissue culture microscope after a further two days. EBs should be brighter around the outside indicating neuroectodermal differentiation. Once these regions begin to show radial organization of a pseudostratified epithelium consistent with neuroepithelium formation ( Fig. 2c ), which should happen after 4-5 days in Neural induction media, proceed to step 8 to transfer the aggregates to Matrigel droplets ( Fig. 1 ).
+
+CRITICAL STEP Healthy cell aggregates should have smooth edges. Neuroepithelium develops on the outer surface and is quite optically translucent ( Fig. 2c , 3c-d ). Occasionally, tissues may exhibit outgrowths or buds of optically translucent tissue but that is not radially organized ( Fig. 2c , 3d ). Although not ideal, we have not noticed a long-term effect on organoid formation when these buds appear as long as radial organization is present in other regions of the tissue. Importantly, these nonradial regions can become radial if left in Neural induction for 1-2 more days, but with the risk that other already radial regions begin to shrink and lose the ability to form neuroepithelial buds if not transferred to Matrigel (Step 8) in a timely manner.
+
+? TROUBLESHOOTING
+
+CRITICAL STEP Be sure to move to step 8 to transfer tissues to Matrigel when neuroepithelium appears. Do not transfer too late as this can impact later morphology of cerebral tissues.
+
+Thaw Matrigel on ice at 4°C for 1-2 h. We find that a microcentrifuge tube containing 500 μl of Matrigel will thaw in this time frame if kept floating in a bath of ice and water.
+
+Prepare dimpled Parafilm substrate for generation of Matrigel droplets by layering a square of Parafilm over an empty tip tray for size 200 μl tips. Press your gloved finger into the Parafilm over each hole in the tip tray to create small dimples in the Parafilm.
+
+! CAUTION Parafilm cannot be properly sterilized as it cannot be autoclaved. Therefore, make sure to use Parafilm kept in a clean environment and spray your gloves and the Parafilm with 70% EtOH before preparing dimples. Antibiotics are also included in the medium at this stage to prevent contamination.
+
+Make a grid of 4×4 dimples (16 total) and trim the Parafilm with sterile scissors to a small square containing this grid. Place the square of Parafilm into a 60 mm tissue culture dish.
+
+CRITICAL STEP A grid of 4×4 will fit in the 60 mm dish, but not larger. Therefore a total of 16 droplets are placed in each 60 mm dish.
+
+Using a cut 200 μl tip, transfer neuroepithelial tissues one by one to each dimple in the Parafilm.
+
+CRITICAL STEP Cut a 200 μl pipette tip with sterile scissors to obtain an opening of 1.5-2 mm in diameter. Be sure the opening is not too small as this will disrupt the EB. Do not attempt to scoop the EB out of the well with a spatula or other tool as this will damage the EB.
+
+Remove excess media from each tissue by carefully sucking off the fluid with an uncut 200 μl tip.
+
+CRITICAL STEP Position the tip with the aggregate behind the opening of the tip to avoid sucking the tissue into the tip as this will damage the aggregate.
+
+Immediately add droplets of Matrigel to each aggregate by dripping approximately 30 μl onto each tissue so that the droplet fills the Parafilm dimple.
+
+CRITICAL STEP Add the Matrigel quickly to avoid letting the tissues dry out. We typically perform embedding of 16 tissues at a time, a number that is manageable in a time frame that will not cause aggregates to dry out.
+
+Position each aggregate in the center of the droplet using a 10 μl pipette tip to move the tissue within the droplet ( Fig. 2d ).
+
+CRITICAL STEP This must be done immediately after adding the droplet as the Matrigel will begin solidifying once at room temperature.
+
+Place the 60 mm dish containing droplets on Parafilm back into the 37°C incubator and incubate for 20-30 min to allow the Matrigel to polymerize.
+
+Add 5 ml of Cerebral organoid differentiation media without vitamin A to the 60 mm dish.
+
+Remove Matrigel droplets from Parafilm by first using sterile forceps to turn the Parafilm sheet over and agitating the dish until the droplets fall of the sheet. Any remaining droplets can be removed by using forceps to shake the Parafilm sheet in the medium more vigorously. Continue culturing tissue droplets in CO 2 incubator.
+
+Observe embedded tissues 24 h later under the microscope. Tissues should begin forming buds of more expanded neuroepithelium containing fluid-filled cavities within 1-3 days ( Fig. 2e , 3f ).
+
+CRITICAL STEP Often, other more migratory cell types will spread from the main mass of tissue into the Matrigel ( Fig. 2e ). These are typically fibroblast-like cells most likely representing a small population of non-neural identities that escape the neural induction. However, these cells will typically not survive and their migration away from the tissue seems to promote neuroepithelial bud outgrowth.
+
+? TROUBLESHOOTING
+
+Incubate droplets for a further 24h, then feed the droplets containing neuroepithelial tissues with Cerebral organoid differentiation media without vitamin A. Incubate for a further 48h without agitation.
+
+CRITICAL STEP Change media by tilting the dish, allowing droplets to sink, and carefully aspirating the medium. Aspirate as much media as possible without disturbing organoids. Replace with 5 ml fresh media.
+
+After 4 days in static culture, transfer the embedded organoids to a 125 ml size spinning bioreactor ( Fig. 1 ) by using a cut 1 ml pipette tip with an opening of approximately 3 mm. Culture organoids in 75-100 ml of Cerebral organoid differentiation media containing vitamin A. Place the bioreactor on an appropriate magnetic stir plate installed in the incubator ( Fig. 2f ). Alternatively, an orbital shaker installed in the incubator, shaking at 85 rpm, can be used. Simply replace media in each 60 mm dish with Cerebral organoid differentiation media containing vitamin A and place on the orbital shaker.
+
+CRITICAL STEP Do not transfer more than two 60 mm plates of organoids (32 organoids) as transferring too many organoids to this size flask will lead to fusing of organoids.
+
+CRITICAL STEP Be sure to use a low speed stir plate approved for use in a tissue culture incubator as regular stir plates can heat up due to the magnetic stirring motion.
+
+CRITICAL STEP Using an orbital shaker enables the analyses of many culture conditions, treatments, or genetic variants in parallel, whereas a typical stir plate only includes 4-6 places for separate flasks. We have not observed a difference in morphology of organoids cultured in either the bioreactor or on the orbital shaker.
+
+Change the media completely, as described in step 9, every 3-4 days if organoids are on the shaker or every week for the spinner flask and monitor for morphology. Perform further analysis on the organoids at your preferred time points, depending on stage of development desired. See Anticipated Results section for further discussion of when particular stages of development are typically reached. Cryosectioning and immunostaining can be perfomed as described in Box 1 , if desired.
+
+? TROUBLESHOOTING
+
+Troubleshooting advice can be found in Table 2 .
+
+Step 1 Making embryoid bodies: 1-2 h
+
+Steps 2-4 Feeding EBs and initiation of germ layer differentiation: 5-7 d
+
+Steps 5-7 Induction of primitive neuroepithelia: 4-5 d
+
+Steps 8-17 Transferring neuroepithelial tissues to Matrigel droplets: 1-2 h
+
+Steps 18-19 Stationary culture of expanding neuroepithelial buds: 4 d
+
+Steps 20-21: Growth of cerebral tissue: variable; organoids can be maintained for up to one year although tissue growth stops by 2 months and tissues steadily diminish in size after 5-6 months.
+
+Box 1 , Preparation of tissues for analysis and immunostaining: 3 d
+
+## ANTICIPATED RESULTS
+This protocol outlines the generation of 3D cerebral organoid production from human PSCs and their subsequent analysis. The method is easy to implement in a typical tissue culture room using standard equipment. Furthermore, organoids can be examined at various time points to study a variety of developmental stages. By 5-6 days (step 5), EBs should exhibit optically translucent tissue on the outer surface of the EB ( Fig. 2b , 3a ). This is typically not variable between EBs within a preparation, although different batches of EBs made at different times can exhibit variability between batches. This variability depends greatly on the morphology and pluripotency of starting PSCs. It is important that PSCs exhibit optimal colony morphology 1 (ie. not more than 5-10% differentiation and homogenous colonies with obvious borders) before beginning the protocol.
+
+If EBs show proper surface clearing and brightening (step 5), typically 60-80% of these will exhibit neuroectoderm when placed in Neural induction medium (step 7). However, again batch-to-batch variability can occur although tissues within a particular batch rarely display much variability at this stage. Finally, neuroepithelial buds will typically form in 30-80% of organoids when placed in Matrigel droplets (step 18). These buds will be quite heterogeneous from tissue to tissue and will exhibit variable sizes and degree of continuity. However, large and continuous neuroepithelial tissues will form on many of the organoids if the following precautions are taken to ensure a good batch of organoids: PSCs must exhibit optimal colony morphology before beginning ( Fig. 2a ); EBs must be transferred to Neural induction media at the correct time according to morphology and size ( Fig. 2b , 3a ); and tissues must be subsequently transferred to Matrigel droplets at the correct time according to morphology ( Fig. 2c , 3c ).
+
+Cerebral tissues will generally expand quickly once placed in Matrigel ( Fig. 2e , 3f ) and by day 15-20 the entire organoid will be difficult to examine using a standard tissue culture microscope as the tissues are too large at this point. Instead, observe the tissues using a dissecting microscope or stereomicroscope to visualize gross morphology. Fluid-filled cavities can often be seen ( Fig. 2g ), although when located within the tissue mass these are difficult to identify. Additionally, retinal regions can be recognized by the presence of pigmented regions reflecting retinal pigmented epithelial identity 4 .
+
+The large size of organoids after Matrigel embedding necessitates analysis by sectioning and immunohistochemical staining ( Box 1 ). Cryosections performed at an early stage (12-20 days) will reveal expanding neuroepithelium marked by Sox2 or Pax6 ( Table 1 ), whereas only occasional neurons are visible 13 . These neuroepithelia are located adjacent to ventricle-like cavities that are often fluid-filled or contain cellular debris. Occasionally, there may be other tissues exhibiting fibroblast-like morphologies, based on histological characterization, and these are thought to be a side effect of impure neural induction due to a lack of exogenous growth factors or morphogens. However, these should be a minor population and do not affect growth and development of neural tissues.
+
+After one month, organoids should begin to exhibit neuronal differentiation, marked by Tuj1 or DCX ( Table 1 ) leading to progressive expansion and thickening of cerebral tissues over the subsequent 1-2 months ( Fig. 4a ). At this stage, a number of different brain regions are visible ( Table 1 ), including forebrain marked by Foxg1 ( Fig. 4b ), choroid plexus marked by TTR ( Fig. 4c ) and exhibiting a highly convoluted structure and cuboidal epithelial morphology, and hippocampus marked by Prox1 and Fzd9 staining ( Fig. 4d ). Finally, ventral forebrain stains positive for the marker Nkx2.1 ( Table 1 ), while retina exhibits retinal layering and pigmented epithelium.
+
+Additionally, cortical regions display evidence of typically progenitor zones displaying a dense ventricular zone (VZ) populated by Sox2+ inner radial glia ( Fig. 4e ), while outer radial glia, which are also Sox2+, reside outside the VZ. Both populations stain positive for phospho-vimentin during mitosis ( Fig. 4e ) but divide in different locations: inner radial glia divide at the apical surface, while outer radial glia divide outside the VZ. Neurons that are generated migrate outward to form a preplate, the precursor to the cortical plate, marked by Reelin and Tbr1 ( Table 1 ), and intermediate progenitors, marked by Tbr2, can be seen in the region adjacent to the VZ.
+
+If allowed to develop further, organoids will progressively produce more neurons whereas progenitor zones will shrink and eventually disappear by 5-6 months. Tissues thereafter will be composed of primarily fully differentiated neurons, although other populations such as astrocytes and oligodenderocytes have not been examined. The neuron populations present include various layer identities of the cortical plate 13 , 39 ( Table 1 ), which will exhibit rudimentary separation into deep and surface layer distributions ( Fig. 4f ). However, the neurons will not display a six-layered architecture such as that seen in vivo . Organoids can be further maintained for over a year. We have maintained organoids for up to 15 months. Importantly, after 6-7 months, organoids begin shrinking in size, due to the lack of progenitors and most likely a progressive neuronal cell loss.

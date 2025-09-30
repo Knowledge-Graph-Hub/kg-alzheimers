@@ -1,0 +1,12 @@
+# Title
+Transcriptomic Analysis of Autistic Brain Reveals Convergent Molecular Pathology
+
+# Abstract
+Autism spectrum disorder (ASD) is a common, highly heritable neuro-developmental condition characterized by marked genetic heterogeneity 1 – 3 . Thus, a fundamental question is whether autism represents an etiologically heterogeneous disorder in which the myriad genetic or environmental risk factors perturb common underlying molecular pathways in the brain 4 . Here, we demonstrate consistent differences in transcriptome organization between autistic and normal brain by gene co-expression network analysis. Remarkably, regional patterns of gene expression that typically distinguish frontal and temporal cortex are significantly attenuated in the ASD brain, suggesting abnormalities in cortical patterning. We further identify discrete modules of co-expressed genes associated with autism: a neuronal module enriched for known autism susceptibility genes, including the neuronal specific splicing factor A2BP1/FOX1 , and a module enriched for immune genes and glial markers. Using high-throughput RNA-sequencing we demonstrate dysregulated splicing of A2BP1 -dependent alternative exons in ASD brain. Moreover, using a published autism GWAS dataset, we show that the neuronal module is enriched for genetically associated variants, providing independent support for the causal involvement of these genes in autism. In contrast, the immune-glial module showed no enrichment for autism GWAS signals, indicating a non-genetic etiology for this process. Collectively, our results provide strong evidence for convergent molecular abnormalities in ASD, and implicate transcriptional and splicing dysregulation as underlying mechanisms of neuronal dysfunction in this disorder.
+
+## METHODS SUMMARY
+Postmortem brain tissue was obtained from the Autism Tissue Project and the Harvard Brain Bank as well as the MRC London Brain bank for Neurodegenerative Disease. Detailed information on the autism cases included in this study is available in Methods.
+
+Total RNA was extracted from 100 mg of tissue using a Qiagen miRNA kit according to the manufacturer’s protocol. Expression profiles were obtained using Illumina Ref 8 v3 microarrays. RNAseq was performed on the Illumina GAIIx, as per the manufacturer’s instructions. Furthere detailed information on data analysis is available in Methods. All microarray and RNAseq data is deposited in GEO under accession numbers which are pending.
+
+Full detailed Methods accompany this paper as supplemental material .

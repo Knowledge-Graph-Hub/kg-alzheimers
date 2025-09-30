@@ -1,0 +1,333 @@
+# Title
+Exposure to Particulate Air Pollution and Cognitive Decline in Older
+Women
+
+# Abstract
+Chronic exposure to particulate air pollution may accelerate
+cognitive decline in older adults, although data on this association are
+limited. Our objective was to examine long-term exposure to particulate
+matter (PM) air pollution, both coarse ([PM 2.5–10
+μm in diameter [PM 2.5-10 ]) and fine (PM
+<2.5 μm in diameter [PM 2.5 ]), in
+relation to cognitive decline. The study population comprised the Nurses’ Health Study
+Cognitive Cohort, which included 19 409 US women aged 70 to 81 years. We
+used geographic information system–based spatiotemporal smoothing
+models to estimate recent (1 month) and long-term (7–14 years)
+exposures to PM 2.5-10 , and PM 2.5 preceding base-line
+cognitive testing (1995–2001) of participants residing in the
+contiguous United States. We used generalized estimating equation regression
+to estimate differences in the rate of cognitive decline across levels of
+PM 2.5-10 and PM 2.5 exposures. The main outcome
+measure was cognition, via validated telephone assessments, administered 3
+times at approximately 2-year intervals, including tests of general
+cognition, verbal memory, category fluency, working memory, and
+attention. Higher levels of long-term exposure to both PM 2.5-10 and
+PM 2.5 were associated with significantly faster cognitive
+decline. Two-year decline on a global score was 0.020 (95% CI,
+−0.032 to −0.008) standard units worse per 10
+μg/m 3 increment in PM 2.5-10 exposure and
+0.018 (95% CI, −0.035 to −0.002) units worse per 10
+μg/m 3 increment in PM 2.5 exposure. These
+differences in cognitive trajectory were similar to those between women in
+our cohort who were approximately 2 years apart in age, indicating that the
+effect of a 10-μg/m 3 increment in long-term PM exposure
+is cognitively equivalent to aging by approximately 2 years. Long-term exposure to PM 2.5-10 and PM 2.5 at
+levels typically experienced by many individuals in the United States is
+associated with significantly worse cognitive decline in older women.
+
+## METHODS
+The Nurses’ Health Study (NHS) began in 1976 when 121 700 female
+registered nurses, aged 30 to 55 years and living in 11 US states, returned a mailed
+questionnaire about their medical history and health-related behaviors. 23 Since then, women have completed
+questionnaires every 2 years. To date, we have maintained follow-up of more than
+90% of the original participants. This study was approved by the
+institutional review board of Brigham and Women’s Hospital, Boston,
+Massachusetts.
+
+From 1995 to 2001, we invited participants 70 years and older with no
+history of stroke to participate in a study of cognition. Of the 22 715 women
+who were eligible, we were unable to contact 1031 (4.5%). Of those
+remaining, 7.7% declined participation. Our analyses of exposure to
+coarse PM (2.5–10 μm in diameter
+[PM 2.5-10 ]) and PM 2.5 in relation to
+cognitive decline were based on data from up to 19 409 women with relevant data.
+Second (1997–2004) and third (2002–2008) cognitive assessments
+were administered a mean (SD) of 1.9 (0.4) years (n=17 089) and 4.3
+(0.8) years (n=14204) after initial testing, reflecting at least
+83% participation at each follow-up cycle.
+
+We used geographic information system (GIS)-based spatiotemporal
+smoothing models to estimate exposures to PM 10 (<10 μm in
+diameter) and PM 2.5 for women residing in the contiguous United
+States. Coarse PM (PM 2.5-10 ) was the difference between
+PM 10 and PM 2.5 . The methods for estimating these
+exposures for a 13-state region have been described previously. 24 – 26 These methods have been extended to
+estimate PM 10 and PM 2.5 for the contiguous United States.
+Briefly, PM 10 and PM 2.5 monitor data were obtained from
+the US Environmental Protection Agency’s (USEPA) Air Quality System
+(AQS). 26 – 28 Monitor data on
+PM 10 were available nationwide from 1988 through 2007. Monitor
+data on PM 2.5 were not widely available before 1999. Thus, separate
+PM 2.5 models were developed for the pre-1999 and post-1999
+periods, as in previous work. 26 The pre-1999 PM 2.5 model described seasonal
+spatial and monthly temporal patterns in the PM 2.5 to PM 10 ratio; we multiplied this ratio by PM 10 to obtain PM 2.5 predictions during this earlier period. Generalized additive mixed models were
+constructed to explain variation in measured PM 10 and
+PM 2.5 (post-1999) levels as the sum of effects of GIS-derived
+covariates (eg, distance to nearest road by road class, urban land use),
+meteorological data, and smooth spatial terms. These models were used with
+GIS-derived and meteorological data specific to each geocoded residential
+location for each nurse, to provide highly spatially resolved estimates of
+monthly PM 10 and PM 2.5 concentrations.
+
+We averaged month-specific exposures to PM 2.5-10 ,
+PM 2.5 , and PM 10 over several intervals preceding the
+initial cognitive interview: preceding month, year, 2 years, 5 years, and from
+1988 through the preceding month. (See the eFigure and eAppendix 1 for further detail on
+PM exposure models and exposure estimation, and the timing of exposure and
+cognitive assessments; http://www.archinternmed.com .)
+
+Cognitive testing was administered using validated telephone interviews.
+In the initial interviewing, we administered only the Telephone Interview for
+Cognitive Status (TICS) 29 and
+gradually added 5 more tests as high participation in the cognitive testing
+became apparent. Thus, the sample size differs somewhat across the cognitive
+tests, although participation rates remained identical for all tests. The TICS
+(n=19 409) is modeled on the Mini-Mental State Examination (MMSE), and
+scores on the 2 tests are strongly correlated (Pearson correlation,
+0.94). 29 A test of
+delayed recall of the 10-word list from the TICS (N=16 908) was one of
+the 5 tests added to our battery. We also added the East Boston Memory Test
+(EBMT) 30 , 31 to assess immediate (n=18 662)
+and delayed (=18 635) paragraph recall. We administered a test of
+category fluency in which participants were asked to name as many animals as
+they could in 1 minute 32 (n=18 652). Finally, participants were administered the Digit Span
+Backward test 33 (n=16
+916), measuring working memory and attention. We used the full testing battery
+in the second and third assessment waves.
+
+Our 2 prespecified primary outcomes were composite measures of
+cognition. 5 , 34 Specifically, to summarize the overall
+association of the air pollution exposure measures with cognitive performance,
+for women given all 6 tests (n=16 887), we constructed a global score by
+averaging z scores from all tests. In addition, to assess
+overall verbal memory, a strong predictor of developing AD, 35 we combined the immediate and delayed
+recalls of the EBMT and the TICS 10-word list, for women given all 4 tests
+(n=16 906), by averaging z scores from these tests. We
+extensively tested the reliability and validity of our telephone procedure for
+assessing cognition in high functioning, educated women ( eAppendix 2 ).
+
+We performed separate analyses for each of the PM measures, evaluating
+exposures in quintiles and as continuous variables, in relation to each
+cognitive score, including the verbal and global scores. All individual test
+scores were expressed as z scores, computed from the means and
+standard deviations in our study population. We compared trajectories in
+cognitive function over the 3 repeated measures across levels of the exposure
+measures, using generalized estimating equations regression models, 36 which allowed us to account
+for the correlations among repeated cognitive scores. In these models, we
+included terms for time, in years, since baseline cognitive assessment (as a
+continuous variable), air pollution exposure, and cross-products between the
+time and air pollution exposure terms. We adjusted these analyses for potential
+confounding variables, including age at cognitive assessment, education
+(registered nurse degree, bachelor’s degree, or advanced graduate
+degree), husband’s education (high school diploma or less, college
+degree, advanced graduate degree, or other), energy expended on recreational
+physical activity 37 (mean of
+responses to 4–7 questionnaires from 1986 through initial cognitive
+assessment, in quartiles), and alcohol consumption (mean of responses to
+5–8 questionnaires from 1986 through initial cognitive assessment; none,
+up to 1 drink/wk, 2–6 drinks/wk, or ≥1 drink/d). We also
+included terms for the cross-products between each covariate and time.
+Additional adjustment for body mass index, diabetes, smoking (status and
+pack-years), aspirin use (3 frequency categories), and ibuprofen use
+(ever/never), did not change our findings. We conducted tests for linear trend
+across the PM quintiles using an ordinal variable that took on values
+corresponding to each quintile (1, 2, 3, 4, or 5).
+
+All associations are reported as mean differences in cognitive score
+change over a 2-year interval, across exposure levels, as 2 years is the
+approximate interval between the testing cycles. In addition, to help interpret
+these mean differences, we compared findings on the relation of PM exposure to
+cognitive decline with age-related differences in cognitive decline, generated
+from the women in our data set. While our primary focus was on
+PM 2.5-10 and PM 2.5 , we also evaluated
+PM 10 .
+
+In secondary analyses, we further adjusted our analyses for 3 measures
+of socioeconomic position in the census tract of residence: percentage of adults
+who have less than high school education, median home value, and median income.
+We also evaluated potential mediation of air pollution’s association
+with cognitive decline by respiratory and cardiovascular conditions. In
+additional analyses, we further adjusted for self-reported emphysema and
+indicators of cardiovascular and cerebrovascular disease (high blood pressure,
+coronary heart disease, congestive heart failure, coronary artery bypass graft,
+transient ischemic attack, and carotid endarterectomy). Finally, we conducted
+sensitivity analyses restricted to women who did not move between 1988 and their
+first cognitive assessment (62% of the study population).
+
+## RESULTS
+Estimated exposures to PM 2.5-10 and PM 2.5 varied
+widely among the women ( Table 1 ). Estimated
+exposures over the month preceding the initial cognitive assessment were
+significantly correlated with longer-term exposures, but these correlations weakened
+with increasing measurement interval length ( Table
+1 ). For any given interval, estimated exposure to PM 2.5-10 was
+significantly correlated with estimated exposure to PM 2.5 but at
+magnitudes lower than the correlations between measures of the same PM type.
+
+There were few meaningful differences in characteristics of women across
+quintiles of long-term PM 2.5-10 exposure ( Table 2 ). From our multivariable-adjusted analyses,
+we observed rates of change in global cognitive function score that were
+significantly worse with higher levels of long-term exposure to
+PM 2.5-10 ( P value for trend, .01; Table 3 ) and were significantly worse in the highest
+vs the lowest quintile of exposure ( P =.003). Higher
+estimated PM 2.5-10 exposures in the 1, 2, and 5 years before the
+initial cognitive assessment were also associated with significantly worse
+subsequent decline on the global cognitive score. By contrast, exposure to
+PM 2.5-10 in the previous month was weakly and not significantly
+associated with cognitive decline. This pattern also was apparent in the
+findings for decline in the TICS and verbal memory scores, while short- and
+long-term PM 2.5-10 exposures were associated with comparable
+increases of rates of decline in digit span backward and verbal fluency
+scores.
+
+The distributions of key characteristics across quintiles of estimated
+long-term PM 2.5 exposure were similar to those for
+PM 2.5-10 ( Table 4 ), with
+few notable or consistent differences across quintiles. Similar to
+PM 2.5-10 , women in the highest quintile of long-term exposure to
+PM 2.5 experienced significantly worse rates of change in the
+global score than did women in the lowest quintile
+( P =.03; Table
+5 ). The trend of across quintiles were borderline significant
+( P value for trend, .11), but, when modeled as continuous
+variables, higher levels of both long-term PM 2.5 exposure (since
+1988) and PM 2.5 exposure in the 5 years before the initial cognitive
+assessment were associated with significantly worse decline in global cognition.
+Decline in the individual cognitive domains generally was more strongly
+predicted by long-term than recent exposure to PM 2.5 .
+
+We observed similar differences in rates of global cognitive change per
+10 μg/m 3 increment in long-term exposure to
+PM 2.5-10 and PM 2.5 (−0.020
+[95% CI, −0.032 to −0.008] and
+−0.018 [−0.035 to −0.002] standard
+units/2 years, respectively). These differences were similar to the difference
+in rates of change we observed between women in our data who were 1 to 2 years
+apart in age. Expressed per SD increment of each PM measure, these differences
+were −0.008 (95% CI, −0.013 to −0.003) and
+−0.006 (95% CI, −0.011 to −0.001) standard
+units/2 years.
+
+Results from analyses of thoracic PM (PM 10 ) indicated
+generally faster rates of cognitive decline with higher level of long-term
+exposure ( P value for trend, .<.001; eTable ).
+
+The associations of PM 2.5-10 and PM 2.5 with
+cognitive decline remained nearly identical when we adjusted our analyses for
+area socioeconomic position measures and for potential respiratory and
+cardiovascular intermediates. Analyses restricted to women who did not move
+yielded modestly stronger associations than those in our primary analyses. For
+example, 10-μg/m 3 increments in long-term exposure to
+PM 2.5-10 and PM 2.5 corresponded to 2-year rates of
+decline in the global cognitive score that were worse by 0.025 (95% CI,
+−0.040 to −0.009) and 0.021 (95% CI, −0.043 to
+−0.000) standard units, respectively.
+
+## COMMENT
+In this large, prospective study of older women, higher levels of long-term
+exposure to both PM 2.5-10 and PM 2.5 were associated with
+significantly faster cognitive decline. Placing these results in context, the
+differences in cognitive trajectory per 10-μg/m 3 increment in
+long-term exposure to PM 2.5-10 and PM 2.5 were similar to the
+differences in trajectories between women in our study who were 1 to 2 years apart
+in age; that is, 10-μg/m 3 higher exposure to PM was cognitively
+equivalent to aging by up to 2 years.
+
+Several lines of indirect evidence indicate that PM may cause cognitive
+decline. Results from animal studies indicate that PM may access the brain either
+via circulation, or intranasally by direct translocation through the olfactory
+bulb. 38 – 40 Once in the central nervous system, fine
+particles appear to exert adverse effects. Several animal studies have shown
+increased brain inflammation in response to air particulate exposures. 41 – 44 In one experiment, mice were exposed either to filtered
+air, ambient ultrafine particles, or a mixture of fine and ultrafine particles
+sampled from Los Angeles, California, air. Two weeks after exposure, the brains of
+mice in both exposed groups contained higher levels of inflammatory markers, as
+compared with the mice in the control group. 41 In dogs, signs of blood-brain barrier dysfunction, neural
+degeneration, cerebrovascular pathologic signs, and apoptosis in glial cells were
+present more often in those who had lived in Mexico City, Mexico, an area of high
+air pollution, than in dogs from less polluted cities. 44 In a postmortem study of 19 humans aged 34
+to 83 years, who had died of nonneurologic causes, brain levels of cyclooxygenase-2,
+an inflammatory mediator, in the frontal cortex and hippocampus were higher among
+those who had lived in highly polluted cities than among those who had lived in less
+polluted cities. Importantly, brain levels of amyloid-β42, a pathologic
+hallmark of AD, were also higher among residents of the polluted cities. 45
+
+The relation of PM exposure to cognitive decline may also be mediated
+through cardiovascular mechanisms. Extensive experimental and epidemiologic data
+indicate an association between exposure to air pollution and cardiovascular
+diseases and risk factors. 10 , 11 , 46 , 47 This link is
+important because vascular factors have also been found to predict cognitive decline
+and dementia. 48 , 49 In our data, however, adjustment for
+vascular factors did not change our findings, indicating that this is not likely a
+key pathway by which PM influences cognition.
+
+Several limitations of our study warrant consideration. First, our estimates
+of PM exposure were indirect, based on spatiotemporal modeling of measurements from
+air pollution monitors located near each woman’s residence. Measurement via
+personal air monitoring devices is not practical for long-term exposures in
+large-scale epidemiologic studies. Yet, exposure measurement errors in our study
+were likely to be nondifferential with respect to degree of cognitive decline,
+resulting in attenuated estimates of association. In addition, our PM exposure
+estimation 50 , 51 features GIS-based spatiotemporal
+statistical models with little bias and high precision—particularly relative
+to other modeling approaches 24 , 26 —accounting for small-scale
+variations in exposure at each participant’s residential address using
+GIS-based covariates. This enabled us to assign estimated PM exposure levels to each
+address for each participant throughout the study period. Therefore, exposure
+estimates should be more accurate over time than estimates from initial addresses
+only. If chronic PM exposure particularly affects cognitive aging or if the biologic
+response occurs over longer than 1 month, this improved accuracy over time may
+explain, in part, why many associations corresponding to recent PM exposure were
+weaker than associations corresponding to long-term PM exposures, although it is
+also plausible that recent PM exposure is less biologically relevant.
+
+It is possible that our results from this observational study are due to
+confounding. However, we did not find meaningful differences in numerous potential
+confounding variables across levels of PM exposure, and adjustment for a variety of
+known confounding variables—some of them measured repeatedly over several
+study cycles—did not eliminate the observed associations.
+
+Although ours is the first study, to our knowledge, to investigate
+PM 2.5-10 and PM 2.5 in relation to cognitive aging,
+previous epidemiologic studies of adults generally suggest an adverse association
+between exposure to other forms of ambient particulates and cognition. 19 – 22 In a study of 399 older women residing in urban and rural
+areas of Germany, residential proximity to busy road, a source of exposure to
+ultrafine particles, was associated with performance on several tests of cognition
+and olfaction, but higher PM 10 exposure in the previous 5 years was
+not. 20 Another study of
+671 older men measured exposure to black carbon, a marker of traffic-related
+particles, and observed that higher level of exposure over the previous 1 to 11
+years was associated with worse cognitive function. 22 In the largest study to date, among 15 973
+older adults in China, residents of areas with poorer air quality over the previous
+7 to 10 years, measured by an index of ambient particulate and gas concentrations,
+were more likely to have poor cognitive function. 21 Finally, in a study of 1764 adults aged 20
+to 59 years living throughout the contiguous United States, higher exposure to ozone
+over the previous year was associated with worse performance on several cognitive
+and motor tests, but exposure to PM 10 was not. Neither of the 2 studies
+that examined PM 10 observed an association with cognitive function, yet
+the range of PM 10 exposure in the German study may have been too narrow
+(eg, 39.3–53.6 μg/m 3 from 1980–1993) to observe a
+measureable effect, 20 and the
+1-year measurement interval for PM 10 exposure used in the study of
+younger adults may have been too brief. 19 These previous findings also suggest that traffic-related
+exposures may be important contributors to cognitive aging. Our findings complement
+and extend these previous findings not only by directly examining cognitive decline
+in a large population, but also by using detailed modeling of short- and long-term
+PM 2.5-10 and PM 2.5 exposures.
+
+In conclusion, we found that higher levels of exposure to ambient PM are
+associated with worse cognitive decline. Importantly, these associations were
+present at levels of PM exposure typical in many areas of the United States.
+Therefore, if our findings are confirmed in other research, air pollution reduction
+is a potential means for reducing the future population burden of age-related
+cognitive decline, and eventually, dementia.

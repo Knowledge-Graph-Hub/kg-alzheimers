@@ -1,0 +1,364 @@
+# Title
+Functional Connectivity in Autosomal Dominant and Late-Onset
+Alzheimer Disease
+
+# Abstract
+Autosomal dominant Alzheimer disease (ADAD) is caused by rare genetic
+mutations in three specific genes, in contrast to late-onset Alzheimer
+Disease (LOAD), which has a more polygenetic risk profile. We analyzed functional connectivity in multiple brain resting state
+networks (RSNs) in a cross-sectional cohort of ADAD (N=79) and LOAD (N=444)
+human participants using resting state functional connectivity MRI
+(rs-fcMRI) at multiple international academic sites. For both types of AD, we quantified and compared functional
+connectivity changes in RSNs as a function of dementia severity as measured
+by clinical dementia rating (CDR). In ADAD, we qualitatively investigated
+functional connectivity changes with respect to estimated years from onset
+of symptoms within five RSNs. Functional connectivity decreases with increasing CDR were similar
+for both LOAD and ADAD in multiple RSNs. Ordinal logistic regression models
+constructed in each type of AD accurately predicted CDR stage in the other,
+further demonstrating similarity of functional connectivity loss in each
+disease type. Among ADAD participants, functional connectivity in multiple
+RSNs appeared qualitatively lower in asymptomatic mutation carriers near
+their anticipated age of symptom onset compared to asymptomatic mutation
+non-carriers. rs-fcMRI changes with progressing AD severity are similar between
+ADAD and LOAD. Rs-fcMRI may be a useful endpoint for LOAD and ADAD therapy
+trials. ADAD disease process may be an effective model for LOAD disease
+process.
+
+## Introduction
+Late-onset Alzheimer disease (LOAD) is the leading cause of dementia
+worldwide, currently affecting more than 18 million people 1 . AD is defined by pathological accumulation of tau
+neurofibrillary tangles and amyloid beta (Aβ) plaques 2 . While AD is typically late-onset
+and polygenetic (LOAD), in a small subset of individuals AD is inherited as an
+autosomal dominant trait (autosomal dominant AD or ADAD), which is typically
+early-onset and caused by monogenetic mutations in the genes encoding presenilin 1,
+presenilin 2, or amyloid precursor protein. These mutations are ~100%
+penetrant and cause AD by affecting Aβ cleavage and folding 3 .
+
+Discovery of ADAD mutations has enabled researchers to develop transgenic
+mouse models and cell lines expressing these mutations 4 . These experimental models have enabled the
+preclinical testing of potential anti-amyloid AD therapies 5 . By studying ADAD individuals who will develop
+dementia at a predictable age, researchers can identify the temporal dynamics of
+changes in biomarker profiles before the development of clinical symptoms 6 . However, questions remain
+concerning the extent to which findings in ADAD translate to LOAD.
+
+Converging evidence from cerebrospinal fluid (CSF), amyloid imaging, and
+brain volumetric studies 7 , 8 suggests that ADAD and LOAD are
+similar disease processes. However, biomarker differences exist between LOAD and
+ADAD. Specifically, ADAD individuals may have greater amyloid plaque deposition in
+the basal ganglia compared to LOAD individuals 9 . Additionally, increased levels of CSF
+Aβ 1−42 have been observed very early in ADAD but not in
+LOAD 8 .
+
+One biomarker of interest in LOAD that is relatively unestablished in ADAD is
+resting state functional connectivity MRI (rs-fcMRI) 10 , 11 .
+Functional connectivity measures the correlation structure of blood oxygen-level
+dependent (BOLD) signals between regions of interest (ROI), collections of which
+form resting state networks (RSNs) 12 , 13 . In LOAD, reduced
+functional connectivity has been observed with progressing clinical status [measured
+by clinical dementia rating (CDR)] 14 within the default mode network (DMN), a RSN comprised of
+regions known to harbor Aβ 15 and tau 16 pathology. DMN functional connectivity decreases have also been noted in
+presymptomatic individuals genetically at risk for LOAD 17 . Recently, abnormalities in functional
+connectivity have been observed in the dorsal attention (DAN); executive-control
+(CON); salience (SAL); and sensorimotor (SMN) networks that parallel deteriorating
+cognitive status 18 .
+
+We measured functional connectivity in a cross-sectional cohort of
+asymptomatic and symptomatic ADAD participants [mutation positive (M+; n=54) and
+mutation negative (M–; n=25)] and a cross-sectional cohort of LOAD
+individuals (n=74 very mild AD dementia, n=27 mild AD dementia, and n=343
+cognitively normal older adults). We show that functional connectivity changes with
+respect to CDR are similar for both types of AD (i.e., ADAD and LOAD) 18 .
+
+## Materials and Methods
+The ADAD cohort was drawn from the international Dominantly Inherited
+Alzheimer Network (DIAN) and consisted of participants from ADAD families, both
+individuals with mutations (M+) and individuals lacking mutations (M–)
+( Table 1 ). We excluded from the
+analysis 26 M+ individuals and 7 M–individuals who were scanned with
+inconsistent sequence parameters. We removed one additional M–
+participant with questionable clinical status. Cross-sectional data available as
+of February 2012 were included in this analysis 19 . Only subjects that passed quality control
+(described below) were included in the final analysis.
+
+A separate cohort of participants was enrolled in a longitudinal study
+at the Knight Alzheimer's Disease Research Center (ADRC) at Washington
+University in St. Louis (WUSTL) designed to track individuals at risk for LOAD
+through the stages of cognitive decline 18 . All participants from both cohorts provided informed
+consent according to institutional review board procedures at their respective
+institutions. Each participant completed a general physical (including
+neurologic) examination, health and medication history, and clinical assessment
+for dementia 20 . We used
+independent general linear mixed models to assess group differences in
+demographics.
+
+Experienced clinicians conducted semi-structured interviews of each
+participant and a knowledgeable collateral source. The clinical dementia rating
+scale (CDR) was used to determine and stage dementia severity 14 . CDR0 indicates cognitive
+normality, CDR0.5 corresponds to very mild dementia, and CDR≥1 specifies
+mild and moderate dementia. In other studies, certain CDR0.5 participants may be
+classified as having mild cognitive impairment (MCI) due to AD, depending on the
+staging criteria 21 . Five
+participants from the ADAD CDR≥1 cohort had more advanced disease [CDR2
+(n=4); CDR3 (n=1)]. All CDR > 0 participants had a clinical diagnosis of
+AD dementia in accordance with standard criteria. 22 Disease biomarkers such as PiB PET
+imaging 23 and CSF
+measures 24 were not
+explicitly taken into account for the diagnosis of LOAD, but when available were
+used to exclude participants with profiles inconsistent with AD.
+
+Within the DIAN cohort, parent age at symptomatic onset was determined
+from semi-structured interviews with the participant, a knowledgeable collateral
+source, and/or other informants familiar with the parental history of disease.
+The age at onset of the affected parent was determined by estimating the time of
+onset of symptoms (e.g., memory/cognition, motor or behavior). The anticipated
+age at symptomatic onset (AAO) for each individual was indexed to the AAO for
+that individual's affected parent. The estimated years from symptom onset (EYO)
+for each DIAN individual was defined as [(age at testing) –
+AAO] 5 .
+
+DNA was extracted from peripheral blood and apolipoprotein E (APOE)
+genotyping was conducted according to previously-published methods 25 . Individuals were defined to
+be APOE4 positive if they had at least one ε4 allele.
+
+For both cohorts, neuroimaging was performed using 3T Siemens Tim Trio
+scanners (Erlangen, Germany) equipped with the standard 12-channel head coil
+using previously-described methods (see supplemental ; also see Table 2 ). Structural images were acquired to allow alignment of
+rs-fcMRI images to atlas space 18 .
+
+Initial preprocessing of all rs-fcMRI data (both ADAD and LOAD) followed
+conventional methods as previously described 18 , 26 which were
+modified to correct for non-optimal order of operations 27 (see supplemental ). Spurious
+variance was reduced by regression of nuisance time-series derived from head
+motion correction and extraction of BOLD activity from white matter, CSF
+regions, as well as the BOLD time-series averaged over the whole brain (or
+global signal) 28 .
+
+rs-fcMRI analyses and quality control procedures for ADAD and LOAD
+participants followed previously-described methods (see supplemental ) 29 . Subjects with either outlier
+rms movement or excessive frame removal (>40%) were excluded from further
+analysis.
+
+For all participants, we extracted time-series data from thirty-five
+6-mm radius spherical brain regions of interest (ROIs) distributed throughout 5
+functionally-defined RSNs including the DMN † , DAN, CON, SAL, and SMN ( Figure 1 ). Briefly, intra-network composite scores were
+obtained by averaging BOLD correlation values computed between ROIs belonging to
+a particular RSN and inter-network composite scores were obtained by averaging
+correlations from ROIs belonging to separate RSNs. Using a composite score for
+intra and inter-network comparisons serves to reduce the amount of data while
+reducing the potential impact of sampling error. We analyzed composite scores
+for 5 intra-network (DMN, DAN, CON, SAL, SMN) and 3 inter-network (DMN:DAN,
+DMN:SMN, CON:SMN) composites which we have previously shown to be affected by
+LOAD 18 .
+
+Generalized linear mixed models were used for each RSN composite to
+assess the fixed effects of CDR and AD type as well as their interaction. For
+ADAD, this model did not include CDR0 M– group in order to preserve the
+balance of the model between LOAD and ADAD. Differences between CDR0 M+ and CDR0
+M– were assessed using the model that incorporates EYO described below.
+However, we include the CDR 0 M– group in each figure for comparison
+purposes. We also included ADAD family as a random effect because it is likely
+that functional connectivity measures are correlated for members of a common
+family. The AD type factor is a single fixed factor accounting for differences
+in average age and scanner acquisition parameters between the LOAD and ADAD
+groups. We assessed significant pair-wise effects (e.g., between CDR0 M+ and
+CDR0.5 M+) by extracting individual contrasts from the omnibus model. We
+compared the pair-wise effect size for different CDR stages between groups
+(e.g., CDR0.5 – CDR1 ADAD vs. CDR0.5 – CDR1 LOAD) using the Q test
+for effect size heterogeneity. We subsequently re-fit the preceding models
+adding factors in a stepwise fashion to account for the random effect of scanner
+and fixed effects of age and APOE ε4 status.
+
+To analyze the effect of EYO on functional connectivity in the ADAD
+cohort, generalized linear mixed models were constructed for each RSN with EYO,
+quadratic effect of EYO (EYO 2 )
+and mutation status, as well as interactions among these factors. ADAD family
+membership was included as a random effect. Changes in RSN strength with respect
+to EYO were displayed using a locally weighted scatterplot smoothing
+(LOESS) 7 . To protect
+the confidentiality of participants’ mutation status, individual data
+points were not displayed.
+
+To qualitatively assess whole-brain changes in DMN-associated functional
+connectivity with respect to EYO in the M+ ADAD group, we computed voxel-wise
+correlations between a 6 mm ROI in the posterior cingulate cortex (PCC; an
+important node of the DMN) and each voxel in the brain for each subject. We then
+used a LOESS model to predict PCC functional connectivity at each value of EYO
+in the range [-25,10] at 0.1 year increments for M+ individuals and displayed
+these predicted values using a movie. Each frame of the movie shows the
+predicted whole-brain average PCC-seed functional connectivity for a specific
+EYO value. Warm regions represent positive average within-DMN functional
+connectivity; cool regions represent negative between-network functional
+connectivity.
+
+We used ordinal logistic regression to perform a cross-regression
+analysis that further elucidated similarities between ADAD and LOAD. We fit a
+regression to predict CDR using the 5 intra-network and 3 inter-network
+composite values. We fit a separate model in each AD type and used this to
+predict CDR values for participants in the other AD type. We used Spearman rank
+correlations to assess the similarity between actual and predicted CDR
+values.
+
+## Results
+Initially, we combined both cohorts to test for the main effect of CDR
+stage on intra-network functional connectivity ( Figure 2 ). A mixed model (corrected for mean age and acquisition
+differences between cohorts as well as a random effect of ADAD family
+membership) showed a significant main effect of CDR for multiple RSNs including
+the DMN, DAN, and CON (col. 1 Table 3 ).
+Only the SAL and SMN networks did not show a significant effect of CDR. In
+general, pairwise comparison between CDR stages showed that functional
+connectivity was lower in a step-wise fashion for the LOAD cohort (col. 2-4 Table 4 ). A similar pattern was
+observed for ADAD, although individual pair-wise differences (e.g., from CDR0 to
+CDR0.5) were generally not significant (cols. 2-4 Table 4 ). Stepwise inclusion of additional factors that
+assessed fixed effects of age as a continuous covariate and APOE ε4
+status as well as a random effect of ADAD acquisition site reduced the observed
+effect sizes, but did not remove them (cols. 1-3 Table 3 ).
+
+Although the general patterns of intra-network functional connectivity
+changes seen for ADAD and LOAD were similar, subtle differences were observed.
+When pair-wise effect sizes (Cohen's d ) differed between ADAD
+and LOAD, the CDR effect was in general greater in ADAD compared to LOAD.
+
+Inter-network functional connectivity was also decreased in magnitude
+with respect to CDR in both LOAD and ADAD (cols. 2-7 Figure 3 ). Inter-network (e.g., DMN:DAN) BOLD correlations
+typically are negative in sign (i.e., anti-correlations) in data preprocessed
+using global signal regression 28 . As previously reported, LOAD cross-network
+anti-correlations were diminished (i.e., closer to zero) with advancing
+CDR 18 . A similar
+finding was observed in ADAD (cols. 2-4 Figure
+2 ), where decreased anti-correlation magnitude was observed for
+DMN:DAN but not DMN:SMN or CON:SMN (col. 1 Table
+3 ). Stepwise inclusion of additional factors testing for fixed
+effects of age as a continuous covariate, APOE ε4 status, and the random
+effect of ADAD acquisition site reduced the effects, but did not remove them
+( Table 3b ).
+
+In order to further characterize the similarity between AD types, we fit
+ordinal logistic regression models (see Methods) in ADAD and used these to
+predict CDR levels in LOAD (and vice versa). The model fit in ADAD was able to
+predict LOAD CDR levels much better than chance (t(d.f.=442)=5.11; p <0.0001). The inverse process also allowed us to
+predict ADAD CDR levels based on LOAD data better than chance
+(t(d.f.=52)=4.51, p <0.0001). Cross-AD type
+classification was unsuccessful for predicting genetic risk in the absence of
+clinical symptoms.
+
+For ADAD, we show how functional connectivity changes occur relative to
+expected years from onset of symptoms (EYO) in all M+ individuals including
+individuals destined to develop cognitive impairment and those already
+symptomatic. Figure 4 presents LOESS plots
+of RSN composites scores against EYO and demonstrates a qualitative decrease in
+the DMN several years prior to expected symptom onset. Figure 5 presents the same analysis for the between RSN
+data. The limited size of this cohort spread over many decades of EYO precludes
+statistical demonstration of this effect but suggests that functional
+connectivity may slightly precede cognitive symptoms.
+
+We constructed a movie that demonstrates progressive loss of intra- and
+inter-network functional connectivity in the M+ group using the PCC as a seed.
+The fitted model predicted qualitative changes in functional connectivity in M+
+participants prior to anticipated age of onset (AAO) ( Movie 1 ).
+
+## Discussion
+ADAD and LOAD manifest similar functional connectivity changes with respect
+to CDR. Moreover, regression models constructed in one cohort distinguished CDR
+stages in the other. This result demonstrates that functional connectivity changes
+manifest similarly in both types of AD. However, some differences exist between AD
+types in functional connectivity. A modestly greater effect of disease severity was
+seen for ADAD compared to LOAD. The available data suggest that ADAD may serve as an
+effective model to study LOAD pathophysiology, albeit with some reservations.
+
+The first studies to investigate LOAD using rs-fcMRI detected changes in the
+DMN 30 . More recent work
+from our group has reported decreased functional connectivity in a wider set of
+intra and inter-network relationships 18 . These results are recapitulated in our current study, where we
+show similar effects of CDR on RSN connectivity in LOAD and ADAD. Similarities were
+also evident between ADAD and LOAD when a regression model was fit in each group
+using all analyzed RSNs as features and used these models to predict CDR levels in
+the other. Our success fitting CDR models in the ADAD cohort and predicting CDR
+status for the LOAD cohort (and vice versa) further suggests similar widespread RSN
+changes in both AD types.
+
+However, analysis of the certain RSN composites suggested a slightly more
+pronounced decline for ADAD compared to LOAD. The greater loss in functional
+connectivity seen in ADAD in certain networks may suggest that ADAD is a more
+aggressive process than LOAD 31 , 32 . We previously hypothesized that
+inter-network correlations may reflect a mechanism by which pathology spreads from
+one functional network to the next in a cascading disease process 33 . There may be a more rapid and
+dramatic accumulation of Aβ and tau neurofibrillary tangle (NFT) pathology in
+ADAD compared to LOAD 34 . Hence,
+the observed rapid decline both within and between certain RSNs possibly reflects a
+faster spread of pathology from the DMN across diseased connections in ADAD.
+
+Biomarker profiles accrue with age along distinct intra-individual
+trajectories in LOAD and ADAD 6 , 35 . In ADAD, we show evidence
+suggesting that functional connectivity decreases with EYO only in the M+ group. In
+M+ individuals, intra-individual changes in BOLD correlations within and between
+networks may serve as an effective biomarker of disease progression. Functional
+connectivity is a potentially useful biomarker in ADAD. However, we have only
+demonstrated qualitative differences between M+ and M– groups temporally
+proximate to the anticipated age of onset, suggesting that gross changes in
+intra-network functional connectivity likely occur later than changes in metabolism,
+hippocampal volume, and CSF Aβ and tau. Observed changes in BOLD correlations
+may reflect downstream pathophysiological processes 7 . Ongoing longitudinal studies will assess the
+usefulness of functional connectivity in tracking pre-clinical AD.
+
+Our results differ from previous results on three points. First, individual
+RSN composite scores were not significantly different for asymptomatic participants
+with genetic risk factors in either cohort. This conflicts with previous studies of
+LOAD that showed DMN functional connectivity changes within network in asymptomatic
+individuals with Aβ plaque deposits 36 or a family history of LOAD 37 . Second, we did not observe a transient increase
+in functional connectivity in the SAL for ADAD participants as was previously
+observed for LOAD 18 , 38 . This suggests another possible
+difference between LOAD and ADAD. Finally, in contrast to a recent study from
+Chhatwal et al., 11 we were unable
+to demonstrate at a statistically significant divergence between the M+ and
+M– individuals prior to symptom onset, though qualitatively our data are
+consistent with that finding. This difference possibly reflects the fact that
+Chhatwal et al analyzed ROI-level changes whereas here we analyzed network-level
+changes. We were able to demonstrate voxel-level DMN functional connectivity changes
+using a LOESS movie. This qualitatively confirmed the Chhatwal et al. results using
+a ROI. Indeed, the ADAD cohort reported by Chhatwal et al., is the same cohort
+reported here although we excluded several additional participants due to scan
+parameter issues.
+
+This study made use of network composite scores as a measure of functional
+connectivity strength 18 which have
+several strengths but also make two assumptions. First, composite scores are a data
+reduction strategy, reducing the burden of multiple comparisons. Second, they reduce
+sampling error of observing any single functional connectivity pair within an RSN.
+However, they assume that each functional connectivity pair in an RSN behaves
+similarly. This has been previously been shown to be valid in LOAD but may obscure
+focal changes such as those previously seen in ADAD 11 . In addition, composite scores assume that an
+ROI's RSN membership does not change with disease, which could bias the
+measurement.
+
+Several limitations arose from the design of this study. First, there were
+scanning differences between cohorts. This complicates demonstration of average
+differences between cohorts, but this does not impact our ability to demonstrate
+similarities between AD types. Second, our LOAD cohort was significantly older than
+our ADAD cohort. This is an unavoidable confound in any study comparing LOAD to
+early-onset ADAD. We addressed this issue by correcting for age differences between
+the two cohorts. Finally, it has been argued that EYO might not be the best estimate
+of disease progression in CDR0.5 ADAD participants. However, because CDR0.5
+individuals are difficult to stage precisely, EYO is the most practical measure in a
+cross-sectional study. Larger longitudinal studies will be able to more fully
+characterize ADAD and LOAD functional connectivity changes and place them in
+temporal relation to other biomarkers (especially CSF tau, Aβ, positron
+emission tomography (PET), volumetrics, and amyloid imaging). Volumetric comparisons
+are particularly important to this study since atrophy may influence the measured
+BOLD signal. Future studies directly comparing these two measures will be
+important.
+
+Finally, this study made use of the global signal regression (GSR)
+preprocessing step. This procedure is controversial 28 , 39 . It is
+algebraically true that GSR forces the mean of correlations across the brain to be
+zero and can make negative correlations more apparent. However, correlations
+following GSR are essentially first-order partial correlations accounting for widely
+shared variance while correlations without GSR are canonical correlations. This
+makes correlations with and without GSR two fundamentally different statistical
+quantities reflecting different types of relationships. It is likely that some of
+the removed signal is of neural origin 40 however a large fraction of the global signal is related to
+residual effects of head motion 29 and fluctuations in pCO2 41 . Thus,
+we viewed GSR as a necessary step for noise reduction in this cross-scanner,
+multi-site study. Beyond its noise reduction properties 42 , GSR has been shown to increase the concordance
+between BOLD correlation mapping and electrocorticography, particularly for negative
+correlations 43 , indicating
+an important relationship to neurobiology.

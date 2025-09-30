@@ -1,0 +1,653 @@
+# Title
+Genome engineering using the CRISPR-Cas9 system
+
+# Abstract
+Targeted nucleases are powerful tools for mediating genome alteration with high precision. The RNA-guided Cas9 nuclease from the microbial clustered regularly interspaced short palindromic repeats (CRISPR) adaptive immune system can be used to facilitate efficient genome engineering in eukaryotic cells by simply specifying a 20-nt targeting sequence within its guide RNA. Here we describe a set of tools for Cas9-mediated genome editing via nonhomologous end joining (NHEJ) or homology-directed repair (HDR) in mammalian cells, as well as generation of modified cell lines for downstream functional studies. to minimize off-target cleavage, we further describe a double-nicking strategy using the Cas9 nickase mutant with paired guide RNAs. This protocol provides experimentally derived guidelines for the selection of target sites, evaluation of cleavage efficiency and analysis of off-target activity. Beginning with target design, gene modifications can be achieved within as little as 1–2 weeks, and modified clonal cell lines can be derived within 2–3 weeks.
+
+## INTRODUCTION
+The ability to engineer biological systems and organisms holds enormous potential for applications across basic science, medicine and biotechnology. Programmable sequence-specific endonucleases that facilitate precise editing of endogenous genomic loci are now enabling systematic interrogation of genetic elements and causal genetic variations 1 , 2 in a broad range of species, including those that have not previously been genetically tractable 3 – 6 . A number of genome editing technologies have emerged in recent years, including zinc-finger nucleases (ZFNs) 7 – 10 , transcription activator–like effector nucleases (TALENs) 10 – 17 and the RNA-guided CRISPR-Cas nuclease system 18 – 25 . The first two technologies use a strategy of tethering endonuclease catalytic domains to modular DNA-binding proteins for inducing targeted DNA double-stranded breaks (DSBs) at specific genomic loci. By contrast, Cas9 is a nuclease guided by small RNAs through Watson-Crick base pairing with target DNA 26 – 28 ( Fig. 1 ), representing a system that is markedly easier to design, highly specific, efficient and well-suited for high-throughput and multiplexed gene editing for a variety of cell types and organisms.
+
+Similarly to ZFNs and TALENs, Cas9 promotes genome editing by stimulating a DSB at a target genomic locus 29 , 30 . Upon cleavage by Cas9, the target locus typically undergoes one of two major pathways for DNA damage repair ( Fig. 2 ): the error-prone NHEJ or the high-fidelity HDR pathway, both of which can be used to achieve a desired editing outcome. In the absence of a repair template, DSBs are re-ligated through the NHEJ process, which leaves scars in the form of insertion/deletion (indel) mutations. NHEJ can be harnessed to mediate gene knockouts, as indels occurring within a coding exon can lead to frameshift mutations and premature stop codons 31 . Multiple DSBs can additionally be exploited to mediate larger deletions in the genome 22 , 32 .
+
+HDR is an alternative major DNA repair pathway. Although HDR typically occurs at lower and substantially more variable frequencies than NHEJ, it can be leveraged to generate precise, defined modifications at a target locus in the presence of an exogenously introduced repair template. The repair template can either be in the form of conventional double-stranded DNA targeting constructs with homology arms flanking the insertion sequence, or single-stranded DNA oligonucleotides (ssODNs). The latter provides an effective and simple method for making small edits in the genome, such as the introduction of single-nucleotide mutations for probing causal genetic variations 32 . Unlike NHEJ, HDR is generally active only in dividing cells, and its efficiency can vary widely depending on the cell type and state, as well as the genomic locus and repair template 33 .
+
+CRISPR-Cas is a microbial adaptive immune system that uses RNA-guided nucleases to cleave foreign genetic elements 18 – 21 , 26 . Three types (I–III) of CRISPR systems have been identified across a wide range of bacterial and archaeal hosts, wherein each system comprises a cluster of CRISPR-associated ( Cas ) genes, noncoding RNAs and a distinctive array of repetitive elements (direct repeats). These repeats are interspaced by short variable sequences 20 derived from exogenous DNA targets known as protospacers, and together they constitute the CRISPR RNA (crRNA) array. Within the DNA target, each protospacer is always associated with a protospacer adjacent motif (PAM), which can vary depending on the specific CRISPR system 34 – 36 .
+
+The Type II CRISPR system is one of the best characterized 26 – 28 , 37 , 38 , consisting of the nuclease Cas9, the crRNA array that encodes the guide RNAs and a required auxiliary trans-activating crRNA (tracrRNA) that facilitates the processing of the crRNA array into discrete units 26 , 28 . Each crRNA unit then contains a 20-nt guide sequence and a partial direct repeat, where the former directs Cas9 to a 20-bp DNA target via Watson-Crick base pairing ( Fig. 1 ). In the CRISPR-Cas system derived from Streptococcus pyogenes (which is the system used in this protocol), the target DNA must immediately precede a 5′-NGG PAM 27 , whereas other Cas9 orthologs may have different PAM requirements, such as those of S. thermophilus (5′-NNAGAA 22 , 26 for CRISPR1 and 5′-NGGNG 28 , 37 for CRISPR3) and Neisseria meningiditis (5′-NNNNGATT) 39 .
+
+The RNA-guided nuclease function of CRISPR-Cas is reconstituted in mammalian cells through the heterologous expression of human codon–optimized Cas9 and the requisite RNA components 22 – 25 . Furthermore, the crRNA and tracrRNA can be fused together to create a chimeric, single-guide RNA (sgRNA) 27 ( Fig. 1 ). Cas9 can thus be re-directed toward almost any target of interest in immediate vicinity of the PAM sequence by altering the 20-nt guide sequence within the sgRNA.
+
+Given its ease of implementation and multiplexing capacity, Cas9 has been used to generate engineered eukaryotic cells carrying specific mutations via both NHEJ and HDR 22 – 25 , 40 . Direct injection of sgRNA and mRNA encoding Cas9 into embryos has enabled the rapid generation of transgenic mice with multiple modified alleles 41 , 42 . These results hold enormous promise for editing organisms that are otherwise genetically intractable.
+
+Cas9 nucleases carry out strand-specific cleavage by using the conserved HNH and RuvC nuclease domains, which can be mutated and exploited for additional function 37 . An aspartate-to-alanine (D10A) mutation in the RuvC catalytic domain 27 , 28 allows the Cas9 nickase mutant (Cas9n) to nick rather than cleave DNA to yield single-stranded breaks, and the subsequent preferential repair through HDR 22 can potentially decrease the frequency of unwanted indel mutations from off-target DSBs. Appropriately offset sgRNA pairs can guide Cas9n to simultaneously nick both strands of the target locus to mediate a DSB, thus effectively increasing the specificity of target recognition 43 . In addition, a Cas9 mutant with both DNA-cleaving catalytic residues mutated has been adapted to enable transcriptional regulation in Escherichia coli 44 , demonstrating the potential of functionalizing Cas9 for diverse applications, such as recruitment of fluorescent protein labels or chromatin- modifying enzymes to specific genomic loci for reporting or modulating gene function.
+
+Here we explain in detail how to use a human codon–optimized, nuclear localization sequence-flanked wild-type (WT) Cas9 nuclease or mutant Cas9 nickase to facilitate eukaryotic gene editing. We describe considerations for designing the 20-nt guide sequence, protocols for rapid construction and functional validation of sgRNAs and finally the use of the Cas9 nuclease to mediate both NHEJ- and HDR-based genome modifications in human embryonic kidney (HEK 293FT) and human stem cell (HUES9) lines ( Fig. 3 ). The Cas9 system can similarly be applied to other cell types and organisms, including humans 22 , 23 , 25 , mice 22 , 41 , 45 , zebrafish 45 , Drosophila 46 and Caenorhabditis elegans 47 .
+
+As with other designer nuclease technologies such as ZFNs and TALENs, Cas9 can facilitate targeted DNA DSBs at specific loci of interest in the mammalian genome and stimulate genome editing via NHEJ or HDR. Cas9 offers several potential advantages over ZFNs and TALENs, including the ease of customization, higher targeting efficiency and the ability to facilitate multiplex genome editing. As custom ZFNs are often difficult to engineer, we will primarily compare Cas9 with TALEN.
+
+Cas9 can be easily retargeted to new DNA sequences by simply purchasing a pair of oligos encoding the 20-nt guide sequence. In contrast, retargeting of TALEN for a new DNA sequence requires the construction of two new TALEN genes. Although a variety of protocols exist for TALEN construction 14 , 17 , 48 , 49 , it takes substantially more hands-on time to construct a new pair of TALENs.
+
+WT S. pyogenes Cas9 (SpCas9) is known to make a blunt cut between the 17th and 18th bases in the target sequence (3 bp 5′ of the PAM) 27 . Mutating catalytic residues in either the RuvC or the HNH nuclease domain of SpCas9 converts the enzyme into a DNA nicking enzyme 22 , 27 . In contrast, TALENs cleave nonspecifically in the 12–24-bp linker between the pair of TALEN monomer-binding sites 50 .
+
+SpCas9 and TALENs have both been shown to facilitate efficient genome editing in a variety of cell types and organisms. However, owing to the ease of targeting, Cas9 can be used to target multiple genomic loci simultaneously, by co-delivering a combination of sgRNAs to the cells of interest.
+
+Cas9 can be targeted to specific genomic loci via a 20-nt guide sequence on the sgRNA. The only requirement for the selection of Cas9 target sites is the presence of a PAM sequence directly 3′ of the 20-bp target sequence. Each Cas9 ortholog has a unique PAM sequence; for example, SpCas9 requires a 5′-NGG PAM sequence. This PAM requirement does not severely limit the targeting range of SpCas9—in the human genome, such target sites can be found on average every 8–12 bp (refs. 22 , 51 ). In addition to the targeting range, another possible limitation is the potential for off-target mutagenesis; please see Boxes 1 and 2 for details and strategies on minimizing off- target modifications.
+
+The specificity of the Cas9 nuclease is determined by the 20-nt guide sequence within the sgRNA. For the S. pyogenes system, the target sequence (e.g., 5′-GTCACCTCCAATGACTAGGG-3′) must immediately precede (i.e., be 5′ to) a 5′-NGG PAM, and the 20-nt guide sequence base pairs with the opposite strand to mediate Cas9 cleavage at ~3 bp upstream of the PAM ( Figs. 1 and 4a top strand example). Note that the PAM sequence is required to immediately follow the target DNA locus, but that it is not a part of the 20-nt guide sequence within the sgRNA.
+
+Thus, there are two main considerations in the selection of the 20-nt guide sequence for gene targeting: (i) the 5′-NGG PAM for S. pyogenes Cas9 and (ii) the minimization of off-target activity 51 , 52 . We provide an online CRISPR Design Tool ( http://tools.genome-engineering.org ) that takes a genomic sequence of interest and identifies suitable target sites. To experimentally assess off-target genomic modifications for each sgRNA, we also provide computationally predicted off-target sites (for a detailed discussion, see Box 1 ) for each intended target, ranked according to our quantitative specificity analysis on the effects of base-pairing mismatch identity, position and distribution. For increased targeting specificity, an alternative strategy using the D10A nickase mutant of Cas9 (Cas9n) along with a pair of sgRNAs may be used. The design criteria for orientation and spacing of such sgRNA pairs are described in Box 2 .
+
+The CRISPR Design Tool provides the sequences for all oligos and primers necessary for (i) preparing the sgRNA constructs, (ii) assaying target modification efficiency and (iii) assessing cleavage at potential off-target sites. It is worth noting that because the U6 RNA polymerase III promoter used to express the sgRNA prefers a guanine (G) nucleotide as the first base of its transcript 59 , an extra G is appended at the 5′ of the sgRNA where the 20-nt guide sequence does not begin with G ( Fig. 4b,c ). On rare occasions, certain sgRNAs may not work for reasons yet unknown; therefore, we recommend designing at least two sgRNAs for each locus and testing their efficiencies in the intended cell type.
+
+Depending on the desired application, sgRNAs can be delivered as either PCR amplicons containing an expression cassette ( Fig. 4b ) or sgRNA-expressing plasmids ( Fig. 4c ). PCR-based sgRNA delivery appends the custom sgRNA sequence onto the reverse PCR primer used to amplify a U6 promoter template ( Fig. 4b ). The resulting amplicon could be co-transfected with a Cas9 expression plasmid pSpCas9. This method is optimal for rapid screening of multiple candidate sgRNAs, as cell transfections for functional testing can be performed shortly after obtaining the sgRNA-encoding primers. Because this simple method obviates the need for plasmid-based cloning and sequence verification, it is well suited for testing or co-transfecting a large number of sgRNAs for generating large knockout libraries or other scale-sensitive applications. Note that the sgRNA-encoding primers are over 100 bp long, compared with the ~20-bp-long oligos required for plasmid-based sgRNA delivery.
+
+Construction of an expression plasmid for sgRNA is also simple and rapid, involving a single cloning step with a pair of partially complementary oligonucleotides. The oligo pairs encoding the 20-nt guide sequences are annealed and ligated into a plasmid (pSpCas9(BB), Fig. 4c ) bearing both Cas9 and the remainder of the sgRNA as an invariant scaffold immediately following the oligo cloning site. The transfection plasmids can also be modified to enable virus production for in vivo delivery. For these approaches, the following plasmids are used within this protocol: Cas9 alone (pSpCas9) or Cas9 with an invariant sgRNA scaffold and cloning sites for inserting a guide sequence (pSpCas9(BB)). For the backbone cloning construct, we have also fused 2A-GFP or 2A-Puro to Cas9 to allow screening or selection of transfected cells (pSpCas9(BB)-2A-GFP or pSpCas9(BB)-2A-Puro, respectively). Finally, we provide pSpCas9n(BB), a D10A nickase mutant of Cas9 for HDR and for double-nicking applications ( Box 2 ), along with the 2A-GFP and 2A-Puro fusion constructs (pSpCas9n(BB)-2A-GFP, pSpCas9n(BB)-2A-Puro).
+
+In addition to PCR and plasmid-based delivery methods, Cas9 and sgRNAs can be introduced into cells as mRNA and RNA, respectively.
+
+Traditionally, targeted DNA modifications have required the use of plasmid-based donor repair templates that contain homology arms flanking the site of alteration 54 , 55 ( Fig. 2 ). The homology arms on each side can vary in length, but are typically longer than 500 bp (refs. 55 , 56 ). This method can be used to generate large modifications, including insertion of reporter genes such as fluorescent proteins or antibiotic resistance markers. The design and construction of targeting plasmids has been described elsewhere 57 .
+
+More recently, ssODNs have been used in place of targeting plasmids for short modifications within a defined locus without cloning 32 . To achieve high HDR efficiencies, ssODNs contain flanking sequences of at least 40 bp on each side that are homologous to the target region, and they can be oriented in either the sense or antisense direction relative to the target locus. It is worth noting that targeting efficiencies can vary widely depending on cell type, target locus, type of repair donor and location of modification relative to the DSB site. As a rule of thumb, single-base correction rates drop approximately fourfold at 100 bp away from the DSB site, and beyond 200 bp away drug selection markers may be required 58 .
+
+Isolation of clonal cell lines with specific modifications is often desired. This can be achieved after transfection by isolating single cells through either FACS (Steps 54–65) or serial dilutions (Steps 66–70), followed by an expansion period to establish a new clonal cell line. It is worth noting that cell types can vary substantially in their responses to single-cell isolation, and literature specific to the cell type of interest should be consulted.
+
+In cells co-transfected with a pair of sgRNAs to mediate a genomic (micro)deletion or inversion, indel mutations can be detected either by the SURVEYOR nuclease assay 59 or by sequencing ( Fig. 5a ). Our online CRISPR Design Tool provides recommended primers for both approaches. However, SURVEYOR or sequencing primers can also be designed manually to amplify the region of interest from genomic DNA. Custom primers are chosen using the National Center for Biotechnology Information (NCBI) Primer-BLAST in order to avoid nonspecific amplification. SURVEYOR primers should be designed to amplify 200–400 bp on either side of the Cas9 target (for a total amplicon 400–800 bp long) to allow clear visualization of cleavage bands by gel electrophoresis ( Fig. 5b ). To prevent excessive primer dimer formation, SURVEYOR primers should be designed to be typically 18 to 25 nt long with melting temperatures of ~60 °C. For SURVEYOR assay or sequencing analysis, we recommend testing that each pair of candidate primers produces a single PCR product, as well as testing for the absence of nonspecific cleavage during the SURVEYOR nuclease digestion process ( Fig. 5 ).
+
+HDR can be detected via PCR amplification, followed by either sequencing of the modified region or restriction-fragment length polymorphism (RFLP) analysis. PCR primers for these purposes should anneal outside the region spanned by the homology arms to avoid false detection of residual repair template (primers HDR-Fwd and HDR-Rev; Table 1 and Fig. 6a ). For ssODN-mediated HDR, SURVEYOR PCR primers may be used. Either the WT Cas9 nuclease or mutant Cas9 nickase can be used to mediate HDR, although the efficiency of the latter can vary widely by cell type.
+
+Targeted genome modifications can also be detected by either Sanger or deep sequencing. For the former, genomic DNA from the modified region can be amplified with either SURVEYOR or HDR primers. Amplicons should be subcloned into a plasmid such as pUC19 for transformation, and individual colonies should be sequenced to reveal the clonal genotype.
+
+Alternatively, deep sequencing is suitable for sampling a large number of samples or target sites. NGS primers are designed for shorter amplicons, typically in the 100–200-bp size range. For the detection of NHEJ mutations, it is important to design primers situated at least 50 bp from the Cas9 target site to allow for the detection of longer indels. For larger deletions mediated by multiple sgRNAs, priming sites should be designed outside the deleted region. We provide guidelines for a two-step PCR fusion method to attach bar-coded sequencing adaptors for multiplex deep sequencing. We recommend the Illumina platform for its generally low levels of false positive indel detection. By comparison, Ion Torrent is less suitable for indel analysis owing to high sequencing error rate with homo-polymers 60 . Detailed descriptions of NGS optimization and troubleshooting can be found in the Illumina user manual. Off-target indel analysis ( Box 1 ) can then be performed through read-alignment programs such as ClustalW, Geneious or simple custom sequence analysis scripts.
+
+## MATERIALS
+Plasmids: pSpCas9 (Addgene plasmid ID: 48137), pSpCas9(BB) (formerly pX330; Addgene plasmid ID: 42230), pSpCas9(BB)-2A-GFP (Addgene plasmid ID: 48138), pSpCas9(BB)-2A-Puro (Addgene plasmid ID: 48139), pSpCas9n(BB) (Addgene plasmid ID: 48873), pSpCas9n(BB)-2A-GFP (Addgene plasmid ID: 48140), pSpCas9n(BB)-2A-Puro (Addgene plasmid ID: 48141). Annotated GenBank files for the plasmids are available through Addgene and http://www.genome-engineering.org/
+
+pUC19 (Invitrogen, cat. no. 15364-011) or any preferred cloning plasmid
+
+PCR primers or oligos for sgRNA construction are listed in Table 1 and in supplementary Data 1 . Primers longer than 60 bp can be ordered as 4-nmol ultramers (Integrated DNA Technologies)
+
+UltraPure DNase/RNase-free distilled water (Life Technologies, cat. no. 10977-023)
+
+Herculase II fusion polymerase with 5× reaction buffer (Agilent Technologies, cat. no. 600679) ▲ CRITICAL To minimize error in amplifying sgRNAs, it is important to use a high-fidelity polymerase. Other high-fidelity polymerases, such as PfuUltra (Agilent) or Kapa HiFi (Kapa Biosystems), may be used as substitutes.
+
+Taq DNA polymerase with standard Taq buffer (NEB, cat. no. M0273S)
+
+dNTP solution mix, 25 mM each (Enzymatics, cat. no. N205L)
+
+MgCl 2 , 25 mM (Thermo Scientific, cat. no. R0971)
+
+QIAquick gel extraction kit (Qiagen, cat. no. 28704)
+
+QIAprep spin miniprep kit (Qiagen, cat. no. 27106)
+
+UltraPure TBE buffer, 10× (Life Technologies, cat. no. 15581-028)
+
+SeaKem LE agarose (Lonza, cat. no. 50004)
+
+SYBR Safe DNA stain, 10,000× (Life Technologies, cat. no. S33102)
+
+1-kb Plus DNA ladder (Life Technologies, cat. no. 10787-018)
+
+TrackIt CyanOrange loading buffer (Life Technologies, cat. no. 10482-028)
+
+FastDigest BbsI (BpiI) (Fermentas/Thermo Scientific, cat. no. FD1014)
+
+Fermentas Tango buffer (Fermentas/Thermo Scientific, cat. no. BY5)
+
+DTT (Fermentas/Thermo Scientific, cat. no. R0862)
+
+T7 DNA ligase with 2× rapid ligation buffer (Enzymatics, cat. no. L602L). Alternative ligases, such as T4 DNA ligase, can also be used. If you are using other ligases, substitute with the compatible buffer
+
+T4 polynucleotide kinase (New England BioLabs, cat. no. M0201S)
+
+T4 DNA ligase reaction buffer, 10× (New England BioLabs, cat. no. B0202S)
+
+Adenosine 5′-triphosphate, 10 mM (New England BioLabs, cat. no. P0756S)
+
+PlasmidSafe ATP-dependent DNase (Epicentre, cat. no. E3101K)
+
+One Shot Stbl3 chemically competent E. coli (Life Technologies, cat. no. C7373-03)
+
+SOC medium (New England BioLabs, cat. no. B9020S)
+
+LB medium (Sigma, cat. no. L3022)
+
+LB agar medium (Sigma, cat. no. L2897)
+
+Ampicillin, 100 mg ml –1 , sterile filtered (Sigma, cat. no. A5354)
+
+HEK 293FT cells (Life Technologies, cat. no. R700-07)
+
+HUES 9 cell line (Harvard Stem Cell Science)
+
+DMEM, high glucose (Life Technologies, cat. no. 10313-039)
+
+DMEM, high glucose, no phenol red (Life Technologies, cat. no. 31053-028)
+
+Dulbecco's PBS (DPBS; Life Technologies, cat. no. 14190-250)
+
+FBS, qualified and heat inactivated (Life Technologies, cat. no. 10438-034)
+
+Opti-MEM I reduced-serum medium (Life Technologies, cat. no. 11058-021)
+
+Penicillin-streptomycin, 100× (Life Technologies, cat. no. 15140-163)
+
+Puromycin dihydrochloride (Life Technologies, cat. no. A11138-03)
+
+TrypLE Express, no phenol red (Life Technologies, cat. no. 12604-013)
+
+Lipofectamine 2000 transfection reagent (Life Technologies, cat. no. 11668027)
+
+Amaxa SF cell line 4D-Nucleofector X kit S, 32 RCT (Lonza, cat. no. V4XC-2032)
+
+Geltrex LDEV-free reduced growth factor basement membrane matrix (Life Technologies, cat. no. A1413201)
+
+mTeSR1 medium (Stemcell Technologies, cat. no. 05850)
+
+Normocin (InvivoGen, cat. no. ant-nr-1)
+
+Accutase cell detachment solution (Stemcell Technologies, cat. no. 07920)
+
+Rho-associated protein kinase (ROCK) inhibitor (Y-27632; Millipore, cat. no. SCM075)
+
+Amaxa P3 primary cell 4D-Nucleofector X kit S, 32 RCT (Lonza, cat. no. V4XP-3032)
+
+PCR primers for SURVEYOR, RFLP analysis or sequencing; see Table 1 , supplementary Data 1 (alternatively, they can be custom made)
+
+QuickExtract DNA extraction solution (Epicentre, cat. no. QE09050)
+
+SURVEYOR mutation detection kit for standard gel electrophoresis (Transgenomic, cat. no. 706025)
+
+TBE Gels, 4–20%, 1.0 mm, 15 well (Life Technologies, cat. no. C62255BOX)
+
+Novex Hi-Density TBE sample buffer, 5× (Life Technologies, cat. no. LC6678)
+
+SYBR Gold nucleic acid gel stain, 10,000× (Life Technologies, cat. no. S-11494)
+
+FastDigest HindIII (Fermentas/Thermo Scientific, cat. no. FD0504)
+
+FastDigest buffer, 10× (Fermentas/Thermo Scientific, supplied with FastDigest HindIII)
+
+FastAP Antarctic phosphatase (Fermentas/Thermo Scientific, cat. no. EF0654)
+
+Nextera XT index kit (Illumina, cat. no. FC-131-1001)
+
+Filtered sterile pipette tips (Corning)
+
+Standard microcentrifuge tubes, 1.5 ml (Eppendorf, cat. no. 0030 125.150)
+
+Axygen PCR plates, 96 well (VWR, cat. no. PCR-96M2-HSC)
+
+Axygen 8-Strip PCR tubes (Fischer Scientific, cat. no. 14-222-250)
+
+Falcon tubes, polypropylene, 15 ml (BD Falcon, cat. no. 352097)
+
+Falcon tubes, polypropylene, 50 ml (BD Falcon, cat. no. 352070)
+
+Round-bottom tube with cell strainer cap, 5 ml (BD Falcon, cat. no. 352235)
+
+Petri dishes, 60 mm × 15 mm (BD Biosciences, cat. no. 351007)
+
+Tissue culture plate, 24 wells (BD Falcon, cat. no. 353047)
+
+Tissue culture plate, 96 wells flat bottom (BD Falcon, cat. no. 353075)
+
+Tissue culture dish, 100 mm (BD Falcon, cat. no. 353003)
+
+Nunc EasYFlask 225 cm 2 (T225 flask), filter cap, 70-ml working volume (Thermo Scientific, cat. no. 159934)
+
+Nunc EasYFlask 75 cm 2 (T75 flask), filter cap, 25-ml working volume (Thermo Scientific, cat. no. 156499)
+
+INCYTO C-Chip disposable hemocytometer (VWR, cat. no. 82030-468)
+
+Steriflip-GP Filter Unit, 0.22 μM (Millipore, cat. no. SCGP00525)
+
+Thermocycler with programmable temperature stepping functionality, 96 well (Applied Biosystems Veriti, cat. no. 4375786)
+
+Desktop microcentrifuges (e.g., Eppendorf, cat. nos. 5424 and 5804)
+
+Gel electrophoresis system (PowerPac basic power supply, Bio-Rad, cat. no. 164-5050), and Sub-Cell GT System gel tray (Bio-Rad, cat. no. 170-4401)
+
+Novex XCell SureLock mini-cell (Life Technologies, cat. no. EI0001)
+
+Digital gel imaging system (GelDoc EZ, Bio-Rad, cat. no. 170-8270), and blue sample tray (Bio-Rad, cat. no. 170-8273)
+
+Blue-light transilluminator and orange filter goggles (SafeImager 2.0; Invitrogen, cat. no. G6600)
+
+Gel quantification software (Bio-Rad, ImageLab or open-source ImageJ from the National Institutes of Health (NIH), USA, available at http://rsbweb.nih.gov/ij/ )
+
+UV spectrophotometer (NanoDrop 2000c, Thermo Scientific)
+
+Dilute TBE buffer in distilled water to a 1× working solution, and store it at room temperature (18–22 °C) for up to 6 months.
+
+Divide the solution into aliquots, and store them at –20 °C for up to 1 year; avoid repeated freeze-thaw cycles.
+
+Prepare the solution in ddH 2 O, divide it into aliquots and store them at –70 °C for up to 2 years. Use a new aliquot for each reaction, as DTT is easily oxidized.
+
+For culture of HEK 293FT cells, prepare D10 medium by supplementing DMEM with GlutaMAX and 10% (vol/vol) FBS. For routine cell line culture and maintenance, D10 medium can be further supplemented with 1× penicillin-streptomycin. Store the medium at 4 °C for up to 1 month.
+
+For culture of human embryonic stem cells (hESCs), prepare mTeSR1 medium by supplementing it with the supplement solution supplied with the medium and 100 μg ml –1 Normocin. Prepared medium can be stored at 4 °C for up to 2 months.
+
+## PROCEDURE
+Input target genomic DNA sequence. We provide an online CRISPR Design Tool ( http://tools.genome-engineering.org ) that takes an input sequence (for example, a 1-kb genomic fragment from the region of interest), identifies and ranks suitable target sites and computationally predicts off-target sites for each intended target. Alternatively, one can manually select guide sequences by identifying the 20-bp sequence directly upstream of any 5′-NGG.
+
+Order necessary oligos and primers as specified by the online tool. If the cleavage site is chosen manually, the oligos or primers should be designed as described in Figure 4b,c .
+
+Design and order custom ssODN. Purchase either the sense or antisense ssODN directly from IDT or the preferred supplier. We recommend manually designing homology arms of at least 40 nt on either side and preferably 90 nt for optimal HDR efficiency. It is not necessary to PAGE-purify the ssODN.
+
+Resuspend and dilute ssODN ultramers to a final concentration of 10 μM. Do not combine or anneal the sense and antisense ssODNs. Store them at –20 °C.
+
+To generate the sgRNA expression construct, use either the PCR expression cassette (option A) or the plasmid-based procedure (option B).
+
+(A) Generation of the sgRNA expression construct by PCR amplification ● TIMING 2 h Preparation of diluted U6 PCR template. We recommend using pSpCas9(BB) or pSpCas9n(BB) ( supplementary Data 2 ) as a PCR template, but any U6-containing plasmid can be used. Dilute the template with ddH 2 O to a concentration of 10 ng μl –1 . Note that if a plasmid or cassette already containing a U6-driven sgRNA is used as a template, a gel extraction will need to be performed after PCR (Step 5A(iv)), using the QIAquick gel extraction kit according to the manufacturer's instructions, to ensure that the product contains only the intended sgRNA and no trace of sgRNA carryover from the template. Preparation of diluted PCR primers. Dilute the U6-Fwd and U6-Rev (designed either using the CRISPR Design Tool or by hand and unique for each sgRNA, Step 1) primers ( table 1 ) to a final concentration of 10 μM in ddH 2 O by adding 10 μl of the 100 μM primer stock to 90 μl of ddH 2 O. U6-sgRNA PCR. Set up the following reaction for each U6-Rev primer as follows: Component Amount (μl) Final concentration Herculase II PCR buffer, 5× 10 1× dNTP, 100 mM (25 mM each) 0.5 1 mM U6 PCR template (pSpCas9(BB)) 1 0.2 ng μl −1 U6-Fwd primer (universal) 1 0.2 μM U6-Rev primer (sgRNA specific) 1 0.2 μM Herculase II fusion polymerase 0.5 Distilled water 36 Total 50
+
+Preparation of diluted U6 PCR template. We recommend using pSpCas9(BB) or pSpCas9n(BB) ( supplementary Data 2 ) as a PCR template, but any U6-containing plasmid can be used. Dilute the template with ddH 2 O to a concentration of 10 ng μl –1 . Note that if a plasmid or cassette already containing a U6-driven sgRNA is used as a template, a gel extraction will need to be performed after PCR (Step 5A(iv)), using the QIAquick gel extraction kit according to the manufacturer's instructions, to ensure that the product contains only the intended sgRNA and no trace of sgRNA carryover from the template.
+
+Preparation of diluted PCR primers. Dilute the U6-Fwd and U6-Rev (designed either using the CRISPR Design Tool or by hand and unique for each sgRNA, Step 1) primers ( table 1 ) to a final concentration of 10 μM in ddH 2 O by adding 10 μl of the 100 μM primer stock to 90 μl of ddH 2 O.
+
+U6-sgRNA PCR. Set up the following reaction for each U6-Rev primer as follows: Component Amount (μl) Final concentration Herculase II PCR buffer, 5× 10 1× dNTP, 100 mM (25 mM each) 0.5 1 mM U6 PCR template (pSpCas9(BB)) 1 0.2 ng μl −1 U6-Fwd primer (universal) 1 0.2 μM U6-Rev primer (sgRNA specific) 1 0.2 μM Herculase II fusion polymerase 0.5 Distilled water 36 Total 50
+
+▲ CRITICAL STEP To minimize error in amplifying sgRNAs, it is important to use a high-fidelity polymerase. Other high-fidelity polymerases, such as PfuUltra II (Agilent) or Kapa HiFi (Kapa Biosystems), may be used as a substitute. iv Perform a PCR by using the following cycling conditions: Cycle number Denature Anneal Extend 1 95 °C, 2 m 2-31 95 °C, 20 s 60 °C, 20 s 72 °C, 20 s 32 72 °C, 3 min v After the reaction is complete, run a sample of the product on a gel to verify successful amplification: cast a 2% (wt/vol) agarose gel in TBE buffer with SYBR Safe dye. Run 5 μl of the PCR product in the gel at 15 V cm –1 for 30 min. Successful reactions should yield a single 370-bp-long product, and the template should be invisible.
+
+Perform a PCR by using the following cycling conditions: Cycle number Denature Anneal Extend 1 95 °C, 2 m 2-31 95 °C, 20 s 60 °C, 20 s 72 °C, 20 s 32 72 °C, 3 min
+
+After the reaction is complete, run a sample of the product on a gel to verify successful amplification: cast a 2% (wt/vol) agarose gel in TBE buffer with SYBR Safe dye. Run 5 μl of the PCR product in the gel at 15 V cm –1 for 30 min. Successful reactions should yield a single 370-bp-long product, and the template should be invisible.
+
+? TROUBLESHOOTING vi Purify the PCR product by using the QIAquick PCR purification kit according to the manufacturer's directions. Elute the DNA in 35 μl of EB buffer (part of the kit) or water.
+
+Purify the PCR product by using the QIAquick PCR purification kit according to the manufacturer's directions. Elute the DNA in 35 μl of EB buffer (part of the kit) or water.
+
+■ PAUSE POINT Purified PCR products can be stored at –20 °C for up to several months.
+
+(B) Cloning sgRNA into the pSpCas9(BB) vector for co-expression with Cas9 ● TIMING 3 d Preparation of the sgRNA oligos inserts. Resuspend the top and bottom strands of oligos for each sgRNA design (Step 1) to a final concentration of 100 μM. Prepare the following mixture for phosphorylating and annealing the sgRNA oligos (top and bottom strands): Component Amount (μl) sgRNA top (100 μM) 1 sgRNA bottom (100 μM) 1 T4 ligation buffer, 10× 1 T4 PNK 1 ddH 2 O 6 Total 10 Phosphorylate and anneal the oligos in a thermocycler by using the following parameters: 37 °C for 30 min; 95 °C for 5 min; ramp down to 25 °C at 5 °C min –1 . Dilute phosphorylated and annealed oligos 1:200 by adding 1 μl of oligo to 199 μl of room temperature ddH 2 O. Cloning the sgRNA oligos into pSpCas9(BB). Set up a ligation reaction for each sgRNA, as described below. We recommend also setting up a no-insert, pSpCas9(BB)-only negative control for ligation. Note : if you are using the Cas9 D10A nickase mutant for subsequent applications, substitute pSpCas9(BB) with pSpCas9n(BB). Alternatively, if fluorescence-based screening or selection is needed, substitute with pSpCas9(BB)-2A-GFP, pSpCas9(BB)-2A-Puro, pSpCas9n(BB)-2A-GFP or pSpCas9n(BB)-2A-Puro. The following steps use pSpCas9(BB) as an example: Components Amount (μl) pSpCas9(BB), 100 ng × Diluted oligo duplex from Step 5B(iii) 2 Tango buffer, 10× 2 DTT, 10 mM 1 ATP, 10 mM 1 FastDigest BbsI 1 T7 ligase 0.5 ddH 2 O to 20 Total 20 Incubate the ligation reaction for a total of 1 h. Cycle number Condition 1-6 37 °C for 5 min, 21 °C for 5 min Treat the ligation reaction with PlasmidSafe exonuclease to digest any residual linearized DNA. This step is optional but highly recommended. Component Amount (μl) Ligation reaction from Step 5B(v) 11 PlasmidSafe buffer, 10× 1.5 ATP, 10 mM 1.5 PlasmidSafe exonuclease 1 Total 15 Incubate the PlasmidSafe reaction at 37 °C for 30 min, followed by 70 °C for 30 min.
+
+Preparation of the sgRNA oligos inserts. Resuspend the top and bottom strands of oligos for each sgRNA design (Step 1) to a final concentration of 100 μM. Prepare the following mixture for phosphorylating and annealing the sgRNA oligos (top and bottom strands): Component Amount (μl) sgRNA top (100 μM) 1 sgRNA bottom (100 μM) 1 T4 ligation buffer, 10× 1 T4 PNK 1 ddH 2 O 6 Total 10
+
+Phosphorylate and anneal the oligos in a thermocycler by using the following parameters: 37 °C for 30 min; 95 °C for 5 min; ramp down to 25 °C at 5 °C min –1 .
+
+Dilute phosphorylated and annealed oligos 1:200 by adding 1 μl of oligo to 199 μl of room temperature ddH 2 O.
+
+Cloning the sgRNA oligos into pSpCas9(BB). Set up a ligation reaction for each sgRNA, as described below. We recommend also setting up a no-insert, pSpCas9(BB)-only negative control for ligation. Note : if you are using the Cas9 D10A nickase mutant for subsequent applications, substitute pSpCas9(BB) with pSpCas9n(BB). Alternatively, if fluorescence-based screening or selection is needed, substitute with pSpCas9(BB)-2A-GFP, pSpCas9(BB)-2A-Puro, pSpCas9n(BB)-2A-GFP or pSpCas9n(BB)-2A-Puro. The following steps use pSpCas9(BB) as an example: Components Amount (μl) pSpCas9(BB), 100 ng × Diluted oligo duplex from Step 5B(iii) 2 Tango buffer, 10× 2 DTT, 10 mM 1 ATP, 10 mM 1 FastDigest BbsI 1 T7 ligase 0.5 ddH 2 O to 20 Total 20
+
+Incubate the ligation reaction for a total of 1 h. Cycle number Condition 1-6 37 °C for 5 min, 21 °C for 5 min
+
+Treat the ligation reaction with PlasmidSafe exonuclease to digest any residual linearized DNA. This step is optional but highly recommended. Component Amount (μl) Ligation reaction from Step 5B(v) 11 PlasmidSafe buffer, 10× 1.5 ATP, 10 mM 1.5 PlasmidSafe exonuclease 1 Total 15
+
+Incubate the PlasmidSafe reaction at 37 °C for 30 min, followed by 70 °C for 30 min.
+
+■ PAUSE POINT After PlasmidSafe treatment, the reaction can be stored at –20 °C for at least 1 week. viii Transformation. Transform the PlasmidSafe-treated plasmid into a competent E. coli strain, according to the protocol supplied with the cells. We recommend the Stbl3 strain for quick transformation. Briefly, add 2 μl of the product from Step 5B(vii) into 20 μl of ice-cold chemically competent Stbl3 cells, incubate the mixture on ice for 10 min, heat-shock it at 42 °C for 30 s and return it immediately to ice for 2 min. Add 100 μl of SOC medium and plate it onto an LB plate containing 100 μg ml –1 ampicillin. Incubate it overnight at 37 °C. Note that it is not necessary to incubate competent cells for the outgrowth period after heat shock when you are transforming ampicillin- resistant plasmids. ix Day 2: inspect the plates for colony growth. Typically, there are no colonies on the negative control plates (ligation of Bbs I-digested pSpCas9(BB) alone without annealed sgRNA oligo insert), and there are tens to hundreds of colonies on the pSpCas9(sgRNA) (sgRNA inserted into pSpCas9(BB)) cloning plates.
+
+Transformation. Transform the PlasmidSafe-treated plasmid into a competent E. coli strain, according to the protocol supplied with the cells. We recommend the Stbl3 strain for quick transformation. Briefly, add 2 μl of the product from Step 5B(vii) into 20 μl of ice-cold chemically competent Stbl3 cells, incubate the mixture on ice for 10 min, heat-shock it at 42 °C for 30 s and return it immediately to ice for 2 min. Add 100 μl of SOC medium and plate it onto an LB plate containing 100 μg ml –1 ampicillin. Incubate it overnight at 37 °C. Note that it is not necessary to incubate competent cells for the outgrowth period after heat shock when you are transforming ampicillin- resistant plasmids.
+
+Day 2: inspect the plates for colony growth. Typically, there are no colonies on the negative control plates (ligation of Bbs I-digested pSpCas9(BB) alone without annealed sgRNA oligo insert), and there are tens to hundreds of colonies on the pSpCas9(sgRNA) (sgRNA inserted into pSpCas9(BB)) cloning plates.
+
+? TROUBLESHOOTING x From each plate, pick two or three colonies to check for the correct insertion of sgRNA. Use a sterile pipette tip to inoculate a single colony into a 3-ml culture of LB medium with 100 μg ml –1 ampicillin. Incubate the culture and shake it at 37 °C overnight. xi Day 3: isolate the plasmid DNA from cultures by using a QIAprep spin miniprep kit according to the manufacturer's instructions. xii Sequence validation of CRISPR plasmid. Verify the sequence of each colony by sequencing from the U6 promoter using the U6-Fwd primer. Optional: sequence the Cas9 gene by using the Cbh-Fwd and SXRP002-007 primers listed in supplementary Data 1 . Reference the sequencing results against the pSpCas9(BB) cloning vector sequence to check that the 20-nt guide sequence is inserted between the U6 promoter and the remainder of the sgRNA scaffold ( Fig. 4c ). Details and sequence of the pSpCas9(BB) map in GenBank vector map format (*.gb file) can be found at http://crispr.genome-engineering.org/ .
+
+From each plate, pick two or three colonies to check for the correct insertion of sgRNA. Use a sterile pipette tip to inoculate a single colony into a 3-ml culture of LB medium with 100 μg ml –1 ampicillin. Incubate the culture and shake it at 37 °C overnight.
+
+Day 3: isolate the plasmid DNA from cultures by using a QIAprep spin miniprep kit according to the manufacturer's instructions.
+
+Sequence validation of CRISPR plasmid. Verify the sequence of each colony by sequencing from the U6 promoter using the U6-Fwd primer. Optional: sequence the Cas9 gene by using the Cbh-Fwd and SXRP002-007 primers listed in supplementary Data 1 . Reference the sequencing results against the pSpCas9(BB) cloning vector sequence to check that the 20-nt guide sequence is inserted between the U6 promoter and the remainder of the sgRNA scaffold ( Fig. 4c ). Details and sequence of the pSpCas9(BB) map in GenBank vector map format (*.gb file) can be found at http://crispr.genome-engineering.org/ .
+
+? TROUBLESHOOTING
+
+▲ CRITICAL The CRISPR-Cas system has been used in a number of mammalian cell lines. Conditions may vary for each cell line. Below we detail transfection conditions for HEK 293FT cells. Note that ssODN-mediated HDR transfections, performed with Amaxa SF cell line Nucleofector kit, are described in Steps 14–29. For hESC (HUES9) culturing and transfection, follow Steps 30–53. 6 HEK 293FT maintenance. Cells are maintained according to the manufacturer's recommendations. Cells are cultured in D10 medium supplemented with 10% (vol/vol) FBS at 37 °C and 5% CO 2 . 7 To passage, remove the medium and rinse the cells once by gently adding DPBS to the side of the vessel, so as not to dislodge the cells. Add 2 ml of TrypLE to a T75 flask, and incubate the mixture for 5 min at 37 °C. Add 10 ml of warm D10 medium to inactivate the trypsin, and transfer the cells to a 50-ml Falcon tube. Dissociate the cells by pipetting them up and down gently, and then reseed them into new flasks as necessary.
+
+HEK 293FT maintenance. Cells are maintained according to the manufacturer's recommendations. Cells are cultured in D10 medium supplemented with 10% (vol/vol) FBS at 37 °C and 5% CO 2 .
+
+To passage, remove the medium and rinse the cells once by gently adding DPBS to the side of the vessel, so as not to dislodge the cells. Add 2 ml of TrypLE to a T75 flask, and incubate the mixture for 5 min at 37 °C. Add 10 ml of warm D10 medium to inactivate the trypsin, and transfer the cells to a 50-ml Falcon tube. Dissociate the cells by pipetting them up and down gently, and then reseed them into new flasks as necessary.
+
+▲ CRITICAL STEP We typically passage cells every 2–3 d at a split ratio of 1:4 or 1:8, never allowing cells to reach more than 70% confluency. Cells are discarded upon reaching passage number 15. 8 Preparation of cells for transfection. Plate the well-dissociated cells onto 24-well plates in D10 medium without antibiotics 16–24 h before transfection. Seed the cells at a density of 1.3 × 10 5 cells per well in a total volume of 500 μl. Scale up or down according to the cell line supplier's manual as needed.
+
+Preparation of cells for transfection. Plate the well-dissociated cells onto 24-well plates in D10 medium without antibiotics 16–24 h before transfection. Seed the cells at a density of 1.3 × 10 5 cells per well in a total volume of 500 μl. Scale up or down according to the cell line supplier's manual as needed.
+
+▲ CRITICAL STEP Do not plate more cells than the recommended density, as doing so may reduce transfection efficiency. 9 On the day of transfection, cells are optimal at 70–90% confluency. Cells can be transfected with Lipofectamine 2000 or the Amaxa SF cell line 4D-Nucleofector X kit according to the manufacturers’ instructions. Transfections should be performed as follows: for sgRNAs cloned into pSpCas9(BB), transfect 500 ng of sequence-verified CRISPR plasmid (pSpCas9(sgRNA)); if you are transfecting more than one plasmid ( Box 2 ), mix them at equimolar ratios and use no more than 500 ng of total DNA. For sgRNA amplified by PCR, mix the following: pSpCas9 (Cas9 only) 400 ng sgRNA amplicon from Step 5A (each) 20 ng pUC19 (carrier DNA) Fill up total DNA to 500 ng
+
+On the day of transfection, cells are optimal at 70–90% confluency. Cells can be transfected with Lipofectamine 2000 or the Amaxa SF cell line 4D-Nucleofector X kit according to the manufacturers’ instructions. Transfections should be performed as follows: for sgRNAs cloned into pSpCas9(BB), transfect 500 ng of sequence-verified CRISPR plasmid (pSpCas9(sgRNA)); if you are transfecting more than one plasmid ( Box 2 ), mix them at equimolar ratios and use no more than 500 ng of total DNA. For sgRNA amplified by PCR, mix the following: pSpCas9 (Cas9 only) 400 ng sgRNA amplicon from Step 5A (each) 20 ng pUC19 (carrier DNA) Fill up total DNA to 500 ng
+
+▲ CRITICAL STEP We recommend transfecting in technical triplicates for reliable quantification, and including transfection controls (e.g., GFP plasmid) to monitor transfection efficiency. pSpCas9(sgRNA)-2A-GFP or pSpCas9(sgRNA)-2A-Puro may be used in place of pSpCas9 if fluorescence sorting or drug selection, respectively, is desired. In addition, the pSpCas9(BB) cloning plasmid and/or the sgRNA amplicon may be transfected alone as a negative control for downstream functional assays. 10 Add Lipofectamine complex to the cells gently, as HEK 293FT cells can detach easily from the plate, which will result in a lower transfection efficiency. 11 Check cells after 24 h for transfection efficiency. The percentage of fluorescent cells in the transfection control (e.g., GFP) can be estimated by using a fluorescence microscope. Typically, more than 70% of cells are transfected.
+
+Add Lipofectamine complex to the cells gently, as HEK 293FT cells can detach easily from the plate, which will result in a lower transfection efficiency.
+
+Check cells after 24 h for transfection efficiency. The percentage of fluorescent cells in the transfection control (e.g., GFP) can be estimated by using a fluorescence microscope. Typically, more than 70% of cells are transfected.
+
+? TROUBLESHOOTING 12 Supplement the culture medium with an additional 500 μl of warm D10 medium.
+
+Supplement the culture medium with an additional 500 μl of warm D10 medium.
+
+▲ CRITICAL STEP Add D10 very slowly to the side of the well, and do not use cold medium, as cells can detach easily. Puromycin selection can be applied at a concentration of 1–3 μg ml –1 for HEK 293FT cells (may vary depending on the cell line). 13 Incubate the cells for a total of 48–72 h after transfection before passaging them for downstream applications or harvesting for indel analysis.
+
+Incubate the cells for a total of 48–72 h after transfection before passaging them for downstream applications or harvesting for indel analysis.
+
+Linearize 1–2 μg of targeting vector if possible by cutting once at a restriction site in the vector backbone near one of the homology arms or at the distal end of either homology arm.
+
+Alternatively, if you are using ssODNs, simply resuspend them to a final concentration of 10 μM (see Step 4) and skip Steps 15 and 16. 15 Run a small amount of the linearized plasmid alongside uncut plasmid on a 0.8–1% (wt/vol) agarose gel to check for successful linearization. Linearized plasmids should run above the supercoiled plasmid. 16 Purify the linearized plasmid with the QIAQuick PCR Purification kit, and elute in 35 μl of EB buffer. 17 Preparation of cells for transfection. Culture HEK 293FT in T75 or T225 flasks. Plan ahead to have sufficient cells for the day of transfection (2 × 10 5 cells per transfection if you are using the Amaxa SF cell line 4D-Nucleofector X kit S). 18 Prewarming plates for transfection. Add 1 ml of warm D10 medium into each well of a 12-well plate. Place the plates in the incubator to keep the medium warm. 19 Use option A in the table below for preparing the co-transfection of the HDR targeting plasmid with the Cas9 plasmid or option B for the co-transfection of ssODN with the Cas9 plasmid. To prepare transfection controls, see Step 9. If an sgRNA is cloned into pSpCas9(BB)-2A-GFP, cells may also be sorted by fluorescence. If you are using Cas9 nickase to mediate HDR, substitute pSpCas9(sgRNA) with pSpCas9n(sgRNA) from Step 5B(v).
+
+Run a small amount of the linearized plasmid alongside uncut plasmid on a 0.8–1% (wt/vol) agarose gel to check for successful linearization. Linearized plasmids should run above the supercoiled plasmid.
+
+Purify the linearized plasmid with the QIAQuick PCR Purification kit, and elute in 35 μl of EB buffer.
+
+Preparation of cells for transfection. Culture HEK 293FT in T75 or T225 flasks. Plan ahead to have sufficient cells for the day of transfection (2 × 10 5 cells per transfection if you are using the Amaxa SF cell line 4D-Nucleofector X kit S).
+
+Prewarming plates for transfection. Add 1 ml of warm D10 medium into each well of a 12-well plate. Place the plates in the incubator to keep the medium warm.
+
+Use option A in the table below for preparing the co-transfection of the HDR targeting plasmid with the Cas9 plasmid or option B for the co-transfection of ssODN with the Cas9 plasmid. To prepare transfection controls, see Step 9. If an sgRNA is cloned into pSpCas9(BB)-2A-GFP, cells may also be sorted by fluorescence. If you are using Cas9 nickase to mediate HDR, substitute pSpCas9(sgRNA) with pSpCas9n(sgRNA) from Step 5B(v).
+
+▲ CRITICAL STEP For HDR applications, we recommend cloning sgRNA guides into one of the sgRNA expression plasmids described in Step 5B, rather than using the PCR-based expression approach. (A) For the cotransfection of the HDR-targeting plasmid with the Cas9 plasmid: (i) Pre-mix the following DNA in PCR tubes: Cas9 plasmid (pSpCas9(sgRNA)) 500 ng Linearized targeting plasmid 500 ng (B) For the cotransfection of ss0DN and with the Cas9 plasmid: (i) Pre-mix the following DNA in PCR tubes: Cas9 plasmid (pSpCas9(sgRNA)) 500 ng ssODN template (10 μM) 1 μl 20 Dissociation of cells for transfection. Remove the medium and rinse the cells once gently with DPBS, taking care not to dislodge cells. Add 2 ml of TrypLE to a T75 flask and incubate it for 5 min at 37 °C, and then add 10 ml of warm D10 medium and triturate gently in a 50-ml Falcon tube.
+
+Dissociation of cells for transfection. Remove the medium and rinse the cells once gently with DPBS, taking care not to dislodge cells. Add 2 ml of TrypLE to a T75 flask and incubate it for 5 min at 37 °C, and then add 10 ml of warm D10 medium and triturate gently in a 50-ml Falcon tube.
+
+▲ CRITICAL STEP Ensure that the cells are triturated gently and dissociated to single cells. Large clumps will reduce transfection efficiency. 21 Take a 10-μl aliquot from the cell suspension and dilute it into 90 μl of D10 medium for counting. Count the cells and calculate the number of cells and the volume of suspension needed for transfection. We typically transfect 2 × 10 5 cells per condition with the Amaxa SF cell line 4D-Nucleofector X kit S, and we recommend calculating for 20% more cells than required to adjust for volume loss in subsequent pipetting steps. Transfer the volume needed (20 μl per transfection plus waste volume) into a new Falcon tube. 22 Spin down the cells from Step 21 at 200 g for 5 min at room temperature. 23 Prepare the transfection solution by mixing the SF solution and S1 supplement supplied in the Amaxa SF cell line 4D-Nucleofector X kit S; a total of 20 μl of supplemented SF solution is used per transfection. Likewise, we recommend calculating for 20% more volume than required. 24 Remove the medium completely from the pelleted cells from Step 22, and gently resuspend the cells in an appropriate volume (20 μl per 2 × 10 5 cells) of S1-supplemented SF solution. Do not leave the cells in SF solution for extended periods of time. 25 Pipette 20 μl of resuspended cells into each DNA premix from Step 19. Pipette gently to mix and transfer to a Nucleocuvette strip chamber. Repeat this step for each transfection condition. 26 Electroporate the cells by using the Nucleofector 4D program recommended by Amaxa, CM-130. 27 Gently and slowly pipette 100 μl of warm D10 medium into each Nucleocuvette strip chamber, and transfer all the volume into a well with the prewarmed medium from Step 18.
+
+Take a 10-μl aliquot from the cell suspension and dilute it into 90 μl of D10 medium for counting. Count the cells and calculate the number of cells and the volume of suspension needed for transfection. We typically transfect 2 × 10 5 cells per condition with the Amaxa SF cell line 4D-Nucleofector X kit S, and we recommend calculating for 20% more cells than required to adjust for volume loss in subsequent pipetting steps. Transfer the volume needed (20 μl per transfection plus waste volume) into a new Falcon tube.
+
+Spin down the cells from Step 21 at 200 g for 5 min at room temperature.
+
+Prepare the transfection solution by mixing the SF solution and S1 supplement supplied in the Amaxa SF cell line 4D-Nucleofector X kit S; a total of 20 μl of supplemented SF solution is used per transfection. Likewise, we recommend calculating for 20% more volume than required.
+
+Remove the medium completely from the pelleted cells from Step 22, and gently resuspend the cells in an appropriate volume (20 μl per 2 × 10 5 cells) of S1-supplemented SF solution. Do not leave the cells in SF solution for extended periods of time.
+
+Pipette 20 μl of resuspended cells into each DNA premix from Step 19. Pipette gently to mix and transfer to a Nucleocuvette strip chamber. Repeat this step for each transfection condition.
+
+Electroporate the cells by using the Nucleofector 4D program recommended by Amaxa, CM-130.
+
+Gently and slowly pipette 100 μl of warm D10 medium into each Nucleocuvette strip chamber, and transfer all the volume into a well with the prewarmed medium from Step 18.
+
+▲ CRITICAL STEP Cells are very fragile at this stage, and harsh pipetting can cause cell death. 28 Incubate the mixture for 24 h. At this point, transfection efficiency can be estimated from the fraction of fluorescent cells in the positive transfection control. Nucleofection typically results in >70–80% transfection efficiency.
+
+Incubate the mixture for 24 h. At this point, transfection efficiency can be estimated from the fraction of fluorescent cells in the positive transfection control. Nucleofection typically results in >70–80% transfection efficiency.
+
+? TROUBLESHOOTING 29 Slowly add 1 ml of warm D10 medium to each well without dislodging the cells. Puromycin selection can be applied at a concentration of 1–3 μg ml –1 for HEK 293FT cells (may vary depending on the cell line). Incubate the cells with puromycin for at least 72 h. Cells can then be cultured in regular medium for downstream experiments or harvested for genotyping.
+
+Slowly add 1 ml of warm D10 medium to each well without dislodging the cells. Puromycin selection can be applied at a concentration of 1–3 μg ml –1 for HEK 293FT cells (may vary depending on the cell line). Incubate the cells with puromycin for at least 72 h. Cells can then be cultured in regular medium for downstream experiments or harvested for genotyping.
+
+▲ CRITICAL hESCs and human induced pluripotent stem cells can vary widely in their transfection efficiency, tolerance of single-cell dissociation and maintenance conditions. For a given cell line of interest, relevant literature or the distributor should be consulted. 30 Maintaining HUES9 cells. We routinely maintain HUES9 cells (a hESC cell line) in feeder-free conditions with mTesR1 medium. Prepare mTeSR1 medium by adding the 5× supplement included with the basal medium and 100 μg ml –1 Normocin. 31 Prepare a 10-ml aliquot of mTeSR1 medium supplemented further with 10 μM ROCK inhibitor. 32 Coating a tissue culture plate. Dilute cold GelTrex 1:100 in cold DMEM and coat the entire surface of a 100-mm tissue culture plate. 33 Place the plate in an incubator for at least 30 min at 37 °C. 34 Thaw a vial of cells at 37 °C, transfer the cells to a 15-ml Falcon tube, add 5 ml of mTeSR1 medium and pellet at 200 g for 5 min at room temperature. 35 Aspirate the GelTrex coating (Step 32) and seed ~1 × 10 6 cells with 10 ml of mTeSR1 medium containing ROCK inhibitor from Step 31. 36 Replace with mTeSR1 medium without ROCK inhibitor after 24 h and refeed daily. 37 Passaging cells . Passage the cells before they reach 70% confluency. 38 Aspirate the mTeSR1 medium and wash the cells once with DPBS. 39 Dissociate the cells by adding 2 ml of Accutase and incubating them at 37 °C for 3–5 min. 40 Add 10 ml of mTeSR1 medium to the detached cells, transfer the mixture to a 15-ml Falcon tube and resuspend gently. 41 Replate the cells onto GelTrex-coated plates in mTeSR1 medium with 10 μM ROCK inhibitor. 42 Replace with normal mTeSR1 medium 24 h after plating. 43 Transfection. We recommend culturing cells for at least 1 week after thawing and before transfecting by using the Amaxa P3 primary cell 4D Nucleofector kit. 44 Refeed log-phase growing cells (50–70% confluency) with fresh medium 2 h before transfection. 45 Dissociate to single cells or small clusters of no more than ten cells (as viewed under the microscope) with Accutase and gentle resuspension. 46 Count the number of cells needed for nucleofection (200,000 cells per transfection) and spin down at 200 g for 5 min at room temperature. 47 Remove the medium completely and resuspend it in 20 μl of S1-supplemented P3 nucleofection solution, per 2 × 10 5 cells. 48 Pipette the resuspended cells with added DNA (Steps 9 and 19) into electroporation cuvettes and electroporate according to the suggested program. For 2 × 10 5 cells, we typically use 1 μg of total DNA. 49 Gently plate the electroporated cells onto coated 100-mm plates supplemented with 10 μM ROCK inhibitor. 50 Check transfection success (Steps 11 and 28) and refeed the cells daily with regular mTeSR1 medium beginning 24 h after nucleofection. Puromycin selection can be applied at a concentration of 0.5 μg ml –1 (may vary depending on the cell line). Typically, we observe >70% transfection efficiency with Amaxa nucleofection.
+
+Maintaining HUES9 cells. We routinely maintain HUES9 cells (a hESC cell line) in feeder-free conditions with mTesR1 medium. Prepare mTeSR1 medium by adding the 5× supplement included with the basal medium and 100 μg ml –1 Normocin.
+
+Prepare a 10-ml aliquot of mTeSR1 medium supplemented further with 10 μM ROCK inhibitor.
+
+Coating a tissue culture plate. Dilute cold GelTrex 1:100 in cold DMEM and coat the entire surface of a 100-mm tissue culture plate.
+
+Place the plate in an incubator for at least 30 min at 37 °C.
+
+Thaw a vial of cells at 37 °C, transfer the cells to a 15-ml Falcon tube, add 5 ml of mTeSR1 medium and pellet at 200 g for 5 min at room temperature.
+
+Aspirate the GelTrex coating (Step 32) and seed ~1 × 10 6 cells with 10 ml of mTeSR1 medium containing ROCK inhibitor from Step 31.
+
+Replace with mTeSR1 medium without ROCK inhibitor after 24 h and refeed daily.
+
+Passaging cells . Passage the cells before they reach 70% confluency.
+
+Aspirate the mTeSR1 medium and wash the cells once with DPBS.
+
+Dissociate the cells by adding 2 ml of Accutase and incubating them at 37 °C for 3–5 min.
+
+Add 10 ml of mTeSR1 medium to the detached cells, transfer the mixture to a 15-ml Falcon tube and resuspend gently.
+
+Replate the cells onto GelTrex-coated plates in mTeSR1 medium with 10 μM ROCK inhibitor.
+
+Replace with normal mTeSR1 medium 24 h after plating.
+
+Transfection. We recommend culturing cells for at least 1 week after thawing and before transfecting by using the Amaxa P3 primary cell 4D Nucleofector kit.
+
+Refeed log-phase growing cells (50–70% confluency) with fresh medium 2 h before transfection.
+
+Dissociate to single cells or small clusters of no more than ten cells (as viewed under the microscope) with Accutase and gentle resuspension.
+
+Count the number of cells needed for nucleofection (200,000 cells per transfection) and spin down at 200 g for 5 min at room temperature.
+
+Remove the medium completely and resuspend it in 20 μl of S1-supplemented P3 nucleofection solution, per 2 × 10 5 cells.
+
+Pipette the resuspended cells with added DNA (Steps 9 and 19) into electroporation cuvettes and electroporate according to the suggested program. For 2 × 10 5 cells, we typically use 1 μg of total DNA.
+
+Gently plate the electroporated cells onto coated 100-mm plates supplemented with 10 μM ROCK inhibitor.
+
+Check transfection success (Steps 11 and 28) and refeed the cells daily with regular mTeSR1 medium beginning 24 h after nucleofection. Puromycin selection can be applied at a concentration of 0.5 μg ml –1 (may vary depending on the cell line). Typically, we observe >70% transfection efficiency with Amaxa nucleofection.
+
+? TROUBLESHOOTING 51 At 48–72 h post transfection, dissociate the cells with Accutase and resuspend them gently in a 5× volume of mTeSR1. Reserve a fraction of the resuspended cells at this stage for replating (Steps 41 and 42; make sure to add ROCK inhibitor for each passaging), for downstream applications or clonal isolation (Steps 54–70), and use the remaining cells for genotyping (Steps 71–126).
+
+At 48–72 h post transfection, dissociate the cells with Accutase and resuspend them gently in a 5× volume of mTeSR1. Reserve a fraction of the resuspended cells at this stage for replating (Steps 41 and 42; make sure to add ROCK inhibitor for each passaging), for downstream applications or clonal isolation (Steps 54–70), and use the remaining cells for genotyping (Steps 71–126).
+
+▲ CRITICAL STEP Do not dissociate the cells mechanically without Accutase. 52 Spin the cells down at 200 g for 5 min at room temperature.
+
+Spin the cells down at 200 g for 5 min at room temperature.
+
+▲ CRITICAL STEP Do not spin the cells without inactivating the Accutase first, or above the recommended speed; doing so may cause cells to lyse. 53 Process pelleted cells directly for DNA extraction with the QuickExtract solution (Steps 71–74).
+
+Process pelleted cells directly for DNA extraction with the QuickExtract solution (Steps 71–74).
+
+▲ CRITICAL Isolation of clonal cell populations from the transfected cells (Step 51) can be performed 24 h after transfection by FACS (Steps 54–65) or by serial dilutions (Steps 66–70). Given that cell types can vary greatly in their response to FACS, clonal-density dilution or other isolation procedures, literature specific to the cell type of interest should be consulted. 54 Preparation of FACS media. Cells can be sorted in regular D10 medium supplemented with penicillin-streptomycin. The antibiotics-containing medium should be filtered through a 0.22-μM Steriflip filter. If fluorescence sorting is also required, phenol red–free DMEM or DPBS is substituted for normal DMEM. 55 To 96-well plates, add 100 μl of D10 medium supplemented with penicillin-streptomycin per well.
+
+Preparation of FACS media. Cells can be sorted in regular D10 medium supplemented with penicillin-streptomycin. The antibiotics-containing medium should be filtered through a 0.22-μM Steriflip filter. If fluorescence sorting is also required, phenol red–free DMEM or DPBS is substituted for normal DMEM.
+
+To 96-well plates, add 100 μl of D10 medium supplemented with penicillin-streptomycin per well.
+
+▲ CRITICAL STEP Not all sorted cells may survive the FACS process or the subsequent outgrowth; therefore, the number of plates prepared and cells sorted may need to be adjusted to ensure an adequate number of clonal lines derived. 56 Preparation of cells for FACS. Dissociate the cells (from Steps 11 or 28) by aspirating the medium completely and adding enough TrypLE to thinly cover the adherent layer of transfected cells. Incubate the mixture for 5 min at 37 °C and add 400 μl of warm D10 medium. 57 Transfer the resuspended cells into a 15-ml Falcon tube and gently triturate 20 times.
+
+Preparation of cells for FACS. Dissociate the cells (from Steps 11 or 28) by aspirating the medium completely and adding enough TrypLE to thinly cover the adherent layer of transfected cells. Incubate the mixture for 5 min at 37 °C and add 400 μl of warm D10 medium.
+
+Transfer the resuspended cells into a 15-ml Falcon tube and gently triturate 20 times.
+
+▲ CRITICAL STEP Check under the microscope to ensure dissociation to single cells. 58 Spin down the cells at 200 g for 5 min at room temperature. 59 Aspirate the medium, and resuspend it in 200 μl of FACS medium. 60 Filter the cells into the cell strainer tube through its mesh cap. Place the cells on ice until sorting. 61 Sort single cells into the 96-well plates prepared from Step 55. If sgRNA is cloned into pSpCas9(BB)-2A-GFP, fluorescence may be used to enrich for transfected cells. After sorting, examine the plate under a microscope and determine the presence of a single cell in most of the wells on the plate.
+
+Spin down the cells at 200 g for 5 min at room temperature.
+
+Aspirate the medium, and resuspend it in 200 μl of FACS medium.
+
+Filter the cells into the cell strainer tube through its mesh cap. Place the cells on ice until sorting.
+
+Sort single cells into the 96-well plates prepared from Step 55. If sgRNA is cloned into pSpCas9(BB)-2A-GFP, fluorescence may be used to enrich for transfected cells. After sorting, examine the plate under a microscope and determine the presence of a single cell in most of the wells on the plate.
+
+? TROUBLESHOOTING 62 Return the cells to the incubator and allow them to expand for 2–3 weeks. Add 100 μl of warm D10 medium 5 d after sorting. Change 100 μl of the medium every 3–5 d as necessary. 63 Inspect the colonies for “clonal” appearance 1 week after sorting: rounded colonies radiating from a central point. Mark off the wells that are empty or that may have been seeded more than a single cell. 64 When the cells are more than 60% confluent, prepare replica plates for passaging (one well for each clone) by adding 100 μl of D10 medium to each well in the replica plates. Dissociate the cells directly by pipetting up and down vigorously 20 times, and plate 20% of each of the resuspended volumes into the replica wells to keep the clonal lines. Change the medium every 2–3 d thereafter and passage accordingly. 65 Use the remaining 80% of cells for DNA isolation and genotyping (Steps 71–74).
+
+Return the cells to the incubator and allow them to expand for 2–3 weeks. Add 100 μl of warm D10 medium 5 d after sorting. Change 100 μl of the medium every 3–5 d as necessary.
+
+Inspect the colonies for “clonal” appearance 1 week after sorting: rounded colonies radiating from a central point. Mark off the wells that are empty or that may have been seeded more than a single cell.
+
+When the cells are more than 60% confluent, prepare replica plates for passaging (one well for each clone) by adding 100 μl of D10 medium to each well in the replica plates. Dissociate the cells directly by pipetting up and down vigorously 20 times, and plate 20% of each of the resuspended volumes into the replica wells to keep the clonal lines. Change the medium every 2–3 d thereafter and passage accordingly.
+
+Use the remaining 80% of cells for DNA isolation and genotyping (Steps 71–74).
+
+▲ CRITICAL As cell types can vary greatly in their response to FACS, clonal-density dilution or other isolation procedures, literature specific to the cell type of interest should be consulted. 66 Dissociate the cells from the transfected wells (Steps 11 or 28) 48 h after transfection. Take care to dissociate to single cells. A cell strainer (Step 60) can be used to prevent clumping of cells. 67 Count the number of cells from each 24-well plate, and serially dilute them in D10 medium to a final concentration of 0.5 cells per 100 μl to reduce the likelihood of having multiple cells per well. We recommend using 60 cells in 12 ml of D10 medium for each 96-well plate, and plating at least two 96-well plates for each transfected population.
+
+Dissociate the cells from the transfected wells (Steps 11 or 28) 48 h after transfection. Take care to dissociate to single cells. A cell strainer (Step 60) can be used to prevent clumping of cells.
+
+Count the number of cells from each 24-well plate, and serially dilute them in D10 medium to a final concentration of 0.5 cells per 100 μl to reduce the likelihood of having multiple cells per well. We recommend using 60 cells in 12 ml of D10 medium for each 96-well plate, and plating at least two 96-well plates for each transfected population.
+
+▲ CRITICAL STEP Single-cell dissociation and accurate count of cell number are critical for clonal dilution. We recommend examining the dissociated cells under a microscope to ensure successful dissociation and recounting cells at an intermediate serial dilution stage to ensure accuracy.
+
+? TROUBLESHOOTING 68 Multichannel-pipette 100 μl of diluted cells to each well of a 96-well plate. The remaining cell suspension can be kept and used for genotyping at the population level to gauge overall modification efficiency. 69 Inspect the colonies for a clonal appearance ~1 week after plating (rounded colonies radiating from a central point). Mark off the wells that may have been seeded with multiple cells. 70 Return the cells to the incubator and allow them to expand for 2–3 weeks. Refeed and replica-plate the cells as needed and as detailed in Steps 64 and 65.
+
+Multichannel-pipette 100 μl of diluted cells to each well of a 96-well plate. The remaining cell suspension can be kept and used for genotyping at the population level to gauge overall modification efficiency.
+
+Inspect the colonies for a clonal appearance ~1 week after plating (rounded colonies radiating from a central point). Mark off the wells that may have been seeded with multiple cells.
+
+Return the cells to the incubator and allow them to expand for 2–3 weeks. Refeed and replica-plate the cells as needed and as detailed in Steps 64 and 65.
+
+▲ CRITICAL Before assaying the cleavage efficiency of transfected cells, we recommend testing each new SURVEYOR primer on negative (untransfected) control samples for the intended cell type by SURVEYOR nuclease digestion. 71 Harvesting cells for DNA extraction. Dissociate all transfected cells (from Steps 13, 29, 53, 65 or 70) and spin them down at 200 g for 5 min at room temperature. Keep the replica plates as needed to maintain transfected cell lines in culture. 72 Aspirate the medium completely. 73 For DNA extraction, use the QuickExtract solution according to the manufacturer's instructions. We typically use 50 μl or 10 μl of the solution for each well of a 24-well or 96-well plate, respectively. 74 Normalize the extracted DNA to a final concentration of 100–200 ng μl –1 with ddH 2 O.
+
+Harvesting cells for DNA extraction. Dissociate all transfected cells (from Steps 13, 29, 53, 65 or 70) and spin them down at 200 g for 5 min at room temperature. Keep the replica plates as needed to maintain transfected cell lines in culture.
+
+Aspirate the medium completely.
+
+For DNA extraction, use the QuickExtract solution according to the manufacturer's instructions. We typically use 50 μl or 10 μl of the solution for each well of a 24-well or 96-well plate, respectively.
+
+Normalize the extracted DNA to a final concentration of 100–200 ng μl –1 with ddH 2 O.
+
+■ PAUSE POINT Extracted DNA can be stored at –20 °C for several months. 75 Setting up the SURVEYOR PCR. Master-mix the following using the SURVEYOR primers provided by the CRISPR Design Tool (Step 1): Component Amount (μl) Final concentration Herculase II PCR buffer, 5× 10 1× dNTP, 100 mM (25 mM each) 1 2 mM SURVEYOR-Fwd primer, 10 μM 1 0.2 μM SURVEYOR-Rev primer, 10 μM 1 0.2 μM Herculase II fusion polymerase 1 MgCl 2 , 25 mM 2 1 mM DNA template 1 2 ng μl −1 ddH 2 O 33 Total 50
+
+Setting up the SURVEYOR PCR. Master-mix the following using the SURVEYOR primers provided by the CRISPR Design Tool (Step 1): Component Amount (μl) Final concentration Herculase II PCR buffer, 5× 10 1× dNTP, 100 mM (25 mM each) 1 2 mM SURVEYOR-Fwd primer, 10 μM 1 0.2 μM SURVEYOR-Rev primer, 10 μM 1 0.2 μM Herculase II fusion polymerase 1 MgCl 2 , 25 mM 2 1 mM DNA template 1 2 ng μl −1 ddH 2 O 33 Total 50
+
+▲ CRITICAL STEP SURVEYOR assays rely on the detection of single-base mismatches; therefore, it is crucial to use a high-fidelity polymerase. Other high-fidelity polymerases, such as PfuUltra (Agilent) or Kapa HiFi (Kapa Biosystems), may be used as a substitute. In addition, because SURVEYOR cleavage results can detect naturally occurring single-nucleotide polymorphisms, it is important to run negative control samples of untransfected or otherwise unmodified cells. 76 Perform a PCR with the following cycling conditions, for no more than 30 amplification cycles: Cycle number Denature Anneal Extend 1 95 °C, 2 min 2-31 95 °C, 20 s 60 °C, 20 s 72 °C, 30 s 32 72 °C, 3 min 77 Run 2–5 μl of the PCR products on a 1% (wt/vol) agarose gel to check for single-band products. Although these PCR conditions are designed to work with most pairs of SURVEYOR primers, some primers may need additional optimization by adjusting the template concentration, MgCl 2 concentration and/or the annealing temperature.
+
+Perform a PCR with the following cycling conditions, for no more than 30 amplification cycles: Cycle number Denature Anneal Extend 1 95 °C, 2 min 2-31 95 °C, 20 s 60 °C, 20 s 72 °C, 30 s 32 72 °C, 3 min
+
+Run 2–5 μl of the PCR products on a 1% (wt/vol) agarose gel to check for single-band products. Although these PCR conditions are designed to work with most pairs of SURVEYOR primers, some primers may need additional optimization by adjusting the template concentration, MgCl 2 concentration and/or the annealing temperature.
+
+? TROUBLESHOOTING 78 Purify the PCRs with the QIAQuick PCR purification kit, and normalize the eluted product to 20 ng μl –1 .
+
+Purify the PCRs with the QIAQuick PCR purification kit, and normalize the eluted product to 20 ng μl –1 .
+
+■ PAUSE POINT Purified PCR products can be stored at –20 °C for up to several months. 79 DNA heteroduplex formation. Set up the annealing reaction as follows: Component Amount (μl) Taq PCR buffer, 10× 2 Normalized PCR product, 20 ng μl −1 18 Total volume 20 80 Anneal the reaction by using the following conditions: Cycle number Condition 1 95 °C, 10 min 2 95-85 °C, −2 °C s −1 3 85 °C, 1 min 4 85-75 °C, −0.3 °C s −1 5 75 °C, 1 min 6 75-65 °C, −0.3 °C s −1 7 65 °C, 1 min 8 65-55 °C, −0.3 °C s −1 9 55 °C, 1 min 10 55-45 °C, −0.3 °C s −1 11 45 °C, 1 min 12 45-35 °C, −0.3 °C s −1 13 35 °C, 1 min 14 35-25 °C, −0.3 °C s −1 15 25 °C, 1 min 16 25-4 °C, −0.3 °C s −1 17 4 °C, hold 81 SURVEYOR nuclease S digestion. Master-mix and add the following components on ice to the annealed heteroduplexes from Step 80, to a final volume of 25 μl: Component Amount (μl) Final concentration Annealed heteroduplex 20 MgCl 2 stock solution supplied with kit, 0.15 M 2.5 15 mM ddH 2 O 0.5 SURVEYOR nuclease S 1 1× SURVEYOR enhancer S 1 1× Total 25
+
+DNA heteroduplex formation. Set up the annealing reaction as follows: Component Amount (μl) Taq PCR buffer, 10× 2 Normalized PCR product, 20 ng μl −1 18 Total volume 20
+
+Anneal the reaction by using the following conditions: Cycle number Condition 1 95 °C, 10 min 2 95-85 °C, −2 °C s −1 3 85 °C, 1 min 4 85-75 °C, −0.3 °C s −1 5 75 °C, 1 min 6 75-65 °C, −0.3 °C s −1 7 65 °C, 1 min 8 65-55 °C, −0.3 °C s −1 9 55 °C, 1 min 10 55-45 °C, −0.3 °C s −1 11 45 °C, 1 min 12 45-35 °C, −0.3 °C s −1 13 35 °C, 1 min 14 35-25 °C, −0.3 °C s −1 15 25 °C, 1 min 16 25-4 °C, −0.3 °C s −1 17 4 °C, hold
+
+SURVEYOR nuclease S digestion. Master-mix and add the following components on ice to the annealed heteroduplexes from Step 80, to a final volume of 25 μl: Component Amount (μl) Final concentration Annealed heteroduplex 20 MgCl 2 stock solution supplied with kit, 0.15 M 2.5 15 mM ddH 2 O 0.5 SURVEYOR nuclease S 1 1× SURVEYOR enhancer S 1 1× Total 25
+
+▲ CRITICAL STEP Note that the MgCl 2 used for SURVEYOR nuclease digestion (included in the SURVEYOR mutation detection kit) is a higher concentration from that used for SURVEYOR PCR. 82 Vortex the mixture well and spin it down briefly. Incubate the reaction at 42 °C for 30 min. 83 (Optional) Add 2 μl of the Stop Solution from the SURVEYOR kit if you do not intend to visualize the reaction products (next step) immediately.
+
+Vortex the mixture well and spin it down briefly. Incubate the reaction at 42 °C for 30 min.
+
+(Optional) Add 2 μl of the Stop Solution from the SURVEYOR kit if you do not intend to visualize the reaction products (next step) immediately.
+
+■ PAUSE POINT The digested products with Stop Solution can be stored at –20 °C for at least 2 d at this point for later analysis. 84 Visualizing the SURVEYOR reaction. SURVEYOR nuclease digestion products can be visualized on a 2% (wt/vol) agarose gel. For better resolution, products can be run on a 4–20% gradient polyacrylamide TBE gel. Load 10 μl of the product with the recommended loading buffer and run the gel according to the manufacturer's instructions. Typically, we run the gel until the bromophenol blue dye has migrated to the bottom of the gel. Include the DNA ladder and negative (untransfected) controls on the same gel. 85 Stain the gel with SYBR Gold dye diluted 1:10,000 in TBE (20 μl of stock in 200 ml of TBE). Rock the gel gently for 15 min. Be sure to shield the staining solution from light to avoid photobleaching of the dye. 86 Image the gel by using a quantitative imaging system without overexposing the bands. The negative controls should have only one band corresponding to the size of the PCR product, but they may have occasional nonspecific cleavage bands of other sizes. These will not interfere with analysis if they are distinct in size from the target cleavage bands. The sum of target cleavage band sizes, provided by the CRISPR Design Tool, should be equal to the size of the PCR product.
+
+Visualizing the SURVEYOR reaction. SURVEYOR nuclease digestion products can be visualized on a 2% (wt/vol) agarose gel. For better resolution, products can be run on a 4–20% gradient polyacrylamide TBE gel. Load 10 μl of the product with the recommended loading buffer and run the gel according to the manufacturer's instructions. Typically, we run the gel until the bromophenol blue dye has migrated to the bottom of the gel. Include the DNA ladder and negative (untransfected) controls on the same gel.
+
+Stain the gel with SYBR Gold dye diluted 1:10,000 in TBE (20 μl of stock in 200 ml of TBE). Rock the gel gently for 15 min. Be sure to shield the staining solution from light to avoid photobleaching of the dye.
+
+Image the gel by using a quantitative imaging system without overexposing the bands. The negative controls should have only one band corresponding to the size of the PCR product, but they may have occasional nonspecific cleavage bands of other sizes. These will not interfere with analysis if they are distinct in size from the target cleavage bands. The sum of target cleavage band sizes, provided by the CRISPR Design Tool, should be equal to the size of the PCR product.
+
+? TROUBLESHOOTING 87 Estimation of the cleavage intensity. Measure the integrated intensity of the PCR amplicon and cleaved bands by using ImageLab, ImageJ or other gel quantification software. 88 For each lane, calculate the fraction of the PCR product cleaved ( f cut ) by using the following formula: f cut = ( b + c )/( a + b + c ), where a is the integrated intensity of the undigested PCR product and b and c are the integrated intensities of each cleavage product. A sample gel is shown in Figure 6 . 89 Indel occurrence can be estimated with the following formula, based on the binomial probability distribution of duplex formation: indel ( % ) = 100 × ( 1 − ( 1 − f cut ) )
+
+Estimation of the cleavage intensity. Measure the integrated intensity of the PCR amplicon and cleaved bands by using ImageLab, ImageJ or other gel quantification software.
+
+For each lane, calculate the fraction of the PCR product cleaved ( f cut ) by using the following formula: f cut = ( b + c )/( a + b + c ), where a is the integrated intensity of the undigested PCR product and b and c are the integrated intensities of each cleavage product. A sample gel is shown in Figure 6 .
+
+Indel occurrence can be estimated with the following formula, based on the binomial probability distribution of duplex formation: indel ( % ) = 100 × ( 1 − ( 1 − f cut ) )
+
+Transfect the cells as described in Steps 8–13 or Steps 43–51 with a pair of sgRNAs flanking the region to be deleted.
+
+At 24 h after transfection, isolate the clones by FACS or by serial dilution as described above (Steps 54–70).
+
+Expand the cells for 2–3 weeks.
+
+Extract the DNA from clonal lines as described above (Steps 71–74) by using 10 μl of QuickExtract solution, and normalize the genomic DNA with ddH 2 O to a final concentration of 100 ng μl –1 .
+
+PCR amplification and analysis of the modified region. For analysis of (micro)deletions, follow option A; for analysis of inversions, follow option B.
+
+(A) Deletion or microdeletion analysis For the analysis of microdeletions, use the Out-Fwd and Out-Rev primers, both of which are designed to anneal outside of the deleted region, to verify the successful deletion by product size analysis. If the deletion size is more than 1 kb, set up a parallel set of PCRs with In-Fwd and In-Rev primers to screen for the presence of the WT allele ( Fig. 5c ).
+
+For the analysis of microdeletions, use the Out-Fwd and Out-Rev primers, both of which are designed to anneal outside of the deleted region, to verify the successful deletion by product size analysis. If the deletion size is more than 1 kb, set up a parallel set of PCRs with In-Fwd and In-Rev primers to screen for the presence of the WT allele ( Fig. 5c ).
+
+As with SURVEYOR assays, include a negative (untransfected sample) control. Set up the PCR as follows: Component Amount (μl) Final concentration Herculase II PCR buffer, 5× 10 1× dNTP, 100 mM (25 mM each) 1 2 mM Out-Fwd primer, 10 μM 1 0.2 μM Out-Rev primer, 10 μM 1 0.2 μM Herculase II fusion polymerase 1 MgCl 2 , 25 mM 2 1 mM DNA template 1 2 ng μl −1 ddH 2 O 33 Total 50
+
+(B) Inversion analysis To screen for inversions, set up the PCR ( Fig. 5c ) as described below. Note that primers are paired either as Out-Fwd + In-Fwd or Out-Rev + In-Rev. Include a negative control. Component Amount (μl) Final concentration Herculase II PCR buffer, 5× 10 1× dNTP, 100 mM (25 mM each) 1 2 mM Out-Fwd or Out-Rev primer, 10 μM 1 0.2 μM In-Fwd or In-Rev primer, 10 μM 1 0.2 μM Herculase II fusion polymerase 1 MgCl 2 , 25 mM 2 1 mM DNA template 1 2 ng μl −1 ddH 2 O 33 Total 50 95 Perform a PCR by using the following cycling conditions: Cycle number Denature Anneal Extend 1 95 °C, 2 min 2-31 95 °C, 20 s 60 °C, 20 s 72 °C, 30 s 32 72 °C, 3 min 96 Run 2–5 μl of PCR product on a 1–2% (wt/vol) agarose gel to check for size of the products in the case of deletions, or for the presence or absence of PCR products in the case of inversions. Although these PCR conditions are designed to work with most primers, some primers may need additional optimization by adjusting the template concentration, MgCl 2 concentration and/or the annealing temperature.
+
+To screen for inversions, set up the PCR ( Fig. 5c ) as described below. Note that primers are paired either as Out-Fwd + In-Fwd or Out-Rev + In-Rev. Include a negative control. Component Amount (μl) Final concentration Herculase II PCR buffer, 5× 10 1× dNTP, 100 mM (25 mM each) 1 2 mM Out-Fwd or Out-Rev primer, 10 μM 1 0.2 μM In-Fwd or In-Rev primer, 10 μM 1 0.2 μM Herculase II fusion polymerase 1 MgCl 2 , 25 mM 2 1 mM DNA template 1 2 ng μl −1 ddH 2 O 33 Total 50
+
+Perform a PCR by using the following cycling conditions: Cycle number Denature Anneal Extend 1 95 °C, 2 min 2-31 95 °C, 20 s 60 °C, 20 s 72 °C, 30 s 32 72 °C, 3 min
+
+Run 2–5 μl of PCR product on a 1–2% (wt/vol) agarose gel to check for size of the products in the case of deletions, or for the presence or absence of PCR products in the case of inversions. Although these PCR conditions are designed to work with most primers, some primers may need additional optimization by adjusting the template concentration, MgCl 2 concentration and/or the annealing temperature.
+
+? TROUBLESHOOTING
+
+Extract the DNA as described in Steps 71–74 by using the QuickExtract solution, and normalize the genomic DNA with water to a final concentration of 100–200 ng μl –1 .
+
+PCR amplification of the modified region. The HDR-Fwd and HDR-Rev primers are designed to anneal outside of the region of homology between the ssODN and targeted genomic region, to verify successful sequence conversion. Include a negative (untransfected) control sample. Set up the PCR as follows: Component Amount (μl) Final concentration Herculase II PCR buffer, 5× 10 1× dNTP, 100 mM (25 mM each) 1 2 mM HDR-Fwd primer, 10 μM 1 0.2 μM HDR-Rev primer, 10 μM 1 0.2 μM Herculase II fusion polymerase 1 MgCl 2 , 25 mM 2 1 mM DNA template 1 2 ng μl −1 ddH 2 O 33 Total 50
+
+Run the following program: Cycle number Denature Anneal Extend 1 95 °C, 2 min 2-31 95 °C, 20 s 60 °C, 20 s 72 °C, 30-60 s per kb 32 72 °C, 3 min
+
+Run 5 μl of PCR product on a 0.8–1% (wt/vol) agarose gel to check for a single band of product. Primers may need additional optimization by adjusting the template concentration, MgCl 2 concentration and/or the annealing temperature.
+
+? TROUBLESHOOTING 101 Purify the PCRs by using the QIAQuick PCR purification kit. 102 In the HDR example provided in Figure 6 , a HindIII restriction site was inserted into the EMX1 gene. These are detected by an RFLP analysis of the PCR amplicon: Component Amount (μl) Purified PCR amplicon x (200-300 ng) FastDigest buffer 1 Hindlll (or other enzyme as necessary) 0.5 ddH 2 O Up to 10 Total 10 103 Digest the DNA for 10 min at 37 °C. 104 Run 10 μl of the digested product with loading dye on a 4–20% gradient polyacrylamide TBE gel until the xylene cyanol band has migrated to the bottom of the gel. 105 Stain the gel with SYBR Gold dye while rocking for 15 min. Be sure to shield the staining solution from light to avoid photobleaching of the dye. 106 Image and quantify the cleavage products as described above for the SURVEYOR assay section (Steps 86–89). 107 HDR efficiency is estimated by using the following formula: ( b + c )/( a + b + c ), where a is the integrated intensity for the undigested HDR PCR product, and b and c are the integrated intensities for the HindIII-cut fragments. 108 Alternatively, clone the genotype-purified PCR amplicons from Step 101 via Sanger sequencing (Steps 109–117) or deep sequencing (Steps 118–126).
+
+Purify the PCRs by using the QIAQuick PCR purification kit.
+
+In the HDR example provided in Figure 6 , a HindIII restriction site was inserted into the EMX1 gene. These are detected by an RFLP analysis of the PCR amplicon: Component Amount (μl) Purified PCR amplicon x (200-300 ng) FastDigest buffer 1 Hindlll (or other enzyme as necessary) 0.5 ddH 2 O Up to 10 Total 10
+
+Digest the DNA for 10 min at 37 °C.
+
+Run 10 μl of the digested product with loading dye on a 4–20% gradient polyacrylamide TBE gel until the xylene cyanol band has migrated to the bottom of the gel.
+
+Stain the gel with SYBR Gold dye while rocking for 15 min. Be sure to shield the staining solution from light to avoid photobleaching of the dye.
+
+Image and quantify the cleavage products as described above for the SURVEYOR assay section (Steps 86–89).
+
+HDR efficiency is estimated by using the following formula: ( b + c )/( a + b + c ), where a is the integrated intensity for the undigested HDR PCR product, and b and c are the integrated intensities for the HindIII-cut fragments.
+
+Alternatively, clone the genotype-purified PCR amplicons from Step 101 via Sanger sequencing (Steps 109–117) or deep sequencing (Steps 118–126).
+
+▲ CRITICAL Instead of the SURVEYOR or RFLP assays, genomic amplicons of the target region (produced in Step 78 or 101) from transfected cells (Steps 8–13, and 14–28 for HEK 293FT cells, or steps 43–51 for HUES9 cells) can be cloned into a plasmid, and a set of clones can be prepared for Sanger sequencing to assess Cas9 cleavage or HDR-mediated target modification efficiency. SURVEYOR or HDR primers can be used for Sanger sequencing if appropriate restriction sites are appended to the forward and reverse primers. For cloning into the recommended pUC19 backbone, EcoRI can be used for the Fwd primer and HindIII for the Rev primer. 109 Target-site amplicon digestion. Set up the digestion reaction as follows: Component Amount (μl) FastDigest buffer, 10× 3 FastDigest EcoRI 1 FastDigest HindIII 1 Purified PCR product, 20 ng μl −1 10 (Step 78 or 101) ddH 2 O 15 Total volume 30 110 pUC19 backbone digestion . Set up the digestion reaction as follows and incubate it at 37 °C for 15 min: Component Amount (μl) FastDigest buffer, 10× 3 FastDigest EcoRI 1 FastDigest HindIII 1 FastAP alkaline phosphatase 1 pUC19 vector (200 ng μl −1 ) 5 ddH 2 O 20 Total volume 30 111 Purify the digestion reactions with the QIAQuick PCR purification kit.
+
+Target-site amplicon digestion. Set up the digestion reaction as follows: Component Amount (μl) FastDigest buffer, 10× 3 FastDigest EcoRI 1 FastDigest HindIII 1 Purified PCR product, 20 ng μl −1 10 (Step 78 or 101) ddH 2 O 15 Total volume 30
+
+pUC19 backbone digestion . Set up the digestion reaction as follows and incubate it at 37 °C for 15 min: Component Amount (μl) FastDigest buffer, 10× 3 FastDigest EcoRI 1 FastDigest HindIII 1 FastAP alkaline phosphatase 1 pUC19 vector (200 ng μl −1 ) 5 ddH 2 O 20 Total volume 30
+
+Purify the digestion reactions with the QIAQuick PCR purification kit.
+
+■ PAUSE POINT Purified PCR product can be stored at –20 °C overnight. 112 Ligate the digested pUC19 backbone and PCR product at a 1:3 vector:insert ratio and incubate it at room temperature for 15 min. As always, it is important to include a vector-only ligation control. Component Amount (μl) Digested pUC19 x (50 ng) Digested PCR product (insert) x (1:3 vector to insert molar ratio) T7 Ligase 1 Rapid Ligation buffer, 2× 10 ddH 2 O Up to 20 Total volume 20 113 Treat the ligation reaction with PlasmidSafe exonuclease to digest any residual linearized DNA. This step is optional but highly recommended. Component Amount (μl) Ligation reaction from Step 112 11 PlasmidSafe buffer, 10× 1.5 ATP, 10 mM 1.5 PlasmidSafe exonuclease 1 Total 15 114 Transformation of bacteria. Transform the PlasmidSafe-treated plasmid into a competent E. coli strain, according to the protocol supplied with the cells. We recommend Stbl3 for quick transformation. Briefly, add 5 μl of the product from Step 113 into 20 μl of ice-cold chemically competent Stbl3 cells; incubate the mixture on ice for 10 min, heat-shock it at 42 °C for 30 s, return it immediately to ice for 2 min, add 100 μl of SOC medium and plate it onto LB plates containing 100 μg ml –1 ampicillin. Incubate the mixture overnight at 37 °C. 115 Day 2: inspect the plates for colony growth. Typically, there are no colonies on the negative control plates (ligation of vector only, with no Sanger amplicon insert), and tens to hundreds of colonies on the experimental plates. Pick a minimum of 48 clones to inoculate in 3 ml of LB-ampicillin culture.
+
+Ligate the digested pUC19 backbone and PCR product at a 1:3 vector:insert ratio and incubate it at room temperature for 15 min. As always, it is important to include a vector-only ligation control. Component Amount (μl) Digested pUC19 x (50 ng) Digested PCR product (insert) x (1:3 vector to insert molar ratio) T7 Ligase 1 Rapid Ligation buffer, 2× 10 ddH 2 O Up to 20 Total volume 20
+
+Treat the ligation reaction with PlasmidSafe exonuclease to digest any residual linearized DNA. This step is optional but highly recommended. Component Amount (μl) Ligation reaction from Step 112 11 PlasmidSafe buffer, 10× 1.5 ATP, 10 mM 1.5 PlasmidSafe exonuclease 1 Total 15
+
+Transformation of bacteria. Transform the PlasmidSafe-treated plasmid into a competent E. coli strain, according to the protocol supplied with the cells. We recommend Stbl3 for quick transformation. Briefly, add 5 μl of the product from Step 113 into 20 μl of ice-cold chemically competent Stbl3 cells; incubate the mixture on ice for 10 min, heat-shock it at 42 °C for 30 s, return it immediately to ice for 2 min, add 100 μl of SOC medium and plate it onto LB plates containing 100 μg ml –1 ampicillin. Incubate the mixture overnight at 37 °C.
+
+Day 2: inspect the plates for colony growth. Typically, there are no colonies on the negative control plates (ligation of vector only, with no Sanger amplicon insert), and tens to hundreds of colonies on the experimental plates. Pick a minimum of 48 clones to inoculate in 3 ml of LB-ampicillin culture.
+
+? TROUBLESHOOTING 116 Day 3: isolate the plasmid DNA from overnight cultures by using a QIAprep spin miniprep kit. 117 Sanger sequencing. Verify the sequence of each colony by sequencing from the pUC19 backbone using the pUC19-Fwd or pUC19-Rev primer. Reference the sequencing results against the expected genomic sequence to check for the presence of Cas9-induced NHEJ or HDR modifications. Calculate the percentage of editing efficiency as (no. of modified clones)/ (no. of total clones). It is important to pick a reasonable number of clones (>24) to generate an accurate approximation of modification efficiencies.
+
+Day 3: isolate the plasmid DNA from overnight cultures by using a QIAprep spin miniprep kit.
+
+Sanger sequencing. Verify the sequence of each colony by sequencing from the pUC19 backbone using the pUC19-Fwd or pUC19-Rev primer. Reference the sequencing results against the expected genomic sequence to check for the presence of Cas9-induced NHEJ or HDR modifications. Calculate the percentage of editing efficiency as (no. of modified clones)/ (no. of total clones). It is important to pick a reasonable number of clones (>24) to generate an accurate approximation of modification efficiencies.
+
+Designing deep-sequencing primers. Primers for deep sequencing are designed to produce short PCR amplicons, typically in the 100- to 200-bp size range. You can manually design primers by using the NCBI Primer-Blast or generate them with the CRISPR Design Tool ( http://tools.genome-engineering.org ).
+
+Extract genomic DNA from Cas9-targeted cells (Steps 71–74). Normalize QuickExtract genomic DNA to 100–200 ng μl –1 with ddH 2 O.
+
+Initial library preparation-PCR . By using the primers from Step 118, prepare the initial library preparation PCR (include untransfected sample as negative control): Component Amount (μl) Final concentration Herculase II PCR buffer, 5× 10 1× dNTP, 100 mM (25 mM each) 1 2 mM Fwd primer (10 μM) 1 0.2 μM Rev primer (10 μM) 1 0.2 μM Herculase II fusion polymerase 1 MgCl 2 (25 mM) 2 1 mM DNA template 1 2 ng μl −1 ddH 2 O 33 Total 50
+
+Perform the PCR with the following cycling conditions, for no more than 20 amplification cycles: Cycle number Denature Anneal Extend 1 95 °C, 2 min 2-21 95 °C, 20 s 60 °C, 20 s 72 °C, 15 s 22 72 °C, 3 min
+
+Run 2–5 μl of PCR product on a 1% (wt/vol) agarose gel to check for single-band product. As with all genomic DNA PCRs, the primers may require additional optimization by adjusting the template concentration, MgCl 2 concentration and/or the annealing temperature.
+
+? TROUBLESHOOTING 123 Purify the PCRs by using the QIAQuick PCR purification kit and normalize the eluants to 20 ng μl –1 .
+
+Purify the PCRs by using the QIAQuick PCR purification kit and normalize the eluants to 20 ng μl –1 .
+
+■ PAUSE POINT Purified PCR product can be stored at –20 °C overnight or longer. 124 Nextera XT DNA sample preparation kit. According to the manufacturer's protocol, generate Miseq sequencing-ready libraries with unique bar codes for each sample. 125 Sequence the samples prepared in Step 124 on the Illumina Miseq according to the Illumina user manual. 126 Analyze sequencing data . By using the expected reference genome sequence, perform indel analysis with read alignment programs such as ClustalW ( http://www.clustal.org/ ), Geneious ( http://www.geneious.com/ ) or by simple sequence analysis scripts.
+
+Nextera XT DNA sample preparation kit. According to the manufacturer's protocol, generate Miseq sequencing-ready libraries with unique bar codes for each sample.
+
+Sequence the samples prepared in Step 124 on the Illumina Miseq according to the Illumina user manual.
+
+Analyze sequencing data . By using the expected reference genome sequence, perform indel analysis with read alignment programs such as ClustalW ( http://www.clustal.org/ ), Geneious ( http://www.geneious.com/ ) or by simple sequence analysis scripts.
+
+? TROUBLESHOOTING
+
+Troubleshooting advice can be found in Table 2 .
+
+● TIMING
+
+Steps 1–4, design of targeting components (sgRNA and ssODN) and use of the CRISPR Design Tool: 1 d
+
+Step 5A, PCR-based generation of sgRNA expression cassette: 2 h
+
+Step 5B, cloning of sgRNA expression vector: 3 d
+
+Steps 6–13, functional validation of sgRNAs: HEK 293FT cell culture and transfections: 3–4 d
+
+Steps 14–29, co-transfection of CRISPR plasmids and HDR templates into HEK 293FT cells (optional): 3–4 d
+
+Steps 30–53, hESC (HUES 9) culture and transfection: 3–4 d
+
+Steps 54–65, isolation of clonal cell lines by FACS: 2–3 h hands-on; 2–3 weeks expansion
+
+Steps 66–70, isolation of clonal cell lines by dilution: 2–3 h hands-on; 2–3 weeks expansion
+
+Steps 71–89, SURVEYOR assay for the assessment of CRISPR cleavage efficiency: 5–6 h
+
+Steps 90–96, detection of genomic microdeletion by PCR: 3–4 h hands-on; 2–3 weeks expansion
+
+Steps 97–108, genotyping of HDR-mediated targeted modifications by RFLP analysis: 3–4 h
+
+Steps 109–117, genotyping by Sanger sequencing: 3 d
+
+Steps 118–126, genotyping by next-generation deep sequencing: 2–3 d
+
+## ANTICIPATED RESULTS
+We have compiled a list of most-frequently asked questions from our web-based CRISPR discussion forum (discuss.genome-engineering.org) to clarify points of confusion when applying the CRISPR system ( Box 3 ). CRISPR-Cas can be easily multiplexed to facilitate high-efficiency genome editing in mammalian cells: by using two sgRNAs, we were able to demonstrate simultaneous targeting of the human DYRK1A and GRIN2B loci at efficiencies of 65–68% for each locus in HEK 293FT cells ( Fig. 5b ). Likewise, a pair of sgRNAs can be used to mediate microdeletions, such as excision of EMX1 exon 3, which we genotyped by PCR at a clonal level ( Fig. 5c ). Note that the precise location of exon junctions can vary. We also demonstrate here the use of ssODNs and targeting vector to mediate HDR ( Fig. 6a,b ) with both WT and the D10A nickase mutant of Cas9 in HEK 293FT and HUES9 cells ( Fig. 6c ). Note that we have not been able to detect HDR in HUES9 cells by using Cas9n with a sgRNA, which may be due to low efficiency or a potential difference in repair activities in HUES9 cells. The state of ploidy of the cell type of interest may also affect modification efficiency. However, Cas9n may be paired with two sgRNAs to mediate a DSB and stimulate HDR in HUES9 cells.

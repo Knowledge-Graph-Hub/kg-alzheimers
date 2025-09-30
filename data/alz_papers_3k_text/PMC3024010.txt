@@ -1,0 +1,5 @@
+# Title
+Tau Reduction Prevents Aβ-Induced Defects in Axonal Transport
+
+# Abstract
+Amyloid-β (Aβ) peptides, derived from the amyloid precursor protein, and the microtubule-associated protein tau are key pathogenic factors in Alzheimer’s disease (AD). How exactly they impair cognitive functions is unknown. Here we assessed the effects of Aβ and tau on axonal transport of mitochondria and the neurotrophin receptor TrkA, cargoes that are critical for neuronal function and survival and whose distributions are altered in AD. Aβ oligomers rapidly inhibited axonal transport of these cargoes in wildtype neurons. Lowering tau levels prevented these defects without affecting baseline axonal transport. Thus, Aβ requires tau to impair axonal transport and tau reduction protects against Aβ-induced axonal transport defects.

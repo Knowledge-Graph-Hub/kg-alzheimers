@@ -1,0 +1,57 @@
+# Title
+Multiple Cerebral Hemorrhages in a Patient Receiving Lecanemab and
+Treated with t-PA for Stroke
+
+## TO THE EDITOR:
+The results of the phase 3 trial of the
+anti–amyloid- β drug lecanemab for the treatment
+of early Alzheimer’s disease, reported in the Journal by van
+Dyck et al., 1 have suggested a
+beneficial effect on cognition scores and daily activities over a period of 18
+months. An extension phase of the trial is ongoing. We report a case of numerous
+acute intracerebral hemorrhages that developed after treatment with intravenous
+tissue plasminogen activator (t-PA) for acute ischemic stroke syndrome in a patient
+who received three doses of intravenous lecanemab.
+
+A 65-year-old patient who was homozygous for the APOE ε4 allele and was in the early stages of cognitive decline presented to an
+emergency department 30 minutes after the acute onset of aphasia and left gaze
+preference due to an ischemic stroke. The patient had participated in the randomized
+phase of the trial of lecanemab, during which the treatment assignment is not known,
+followed by participation in the open-label phase, in which three intravenous
+lecanemab infusions were received (one infusion every 2 weeks), with the latest
+infusion administered 4 days before the stroke. Magnetic resonance imaging (MRI) of
+the head that had been performed 81 days before the stroke showed mild small-vessel
+disease, with no microhemorrhages, edema, or amyloid-related imaging abnormalities
+(Figs. S1 and S2 in the Supplementary Appendix, available with the full text of this
+letter at NEJM.org ), and computed tomography (CT) performed
+just before t-PA administration showed hypodensities in the left
+temporal–parietal regions and a distal left middle cerebral artery branch
+occlusion but no hemorrhage. (Further clinical information is provided in the
+Supplementary Appendix.)
+
+The patient had no contraindications to thrombolysis (blood pressure, 163/84
+mm Hg; platelet count, 256×10 3 per microliter; international
+normalized ratio, 1.0; fibrinogen level, 304 milligrams per deciliter) and was
+within the conventional time window for thrombolysis. After intravenous
+administration of an 8-mg t-PA bolus and 50 minutes into the t-PA infusion (when
+65.7 mg of the total dose of 76 mg had been administered), hypertension suddenly
+developed (blood pressure, 250/111 mm Hg) and the t-PA infusion was stopped. A CT
+scan showed extensive, multifocal intraparenchymal hemorrhages. There was no
+systemic bleeding. Cryoprecipitate and tranexamic acid were administered. The
+patient had global aphasia and severe agitation; frequent, nonconvulsive seizures
+seen on electroencephalography were treated successfully with multiple antiseizure
+medications. Three days after presentation for the stroke, the patient underwent
+endotracheal intubation. MRI of the head showed acute right thalamocapsular
+infarction and innumerable multifocal cortical and subcortical hemorrhages with
+surrounding edema ( Fig. 1A and 1B ). The patient was treated with comfort measures at the
+request of the family and subsequently died. The autopsy showed extensive multifocal
+intraparenchymal hemorrhages, cerebral amyloid angiopathy, “high”
+Alzheimer’s disease neuropathologic changes, 2 and diffuse histiocytic vasculitis with
+necrotizing vasculopathy involving amyloid deposition within (but not outside) the
+blood-vessel walls ( Fig. 1C , 1D , and 1E ).
+
+The extensive number and variation in sizes of the cerebral hemorrhages in
+this patient would be unusual as a complication of t-PA solely related to
+cerebrovascular amyloid. The findings raise the possibility of cerebral hemorrhages
+and necrotizing vasculopathy associated with t-PA infusion in a patient with
+cerebrovascular amyloid who had received lecanemab.

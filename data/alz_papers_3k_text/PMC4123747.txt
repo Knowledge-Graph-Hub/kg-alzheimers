@@ -1,0 +1,5 @@
+# Title
+Vascular and neurogenic rejuvenation of the aging mouse brain by young systemic factors
+
+# Abstract
+In the adult central nervous system, the vasculature of the neurogenic niche regulates neural stem cell behavior by providing circulating and secreted factors. Age-related decline of neurogenesis and cognitive function is associated with reduced blood flow and decreased numbers of neural stem cells. Therefore, restoring the functionality of the niche should counteract some of the negative effects of aging. We show that factors found in young blood induce vascular remodeling, culminating in increased neurogenesis and improved olfactory discrimination in aging mice. Further, we show that GDF11 alone can improve the cerebral vasculature and enhance neurogenesis. The identification of factors that slow the age-dependent deterioration of the neurogenic niche in mice may constitute the basis for new methods of treating age-related neurodegenerative and neurovascular diseases.

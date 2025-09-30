@@ -1,0 +1,27 @@
+# Title
+Collaboration for Alzheimer’s Prevention: Principles to guide data and sample sharing in preclinical Alzheimer’s disease trials
+
+## Facilitating data sharing
+Where possible, standardized data acquisition techniques and assessments should be included to enhance the ability to compare data between trials.
+
+Measurement of multiple potential biomarkers should be included in trial designs to facilitate the identification of biomarkers of disease evolution and treatment response that could be used in future trials.
+
+## Sharing prerandomization data
+Screening and prerandomization baseline data should be made available to the scientific community within 12 months of enrollment completion.
+
+## Sharing postrandomization data before trial completion
+Emerging data from ongoing trials should be made available as soon as possible without compromising trial integrity, as progress in the field will be accelerated greatly by timely access to interim results such as well-characterized longitudinal fluid and imaging biomarker data. Currently, there are substantial challenges in releasing postrandomization data before trial completion because of the risk of unblinding, which could compromise trial integrity. The development of approaches that address this unblinding risk to allow interim data release is a high priority for the field.
+
+Long-term continuation studies intended to confirm clinical benefit after an accelerated approval, which may be particularly relevant to a preclinical AD cohort that enters a study without cognitive impairment, may pose a challenge to expedient data sharing. However, given the importance of sharing these data as quickly as possible, mechanisms should be implemented such that trial data can be shared at the initiation point of the long-term study. One example of an existing mechanism is “triple blinding” (assigning random identification numbers to the biomarker data that cannot be linked back to any other data from the participants) to preserve blinding to the original treatment assignment throughout the long-term phase after the double-blind phase is completed. If this or other existing mechanisms are not feasible, alternative strategies should be developed to facilitate data sharing for these long-term extension studies without compromising trial integrity.
+
+## Sharing postrandomization data after trial completion
+All study data should be made available to the scientific community after the earlier of either regulatory approval of the tested treatment or 18 months after the completion or early termination of the trial.
+
+## Sharing biological samples
+The first priority for sample use is proper conduct of the study, which includes appropriate retention of samples in sufficient quantities for analyses during ongoing trials as well as for confirmatory testing after trial completion.
+
+Remaining study samples should be made available to the scientific community at the time that the associated data are released. Sample sharing is particularly important, as analyzing samples using new technologies or based on other new developments may offer an opportunity for a breakthrough in target or biomarker identification. Sponsors should ensure that the informed consent process clearly describes the intent to share samples and should also provide for the long-term storage of samples.
+
+By establishing these principles for data sharing, CAP is outlining a path that we believe will lead to greater insights into AD and, as a result, will catalyze the development of new potential treatments that stand the greatest chance of success. CAP members are working together to operationalize these principles on a time line that is meaningful for the current trials. We call on sponsors and investigators of all Alzheimer’s trials to adopt these guidelines and implement them into ongoing and planned trials.
+
+By developing innovative mechanisms for the sharing of trial data and samples, these guidelines are an important and progressive approach to the development of therapeutics for AD. CAP welcomes the opportunity to consider these principles with the scientific community and plans to convene a meeting in the near future to provide for open discussion of the principles and the implementation of these recommendations.

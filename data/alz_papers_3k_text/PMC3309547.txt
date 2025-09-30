@@ -1,0 +1,430 @@
+# Title
+Plasma biomarkers of depressive symptoms in older adults
+
+# Abstract
+The pathophysiology of negative affect states in older adults is complex, and a
+host of central nervous system and peripheral systemic mechanisms may play
+primary or contributing roles. We conducted an unbiased analysis of 146 plasma
+analytes in a multiplex biochemical biomarker study in relation to number of
+depressive symptoms endorsed by 566 participants in the Alzheimer's Disease
+Neuroimaging Initiative (ADNI) at their baseline and 1-year assessments.
+Analytes that were most highly associated with depressive symptoms included
+hepatocyte growth factor, insulin polypeptides, pregnancy-associated plasma
+protein-A and vascular endothelial growth factor. Separate regression models
+assessed contributions of past history of psychiatric illness, antidepressant or
+other psychotropic medicine, apolipoprotein E genotype, body mass index, serum
+glucose and cerebrospinal fluid (CSF) τ and amyloid levels, and none of
+these values significantly attenuated the main effects of the candidate analyte
+levels for depressive symptoms score. Ensemble machine learning with Random
+Forests found good accuracy (∼80%) in classifying groups with and
+without depressive symptoms. These data begin to identify biochemical biomarkers
+of depressive symptoms in older adults that may be useful in investigations of
+pathophysiological mechanisms of depression in aging and neurodegenerative
+dementias and as targets of novel treatment approaches.
+
+## Introduction
+The prevalence and incidence of clinically significant depressive symptoms
+increase with advancing age, especially among those with physical illness,
+cognitive decline and functional disability. 1 , 2 , 3 In community-dwelling seniors, the prevalence of
+major depression is ∼10%, whereas the rate for ‘minor',
+‘subsyndromal' or ‘subthreshold' depression is
+∼30%, but may be as high as 48% among those >75 years.
+Subsyndromal depression is not benign as it carries clinically significant
+disability, poorer quality of life and higher health-care costs. 1 , 4
+
+The pathophysiology of late-life depression is complex, and a host of central
+nervous system and peripheral systemic mechanisms may play primary or
+contributing roles. Age-associated neurological illnesses such as
+Alzheimer's disease (AD), stroke and Parkinson's disease are
+well-known risk factors and may be associated with depression due to disruption
+of neural circuitries that mediate the experience and expression of negative
+emotions and behaviors by their defined neuropathological lesions and
+neurochemical changes. 5 , 6 , 7 Cardiovascular
+disease, inflammatory conditions, cancer, metabolic and endocrine dysfunction
+also increase with age and are highly associated with depression. They are
+commonly thought to exert their effect via circulating factors such as
+inflammatory markers produced in the course of these chronic disease processes,
+although evidence to support this is still controversial. 8 , 9 , 10 , 11 Numerous hypothesis-based studies of depression in adulthood and late life have
+identified associations with glucocorticoids and other stress
+hormones, 12 insulin
+resistance, 13 inflammatory
+cytokines and chemokines 14 and trophic
+factors 15 , 16 , 17 that may be
+activated with normal and abnormal aging processes and/or in response to
+illness, injury and other stressors, although the data in older adults for all
+of these are relatively scarce. Whether alterations in these various age- and
+depression-associated factors are causative of depression or consequences
+thereof and how they interact are not established.
+
+The identification and validation of biomarkers in psychiatry has been
+challenging but the task remains important to both better understand the
+pathophysiology of depression and better classify and treat this multifactorial
+syndrome in an era of personalized medicine. Here, we used data from a large
+multianalyte biochemical panel in plasma samples from older adult participants
+in the Alzheimer's Disease Neuroimaging Initiative (ADNI) in a discovery
+analysis to identify peripheral biochemical biomarkers that associate with
+depressive symptoms. Our findings provide further support for a role of several
+previously identified proteins in negative affect states and identify novel
+candidates for validation and investigation in future studies and other
+cohorts.
+
+## Subjects and methods
+The ADNI is a large, multicenter, longitudinal neuroimaging and biomarker
+study, launched in 2004, 18 , 19 , 20 with a primary goal to characterize cognitive functioning and AD in older
+adults with longitudinal clinical assessments, multiple modality
+neuroimaging and blood, urine and cerebrospinal fluid (CSF) molecular and
+biochemical biomarkers. Participants received baseline and periodic physical
+and neurological examinations, standardized neuropsychological assessments,
+apolipoprotein E (APOE) genotyping and they provided biofluid samples
+throughout the study. 21 , 22 Imaging (magnetic resonance imaging
+and for a subset, 18 F-fluorodeoxyglucose positron emission
+tomography and 11 C-Pittsburgh compound B positron emission
+tomography) is performed at baseline and at regular intervals
+thereafter. 20 The
+procedures for this study were approved by institutional review boards of
+all participating institutions. All subjects gave written, informed consent
+for all procedures before participation.
+
+The total ADNI cohort includes 819 older adults, 55 to 90 years old, who met
+entry criteria for a clinical diagnosis of normal cognition, amnestic mild
+cognitive impairment (MCI) or probable AD. 19 Participants with AD met National Institute of
+Neurological and Communication Disorders/Alzheimer's Disease and
+Related Disorders Association criteria for probable AD and had a Mini-Mental
+State Examination score between 20 and 26 and a global Clinical Dementia
+Rating (CDR) of 0.5 or 1.0 and, therefore, were only mildly impaired at
+baseline. Inclusion criteria for participants with MCI included memory
+complaint and abnormal memory score on the Wechsler Memory Scale,
+Mini-Mental Sate Examination score between 24 and 30 and a CDR of 0.5 with a
+Memory Box score of at least 0.5.
+
+People with significant current psychiatric illness were ineligible to
+participate in ADNI and thus only participants with no more than mild
+depression, anxiety or other symptoms were enrolled. Specific exclusion
+criteria for all participants included major mood disorder within a year of
+screening, a score of ⩾6 on the Geriatric Depression Scale
+(GDS), 23 , 24 history of schizophrenia, alcohol or substance
+abuse within the past 2 years, and for AD and MCI participants, any
+psychosis, agitation or behavior problems. For a review and more details on
+inclusion and exclusion criteria, see Mueller et al. 25 and http://www.adni-info.org/ .
+
+The multi-analyte biochemical panel assays used here were conducted in a
+subsample of 566 ADNI participants, including 396 with MCI, 112 with AD and
+58 with normal cognition. Subsampling was necessary because of budgetary
+constraints. Samples were selected to enrich for MCI cases and cases with
+additional biomarker end points (for example, CSF amyloid-β and -τ
+and amyloid neuroimaging) to be used in separate analyses. Table 1 presents demographic and clinical
+characteristics of the sample used here.
+
+The primary outcome measure of depressive symptoms was the short version of
+the GDS. 26 This 15-item self
+report form has demonstrated robust validity for depression in older
+adults, 24 , 26 including those with MCI, 27 although its reliability may diminish
+in people with dementia. 28 One
+item in the GDS asks if the subject feels he/she has more memory
+problems than most. Given the frequency of memory complaints in ADNI, this
+item was excluded from the total score that was used in analyses here.
+
+The ADNI protocol includes a comprehensive assessment of cognitive
+functioning with particular emphasis on domains relevant to AD. A full
+description is available at http://www.adni-info.org/Scientists/CognitiveTesting.aspx .
+Clinical data from the baseline and 12-month assessments were used. To
+control for potentially confounding effects of cognitive syndrome on outcome
+measures of depression in participants with AD, MCI and normal cognition,
+the CDR Sum-of-Boxes score was included as a covariate in statistical
+analyses. 29 The CDR is a
+structured interview assessing functional status in the domains of memory,
+orientation, judgment and problem solving, home and hobbies and personal
+care.
+
+Morning fasting plasma samples were obtained at baseline and 12-month
+assessments. Whole-blood samples were obtained in EDTA tubes, placed
+immediately on ice, spun down for plasma aliquoting and frozen at
+−80 °C, per ADNI lab standard operating protocols as
+reviewed recently. 30
+
+Plasma samples from the ADNI biospecimen repository at the University of
+Pennsylvania were sent to Rules-Based Medicine (RBM, Austin, TX, USA) for
+measurement of 190 protein analytes with a multiplex immunoassay panel. This
+panel was developed on the Luminex xMAP (Austin, TX, USA) platform to
+measure proteins previously reported to be altered in cancer, cardiovascular
+disease, metabolic disorders and inflammation. RBM also included additional
+analytes believed to be involved in cell signaling and previously reported
+to change in patients with AD. 31 RBM has attempted to validate each of the 190 analytes up to CLIA (Clinical
+Laboratory Improvement Amendment) standards, but the assays themselves are
+not CLIA approved. Each analyte has an individual standard curve with
+between 6 and 8 reference standards. Each plate is run with three levels of
+quality control (QC) measures (low, medium and high dilutions). Each analyte
+has a validation report, including a dynamic range in young adults.
+Additional QC measures for almost all analytes were employed specifically
+for the ADNI plasma analysis by testing blank human plasmas spiked with
+extracts of cell cultures expressing the individual analytes. Samples from
+the total ADNI plasma cohort were run on 15 plates.
+
+DNA was extracted from blood using commercial reagents (FlexiGene, Qiagen,
+Valencia, CA, USA). Two single-nucleotide polymorphisms (rs7412 and
+rs429358) in APOE were typed using allelic discrimination assays with TaqMan
+reagents (Applied Biosystems, Foster City, CA, USA) on an ABI 7500. The APOE
+genotypes (ɛ2, ɛ3 and ɛ4) were assigned by incorporating
+the genotyping results into an algorithm.
+
+Analyses were conducted in the ‘ADNI Plasma QC Multiplex' data
+set available for download at https://ida.loni.ucla.edu/login.jsp?project=ADNI . This data
+set contains the cleaned, quality-controlled data as described in the ADNI
+statistical analysis plan. Missing, ‘LOW' or outlier values were
+imputed respectively as the mean of the nonmissing values, half the least
+detectable dose, or by a nearest neighbor or similar algorithm. Analytes for
+which missing/'LOW' values were >25% of all
+samples were excluded, resulting in valid data for 146 of the total 190
+analytes on the original panel.
+
+Linear regression models evaluated the association of levels of each protein
+to GDS scores at baseline and month 12. Mixed-effect models examined if each
+protein is associated with change of depression symptoms by examining the
+interaction between follow-up time and each protein. 32 This statistical procedure accounts
+for the correlations that are due to repeated measurements of depression
+symptoms in the same patient. All models adjusted for age, sex, education
+and CDR Sum-of-Boxes score as covariates. Analyses were conducted in SPSS
+Statistics 19 (IBM, Somers, NY, USA), SAS version 9.2 (SAS Institute, Cary,
+NC, USA) and JMP 8.0.1 (SAS). Secondary analyses incorporated terms for past
+depression or other psychiatric illness, antidepressant use and APOE
+genotype. All statistical tests were two sided. We did not conduct multiple
+testing adjustments except lowering the significance level to 0.01 and the
+‘trend' level to 0.05 because the current analyses are discovery
+in nature. Consequently, there is a chance of false discovery because of the
+number of statistical tests performed.
+
+Finally, to assess the utility of such multiplex immunoassays as biomarker
+classifiers of depressive symptoms, we applied a machine learning ensemble
+classification method, Random Forests (using R package RandomForest, version
+4.6-2; http://www.stat.berkeley.edu/~breiman/RandomForests/cc_home.htm ).
+The samples were dichotomized into those with depressive symptoms (GDS
+⩾2) versus those without depressive symptoms (GDS=0), with
+GDS=1 serving as a buffer. Analytes were first sorted by z -score (derived from variable importance score) obtained from
+Random Forests. The higher the score, the more significant the analyte is
+for discriminating between samples with and without depressive symptoms. The
+first selected analyte has the highest importance. This is then combined
+with all remaining analytes to find the second analyte, which in combination
+with the first one gives the best Out-of-Bag error estimation (used for
+deriving accuracy). Finally, to gauge the robustness of analytes'
+association with depressive symptoms, we applied a fivefold cross-validation
+procedure to the analytes selected by Random Forests. In each of the five
+validations, 80% of the subjects were chosen for training and the
+remaining 20% were used for testing; the partition was done randomly
+while preserving the ratio of samples from the two categories. The procedure
+was repeated three times.
+
+## Results
+Of the 566 ADNI participants for whom at least baseline plasmas were analyzed,
+165 (29.2%) had depressive symptoms (GDS 2–5) at baseline. In the
+subsequent year, there were some generally modest changes in GDS scores with a
+small increase in the proportion of participants with depressive symptoms
+(32.1% with GDS ⩾2 at month 12). This included 21 participants
+(4.1%) whose GDS scores increased into a more significant category of
+syndromal depression (⩾6, range 6–12).
+
+There were no significant differences in age, gender or education among the
+normal, MCI and mild AD diagnostic groups at baseline. As expected, these groups
+differed in frequency of APOE genotype and in measures of cognition.
+Interestingly, although the diagnostic groups did not differ in GDS scores at
+baseline, there were highly significant differences in the frequency of past
+psychiatric illness, with MCI and AD participants respectively having
+∼1.5-fold and 2.5-fold higher frequencies than those categorized as
+normal.
+
+Linear regression models determined the statistical strengths of associations of
+analytes with depressive symptoms at baseline and at month 12. The top analytes
+are presented in Table 2 and statistics for the
+associations of all 146 plasma analytes with the main outcomes of interest are
+presented in the Supplementary Table S1 .
+Associations were particularly strong for hepatocyte growth factor (HGF),
+several forms of insulin, pregnancy-associated plasma protein A (PAPPA), and
+vascular endothelial growth factor (VEGF).
+
+To examine potentially confounding effects of other variables in the associations
+of the top analytes, we used separate linear regression models with additional
+terms for past history of psychiatric illness, antidepressant use, use of any
+psychotropic medicine, modified Hachinski Ischemic Score, 33 APOE genotype, body mass index and serum
+glucose (baseline only). The associations were essentially the same (data not
+shown).
+
+We also tested whether depressive symptoms were related to molecular signatures
+of AD pathology and whether these moderated the significant associations of
+depressive symptoms with biochemical analytes from the multi-analyte panel. We
+found no associations between baseline GDS scores and CSF total τ
+( F =2.06, d.f.=5, 351, P =0.15),
+p-τ 181 ( F =2.03, d.f.=5, 351, P =0.15), or Aβ ( F =0.89, d.f.=5,
+351, P =0.35), and no modifying effects.
+
+Random Forest analyses were performed as a complementary analytic approach to
+assess the ability of sets of analytes to classify participants into those with
+(GDS ⩾2) or without (GDS=0) depressive symptoms. The set of analytes
+was first selected based on z -scores obtained from Random Forests. The
+final sets of analytes were then selected with the aim of obtaining the best
+classification accuracy. Two sets of experiments were performed on each of the
+baseline and month-12 data. At baseline, 140 people with depressive symptoms
+were compared with 225 with none. At month 12, 158 people had depressive
+symptoms whereas 210 had none. At baseline, the best set of analytes achieved an
+overall 75.4% accuracy in classifying presence or absence of depressive
+symptoms with a sensitivity of 62.8% and a specificity of 83.8%.
+At month 12, accuracy was 80.9% with a sensitivity of 59.5% and a
+specificity of 94.2%. The analytes selected by Random Forests at each
+assessment are presented in Table 3 .
+
+Finally, as a third approach to identify candidate biomarkers that may be
+pathophysiologically relevant to depressive symptoms, we used mixed-effects
+models to discern baseline plasma analytes that were associated with change in depressive symptoms from baseline through month 24.
+Adjusted for age, gender, education and CDR Sum of Boxes, the rate of change of
+depression symptoms was associated with three baseline analytes at the P <0.01 level, including angiopoietin 2, FAS ligand receptor and
+fatty acid-binding protein, and nine at the P <0.05 level, including
+HGF (see Supplementary Table S1 for statistical
+results for all analytes).
+
+## Discussion
+Our data identified candidate plasma biomarkers of depressive symptoms in older
+adults, which may prove useful in investigations into the pathophysiology of
+negative affect across the lifespan. Previous biomarker studies of depression
+have focused on contemporaneous conceptualizations of depression
+pathophysiology. 12 , 13 , 14 , 15 , 16 , 17 , 34 , 35 , 36 Here,
+we used an unbiased multiplex discovery interrogation of 146 known plasma
+analytes in a large cohort of well-characterized subjects. In particular, HGF,
+insulins, PAPPA and VEGF were identified as among the more robust and
+interesting candidates.
+
+HGF (also known as scatter factor and hematopoietin A) is a 103 kDa
+heterodimeric protein first identified as a regeneration factor for hepatocytes
+after liver injury. 37 It is a
+multifunctional trophic factor that signals through a tyrosine kinase signaling
+cascade after binding to MET, its proto-oncogenic receptor. HGF is produced by
+neurons and nonneuronal cells, whereas MET is especially highly expressed in
+neurons. During embryogenesis, HGF is a neural inducer, an interneuron motogen,
+an axonal chemoattractant, an angiogenic factor and a neuroprotective survival
+factor. 38 , 39 Its expression continues in adulthood and it is
+induced by ischemic injury 40 and other
+disease processes, including AD. 41 HGF
+enhances long-term potentiation, 42 improves or attenuates ischemia-related memory deficits 43 and Aβ-induced behavioral
+impairment, 44 and has
+anxiolytic properties, 45 whereas its
+suppression increases anxiety and depressive behaviors in rodents. 46 To our knowledge, only two studies have
+investigated HGF in relation to depression in humans, one of which found
+significantly lower serum HGF levels among 26 people with major
+depression compared with 19 controls, 47 whereas the other study found no difference in HGF
+levels in 12 women with major depression and borderline personality
+disorder. 48 Higher serum
+levels of HGF have also been found in those patients with panic disorder who
+best responded to antidepressant medication. 49 To this literature, we add our finding of an increase in plasma HGF levels with increasing depressive symptoms
+in older adults. Given the generally salutary effects of HGF, we speculate that
+such an increase may represent a compensatory mechanism in the setting of other
+depression-inducing pathophysiological mechanisms.
+
+Depressive symptoms were positively associated with levels of insulin
+polypeptides, in support of a growing literature linking insulin resistance to
+depression. 13 , 50 , 51 , 52 , 53 The nature of
+this association is complex as some evidence indicates a bidirectional
+relationship; that is, depression increases the risk for subsequent development
+of type 2 diabetes mellitus, 54 whereas
+the presence of type 2 diabetes mellitus increases risk for incident
+depression. 52 One mechanism
+that has been proposed to account for insulin resistance in depression is
+dysregulation of the hypothalamic–pituitary–adrenal axis with
+abnormal circulating levels of glucocorticoids. 12 , 55 Others have
+invoked the effects on insulin signaling by inflammatory cytokines 14 and some trophic factors 15 , 16 , 17 that may also be activated in depression.
+Conversely, insulin activates diverse, multifunctional signaling cascades (for
+example, Akt and glycogen synthase kinase 3) that are believed to play important
+roles in mood. 56 , 57
+
+As further support for an insulin link to depression, we observed an association
+of PAPPA with depressive symptoms. PAPPA is a secreted metalloproteinase that
+cleaves insulin-like growth factor-binding proteins, increasing their
+bioavailability. 58 To our
+knowledge, its expression or activity in the brain have not been studied.
+
+VEGF was also found to be elevated in relation to depressive symptoms in the ADNI
+cohort. Previous studies have reported VEGF gene polymorphisms associated with
+major depression, 59 , 60 increased leukocyte VEGF mRNA expression in
+refractory depression 61 and increased
+serum or plasma VEGF levels in depression in two studies 48 , 62 but
+not a third one. 63 VEGF (specifically
+VEGF-A measured here) is a 232-amino-acid protein with multiple isoforms that
+bind to three high-affinity receptor tyrosine kinases. It is widely expressed
+and is best known for its growth factor activity in angiogenesis, vasculogenesis
+and endothelial cell growth. 64 Analogous to insulin, after binding to its receptors, VEGF activates numerous
+downstream signaling proteins including protein kinase C, phospholipase
+C-γ, phosphatidylinositol 3-kinase, Akt and mammalian target of rapamycin.
+VEGF increases the permeability of the blood–brain barrier, 65 facilitates neurogenesis and
+proliferation of neurons in the adult hippocampus, 66 plays a role in synaptic
+neurotransmission 67 and
+synaptic plasticity in hippocampus-dependent learning and memory 68 and has anxiolytic and antidepressant
+activity in rodent models. 66
+
+Our data should be interpreted in light of the strengths of the ADNI study design
+as well as its weaknesses. Foremost, the ADNI study incorporates an
+extraordinary array of biomarker approaches that characterize many aspects of
+the functional, anatomic, physiological, biochemical and molecular health of the
+aging brain. It is longitudinal, thus allowing both cross-sectional and dynamic
+monitoring of phenomenology and biology that may better elucidate disease
+processes. Future analyses will investigate the relationships of biochemical
+biomarkers of depressive symptoms identified here in relation to other
+neuroimaging and longitudinal outcome data.
+
+On the other hand, the principal outcome of interest of the ADNI is cognitive
+functioning, not emotional functioning, and its clinical assessments of mood and
+other psychiatric symptoms are limited. The assessment of depressive symptoms is
+by the interviewer-administered GDS with the research participant, and thus may
+lack the depth and accuracy of a structured psychiatric interview or observer
+ratings. Although the GDS is among the most well-validated and widely used
+scales for depressive symptoms in the elderly, its sensitivity wanes in people
+with dementia in comparison with other ‘gold-standard' expert
+rater-based scales of depression in dementia. 27 As well, ADNI was designed to recruit older adults
+who are typical of participants in clinical trials of AD and MCI. These focus on
+cognitive function unconfounded by depression or other illnesses that are common
+in general older populations. Indeed, eligibility in ADNI was restricted to
+participants with no active psychiatric illness and no more than very mild
+depressive symptoms at baseline. Despite these limitations, the sample size and
+expanding range of depressive symptoms over time did allow us to discern
+candidate biomarkers of depressive symptoms that are also biologically
+plausible. However, given the exclusion of subjects with any clinically
+significant depression at the time of enrollment in ADNI, it is important to
+recognize that our analyses may have failed to detect depression-related
+analytes that would be found in people with more severe symptoms or that our
+findings may be specific only to subsyndromal depressive symptoms in older
+adults and not major or minor depression in general.
+
+There have been very few biomarker discovery investigations of psychiatric
+disorders that employ multi-analyte panels such as ours. Simon et
+al. 69 tested a chronic
+inflammation hypothesis of major depressive disorder using a 22-plex
+cytokine/chemokine panel on a Luminex platform in 49 patients and 49
+controls and found significant differences in most of the analytes, thus
+supporting their hypothesis. More recently, Domenici et
+al. 70 used a 79-plex
+analyte panel from RBM to profile plasmas from 245 patients with recurrent major
+depressive disorder, 229 patients with schizophrenia and 254 nonpsychiatric
+controls. Many of the analytes in their panel were also measured in ours. In
+univariate analyses, the analyte that showed the greatest difference between
+depressed and control groups was insulin.
+
+There is substantial evidence that higher levels of inflammatory biomarkers, such
+as tumor necrosis factor-α, various interleukins and transforming growth
+factor-β are present in major depression as well as AD. 71 , 72 Our
+analyses did not find any association between depressive symptoms and these
+inflammatory cytokines. However, it is important to again note the differences
+in subjects used in these studies, where ADNI specifically excludes participants
+with major depression.
+
+There is growing recognition that chronic psychological distress is a risk factor
+for cognitive decline and aging-related dementias. 73 , 74 , 75 , 76 Consonant with
+this, we observed a >1.5-fold higher rate of past psychiatric illness among
+ADNI participants with MCI at baseline and an almost 2.5-fold higher rate in
+those with AD compared with those with normal cognition. The mechanism(s) by
+which depression and other facets of psychological distress increase dementia
+risk is not clear. Overall, post-mortem clinicopathological studies have not
+found associations between psychological distress and the defining pathologies
+of neurodegenerative dementias such as Aβ plaque or neurofibrillary τ
+tangle densities, α-synuclein Lewy bodies or cerebral
+infarcts. 77 , 78 Here as well, we saw no association between CSF
+τ or Aβ levels (as proxies for brain AD pathology) and depressive
+symptoms. Thus, it will be important to further investigate the candidate
+biomarkers associated with depressive symptoms identified in this study for
+their relationship to subsequent cognitive decline, to neuroimaging evidence of
+atrophy and other evidence of neurodegeneration and to post-mortem
+neuropathological findings as these become available.

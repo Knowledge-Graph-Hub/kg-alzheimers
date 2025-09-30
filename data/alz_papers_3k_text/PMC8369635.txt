@@ -1,0 +1,1167 @@
+# Title
+CoCoA-diff: counterfactual inference for single-cell gene expression analysis
+
+# Abstract
+Finding a causal gene is a fundamental problem in genomic medicine. We present a causal inference framework, CoCoA-diff, that prioritizes disease genes by adjusting confounders without prior knowledge of control variables in single-cell RNA-seq data. We demonstrate that our method substantially improves statistical power in simulations and real-world data analysis of 70k brain cells collected for dissecting Alzheimer’s disease. We identify 215 differentially regulated causal genes in various cell types, including highly relevant genes with a proper cell type context. Genes found in different types enrich distinctive pathways, implicating the importance of cell types in understanding multifaceted disease mechanisms. The online version contains supplementary material available at 10.1186/s13059-021-02438-4.
+
+## Backgrounds
+Single-cell RNA-seq is a scalable approach to measure thousands of gene expression values in hundreds of thousands of cells, sampled from a hundred individuals. As technology becomes mature and economical, single-cell sequencing methods have been used to solve a variety of biological and medical problems, and many large-scale data sets are becoming available to research communities. Unlike previous bulk RNA-seq, single-cell RNA-seq analysis quantifies gene expression changes from a large number of cells, and researchers dare to ask unprecedented questions, which had not been feasible in bulk data analysis. Only a subset of such examples includes cell-level developmental trajectory analysis [ 1 ], spatial transcriptomics [ 2 ], regulatory network reconstruction with perturbation [ 3 ], and variance quantitative trait analysis [ 4 , 5 ].
+
+Interestingly, some research questions hitherto remain fundamentally attractive since gene expression microarrays [ 6 – 8 ] and bulk RNA-seq [ 9 – 13 ] era. Differential expression analysis is such a classical problem. For case-control studies, knowing differentially expressed genes (DEGs) is often of research and clinical interest. Our primary interest also centres on developing a statistical method for differential expression analysis between different groups of individuals, not between cells. The underlying statistical problem is straightforward. However, finding DEGs from case-control single-cell data poses several challenges in practice. This work seeks to identify and propose an algorithmic approach that resolves two of those challenges from a causal inference perspective.
+
+Firstly, cells are not independently and identically distributed. Instead, cells belong to a particular individual, hierarchically organized, and naturally create “batch” effects (Fig. 1a ). Cells belonging to the same individual are necessarily affected by the same biological and technical factors. The number of individuals essentially determines the statistical power of DEG discovery in single-cell data. Along the same line, a benchmark comparison demonstrates that existing bulk RNA-seq methods on pseudo-bulk data (using the individual-level aggregate of cells of a particular cell type) still perform decently while correctly controlling false discovery rates [ 14 , 15 ]. Likewise, for genetic analysis (expression quantitative trait loci), the statistical power of eQTL discovery is primarily determined by the degree of genetic variation across individuals rather than the number of cells per individual [ 16 ]. Nonetheless, differential expression analysis of single-cell RNA-seq is a state-of-the-art and unbiased approach to characterize cell-type-specific transcriptomic changes. Fig. 1 Counterfactual confounder adjustment for single-cell differential gene expression analysis (CoCoA-diff). a Hierarchical (nested) structure of single-cell gene expression data. We have tens of individuals for one case-control study. Each individual ( i ) contains a heterogeneous mixture of multiple cell types. Single-cell technology measure a thousand genes on each cell ( j ). b This work seeks to address a specific causal inference problem of genomics research. We seek to prioritize genes causally modulated by a disease status, not the genes affecting the predisposition and risk of disease development. c Overview of CoCoA-diff approach (see Methods for details). Y : gene expression matrix. Y (0) : counterfactual data with disease W = 0, Y (1) : counterfactual data with disease W = 1. β : Poisson regression coefficient. δ : residual effect. ρ : sequencing depth. μ : shared confounding effect. d Data generation scheme for simulation studies. We simulate 50 causal and 9,950 non-causal genes with or without disease-causing mechanisms (an edge between W and λ ). W i : disease label assignment for an individual i . X i : confounding effects for an individual i . λ gi : unobserved gene expression for a gene g of an individual i as a function of X and W . Y gj : realization of cell-level gene expression of a gene g with a cell j -specific sequencing depth ρ j (stochastically sampled from Gamma distribution). Here, we simulated five different X variables. e CoCoA-diff accurately estimates shared confounder variables ( μ g ), showing a significantly higher level of correlation with true confounding effects on non-causal genes than a pseudo-bulk analysis. f CoCoA-diff accurately estimates disease-causing effects ( δ g ), showing high correlation with true differential effects on causal genes. g Illustration of CoCoA-diff approach on the APOE in microglia example. HC, health control. AD, Alzheimer’s disease. μ , shared confounding effect; δ , residual differential effect. For a clear visualization, we omitted samples (individuals) with zero read count observed on APOE gene in the microglial cell type
+
+Counterfactual confounder adjustment for single-cell differential gene expression analysis (CoCoA-diff). a Hierarchical (nested) structure of single-cell gene expression data. We have tens of individuals for one case-control study. Each individual ( i ) contains a heterogeneous mixture of multiple cell types. Single-cell technology measure a thousand genes on each cell ( j ). b This work seeks to address a specific causal inference problem of genomics research. We seek to prioritize genes causally modulated by a disease status, not the genes affecting the predisposition and risk of disease development. c Overview of CoCoA-diff approach (see Methods for details). Y : gene expression matrix. Y (0) : counterfactual data with disease W = 0, Y (1) : counterfactual data with disease W = 1. β : Poisson regression coefficient. δ : residual effect. ρ : sequencing depth. μ : shared confounding effect. d Data generation scheme for simulation studies. We simulate 50 causal and 9,950 non-causal genes with or without disease-causing mechanisms (an edge between W and λ ). W i : disease label assignment for an individual i . X i : confounding effects for an individual i . λ gi : unobserved gene expression for a gene g of an individual i as a function of X and W . Y gj : realization of cell-level gene expression of a gene g with a cell j -specific sequencing depth ρ j (stochastically sampled from Gamma distribution). Here, we simulated five different X variables. e CoCoA-diff accurately estimates shared confounder variables ( μ g ), showing a significantly higher level of correlation with true confounding effects on non-causal genes than a pseudo-bulk analysis. f CoCoA-diff accurately estimates disease-causing effects ( δ g ), showing high correlation with true differential effects on causal genes. g Illustration of CoCoA-diff approach on the APOE in microglia example. HC, health control. AD, Alzheimer’s disease. μ , shared confounding effect; δ , residual differential effect. For a clear visualization, we omitted samples (individuals) with zero read count observed on APOE gene in the microglial cell type
+
+Another challenge stems from the study design of case-control data analysis. In contrast to randomized control trials, most studies are observational, and we have incomplete knowledge of a disease assignment mechanism. Investigators usually cannot make an intervention for practical and ethical reasons. Considering that many complex disease phenotypes occur at the late onset of a lifetime, finding a suitable set of covariates for causal inference is often infeasible as well. Matrix factorization or latent variable modelling can be used to characterize technical covariates or batch effects. However, it is difficult to identify which principal axes of variation capture confounding effects, independently from unknown disease-causing mechanisms. A latent variable model of a single-cell count matrix is frequently used for clustering and cell type annotations, and the resulting latent factors are more suitable for the characterization of intercellular heterogeneity than inter-individual variability.
+
+We present a novel application of a causal inference method as a straightforward approach to improve the statistical power in case-control single-cell analysis while adjusting for unwanted confounding effects existing across heterogeneous individuals. We establish our causal claims in differential expression analysis based on Rubin’s potential outcome framework [ 17 , 18 ]. Our method is inspired by the seminary work of outcome regression analysis by a matching algorithm [ 19 , 20 ]. We highlight that our causal inference approach is beneficial in the analysis of disease case-control studies, especially when meta-data for covariates are scarcely available, and covariates may influence both disease status and gene expressions simultaneously. With respect to the underlying causal structural model (disease to gene expression), we seek to identify genes that are differentially expressed as a result of disease.
+
+## Results
+Here, we ask whether a gene is causally affecting or affected by a disease variable but not affected by other technical and biological covariates, which may confound the disease status and gene expressions. In this work, a causal gene is defined as a gene affecting or being affected by a disease status independent of other confounding variables. Although many differentially expressed genes can be considered a result of disease status for most late-onset disorders, we also acknowledge that aberrant changes on a handful of genes can initiate disease phenotypes. To distinguish causal vs. anti-causal mechanisms, we would need additional perturbation experiments. Alternatively, driver genes can be characterized by mediation analysis using genetic variants as an instrumental variable (Mendelian randomization) [ 21 ].
+
+Moreover, concerning cell types and states, we need to assume that cell type fractions are not a mediating factor between the disease and gene expression variables. We found a negligible correlation between cell-type proportions and observed disease status in the study of Alzheimer’s disease [ 22 ]. Under this causal assumption, the stratification procedure for cell types provides a legitimate strategy to control cell-type biases that may impact on identifying DEGs. We think there is almost no chance of a “mediation fallacy [ 23 – 25 ].”
+
+We are interested in comparing pseudo-bulk gene expression profiles stratified within each cell type and individual between the case and control samples. Letting Y gj be a gene expression of a gene g on a cell j and S i be a set of cell indexes for an individual i ∈ [ n ], we can create a pseudo-bulk expression by aggregating all the expression vectors. We will use λ gi to generally refer to a pseudo-bulk estimate of a gene g on an individual i . For instance, we could take an average, \documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$$ {\lambda}_{gi}\approx \sum \limits_j\left|I\right.\left\{j\in {S}_i\right\}{Y}_{gj}/\mid {S}_i\mid $$\end{document} λ gi ≈ ∑ j I j ∈ S i Y gj / ∣ S i ∣ , or take the total count, \documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$$ {\lambda}_{gi}\approx \sum \limits_j{\left|I\right.}_{j\in {S}_i}{Y}_{gj} $$\end{document} λ gi ≈ ∑ j I j ∈ S i Y gj . Given the estimate of the λ values across n individuals, { λ gi : i ∈ [ n ]}, we can construct a hypothesis test that seeks to reject a null hypothesis that the distributions of pseudo-bulk profiles are the same among the case and control individuals (Wilcoxon’s test).
+
+In observational data, where the label assignment is not controlled, data matrices of raw { Y gj } and pseudo-bulk count { λ gi } can become confounded with the disease label assignment by unknown biological and technical covariates (Fig. 1b ). Such confounding factors obfuscate actual disease-specific effects with other effects of unknown covariates and may lead to false discoveries and dampen the statistical power of differential expression analysis. Rubin’s potential outcome framework [ 17 , 18 ] seeks to separate the actual disease (or treatment) effects from other effects by asking the following counterfactual questions: What would be a gene expression if an individual had not been exposed to a disease? What would be a gene expression if an individual had been exposed a disease?
+
+What would be a gene expression if an individual had not been exposed to a disease?
+
+What would be a gene expression if an individual had been exposed a disease?
+
+In our pseudo-bulk analysis context, we are interested in estimating the following quantities: \documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$$ {\lambda}_{gi}^{(0)} $$\end{document} λ gi 0 : What would be the pseudo-bulk expression of a gene g if an individual i had not been exposed to a disease? \documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$$ {\lambda}_{gi}^{(1)} $$\end{document} λ gi 1 : What would be the pseudo-bulk expression of a gene g if an individual i had been exposed to a disease?
+
+\documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$$ {\lambda}_{gi}^{(0)} $$\end{document} λ gi 0 : What would be the pseudo-bulk expression of a gene g if an individual i had not been exposed to a disease?
+
+\documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$$ {\lambda}_{gi}^{(1)} $$\end{document} λ gi 1 : What would be the pseudo-bulk expression of a gene g if an individual i had been exposed to a disease?
+
+In a binary case-control study, we observe one of the values for each individual while the other side is left unobserved (denoted by the “?” mark). Letting W i ∈ {0, 1} be a disease label assignment variable for an individual i , only a part of potential gene expressions are made directly observable from data: \documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$$ {\lambda}_{gi}^{(0)}=\left\{\begin{array}{ll}{\lambda}_{gi},& {W}_i=0\\ {}?,& {W}_i=1\end{array}\right.,\kern1em {\lambda}_{gi}^{(1)}=\left\{\begin{array}{ll}{\lambda}_{gi},& {W}_i=1\\ {}?,& {W}_i=0\end{array}\right. $$\end{document} λ gi 0 = λ gi , W i = 0 ? , W i = 1 , λ gi 1 = λ gi , W i = 1 ? , W i = 0
+
+At the cell level (∀ j ∈ S i ), we have the same structure: \documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$$ {Y}_{gj}^{(0)}=\left\{\begin{array}{ll}{Y}_{gj},& {W}_i=0,j\in {S}_i\\ {}?,& \mathrm{otherwise}\end{array}\right.,\kern1em {Y}_{gi}^{(1)}=\left\{\begin{array}{ll}{Y}_{gi},& {W}_i=1,j\in {S}_i\\ {}?,& \mathrm{otherwise}\end{array}\right. $$\end{document} Y gj 0 = Y gj , W i = 0 , j ∈ S i ? , otherwise , Y gi 1 = Y gi , W i = 1 , j ∈ S i ? , otherwise
+
+If both sides of the potential expression, \documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$$ \left\{{Y}_{gj}^{(0)},{Y}_{gj}^{(1)}\right\} $$\end{document} Y gj 0 Y gj 1 , were known, we would be able to estimate the disease effect on a gene g for each individual by comparing pseudo-bulk profiles ( \documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$$ {\lambda}_{gi}^{(0)} $$\end{document} λ gi 0 vs. \documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$$ {\lambda}_{gi}^{(1)} $$\end{document} λ gi 1 ) constructed from the potential single-cell gene expressions. The ultimate goal of causal inference in Rubin’s potential outcome framework is to impute the missing part of potential outcomes since a comparison between the case and control becomes straightforward on the imputed data.
+
+We define that a variable can confound a disease label ( W ) and gene expressions ( λ and Y ) if (1) it is associated with the disease and gene expression variables and (2) it is still associated with the expression even after conditioning on the disease label [ 26 ]. Unless we adjust/stratify a sufficient set of confounding variables, gene expression changes observed between the case and control samples are not necessarily the causal effect of disease mechanisms.
+
+It is crucial to state casual assumptions to proceed with our causal inference: Stable individual disease effect : We assume that the potential expressions of an individual i , namely \documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$$ {\lambda}_{gi}^{(0)} $$\end{document} λ gi 0 and \documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$$ {\lambda}_{gi}^{(1)} $$\end{document} λ gi 1 , are not affected by the expressions of other individuals { i ′  ∈ [ n ] : i ′  ≠ i }. Conditional independence of the potential expression and disease exposure (conditional ignorability [ 17 , 18 ]): For a non-causal gene, by definition, gene expressions are independent of disease status. Therefore, we do not need an assumption on this matter. However, for a causal gene, we assume that potential (counterfactual) gene expressions are independent of a disease label conditioning on a sufficient set of confounding variables. In other words, genes differentially regulated for a diseased individual would not have been aberrantly expressed if this individual had not developed the disease. Overlap of confounding effects between the case and control : Within a stratum of individuals, homogeneous with respect to confounding variables, we have both the case and control subjects with non-zero probability. In the single-cell analysis, we assume disease and non-disease cells simultaneously exist in a homogeneous group of cells stratified by confounding factors.
+
+Stable individual disease effect : We assume that the potential expressions of an individual i , namely \documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$$ {\lambda}_{gi}^{(0)} $$\end{document} λ gi 0 and \documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$$ {\lambda}_{gi}^{(1)} $$\end{document} λ gi 1 , are not affected by the expressions of other individuals { i ′  ∈ [ n ] : i ′  ≠ i }.
+
+Conditional independence of the potential expression and disease exposure (conditional ignorability [ 17 , 18 ]): For a non-causal gene, by definition, gene expressions are independent of disease status. Therefore, we do not need an assumption on this matter. However, for a causal gene, we assume that potential (counterfactual) gene expressions are independent of a disease label conditioning on a sufficient set of confounding variables. In other words, genes differentially regulated for a diseased individual would not have been aberrantly expressed if this individual had not developed the disease.
+
+Overlap of confounding effects between the case and control : Within a stratum of individuals, homogeneous with respect to confounding variables, we have both the case and control subjects with non-zero probability. In the single-cell analysis, we assume disease and non-disease cells simultaneously exist in a homogeneous group of cells stratified by confounding factors.
+
+The purpose of our counterfactual confounder adjustment for differential single-cell gene expression analysis (CoCoA-diff) (Fig. 1c ) is to impute the missing part of potential outcomes of single-cell profiles (step 1), propagate the imputed results to the pseudo-bulk estimation, and decompose the total pseudo-bulk profiles into the confounding (step 2) and differential effects (step 3). Using a single-cell gene expression matrix, \documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$$ \left\{{Y}_{gj}:g\in \mathsf{genes},j\in \mathsf{cells}\right\} $$\end{document} Y gj : g ∈ genes j ∈ cells , we want to estimate two types of pseudo-bulk data: (1) the estimated confounders, \documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$$ \left\{{\mu}_{gi}:g\in \mathsf{genes},i\in \mathsf{individuals}\right\} $$\end{document} μ gi : g ∈ genes i ∈ individuals , and (2) the residual differential effects, \documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$$ \left\{{\delta}_{gi}:g\in \mathsf{genes},i\in \mathsf{individuals}\right\} $$\end{document} δ gi : g ∈ genes i ∈ individuals . In other words, we want to estimate the decomposition of pseudo-bulk data, such as λ gi = μ gi δ gi . Briefly, the algorithm proceeds as follows: (1) we seek to estimate (or impute) counterfactual measurement of single cells’ expression by matching cells in a particular condition with neighbouring cells in the opposite conditions. The distance between cells was calculated on the top principal component axes. (2) Having paired sets of observed and counterfactual single-cell data, we estimate the mean expression of genes shared across two opposite conditions in Bayesian posterior inference. We treat them as putative confounding factors. (3) While holding the estimated confounding effects fixed, we measure the conditional (or residual) mean effect on the observed cells. We refer the readers to Materials and Methods for technical details.
+
+To demonstrate how CoCoA-diff actually works, we simulated a single-cell data matrix consisting of 10,000 genes and 40 individuals (Fig. 1d ). Each individual contains 50 cells on average; 50 of the 10,000 genes are causally affected by disease labels ( W → λ ) and confounding factors ( X → λ ). The other genes are only affected by confounding factors ( X → λ ); we introduced five confounding variables \documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$$ \left\{{X}_{ik}:i\in \mathsf{individuals},k\in \left[5\right]\right\} $$\end{document} X ik : i ∈ individuals k ∈ 5 , and a linear combination of these X variables introduces biases on W i and λ gi . Here, we set the variance of λ explained by confounding variables X to 0.5 and the variance of disease label W explained by the same confounding variables to 0.5, but we varied the true disease variability between 0.1 to 0.3 on 50 causal genes ( W → λ ; the x-axes of Fig. 1e, f ). As expected, on non-causal genes (Fig. 1e ), we found a strong correlation between the estimated confounding effects ( μ gi ) and true confounding effects (the linear combination of X ik variables), which is far greater than the correlation with the estimated differential effects ( δ gi ). We also observed that the unconfounded pseudo-bulk data (removing the effects of X variables) are correlated with the estimated differential effects ( δ gi ), consistently not affected by the change of disease variability (Fig. 1f ).
+
+As an example, we demonstrate the effectiveness of our approach in the case of APOE gene measured in microglia samples (Fig. 1 g). For better visualization, we removed an individual with only a single read was observed on the APOE gene. In pseudo-bulk data analysis with 39 individuals, it appears that the total expression values are only mildly upregulated in disease subjects (Wilcoxon p = 0.23) even though APOE over-expression is one of the most frequently observed hallmark of Alzheimer’s disease (AD). We also found that the shared confounding factors across the case and control exhibit almost no apparent correlation with the disease label (p = 0.46). After adjusting the confounders on the data, we recover a significant correlation of APOE gene expressions with AD status (p = 5.2 ×10 −7 ).
+
+We evaluated the performance of our approach in differential expression analysis using a simulated single-cell data matrix ( Y ) of 10,000 genes with 40 individuals with 50 causal and 9,950 non-causal genes (Fig. 2a ). We introduced two types of total five covariates on the individual-level expressions λ gi , explicitly designating confounding variables X and non-confounding batch effect B . By definition, confounding factors X ik affect the label assignment W i and the individual-level mean values λ gi . For a causal gene g , λ gi values are determined by the disease label W i , the confounders X ik , and the batch effect variables B il ; for a non-causal gene g , there is no contribution from the disease variable. In each simulation experiment, we specify the following parameters: \documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$$ {\sigma}_{X\to W}^2 $$\end{document} σ X → W 2 : the variance of W explained by the covariate X . \documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$$ {\sigma}_{W\to Y}^2 $$\end{document} σ W → Y 2 : the variance of log λ explained by the disease assignment W . \documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$$ {\sigma}_{X,B\to Y}^2 $$\end{document} σ X , B → Y 2 : the variance of log λ explained by the covariates X and B . d C : the number of confounding variables (from 1 to 5). d B : The number of non-confounding batch effects (from 0 to 4). Fig. 2 Simulation experiments. Extensive simulation experiments confirm that CoCoA-diff effectively adjusts existing confounding effects and improves statistical power of differential expression analysis. a Data generation scheme for simulation experiments. We simulate 50 causal and 9950 non-causal genes with or without disease-causing mechanisms (an edge between W and λ ). W i : disease label assignment for an individual i . X i : confounding effects for an individual i . λ gi : unobserved gene expression for a gene g of an individual i as a function of X and W . Y gj : realization of cell-level gene expression of a gene g with a cell j -specific sequencing depth ρ j (stochastically sampled from Gamma distribution). Here, we simulated total five covariates consisting of confounding ( X ) and batch effect variables ( B ). b Simulation results when all the five covariates are confounding disease label assignment and gene expression values, accounting for 50% of mean expression variation ( \documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$$ {\sigma}_{X,B\to Y}^2 $$\end{document} σ X , B → Y 2 ). Different subpanels correspond to different configurations of the number of individuals and cells per individual. Y-axis (AUPRC): area under precision recall curve (numerically integrated by DescTool [ 28 ] implemented in R); x-axis : the proportion of variation contributed by the disease label ( \documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$$ {\sigma}_{W\to Y}^2 $$\end{document} σ W → Y 2 ). The following methods were considered: CoCoA : Wilcoxon’s ranksum test using individual-specific confounder-adjusted gene expression values δ gi (the step 3 of Fig. 1c ); Total : pseudo-bulk expression aggregated within each individual; Bayesian : Bayesian estimate of pseudo-bulk expression averaged over cells within each individual; Mean : pseudo-bulk expression averaged over cells within each individual; MAST : Model-based Analysis of Single-cell Transcriptomics [ 29 ] implemented in R (cell-level differential expression analysis); Confoudner : the estimated confounding effect μ gi (the step 2 of Fig. 1c ). c Total discovery rates of the differential expression methods when there were no disease effect. The fraction of positive discovery when multiple hypothesis-adjusted q-values were empirically calibrated by qvalue [ 30 , 31 ] package controlled at 1% ( y -axis). d Empirical false discovery rates of the differential expression methods when there were no confounding effect, but the 30% of individual-level expression variation is attributed to the disease effect ( W → λ ; \documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$$ {\sigma}_{W\to Y}^2 $$\end{document} σ W → Y 2 ) on 50 causal genes. Y-axis : empirical false discovery rate, the frequency of the non-causal among genes with the estimated q-value below 0.01. e Empirical false discovery rates of the differential expression methods when there were substantial confounding effects on gene expressions ( \documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$$ {\sigma}_{X,B\to Y}^2 $$\end{document} σ X , B → Y 2 ) and the 30% of individual-level expression variation is attributed to the disease effect ( W → λ ; \documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$$ {\sigma}_{W\to Y}^2 $$\end{document} σ W → Y 2 ) on 50 causal genes. Y-axis : empirical false discovery rate (the frequency of the non-causal among genes with the estimated q-value below 0.01); x-axis : different methods. f The performance of the CoCoA method with different settings of the k -NN parameters in the first matching step. Y-axis (AUPRC): area under precision recall curve (numerically integrated by DescTool [ 28 ] implemented in R); x-axis : the proportion of variation contributed by the disease label ( \documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$$ {\sigma}_{W\to Y}^2 $$\end{document} σ W → Y 2 ). Variation by confounder: \documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$$ {\sigma}_{X,B\to Y}^2 $$\end{document} σ X , B → Y 2 . g Empirical false discovery rates for the same experiments in f with different settings of the k -NN Parameter. Empirical false discovery rate: the frequency of the non-causal among genes with the estimated q value below 0.01
+
+\documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$$ {\sigma}_{X\to W}^2 $$\end{document} σ X → W 2 : the variance of W explained by the covariate X .
+
+\documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$$ {\sigma}_{W\to Y}^2 $$\end{document} σ W → Y 2 : the variance of log λ explained by the disease assignment W .
+
+\documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$$ {\sigma}_{X,B\to Y}^2 $$\end{document} σ X , B → Y 2 : the variance of log λ explained by the covariates X and B .
+
+d C : the number of confounding variables (from 1 to 5).
+
+d B : The number of non-confounding batch effects (from 0 to 4).
+
+Simulation experiments. Extensive simulation experiments confirm that CoCoA-diff effectively adjusts existing confounding effects and improves statistical power of differential expression analysis. a Data generation scheme for simulation experiments. We simulate 50 causal and 9950 non-causal genes with or without disease-causing mechanisms (an edge between W and λ ). W i : disease label assignment for an individual i . X i : confounding effects for an individual i . λ gi : unobserved gene expression for a gene g of an individual i as a function of X and W . Y gj : realization of cell-level gene expression of a gene g with a cell j -specific sequencing depth ρ j (stochastically sampled from Gamma distribution). Here, we simulated total five covariates consisting of confounding ( X ) and batch effect variables ( B ). b Simulation results when all the five covariates are confounding disease label assignment and gene expression values, accounting for 50% of mean expression variation ( \documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$$ {\sigma}_{X,B\to Y}^2 $$\end{document} σ X , B → Y 2 ). Different subpanels correspond to different configurations of the number of individuals and cells per individual. Y-axis (AUPRC): area under precision recall curve (numerically integrated by DescTool [ 28 ] implemented in R); x-axis : the proportion of variation contributed by the disease label ( \documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$$ {\sigma}_{W\to Y}^2 $$\end{document} σ W → Y 2 ). The following methods were considered: CoCoA : Wilcoxon’s ranksum test using individual-specific confounder-adjusted gene expression values δ gi (the step 3 of Fig. 1c ); Total : pseudo-bulk expression aggregated within each individual; Bayesian : Bayesian estimate of pseudo-bulk expression averaged over cells within each individual; Mean : pseudo-bulk expression averaged over cells within each individual; MAST : Model-based Analysis of Single-cell Transcriptomics [ 29 ] implemented in R (cell-level differential expression analysis); Confoudner : the estimated confounding effect μ gi (the step 2 of Fig. 1c ). c Total discovery rates of the differential expression methods when there were no disease effect. The fraction of positive discovery when multiple hypothesis-adjusted q-values were empirically calibrated by qvalue [ 30 , 31 ] package controlled at 1% ( y -axis). d Empirical false discovery rates of the differential expression methods when there were no confounding effect, but the 30% of individual-level expression variation is attributed to the disease effect ( W → λ ; \documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$$ {\sigma}_{W\to Y}^2 $$\end{document} σ W → Y 2 ) on 50 causal genes. Y-axis : empirical false discovery rate, the frequency of the non-causal among genes with the estimated q-value below 0.01. e Empirical false discovery rates of the differential expression methods when there were substantial confounding effects on gene expressions ( \documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$$ {\sigma}_{X,B\to Y}^2 $$\end{document} σ X , B → Y 2 ) and the 30% of individual-level expression variation is attributed to the disease effect ( W → λ ; \documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$$ {\sigma}_{W\to Y}^2 $$\end{document} σ W → Y 2 ) on 50 causal genes. Y-axis : empirical false discovery rate (the frequency of the non-causal among genes with the estimated q-value below 0.01); x-axis : different methods. f The performance of the CoCoA method with different settings of the k -NN parameters in the first matching step. Y-axis (AUPRC): area under precision recall curve (numerically integrated by DescTool [ 28 ] implemented in R); x-axis : the proportion of variation contributed by the disease label ( \documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$$ {\sigma}_{W\to Y}^2 $$\end{document} σ W → Y 2 ). Variation by confounder: \documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$$ {\sigma}_{X,B\to Y}^2 $$\end{document} σ X , B → Y 2 . g Empirical false discovery rates for the same experiments in f with different settings of the k -NN Parameter. Empirical false discovery rate: the frequency of the non-causal among genes with the estimated q value below 0.01
+
+For each individual i ∈ [ n ], we first sample covariates \documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$$ {X}_{ik}\sim \mathcal{N}\left(0,1\right) $$\end{document} X ik ∼ N 0 1 for k ∈ [ d C ] and \documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$$ {B}_{il}\sim \mathcal{N}\left(0,1\right) $$\end{document} B il ∼ N 0 1 for l ∈ [ d B ]. Given the X matrix, we sample the parameter vector α required to introduce biases on W and the residual error vector ϵ W from isotropic Gaussian distributions and adjusted the scale of the error vector to have the simulation proportion of variance matched with the prescribed σ 2 value, i.e. \documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$$ \mathbbm{V}\left[X\upalpha \right]/\mathbbm{V}\left[X\upalpha +{\upvarepsilon}_W\right]={\sigma}_{X\to W}^2 $$\end{document} V [ X α ] / V [ X α + ε W ] = σ X → W 2 . We generate a binary label assignment for an individual i by flipping a coin: \documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$$ {W}_i\sim \mathrm{Bernoulli}\left(\frac{1}{1+\exp \left(-\sum \limits_k{X}_{ik}{\alpha}_k-{\epsilon}_{W,i}\right)}\right) $$\end{document} W i ∼ Bernoulli 1 1 + exp − ∑ k X ik α k − ϵ W , i
+
+Combining these values, we construct the mean values of a gene expression g for an individual i by a generalized linear model: \documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$$ \ln {\lambda}_{gi}=\underset{\mathrm{disease}\ \mathrm{effect}}{\underbrace{\tau_g{W}_i}}+\underset{\mathrm{confounding}\ \mathrm{effect}}{\underbrace{\sum \limits_{k=1}^{d_C}{X}_{ik}{\beta}_{kg}}}+\underset{\mathrm{batch}\ \mathrm{effect}}{\underbrace{\sum \limits_{l=1}^{d_B}{B}_{il}{\gamma}_{lg}}}+{\epsilon}_{\lambda }, $$\end{document} ln λ g i = τ g W i ⏟ disease effect + ∑ k = 1 d C X i k β k g ⏟ confounding effect + ∑ l = 1 d B B i l γ l g ⏟ batch effect + ϵ λ ,
+
+where the covariate effect \documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$$ {\beta}_{kg}\sim \mathcal{N}\left(0,{\sigma}_{X,B\to Y}^2/\left({d}_C+{d}_B\right)\right),{\gamma}_{lg}\sim \mathcal{N}\left(0,{\sigma}_{X,B\to Y}^2/\left({d}_C+{d}_B\right)\right) $$\end{document} β k g ∼ N ( 0 , σ X , B → Y 2 / ( d C + d B ) ) , γ l g ∼ N ( 0 , σ X , B → Y 2 / ( d C + d B ) ) , gene-level causal effect \documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$$ {\tau}_g\sim \mathcal{N}\left(0,{\sigma}_{W\to Y}^2\right) $$\end{document} τ g ∼ N ( 0 , σ W → Y 2 ) , and the residuals \documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$$ {\epsilon}_{\lambda}\sim \mathcal{N}\left(0,1-{\sigma}_{X\to Y}^2-{\sigma}_{W\to Y}^2\right) $$\end{document} ϵ λ ∼ N ( 0 , 1 − σ X → Y 2 − σ W → Y 2 ) . Using the individual-level mean values λ , we stochastically generated cell-level expressions by multiplying the individual-level average expressions with random sequencing depth ( ρ ), sampled from ρ ∼ Gamma(6.25, 6.25). For each cell j , \documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$$ {Y}_{gj}\sim \mathrm{Poisson}\left({\lambda}_{gi}{\rho}_j\right). $$\end{document} Y gj ∼ Poisson λ gi ρ j .
+
+Once we have estimated different types of pseudo-bulk data, we ranked genes based on Wilcoxon’s rank-sum test [ 27 ] implemented in R and constructed receiver-operating and precision-recall curves to calculate the power and AUPRC using DescTool [ 28 ] implemented in R.
+
+Here, we show and compare the performance of differential analysis conducted on the five different pseudo-bulk data: CoCoA: individual-level disease effects δ gi estimated by CoCoA-diff algorithm (Fig. 1c , step 3). Confounder: the confounder effects μ gi estimated by CoCoA-diff algorithm (Fig. 1c , step 2) Bayesian: Bayesian estimate of pseudo-bulk expression averaged over cells within each individual ( μ gi δ gi combined, not decomposed). Mean: arithmetic mean of cell-level expressions within each individual ( \documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$$ {\left|{S}_i\right|}^{-1}\sum \limits_{j\in {S}_i}{Y}_{gj} $$\end{document} S i − 1 ∑ j ∈ S i Y g j ). Total: summation of cell-level expressions within each individual \documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$$ \left({\sum}_{j\in {S}_i}{Y}_{gj}\right) $$\end{document} ( ∑ j ∈ S i Y g j ) .
+
+CoCoA: individual-level disease effects δ gi estimated by CoCoA-diff algorithm (Fig. 1c , step 3).
+
+Confounder: the confounder effects μ gi estimated by CoCoA-diff algorithm (Fig. 1c , step 2)
+
+Bayesian: Bayesian estimate of pseudo-bulk expression averaged over cells within each individual ( μ gi δ gi combined, not decomposed).
+
+Mean: arithmetic mean of cell-level expressions within each individual ( \documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$$ {\left|{S}_i\right|}^{-1}\sum \limits_{j\in {S}_i}{Y}_{gj} $$\end{document} S i − 1 ∑ j ∈ S i Y g j ).
+
+Total: summation of cell-level expressions within each individual \documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$$ \left({\sum}_{j\in {S}_i}{Y}_{gj}\right) $$\end{document} ( ∑ j ∈ S i Y g j ) .
+
+In addition, we considered a cell-level differential expression method although such cell-level model estimation/hypothesis test violates exchangeability assumptions across different individuals (Fig. 1a ). MAST: Model-based Analysis of Single-cell Transcriptomics [ 29 ] implemented in R
+
+MAST: Model-based Analysis of Single-cell Transcriptomics [ 29 ] implemented in R
+
+We repeated our experiments 20 times for all the different configurations and summarized the performance by the area under the precision-recall curve (AUPRC), varying the gene expression variance caused by disease ( \documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$$ 0\le {\sigma}_{W\to Y}^2\le 0.3 $$\end{document} 0 ≤ σ W → Y 2 ≤ 0.3 ) and the number of individuals (from 10 to 40), also considering a different number of cells per individual (20 and 50). Since our method primarily focuses on adjusting confounding factors ( X variables in Fig. 2a ), we highlight the results, where all the five covariates act as a confounder (Fig. 2b ). However, we generally reached qualitatively a similar conclusion in further experiments, where batch effect variables ( B variables in Fig. 2a ) coexist with confounding effects (see Fig. S2 for the details). The performance gap between the CoCoA-diff and other pseudo-bulk analysis methods persists in almost all cases, regardless of the sample size of individuals and cells. As expected, causal genes are located at the bottom of the list ranked by confounding effects, yielding poor AUPRC scores. The cell-level DEG analysis (MAST) performed better than other pseudo-bulk methods only if the number of individuals is few ( N = 10). Considering that model fitting based on cell-level data generally demands higher computational costs, individual-level pseudo-bulk analysis is better suited for DEG analysis if the data come with sufficient sample size (individuals) and case-control labels were assigned at an individual level.
+
+As demonstrated by previous analysis [ 14 ], we also confirmed that pseudo-bulk methods effectively control type I errors (Fig. 2c–e ). However, a cell-level test often produces an inflated p-value histogram; thus, a subsequent empirical FDR estimation method, such as qvalue [ 30 , 31 ], ends up drawing a decision boundary at a wrong p value cutoff. Even when we included no causal effect, the cell-level method (MAST) predicted that a high fraction of genes are differentially expressed, whereas the other pseudo-bulk-based methods, including CoCoA-diff, made almost no discoveries (Fig. 2c ). As long as we keep the contributions from confounding effects low, all the pseudo-bulk methods conservatively (and correctly) control type I errors (Fig. 2d ). We found that CoCoA-diff might loosely control type I errors, higher than desired by an empirical false discovery rate (eFDR) calibration method when the simulated data were contaminated by confounding factors (Fig. 2e ). We define eFDR as the fraction of positive discovery when multiple hypothesis-adjusted q values were empirically calibrated by qvalue [ 30 , 31 ] package controlled at 1%.
+
+In some sense, the loosened type I error control can arise due to the suboptimal choice of the k-Nearest Neighbour parameter in the cell-cell matching step. We evaluated the performance of the CoCoA-diff methods with different settings of the k -NN parameters (Fig. 2f ) and calculated eFDR (Fig. 2g ). When confounding effects are absent ( \documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$$ {\sigma}_{X,B\to Y}^2=0 $$\end{document} σ X , B → Y 2 = 0 ), the k parameter does not affect the AUPRC performance and eFDR for k > 1. However, a sufficient number of k -nearest neighbours are required for large confounding effects ( \documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$$ {\sigma}_{X,B\to Y}^2=0.5 $$\end{document} σ X , B → Y 2 = 0.5 ); in our experiments, the AUPRC scores saturated after k ≥ 50 (Fig. 2f ) and the eFDR levels decreased when a larger k -nearest neighbours were used to control confounding effects.
+
+We further conducted simulation experiments, where the conditional ignorability [ 17 , 18 ] assumption no longer holds due to feedback loops on causal genes and leaking causal effects (see Fig. S1 a). In particular, we infused the first principal component (PC) of disease effects on causal genes and reintroduced collider effects shared between the causal and non-causal genes. Unfortunately, unlike confounding variables, adjusting a collider between multiple variables creates spurious associations between them [ 32 ]. Moreover, having such a collider variable creates substantial challenges in eFDR calibrations for all the methods (Fig. S1 b). However, in terms of gene ranking tasks, CoCoA-diff-adjusted pseudo-bulk analysis still outperforms other methods, consistently across many different settings (Fig. S2 c).
+
+We reanalyzed published single-nuclei RNA-seq (snRNA-seq) data of 48 individuals in postmortem brain samples [ 22 ]. To our knowledge, this is one of the largest snRNA-seq data on case-control disease studies. Of the 48 individuals, we included 40 individuals for differential expression analysis because we found no case-control disease labels on the reaming eight individuals.
+
+We directly annotated the cell types of these 70,634 cells using the list of cell-type-specific genes provided by the PsychENCODE project [ 33 ]. Of the total 2648 PsychENCODE marker genes, we used 1726 genes expressed in this data set as features (Fig. S3 ). We identified the eight cell-type clusters of cells while estimating a mixture of von Mises-Fisher distributions, measuring cells’ likelihood to centroids by angular distance (see the “Methods” section). We found that this gene-to-cell-type membership information was sufficient enough to distinguish eight cell types. These eight cell types include expiatory (Ex) and inhibitory neurons (In), oligodendrocytes (Oligo), oligodendrocyte progenitor cells (OPC), microglia, astrocytes (Astro), pericytes (Per), and endothelial cells (Endo). We found that our annotation almost perfectly agrees with the original paper’s cell type annotation (Fig. S4 ). We also found that cell types correspond to unique cell clusters after BBKNN (batch-balancing k-Nearest Neighbour) [ 34 ] preprocessing (Fig. 3a ), showing no apparent bias induced by other demographic and pathological variables (Fig. S5 ). Moreover, we further dissected four different cortical layer-specific cell types for excitatory neurons (Fig. 3b ) and four different subtypes for inhibitory neurons (Fig. 3c ) using a refined set of marker genes provided by previous single-nucleus analysis [ 35 ]. Fig. 3 The case study of Alzheimer’s disease snRNA-seq profiles [ 22 ]. Cell-type-stratified approach improves statistical power and interpretation of differential expression analysis. a UMAP projection of the major cell types. b UMAP projection of the excitatory neuron subtypes. c UMAP projection of the inhibitory neuron subtypes. d Cell type decomposition of the major cell types across 48 individuals. e Cell type decomposition of the excitatory neurons across 48 individuals. f Cell type decomposition of the inhibitory neurons across 48 individuals. g , h Cell-type-stratified CoCoA-diff approach improves statistical power and identifies genes in a wide spectrum of the cell types. i A genomic view of genes strongly modulated by AD pathology (coloured). Top panel : genomic location of cell-type-specific causal genes; bottom panels : five representative examples of the most significant genes
+
+The case study of Alzheimer’s disease snRNA-seq profiles [ 22 ]. Cell-type-stratified approach improves statistical power and interpretation of differential expression analysis. a UMAP projection of the major cell types. b UMAP projection of the excitatory neuron subtypes. c UMAP projection of the inhibitory neuron subtypes. d Cell type decomposition of the major cell types across 48 individuals. e Cell type decomposition of the excitatory neurons across 48 individuals. f Cell type decomposition of the inhibitory neurons across 48 individuals. g , h Cell-type-stratified CoCoA-diff approach improves statistical power and identifies genes in a wide spectrum of the cell types. i A genomic view of genes strongly modulated by AD pathology (coloured). Top panel : genomic location of cell-type-specific causal genes; bottom panels : five representative examples of the most significant genes
+
+We notice a wide spectrum of cell-type variability across 48 individuals, both in terms of the number of cells and proportions (Fig. 3d ). The Mathys et al. data contain on average 1444 cells per individual, of which 50.65% cells stem from Ex ( N = 726 ± 382 SD), 12.71% cells from In ( N = 182 ± 107), 25.72% cells for Oligo ( N = 380 ± 252), 3.56% cells from OPC ( N = 54 ± 34), 2.43% cells from Microglia ( N = 33 ± 24), 4.94% cells from Astro ( N = 69 ± 46), and 0.1% cells from Endo and Per. We have 726 excitatory neurons per individual (Fig. 3e ), of which 52.62% ( N = 399 ± 250) cells from the layer 4, 33.1% ( N = 233 ± 108) cells from the layer L2/3, 8.26% ( N = 50 ± 28) cells from the cortical layer L5/6 (CC), and 6.03% ( N = 44 ± 31) cells from the layer 5/6. We have 182 inhibitory neurons per individual (Fig. 3c ), consisting of 32.9% ( N = 59 ± 34) cells from inhibitory neurons (VIP), 31.72% ( N = 59 ± 40) cells from inhibitory neurons (PV), 24.51% ( N = 43 ± 26) cells from inhibitory neurons (SST), and 11.1% ( N = 22 ± 17) cells from inhibitory neurons (SV2C).
+
+We investigated the impact of such a high level of cell-type heterogeneity on subsequent differential expression analysis. Tissue-level bulk RNA-seq analysis data can be arguably thought of as an aggregate of single-cell-level expressions. If genes were similarly affected by the disease phenotype in most cell types, we would expect the bulk-level associations to be similar, and cell-type-stratified analysis would benefit less than more of stochasticity—fewer cells per individual. On the other hand, if most disease-responsive genes act through a cell-type-specific mechanism, cell-type-stratified data analysis will improve statistical power and render better biological interpretations in genomics analysis.
+
+Using these cell type annotations, we constructed cell-type-stratified pseudo-bulk data for all the genes and individuals in each cell type independently, treated them as a gene expression matrix, and tested associations of genes with AD status. We also constructed the pseudo-bulk profiles by combining all the cells in each individual, ignoring the cell type annotations, and carried out the same association analysis. It is clearly shown that the number of discoveries (unique genes) dramatically increase with cell-type-specific stratification steps in both studies using CoCoA-diff and total expression profiles (Fig. 3g ). Considering the variety of cell types in each p value cutoff, such cell-type-specific mechanisms are likely to remain hidden in bulk, combined differential analysis but better revealed after taking into account cell type heterogeneity (Fig. 3h ).
+
+We prioritized genes based on testing a hypothesis that the pseudo-bulk profiles processed by CoCoA-diff are differentially ranked by AD pathology (Wilcoxon’s ranksum test) [ 27 ]. We conservatively adjusted putative confounding effects with (100-nearest neighbour search) in a spectral space constructed by 50 principal components. Controlling the false discovery rate (FDR [ 36 ]) < 1%, we found 1648 genes (11.68% of 14,106), consisting of 672 genes found in Ex-L4, 522 in Ex-L2/3, 297 in Ex-L5/6, 210 in In-PV, 98 in Oligo, 84 in Microglia, 80 in Astro, 57 in In-VIP, 49 in OPC, 11 in In-SST, and 4 in In-SV2C. Controlling family-wise error rate (FWER [ 37 ]) at 1%, we found a total of 215 genes (1.52%), which consist of 55 genes found in Ex-L4, 39 in Ex-L2/3, 28 in Ex-L5/6, 28 in Oligo 24 in In-PV, 19 in Microglia, 19 in Astro, 9 in OPC, 7 in In-VIP, and 3 in In-SST.
+
+We confirmed that the CoCoA-diff procedure did not introduce a systematic bias by shrinking variance on the case or control samples (Fig. S8 ). We tested our method on four different phenotypes using twelve cell-type-specifically confounder-adjusted profiles and cell-type-sorted pseudo-bulk data. Moreover, visual inspection of the p value distributions for Wilcoxon’s tests suggests no apparent inflation/deflation in our multiple hypothesis testing (Fig. S9 ).
+
+In addition to the non-parametric ranksum test, we propose a model-based Wald statistic for an individual-level test (for each gene g and an individual i ), namely \documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$$ {Z}_{gi}=\mathbbm{E}\left[\ln \kern0.20em {\delta}_{gi}\right]/\mathbbm{V}\left[\ln \kern0.20em {\delta}_{gi}\right] $$\end{document} Z g i = E [ ln δ g i ] / V [ ln δ g i ] , and the group-wise average disease effect size (ADE) and standard error (SE) for each gene g : \documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$$ {\mathsf{ADE}}_g=\frac{\sum \limits_{i=1}^n\mathbbm{E}\left[\ln \kern0.20em {\delta}_{gi}\right]/{\omega}_i}{\sum \limits_i1/{\omega}_i},{\mathsf{SE}}_g=\sqrt{\frac{1}{\sum \limits_i1/{\omega}_i}}, $$\end{document} A D E g = ∑ i = 1 n E [ ln δ g i ] / ω i ∑ i 1 / ω i , S E g = 1 ∑ i 1 / ω i ,
+
+where \documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$$ {\omega}_i=1/\mathbbm{V}\left[\ln \kern0.20em {\delta}_{gi}\right] $$\end{document} ω i = 1 / V [ ln δ g i ] for brevity (the method). We found that gene-level ADE values are marginally independent of average confounding effects (the top panels of Fig. S10 ). However, we confirmed that average disease effects on the disease samples (ADD) generally align well with the average disease effects computed on the control samples (the bottom, Fig. S10 ).
+
+The false sign rate (FSR) of these Bayesian estimates of ADE and SE can be controlled by an empirical Bayes procedure, such as ashr [ 38 ]. Controlling the FSR of ADEs and FDR of the ranksum tests both below 1%, we found a total of 1330 AD genes (1669 gene and cell type pairs) and an average of 152 (± 206) genes per cell type. Of them, we highlighted 182 genes sampled at most 20 genes within each cell type (Fig. 3i ) and annotated 17 genes specifically acted in the microglia. We found multiple lines of independent evidence to corroborate the causal role of these genes.
+
+Of these top AD genes found in microglial cells, we highlight five genes, including APOE , showing gene expressions upregulated clearly among the AD individuals (the bottom panels of Fig. 3i ). SH3RF3 gene has been found significantly associated with the age at onset of AD in the family-based genome-wide association studies [ 39 ]. Interestingly, regarding Parkinson’s disease, another neurodegenerative disorder, genetic variants located in LHFPL2 have been associated with accelerated onset of the disease by 8 to 12 years [ 40 ]. BLNK plays a key regulatory role in well-known microglia-specific TREM2 signalling pathway [ 41 ] and has been proved to be upregulated with the increase of amyloid β protein [ 42 ]. To some degree, conditional genetic analysis suggested that PTPRJ is a link to explain pleiotropy between late-onset AD and major depressive disorder [ 43 ].
+
+We sought to characterize cell-type-specific mechanisms potentially perturbed by average 1077 (± 1122) significant AD genes found in each cell type (FDR < 20%) using goseq [ 44 ] package. Gene ontology (GO) enrichment analysis shows that DEGs identified in different cell types indeed influence markedly different biological mechanisms. By visual inspection, we can identify cell-type-specific modules of the enriched GO terms in the biological process category (Fig. 4b–d ). For instance, upregulated AD genes found in excitatory neurons are highly enriched in neurodevelopmental pathways, such as “modulation of chemical synaptic transmission” and “regulation of trans-synaptic signalling.” However, microglial DEGs are mostly found in immune-related activities, such as “interferon-gamma-mediated signalling pathway” and “regulation of lymphocyte-mediated immunity,” and oligodendrocyte DEGs enrich terms reflect the functional role of the cell type such as “myelination” and “axon ensheathment.” For the GO terms in the cellular component category, DEGs found in neurons over-represent synapse and axon, but glial cell-type-specific DEGs highlight cell-cell junction and focal adhesion (Fig. 4e ). DEGs found in neurons generally participate in ion channel activities, but we noticed that microglial DEGs are highly relevant to Rho GTPase and cadherin binding activities (Fig. 4f ). Fig. 4 Genes modulated by AD pathology highlight disease mechanisms in relevant cell types in gene ontology enrichment analysis. Ex , expiatory neurons; In , inhibitory neurons; Oligo , oligodendrocytes; OPC , oligodendrocyte progenitor cells; Mic , microglia; Astro , astrocytes. Each box is scaled proportional to the level of enrichment significance ( p value), and the colour gradient marks the number genes overlapped in each keyword and cell type. a The number of significant genes modulated by AD pathology. b – d Top gene ontology terms in biological process over-represented by cell-type-specific AD genes. e Top gene ontology terms in cellular component over-represented by cell-type-specific AD genes. f Top gene ontology terms in molecular function over-represented by cell-type-specific AD genes
+
+Genes modulated by AD pathology highlight disease mechanisms in relevant cell types in gene ontology enrichment analysis. Ex , expiatory neurons; In , inhibitory neurons; Oligo , oligodendrocytes; OPC , oligodendrocyte progenitor cells; Mic , microglia; Astro , astrocytes. Each box is scaled proportional to the level of enrichment significance ( p value), and the colour gradient marks the number genes overlapped in each keyword and cell type. a The number of significant genes modulated by AD pathology. b – d Top gene ontology terms in biological process over-represented by cell-type-specific AD genes. e Top gene ontology terms in cellular component over-represented by cell-type-specific AD genes. f Top gene ontology terms in molecular function over-represented by cell-type-specific AD genes
+
+## Discussion
+We addressed a subset of a causal inference problem that emerges in disease studies. We sought to characterize and estimate the average causal effect of genes between the case and control individuals from observational single-cell data. Delineating confounding and non-causal factors from causal effects is a crucial step to many genomics problems. Not to be trapped in circular reasoning (identifiability issue), the genomics community has been using so-called control genes and samples to extract factors shared in both control and discovery data [ 45 – 47 ]. One of the steps in our algorithm enjoys a similar idea, but there is no need to prescribe control cells or genes for our purposes. Along the same line, only if control features were known a priori, contrastive principal component analysis [ 48 ] could pick out non-causal factors in its latent space. Likewise, only if nuisance variables are independently observed, the variational fair autoencoder model [ 49 ] project cells onto unconfounded (“fair”) latent space.
+
+Our method builds on the outcome regression facilitate by a matching algorithm [ 19 , 20 ]. Like most existing single-cell analysis pipelines, finding reliable k-nearest neighbour cells is a crucial step. If some cells in one condition were poorly matched with other cells in the opposite condition, failing to capture a shared component of confounding effects, our analysis might not work as expected. However, we want to emphasize that a failure of the matching step does not lead to an over-correction of pseudo-bulk data. It is important to understand and reliably quantify to what degree a cell-cell matching procedure can address the intrinsic and another technical variability of a single-cell RNA-seq data matrix.
+
+A sparsity of single-cell data still casts a wide range of modelling questions. As we only consider the average effect within each individual, and we take a simple model that is just enough to capture our estimands. We ignored the notion of zero-inflation since we treat single-cell data as a count matrix, not being transformed by logarithm [ 50 ]. However, future research can take advantage of more sophisticated modelling of the individual- and cell-level observations [ 51 ], perhaps involving latent variables for representational learning.
+
+## Conclusions
+We present a causal inference method that identifies and removes putative confounding effects from single-cell RNA-seq data so that the subsequent differential expression analysis can become unbiased and gain more statistical power. We have empirically shown that CoCoA-diff improved the downstream data analysis in extensive simulation experiments. We also demonstrated in real-world snRNA-seq data that the CoCoA-diff approach was necessary to reveal both well-established and novel causal genes in AD. Our work is the first application of counterfactual inference to single-cell genomics to the best of our knowledge. We expect that many existing inference methods and models can be reformulated in the same causal inference framework. More broadly, we believe that causal inference methods can improve the interpretation of genomics analysis and ultimately benefit translation researches.
+
+## Methods
+We describe the single-cell RNA-seq data-generating process in a Poisson-Gamma hierarchical model. For each individual, we measure thousands of gene expression on nearly a thousand cells. Here, we denote each individual, gene, and cell by index i , g , j , respectively. We model the expression count Y gj of a gene g in a cell j follows Poisson distribution with the composite rate parameter, λ gi ρ j , where λ gi quantifies the gene’s mean activity in the corresponding individual i , and ρ j accounts for the sequencing depth of a cell j . More precisely, we define the likelihood of Y gj : \documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$$ f\left({Y}_{gj};{\lambda}_{gi}{\rho}_j\right)=\frac{{\left({\lambda}_{gi}{\rho}_j\right)}^{Y_{gj}}}{\Gamma \left({Y}_{gj}+1\right)}\exp \left(-{\lambda}_{gi}{\rho}_j\right). $$\end{document} f ( Y g j ; λ g i ρ j ) = ( λ g i ρ j ) Y g j Γ ( Y g j + 1 ) exp ( − λ g i ρ j ) .
+
+We assume the gene and cell parameters, λ , ρ , follow a conjugate prior distribution (Gamma); more precisely, we parameterize the density function: \documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$$ \mathsf{Gamma}\left(\theta |a,b\right)\equiv {b}^a/\Gamma (a){\theta}^{a-1}\exp \left(- b\theta \right) $$\end{document} Gamma ( θ | a , b ) ≡ b a / Γ ( a ) θ a − 1 exp ( − b θ ) . We assume smooth a prior distribution for the ρ and λ parameters, namely \documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$$ {\rho}_j,{\lambda}_{gi}\sim \mathsf{Gamma}\left(1,1\right) $$\end{document} ρ j , λ gi ∼ Gamma 1 1 . A smaller value for the hyperparameters, such as \documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$$ \mathsf{Gamma}\left({10}^{-4},{10}^{-4}\right) $$\end{document} Gamma 10 − 4 10 − 4 , could encourage the effect of prior distributions vanish; however, we found it often results in numerically unstable posterior estimation when RNA-seq samples are shallowly sampled.
+
+For the gene parameter λ gi , if we defined its distribution: \documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$$ {\lambda}_{gi}\sim \mathsf{Gamma}\left({\phi}^{-1},{\phi}^{-1}/{\mu}_{gi}\right) $$\end{document} λ gi ∼ Gamma ϕ − 1 ϕ − 1 / μ gi , we would have \documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$$ \mathbbm{E}\left[\lambda \right]=\mu $$\end{document} E [ λ ] = μ and \documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$$ \mathbbm{V}\left[\lambda \right]={\mu}^2\phi $$\end{document} V [ λ ] = μ 2 ϕ . Integrating out the uncertainty over λ , we derive the following negative binomial model: \documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$$ f\left({Y}_{gj};{\mu}_{gi}{\rho}_j,\phi \right)=\frac{\Gamma \left({Y}_{gj}+{\phi}^{-1}\right)}{\Gamma \left({Y}_{gj}+1\right)\Gamma \left({\phi}^{-1}\right)}{\left(\frac{1}{1+{\mu}_{gi}{\rho}_j\phi}\right)}^{1/\phi }{\left(\frac{\mu_{gi}{\rho}_j}{\mu_{gi}{\rho}_j+1/\phi}\right)}^{Y_{gj}}, $$\end{document} f ( Y g j ; μ g i ρ j , ϕ ) = Γ ( Y g j + ϕ − 1 ) Γ ( Y g j + 1 ) Γ ( ϕ − 1 ) ( 1 1 + μ g i ρ j ϕ ) 1 / ϕ ( μ g i ρ j μ g i ρ j + 1 / ϕ ) Y g j ,
+
+which preserves the characteristic quadratic relationship between the mean and variance: \documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$$ \mathbbm{V}\left[Y\right]=\mathbbm{E}\left[Y\right]+\mathbbm{E}{\left[Y\right]}^2\phi $$\end{document} V [ Y ] = E [ Y ] + E Y 2 ϕ .
+
+We estimate the posterior distribution of λ gi and ρ j by minimizing Kullback-Leibler divergence between the joint likelihood \documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$$ \mathcal{L}\equiv \prod \limits_{gj}f\left({Y}_{gj};{\lambda}_{gi},{\rho}_j\right)f\left(\lambda \right)f\left(\rho \right) $$\end{document} L ≡ ∏ g j f ( Y g j ; λ g i , ρ j ) f ( λ ) f ( ρ ) and the fully factored variational distributions [ 52 ], \documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$$ q\left(\lambda \right)=\mathsf{Gamma}\left(\lambda |{\alpha}_{\lambda },{\beta}_{\lambda}\right) $$\end{document} q λ = Gamma λ α λ β λ and \documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$$ q\left(\rho \right)=\mathsf{Gamma}\left(\rho |{\alpha}_{\rho },{\beta}_{\rho}\right) $$\end{document} q ρ = Gamma ρ α ρ β ρ . We can quickly reach convergence by alternating the following update equations: \documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$$ {\mathbbm{E}}_q\kern0ex \left[{\lambda}_{gi}\right]\leftarrow \frac{\sum \limits_j{Y}_{gj}+1}{\sum \limits_j\mathbbm{E}\kern0ex \left[{\rho}_j\right]+1},\kern1em {\mathbbm{E}}_q\kern0ex \left[{\rho}_j\right]\leftarrow \frac{\sum \limits_g{Y}_{gj}+1}{\sum \limits_g\mathbbm{E}\kern0ex \left[{\lambda}_{gi}\right]+1}. $$\end{document} E q [ λ g i ] ← ∑ j Y g j + 1 ∑ j E [ ρ j ] + 1 , E q [ ρ j ] ← ∑ g Y g j + 1 ∑ g E [ λ g i ] + 1 .
+
+Here, we first initialize \documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$$ \mathbbm{E}\left[{\rho}_j\right]=1 $$\end{document} E [ ρ j ] = 1 for all j , and add pseudo-count 1 on both numerators and denominators because of the prior distribution of ρ and λ .
+
+We assume binary treatment assignment and denote disease assignment (or nature’s treatment) by W ∈ {0, 1}. We denote an individual have suffered from a disease by W = 1 and the healthy one by W = 0. For clarity, we introduce the potential outcome notations to the gene expression variables. Let \documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$$ {Y}_{gj}^{(w)} $$\end{document} Y gj w be gene expression of a gene g in a cell j if this expression value was observed from an individual with a disease label W = w . For a disease individual, Y (1) is the same as observed Y value, but Y (0) is unknown, requiring counterfactual inference; for the opposite case, a healthy individual, Y (0) is observed, but Y (1) is counterfactual. To proceed, we assume the following causal assumptions [ 18 , 20 , 53 ]: (1) The disease assignment mechanism ( W ) is unconfounded with potential outcomes Y (0) , Y (1) , conditioning on some covariates X . (2) There is sufficient overlap between the case and control cells with respect to the covariates X . In other words, in almost every X = x , we have 0 < P ( W = 1| X = x ) < 1.
+
+How do we find the counterfactual Y (1 − w ) for the observed Y ( w ) ? We construct feature vectors for potential outcome prediction by searching k -nearest neighbours (k-NN) from the cells belonging to the opposite conditions. To avoid the curse of dimensionality, we first perform spectral decomposition of single-cell data matrix and efficiently search k -NN on the spectral domain with hierarchical hashing algorithm [ 54 ]. Using these counterfactually matched cells, we construct feature matrix with each element \documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$$ {F}_{gk}^{\left(1-w\right)}=\log \left(1+{Y}_{gk}^{\left(1-w\right)}\right) $$\end{document} F gk 1 − w = log 1 + Y gk 1 − w and quickly estimate regression coefficients β ’s in the Poisson regression by coordinate-wise descent method [ 55 ]: \documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$$ \mathsf{Poisson}\left({Y}_{gj}^{(w)}|\exp \left\{\sum \limits_{j^{\prime }=1}^k{F}_{gj\prime}^{\left(1-w\right)}{\beta}_{j\prime }+{\beta}_0+\epsilon \right\}\right) $$\end{document} P o i s s o n ( Y g j ( w ) | exp { ∑ j ′ = 1 k F g j ′ ( 1 − w ) β j ′ + β 0 + ϵ } )
+
+where β 0 captures the intercept term.
+
+Given the optimized coefficients, we predict the potential outcome \documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$$ {\hat{Y}}_{gj}^{\left(1-w\right)}\leftarrow \exp \left(\sum \limits_{j^{\prime}}^k{F}_{gj\prime}^{\left(1-w\right)}{\hat{\beta}}_{j\prime }+{\hat{\beta}}_0\right) $$\end{document} Y ^ gj 1 − w ← exp ∑ j ′ k F gj ′ 1 − w β ^ j ′ + β ^ 0 , ignoring the residual errors ( ϵ ). We also considered a non-parametric imputation method which takes weighted average over the matched cells [ 34 , 56 , 57 ]. Although such non-parametric methods are frequently used in single-cell data analysis, we found that Poisson regression yields more robust performance with fewer neighbouring cells than the other kNN-based imputation methods.
+
+After the matching followed by the regression, we have observed \documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$$ {Y}_{gj}^{(w)} $$\end{document} Y gj w and counterfactual \documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$$ {\hat{Y}}_{gj}^{\left(1-w\right)} $$\end{document} Y ^ gj 1 − w . By construction, one of them carry disease-relevant effects unlike the other one. However, both of them can provide disease-invariant information that implicate potential confounding effects, denoted by μ gi for a gene g and individual i : \documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$$ \mathcal{L}^{\prime }=\prod \limits_j\prod \limits_g\prod \limits_{w=0}^1\mathsf{Poisson}\left({Y}_{gj}^{(w)}|{\mu}_{gi}{\rho}_j^{(w)}\right), $$\end{document} L ′ = ∏ j ∏ g ∏ w = 0 1 Poisson Y gj w μ gi ρ j w ,
+
+where we introduce the conditional-specific sequencing depth parameters ρ ( w ) . However, note that μ gi is shared and label-invariant.
+
+We estimate the posterior mean of μ gi by variational Bayes by alternating the following update equations until convergence: \documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$$ {\mathbbm{E}}_q\kern0ex \left[{\mu}_{gi}\right]=\frac{1+\sum \limits_{w^{\prime }=0}^1\sum \limits_j{Y}_{gj}^{\left(w\prime \right)}}{1+\sum \limits_{w^{\prime }=0}^1\sum \limits_j{\mathbbm{E}}_q\kern0ex \left[{\rho}_j^{\left(w\prime \right)}\right]},\kern1em {\mathbbm{E}}_q\kern0ex \left[{\rho}_j^{(w)}\right]=\frac{1+\sum \limits_g{Y}_{gj}^{(w)}}{1+\sum \limits_g{\mathbbm{E}}_q\kern0ex \left[{\mu}_{gi}\right]}, $$\end{document} E q [ μ g i ] = 1 + ∑ w ′ = 0 1 ∑ j Y g j ( w ′ ) 1 + ∑ w ′ = 0 1 ∑ j E q [ ρ j ( w ′ ) ] , E q [ ρ j ( w ) ] = 1 + ∑ g Y g j ( w ) 1 + ∑ g E q [ μ g i ] ,
+
+for all w ∈ {0, 1}.
+
+While fixing the value \documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$$ {\hat{\mu}}_{gi} $$\end{document} μ ^ gi to its (variational) posterior mean \documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$$ {\mathbbm{E}}_q\kern0ex \left[{\mu}_{gi}\right] $$\end{document} E q [ μ g i ] , we redeem the confounder-adjusted mean parameters δ gi , by maximizing the data likelihood: \documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$$ \mathcal{L}^{{\prime\prime} }=\prod \limits_j\prod \limits_g\mathsf{Poisson}\left({Y}_{gj}|{\hat{\mu}}_{gi}{\delta}_{gi}{\rho}_j\right) $$\end{document} L ″ = ∏ j ∏ g Poisson Y gj μ ^ gi δ gi ρ j
+
+Again, the posterior distributions are found by alternating the following update equations: \documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$$ \mathbbm{E}\kern0ex \left[{\delta}_{gi}\right]\leftarrow \frac{1+\sum \limits_j{Y}_{gj}}{1+{\hat{\mu}}_{gi}\sum \limits_j\mathbbm{E}\kern0ex \left[{\rho}_j\right]},\kern1em {\mathbbm{E}}_q\kern0ex \left[{\rho}_j\right]\leftarrow \frac{1+\sum \limits_g{Y}_{gj}+1}{1+\sum \limits_g{\hat{\mu}}_{gi}\mathbbm{E}\kern0ex \left[{\delta}_{gi}\right]}. $$\end{document} E [ δ g i ] ← 1 + ∑ j Y g j 1 + μ ^ g i ∑ j E [ ρ j ] , E q [ ρ j ] ← 1 + ∑ g Y g j + 1 1 + ∑ g μ ^ g i E [ δ g i ] .
+
+Since the δ gi variable follows Gamma distribution, we also have \documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$$ {\mathbbm{E}}_q\kern0ex \left[\ln \kern0.20em {\delta}_{gi}\right]=\psi \left(1+\sum \limits_j{Y}_{gj}\right)-\log \left(1+{\hat{\mu}}_{gi}\sum \limits_j\mathbbm{E}\kern0ex \left[{\rho}_j\right]\right), $$\end{document} E q [ ln δ g i ] = ψ ( 1 + ∑ j Y g j ) − log ( 1 + μ ^ g i ∑ j E [ ρ j ] ) ,
+
+where ψ (·) is the digamma function, and approximate its variance, \documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$$ \mathbbm{V}\kern0ex \left[\ln \kern0.20em {\delta}_{gi}\right]={\left(\sum \limits_j{Y}_{gj}\right)}^{-1}. $$\end{document} V [ ln δ g i ] = ( ∑ j Y g j ) − 1 .
+
+See the following derivations of the Gaussian approximation of Gamma distribution.
+
+We approximate the distribution of ln λ by constructing a local quadratic approximation of the original log-probability density function: \documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$$ \ln p\left(\lambda |\alpha, \beta \right)=\left(\alpha -1\right)\ln \lambda -\beta \lambda +\alpha \ln \beta -\mathrm{ln}\Gamma \left(\alpha \right) $$\end{document} ln p ( λ | α , β ) = ( α − 1 ) ln λ − β λ + α ln β − ln Γ ( α )
+
+Letting ϕ = ln λ , we can rewrite the above as: \documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$$ \mathcal{L}=\left(\alpha -1\right)\phi -\beta {e}^{\phi }+\alpha \ln \beta -\mathrm{ln}\Gamma \left(\alpha \right) $$\end{document} L = ( α − 1 ) ϕ − β e ϕ + α ln β − ln Γ ( α )
+
+At some \documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$$ \hat{\phi} $$\end{document} ϕ ^ , we can find a quadratic form: \documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$$ \mathcal{L}\approx -\frac{1}{2}\beta {e}^{\hat{\phi}}{\left(\phi -\left[\hat{\phi}+\frac{\alpha -1-\beta {e}^{\hat{\phi}}}{\beta {e}^{\hat{\phi}}}\right]\right)}^2+\mathrm{const}. $$\end{document} L ≈ − 1 2 β e ϕ ^ ϕ − ϕ ^ + α − 1 − β e ϕ ^ β e ϕ ^ 2 + const .
+
+Setting \documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$$ {e}^{\hat{\phi}}=\left(\alpha -1\right)/\beta $$\end{document} e ϕ ^ = α − 1 / β (the mode of Gamma distribution), we have \documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$$ \mathcal{L}\approx -\frac{1}{2}\left(\alpha -1\right){\left(\phi -\hat{\phi}\right)}^2+\mathrm{const} $$\end{document} L ≈ − 1 2 α − 1 ϕ − ϕ ^ 2 + const
+
+Finally, we have
+
+\documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$$ p\left(\phi |\alpha, \beta \right)\approx \mathcal{N}\left|\left(\phi |\ln \left(\left(\alpha -1\right)/\beta \right),{\left(\alpha -1\right)}^{-1}\right)\right.. $$\end{document} p ϕ α β ≈ N ϕ ln α − 1 / β α − 1 − 1 . In our case, we assumed λ ∼ Gamma(1, 1) a priori and only derived approximate Gaussian whenever we have at least 1 read per individual; therefore, α > 1. However, if 0 < α ≤ 1, we can approximate the Gaussian at λ = α / β , and this results in \documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$$ p\left(\phi |\alpha, \beta \right)\approx \mathcal{N}\left|\left(\phi |\ln \left(\alpha /\beta \right),{\alpha}^{-1}\right)\right.. $$\end{document} p ϕ α β ≈ N ϕ ln α / β α − 1 .
+
+From the above, we derived the posterior distribution of ϕ i (≡ ln λ i ) variables. Let η i = ln(( α i − 1)/ β ) and \documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$$ {\sigma}_i^2={\left({\alpha}_i-1\right)}^{-1} $$\end{document} σ i 2 = α i − 1 − 1 . Then we have \documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$$ {\phi}_i\sim \mathcal{N}\left({\phi}_i|{\eta}_i,{\sigma}_i^2\right) $$\end{document} ϕ i ∼ N ϕ i η i σ i 2 . We can find another variational distribution \documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$$ r\equiv \mathcal{N}\left({\phi}_i|\overline{\eta},{\overline{\sigma}}^2\right) $$\end{document} r ≡ N ϕ i η ‾ σ ‾ 2 averaging over all these individual-level posterior distributions by optimizing the following Kullback-Leibler divergence: \documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$$ D=\ln \int d{\phi}_i\;\frac{q\left({\phi}_i|{\eta}_i,{\sigma}_i^2\right)}{r\left({\phi}_i|\overline{\mu},{\overline{\sigma}}^2\right)}r\left({\phi}_i|\overline{\mu},{\overline{\sigma}}^2\right) $$\end{document} D = ln ∫ d ϕ i q ϕ i η i σ i 2 r ϕ i μ ‾ σ ‾ 2 r ϕ i μ ‾ σ ‾ 2
+
+By Jensen’s inequality, \documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$$ D\ge -\sum \limits_{i=1}^n{\mathbbm{E}}_r\left[\frac{1}{2}\ln {\sigma}_i^2+\frac{1}{2{\sigma}_i^2}{\left({\phi}_i-{\eta}_i\right)}^2\right]+{\mathbbm{E}}_r\left[\frac{1}{2}\ln {\overline{\sigma}}^2+\frac{1}{2{\overline{\sigma}}^2}{\left({\phi}_i-\overline{\eta}\right)}^2\right]+\mathrm{const}. $$\end{document} D ≥ − ∑ i = 1 n E r [ 1 2 ln σ i 2 + 1 2 σ i 2 ( ϕ i − η i ) 2 ] + E r [ 1 2 ln σ ¯ 2 + 1 2 σ ¯ 2 ( ϕ i − η ¯ ) 2 ] + c o n s t .
+
+Optimizing this with respect to \documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$$ \overline{\eta} $$\end{document} η ‾ and \documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$$ \overline{\sigma} $$\end{document} σ ‾ , we have: \documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$$ \overline{\eta}=\frac{\sum \limits_i{\eta}_i/{\sigma}_i^2}{\sum \limits_i1/{\sigma}_i^2},\kern1em {\overline{\sigma}}^2=\frac{1}{\sum \limits_i1/{\sigma}_i^2}. $$\end{document} η ‾ = ∑ i η i / σ i 2 ∑ i 1 / σ i 2 , σ ‾ 2 = 1 ∑ i 1 / σ i 2 .
+
+We classify a cell type of 70,634 cells based on the prior knowledge of cell-type-specific 2648 marker genes on 8 brain cell types [ 33 ]. Using 1726 genes present in our data, we construct a normalized vector m j for each cell with the dimensionality d = 1726 and ∥ m j ∥  = 1. Additionally, we define a label matrix L to designate the activities of the marker genes to the relevant cell types. Each element L gk takes 1 if and only if a gene g ∈ [ d ] is active on a k ∈ [8] cell type; otherwise, we set L jk = 0. We assume that each normalized vector m j follows von Mises-Fisher (vMF) distribution with cell type k -specific mean vector θ k with the concentration parameter κ , shared across all the cell types: \documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$$ \mathcal{L}=C\left(\kappa \right)\prod \limits_{j=1}^n\prod \limits_{k=1}^K{\left[\exp \left(\kappa {\mathbf{m}}_j^{\top }{\boldsymbol{\uptheta}}_k\right)\right]}^{z_{jk}}, $$\end{document} L = C κ ∏ j = 1 n ∏ k = 1 K exp κ m j ⊤ θ k z jk ,
+
+where n = 70634 for the cells and K = 8 for the cell types. Here, we introduce z jk , an indicator variable to mark the assignment of a cell j to a cell type k . Our goal is to estimate the posterior probability of z jk = 1 by stochastic expectation maximization (EM) algorithm. In the E-step, we simply sample the latent membership z jk from the discrete distribution proportional to \documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$$ \exp \left({\mathbf{m}}_j^{\top }{\boldsymbol{\uptheta}}_k\right) $$\end{document} exp m j ⊤ θ k . In the M-step, we maximize the mean and concentration parameters with the cell type constraints L : \documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$$ {\boldsymbol{\uptheta}}_k\leftarrow \frac{\sum \limits_j{z}_{jk}{\mathbf{m}}_j\circ {\mathbf{l}}_k}{\parallel \sum \limits_j{z}_{jk}{\mathbf{m}}_j\circ {\mathbf{l}}_k\parallel },\kern1em \kappa \leftarrow \frac{rd-{r}^3}{1-{r}^2} $$\end{document} θ k ← ∑ j z jk m j ∘ l k ∥ ∑ j z jk m j ∘ l k ∥ , κ ← rd − r 3 1 − r 2
+
+where \documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$$ r=\left\Vert \sum \limits_j{\mathbf{m}}_j\right\Vert /n $$\end{document} r = ‖ ∑ j m j ‖ / n . Derivation for the optimization of κ can be found in the previous work on von Mises Fisher mixture model [ 58 ].
+
+## Supplementary Information
+Additional file 1: Figs. S1 to S10. with the figure legend texts. Additional file 2. Review history
+
+Additional file 1: Figs. S1 to S10. with the figure legend texts.
+
+Additional file 2. Review history

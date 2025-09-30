@@ -1,0 +1,5 @@
+# Title
+A Recessive Mutation in the APP Gene with Dominant-Negative Effect on Amyloidogenesis
+
+# Abstract
+β-Amyloid precursor protein (APP) mutations cause familial Alzheimer’s disease with nearly complete penetrance. We found an APP mutation [alanine-673→valine-673 (A673V)] that causes disease only in the homozygous state, whereas heterozygous carriers were unaffected, consistent with a recessive Mendelian trait of inheritance. The A673V mutation affected APP processing, resulting in enhanced β-amyloid (Aβ) production and formation of amyloid fibrils in vitro. Co-incubation of mutated and wild-type peptides conferred instability on Aβ aggregates and inhibited amyloidogenesis and neurotoxicity. The highly amyloidogenic effect of the A673V mutation in the homozygous state and its anti-amyloidogenic effect in the heterozygous state account for the autosomal recessive pattern of inheritance and have implications for genetic screening and the potential treatment of Alzheimer’s disease.

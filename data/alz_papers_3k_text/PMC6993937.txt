@@ -1,0 +1,1139 @@
+# Title
+Transcription-factor mediated differentiation of human iPSCs into neurons
+
+# Abstract
+Accurate modeling of human neuronal cell biology has been a long-standing challenge. However, methods to differentiate human induced pluripotent stem cells (iPSCs) to neurons have recently provided experimentally tractable cell models. Numerous methods that use small molecules to direct iPSCs into neuronal lineages have arisen in recent years. Unfortunately, these methods entail numerous challenges, including poor efficiency, variable cell-type homogeneity, and lengthy, complicated, and expensive differentiation procedures. We recently developed a new method to generate stable transgenic lines of human iPSCs with doxycycline-inducible transcription factors at safe-harbor loci. Using a simple two-step protocol, these lines can be inducibly differentiated into either cortical (i 3 Neurons) or lower motor neurons (i 3 LMN) in a rapid, efficient, and scalable manner 1 . In this manuscript, we describe a set of protocols to assist investigators in the culture and genetic engineering of iPSC lines to enable transcription-factor mediated differentiation of iPSCs into i 3 Neurons or i 3 LMNs, and we present neuronal culture conditions for various experimental applications.
+
+## INTRODUCTION
+Neurons are the primary information-processing cells in higher eukaryotes, performing essential functions in stimulus reception, signal transmission, and adaptive responses. In humans, neuronal dysfunction can cause a variety of clinical disorders, including developmental conditions such as autism, psychiatric illnesses such as schizophrenia, and degenerative diseases such as Alzheimer’s dementia. Neurons are unique among cell types in their large and functionally polarized structure, post-mitotic state, and electrochemical activity. The human nervous system is unique in both its complexity and susceptibility to disease, and animal models often fail to recapitulate key characteristics of human neuronal disorders 2 , 3 . In order to understand normal human neuronal physiology as well as how cells and networks malfunction in disease, better experimental models of neuronal cell biology are needed.
+
+Historically, the two main in vitro model systems for studying cellular and molecular neuroscience have been rodent primary neurons and human immortalized cell lines. Primary rodent neurons have specialized machinery unique to neurons, but as they originate from another species, these cells may not recapitulate relevant aspects of human genetics or disease pathophysiology 4 , 5 . Practically, primary neurons are time consuming to isolate, can vary in quality from preparation to preparation, are difficult to scale for some applications, and are difficult to genetically engineer once isolated. Human immortalized lines such as HeLa, HEK293T, and U2OS, along with neuroblastoma lines such as SH-SY5Y, circumvent many of these challenges; they are easily cultured, relatively homogenous, scalable, and readily manipulated genetically. However, they have widespread and unstable genotypic abnormalities and lack a truly neuronal phenotype, and so are poorly suited to study neuron-specific biology such as axonal or synaptic phenomena.
+
+The first derivation of human embryonic stem cell lines in 1998 was soon followed by techniques to manipulate developmental pathways in order to promote differentiation into cell types of interest 6 – 8 . The scalability and genetic tractability of stem cells finally permitted large populations of human neuron-like cells to be grown in vitro , and for the first time human neuronal cell culture became a viable model system. The landmark development of induced pluripotent stem cell (iPSC) technology further enabled the reprogramming of patient-derived cells to establish stem cell lines capable of differentiating and recapitulating cellular disease phenotypes in culture 9 . The field quickly embraced these transformative tools 10 , 11 , and together, their success revolutionized the study of human neurobiology; no longer were scientists limited to choosing between cell-type and species specificity, and the use of stem cells greatly facilitated genetic engineering. Still, initial methods for differentiating iPSCs to neurons or neural precursors were far from simple; all involved complex media formulations and lengthy protocols 12 – 14 . Recent approaches have simplified the process by employing primarily small molecules, and the use of overexpressed or inducibly-expressed transcription factors have simplified it further.
+
+Most small molecule-based differentiation approaches rely on a combination of pathway inhibitors (e.g., noggin, SB431542) to drive ES or iPS cells toward neuroectodermal development. This process results in neural progenitor cells (NPCs), which must be coaxed to differentiate further with different small molecules and growth factors to finally produce the desired neuronal subpopulation. There are three major drawbacks with these strategies: small molecules are not highly efficient, individual cells transduce signals at different rates, and different iPSC clones (even from the same patient) can respond differently to the same small molecules. Together, this leads to a mixed population of neural progenitors and various neural and glial cell types, producing batch-to-batch and line-to-line variability. Particularly for long-term cultures, proliferative cells can quickly outcompete post-mitotic neurons of interest, and the presence of multiple cell types complicates downstream analysis, especially for high-throughput microscopy screens or “–omics” applications. Finally, small molecule-based methods are often laborious, expensive, and slow. From a survey of articles describing small molecule-mediated iPSC differentiation to neurons in the past year 15 – 17 , timelines extended from 13 to 70 days, and involved between 4 to 6 media formulation changes over those periods. This technical and time burden decreases laboratory output, increases the likelihood of contamination, and creates barriers to entry for new users.
+
+Transcription factor overexpression is a new approach to neuronal differentiation from iPSCs that circumvents many challenges associated with small molecule pathway inhibitors. Initially demonstrated by Zhang et al . in 2013, overexpression of the master neuronal transcriptional regulator neurogenin-2 (NGN2) results in rapid, one-step differentiation of iPSCs to functionally mature glutamatergic cortical neurons 18 . Similar results were independently obtained by the study of Busskamp et al . in 2014, in which NGN2 was virally delivered and inducibly expressed in iPSCs, resulting in synaptically mature cells in 14 days 19 . Both studies recorded upwards of 90% differentiation efficiency and purity, as measured by immunostaining of characteristic cortical neuron markers. With fewer media changes and relatively rapid differentiation time, NGN2 overexpression offers an appealing alternative to small molecule differentiation strategies.
+
+The set of protocols described here follows an improvement to the NGN2 method by Wang and Ward, et al . (2017) 1 . In that study, the neurogenin-2 transgene was stably integrated into a safe-harbor locus in iPSCs under a doxycycline-inducible promoter. Clonal isolation of this stably integrated line enables near 100% efficiency and purity of differentiation to glutamatergic cortical neurons within the previously observed 14 day timeline and simplifies differentiation to a two-step protocol. These cells, termed i 3 Neurons (integrated, inducible, and isogenic) offer a substantial improvement in efficacy and ease-of-use over other existing iPSC-to-neuron differentiation strategies.
+
+Here we provide a detailed set of protocols for the generation and use of i 3 Neurons, and a related technique to generate lower motor neurons (i 3 LMNs), which also includes overexpression of the transcription factors Islet-1 (ISL1) and LIM Homeobox 3 (LHX3) along with NGN2. The described techniques mostly require only basic laboratory instrumentation and reagents, and can be completed without any specific training beyond mammalian cell culture proficiency, making them appealing to a wide range of laboratories. Basic Protocols 1–4 provide an update on the state of the art of human iPSC culture and transgenic line generation, with Support Protocol 1 describing a genotyping strategy for confirming stably integrated lines. Basic Protocols 5–8 discuss the differentiation and culture of i 3 Neurons and i 3 LMNs, with Support Protocols 2–5 providing specific instructions on immunocytochemistry, transfection, transduction, and live imaging of differentiated neurons. Support Protocols 6–7 provide instructions on assessing induction efficiency as well as optional culture supplementation with astrocytes.
+
+## BASIC PROTOCOL 1: MAINTENANCE CULTURE OF iPSCs
+Human iPSCs are an ideal system for studying human biology due to their rapid proliferation, genomic stability, and ability to differentiate into many somatic cell types. Historically, specialized culture practices and costly reagents have hindered widespread adoption of iPSCs by the cell biology community. In recent years, however, development of new culture techniques and improved media formulations have dramatically simplified iPSC culture and reduced costs.
+
+The protocols described below are adapted from a collection of publications that establish optimal practices for the maintenance of human iPSC cultures 20 – 22 . While these publications provide useful guidelines for the stem cell novice, here we distill the fundamental procedures necessary for maintaining iPSCs in a pluripotent state and highlight critical steps that may need to be optimized for individual applications. In practice, iPSC lines of interest are usually maintained in an undifferentiated state in small cultures (1–3 wells of a 6-well plate) to reduce reagent use before being expanded as needed for experimentation.
+
+E8 may be prepared from its components by the consumer ( Table 1A ) 20 or purchased as a pre-formulated kit. Other commercially available media may be substituted, such as mTeSR1 or StemFlex. 12mL medium should be added to each 10cm tissue culture dish or distributed evenly across each standard multiwell plate (i.e., 2 mL/well for a 6-well plate). E8 should be aspirated and replaced with fresh medium daily, although a double volume may be added at low confluency to permit an extra day of culture without medium changes. StemFlex and E8 Flex contain components that stabilize the recombinant growth factors present in the medium, permitting medium exchange every other day as a general practice. Some iPSC lines (e.g., WTC11) tolerate every-other-day medium changes of standard E8 medium without loss of pluripotency or cell death, further reducing costs of medium and consumables. Finally, mTeSR1 may promote cell survival in stressful conditions better than E8, especially for finicky iPSC lines, although supplementation with a ROCK inhibitor (RI) is also recommended in such scenarios. Use of standard E8 will be assumed throughout this basic protocol.
+
+Additionally, this protocol uses Matrigel-coated tissue culture plates. Matrigel works well for iPSC culture and has been widely adopted for research applications. However, since Matrigel is derived from murine sarcoma cells, it is not chemically defined and exhibits batch-to-batch variability. Alternative defined coatings include recombinant laminin or vitronectin, although these substrates are typically more costly. Notably, downstream neural differentiation described in these protocols occurs in fully defined conditions (see Basic Protocols 5–8), so the choice of iPSC substrate is of minimal scientific importance to all but clinical-grade applications.
+
+Human induced pluripotent stem cells (hiPSCs)
+
+E8 medium (may be user-formulated as per Table 1A or purchased pre-formulated as Gibco A1517001; may also be substituted with E8 Flex, Gibco A2858501; StemFlex, Gibco A3349401; mTeSR1, STEMCELL Technologies #85850; or similar)
+
+DMEM/F12 medium (Gibco 11320033)
+
+Matrigel, hESC-Qualified (Corning #354277)
+
+Phosphate-buffered saline (PBS) without calcium or magnesium (e.g., Gibco 10010049)
+
+Accutase (Gibco A1110501 or STEMCELL Technologies #07920)
+
+EDTA, 0.5 mM in PBS (diluted from Gibco AM9260G or Sigma E6758; may also be purchased as Versene, Gibco 15040066)
+
+Rho-associated protein kinase (ROCK) inhibitor Y-27632 (RI), reconstituted to 10 mM in PBS (e.g., Tocris Bioscience 1254 or Selleck Chemicals S1049)
+
+Sterile polystyrene 10-cm tissue culture dishes and 6-well, 12-well, and 24-well plates (e.g., Corning #353003, #353046, #353043, and #353047)
+
+Sterile 5, 10, and 25-mL serological pipettes (e.g., Corning #356543, #356551, #357535)
+
+Sterile 15 and 50-mL polypropylene conical tubes (e.g., Corning #352096 and #352070)
+
+Sterile 1.5-mL microcentrifuge tubes (e.g., Eppendorf #022363204)
+
+50-mL, 250-mL, 500-mL sterile filters, 0.2-μm pore (Millipore SCGP00525, Thermo 568-0020 and 566-0020)
+
+Dimethyl sulfoxide (DMSO; Sigma 472301)
+
+Fetal bovine serum (FBS), qualified, heat inactivated (Gibco 16140071)
+
+1.5-mL cryogenic tubes (Thermo 5000-1020)
+
+Cryovial freezing container (e.g., CoolCell LX, BioCision BCS-405 or Mr. Frosty, Thermo 5100-0001)
+
+CoolRack M30 (BioCision BCS-108)
+
+Cell counting apparatus (hemocytometer or automated cell counter)
+
+P2, P20, P200, and P1000 micropipettes and tips (e.g., Gilson PIPETMAN)
+
+Phase-contrast and fluorescent microscope with 4×, 10×, 20×, and Object Marker objectives (e.g., Nikon Eclipse Ti)
+
+Picking microscope inside sterile laminar flow enclosure (e.g., Etaluma LS620)
+
+Laminar flow biological safety cabinet (BSC)
+
+Vacuum aspirator & aspirating pipettes (Fisher #1367820 or alternatively re-usable Corning vacuum aspirator #4930 with disposable tips, e.g. Pure XLG pipette tips, Andwin Scientific #46600-020)
+
+5% CO 2 cell culture incubator
+
+4°C refrigerator
+
+−20°C and −80°C freezers
+
+Centrifuge for 15-mL and 50-mL conical tubes
+
+Microcentrifuge for 1.5-mL tubes
+
+Aliquoting concentrated Matrigel Gradually thaw a tube of Matrigel stock solution overnight at 0°C by burying in ice in a Styrofoam container placed within a refrigerator. Additionally, pre-chill microcentrifuge tubes by placing in an aluminum cool rack on ice before use. Before pipetting concentrated Matrigel into pre-chilled microcentrifuge tubes, chill a 1-mL pipette tip by pipetting ice-cold DMEM/F12 up and down several times, then immediately use this chilled tip to aliquot the Matrigel stock. Aliquot 500 μL concentrated Matrigel into each microcentrifuge tube, and re-freeze aliquots at −80°C. Each aliquot is sufficient to make 50 mL of diluted 1× Matrigel for coating. Matrigel polymerizes rapidly at room temperature when concentrated, so it is imperative to aliquot stocks with pre-chilled tips and tubes and to thaw the concentrated stock solution on ice. We recommend using a CoolRack or similar aluminum block on ice to further prevent polymerization.
+
+Gradually thaw a tube of Matrigel stock solution overnight at 0°C by burying in ice in a Styrofoam container placed within a refrigerator. Additionally, pre-chill microcentrifuge tubes by placing in an aluminum cool rack on ice before use.
+
+Before pipetting concentrated Matrigel into pre-chilled microcentrifuge tubes, chill a 1-mL pipette tip by pipetting ice-cold DMEM/F12 up and down several times, then immediately use this chilled tip to aliquot the Matrigel stock.
+
+Aliquot 500 μL concentrated Matrigel into each microcentrifuge tube, and re-freeze aliquots at −80°C. Each aliquot is sufficient to make 50 mL of diluted 1× Matrigel for coating. Matrigel polymerizes rapidly at room temperature when concentrated, so it is imperative to aliquot stocks with pre-chilled tips and tubes and to thaw the concentrated stock solution on ice. We recommend using a CoolRack or similar aluminum block on ice to further prevent polymerization.
+
+Matrigel polymerizes rapidly at room temperature when concentrated, so it is imperative to aliquot stocks with pre-chilled tips and tubes and to thaw the concentrated stock solution on ice. We recommend using a CoolRack or similar aluminum block on ice to further prevent polymerization.
+
+Making Matrigel coating solution Aliquot 50 mL of cold DMEM/F12 into a conical tube. Using a P1000, pipette 1 mL of cold DMEM/F12 from the conical tube into the microcentrifuge tube containing 500 μL concentrated Matrigel stock. Pipette several times, and then transfer what has thawed to the conical tube containing cold DMEM/F12. Repeat until the frozen concentrated Matrigel has been completely transferred to the 50-mL conical tube containing DMEM/F12. Invert several times to mix.
+
+Aliquot 50 mL of cold DMEM/F12 into a conical tube.
+
+Using a P1000, pipette 1 mL of cold DMEM/F12 from the conical tube into the microcentrifuge tube containing 500 μL concentrated Matrigel stock. Pipette several times, and then transfer what has thawed to the conical tube containing cold DMEM/F12.
+
+Repeat until the frozen concentrated Matrigel has been completely transferred to the 50-mL conical tube containing DMEM/F12. Invert several times to mix.
+
+Coating tissue culture plates: Add ½ culture volume of Matrigel solution to tissue culture surface. Gently agitate plates to ensure full coverage. For example, add 0.5–1 mL/well to a 6-well plate.
+
+For example, add 0.5–1 mL/well to a 6-well plate.
+
+Transfer plates to 37°C incubator. Plates may be used after one hour, but better long-term morphology typically results from overnight coating. It is also possible to prepare plates in bulk by adding additional DMEM/F12 to a full culture volume in order to prevent wells from drying. These plates may be stored in a 37°C incubator or wrapped in Saran wrap or Parafilm and stored at 4°C. Plates should be used within two weeks of preparation.
+
+Plates may be used after one hour, but better long-term morphology typically results from overnight coating. It is also possible to prepare plates in bulk by adding additional DMEM/F12 to a full culture volume in order to prevent wells from drying. These plates may be stored in a 37°C incubator or wrapped in Saran wrap or Parafilm and stored at 4°C. Plates should be used within two weeks of preparation.
+
+Aspirate Matrigel solution immediately before use and replace with culture medium and cells.
+
+Often, iPSCs are stored and distributed as frozen stocks, so thawing is the first procedure performed. Routine use of antibiotics in stem cell culture medium is strongly discouraged since these compounds can interfere with cell biochemistry and differentiation potential. Consequently, proper sterile technique is critical to prevent contamination, and cells received from other environments should be quarantined for at least two passages and tested for mycoplasma.
+
+Prepare biological safety cabinet with tube racks, DMEM/F12, P1000 tips, conical tubes, and culture medium. DMSO is toxic to cells at room temperature, so steps 2–5 should be completed as quickly as possible.
+
+DMSO is toxic to cells at room temperature, so steps 2–5 should be completed as quickly as possible.
+
+Transfer cryovial from liquid nitrogen or dry ice and thaw in 37°C water or bead bath Thaw should be completed rapidly to limit exposure to DMSO. A small frozen core may remain, as pipetting and rinsing will complete thaw.
+
+Thaw should be completed rapidly to limit exposure to DMSO. A small frozen core may remain, as pipetting and rinsing will complete thaw.
+
+Sterilize cryovial by spraying with or dipping into 70% ethanol and transfer into the BSC.
+
+Pipette cell solution to new 15-mL conical tube, rinse cryovial twice with 1mL DMEM/F12, and add each rinse to the tube.
+
+Centrifuge tube at 300 rcf for 5 minutes. Speeds of 200–30 rcf are well-tolerated by iPSCs. For the purposes of this protocol, 30 rcf is recommended to maximize capture of small cell numbers. For standard procedures, 200 rcf is recommended.
+
+Speeds of 200–30 rcf are well-tolerated by iPSCs. For the purposes of this protocol, 30 rcf is recommended to maximize capture of small cell numbers. For standard procedures, 200 rcf is recommended.
+
+Aspirate supernatant, resuspend in culture medium supplemented with 10 μM RI, and transfer to Matrigel-coated plate. Maintaining high cell density maximizes survival, so it is recommended to plate each vial (typically 1×10 6 cells) to one well of a 6-well plate. This may be modified depending on specific cell number or viability.
+
+Maintaining high cell density maximizes survival, so it is recommended to plate each vial (typically 1×10 6 cells) to one well of a 6-well plate. This may be modified depending on specific cell number or viability.
+
+Return plate to 37°C incubator and evenly distribute cells by gently shaking plate front-to-back and side-to-side. This procedure is critical any time cells are replated, and it should be performed as soon as cells are transferred. Swirling or otherwise agitating culture medium before cells attach can cause higher cell densities in the middle of the well.
+
+This procedure is critical any time cells are replated, and it should be performed as soon as cells are transferred. Swirling or otherwise agitating culture medium before cells attach can cause higher cell densities in the middle of the well.
+
+The next day, aspirate the medium and replace with fresh E8 culture medium (2 mL/well for 6-well dish). If colonies are small and/or if cell death is noted after the medium change, use of E8 with RI may be necessary until colonies have expanded, after which inclusion of RI is not required.
+
+An advantage of using iPSCs as a model system is their rapid rate of proliferation; however, culture health is superior if they are only split to modestly low densities. Furthermore, cells will rapidly differentiate and die if allowed to grow into a monolayer. When colonies grow too large and/or begin to converge (approximately 80% confluency), they must be dissociated in order to maintain proper growth and pluripotency ( Fig. 1A ). Dissociating cells with EDTA is gentler, faster, and typically results in improved survival over enzymatic dissociation methods, making it ideal for general culture maintenance. EDTA acts by chelating the calcium necessary for cell attachment and transfers cells as small clumps, which promotes colony formation and growth ( Fig. 1B ). Alternatively, Accutase provides gentle enzymatic dissociation for iPSCs and should be used for any applications that require single-cell suspensions, such as for clonal derivation, cell counting, or flow sorting ( Fig. 1C ). Supplementation of culture medium with RI is optional following EDTA treatment, but it is required after Accutase to prevent apoptosis of single cells. Additionally, cultures of stem cells can often spontaneously differentiate, particularly after overgrowth or stressful procedures ( Fig. 1D ). Isolated loci of differentiated cells may be removed directly by aspirating areas of the well, and this is particularly effective during EDTA split. For highly differentiated cultures, however, several passages are often required to regain a healthy pluripotent population. Plating at high density following EDTA split (1:3 ratio) can promote iPSCs to outcompete differentiated cells. Alternatively, a modified version of the EDTA split is also included below to remove spontaneously differentiated cells, which takes advantage of higher adhesion of differentiated cells compared to iPSCs.
+
+Aspirate culture medium and rinse with ½ culture volume of PBS. Since EDTA works by chelating the calcium ions necessary for iPSC attachment, be sure the PBS does not contain calcium.
+
+Since EDTA works by chelating the calcium ions necessary for iPSC attachment, be sure the PBS does not contain calcium.
+
+Aspirate PBS and add ½ culture volume of EDTA solution (0.5 mM in PBS)
+
+Incubate for 5–10 minutes at room temperature ( Fig. 1B ). Exact timing varies by cell line, but 7 minutes is typical for hiPSCs. Cell colonies should be opaque to the naked eye, and colony edges should be just starting to detach when viewed under a microscope. Single-cell dissociations may be achieved by incubating for up to 15 minutes, and time may be reduced by incubating plates at 37°C. If colonies begin sloughing off, collect EDTA and cells in a conical tube, rinse with culture medium and add to the tube, centrifuge 5 minutes at 200 rcf, aspirate supernatant, resuspend in culture medium supplemented with 10 μM RI, and plate cells. Reduce EDTA incubation time in future passages.
+
+Exact timing varies by cell line, but 7 minutes is typical for hiPSCs. Cell colonies should be opaque to the naked eye, and colony edges should be just starting to detach when viewed under a microscope. Single-cell dissociations may be achieved by incubating for up to 15 minutes, and time may be reduced by incubating plates at 37°C. If colonies begin sloughing off, collect EDTA and cells in a conical tube, rinse with culture medium and add to the tube, centrifuge 5 minutes at 200 rcf, aspirate supernatant, resuspend in culture medium supplemented with 10 μM RI, and plate cells. Reduce EDTA incubation time in future passages.
+
+While incubating, prepare recipient Matrigel-coated plates by aspirating Matrigel solution and loading with ¾ volume culture medium. For example, 1.5 mL medium/well of a 6-well dish. Supplementation of 5 μM RI is optional to improve survival.
+
+For example, 1.5 mL medium/well of a 6-well dish. Supplementation of 5 μM RI is optional to improve survival.
+
+Aspirate EDTA solution, taking care not to disturb cell colonies, which should remain attached. Small-scale differentiation may be removed at this step by directly aspirating areas of the well which have noticeable bumps (particularly in the middle of large colonies) or by designating areas for removal beforehand with an object marker microscope objective.
+
+Small-scale differentiation may be removed at this step by directly aspirating areas of the well which have noticeable bumps (particularly in the middle of large colonies) or by designating areas for removal beforehand with an object marker microscope objective.
+
+Dissociate cells by pipetting 2–3 times with culture medium equivalent to half of the denominator of the splitting ratio. Typical splitting ratios for 6-well plates are between 1:6 and 1:12, for which 3 and 6 mL medium should be used, respectively. Mix well, but avoid pipetting more than 3 times in order to keep cell clumps intact. If colonies remain attached, dispense medium, gently scrape the bottom of the well with the end of the pipette, and pipette twice to mix. Increase EDTA incubation time in future passages.
+
+Typical splitting ratios for 6-well plates are between 1:6 and 1:12, for which 3 and 6 mL medium should be used, respectively. Mix well, but avoid pipetting more than 3 times in order to keep cell clumps intact. If colonies remain attached, dispense medium, gently scrape the bottom of the well with the end of the pipette, and pipette twice to mix. Increase EDTA incubation time in future passages.
+
+Add ¼ culture medium with cells to each recipient well, and discard any excess cells.
+
+Return plate to 37°C incubator and evenly distribute cells by gently shaking plate front-to-back and side-to-side.
+
+Prepare cells as for an EDTA split (see above)
+
+Incubate cells at room temperature and view by phase contrast microscopy every two minutes.
+
+When colony edges begin to detach (typically 5–10 minutes), gently tap the plate 3–5 times against your hand until most iPSC colonies are in suspension.
+
+Gently pipet once with the plate tilted to collect cells at the bottom of the well and transfer the solution to a 15-mL conical tube. Some iPSCs and most differentiated cells should remain attached, but avoid further washing steps. Differentiated cells usually require longer EDTA incubation and higher shear forces to dissociate than iPSCs.
+
+Some iPSCs and most differentiated cells should remain attached, but avoid further washing steps. Differentiated cells usually require longer EDTA incubation and higher shear forces to dissociate than iPSCs.
+
+Add 3 mL DMEM/F12 directly to the tube to inactivate the EDTA.
+
+Centrifuge for 5 minutes at 300 rcf.
+
+Aspirate supernatant, resuspend in culture medium, and plate to a new Matrigel-coated dish. Plating at high density and with RI promotes survival and proliferation of iPSCs in order to outcompete differentiated cells. Repeat this method of splitting until cell culture is nearly pure; consistently high levels of spontaneous differentiation suggest inherent problems with the cell line and/or culture conditions.
+
+Plating at high density and with RI promotes survival and proliferation of iPSCs in order to outcompete differentiated cells. Repeat this method of splitting until cell culture is nearly pure; consistently high levels of spontaneous differentiation suggest inherent problems with the cell line and/or culture conditions.
+
+Aspirate culture medium and rinse with ½ culture volume of PBS. Aspirate PBS and add up to ½ culture volume of Accutase. To save reagents, only enough to cover the culture surface is required (i.e., 0.5 mL/well of a 6-well dish).
+
+To save reagents, only enough to cover the culture surface is required (i.e., 0.5 mL/well of a 6-well dish).
+
+Transfer to 37°C incubator for 5 minutes, or until most cells have detached ( Fig. 1C ). If colonies remain attached, gently tap the plate against your hand 3–5 times or extend incubation to at most 15 minutes in total.
+
+If colonies remain attached, gently tap the plate against your hand 3–5 times or extend incubation to at most 15 minutes in total.
+
+While incubating, prepare recipient Matrigel-coated plates by aspirating Matrigel solution and loading with culture medium supplemented with 10 μM RI.
+
+Tilt the plate, pipette the Accutase solution twice down the culture surface to break apart clumps, and transfer to conical tube.
+
+Rinse culture surface with culture medium and combine with cell solution in the tube. DMEM/F12 or PBS may also be used to wash and are recommended if cells tend to clump in culture medium. However, addition of at least 5% culture medium aids in subsequent pelleting and attachment if PBS is used.
+
+DMEM/F12 or PBS may also be used to wash and are recommended if cells tend to clump in culture medium. However, addition of at least 5% culture medium aids in subsequent pelleting and attachment if PBS is used.
+
+Centrifuge at 300 rcf for 5 minutes.
+
+Aspirate supernatant. Residual Accutase can interfere with cell attachment and downstream applications such as transfection, so remove as much as possible without disturbing the cell pellet. For example, remove a majority of the supernatant by vacuum aspiration, then finish with a P1000.
+
+Residual Accutase can interfere with cell attachment and downstream applications such as transfection, so remove as much as possible without disturbing the cell pellet. For example, remove a majority of the supernatant by vacuum aspiration, then finish with a P1000.
+
+Resuspend in culture medium. If desired, count cells using a hemocytometer or automated cell counter and calculate plating volume.
+
+If desired, count cells using a hemocytometer or automated cell counter and calculate plating volume.
+
+Add cells to recipient plate.
+
+Return recipient plate to 37°C incubator and evenly distribute cells by gently shaking plate front-to-back and side-to-side.
+
+Culturing over many passages may result in mutations and genetic drift, and stressful events can select for abnormal genotypes such as oncogene mutations or chromosomal deletions and rearrangements 23 . To circumvent these adverse outcomes and to provide backups in case of contamination, several vials of cells should be cryopreserved immediately after cell line isolation. Additionally, freezing cell clones during validation reduces reagent use, and expanding cultures and freezing a large, pooled batch of cells on the same date and passage number provides useful downstream reproducibility.
+
+Prepare cells as for an EDTA split (see above). During EDTA incubation, label cryovials and formulate cryopreservation medium by combining culture medium with 10% DMSO. Optionally, the addition of 20% fetal bovine serum or knockout serum replacement to cryopreservation medium may improve viability. 90% fetal bovine serum/10% DMSO solutions (i.e., no culture medium) have also been used successfully. Note that if doxycycline-inducible promoters are integrated into the iPSC lines, we recommend the use of validated, tetracycline-free FBS for such purposes (e.g., Tet System Approved FBS from Clontech). Cryopreservation medium may also be purchased commercially (e.g., CryoStor CS10, STEMCELL Technologies #07930)
+
+Optionally, the addition of 20% fetal bovine serum or knockout serum replacement to cryopreservation medium may improve viability. 90% fetal bovine serum/10% DMSO solutions (i.e., no culture medium) have also been used successfully. Note that if doxycycline-inducible promoters are integrated into the iPSC lines, we recommend the use of validated, tetracycline-free FBS for such purposes (e.g., Tet System Approved FBS from Clontech). Cryopreservation medium may also be purchased commercially (e.g., CryoStor CS10, STEMCELL Technologies #07930)
+
+Aspirate EDTA and dissociate cells with cryopreservation medium. It is optional to dissociate with culture medium and count cells in order to ensure standard cell numbers are frozen across samples, typically 1×10 6 cells/vial, followed by centrifugation, aspiration of culture medium, and resuspension in an appropriate volume of cryopreservation medium. For routine applications, however, 1–2 mL cryopreservation medium per well of a 6-well plate at approximately 80% confluency provides adequate cell density for a healthy thaw. Steps 3–4 should be completed as quickly as possible to reduce DMSO exposure.
+
+It is optional to dissociate with culture medium and count cells in order to ensure standard cell numbers are frozen across samples, typically 1×10 6 cells/vial, followed by centrifugation, aspiration of culture medium, and resuspension in an appropriate volume of cryopreservation medium. For routine applications, however, 1–2 mL cryopreservation medium per well of a 6-well plate at approximately 80% confluency provides adequate cell density for a healthy thaw. Steps 3–4 should be completed as quickly as possible to reduce DMSO exposure.
+
+Transfer 1 mL cryopreservation cell solution to each 1.5-mL cryovial and freeze in a CoolCell freezing container or Mr. Frosty isopropanol caddy at −80°C for two hours to overnight. Gradually reducing temperature by 1°C/minute improves viability.
+
+Gradually reducing temperature by 1°C/minute improves viability.
+
+Transfer cryovials to liquid nitrogen for long-term storage. Cryovials should be placed on dry ice for transit from the freezer to the liquid nitrogen tank to prevent thawing.
+
+Cryovials should be placed on dry ice for transit from the freezer to the liquid nitrogen tank to prevent thawing.
+
+Manual changes in the composition of an iPSC population may be accomplished by either isolating a desired colony into a separate culture (manual passage, or pick-to-keep) or by scraping away undesired cells for aspiration (pick-to-remove). In practice, manual passaging is an important part of the clonal isolation protocol below, and picking-to-remove is most commonly used to remove isolated areas of spontaneously differentiated cells from maintenance cultures or to provide more room for the desired cells to grow prior to picking-to-keep. Proper sterile technique is essential during both of these procedures, as plates may be uncovered in the BSC for extended periods of time.
+
+Prepare a recipient 24-well plate by aspirating Matrigel solution and adding 250 μL/well of culture medium supplemented with 10 μM RI. Place the cell culture dish on a picking microscope in a sterile enclosure. A microscope (e.g., Lumascope) connected to a screen or tablet may be sterilized and kept inside of a BSC. Alternatively, a PCR enclosure with a stereoscope which can be sterilized by ethanol and/or UV treatment provides sufficient protection.
+
+A microscope (e.g., Lumascope) connected to a screen or tablet may be sterilized and kept inside of a BSC. Alternatively, a PCR enclosure with a stereoscope which can be sterilized by ethanol and/or UV treatment provides sufficient protection.
+
+Remove the cover of the culture dish, center the colony desired to be picked, flush the P1000 tip with medium to avoid cell retention, and align the end of a P1000 pipette tip just above the colony. Colonies are often pre-selected with a marking objective, which leaves a 1.8mm ring on the bottom of the culture dish. Colonies approximately the size of the inside of the ring are of ideal size for picking, and a wide diameter tip is desired to reduce shear forces on the cells. P200 tips or smaller should not be used. Set the pipette to 250μL. Balance the tip on your opposite index finger to improve stability and control.
+
+Colonies are often pre-selected with a marking objective, which leaves a 1.8mm ring on the bottom of the culture dish. Colonies approximately the size of the inside of the ring are of ideal size for picking, and a wide diameter tip is desired to reduce shear forces on the cells. P200 tips or smaller should not be used. Set the pipette to 250μL. Balance the tip on your opposite index finger to improve stability and control.
+
+Lower the pipette until it makes contact with the culture surface. If necessary, raise the pipette plunger slightly to remove the air bubble for better viewing.
+
+If necessary, raise the pipette plunger slightly to remove the air bubble for better viewing.
+
+Gently and slowly scrape the bottom of the well with the tip and slowly raise the plunger to detach cells in strips and collect in the pipette. Keep a shallow angle with the plate and avoid pressing down on the plate. Raise the plunger more quickly to provide more force if cells remain stuck or are close to the well wall.
+
+Keep a shallow angle with the plate and avoid pressing down on the plate. Raise the plunger more quickly to provide more force if cells remain stuck or are close to the well wall.
+
+Deposit the picked cells (in 250 μL medium) into the destination well. If picking has been slow, cells may be stuck to the inside of the tip, so check the well under the microscope before disposing of the tip to ensure cells are present. Try to avoid pipetting multiple times in the well in order to keep cells clumped. If the clone was not completely picked, the same tip may be reused to acquire more cells; otherwise, change pipette tips between each clone.
+
+If picking has been slow, cells may be stuck to the inside of the tip, so check the well under the microscope before disposing of the tip to ensure cells are present. Try to avoid pipetting multiple times in the well in order to keep cells clumped. If the clone was not completely picked, the same tip may be reused to acquire more cells; otherwise, change pipette tips between each clone.
+
+Depending on the scale of cells to be removed, picking may be accomplished with a pipette tip (without micropipette) or with a more specialized cell scraper, either purchased commercially or made from a borosilicate Pasteur pipette 24 .
+
+Place the cell culture dish on a picking scope in a sterile biological safety cabinet.
+
+Remove the cover of the culture dish, center the cells to be removed, and align the end of the picking implement just above the cells. Hold the pipette tip near the end or balance the picking implement on your opposite index finger to improve stability and control. Be careful not to hold your hand above the well or to otherwise compromise sterility.
+
+Hold the pipette tip near the end or balance the picking implement on your opposite index finger to improve stability and control. Be careful not to hold your hand above the well or to otherwise compromise sterility.
+
+Slowly lower the implement until it makes contact with the culture surface.
+
+Gently scrape until cells are in suspension. Be careful not to scratch the culture surface, as this can disrupt the Matrigel coating. For pipette tips, hold at an angle of approximately 45° from the plate and align the lower edge with the cells to be removed.
+
+Be careful not to scratch the culture surface, as this can disrupt the Matrigel coating. For pipette tips, hold at an angle of approximately 45° from the plate and align the lower edge with the cells to be removed.
+
+Between each removal, swirl medium to collect picked cells in the center of the well.
+
+Aspirate medium and rinse 1–2 times with PBS.
+
+Check for full removal, and scrape away remaining cells if necessary.
+
+Swirl PBS, aspirate, and replace with fresh culture medium.
+
+## BASIC PROTOCOL 2: LIPID-MEDIATED TRANSFECTION OF iPSCs
+This protocol describes the lipid-mediated transfection of iPSCs maintained in E8 medium on Matrigel. While several lipid-based transfection reagents are commercially available, Lipofectamine Stem is used here because it is specifically optimized for delivery of DNA plasmids into hiPSCs. If preferred, similar results may also be achieved by electroporation or nucleofection, and other lipid reagents are available for in vitro transcribed RNA or in vitro translated ribonucleoproteins (RNPs). Furthermore, while this protocol provides the steps for a general transfection, details below provide specific details regarding insertion of the transgene cassettes relevant for neural differentiation (See Protocols 5 and 7).
+
+Passaging with Accutase immediately before transfection improves efficiency by generating a single-cell suspension that increases exposure to the lipofectamine reagent; however, if Accutase passaging for certain iPSC lines results in low viability, transfection may also be performed on EDTA-passaged cells or on adherent cells at low confluency (20–30%). Transfection efficiency may be monitored by including a fluorescent protein reporter under a promoter that is active in human stem cells (e.g., CAG, PGK; not CMV) and viewing the cells one day after transfection. This reporter does not need to be integrated, as transient expression should persist for 3–4 days after transfection. Finally, increased cell death is typical for 1–2 days after transfection and can result in the accumulation of debris, so the culture medium should be changed daily, and cells may also be washed with PBS after aspiration of spent medium to further reduce debris carryover. The transfected iPSCs should be passaged for expansion, enrichment, and/or clonal selection (Basic Protocols 3 or 4) after the cells have reached approximately 80% confluence, which commonly occurs 2–4 days after transfection.
+
+General iPSC culture reagents (see Basic Protocol 1)
+
+Lipofectamine Stem (Invitrogen STEM00001) or other lipid-based transfection reagent
+
+Opti-MEM I Reduced Serum Medium (Gibco 31985062)
+
+DNA plasmid(s) (e.g., CRISPR-Cas9 and guide RNA, TALENs, and/or DNA insert with appropriate homology arms. DNA obtained from an endotoxin free maxi-prep kit)
+
+Grow a sufficient number of iPSCs for transfection and prepare cells as for an Accutase split (See Basic Protocol 1). One or two wells of a 6-well dish at 80% confluency should provide more than enough cells for one transfection.
+
+One or two wells of a 6-well dish at 80% confluency should provide more than enough cells for one transfection.
+
+Count the cells, transfer 8×105 cells to a 15-mL conical tube, and centrifuge at 300 rcf for 5 min at room temperature.
+
+Aspirate the supernatant and resuspend in 2 mL of E8 medium supplemented with 10 μM RI. If iPSCs are normally maintained in a Flex medium, it is best to transition to regular E8 on the day of transfection to improve efficiency.
+
+If iPSCs are normally maintained in a Flex medium, it is best to transition to regular E8 on the day of transfection to improve efficiency.
+
+Pipet the medium and cells to 1 well of a 6-well dish pre-coated with Matrigel and return plate to the incubator. Gently shake the plate front-to-back and side-to-side.
+
+Allow the cells to adhere in the incubator for 1–2 hours before adding the transfection solution.
+
+For each transfection, add 100 μL of Opti-MEM and 3μg of total DNA to one 1.5-mL microcentrifuge tube and vortex for 2–3 seconds. In a second tube, add an additional 100 μL of Opti-MEM and 10 μL of Lipofectamine Stem reagent and vortex for 2–3 seconds. For TALEN-mediated insertion to the AAVS1 or CLYBL locus, such as for the hNGN2 (Addgene #105840) and hNIL (Addgene #105841) differentiation cassettes, use a 2:1:1 ratio of 1.5 μg donor construct with 0.75 μg of each of the site-specific TALENs. For AAVS1: 0.75 μg of pTALdNC-AAVS1_T2 (Addgene #80496) and 0.75 μg of pTALdNC-AAVS1_T1 (Addgene #80495) per transfection. For CLYBL: (0.75 μg of pZT-C13-R1 (Addgene #62197) and 0.75 μg of pZT-C13-L1 (Addgene #62196) per transfection).
+
+For TALEN-mediated insertion to the AAVS1 or CLYBL locus, such as for the hNGN2 (Addgene #105840) and hNIL (Addgene #105841) differentiation cassettes, use a 2:1:1 ratio of 1.5 μg donor construct with 0.75 μg of each of the site-specific TALENs. For AAVS1: 0.75 μg of pTALdNC-AAVS1_T2 (Addgene #80496) and 0.75 μg of pTALdNC-AAVS1_T1 (Addgene #80495) per transfection. For CLYBL: (0.75 μg of pZT-C13-R1 (Addgene #62197) and 0.75 μg of pZT-C13-L1 (Addgene #62196) per transfection).
+
+Combine the contents of the two tubes and vortex again for 2–3 seconds. Incubate this mixture for 10 minutes at room temperature.
+
+Retrieve the cells plated in steps 3–4, and, using a P200 pipette, add 200 μL of the complete transfection solution dropwise evenly across the surface of the well. Return the cells to the incubator overnight.
+
+24 hours after transfection, aspirate transfection medium and replace with fresh culture medium. If applicable, evaluate transfection efficiency by fluorescence microscopy. All cells transfected with the hNGN2 and hNIL constructs (Addgene #105840 and #105841) will transiently express mCherry for 3–4 days, while only those cells with transgene insertion will maintain stable expression of mCherry for longer periods of time. See Basic Protocols 3 and 4 for options for enrichment and clonal isolation.
+
+All cells transfected with the hNGN2 and hNIL constructs (Addgene #105840 and #105841) will transiently express mCherry for 3–4 days, while only those cells with transgene insertion will maintain stable expression of mCherry for longer periods of time. See Basic Protocols 3 and 4 for options for enrichment and clonal isolation.
+
+Change medium daily with normal culture medium, and wash with PBS if necessary to remove debris. Once the cells have reached 80% confluency, they may be passaged to a new dish for expansion or used for enrichment or clonal selection.
+
+## BASIC PROTOCOL 3: SELECTION AND ENRICHMENT OF TRANSGENIC CELL POPULATIONS
+While lipid-mediated transient transfection and expression of transgenes in hiPSCs is often quite high (>50%), even an optimal transfection with the best editing tools can result in very low genomic integration efficiency (<1%). For this reason, establishing pure cell populations is typically the major bottleneck of any transgenic workflow. Commonly, frontline selection and enrichment is used to facilitate later single-cell cloning, which remains necessary to ensure that transgene insertion did not result in mosaicism or off-target mutagenesis (See Basic Protocol 4).
+
+In order to remove non-edited cells, positive selection markers such as genes coding for fluorescent proteins or antibiotic resistance are often included in the insert construct under constitutive promoters, and this protocol describes general methods for the former strategy. However, constant expression of a fluorophore interferes with immunocytochemistry, and antibiotic selection can incorrectly select for cells with multiple aberrant transgene insertions. To counter these shortcomings, we developed a platform for enrichment from heterogeneous cell populations through cell-surface affinity for magnetic streptavidin beads mediated by expression of a streptavidin binding peptide (SBP) fused to the truncated extracellular and transmembrane domains of low-affinity nerve growth factor receptor (LNGFR). The SBP tag is commonly used to facilitate co-immunoprecipitation with streptavidin-coated beads, and with fusion to the LNGFR, it is efficiently localized to the extracellular surface where it can bind the beads more readily.
+
+This construct was developed based on one initially designed for purification of transgenic T cells in suspension 25 , and it is included in Addgene #105842 for direct use with NIL or excision and insertion into other constructs. Here we extend the original protocol in order to optimize enrichment following safe-harbor locus insertion in iPSCs, and we present evidence to support its use as either a positive or negative selection marker in a variety of transgenic applications. However, we have found that the SBP-LNGFR construct should be the only gene expressed under a dedicated, highly active promoter, as it appears to interfere with 2A-mediated ribosome skipping. For example, a different construct, with the reverse tetracycline transactivator (rtTA) linked to SBP-LNGFR by a T2A sequence, led to disrupted differentiation due to reduced rtTA activity (see Support Protocol 6).
+
+When structured correctly, however, SBP-LNGFR permits highly selective enrichment that does not require specialized equipment as in fluorescence-activated cells sorting (FACS) and does not require extensive tuning as in antibiotic selection ( Fig. 2A ). Notably, the efficiency of enrichment increases exponentially with a lower frequency of positive cells in the population ( Fig. 2E ). In addition, the protocol is easily modified to permit negative selection, e.g., for removing a floxed transgene with Cre recombinase or a gene knockout reporter ( Fig. 2F ). Furthermore, cells expressing SBP-LNGFR may be transiently labeled at the cell surface by incubating with any fluorophore conjugated to streptavidin ( Fig. 2B and C ). After washing to remove unbound fluorophore, these cells may be imaged, marked for clonal picking, or FACS-purified at an equivalent efficacy as cells constitutively expressing a fluorophore marker of insertion. Fluorescence then returns to undetectable levels within one passage and does not interfere with downstream immunocytochemistry applications.
+
+Precise, label-free editing of endogenous loci may be enriched by FACS-sorting for transient expression of the components necessary for editing one day after transfection (i.e., using a combined gRNA, Cas9, and GFP expression plasmid with an integration plasmid expressing RFP outside of the insertion sequence or by using functionalized RNPs such as S1mplex with Qdots or fluorescent streptavidin 26 ). This can considerably increase the prevalence of correctly edited cells, but the combined stress of transfection and sorting can decrease cell survival. To compensate, it is recommended to transfect and sort in triplicate (2.4×10 6 cells) and to plate cells at high density following the sort. In addition, extensive downstream cloning and genotyping is often required due to the propensity of non-homologous end joining leading to mutagenesis at the target locus rather than homology-directed repair-mediated integration of the desired insert.
+
+This protocol will continue with the assumption of integration of a transgene cassette into a safe-harbor locus as described in Basic Protocol 2. Label-free gene knockouts caused by NHEJ-mediated indel formation are typically prevalent (>15%), so frontline enrichment is optional for these applications. Following enrichment, small stocks of heterogeneous cell populations should be frozen, and the cells should be taken directly to Basic Protocol 4 for clonal isolation.
+
+Heterogeneous post-transfection iPSC population
+
+General iPSC culture reagents (see Basic Protocol A)
+
+FACS machine
+
+Penicillin-Streptomycin, 100×; 10,000 U/mL (Gibco 15140122)
+
+EDTA in PBS, 2mM (e.g., autoMACS Rinsing Solution, Miltenyi 130091222)
+
+Bovine serum albumin (BSA, e.g., Miltenyi 130091376)
+
+Magnetic streptavidin beads (Dynabeads MyOne Streptavidin C1, Thermo 65001)
+
+DynaMag-2 magnetic tube rack (Thermo 12321D)
+
+Rotator Genie benchtop spinner (Scientific Industries SI-2100)
+
+Cell strainer, 40-μm pore diameter (Corning 352340)
+
+Culture cells after transfection and expand to at least one full 6-well plate or one 10cm dish by EDTA split (See Basic Protocol A). Post-transfection recovery and expansion should take about 1 week; this enables the degradation/dilution of transient plasmids and permits expansion of edited cells to ensure enough cells are present for effective selection. Genomic DNA may be collected from unpurified cells to test for integration efficiency, and extra heterogeneous cells should be frozen throughout the purification process to provide a low-passage backup should contamination occur or should validation fail at any point.
+
+Post-transfection recovery and expansion should take about 1 week; this enables the degradation/dilution of transient plasmids and permits expansion of edited cells to ensure enough cells are present for effective selection. Genomic DNA may be collected from unpurified cells to test for integration efficiency, and extra heterogeneous cells should be frozen throughout the purification process to provide a low-passage backup should contamination occur or should validation fail at any point.
+
+When cells reach 70–80% confluency (day 3–4 after plating), dissociate with Accutase (see Basic Protocol A).
+
+Transfer cells and Accutase solution to conical tube, rinse with DMEM/F12, and spin at 200 rcf for 5 min.
+
+Aspirate supernatant and resuspend in E8 supplemented with 10 μM RI. Using medium at this step helps to improve cell viability; however, if FACS is not performed rapidly, cells can clump and reduce purification efficacy. Cold PBS with 3% BSA can be substituted to reduce clumping.
+
+Using medium at this step helps to improve cell viability; however, if FACS is not performed rapidly, cells can clump and reduce purification efficacy. Cold PBS with 3% BSA can be substituted to reduce clumping.
+
+Transfer cell solution to FACS tube and place on ice.
+
+Perform FACS using appropriate fluorophore gating and nozzle diameter (see “Critical Parameters and Troubleshooting” for more detail). Sort directly onto a Matrigel-coated cell culture plate loaded with E8+RI (even if PBS is used in step 4) since typically small volumes are deposited. Alternatively, positive cells can be deposited into a separate tube, centrifuged, and replated. Some iPSC lines tolerate single cell/well sorting into 96- or 384-well dishes containing E8+RI, which can further expedite clonal isolation and expansion. Bulk sorted cells may be grown, marked, and picked (see Basic Protocols 1 and 4). Survival of a polyclonal population can then be maximized by depositing any additional positive cells into the remaining well.
+
+Sort directly onto a Matrigel-coated cell culture plate loaded with E8+RI (even if PBS is used in step 4) since typically small volumes are deposited. Alternatively, positive cells can be deposited into a separate tube, centrifuged, and replated. Some iPSC lines tolerate single cell/well sorting into 96- or 384-well dishes containing E8+RI, which can further expedite clonal isolation and expansion. Bulk sorted cells may be grown, marked, and picked (see Basic Protocols 1 and 4). Survival of a polyclonal population can then be maximized by depositing any additional positive cells into the remaining well.
+
+Expand selected cells for clonal isolation. Colonies of positive cells may be marked and picked to keep, and/or negative cells may be marked and removed.
+
+Colonies of positive cells may be marked and picked to keep, and/or negative cells may be marked and removed.
+
+To PBS, add EDTA to 2 mM and 0.5% BSA. For example, 47.4mL PBS, 100μL of 1M EDTA stock, and 2.5mL of 10% BSA stock. Buffer may be formulated by the consumer or purchased (e.g., autoMACS buffer).
+
+For example, 47.4mL PBS, 100μL of 1M EDTA stock, and 2.5mL of 10% BSA stock. Buffer may be formulated by the consumer or purchased (e.g., autoMACS buffer).
+
+Vacuum filter. Components may already be sterile, but applying vacuum pressure helps to degas the solution and reduce bubbling during subsequent use.
+
+Components may already be sterile, but applying vacuum pressure helps to degas the solution and reduce bubbling during subsequent use.
+
+Store at 4°C.
+
+Invert bead stock until fully resuspended. Several streptavidin-coated magnetic beads are commercially available, but Dynabeads MyOne Streptavidin C1 has provided the best cell binding and enrichment efficiency.
+
+Several streptavidin-coated magnetic beads are commercially available, but Dynabeads MyOne Streptavidin C1 has provided the best cell binding and enrichment efficiency.
+
+Pipette total amount of bead solution to a sterile microcentrifuge tube. 10 μL beads per sample is recommended for positive selection, and 100 μL beads per sample is recommended for negative selection. In general, efficacy is maximized by using fewer beads for positive selection and more beads for negative selection; however, this should be balanced with reduced recovery and survival for small volumes and increased reagent cost for large volumes.
+
+10 μL beads per sample is recommended for positive selection, and 100 μL beads per sample is recommended for negative selection. In general, efficacy is maximized by using fewer beads for positive selection and more beads for negative selection; however, this should be balanced with reduced recovery and survival for small volumes and increased reagent cost for large volumes.
+
+Add 1 mL bead incubation buffer to beads and invert several times to mix.
+
+Place on magnet, invert 2–3 times, and let rest for at least 1 minute.
+
+Aspirate and discard supernatant.
+
+Remove tube from magnetic rack.
+
+Repeat steps 3–6. For bead volumes above 100 μL, repeat at least twice.
+
+For bead volumes above 100 μL, repeat at least twice.
+
+Resuspend beads in buffer equal to the initial volume of beads.
+
+Prepare cells as for an EDTA split and incubate at 37°C for 10–15 minutes, until colonies begin to detach without physical dissociation. Do not use Accutase or other enzymatic dissociation reagents, as extracellular SBP-LNGFR is easily digested.
+
+Do not use Accutase or other enzymatic dissociation reagents, as extracellular SBP-LNGFR is easily digested.
+
+Prepare beads during incubation (see above).
+
+Tilt the plate and pipette the EDTA solution 2–3 times down the well to dissociate and collect cells. Transfer to 15-mL conical tube. Cells may be optionally filtered through a cell strainer to remove remaining clumps, but proper incubation and trituration should result in full homogenization.
+
+Cells may be optionally filtered through a cell strainer to remove remaining clumps, but proper incubation and trituration should result in full homogenization.
+
+Wash with PBS to collect remaining cells, and add to the conical tube.
+
+Count cells and calculate total number of cells. Initially, 5×10 6 cells per sample is recommended for both positive and negative selection. Efficacy may be maximized by using higher cell numbers for positive selection and by using fewer cells for negative selection; however, at least 1×10 6 cells should be used to improve recovery.
+
+Initially, 5×10 6 cells per sample is recommended for both positive and negative selection. Efficacy may be maximized by using higher cell numbers for positive selection and by using fewer cells for negative selection; however, at least 1×10 6 cells should be used to improve recovery.
+
+Centrifuge at 200 rcf for 5 minutes, and discard supernatant.
+
+Resuspend with 1 mL buffer per sample and transfer each sample to a separate sterile 1.5-mL microcentrifuge tube.
+
+Add washed beads (see above for volume considerations and preparation instructions).
+
+Incubate at room temperature for 30 minutes on a benchtop spinner at approximately 10 rpm. Efficacy may be maximized by reducing incubation time to 10 minutes for positive selection and by increasing time to 45 minutes for negative selection. Shorter times may not permit adequate binding, and longer times may lead to reduced survival due to osmotic stress.
+
+Efficacy may be maximized by reducing incubation time to 10 minutes for positive selection and by increasing time to 45 minutes for negative selection. Shorter times may not permit adequate binding, and longer times may lead to reduced survival due to osmotic stress.
+
+Place on magnet, invert 2–3 times, and let sit for at least 1 minute. Beads should be completely removed from suspension and stuck against the side of the microcentrifuge tube. Buffer should be clear or white but not golden or brown.
+
+Beads should be completely removed from suspension and stuck against the side of the microcentrifuge tube. Buffer should be clear or white but not golden or brown.
+
+Aspirate negative cell fraction. Suction may be used to increase throughput, but use narrow pipette tips to avoid interfering with the beads.
+
+Suction may be used to increase throughput, but use narrow pipette tips to avoid interfering with the beads.
+
+Add 1mL buffer, remove from magnetic rack, and invert several times to fully resuspend beads.
+
+Repeat steps 1–3 at least 3 times. The optimal number of washes depends on the initial number of cells used, with three washes ideal for 5×10 6 cells. In general, repeat washes until the removed negative fraction is clear. Performing four or more washes may improve enrichment if 1×10 7 or more cells were used, but it also reduces recovery.
+
+The optimal number of washes depends on the initial number of cells used, with three washes ideal for 5×10 6 cells. In general, repeat washes until the removed negative fraction is clear. Performing four or more washes may improve enrichment if 1×10 7 or more cells were used, but it also reduces recovery.
+
+Remove tube from magnetic rack, and either perform an optional additional incubation to release cells from beads (steps 5–8) or resuspend in E8+RI and plate directly (skip to step 9). Directly plating cells with beads has not been shown to interfere with cell viability, and cells can be grown and passaged normally. However, removal of beads may be desired for downstream analysis applications or to hasten cell growth.
+
+Directly plating cells with beads has not been shown to interfere with cell viability, and cells can be grown and passaged normally. However, removal of beads may be desired for downstream analysis applications or to hasten cell growth.
+
+Resuspend remaining beads and cells with E8+RI and 2 mM biotin. Biotin is able to outcompete SBP for streptavidin binding sites on the beads, resulting in cell release.
+
+Biotin is able to outcompete SBP for streptavidin binding sites on the beads, resulting in cell release.
+
+Incubate at room temperature for 30 minutes on a benchtop spinner at approximately 10 rpm.
+
+Place on magnet for 1 minute, invert 2–3 times, and let sit for 1 additional minute.
+
+Remove supernatant with P1000.
+
+Pipette cells and medium to a recipient culture well. Biotin is normally present in culture medium at low levels, so supplementation should not affect the cells. If the high levels are of concern, the cells may be centrifuged and plated in fresh E8+RI.
+
+Biotin is normally present in culture medium at low levels, so supplementation should not affect the cells. If the high levels are of concern, the cells may be centrifuged and plated in fresh E8+RI.
+
+Return recipient plate to 37°C incubator and evenly distribute cells by gently shaking plate front-to-back and side-to-side.
+
+Pipette supernatant (negative fraction) to 15-mL conical tube. Pipette from the top of the tube and leave 50–100 μL at the bottom of the tube to reduce carryover of beads. Normally, fewer than 0.1% of beads are carried over into the first negative fraction. No further washes are necessary, and the positive fraction may be discarded.
+
+Pipette from the top of the tube and leave 50–100 μL at the bottom of the tube to reduce carryover of beads. Normally, fewer than 0.1% of beads are carried over into the first negative fraction. No further washes are necessary, and the positive fraction may be discarded.
+
+Add 1 mL E8 to the tube to improve cell pelleting.
+
+Centrifuge tube at 300 rcf for 5 minutes.
+
+Aspirate buffer and resuspend in culture medium supplemented with 10 μM RI.
+
+Pipette cells and medium to a recipient culture well.
+
+Return recipient plate to 37°C incubator and evenly distribute cells by gently shaking plate front-to-back and side-to-side.
+
+## BASIC PROTOCOL 4: ISOLATION AND VALIDATION OF CLONAL TRANSGENIC LINES
+While transgenic populations may be enriched to near-purity using the techniques described above, the derivation of a clonal iPSC line descended from a single parent cell is necessary for proper genotyping and for many downstream applications, and it is thus standard practice following any genetic edit ( Fig. 3 ). One common method for isolating such clones, as described below, is by serial dilutions on two 6-well plates followed by manual picking. As with all single-cell dissociations of iPSCs, the use of RI is required until colonies are properly established; wells with fewer cells may require treatment for 2–3 days. 6-well plates are used because their wells have a larger surface area than other multiwell dishes, facilitating downstream picking. For highly enriched populations, serial dilutions may be reduced to one 6-well plate loaded with 1×10 5 cells in the first well, as there is a higher probability of identifying a purely positive colony.
+
+Following isolation, this protocol further describes basic genotyping in parallel with the gradual expansion of clonal lines, utilizing QuickExtract to prepare genomic DNA and PCR to test for the presence of a transgene of interest. Primer sequences and other specifics are included in more detail for the particular differentiation cassettes in Supplementary Protocol 1. In general, basic genotyping by PCR should be performed as quickly as possible to screen out negative clones, while potentially positive clones should be confirmed by more stringent methods such as Sanger sequencing and Western blotting as appropriate. To save culture reagents, negative clones may be immediately discarded, while all others should be expanded and frozen pending confirmation.
+
+Enriched post-transfection iPSC population
+
+General cell culture reagents (see Basic Protocol A)
+
+Genomic DNA extraction kit (e.g., QuickExtract, Epicentre QE09050 or DNeasy kit, Qiagen 69504)
+
+PCR reagents (e.g., Platinum SuperFi PCR Master Mix, Invitrogen 12358250)
+
+PCR primers
+
+Thermocycler
+
+Agarose (SeaKem LE, Lonza 50004)
+
+Tris-acetate-EDTA (TAE) buffer (Thermo B49)
+
+Gel electrophoresis chamber
+
+Prepare 1 well of 80% confluent post-transfected cells from a 6-well plate as for an Accutase split. Clonal isolation may be performed immediately after transfection; however, permitting outgrowth for one or two passages can improve subsequent growth rate and viability, and performing frontline enrichment (Basic Protocol C) can dramatically improve the percentage of positive clones.
+
+Clonal isolation may be performed immediately after transfection; however, permitting outgrowth for one or two passages can improve subsequent growth rate and viability, and performing frontline enrichment (Basic Protocol C) can dramatically improve the percentage of positive clones.
+
+Aspirate the Matrigel solution from two 6-well plates and add 2 mL E8+10 μM RI to all but one well; leave the final well empty.
+
+After centrifugation, resuspend cells in 2 mL of E8+RI.
+
+With a 5-mL pipet, add the full 2 mL of cells and medium to the first well (A1) and pipet twice to mix.
+
+With the same pipet, transfer 2 mL of this mixture into the second well and mix by pipetting twice.
+
+Continue pipetting and mixing for each well, performing a ½ dilution, and dispense the final 2 mL into the empty well.
+
+Return the plates to the incubator and gently shake the plates front-to-back and side-to-side.
+
+Track colony formation daily with a phase contrast microscope. Typically, the first plate will rapidly become confluent and may be EDTA-split and combined for other uses, such as freezing a heterogeneous population. Meanwhile, the second plate should be kept for picking (see below).
+
+Typically, the first plate will rapidly become confluent and may be EDTA-split and combined for other uses, such as freezing a heterogeneous population. Meanwhile, the second plate should be kept for picking (see below).
+
+Once colonies are properly established, aspirate medium and replace with fresh culture medium. Medium should only be changed after a majority of cell colonies contain at least 8 cells. As the rate of cell division is typically faster in wells with a higher cell density, any wells seeded with at least 50,000 cells should have their medium changed after one day, while wells seeded with fewer than 5,000 cells will likely require 3 days.
+
+Medium should only be changed after a majority of cell colonies contain at least 8 cells. As the rate of cell division is typically faster in wells with a higher cell density, any wells seeded with at least 50,000 cells should have their medium changed after one day, while wells seeded with fewer than 5,000 cells will likely require 3 days.
+
+Using the plates seeded above, identify the wells at which colonies are well-spaced and of a standard size and shape. Look for compact, round colonies to indicate single-cell origin, adequate separation from other colonies to permit further outgrowth, and fluorescence (if applicable).
+
+Look for compact, round colonies to indicate single-cell origin, adequate separation from other colonies to permit further outgrowth, and fluorescence (if applicable).
+
+Mark colonies on day 3–4 with a marking objective. For fluorescent markers, allow colonies to grow to at least 500μm in diameter in order to be easier to discern, and 10–20 clones should be sufficient; however, marking and picking more clones can help ensure proper genotyping and prevent needing to re-pick. For label-free editing, frontline enrichment is highly recommended, and it is often necessary to screen 50–100 clones.
+
+For fluorescent markers, allow colonies to grow to at least 500μm in diameter in order to be easier to discern, and 10–20 clones should be sufficient; however, marking and picking more clones can help ensure proper genotyping and prevent needing to re-pick. For label-free editing, frontline enrichment is highly recommended, and it is often necessary to screen 50–100 clones.
+
+Pick-to-remove other cells in close proximity to marked colonies (See Basic Protocol 1). Any cells within or immediately surrounding the ring formed by the marking objective should be removed.
+
+Any cells within or immediately surrounding the ring formed by the marking objective should be removed.
+
+Check cells daily for growth and pick-to-keep around days 5–7. Pick when colonies are about as large as the interior of the marking ring.
+
+Pick when colonies are about as large as the interior of the marking ring.
+
+Before picking, rinse wells once with PBS and add at least 5 mL medium to each well to allow picking of multiple clones in succession.
+
+Aspirate the Matrigel solution from a 24-well plate and load each well with 250 μL of E8+RI.
+
+Pick-to-keep each colony into an individual well of the 24-well plate (see Basic Protocol 1).
+
+Grow cells in 24-well plates for 5–7 days until colonies are large (at least 2mm in diameter). Be wary of spontaneous differentiation, especially in the center of colonies which tend to grow upwards and turn brown. It is possible to pick away these areas for better splitting, or continue to expand and perform later EDTA-mediated removal (see Basic Protocol 1), but clones with excessive spontaneous differentiation may harbor genetic abnormalities and should simply be discarded.
+
+Be wary of spontaneous differentiation, especially in the center of colonies which tend to grow upwards and turn brown. It is possible to pick away these areas for better splitting, or continue to expand and perform later EDTA-mediated removal (see Basic Protocol 1), but clones with excessive spontaneous differentiation may harbor genetic abnormalities and should simply be discarded.
+
+Prepare clones in the 24-well plate as for an EDTA split (using 250 μL PBS and EDTA).
+
+During incubation, for each clone, prepare a microcentrifuge tube labeled with the clone number for genomic DNA collection and load a new well for growth loaded with ½ volume E8+RI. Ideally, use one well of a 12-well plate to maximize surface area and promote outgrowth. If cells are precious, such as if only a few clones were successfully derived, use two wells of a 24-well plate to immediately have a backup well. This well may also be used for later genomic DNA collection if desired. If colonies are small, use one well of a 24-well plate to improve survival. Genomic DNA collection may also be postponed until this well is split.
+
+Ideally, use one well of a 12-well plate to maximize surface area and promote outgrowth.
+
+If cells are precious, such as if only a few clones were successfully derived, use two wells of a 24-well plate to immediately have a backup well. This well may also be used for later genomic DNA collection if desired.
+
+If colonies are small, use one well of a 24-well plate to improve survival. Genomic DNA collection may also be postponed until this well is split.
+
+Aspirate EDTA and gently dissociate with a P1000 by pipetting 1 mL medium 2–3 times.
+
+Deposit half of the medium in the microcentrifuge tube.
+
+Deposit the other half of the medium in the new well.
+
+Return recipient plates to the incubator and gently shake the plates front-to-back and side-to-side.
+
+Spin down the microcentrifuge tube at 500 rcf for 5 minutes. Arrange all the tubes in the same orientation so the cell pellet forms in the same location for each tube.
+
+Arrange all the tubes in the same orientation so the cell pellet forms in the same location for each tube.
+
+Aspirate as much of the medium as possible. Cell pellet may not be readily visible, so use a filterless pipette tip on the end of an aspirating pipette if suction is used, or use a P1000 for better control.
+
+Cell pellet may not be readily visible, so use a filterless pipette tip on the end of an aspirating pipette if suction is used, or use a P1000 for better control.
+
+Extract genomic DNA from the cell pellet as per manufacturer’s instructions. QuickExtract (Epicentre) is recommended due to its scalability and ease-of-use. 30 μL is usually sufficient for small cell pellets (<50,000 cells), and any samples which are overly viscous after thermocycling may be diluted with DNase-free water.
+
+QuickExtract (Epicentre) is recommended due to its scalability and ease-of-use. 30 μL is usually sufficient for small cell pellets (<50,000 cells), and any samples which are overly viscous after thermocycling may be diluted with DNase-free water.
+
+Test the extracted genomic DNA by PCR. For inserts at a safe-harbor locus, testing for integration at the correct locus can be accomplished by using one primer beyond the homology arm and one primer unique to the insert cassette. Insertion zygosity can also be determined by using primers on either side of the insertion locus, as insertion will prevent amplification of that allele. Use 1 μL of the QuickExtract solution in a 10-μL PCR preparation; additional cleanup is typically not necessary for amplification (See Supporting Protocol 1).
+
+For inserts at a safe-harbor locus, testing for integration at the correct locus can be accomplished by using one primer beyond the homology arm and one primer unique to the insert cassette. Insertion zygosity can also be determined by using primers on either side of the insertion locus, as insertion will prevent amplification of that allele. Use 1 μL of the QuickExtract solution in a 10-μL PCR preparation; additional cleanup is typically not necessary for amplification (See Supporting Protocol 1).
+
+Run each PCR sample on an agarose gel in order to confirm amplification. Clones that fail to amplify the test fragment but properly amplify a positive control fragment should be immediately discarded to save culture reagents. The genomic DNA of clones with inconclusive genotyping results (i.e., variable band intensities, multiple bands, etc.) should be checked for quality and either re-amplified with different PCR conditions or re-extracted. Clones with positive initial genotyping should be PCR purified and Sanger sequenced to confirm integration. In particular, further selection may be desired for scarless integration and/or retaining an unedited wild-type allele.
+
+Clones that fail to amplify the test fragment but properly amplify a positive control fragment should be immediately discarded to save culture reagents.
+
+The genomic DNA of clones with inconclusive genotyping results (i.e., variable band intensities, multiple bands, etc.) should be checked for quality and either re-amplified with different PCR conditions or re-extracted.
+
+Clones with positive initial genotyping should be PCR purified and Sanger sequenced to confirm integration. In particular, further selection may be desired for scarless integration and/or retaining an unedited wild-type allele.
+
+Expand clones with positive PCR results via EDTA splitting 1:4 into larger wells at 50–60% confluency. Polyclonal populations may be discarded or combined and subcloned if desired. Split the entire population at low ratio to enhance growth rate and outcompete differentiation. For example, split one well of a 24-well plate to two wells of a 12-well plate, one of which can be split to two wells of a 6-well plate.
+
+Split the entire population at low ratio to enhance growth rate and outcompete differentiation. For example, split one well of a 24-well plate to two wells of a 12-well plate, one of which can be split to two wells of a 6-well plate.
+
+For each clone in two wells of a 6-well plate at 80% confluency, prepare both wells as for an EDTA split.
+
+During incubation, prepare a recipient plate with E8 medium, prepare a 15-mL conical tube with 1 mL medium containing the components for 3 mL cryopreservation medium, and label three cryovials with the clone number. For example, combine 300μL DMSO, 900μL FBS, and 100μL E8 medium.
+
+For example, combine 300μL DMSO, 900μL FBS, and 100μL E8 medium.
+
+Detach the cells from one well with 3 mL medium and transfer 0.5 mL to two wells to accomplish a 1:6 split for maintenance. Use the remaining 2 mL medium and cells to detach the second well and add to the 15-mL conical tube to constitute 1× cryopreservation medium. Add 1 mL to each of the three cryovials and freeze. If cells are not fully dissociated from the plate, rinse the wells again with the full cryopreservation medium to maximize cell density. Maintenance cultures should be further split 1:12; if sequencing results are not readily available, reduce reagent use by freezing all of the cells and not retaining a maintenance culture. All clones should be kept frozen until a few sequenced clones are confirmed, and any clones which sequence incorrectly may be discarded.
+
+If cells are not fully dissociated from the plate, rinse the wells again with the full cryopreservation medium to maximize cell density.
+
+Maintenance cultures should be further split 1:12; if sequencing results are not readily available, reduce reagent use by freezing all of the cells and not retaining a maintenance culture. All clones should be kept frozen until a few sequenced clones are confirmed, and any clones which sequence incorrectly may be discarded.
+
+Clones confirmed by sequencing should be further expanded to a full 6-well plate and frozen into 6–8 vials, in addition to keeping the clone in culture for other characterization assays. While only one clone is necessary to move forward, isolating at least three sequence-confirmed clones is ideal in case off-target effects or other genetic abnormalities are found later.
+
+While only one clone is necessary to move forward, isolating at least three sequence-confirmed clones is ideal in case off-target effects or other genetic abnormalities are found later.
+
+Western blot to confirm transgene expression
+
+Karyotype to ensure no chromosomal abnormalities have arisen
+
+Sequencing of potential CRISPR off-target loci
+
+Exome or whole genome sequencing of pre- and post-edited cells to search for genetic drift or CRISPR off-target effects
+
+## BASIC PROTOCOL 5: DIFFERENTIATION OF i3NEURONS
+This protocol describes the rapid and robust differentiation of cortical neurons from hiPSCs via induced expression of the neurogenin-2 (NGN2) transcription factor 1 , 18 . To begin, iPSCs with a stably integrated human or mouse neurogenin-2 transgene under a tetracycline-inducible promoter are exposed to doxycycline in neuronal induction medium (IM) ( Fig. 4A ). Since iPSCs grow as colonies, they must be single-cell dissociated to a new plate before doxycycline treatment in order to provide the differentiating neurons adequate space to begin producing neuritic extensions.
+
+Once the cells have been partially differentiated on Matrigel, they are re-plated onto dishes coated with poly-L-ornithine (PLO) for neuronal maturation. After three days of doxycycline treatment, the cells are committed to neural differentiation, although at this time they may have only minor neuritic elongations ( Fig. 4B, d3 ). These neurites are generally well-preserved after dissociation and replating, but the longer neuritic projections present in cells differentiated past three days are often damaged during the splitting process. For this reason, differentiated neurons are optimally replated on day 3. At this time, differentiating neurons can also be cryopreserved for use at a later date, enabling curation of large, standardized stocks of partially differentiated neurons for future experiments.
+
+iPSCs with stably integrated doxycycline-inducible NGN2 transgene
+
+General iPSC culture reagents (see Basic Protocol 1)
+
+Induction Medium (IM, see Table 1B )
+
+Doxycycline (2mg/mL in PBS; 1000×; Sigma D9891)
+
+NOTE : The following steps will assume the experimenter has a 70–80% confluent 15cm dish of iPSCs with a stably integrated inducible NGN2 transgene. It is critical that the health of iPSCs be optimal prior to differentiation; poorly-maintained, spontaneously differentiated, or overly-confluent iPSC cultures tend to differentiate poorly or variably. Apart from observation under the microscope, counting, and centrifugation, all steps should be carried out in a sterile biological safety cabinet.
+
+Coat a new 15cm tissue culture dish to be used for differentiation with 7–9 mL of Matrigel solution, tilting to ensure coverage of entire surface area. Place in 37°C incubator for 30 min-1 hr prior to beginning dissociation and re-plating Matrigel can be re-used 1–2 times after 30 min incubation periods (aspirate with serological pipette and store solution at 4°C). If desired, Matrigel can also be kept on coated plates for one week in the incubator. If pursuing this strategy, use 10–20% more Matrigel solution than for a 30 min incubation and check plate regularly to ensure complete coverage of the surface area (evaporation and/or non-level incubator shelves can cause parts of the plate to dry). Matrigel incubated at 37°C for more than 1–2 total hours should not be re-used.
+
+Matrigel can be re-used 1–2 times after 30 min incubation periods (aspirate with serological pipette and store solution at 4°C). If desired, Matrigel can also be kept on coated plates for one week in the incubator. If pursuing this strategy, use 10–20% more Matrigel solution than for a 30 min incubation and check plate regularly to ensure complete coverage of the surface area (evaporation and/or non-level incubator shelves can cause parts of the plate to dry). Matrigel incubated at 37°C for more than 1–2 total hours should not be re-used.
+
+Prepare 20 mL IM with 2 μg/mL doxycycline and 10 μM RI (see Table 1B ). Place in 37°C water or bead bath to warm during the dissociation protocol. Doxycycyline is light-sensitive, so keep cool (4°C) and dark when not in use
+
+Doxycycyline is light-sensitive, so keep cool (4°C) and dark when not in use
+
+Observe iPSCs under phase contrast microscope to assess confluence and presence of cell debris. Dish should be dissociated at around 70–80% confluence (i.e., 2.5–3×107 cells).
+
+Wash plate with PBS. To wash, aspirate medium with aspirating pipette connected to vacuum apparatus. Pipette 18mL PBS onto plate by tilting dish and slowly dispensing PBS onto the sidewall of the dish. After dispensing PBS, tilt dish in all directions to spread solution around the plate surface. Aspirate PBS and repeat once more. Observe cells under the microscope to assess clearance of debris. Continue washing until debris are absent (typically 1–2×). Cell debris can increase inaccuracy of downstream cell counting and obstruct pellet formation and resuspension after centrifugation. Debris should be minimal in healthy iPSC cultures.
+
+Cell debris can increase inaccuracy of downstream cell counting and obstruct pellet formation and resuspension after centrifugation. Debris should be minimal in healthy iPSC cultures.
+
+Split cells with Accutase (see Basic Protocol 1) and collect dissociated cells in PBS in 15-mL conical vial.
+
+Count cells, transfer 2–2.5×106 iPSCs per 15-cm dish to be differentiated into a 15-mL conical tube, and centrifuge at 200 rcf for 5 min at room temperature. Aspirate the supernatant and resuspend cells in 10–12 mL IM+RI+doxycycline. Add 5% IM to dissociated cells in PBS before centrifugation to improve pelleting
+
+Add 5% IM to dissociated cells in PBS before centrifugation to improve pelleting
+
+Aspirate Matrigel solution from coated 15-cm dish. Alternatively, if the plate was freshly coated, the Matrigel solution may be transferred to a new dish (see step 1)
+
+Alternatively, if the plate was freshly coated, the Matrigel solution may be transferred to a new dish (see step 1)
+
+Gently pipet the cell suspension onto the newly aspirated 15-cm dish. Rinse the 15-mL conical vial with an additional 8 mL IM and add to the dish for a total volume of 18–20 mL. Gently tilt dish in all directions to evenly distribute cells throughout surface area. Higher cell densities at the time of plating can interfere with robust neuronal differentiation. If more cells are needed for downstream experiments, it is best to increase the number of dishes used rather than the number of cells plated per dish. In general, iPSCs divide 1–2 times after doxycycline administration and are then post-mitotic. If fewer cells are needed, scale the number of iPSCs plated and medium used by the surface area of the dish (e.g,. 0.8–1.0×10 7 cells per 10cm dish or 1.5×10 6 cells/well of a 6-well plate). If multiple iPSC lines are being simultaneously differentiated, plate the same number of cells for each line to minimize density-dependent differentiation variability.
+
+Higher cell densities at the time of plating can interfere with robust neuronal differentiation. If more cells are needed for downstream experiments, it is best to increase the number of dishes used rather than the number of cells plated per dish. In general, iPSCs divide 1–2 times after doxycycline administration and are then post-mitotic. If fewer cells are needed, scale the number of iPSCs plated and medium used by the surface area of the dish (e.g,. 0.8–1.0×10 7 cells per 10cm dish or 1.5×10 6 cells/well of a 6-well plate). If multiple iPSC lines are being simultaneously differentiated, plate the same number of cells for each line to minimize density-dependent differentiation variability.
+
+Observe cells under microscope to ensure even distribution and high proportion of live cells (identified by light halo around each cell) vs. dead cells and debris (darker and smaller than live cells).
+
+Place in 37°C incubator and gently slide dish side-to-side and front-to-back to evenly distribute cells.
+
+Check cells under microscope. Nascent neuritic extensions should begin to be evident after about 24 hours of doxycycline exposure ( Fig. 4B, d1 ).
+
+Make 20 mL of IM (+doxycycline, but without RI) and warm in 37°C water/bead bath for approximately 20 minutes, or until warm to the touch.
+
+Aspirate old medium, wash 1–2× with PBS, and replace with 18 mL of warm IM+doxycycline. If significant cell debris are noted, wash additional times with PBS prior to adding fresh medium.
+
+Check cells under microscope. Neuritic extensions should be more evident ( Fig. 4B, d2 ).
+
+Repeat medium exchange with IM+doxycycline as on day one.
+
+Check cells under microscope. Neurites should be obvious by this time ( Fig. 4B, d3 ). If neurites are not present or cells appear misshapen or otherwise unhealthy, cells should be discarded and the protocol re-attempted with a new batch of d0 iPSCs. Make up new IM medium with fresh doxycycline and RI.
+
+If neurites are not present or cells appear misshapen or otherwise unhealthy, cells should be discarded and the protocol re-attempted with a new batch of d0 iPSCs. Make up new IM medium with fresh doxycycline and RI.
+
+Once cells are confirmed to be healthy, cells should be dissociated with Accutase and either frozen or re-plated onto final dishes for neuronal maturation and experimental manipulation. Dissociation should follow steps 3–8 from Day 0 of this protocol, freezing should follow Basic Protocol 1, and plating for neuronal maturation will be detailed in the following protocol.
+
+## BASIC PROTOCOL 6: CULTURING i3NEURONS
+Following day 3 replating, i 3 Neurons should be cultured for at least one week before lysis, fixation, or other experimental endpoint, and they remain viable for at least one month with proper maintenance. This protocol covers medium conditions, coating of tissue culture dishes with synthetic polymers, recommended plating densities, and maintenance procedures for long-term culture and for specific experimental applications.
+
+Cortical Neuron Culture Medium (CM) is sufficient to promote the maturation and long-term maintenance of i 3 Neurons in culture. i 3 Neurons express general markers of cortical neurons, as well as specific pre- and postsynaptic markers of glutamatergic excitatory cortical neurons ( Fig. 5A and B ). Since these cells are post-mitotic after 3 days of differentiation (see Basic Protocol 5) and prefer neuron-conditioned to fresh medium, maintenance conditions for these cultures are minimal. Generally, half-medium changes every 7 days with fresh, pre-warmed CM are sufficient for culturing beyond d10 (7 days post differentiation). Neuron attachment and growth also requires a strongly adhesive substrate. Coating plates with synthetic polymers such as Poly-L-ornithine (PLO) is necessary for i 3 Neuron attachment, viability, and successful outgrowth.
+
+General iPSC culture reagents (see Basic Protocol 1)
+
+Freshly split or thawed 3-day differentiated i 3 Neurons (following completion of Basic Protocol 5)
+
+Cortical Neuron Culture Medium (CM; see Table 1C )
+
+Freshly-prepared 1× Poly-L-ornithine (PLO) or Polyethyleneimine (PEI) solution (see Table 2 )
+
+Laminin (Gibco 23017015)
+
+Prepare stock solutions of PLO or PEI (see Table 2 ).
+
+Add ½ culture volume of 1× coating solution to the tissue culture dishes to be used for plating day 3 partially-differentiated i3Neurons. Gently tilt plate to ensure full coverage.
+
+Incubate dishes for at least one hour at room temperature. For best results, incubate dishes overnight in a 37°C incubator.
+
+For best results, incubate dishes overnight in a 37°C incubator.
+
+Aspirate coating solution, then wash dishes with sterile water. Repeat twice for 3 total washes. Four or more total washes are recommended for PEI-coated plates.
+
+Four or more total washes are recommended for PEI-coated plates.
+
+Aspirate water and let dishes dry completely in a BSC (typically requires 30 min-1 hr). To accelerate the drying process, stand the dishes on their sides and lean them against the back of the BSC. Lids may also be left askew to allow better airflow. In particular, PEI requires complete drying to prevent toxicity.
+
+To accelerate the drying process, stand the dishes on their sides and lean them against the back of the BSC. Lids may also be left askew to allow better airflow. In particular, PEI requires complete drying to prevent toxicity.
+
+Coated and dried dishes should be used immediately or wrapped in aluminum foil and stored at 4°C for up to 1 week. Faster neurite outgrowth, increased neuronal survival, and reduced clumping for long-term culture may be achieved by a secondary coating with laminin prior to plating. Thaw concentrated laminin stock solution (approximately 1mg/mL) slowly on ice, and use chilled pipettes to dispense in order to reduce polymerization. Dilute laminin stock to 10 μg/mL in cold PBS, and add ½ culture volume of this solution to the polymer-coated, washed, and dried dishes. Incubate for at least 2 hours at 37°C before aspirating and plating neurons directly. This is optional for PLO and highly recommended for PEI.
+
+Faster neurite outgrowth, increased neuronal survival, and reduced clumping for long-term culture may be achieved by a secondary coating with laminin prior to plating. Thaw concentrated laminin stock solution (approximately 1mg/mL) slowly on ice, and use chilled pipettes to dispense in order to reduce polymerization. Dilute laminin stock to 10 μg/mL in cold PBS, and add ½ culture volume of this solution to the polymer-coated, washed, and dried dishes. Incubate for at least 2 hours at 37°C before aspirating and plating neurons directly. This is optional for PLO and highly recommended for PEI.
+
+Prepare CM in a sterile BSC and place in 37°C water/bead bath for approximately 20 minutes or until warm to the touch Doxycycline (final concentration of 2 μg/mL) can be added to this medium at the discretion of the experimenter. Neurogenin-2 requires only 24 hours of expression to induce irreversible differentiation to neurons, so the 3-day differentiation period in IM medium should be sufficient for most iPSC lines. Prolonged induction of NGN2 has not been shown to have significant effects on neuronal health or maturation. However, if other doxycycline-inducible transgenes are present in the cell line, it may be desirable to restrict expression of these cassettes to prevent toxicity and/or accommodate future induction time points We have found that several basal media (e.g., DMEM/F12, Neurobasal A, and Brainphys), when properly supplemented (+B27/BDNF/NT3/laminin), work well for i3Neuron culture. We favor BrainPhys medium since it facilitates synapse formation and spontaneous electrical activity, but alternative basal medium/supplement combinations may be superior for specific applications or individual iPSC lines, and other neuronal medium formulations are also worth considering (e.g., B27 Plus, Invitrogen)
+
+Doxycycline (final concentration of 2 μg/mL) can be added to this medium at the discretion of the experimenter. Neurogenin-2 requires only 24 hours of expression to induce irreversible differentiation to neurons, so the 3-day differentiation period in IM medium should be sufficient for most iPSC lines. Prolonged induction of NGN2 has not been shown to have significant effects on neuronal health or maturation. However, if other doxycycline-inducible transgenes are present in the cell line, it may be desirable to restrict expression of these cassettes to prevent toxicity and/or accommodate future induction time points
+
+We have found that several basal media (e.g., DMEM/F12, Neurobasal A, and Brainphys), when properly supplemented (+B27/BDNF/NT3/laminin), work well for i3Neuron culture. We favor BrainPhys medium since it facilitates synapse formation and spontaneous electrical activity, but alternative basal medium/supplement combinations may be superior for specific applications or individual iPSC lines, and other neuronal medium formulations are also worth considering (e.g., B27 Plus, Invitrogen)
+
+From a thawed cryovial (see Basic Protocol 1) or freshly dissociated 3-day differentiated cells, resuspend in the appropriate amount of medium. Typical cell counts and medium volumes are as follows: 96-well plate (imaging): 1–5×104 cells in 100 μL medium/well Ibidi μ-slide 8-well slide (imaging): 0.3–1.5×105 cells in 250 μL medium/well 6-well plate (biochemistry): 1.5–2×106 cells in 1.5 mL medium/well (supplement to 2–3 mL one day after plating) 10-cm dish (biochemistry): 1–1.2×107 cells in 8 mL medium (supplement to 10–12 mL one day after plating) 15-cm dish (biochemistry): 3–3.5×107 cells in 18 mL medium (supplement to 20–22 mL one day after plating) Biochemistry applications typically require a high concentration of cells for a given surface area. Thus, these experiments require a greater volume of medium than would be required for an imaging experiment. However, after splitting, cells typically adhere better to a new plate with a lesser volume of medium compared to a greater volume. Thus, neurons plated on 6-well, 10-cm, or 15-cm dishes for biochemistry should be plated with 1.5 mL, 8 mL, and 18 mL of medium, respectively. These volumes should then be supplemented to the final volumes above on the day after plating.
+
+96-well plate (imaging): 1–5×104 cells in 100 μL medium/well
+
+Ibidi μ-slide 8-well slide (imaging): 0.3–1.5×105 cells in 250 μL medium/well
+
+6-well plate (biochemistry): 1.5–2×106 cells in 1.5 mL medium/well (supplement to 2–3 mL one day after plating)
+
+10-cm dish (biochemistry): 1–1.2×107 cells in 8 mL medium (supplement to 10–12 mL one day after plating)
+
+15-cm dish (biochemistry): 3–3.5×107 cells in 18 mL medium (supplement to 20–22 mL one day after plating) Biochemistry applications typically require a high concentration of cells for a given surface area. Thus, these experiments require a greater volume of medium than would be required for an imaging experiment. However, after splitting, cells typically adhere better to a new plate with a lesser volume of medium compared to a greater volume. Thus, neurons plated on 6-well, 10-cm, or 15-cm dishes for biochemistry should be plated with 1.5 mL, 8 mL, and 18 mL of medium, respectively. These volumes should then be supplemented to the final volumes above on the day after plating.
+
+Biochemistry applications typically require a high concentration of cells for a given surface area. Thus, these experiments require a greater volume of medium than would be required for an imaging experiment. However, after splitting, cells typically adhere better to a new plate with a lesser volume of medium compared to a greater volume. Thus, neurons plated on 6-well, 10-cm, or 15-cm dishes for biochemistry should be plated with 1.5 mL, 8 mL, and 18 mL of medium, respectively. These volumes should then be supplemented to the final volumes above on the day after plating.
+
+Check cells daily under a phase contrast microscope, paying particular attention to cell debris and morphological changes. High levels of cell debris and/or cell clumping often indicate a problem with either the dish coating or culture medium. If seen, remove half volume of culture medium and replace with full volume of medium (50% additional medium). If additional fresh medium does not result in less debris the next day, there has likely been insufficient coating or the coating medium was expired.
+
+High levels of cell debris and/or cell clumping often indicate a problem with either the dish coating or culture medium. If seen, remove half volume of culture medium and replace with full volume of medium (50% additional medium). If additional fresh medium does not result in less debris the next day, there has likely been insufficient coating or the coating medium was expired.
+
+Optional: Biweekly half-medium changes (i.e., every 3–4 days) can be effective in sustaining dense cultures (e.g., biochemistry applications). Weekly half-medium changes are sufficient to sustain long-term cultures at moderate densities (e.g., microscopy applications). Use the appropriate serological pipette or micropipette to slowly aspirate a measured volume from each well, and very gently replace with fresh medium. Neurons tend to easily dissociate from the dish, so any aspiration or dispensing of medium directly onto cells is not recommended. Take care to aspirate and dissociate by tilting the dish so that medium accumulates on one side. Then, aspirate/dispense with the pipette directed toward the wall of the dish (i.e., away from the cells at the bottom).
+
+Neurons tend to easily dissociate from the dish, so any aspiration or dispensing of medium directly onto cells is not recommended. Take care to aspirate and dissociate by tilting the dish so that medium accumulates on one side. Then, aspirate/dispense with the pipette directed toward the wall of the dish (i.e., away from the cells at the bottom).
+
+Optional: Supplementation with astrocytes or astrocyte-conditioned medium have been shown to improve the overall health and electrophysiological activity of i3Neurons in long-term cultures ( Fig. 5C and D ). To maintain culture purity for biochemistry, astrocytes can be supplemented using various commercially available transwell dish inserts. Alternatively, half-medium changes as described above can be replaced with half-medium changes of astrocyte-conditioned medium (i.e., medium extracted from independent astrocyte cultures and sterile filtered to ensure no cell or debris carryover). Primary astrocytes expanded in DMEM + 10% FCS from post-natal (P0–3) mice or rats are sufficient for these purposes, provided that they are low-passage (< p3 post-harvest). Astrocytes can also be frozen in aliquots after expansion and thawed immediately prior to co-culture with partially-differentiated neurons at d3. If directly co-culturing astrocytes, we recommend a ratio of 2 neurons:1 astrocyte. See Support Protocol 7 for detailed information.
+
+## BASIC PROTOCOL 7: DIFFERENTIATION OF i3LMNs
+This protocol describes the rapid and robust differentiation of hiPSCs into lower motor neurons (i 3 LMNs) via induced expression of the transcription factors NGN2, ISL1, and LHX3 (NIL) 27 , 33 . In particular, a donor construct containing these factors under the tetracyline response element (TRE3G) 28 , a CAG promoter driving constitutive expression of the reverse tetracycline transactivator (rtTA3G), and an EF-1α promoter driving constitutive expression of selection genes (mCherry for Addgene #105841 and SBP-LNGFR and mApple for Addgene #105842) was stably integrated into the safe-harbor CLYBL locus via TALENs 29 . Following transfection, lines were purified as described in Basic Protocols 3 and 4 above, and the resulting clones were genotyped by PCR amplification of both the wild-type allele and insert sequence in order to determine whether the NIL construct had achieved heterozygous or homozygous insertion. Differentiation efficiency was then tested in several clones to identify those with standardized doxycycline-responsive behavior. Motor neuron differentiation efficiency can vary between iPSC lines, and homozygous insertion into both CLYBL alleles may result in improved efficiency. Reduced differentiation efficiency of mCherry positive clones can occur with off-target integration of the donor construct. Additionally, the mCherry reporter is flanked by loxP sites, permitting excision by transient transfection of Cre recombinase if desired.
+
+iPSCs with stably integrated doxycycline-inducible hNIL transgenes
+
+General iPSC culture reagents (see Basic Protocol 1)
+
+Induction Medium (see Table 1B )
+
+Compound E (Gamma-Secretase Inhibitor XXI, Calbiochem, #565790)- 500 μg reconstituted in 255 μl ethanol and 255 μl DMSO (2mM stock). Store light-protected at −20 ° C up to 6 months.
+
+NOTE : It is critical that the health of iPSCs be optimal prior to differentiation; poorly-maintained, spontaneously differentiated, or overly-confluent iPSC cultures tend to differentiate poorly or variably. Apart from observation under the microscope, counting, and centrifugation, all steps should be carried out in a sterile biological safety cabinet. This protocol assumes differentiation of one 10cm dish, which should be seeded with 1.5×10 6 cells. Each dish in turn provides approximately 8×10 6 cells at day 3. Medium volumes and cell numbers may be scaled by surface area (i.e., seed 2×10 6 iPSCs/cm 2 , or 1.8×10 5 iPSCs/well of a 6-well plate).
+
+Prepare a sufficient amount of hNIL-iPSC for differentiation. Approximately 2 wells of a 6-well dish at 80% confluency are sufficient to begin the differentiation of a 10cm dish, and cell numbers may be scaled by well surface area
+
+Approximately 2 wells of a 6-well dish at 80% confluency are sufficient to begin the differentiation of a 10cm dish, and cell numbers may be scaled by well surface area
+
+Prepare cells as for EDTA split (see Basic Protocol 1)
+
+Detach cells by pipetting 3 mL DMEM/F12 to each well. Use a 10-ml pipette to remove the cells off of the bottom of the dish. Gently triturate the cells by pipetting the cells up and down 2–3 times in each well iPSCs will remain in small clusters of 5–10 cells.
+
+iPSCs will remain in small clusters of 5–10 cells.
+
+Count the cells; transfer 1.5×106 iPSCs per 10cm dish to be differentiated to a 15mL conical tube, and centrifuge at 300 rcf for 5 min at room temperature. Aspirate the supernatant and plate the resuspended cells in 12 mL E8 medium supplemented with 10 μM RI on a 10-cm Matrigel coated dish.
+
+Gently rock and swirl the plate by hand to resuspend and collect debris, then aspirate off the medium and wash once with PBS.
+
+Add 12 mL of IM freshly supplemented with 10 μM RI, 2 μg/mL doxycycline, and 1:10,000 Compound E from stock. Doxycycline will induce the expression of the hNIL construct and promote the differentiation into motor neurons. Morphological changes will be seen 24 hours after doxycycline. The induction efficiency can be tested by comparing parallel wells treated with and without doxycycline, or by performing a separate dox-GFP experiment as described in support protocol 6.
+
+Doxycycline will induce the expression of the hNIL construct and promote the differentiation into motor neurons. Morphological changes will be seen 24 hours after doxycycline. The induction efficiency can be tested by comparing parallel wells treated with and without doxycycline, or by performing a separate dox-GFP experiment as described in support protocol 6.
+
+Observe differentiating cells under an inverted microscope. Cells should be beginning to spread out and form processes.
+
+If long-term culture is desired immediately, coat plates overnight with PLO, PDL, or PEI (see Basic Protocol 8).
+
+Treat the differentiating cells with Accutase (see Basic Protocol 1). Use 3 mL Accutase to digest each 10-cm dish.
+
+Tilt the plate and add 6 mL PBS to the Accutase and cell solution using a 10-mL pipette. Gently triturate 4–5 times to break the cells apart. For best results, pass the cells and solution through a 40μm cell strainer to ensure full dissociation. Add 1mL IM after straining to improve pelleting.
+
+For best results, pass the cells and solution through a 40μm cell strainer to ensure full dissociation. Add 1mL IM after straining to improve pelleting.
+
+Centrifuge the cells at 300 rcf for 5 min at room temperature.
+
+Aspirate the supernatant and resuspend in IM
+
+Count the cells.
+
+Cells may be re-plated immediately (see Basic Protocol 8) or frozen for future use (see Basic Protocol 1). Cells to be frozen should be diluted to a standard cell density (i.e., 1×10 6 cells/mL) in IM containing a final concentration of 10% DMSO.
+
+Cells to be frozen should be diluted to a standard cell density (i.e., 1×10 6 cells/mL) in IM containing a final concentration of 10% DMSO.
+
+## BASIC PROTOCOL 8: CULTURING i3LMNs
+Induction and differentiation of i 3 LMNs is nearly identical to the first three days of differentiation for i 3 Neurons (see Basic Protocol 5), including identical induction medium. Following replating, however, differences arise including the use of Motor Neuron Culture Medium (MM) for long-term culture ( Table 1D ), additional reagents to reduce proliferative cells if necessary, and variable options for coating polymers ( Fig. 6A ).
+
+MM is sufficient to promote the maturation and long term culture of i 3 LMNs. While a majority of these cells at day 3 are committed to differentiation to post-mitotic neurons ( Fig. 6B and C ), a small subset may remain proliferative and can quickly overtake the culture. To compensate, a one-day pulse of Bromodeoxyuridine (BrdU) is recommended at the time of replating of day 3 i 3 LMNs, and has proven effective at impairing mitosis without causing neural toxicity ( Fig. 6D ). Following BrdU treatment, medium should be completely exchanged the following day. CultureOne is also effective at reducing levels of proliferative cells over time, and it may be included in MM medium with usually minimal effects on neural cell health. In general, ¼-½ of the medium should be aspirated and replaced with fresh medium every 3–4 days.
+
+Neuron attachment and growth also requires a strongly adhesive substrate. Coating plates with synthetic polymers such as Poly-L-ornithine (PLO), polyethyleneimine (PEI), or poly-D-lysine (PDL) is sufficient for cell attachment, and providing an optional additional coating of purified laminin improves i 3 LMN viability and outgrowth. While these substrates are stiffer than biological conditions, they reduce cell migration and clumping, facilitating imaging of individual cells. In our experience, PLO has produced the best neuronal morphology, but it is also the most sensitive to cell detachment resulting from medium exchanges. Detachment is a particular concern at high cell density and after extended time in culture, as the interconnected network of neural processes can cause entire wells to detach from the edges. PEI and PDL typically promote stronger adhesion, but PEI is toxic to cells if coating is not performed properly, and rapid degradation and batch-to-batch variability complicate the use of PDL. Cells are especially susceptible to detachment during the many washes required for immunocytochemistry, so these steps should be performed with extreme care. This protocol will assume use of PLO, although coating with PEI or PDL may be performed using an identical protocol except where noted.
+
+General iPSC culture reagents (see Basic Protocol 1)
+
+Freshly split or thawed 3-day differentiated i 3 LMNs (following completion of Basic Protocol 5)
+
+Motor Neuron Culture Medium (MM; see Table 1D )
+
+PLO, PEI, or PDL solution ( Table 2 )
+
+Laminin (Gibco 23017015)
+
+Prepare stock solutions of PLO, PEI, or PDL (see Table 2 )
+
+Add ½ culture volume of 1× solution to the tissue culture dishes to be used for plating day 3 partially-differentiated i3LMNs. Gently tilt the plate to ensure full coverage.
+
+Incubate dishes for at least one hour at room temperature. For best results, incubate dishes overnight in a 37°C incubator
+
+For best results, incubate dishes overnight in a 37°C incubator
+
+Aspirate coating solution, then wash dishes with sterile water. Repeat 2× for 3 total washes. An additional two washes is recommended for PEI coating.
+
+An additional two washes is recommended for PEI coating.
+
+Aspirate water and let dishes dry completely in a BSC (typically requires 30 min-1 hr). To accelerate the drying process, stand the dishes on their sides and lean them against the back of the BSC. Lids may also be left askew to allow better airflow. In particular, PEI requires complete drying to prevent toxicity.
+
+To accelerate the drying process, stand the dishes on their sides and lean them against the back of the BSC. Lids may also be left askew to allow better airflow. In particular, PEI requires complete drying to prevent toxicity.
+
+Coated and dried dishes should be used immediately or wrapped in aluminum foil and stored at 4°C for up to 1 week. Optional: Faster neurite outgrowth and increased neuronal survival during replating may be achieved by additionally coating plates with laminin prior to plating. Dilute laminin to 15μg/mL in PBS, and add ½ culture volume of this solution to the polymer-coated dishes. Incubate at 37°C for 1 hour before aspirating and plating neurons.
+
+Optional: Faster neurite outgrowth and increased neuronal survival during replating may be achieved by additionally coating plates with laminin prior to plating. Dilute laminin to 15μg/mL in PBS, and add ½ culture volume of this solution to the polymer-coated dishes. Incubate at 37°C for 1 hour before aspirating and plating neurons.
+
+Prepare wells of pre-coated plates with warm IM supplemented with 10 μM RI, 2 μg/mL doxycycline, 1:10,000 Compound E from stock, and 1 μg/mL laminin. Additionally supplementing with 40 μM BrdU for 24h helps to prevent outgrowth of mitotically active cells without affecting neuronal health. Alternatively, CultureOne supplement may be added to the medium from d4 onwards.
+
+Additionally supplementing with 40 μM BrdU for 24h helps to prevent outgrowth of mitotically active cells without affecting neuronal health. Alternatively, CultureOne supplement may be added to the medium from d4 onwards.
+
+From frozen stock or freshly dissociated 3-day differentiated cells, resuspend (see Basic Protocol 1, Thawing iPSCs) in the appropriate amount of medium. Typical cell counts and medium volumes are as follows: 96-well plate (imaging): 1–5×104 cells in 100 μL medium/well Ibidi μ-slide 8-well slide (imaging): 3–15×104 cells in 250 μL medium/well 6-well plate (biochemistry): 1.5–2×106 cells in 1.5 mL medium/well (supplement to 2–3 mL one day after plating) 10-cm dish (biochemistry): 1–1.2×107 cells in 8 mL medium (supplement to 10–12 mL one day after plating) 15-cm dish (biochemistry): 3–3.5×107 cells in 18 mL medium/well (supplement to 20–22 mL one day after plating) Biochemistry applications typically require a high concentration of cells for a given surface area. Thus, these experiments require a greater volume of medium than would be required for an imaging experiment. However, after splitting, cells typically adhere better to a new plate with a lesser volume of medium compared to a greater volume. Thus, neurons plated on 6-well, 10-cm, or 15-cm dishes for biochemistry should be plated with 1.5 mL, 8mL, and 18 mL of medium, respectively. These volumes should then be supplemented to the final volumes above on the day after plating.
+
+96-well plate (imaging): 1–5×104 cells in 100 μL medium/well
+
+Ibidi μ-slide 8-well slide (imaging): 3–15×104 cells in 250 μL medium/well
+
+6-well plate (biochemistry): 1.5–2×106 cells in 1.5 mL medium/well (supplement to 2–3 mL one day after plating)
+
+10-cm dish (biochemistry): 1–1.2×107 cells in 8 mL medium (supplement to 10–12 mL one day after plating)
+
+15-cm dish (biochemistry): 3–3.5×107 cells in 18 mL medium/well (supplement to 20–22 mL one day after plating) Biochemistry applications typically require a high concentration of cells for a given surface area. Thus, these experiments require a greater volume of medium than would be required for an imaging experiment. However, after splitting, cells typically adhere better to a new plate with a lesser volume of medium compared to a greater volume. Thus, neurons plated on 6-well, 10-cm, or 15-cm dishes for biochemistry should be plated with 1.5 mL, 8mL, and 18 mL of medium, respectively. These volumes should then be supplemented to the final volumes above on the day after plating.
+
+Biochemistry applications typically require a high concentration of cells for a given surface area. Thus, these experiments require a greater volume of medium than would be required for an imaging experiment. However, after splitting, cells typically adhere better to a new plate with a lesser volume of medium compared to a greater volume. Thus, neurons plated on 6-well, 10-cm, or 15-cm dishes for biochemistry should be plated with 1.5 mL, 8mL, and 18 mL of medium, respectively. These volumes should then be supplemented to the final volumes above on the day after plating.
+
+The next day (d4), aspirate medium and replace with pre-warmed MM supplemented with 1μg/mL laminin. Medium changes should be done gently down the side of the well with the plate tilted to prevent cell detachment. If BrdU was used on day 3, wash with PBS before adding media.
+
+Medium changes should be done gently down the side of the well with the plate tilted to prevent cell detachment. If BrdU was used on day 3, wash with PBS before adding media.
+
+For the first four days (d4-d7), check cells daily under a phase contrast microscope, paying particular attention to cell debris and morphological changes. Medium changes should be done every 2–3 days by replacing 1/3 of the medium with fresh MM+laminin. High levels of cell debris and/or cell clumping often indicate a problem with either the dish coating or culture medium. If seen, remove half volume of culture medium and replace with full volume of medium (50% additional medium). If additional fresh medium does not result in less debris the next day, there has likely been insufficient coating or the coating medium was expired.
+
+High levels of cell debris and/or cell clumping often indicate a problem with either the dish coating or culture medium. If seen, remove half volume of culture medium and replace with full volume of medium (50% additional medium). If additional fresh medium does not result in less debris the next day, there has likely been insufficient coating or the coating medium was expired.
+
+After day 7, perform half-medium changes every 4–7 days with complete MM+laminin for long-term maintenance. Biweekly half-medium changes can be effective in sustaining dense cultures (e.g., biochemistry applications). Weekly half-medium changes are sufficient to sustain long-term cultures at moderate densities (e.g., microscopy applications). Use the appropriate serological pipette or micropipette to slowly aspirate a measured volume from each well, and very gently replace with fresh medium. Neurons tend to dissociate from the dish easily, so any aspiration or dispensing of medium directly onto cells is not recommended. Take care to aspirate and dissociate by tilting the dish so that medium accumulates on one side. Then, aspirate/dispense with the pipette directed toward the wall of the dish (i.e., away from the cells at the bottom).
+
+Biweekly half-medium changes can be effective in sustaining dense cultures (e.g., biochemistry applications). Weekly half-medium changes are sufficient to sustain long-term cultures at moderate densities (e.g., microscopy applications). Use the appropriate serological pipette or micropipette to slowly aspirate a measured volume from each well, and very gently replace with fresh medium. Neurons tend to dissociate from the dish easily, so any aspiration or dispensing of medium directly onto cells is not recommended. Take care to aspirate and dissociate by tilting the dish so that medium accumulates on one side. Then, aspirate/dispense with the pipette directed toward the wall of the dish (i.e., away from the cells at the bottom).
+
+Optional: Supplementation with astrocytes or astrocyte-conditioned medium have been shown to improve the overall health and electrophysiological activity of i3LMNs in long-term cultures, as described for i3Neurons (see Basic Protocol 6 and Support Protocol 7).
+
+## SUPPORT PROTOCOL 1: GENOTYPING OF iPSCs WITH GENE INSERTIONS (to be completed as part of Basic Protocol 4 to evaluate for gene editing)
+This protocol will use genomic DNA isolated from the purified iPSC clones with CLYBL or AAVS1 gene insertion to determine if integration of the transgene has occurred correctly, in a heterozygous or homozygous fashion, and if the floxed selection genes are present. Primer sequences, amplicon sizes, PCR mix composition, and thermal conditions are included below.
+
+PCR reagents (e.g., Platinum SuperFi PCR Master Mix, Invitrogen 12358250)
+
+Primers (see below)
+
+Genomic DNA
+
+PCR tubes or plates
+
+Thermocycler
+
+Agarose (SeaKem LE, Lonza 50004)
+
+Tris-acetate-EDTA (TAE) buffer (ThermoFisher B49)
+
+Gel electrophoresis chamber
+
+C1 5′ TGACTAAACACTGTGCCCCA 3′
+
+C2 5′ AGGCAGGATGAATTGGTGGA 3′
+
+C3 5′ CAGACAAGTCAGTAGGGCCA 3′
+
+C4 5′ AGAAGACTTCCTCTGCCCTC 3′
+
+Run PCR products on 1% agarose gel. The C1/C2 primer pair will yield a 790 bp band if the cells have at least one wildtype allele (i.e., no insertion or heterozygous insertion). With homozygous insertion, no band will be produced. The C3/C4 pair will yield a band of 1080 bp with hNIL insertion to the CLYBL site; this band will be lost with successful Cre excision.
+
+C1 5′ TGACTAAACACTGTGCCCCA 3′
+
+C2 5′ AGGCAGGATGAATTGGTGGA 3′
+
+C3 5′ CAGACAAGTCAGTAGGGCCA 3′
+
+CM4 5′ AGGCCTTCCATCTGTTGCT 3′
+
+CM5 5′ TGCCAAGTGGGCAGTTTAC 3′
+
+Run PCR products on 1% agarose gel. The C1/C2 primer pair will yield a 790 bp band if the cells have at least one wildtype allele (i.e., no insertion or heterozygous insertion). With homozygous insertion, no band will be produced. The C3/CM4 pair will yield a band of 1410 bp with mag-hNIL insertion. Upon successful Cre excision, the C1/CM5 primer pair will amplify a product of 816 bp, with an unedited amplicon at 4139 bp if editing does not occur.
+
+A1 5′ GGAATCTGCCTAACAGGAGGT 3′
+
+A2 5′ CGGTTAATGTGGCTCTGGTT 3′
+
+A3 5′ CCCCCAGAATAGAATGACACC 3′
+
+Run PCR products on 1% agarose gel. The A1/A2 primer pair will yield a 163 bp band if the cells have no or heterozygous insertion of hNGN2 into AAVS1. With homozygous insertion, no band will be produced. The A2/A3 pair will yield a band of 1100bp with hNGN2 insertion to the AAVS1 site that will reduced to 229 bp with successful Cre excision at the loxP sites.
+
+Set up PCR reaction
+
+For each 10 μL reaction, use the primer pairs above for the given safe-harbor site and donor construct chosen.
+
+1μL 10μM Primer 1 1μL 10μM Primer 2 1μL purified DNA from iPSC clone 2μL water 5μL 2× PCR Master Mix
+
+Run PCR reactions
+
+Step 1 95°C 3 minutes 2 95°C 30 seconds 3 64°C for CLYBL primers, 58°C for AAVS1 primers, 30 seconds 4 72°C 1 minute 5 repeat (to step 2) 34 times 6 72°C 5 minutes 7 Hold at 12°C
+
+Run PCR products on 1% agarose gel with interpretation given above for each primer pair. If performing the PCR on samples following Cre excision, increasing the amount of time during the extension step may be necessary to detect the larger un-excised template if a heterogeneous culture is obtained.
+
+## SUPPORT PROTOCOL 2: IMMUNOCYTOCHEMISTRY OF i3NEURONS
+Staining i 3 Neurons for immunofluorescence (IF) studies is difficult due to the delicate and interconnected nature of the neuronal processes. These processes are easily disrupted in the extensive series of washes in an IF study, and initial dissociation of even a few processes often results in entire sheets of neurons lifting off the culture surface. The best ways to minimize these events are by reducing the number of total washes and by carrying out washes slowly on a tilted dish. Additionally, if possible, IF studies should only be done in neurons 10 days old or younger. After this point, neurons tend to be very delicate and even extremely gentle washing typically causes substantial cell washout.
+
+Tissue culture dish with neurons to be fixed and stained
+
+Fresh 16% paraformaldehyde (PFA) solution (Electron Microscopy Sciences)
+
+Phosphate-buffered saline (PBS)
+
+10% Saponin solution
+
+Donkey serum
+
+Antibodies (primary and secondary)
+
+Hoechst/DAPI dye (20mg/mL; 10,000×)
+
+P10, P200, P1000 micropipettes
+
+Sterile filters (SteriFlip, Millipore)
+
+Plate rocker
+
+Recommended : P200 8-channel pipette (for processing 96-well dishes)
+
+Recommended : Liquid reagent reservoirs
+
+NOTE : the following protocol assumes that the experimenter is using a full 96-well dish with the recommended cell counts and medium volumes as indicated in Basic Protocols 6 and 8. Staining on other surfaces (i.e., 8-well chamber slides) may be performed by scaling volumes appropriately.
+
+Make 15 mL of 8% PFA solution (7.5mL PBS, 7.5mL 16% PFA).
+
+Make 50 mL of antibody blocking solution (3% donkey serum and 0.1% saponin in PBS) and filter. Detergents other than saponin (i.e., Triton X-100 or Tween-20 at 0.25%) may also be used. Concentrations should be optimized by the user.
+
+Detergents other than saponin (i.e., Triton X-100 or Tween-20 at 0.25%) may also be used. Concentrations should be optimized by the user.
+
+Pour the 8% PFA solution into a liquid reagent reservoir.
+
+Retrieve 96-well dish (45,000–50,000 cells/100 μL medium in each well) and slowly add 100 μL 8% PFA solution to each well with 8-channel pipette. Do NOT pipette up and down to mix. 4% PFA is a typical fixative for ICC applications. This concentration is used here, but an aspiration step is removed by adding an equal volume of 8% PFA directly to the culture medium on the cells. Pipetting up and down eliminates this advantage by promoting cell dissociation from the culture surface
+
+4% PFA is a typical fixative for ICC applications. This concentration is used here, but an aspiration step is removed by adding an equal volume of 8% PFA directly to the culture medium on the cells. Pipetting up and down eliminates this advantage by promoting cell dissociation from the culture surface
+
+Incubate at room temperature for 10 min. Longer fixation times and/or cold incubations may be used as per requirements for particular antibodies
+
+Longer fixation times and/or cold incubations may be used as per requirements for particular antibodies
+
+Tilt dish to one side and lower 8-channel micropipette tips so that they contact the wall of each well. Slowly aspirate the PFA, leaving a small amount (if necessary) at the wall-culture surface interface. To prevent drying, aspirate only one column of wells at a time. Dispense PFA into a waste liquid reagent reservoir.
+
+To prevent drying, aspirate only one column of wells at a time. Dispense PFA into a waste liquid reagent reservoir.
+
+With plate tilted, slowly dispense 200 μl PBS onto the same wall in each well, taking care to direct the micropipette tips toward the wall and NOT the culture surface. Liquid should flow smoothly onto culture surface. PBS without detergent tends to adhere to the wall and then suddenly rush onto the culture surface all at once, promoting cell dissociation. To ensure more gradual flow, gently rub the micropipette tip against the wall in a side-to-side motion while dispensing. This action disrupts the surface tension of the dispensed PBS droplet, providing a mechanical substitute for detergent.
+
+PBS without detergent tends to adhere to the wall and then suddenly rush onto the culture surface all at once, promoting cell dissociation. To ensure more gradual flow, gently rub the micropipette tip against the wall in a side-to-side motion while dispensing. This action disrupts the surface tension of the dispensed PBS droplet, providing a mechanical substitute for detergent.
+
+Repeat steps 6 and 7 for each column of wells.
+
+Once fixative solution has been replaced with PBS, gently rock for 5 minutes.
+
+Repeat steps 6–9 two times, each with 100 μl washes of PBS.
+
+Aspirate PBS (using plate tilt method) and add 100 μl of blocking solution to each well. Gently rock at room temp for 30 min.
+
+During blocking, make up primary antibody solution(s) in blocking buffer or 3% BSA solution.
+
+Aspirate blocking solution and add primary antibody solution to plate (following procedure in steps 6 and 7). Gently rock at room temperature for 1 hour or at 4°C overnight.
+
+Aspirate primary antibody solution. Primary antibody may be saved and re-used for up to 1 month. Sodium azide (0.02 % final concentration) should be added to any saved antibody solutions to prevent microbial growth
+
+Primary antibody may be saved and re-used for up to 1 month. Sodium azide (0.02 % final concentration) should be added to any saved antibody solutions to prevent microbial growth
+
+Add 150–200 μL of blocking solution to wells (following procedure in steps 6 and 7) and gently rock for 5 min.
+
+Repeat steps 14 and 15 two times for a total of three washes.
+
+Aspirate blocking solution and add secondary antibody solution (following procedure in steps 6 and 7). Gently rock at room temp for 1 hr.
+
+Wash wells with PBS three times (following procedure in steps 6 and 7). The second-to-last wash can contain Hoechst/DAPI dye if nuclear visualization is desired.
+
+Image cells in PBS replace with mounting medium if desired
+
+replace with mounting medium if desired
+
+Store plate at 4°C.
+
+## SUPPORT PROTOCOL 3: TRANSFECTION OF i3NEURONS
+Transient protein expression can easily be studied in i 3 Neurons using transfection. This protocol is identical to that in iPSCs (see Basic Protocol 2). i 3 Neurons generally transfect well (~50% transfection rate) and are amenable to serial transfections (i.e., re-transfecting with the same construct 24 hours apart). They can be transfected in suspension (i.e., re-plating after day 3 of differentiation) or as an adherent culture, although better results are observed in adherent cultures.
+
+## SUPPORT PROTOCOL 4: TRANSDUCTION OF i3NEURONS
+Lentiviral infection of neurons can be used for a variety of applications in microscopy and biochemistry, provided that the transgene is driven by promoters not silenced in iPSCs or neurons (e.g., CAG, PGK; not CMV, see Critical Parameters and Troubleshooting ). The precise parameters for optimal viral production and supernatant collection/concentration will depend on the type of virus used, viral packaging mechanism, viral packaging cell line, and specific transgene introduced. Highly efficient results have been observed with lentivirus produced by Lenti-X HEK cells, with transgenes carried in the pLEX backbone.
+
+Lenti-X HEK cells (Clontech #632180)
+
+i 3 Neurons
+
+DMEM F12 +10% FBS
+
+CM ( Table 1C )
+
+Poly-L-ornithine (PLO) coating solution ( Table 2 )
+
+pLEX or equivalent lentiviral vector with desired transgene
+
+Lipofectamine 3000 (ThermoFishser L3000015)
+
+500X ViralBoost reagent (ALSTEM #VB100)
+
+Opti-MEM (ThermoFisher #31985062)
+
+psPAX (Addgene #12260), pMD302 (Addgene #12259), pAdvantage (Promega #E1711) viral packaging plasmids
+
+Coat a 6-well dish with PLO (see Basic Protocol 6)
+
+Plate 2.5×106 Lenti-X HEK cells in 6-well dish well in 1.5mL DMEM F12 +10% FBS
+
+Check cells for confluency under inverted microscope. Cells should be 80–90% confluent for maximal viral production efficiency. If necessary, wait a day to transfect so that the cells are nearly confluent
+
+If necessary, wait a day to transfect so that the cells are nearly confluent
+
+Warm 2 tubes with 150 μL Opti-MEM each to room temperature.
+
+Add 0.8 μg psPAX, 0.3 μg pMD302, 0.1 μg pAdvantage, 1.2 μg pLEX viral vector, and 5 μL P3000 reagent to tube A, gently flick to mix.
+
+Add 3.75 μL Lipofectamine 3000 to tube B, flick to mix.
+
+Incubate tubes at room temperature for 5 minutes.
+
+Mix contents of tube B into tube A, gently vortex for 3 seconds.
+
+Incubate tube at room temperature for 20–40 minutes.
+
+Add dropwise to to the media of Lenti-X cells with a P1000.
+
+Agitate plate to evenly distribute transfection solution.
+
+Replace medium on Lenti-X HEK cells with 3 mL of warm, fresh medium supplemented with 6 μL of 500X ViralBoost reagent.
+
+Check cells with a fluorescent microscope to ensure expression of any fluorescent proteins in the viral vector.
+
+Check cells under inverted microscope for multinucleated morphology (indicating viral production) and fluorescent protein production.
+
+Collect medium from well, filter to purify virus from floating HEK cells, and either use immediately or freeze aliquots at −80°C. Instead of filtering, medium may be centrifuged at >10,000×g for 10 minutes at 4°C to remove cells/debris, followed by transferring the supernatant to a new microcentrifuge tube.
+
+Instead of filtering, medium may be centrifuged at >10,000×g for 10 minutes at 4°C to remove cells/debris, followed by transferring the supernatant to a new microcentrifuge tube.
+
+Optional – Replace medium on HEK cells with 1–2 mL fresh DMEM F12 +10% FBS, to be collected the following day. This process can be repeated until day Day 6 to collect more virus. Be aware that viral titer decreases with each collection. Lentiviral preps can also be concentrated using various commercially available reagaents (e.g., Clontech # 631231)
+
+For any virus introduced, titer should be assessed with a serial dilution of viral supernatant relative to the neuronal culture medium. This dilution typically begins with a 1:1 mixture of neuronal medium and viral supernatant, and reduces by 50% in each subsequent well. Viral supernatant-containing medium should be removed from cells approximately 24 hours after addition, and replaced with fresh neuronal medium. With lentivirus, maximal transgene expression typically occurs 3–5 days after infection. Depending on the particular transgene, vector, and viral packaging system, initial expression can often be assayed 2 days after infection.
+
+## SUPPORT PROTOCOL 5: LIVE IMAGING OF i3NEURONS
+Live imaging permits visualization of molecular and organellar dynamics within the neuron. While a standard confocal microscope is sufficient for short imaging experiments, it should be ideally be outfitted with a 37°C live imaging chamber for extended imaging. CM should also be changed to Hibernate A Low Fluorescence Medium (BrainBits LLC SKU#HAPR) supplemented with B27, N2, BDNF, NT-3, and laminin in the same proportions as in CM. Hibernate A permits long-term maintenance of neuronal cultures in ambient carbon dioxide levels (0.04% vs. 5% for standard cell culture incubators) and provides a better imaging environment by reducing autofluorescence from the medium. Imaging is best done on glass bottom slides, such as Ibidi u-slides (Ibidi # 80827).
+
+## SUPPORT PROTOCOL 6: ASSESSING rtTA ACTIVITY
+Prepare four wells of the cell line of interest by EDTA split. Transfection conditions should be standardized in positive and negative control cells in order to compare with cells of interest.
+
+Transfection conditions should be standardized in positive and negative control cells in order to compare with cells of interest.
+
+1–2 days after plating, follow Basic Protocol B (steps 6–9) for two of the wells in order to transfect with pBI-MCS-EGFP (Addgene #16542).
+
+1 day later, aspirate medium and replace with fresh culture medium. In one transfected well and one un-transfected well, supplement medium with 2μg/mL doxycycline. If cells are more than 30% confluent at the time of transfection, doxycycline may be added at the time of transfection in order to permit imaging the next day.
+
+If cells are more than 30% confluent at the time of transfection, doxycycline may be added at the time of transfection in order to permit imaging the next day.
+
+1 day later, aspirate medium, rinse twice with PBS, and image with a fluorescent microscope. eGFP typically has a half-life of 24 hours, so fluorescence should persist for at least 2–3 days after doxycycline treatment.
+
+eGFP typically has a half-life of 24 hours, so fluorescence should persist for at least 2–3 days after doxycycline treatment.
+
+Since transfection is heterogeneous, only a subset of cells should express GFP. In addition, levels of expression may vary by the number of plasmid copies delivered to each cell. However, in cells with active tetracycline transactivator, the average intensity of GFP will be notably higher in the well exposed to doxycycline than in the well which was not. Some leaky expression is expected due to the sequence of the tetracycline operator in this plasmid, so un-transfected cells thus serve as a further negative control.
+
+## SUPPORT PROTOCOL 7: ASTROCYTE PRODUCTION
+Use 3 P0 or P1 mouse pups or 1 P0 or P1 rat pup per uncoated T75 flask. Meninges should be completely removed from brains, and astrocytes isolated per standard astrocyte/neuron isolation protocols under sterile conditions. Expand astrocytes for 1 week in DMEM + 10% FBS.
+
+Shake at 300 rpm at 37°C to remove microglia, any surviving neurons, and other contaminating cell types.
+
+When the flask nears confluency, wash with PBS, and incubate with trypsin for 5 minutes.
+
+Centrifuge 200 rcf for 5 minutes, aspirate supernatant, and resuspend in astrocyte medium.
+
+Seed cells from each T75 to 3 new T75 flasks and grow until just confluent.
+
+Alternatively, astrocytes can be frozen in liquid nitrogen (see Basic Protocol 1).
+
+To add astrocytes to neural cultures, repeat steps 3 and 4 or thaw from frozen stock, and seed cells onto a transwell. Over-adding astrocytes is better than under-adding; if insufficient number of astrocytes are plated, neurons will likely be less healthy. The induction can largely be rescued by adding additional astrocytes the following day if you feel the neurons are not doing well.
+
+## REAGENTS AND SOLUTIONS
+
+
+## COMMENTARY
+The use of transcription factors (TFs) to specify iPSC differentiation follows naturally from the use of Yamanaka factors (Oct4/Sox2/Klf4/c-Myc) to generate iPSCs from differentiated cells. Whereas small molecules elicit inconsistent effects based on cell-to-cell variability in uptake and metabolism, stably integrated transcription factors enable uniformly efficient differentiation. These strategies are gaining momentum in the iPSC field, with recent reports detailing TF-based strategies for iPSC-derived motor neurons, oligodendrocytes, and even pancreatic beta cells 30 – 32 . Ultimately, TF-based differentiation offers higher efficiency, higher purity, and a shorter timeline for producing the desired cell model when compared to small molecule differentiation methods. For laboratories with expertise in iPSC culture, TF-based methods have the potential to accelerate productivity, while for laboratories new to iPSC technologies, TF-based methods offer a low barrier to entry. The i 3 Neuron and i 3 LMN strategies described in this unit express these TFs in an integrated and inducible fashion, offering the user maximal facility and control. For instance, multi-transgenic iPSC lines can be constructed piecemeal over time, with no concerns over loss of NGN2 or NIL expression. These lines can then be differentiated on a small or large scale, matured and assayed experimentally, or cryopreserved in a convenient pre-differentiated stock.
+
+The main limitation with our strategy is the unavailability of the Tet-On promoter system for precise control of other transgefnes, such as toxic genes. The three-day neuronal differentiation period with doxycycline will also induce any other genes controlled by the Tet-On promoter, and overexpression of toxic genes (e.g., TDP-43 overexpression for ALS modeling) at this critical time might compromise the quality of the resulting neurons. Methods we have used to counter this challenge include implementing a shorter differentiation period (terminal differentiation is induced within 24 hours of continuous doxycycline exposure 19 ), inserting Kozak sequences with short upstream open reading frames (uORFs) to attenuate expression from the Tet-On promoter, and employing orthogonal inducible systems.
+
+Efficient transfections are critical for facilitating downstream enrichment and clonal isolation when constructing a new iPSC line. Low efficiency transfections will require several weeks of enrichment, whereas an exceptionally high efficiency transfection could result in clonal isolation after the initial serial dilution or FACS enrichment of transfected cells. We have observed that the best indicators of DNA quality (apart from proper 260/280 and 260/230 spectrophotometric ratios) are concentration and preparative scale. Concentrating DNA, either through a new prep or ethanol precipitation, almost always improves efficiency. DNA for transfection should ideally be at a concentration higher than 1μg/μl, and should almost certainly be concentrated if below 300 ng/μl. Miniprep DNA tends to produce less efficient transfections than either midi- or maxiprep DNA at the same concentration, likely due to higher bacterial endotoxin levels in smaller preps. Since endotoxins cannot be removed from existing preps, DNA to be used for transfection should ideally be prepared in a maxiprep.
+
+Plate coating for neurons (PLO for hNGN2 neurons and PLO/PEI with laminin for hNIL neurons) is the single most important parameter determining long and short-term neuronal health. Coating solutions should always be freshly prepared, and any stocks should be used within 1 week. Coated and washed dishes may also be stored covered at 4°C for only 1 week. Though we have not observed a striking cutoff point for coating viability, we have observed a steady decline in neuronal health when older coating solutions have been used. Likewise, neuronal media (IM, CM, or MM) should be prepared fresh with supplements in small scale batches (i.e., 50–100 mL), and supplemented media should be used within 1 week.
+
+FACS conditions must be carefully selected to ensure iPSC viability. Microfluidic flow sorting machines (e.g., Sony SH800S, NanoCellect WOLF Cell Sorter) employ low pressures for sorting, and are therefore ideal to preserve iPSC viability. If only conventional sorting machines are available, the nozzle should be adjusted to 100-μm (vs. 30-μm standard nozzle) in order to lower the sorting pressure. For bulk sorting, iPSCs should be resuspended for sorting in E8+RI, and they should be sorted into Matrigel-coated dishes with E8+RI. Improved survival and outgrowth from single cells may be accomplished by resuspending in StemFlex medium (Gibco A3349401) with RI and plating on wells that have been coated with rhLaminin-521 (Gibco A29249). If routine passaging was done in E8 and E8+RI, these cells should be pre-equilibrated to StemFlex for at least 2 passages.
+
+Neurons can be stained in situ, but special care must be taken to prevent dissociation of individual cells or sheets of neurons from the dish. It is therefore critical to reduce the total number of washes (e.g., using 2× fixative solution added directly to the neuronal medium) and carry out washes slowly (see Support Protocol 2).
+
+We have found that iPSCs and iPSC-derived neurons (i 3 Neurons and i 3 LMNs) silence certain viral elements in transgenic constructs. In particular, CMV promoters and IRES elements consistently fail to express. We suggest replacing CMV promoters with CAG or PGK promoters, and replacing IRES elements with T2A linkers for polycistronic gene expression.
+
+The construction of i 3 Neuron and i 3 LMN iPSC lines enables versatility in studying various aspects of neuronal cell biology through additional gene knockouts, knockdowns, or overexpression systems. The integrated, inducible, and isogenic transgene system allows production of pure, mature neurons for multiple experimental applications, including microscopy, biochemistry, -omics, and electrophysiology (with addition of glia).
+
+The estimated time to generate a stable NGN2 or NIL-expressing iPSC line is approximately 1 month (transfection, manual or FACS fluorophore enrichment, clonal isolation, genotyping, karyotyping). The doxycycline differentiation period is 3 days, and culture to mature neurons takes an additional 11 days (mature d14 neurons). These neurons can also be cultured longer, as we have observed good viability and morphology through 30 days after initial doxycycline induction.

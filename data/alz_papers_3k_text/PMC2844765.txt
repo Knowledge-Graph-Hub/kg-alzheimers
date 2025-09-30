@@ -1,0 +1,5 @@
+# Title
+Amyloid precursor protein secretases as therapeutic targets for traumatic brain injury
+
+# Abstract
+Amyloid-β (Aβ) peptides, found in Alzheimer’s disease brain, accumulate rapidly after traumatic brain injury (TBI) in both humans and animals. Here we show that blocking either β- or γ-secretase, enzymes required for production of Aβ from amyloid precursor protein (APP), can ameliorate motor and cognitive deficits and reduce cell loss after experimental TBI in mice. Thus, APP secretases are promising targets for treatment of TBI.

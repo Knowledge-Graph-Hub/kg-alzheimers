@@ -1,0 +1,359 @@
+# Title
+Amyloid-related imaging abnormalities (ARIA) in Alzheimer’s
+disease patients treated with bapineuzumab: A retrospective analysis
+
+# Abstract
+Amyloid-related imaging abnormalities (ARIA) have been reported in
+Alzheimer’s disease (AD) patients treated with bapineuzumab, a
+humanized monoclonal antibody to amyloid-β. ARIA includes MRI signal
+abnormalities suggestive of vasogenic edema and sulcal effusions (ARIA-E)
+and hemosiderin deposits (ARIA-H). A better understanding of the incidence
+and risk factors for ARIA may further the development of amyloid-modifying
+treatments for AD. Two neuroradiologists independently reviewed (kappa=0.76) and then
+reached consensus reads on over 2500 FLAIR-MRIs from 262 participants in
+three phase 2 studies of bapineuzumab. Subjects (n=210) were included in
+risk analyses if they had no evidence of ARIA-E on pre-treatment MRI,
+received bapineuzumab, and had at least one post-treatment MRI. 36/210 (17%) subjects developed ARIA-E during treatment; 28
+of these 36 (78%) did not report associated symptoms. Adverse events
+reported in 8 symptomatic patients included headache, confusion,
+neuropsychiatric and gastrointestinal symptoms. 15/36 of the ARIA-E cases
+(42%) were detected only on central review. 13/15 received
+additional infusions while ARIA-E was present, without any associated
+symptoms reported. ARIA-E incidence increased with bapineuzumab dose (Hazard
+Ratio [HR] 2.24 per mg/kg increase in dose; p<0·001) and
+with APOE ε4 allele number (HR 2.55 per allele;
+p<0·001). ARIA appears to represent a spectrum of imaging findings with
+variable clinical correlates, with some cases remaining asymptomatic even
+when treated through ARIA-E. The increased risk of ARIA with APOE ε4
+and bapineuzumab dose, and the time course in relation to dosing, is
+consistent with alterations in vascular amyloid burden.
+
+## Introduction
+Immunotherapy for Alzheimer’s disease is an area of active research,
+with a number of clinical trials currently investigating active or passive
+immunotherapeutic approaches to lower cerebral amyloid-β burden. 1 – 4 Several of these studies have reported treatment-related
+abnormalities on brain imaging, but the pathophysiology underlying these changes
+remains uncertain. 1 – 4 Furthermore, since these imaging
+abnormalities can be clinically silent, their exact incidence and the spectrum of
+clinical and imaging features remains unclear.
+
+Imaging abnormalities associated with immunotherapy were first observed in a
+phase 1 study of bapineuzumab, 3 a
+humanized monoclonal antibody against beta amyloid, and subsequently in the phase 2
+bapineuzumab studies. 1 , 2 The MRI abnormalities, seen on T2
+weighted/fluid attenuation inversion recovery (FLAIR) sequences were initially
+referred to as “vasogenic edema” 4 . As additional cases were identified in subsequent trials,
+it became clear that there was a spectrum of imaging alterations associated with
+amyloid modifying treatments. A recent expert workgroup suggested the umbrella term:
+Amyloid-Related Imaging Abnormalities (ARIA), 5 which includes FLAIR signal abnormalities thought to
+represent parenchymal vasogenic edema and sulcal effusions (ARIA-E), as well as
+abnormalities detectable on GRE/T2* sequences believed to represent microhemorrhages
+and hemosiderosis (ARIA-H).
+
+This report focuses on incident ARIA in the setting of bapineuzumab; however,
+its findings may have implications for other anti-amyloid therapies. As the original
+protocols for these trials included only local MRI reads, with limited
+neuroradiological and clinical experience with these phenomena, there was concern
+that some cases of ARIA-E might have been missed. A systematic, central review of
+the MRI from all phase 2 studies was therefore undertaken to assess the incidence of
+ARIA, its risk factors, and clinical characteristics in the context of bapineuzumab
+treatment.
+
+## Methods
+A centralized MRI review was conducted on all scans performed during the
+completed phase 2 bapineuzumab clinical trials study 201 and study 202, 1 , 2 and the associated ongoing open-label extension study, study 251
+prior to February 1, 2009 (see Figure 1 ).
+Several procedures were adopted to assure maximal sensitivity for ARIA detection: 1)
+two neuroradiologists retrospectively reviewed the scans for each patient with
+complete access to prior and future scans within a patient’s MRI series for
+comparison; however, they were blinded to the participant’s assigned
+therapy, APOE ε4 genotype, medical history, and demographics; 2) the scans
+were read independently and in parallel by each reader; and 3) differences between
+readings were then discussed and resolved by consensus. Prior to consensus, the
+inter-reader kappa was 0.76 with 94% agreement on the presence or absence of
+ARIA-E within individual patients.
+
+Study 201 and 202 were multicenter, double-blinded, randomized,
+placebo-controlled, ascending-dose cohort trials. 1 , 2 Each lasted for 18
+months and included 6 infusions 13 weeks apart. Study 251 is an ongoing extension
+study into which eligible study 201 patients were recruited (see Supplementary Material S1 for
+more detail on inclusion/exclusion criteria). Patients in study 251 who previously
+received bapineuzumab in study 201 were assigned to the same dose of bapineuzumab in
+study 251 (n=80), and those who previously received placebo in study 201 (n=79)
+received the dose level of the cohort to which they were originally assigned. No
+participants from study 202 enrolled in study 251. MRI scans were performed prior to
+the first infusion and 6 weeks after each subsequent infusion in all studies.
+
+Subjects were identified with incident ARIA-E if they developed new
+parenchymal or sulcal hyperintensities on FLAIR MRI, consistent with extravascular
+fluid in the absence of other pathologies. Parenchymal hyperintensities were
+recorded as present or absent for the posterior fossa and for the left and right
+side in each of 5 regions (frontal, temporal, parietal, occipital and basal
+ganglia); in addition, the overall presence or absence of sulcal hyperintensities
+was assessed. The total number of regions with ARIA-E was calculated.
+Microhemorrhages (ARIA-H) were also noted as present or absent in the same regions
+on the T2* images. White matter hyperintensities (WMH) were assessed using an
+adapted 4-point scale: 6 0 (none), 1
+(focal lesions), 2 (beginning of confluent lesions), and 3 (diffuse involvement).
+For the risk analyses, WMH levels 0 and 1 were combined, as were levels 2 and 3, in
+order to determine whether higher-grade white matter hyperintensity (ie, more severe
+vascular pathology) 7 was associated
+with ARIA-E.
+
+The sample for the risk analyses included patients treated with bapineuzumab
+in studies 201, 202 or 251, with a post-infusion FLAIR-MRI, and no other diagnosed
+conditions deemed to be responsible for the observed imaging abnormalities (see
+Results section and Figure 1 ). The
+patients’ bapineuzumab dose was defined as the highest dose received during
+the study. Subjects identified with ARIA-E were classified as to whether ARIA was
+first identified during the course of the trial or during the MRI re-read study, and
+as either symptomatic or asymptomatic. A subject was considered symptomatic if one
+or more symptoms were reported as either related or possibly related to study drug
+in the ARIA safety report from the study investigator.
+
+Kaplan-Meier survival analysis was used to examine the distribution of
+incident ARIA-E from start of treatment among different groups. Cox proportional
+hazards (PH) models were used to explore risk factors. SAS release 9.1 was used for
+all statistical analyses. The PH assumption was evaluated by examining log, negative
+log plots, with no observed violations. Sensitivity analyses of the PH models
+performed with a truncated follow-up time found similar results ( Supplementary Material S2 ).
+P-value significance thresholds were not pre-specified nor adjusted for
+multiplicity.
+
+Employees of both sponsor companies (Janssen Alzheimer Immunotherapy
+Research & Development, LLC. and Pfizer Inc.) were involved in the study
+design, collection, analysis, and interpretation of data, as well as in the
+development and submission of this manuscript. All authors had access to the
+study data and shared responsibility for submitting the manuscript for
+publication.
+
+## Results
+Among 262 study participants in studies 201, 202, or 251 ( Figure 1 ), 223 patients were treated with
+bapineuzumab and 2572 MRI scans were reviewed. Two ARIA-E cases were detected among
+the 262 patients (0.8%) at screening, both of which were subsequently
+treated with bapineuzumab, and 11 patients lacking a post-infusion FLAIR MRI were
+excluded. The analyzable sample for bapineuzumab-associated ARIA-E risk factors was
+thus restricted to 210 participants. One patient identified with possible ARIA-E
+during the MRI review was subsequently diagnosed with brain metastases and
+considered to not have bapineuzumabassociated ARIA. Another ARIA-E case was detected
+among 118 patients (0.8%) treated with placebo.
+
+The incidence rate of ARIA-E was 17.1% (36/210) among
+bapineuzumab-treated subjects. Figure 2 illustrates the range of ARIA observed in this study. ARIA-E manifested as increased
+signal in the white or gray matter parenchyma and/or within sulcal spaces on the
+FLAIR-MRI sequence, whereas ARIA-H was detected on GRE/T2* weighted sequences. The
+baseline prevalence rate of microhemorrhage (ARIA-H) was 9.2% (19/207; Table 1 ). Incident ARIA-H was observed in 17/36
+(47.2%) of the ARIA-E cases compared with 7/177 (4.0%) subjects
+without ARIA-E. Among the 17/36 ARIA-E patients with incident ARIA-H, 14 had ARIA-H
+noted either on the scan immediately prior (2), coincident with (6) or immediately
+following (6) the scan in which ARIA-E was first noted. Eight of these 14 had ARIA-H
+detected in the same region as ARIA-E.
+
+Table 1 presents selected risk
+factors and baseline MRI findings for subjects included in the risk factor analysis.
+Baseline characteristics were similar for subjects with ARIA-E versus those without,
+with the exception that the incidence rate of ARIA increased with bapineuzumab dose
+and number of APOE ε4 alleles. The respective HRs were 2.24 per mg/kg
+increase in dose and 2.55 per additional APOE ε4 allele. Additional PH
+models predictive of ARIA-E are shown in Table
+2 . For bapineuzumab dose, the HRs exceeded 3.0 for the 2 highest doses
+when compared with the lowest dose. Similarly, the HRs were approximately 3-fold
+higher in ε4 heterozygotes and 7-fold higher in ε4 homozygotes
+compared with ε4 non-carriers. There was no increase in HR for small
+hemosiderin deposits or white matter hyperintensities on baseline MRI. Models for
+age, gender, baseline MMSE, Hamilton Depression rating scale score, Rosen-Modified
+Hachinski score, history of cerebrovascular disease, and hypertension were also not
+predictive of ARIA-E. Figure 3 presents
+Kaplan-Meier plots for ARIA-E by dose, APOE ε4 allele frequency, and the
+presence of small hemosiderin deposits at baseline. A dose-related increase in
+ARIA-E risk was observed with an increased risk of ARIA-E for the 2 mg/kg dose,
+particularly notable after the first dose. APOE ε4 allele number showed a
+clear separation early that persisted with continued follow-up.
+
+The mean number of infusions prior to identification of ARIA-E was 2.4
+(S.D.=1.7; range 1 to 7). The majority of ARIA-E cases (25/36; 69%) were
+identified after the first or second infusion. ARIA-E was not observed beyond 2
+years after the first exposure to bapineuzumab. The median duration of ARIA-E for
+the 31/36 subjects in whom resolution was demonstrable on follow-up scans was 113
+days (range 17 to 534). Eight patients with ARIA-E identified during the trial were
+re-dosed at a lower dose after ARIA-E resolved; ARIA-E recurred in one subject who
+remained asymptomatic.
+
+Eight of the 36 ARIA-E patients had symptoms (adverse events [AEs]) that
+were considered related or possibly related to study drug. The categories for these
+AEs were general (n=7, with headache in 4), neurologic (n=16, with confusion in 5),
+psychiatric (n=3), and gastrointestinal (n=3) (See Supplementary Material S3 for
+additional details). Among the 8 symptomatic patients, 7 were APOE ε4
+carriers (5 homozygotes and 2 heterozygotes). Six of the 8 symptomatic cases had
+been dosed at 2 mg/kg dose (4), or 1 mg/kg dose (2). In all these cases bapineuzumab
+was discontinued, and a follow-up MRI subsequently showed resolution of ARIA-E. One
+symptomatic patient in the 251 study developed a left frontal stroke temporally
+associated with ARIA-E but did not have focal symptoms clearly referable to either
+the location of the stroke or ARIA-E. 8 Although the ARIA-E resolved, the patient eventually expired
+∼8 weeks later due to complications of the stroke. Seven patients had
+incident microhemorrhage (ARIA-H) without ARIA-E; none of these cases manifested
+clinical symptoms.
+
+Fifteen patients were identified with ARIA-E only during the MRI re-read
+study. All were asymptomatic and had fewer brain regions involved
+(1·3+/− 0·5) versus those identified during the clinical
+studies (2·6+/−2·4; p< 0·02). Thirteen of
+these 15 received additional infusions of bapineuzumab after ARIA-E first appeared,
+as the ARIA was not detected during the trial, and remained asymptomatic. In 2 of
+these 13, ARIA-E recurred with additional infusions, but the patients remained
+asymptomatic.
+
+Eight out of 36 subjects with ARIA had cerebrospinal fluid (CSF) collected.
+Five had a normal CSF profile; 3 had elevated protein (259, 264, 337 mg/dL) and red
+cell count (360, 1280, 108 cells/ mm 3 ). Two had an increased number of
+white cells (8, 19 cells/mm 3 ), both of whom were symptomatic and APOE
+ε4 carriers.
+
+Figure 4 shows a bapineuzumab-treated
+subject who developed ARIA at the 2 mg/kg dose in the 202 study. This subject
+underwent 11-C Pittsburgh Compound B – position emission tomography (11-C
+PIB-PET) amyloid imaging pre- and post-ARIA. The baseline PIB retention was elevated
+(consistent with high fibrillar Aβ burden) in several regions in which
+ARIA-E and ARIA-H subsequently developed. PiB retention was reduced in these regions
+at the follow-up scan after ARIA-E had resolved.
+
+## Discussion
+This study involved a centralized, blinded, retrospective assessment of the
+incidence of ARIA in bapineuzumab-treated subjects from a series of phase 2 studies.
+ARIA was detected in 17% of bapineuzumab-treated subjects who met the
+inclusion criteria for the risk analyses. The majority of cases were clinically
+silent. Approximately 40% of ARIA cases were first detected in this
+retrospective central review, all of whom were asymptomatic and continued to be
+dosed while having ARIA-E. In some patients, ARIA recurred, but they remained
+asymptomatic. These newly identified ARIA-E cases appeared to have milder FLAIR
+signal changes with fewer involved brain regions. When the phase 2 studies started,
+little was known about the range of ARIA changes on MRI. With greater awareness of
+these phenomena, it seems likely that local radiologists will miss fewer ARIA cases
+in the future.
+
+The exact mechanisms giving rise to ARIA remain to be fully elucidated, but
+the risk factors identified in this study, as well as recent data from animal
+models, give rise to a number of potential theories (see Figure 5 ). The risk analyses provide quantitative evidence for
+increased risk of ARIA-E with increasing APOE ε4 allele number, extending a
+preliminary report suggesting that the risk of ARIA-E is increased among APOE
+ε4 carriers. 1 APOE
+ε4 has been linked to development of cerebral amyloid angiopathy (CAA) in
+transgenic mice. 9 , 10 Postmortem human studies indicate that APOE
+ε4 is a risk factor for CAA 11 – 13 and
+spontaneous ARIA-E-like phenomena have been reported in CAA patients. 14 , 15 APOE ε4 carrier status is also a risk factor for
+microhemorrhage in the general population 16 , 17 and among
+patients in memory clinics. 11 , 18 , 19 ARIA-E cases were too few to fully explore an interaction
+between APOE ε4 allele and bapineuzumab dose, although the observations that
+7/8 symptomatic cases were ε4 carriers and 6/8 were treated at the two
+highest doses, is suggestive of a potential interrelationship that remains to be
+fully explored in larger studies. The risk factor analyses, together with the latter
+findings, suggest that it may be possible to reduce bapineuzumab-related ARIA-E and
+associated symptoms by careful dosing with attention to APOE ε4 status.
+
+The presence of baseline ARIA-H was not found to be a significant risk
+factor for ARIA-E in this study. However, subjects with multiple baseline
+microhemorrhages were excluded from participation in the 251 study due to concern
+about a potential link between risk factors for CAA and ARIA-E. Approximately half
+of the bapineuzumab-treated subjects who developed ARIA-E also developed incident
+ARIA-H, with the majority of these subjects demonstrating evidence of temporal and
+spatial co-occurrence. These findings suggest that ARIA-E and ARIA-H are related
+phenomena, perhaps both related to increases in vascular permeability. 5 Depending on the location
+(intraparenchymal or meningeal) of the vessel, leakage of proteinaceous fluid could
+give rise to an increased signal detected on FLAIR images (ARIA-E) in the brain
+parenchyma (vasogenic edema) and leptomeningeal spaces (sulcal effusions), while
+leakage of red cells would result in ARIA-H, seen on T2*GRE MRI as cerebral
+microhemorrhages and hemosiderosis. 5
+
+The increased risk of ARIA associated with higher doses of bapineuzumab, as
+well as the illustrative case with PET amyloid imaging, also suggest a potential
+relationship of ARIA to amyloid clearance. The reduction of PiB retention,
+presumably representing clearance of fibrillar amyloid from both plaque and cerebral
+vessels, appeared to be both temporally and regionally associated with vasogenic
+edema and microhemorrhage. A recent report in a small number of subjects treated
+with gantenerumab, a conformationally specific monoclonal antibody with high
+affinity for fibrillar forms of amyloid-β, also demonstrated evidence of
+reduced amyloid burden on PiB-PET imaging in two patients who developed
+ARIA-E. 4 It is also
+possible that ARIA may be related to clearance of amyloid from parenchymal plaques
+with a transient increase in vascular or perivascular amyloid burden 20 , 21 or to inflammation. 22 However, similar to reports in transgenic
+animals, 23 – 25 eventual normalization of cerebral
+blood vessel integrity in humans may be possible. In a post-mortem study of subjects
+included in an earlier active amyloid immunization trial (AN1792), two of the
+longest treated participants treated showed a virtually complete absence of
+CAA. 26 The observation
+that the majority of ARIA-E occurred within the first few doses may also support the
+hypothesis that vascular remodeling after amyloid clearance may reduce the risk of
+ARIA over time.
+
+It appears that ARIA-E can rarely occur spontaneously, as one case was
+identified in the placebo group of the 201 study and 2 cases were noted at screening
+( Figure 1 ). A recent report identified two
+spontaneous ARIA-E cases in large cohorts screened for AD clinical trials with other
+agents. 27 Given reports of
+similar ARIA findings in CAA patients, 13 , 14 it is possible
+that some of these spontaneous ARIA-E cases represent AD patients with concomitant
+CAA.
+
+Several potential limitations to our study should be considered. The MRI
+review was retrospective, and the results might have been different if scans had
+been read prospectively without access to other scan timepoints for comparison. Our
+primary intent in having two neuroradiologists assess the scans was to increase the
+likelihood of detecting any potential MRI findings consistent with ARIA; hence, we
+did not provide extensive training to enhance interreader reliability. Nevertheless,
+the inter-reader reliability was reasonably high. As we asked the readers to then
+discuss any cases with discrepant reads, we were not able to assess intra-rater
+reliability. A more detailed rating scale for both ARIA-E and ARIA-H is under
+development, and will be used in future projects with the phase 3 data. We did not
+find evidence of associated clinical symptoms in the majority of ARIA cases, but it
+is possible that subtle symptoms could be missed in patients with mild to moderate
+dementia. Although this study represents the largest collection of treatment-related
+ARIA cases to date, given the relatively small numbers of subjects, we are not able
+to definitively explore all potential risk factors, which will require further study
+in larger trials.
+
+In summary, our results suggest that ARIA represents a spectrum of imaging
+findings with variable clinical correlates, including a substantial number of subtle
+cases that went undetected during the trials and remained asymptomatic despite
+continued treatment. The frequent co-occurrence of ARIA-E and ARIA-H suggests a
+common pathophysiological mechanism that may be related to transient increases in
+vascular permeability. The increased risk of ARIA in APOE ε4 carriers
+further supports a key role of vascular amyloid, whereas the relationship to
+bapineuzumab dosing and the PiB-PET amyloid results suggests that ARIA may be
+related to amyloid clearance. Ongoing studies with bapineuzumab and other potential
+amyloid-modifying therapies should shed additional light on the long term
+implications of these phenomena.
+
+## Panel: Research in Context
+We searched PubMed for articles published in English between Jan 1, 1980
+and December 1, 2011 using the search terms “vasogenic edema”,
+“amyloid-related imaging abnormalities (ARIA)”, and
+“Alzheimer’s disease.” This search yielded only the
+three published reports from the bapineuzumab phase 1 and 2 trials; one report
+from another monoclonal antibody, ganteneremab; one recent report of ARIA
+detected in screening cohorts for Alzheimer’s disease clinical trials;
+and several recent review articles on drug development. A recent workgroup
+report also cites published abstracts from other classes of amyloid-modifying
+agents, but these data are not yet published. As amyloid-related imaging
+abnormalities occurring in Alzheimer’s disease clinical trials represent
+a relatively new concept, we broadened our search to include imaging reports
+from cerebral amyloid angiopathy cases, which also appear relevant to our
+findings.
+
+This is the first systematic study of amyloid-related imaging
+abnormalities (ARIA) in the context of amyloid-modifying therapies; in
+particular, abnormalities related to MR-signal alterations thought to represent
+vasogenic edema (ARIA-E). We identified a number of ARIA-E cases that were
+initially missed during the previously reported studies with bapineuzumab, and
+reported the clinical symptomatology or lack thereof in all identified ARIA-E
+cases. In addition, by combining cases across three Phase 2 studies, we were
+able to examine a number of risk factors for developing ARIA-E. The increased
+risk of incident ARIA-E with increased number of APOE ε4 alleles, as
+well as previous case reports in the literature of similar phenomema occurring
+spontaneously in cerebral amyloid angiopathy, suggest a potential relationship
+with vascular amyloid burden. The increased risk of ARIA with a higher
+bapineuzumab dose and the illustrative case with PET-amyloid imaging, as well as
+a similar report in a small number of subjects treated with another monoclonal
+antibody, suggest a possible relationship of ARIA-E to beta-amyloid clearance.
+Our findings have important implications for elucidating the mechanisms
+underlying ARIA, and the continued need for close monitoring of ARIA in the
+development of anti-amyloid therapies for Alzheimer’s disease.

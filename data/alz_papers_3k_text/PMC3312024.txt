@@ -1,0 +1,125 @@
+# Title
+The diagnosis of dementia due to Alzheimer’s disease: Recommendations from the National Institute on Aging-Alzheimer’s Association workgroups on diagnostic guidelines for Alzheimer’s disease
+
+# Abstract
+The National Institute on Aging and the Alzheimer’s Association charged a workgroup with the task of revising the 1984 criteria for Alzheimer’s disease (AD) dementia. The workgroup sought to ensure that the revised criteria would be flexible enough to be used by both general healthcare providers without access to neuropsychological testing, advanced imaging, and cerebrospinal fluid measures, and specialized investigators involved in research or in clinical trial studies who would have these tools available. We present criteria for all-cause dementia and for AD dementia. We retained the general framework of probable AD dementia from the 1984 criteria. On the basis of the past 27 years of experience, we made several changes in the clinical criteria for the diagnosis. We also retained the term possible AD dementia, but redefined it in a manner more focused than before. Bio-marker evidence was also integrated into the diagnostic formulations for probable and possible AD dementia for use in research settings. The core clinical criteria for AD dementia will continue to be the cornerstone of the diagnosis in clinical practice, but biomarker evidence is expected to enhance the pathophysiological specificity of the diagnosis of AD dementia. Much work lies ahead for validating the biomarker diagnosis of AD dementia.
+
+## 1. Introduction
+In the fall of 1983, a group was convened by the National Institute of Neurological and Communicative Disorders and Stroke (NINCDS) and the Alzheimer’s Disease and Related Disorders Association (ADRDA) to establish criteria and to describe the clinical diagnosis of Alzheimer’s disease (AD). The group addressed issues of medical history, clinical examination, neuropsychological testing, and laboratory assessments and then produced a report, which was published in July 1984 [ 1 ]. The criteria in this report, commonly referred to as the NINCDS-ADRDA criteria, have been quite successful, surviving for over 27 years. These criteria have been reliable for the diagnosis of probable AD, and across more than a dozen clinical pathological studies have had a sensitivity of 81% and specificity of 70% [ 2 ], They have been widely used in clinical trials and clinical research.
+
+However, now 27 years later, these criteria require revision. Therefore, the National Institute on Aging and the Alzheimer’s Association charged a workgroup with the task of revising the 1984 criteria for AD dementia. Details of the charge to the workgroup are described in the Introduction that accompanies this article [ 3 ]. The characterization of the preclinical [ 4 ] and mild cognitive impairment (MCI) [ 5 ] phases of the AD pathophysiological processes is described in the companion articles.
+
+Our knowledge of the clinical manifestations and biology of AD has increased vastly. The features of the original criteria that required revision include the following:
+
+The fact that the histological pathology of AD (or surrogates for this pathology) may be found across a broad clinical spectrum (including individuals who are cognitively normal, those with MCI, and those with dementia) [ 6 , 7 ]. Therefore, throughout this article, we use the term AD patho-physiological process to encompass the antemortem biological changes that precede the postmortem neu-ropathological diagnosis of AD as well as the neuropathological substrate. AD dementia refers to the clinical syndrome that arises as a consequence of the AD pathophysiological process.
+
+Lack of acknowledgment of distinguishing features of other dementing conditions that occur in a similarly aged population, which were not completely recognized decades ago. For example, Dementia with Lewy bodies [ 8 ], vascular dementia [ 9 ], behavior variant frontotemporal dementia [ 10 – 12 ], and primary progressive aphasia [ 13 ] have been characterized extensively.
+
+No inclusion of results of magnetic resonance imaging, positron emission tomography (PET) imaging, and cerebrospinal fluid (CSF) assays (that we will refer to subsequently as biomarkers) in decision-making. Initial efforts to incorporate biomarkers into the diagnosis of AD dementia and MCI [ 14 ] need to be coupled with a more comprehensive approach to the diagnostic process.
+
+The implication that memory impairment is always the primary cognitive deficit in all patients with AD dementia. Experience has shown that there are several nonamnestic presentations of the pathophysiological process of AD, the most common ones being the syndrome of posterior cortical atrophy [ 15 ] and the syndrome of logopenic-primary progressive aphasia [ 16 ].
+
+Lack of information about genetics of AD. Mutations in three genes—amyloid precursor protein, presenilin 1, and presenilin 2—cause an early onset, autosomal dominantly inherited AD [ 17 ].
+
+Proposed age cutoffs for the diagnosis of AD dementia. Work over the past decades has established that AD dementia in those aged <40 years, although rare, does not differ in its pathophysiology from older persons [ 18 ]. AD dementia in persons aged >90 years is also part of that same spectrum as that of younger persons, even though clinical–pathological correlations are attenuated [ 19 ].
+
+Extreme heterogeneity of the “Possible” AD dementia category, including a group of patients who would now be diagnosed as “Mild cognitive impairment (MCI).”
+
+The objective of our committee was to focus on the criteria for AD dementia, that is, dementia secondary to the pathophysiology of AD. It was our intention to first review the NINDS–ADRDA criteria and then to update them, incorporating more modern innovations in clinical, imaging, and laboratory assessment. We will first propose (1) Criteria for all-cause dementia and then, (2) Criteria for dementia caused by AD. We set ourselves the goal of ensuring that the revised criteria would be flexible enough to be used by both general healthcare providers without access to neuropsychological testing, advanced imaging, and CSF measures, as well as specialized investigators involved in research or in clinical trial studies who would have these measures available.
+
+## 2. Criteria for all-cause dementia: Core clinical criteria
+In this section, we outline core clinical criteria to be used in all clinical settings. Because there are many causes of dementia, we will first outline the criteria for all-cause dementia.
+
+The diagnosis of dementia is intended to encompass the spectrum of severity, ranging from the mildest to the most severe stages of dementia. The methodology for staging of dementia severity was beyond the charge of the workgroup. Dementia is diagnosed when there are cognitive or behavioral (neuropsychiatric) symptoms that:
+
+Interfere with the ability to function at work or at usual activities; and
+
+Represent a decline from previous levels of functioning and performing; and
+
+Are not explained by delirium or major psychiatric disorder;
+
+Cognitive impairment is detected and diagnosed through a combination of (1) history-taking from the patient and a knowledgeable informant and (2) an objective cognitive assessment, either a “bedside” mental status examination or neuropsychological testing. Neuropsychological testing should be performed when the routine history and bedside mental status examination cannot provide a confident diagnosis.
+
+The cognitive or behavioral impairment involves a minimum of two of the following domains:
+
+Impaired ability to acquire and remember new information—symptoms include: repetitive questions or conversations, misplacing personal belongings, forgetting events or appointments, getting lost on a familiar route.
+
+Impaired reasoning and handling of complex tasks, poor judgment—symptoms include: poor understanding of safety risks, inability to manage finances, poor decision-making ability, inability to plan complex or sequential activities.
+
+Impaired visuospatial abilities—symptoms include: inability to recognize faces or common objects or to find objects in direct view despite good acuity, inability to operate simple implements, or orient clothing to the body.
+
+Impaired language functions (speaking, reading, writing)—symptoms include: difficulty thinking of common words while speaking, hesitations; speech, spelling, and writing errors.
+
+Changes in personality, behavior, or comportment—symptoms include: uncharacteristic mood fluctuations such as agitation, impaired motivation, initiative, apathy, loss of drive, social withdrawal, decreased interest in previous activities, loss of empathy, compulsive or obsessive behaviors, socially unacceptable behaviors.
+
+The differentiation of dementia from MCI (see companion article [ 5 ] on the diagnosis of MCI) rests on the determination of whether or not there is significant interference in the ability to function at work or in usual daily activities. This is inherently a clinical judgment made by a skilled clinician on the basis of the individual circumstances of the patient and the description of daily affairs of the patient obtained from the patient and from a knowledgeable informant.
+
+## 3. Proposed classification criteria for AD dementia
+We propose the following terminology for classifying individuals with dementia caused by AD: (1) Probable AD dementia, (2) Possible AD dementia, and (3) Probable or possible AD dementia with evidence of the AD pathophysiological process. The first two are intended for use in all clinical settings. The third is currently intended for research purposes.
+
+## 4. Probable AD dementia: Core clinical criteria
+Meets criteria for dementia described earlier in the text, and in addition, has the following characteristics:
+
+Insidious onset. Symptoms have a gradual onset over months to years, not sudden over hours or days;
+
+Clear-cut history of worsening of cognition by report or observation; and
+
+The initial and most prominent cognitive deficits are evident on history and examination in one of the following categories.
+
+Amnestic presentation: It is the most common syndromic presentation of AD dementia. The deficits should include impairment in learning and recall of recently learned information. There should also be evidence of cognitive dysfunction in at least one other cognitive domain, as defined earlier in the text.
+
+Nonamnestic presentations:
+
+Language presentation: The most prominent deficits are in word-finding, but deficits in other cognitive domains should be present.
+
+Visuospatial presentation: The most prominent deficits are in spatial cognition, including object agnosia, impaired face recognition, simultanagnosia, and alexia. Deficits in other cognitive domains should be present.
+
+Executive dysfunction: The most prominent deficits are impaired reasoning, judgment, and problem solving. Deficits in other cognitive domains should be present.
+
+The diagnosis of probable AD dementia should not be applied when there is evidence of (a) substantial concomitant cerebrovascular disease, defined by a history of a stroke temporally related to the onset or worsening of cognitive impairment; or the presence of multiple or extensive infarcts or severe white matter hyperintensity burden; or (b) core features of Dementia with Lewy bodies other than dementia itself; or (c) prominent features of behavioral variant frontotemporal dementia; or (d) prominent features of semantic variant primary progressive aphasia or nonfluent/agrammatic variant primary progressive aphasia; or (e) evidence for another concurrent, active neurological disease, or a non-neurological medical comorbidity or use of medication that could have a substantial effect on cognition.
+
+Note: All patients who met criteria for “probable AD” by the 1984 NINCDS–ADRDA criteria [ 1 ] would meet the current criteria for probable AD dementia mentioned in the present article.
+
+In persons who meet the core clinical criteria for probable AD dementia, documented cognitive decline increases the certainty that the condition represents an active, evolving pathologic process, but it does not specifically increase the certainty that the process is that of AD pathophysiology.
+
+Probable AD dementia with documented decline is defined as follows: evidence of progressive cognitive decline on subsequent evaluations based on information from informants and cognitive testing in the context of either formal neuropsychological evaluation or standardized mental status examinations.
+
+In persons who meet the core clinical criteria for probable AD dementia, evidence of a causative genetic mutation (in APP, PSEN1, or PSEN2 ), increases the certainty that the condition is caused by AD pathology. The workgroup noted that carriage of the ε 4 allele of the apolipoprotein E gene was not sufficiently specific [ 20 ] to be considered in this category.
+
+## 5. Possible AD dementia: Core clinical criteria
+A diagnosis of possible AD dementia should be made in either of the circumstances mentioned in the following paragraphs.
+
+Atypical course meets the core clinical criteria in terms of the nature of the cognitive deficits for AD dementia, but either has a sudden onset of cognitive impairment or demonstrates insufficient historical detail or objective cognitive documentation of progressive decline,
+
+Or
+
+Etiologically mixed presentation meets all core clinical criteria for AD dementia but has evidence of (a) concomitant cerebrovascular disease, defined by a history of stroke temporally related to the onset or worsening of cognitive impairment; or the presence of multiple or extensive infarcts or severe white matter hyperintensity burden; or (b) features of Dementia with Lewy bodies other than the dementia itself; or (c) evidence for another neurological disease or a non-neurological medical comorbidity or medication use that could have a substantial effect on cognition
+
+Note: A diagnosis of “possible AD” by the 1984 NINCDS-ADRDA criteria [ 1 ] would not necessarily meet the current criteria for possible AD dementia. Such a patient would need to be re-evaluated.
+
+## 6. Probable AD dementia with evidence of the AD pathophysiological process
+The rationale for including biomarkers for the pathophysiological process of AD in the diagnostic criteria is summarized in the Introduction to this series of articles [ 3 ], The major AD biomarkers that have been widely investigated at this time (see [ 21 ] for review) may be broken into two classes based on the biology which they measure. Biomarkers of brain amyloid-beta (Aβ) protein deposition are low CSF Aβ 42 and positive PET amyloid imaging [ 22 , 23 ]. The second category is that of biomarkers of downstream neuronal degeneration or injury. The three major bio-markers in this category are elevated CSF tau, both total tau and phosphorylated tau (p-tau); decreased 18 fluorodeoxyglucose (FDG) uptake on PET in temporo–parietal cortex; and disproportionate atrophy on structural magnetic resonance imaging in me-dial, basal, and lateral temporal lobe, and medial parietal cortex. Total tau and p-tau are treated equivalently in this study, although p-tau may have more specificity for AD than other dementing diseases.
+
+In persons who meet the core clinical Criteria for probable AD dementia biomarker evidence may increase the certainty that the basis of the clinical dementia syndrome is the AD pathophysiological process. However, we do not advocate the use of AD biomarker tests for routine diagnostic purposes at the present time. There are several reasons for this limitation: (1) the core clinical criteria provide very good diagnostic accuracy and utility in most patients; (2) more research needs to be done to ensure that criteria that include the use of biomarkers have been appropriately designed, (3) there is limited standardization of biomarkers from one locale to another, and (4) access to biomarkers is limited to varying degrees in community settings. Presently, the use of biomarkers to enhance certainty of AD pathophysiological process may be useful in three circumstances: investigational studies, clinical trials, and as optional clinical tools for use where available and when deemed appropriate by the clinician.
+
+Biomarker test results can fall into three categories–clearly positive, clearly negative, and indeterminate. We envision that application of biomarkers for the AD pathophysiological process would operate as outlined in the Table 1 .
+
+## 7. Possible AD dementia with evidence of the AD pathophysiological process
+This category is for persons who meet clinical criteria for a non-AD dementia but who have either biomarker evidence of AD pathophysiological process, or meet the neuropathological criteria for AD. Examples would include persons who meet clinical criteria for dementia with Lewy bodies or for a subtype of frontotemporal lobar degeneration, but who have a positive AD biomarker study or at autopsy are found to meet pathological criteria for AD. In the biomarker table, we indicate that both categories of biomarkers must be positive for an individual who presents clinically with a non-AD phenotype to meet criteria for possible AD. This is a conservative approach that may change as more information is gained concerning the long-term outcomes of different combinations of biomarker findings. A diagnosis of possible AD dementia with evidence of AD pathophysiological process does not preclude the possibility that a second pathophysiological condition is also present.
+
+## 8. Considerations related to the incorporation of biomarkers into AD dementia criteria
+As described in the two companion articles on the preclinical [ 4 ] and MCI [ 5 ] phases of the AD pathophysiological process, AD dementia is part of a continuum of clinical and biological phenomena. AD dementia is fundamentally a clinical diagnosis. To make a diagnosis of AD dementia with biomarker support, the core clinical diagnosis of AD dementia must first be satisfied.
+
+According to their nature, CSF biomarkers rely on a quantitative interpretation in comparison with normative standards. Imaging biomarkers can be interpreted in both a qualitative or quantitative manner. In many cases, biomarker results will be clearly normal or abnormal. In these cases, a qualitative interpretation of a biomarker test will unequivocally identify “positive” findings that imply the presence of the underlying AD pathophysiological process, or negative findings that unequivocally imply absence of an AD pathophysiological process. However, in some cases, ambiguous or indeterminate results will be obtained. This is inevitable given that all biomarkers are continuous measures, and the diagnostic labels of “positive” or “negative” require that cutoff values be applied to continuous biological phenomena. Although sophisticated quantitative and objective image analysis methods do exist, at present, accepted standards for quantitative analysis of AD imaging tests are lacking. Standard clinical practice in diagnostic imaging is qualitative in nature. Therefore, quantification of imaging biomarkers must rely on local laboratory specific standards. The same holds true for CSF biomarkers, although standardization efforts are more advanced for CSF biomarkers than for the imaging tests. Quantitative analytic techniques are, and will continue to be in evolution for some time. Therefore, practical use of biomarkers must follow best-practice guidelines within laboratory-specific contexts, until standardization has been fully accomplished.
+
+A sequence of events has been described with Aβ pathophysiological processes becoming abnormal first and downstream neuronal injury biomarkers becoming abnormal later [ 6 , 7 ], This might imply a hierarchical ranking of Aβ biomarkers over downstream neuronal injury biomarkers for diagnostic purposes. However, at this time, the reliability of such a hierarchical scheme has not been sufficiently well established for use in AD dementia. Given the number of different AD biomarkers, it is inevitable that different combinations of test results can occur. For example, individual cases might be encountered with a positive Aβ and negative neuronal injury biomarker, or a positive FDG PET and negative tau measure, and so on. At present, the data are insufficient to recommend a scheme that arbitrates among all different biomarker combinations. Further studies are needed to prioritize biomarkers and to determine their value and validity in practice and research settings.
+
+## 9. Pathophysiologically proved AD dementia
+The diagnosis of pathophysiologically proved AD dementia would apply if the patient meets the clinical and cognitive criteria for AD dementia outlined earlier in the text, and the neuropathological examination, using widely accepted criteria [ 24 ], demonstrates the presence of the AD pathology.
+
+## 10. Dementia unlikely to be due to AD
+Does not meet clinical criteria for AD dementia.
+
+Regardless of meeting clinical criteria for probable or possible AD dementia, there is sufficient evidence for an alternative diagnosis such as HIV dementia, dementia of Huntington’s disease, or others that rarely, if ever, overlap with AD.
+
+Regardless of meeting clinical criteria for possible AD dementia, both Aβ and neuronal injury biomarkers are negative (see section 6, earlier in the text).

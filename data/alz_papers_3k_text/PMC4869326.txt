@@ -1,0 +1,5 @@
+# Title
+Aging. Aging-induced type I interferon signaling at the choroid plexus negatively affects brain function
+
+# Abstract
+Age-associated cognitive decline is affected by factors produced inside and outside the brain. We found in aged mice and humans, that the choroid plexus (CP), an epithelial interface between the brain and the circulation, shows a type I interferon (IFN-I)-dependent expression profile, often associated with anti-viral responses. This signature was induced by brain-derived signals present in the cerebrospinal fluid of aged mice. Blocking IFN-I signaling within the brain of cognitively-impaired aged mice, using IFN-I receptor neutralizing antibody, led to partial restoration of cognitive function and hippocampal neurogenesis, and reestablished IFN-II-dependent CP activity, lost in aging. Our data identify an aging-induced IFN-I signature at the CP, and demonstrate its negative influence on brain function, thereby suggesting a potential target for therapeutic intervention for age-related cognitive decline.

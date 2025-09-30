@@ -1,0 +1,5 @@
+# Title
+The prion protein as a receptor for amyloid-β
+
+## METHODS
+C57/BL10 and C57/BL10 Prnp −/− mice were provided by M. Oldstone (Scripps Research Institute, grant AG04342). Organotypic slice cultures were infected at 7–12 days in vitro with Sindbis virus expressing APPct100 3 . After 24h simultaneous whole-cell paired recordings were obtained as described previously 13 . At 12–17 days in vitro slices were infected with Sindbis virus expressing tdTomato or APP plus tdTomato for 48 h, or infected with eGFP and incubated with 1 μM monomeric Aβ40 or oligomerized Aβ42 14 for 24 h. Two-photon laser scanning images were taken of dendrites at the site of primary apical dendrite bifurcation. Spine densities were counted as described previously 4 . The protocol for the LTP experiments was as described in Laurén et al. 8 .

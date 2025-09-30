@@ -1,0 +1,5 @@
+# Title
+Human LilrB2 Is a β-Amyloid Receptor and Its Murine Homolog PirB Regulates Synaptic Plasticity in an Alzheimer’s Model
+
+# Abstract
+Soluble β-amyloid (Aβ) oligomers impair synaptic plasticity and cause synaptic loss associated with Alzheimer’s disease (AD). We report that murine PirB (paired immunoglobulin-like receptor B) and its human ortholog LilrB2 (leukocyte immunoglobulin-like receptor B2), present in human brain, are receptors for Aβ oligomers, with nanomolar affinity. The first two extracellular immunoglobulin (Ig) domains of PirB and LilrB2 mediate this interaction, leading to enhanced cofilin signaling, also seen in human AD brains. In mice, the deleterious effect of Aβ oligomers on hippocampal long-term potentiation required PirB, and in a transgenic model of AD, PirB not only contributed to memory deficits present in adult mice, but also mediated loss of synaptic plasticity in juvenile visual cortex. These findings imply that LilrB2 contributes to human AD neuropathology and suggest therapeutic uses of blocking LilrB2 function.

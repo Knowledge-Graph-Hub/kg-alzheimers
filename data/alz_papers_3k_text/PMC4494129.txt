@@ -1,0 +1,626 @@
+# Title
+Quaternary structure defines a large class of amyloid-β
+oligomers neutralized by sequestration
+
+# Abstract
+The accumulation of amyloid-β (Aβ) as amyloid fibrils and
+toxic oligomers is an important step in the development of Alzheimer's disease
+(AD). However, there are numerous potentially toxic oligomers and little is
+known about their neurological effects when generated in the living brain. Here,
+we show that Aβ oligomers can be assigned to one of at least two classes
+(Type 1 and Type 2) based on their temporal, spatial and structural
+relationships to amyloid fibrils. The Type 2 oligomers are related to amyloid
+fibrils and represent the majority of oligomers generated in
+vivo, but remain confined to the vicinity of amyloid plaques and do
+not impair cognition at levels relevant to AD. Type 1 oligomers are unrelated to
+amyloid fibrils and may have greater potential to cause global neural
+dysfunction in AD because they are dispersed. These results refine our
+understanding of the pathogenicity of Aβ oligomers in
+vivo .
+
+## Introduction
+Alzheimer's disease (AD) is believed to be caused by neurotoxic assemblies of
+the amyloid-β (Aβ) peptide. Distinct assemblies of Aβ have been
+found in the human brain, including amyloid fibrils and a few specific oligomers
+( Lasagna-Reeves et al., 2011 ; Lesne et al., 2013 ; Lu et al., 2013 ; Noguchi et
+al., 2009 ; Shankar et al., 2008 ).
+It is widely accepted that Aβ oligomers (Aβo) are more potent
+neurotoxins than amyloid fibrils, and several oligomers have been isolated and
+studied in detail. These oligomers differ in size and, to varying degrees, in their
+temporal and spatial patterns of expression, association with other brain proteins,
+and effects on neuronal function and viability ( Lasagna-Reeves et al., 2011 ; Lesne et
+al., 2006 ; Lesne et al., 2013 ; Noguchi et al., 2009 ; Shankar et al., 2008 ). However, there is no
+general consensus as to which oligomers are the most significant in the
+pathophysiology of AD nor, indeed, on the total number of types of Aβo
+produced in the brain (reviewed in ( Benilova et al.,
+2012 )). The diversity of form and function among the Aβo studied
+thus far, and the likely existence of an indeterminate number of other Aβo,
+make the isolation and functional characterization of all potential forms a
+laborious, if not impossible, task. In an attempt to resolve this predicament, we
+asked whether Aβo generated in vivo could be categorized
+according to their spatiotemporal patterns of expression and structural features as
+inferred from their reactivity with “conformation-selective”
+antibodies, and, if so, whether the different classes of oligomers exert different
+pathological effects on neural function.
+
+Studies using conformation-selective antibodies have identified at least two
+classes of oligomers that are generated in vitro and in the brains
+of AD patients and amyloid precursor protein (APP) transgenic mice ( Glabe, 2008 ). The OC and A11
+conformation-selective antibodies detect mutually exclusive structural epitopes of
+amyloid-forming proteins, independent of primary amino acid sequence ( Kayed et al., 2007 ; Wu et al., 2010 ). OC antibodies recognize Aβ amyloid
+fibrils as well as Aβ oligomers ( Kayed et
+al., 2007 ); it has been suggested, but never directly demonstrated, that
+OC detects in-register parallel β-sheets ( Glabe, 2009 ; Wu et al., 2010 ).
+Conversely, A11 antibodies have been shown to recognize out-of-register
+anti-parallel β-sheet structures ( Laganowsky
+et al., 2012 ; Liu et al., 2012 ).
+Our objective in the current work is to address the following questions related to
+Aβo generated in vivo : i ) are there
+distinct subtypes of Aβo based on quaternary structural motifs, as defined by
+their reactivity with OC and A11 antibodies; ii ) do OC- and
+A11-reactive oligomers differ in their spatial and temporal patterns of appearance;
+and iii ) what is the most abundant type of Aβo produced in
+the brain and how does it affect neurological function?
+
+To address these questions, we employed transgenic mice expressing APP
+variants linked to AD. The types of Aβo (e.g., Aβ dimers and
+Aβ*56, a putative dodecamer) and fibrils in mice vary dynamically, over a
+time scale of weeks to months (for examples in Tg2576, Arc6 and hAPP-J20 mice, see
+( Cheng et al., 2007 ; Lesne et al., 2006 ; Shankar et
+al., 2009 )). In the lines that have been characterized, the sequence of
+appearance of specific Aβ assemblies is consistent. Here, we studied four
+lines of transgenic mice. In Tg2576 ( Hsiao et al.,
+1996 ), hAPP-J20 ( Cheng et al.,
+2007 ) and TetO-APP SweInd mice ( Jankowsky et al., 2005 ), the A11-reactive oligomer Aβ*56 appears
+in young mice ~3-6 months prior to dense-core plaques and correlates with
+spatial memory deficits ( Cheng et al., 2007 ; Fowler et al., 2014 ; Lesne et al., 2006 ). In rTg9191 mice ( Liu et al., in press ), we found dense-core plaques emerging at
+~12 months but no Aβ*56 at any age ( Liu et al., in press ).
+
+Here, we show that OC antibodies selectively recognized quaternary structural
+motifs found in naturally occurring Aβ amyloid fibrils, namely in-register
+parallel β-sheets (for review, see ( Glabe,
+2009 ; Tycko, 2011 )). We also show
+that OC-immunoreactive Aβo appeared only after plaque formation and that they
+were highly concentrated around amyloid plaques in the brains of APP transgenic
+mice. Conversely, A11-immunoreactive oligomers appeared prior to amyloid plaques in
+multiple lines of APP transgenic mice (here, and see also ( Cheng et al., 2007 ; Fowler et
+al., 2014 ; Lesne et al., 2006 ))
+and were dispersed in the brain parenchyma without any relationship to amyloid
+plaques. We classified the Aβo generated in the brains of these APP
+transgenic mice into two categories: Type 1, which have no temporal, spatial or
+structural relationship to amyloid fibrils, and Type 2, which are related to amyloid
+fibrils temporally, spatially and structurally. We found that in brains bearing
+dense-core plaques, Type 2 Aβo predominate, consistent with predictions from in vitro studies ( Cohen et al.,
+2013 ). However, Type 2 Aβo appear to have limited potential to
+diffuse away from dense-core plaques or to disrupt forebrain neural networks, as
+assessed by tests of cognition.
+
+## Results
+We first sought to more precisely define the structures recognized by OC
+and A11 antibodies. It was not possible to isolate from the brains of transgenic
+mice Aβo of sufficient purity or quantity to perform biophysical
+characterization of their structures, so we turned to synthetically prepared
+Aβ fibrils with defined quaternary structures. It had been suggested that
+OC detects in-register parallel β-sheets ( Glabe, 2009 ; Wu et al.,
+2010 ), but this hypothesis had not been directly tested. Amyloid fibrils
+containing in-register parallel β-sheets or anti-parallel β-sheets
+were prepared from the 40-residue Aβ peptide with the AD-linked
+“Iowa” mutation (D23N_Aβ40). Transmission electron
+microscopy and solid state nuclear magnetic spectroscopy confirmed that these
+fibrils had the morphological features of “parallel” and
+“anti-parallel” fibrils whose backbone registries in the
+hydrophobic core regions were defined ( Qiang et
+al., 2012 ; Sgourakis et al.,
+2015 ) ( Figures 1A-1C ). OC
+antibodies preferentially recognized parallel, over anti-parallel, fibrils in
+immunoblots ( Figure 1D ).
+
+It has also been suggested that A11 antibodies recognize structures
+containing anti-parallel β-sheets ( Glabe,
+2009 ; Wu et al., 2010 ), and
+A11 indeed reacts with synthetic oligomers composed of out-of-register
+anti-parallel β-sheets ( Laganowsky et
+al., 2012 ; Liu et al., 2012 ).
+We first tested whether A11 antibodies prefer anti-parallel over parallel
+β-sheets, using synthetic Aβ fibrils. A11 antibodies also detected
+these synthetic fibrils, although with less sensitivity than did OC ( Figure S1A ). Similarly to
+OC, A11 preferred parallel fibrils to anti-parallel fibrils. While this result
+might seem at odds with the notion of two structurally distinct classes of
+oligomers, a potential resolution may be found in Figure S1B . We compared
+the A11 signal generated by synthetic Aβ fibrils to the signal generated
+by Aβo in the brains of 4-month-old hAPP-J20 mice, which lack OC-reactive
+Aβ species (see below). A much stronger signal was observed from the
+brain extracts, estimated to contain ~3 pg total Aβ, based on semi-quantitative analysis of Aβ in Western blots
+(data not shown) and previously reported ELISA measurements of Aβ levels
+in hAPP-J20 mice at this age ( Cheng et al.,
+2007 ), than from ng quantities of the synthetic Aβ fibrils. We
+concluded that while A11 can bind amyloid fibrils, it preferentially recognizes
+some structural feature of the brain-derived Aβo that is not found in
+fibrils containing in-register β-sheets.
+
+Aqueous extracts were prepared from the brains of Tg2576, hAPP-J20, and
+rTg9191 APP transgenic mice at ages prior to and following the appearance of
+dense-core plaques ( Figures 2A-2J ), and
+subjected to immunoblotting under non-denaturing conditions. OC immunoreactivity
+was seen only in extracts from plaque-containing brains in all three lines
+examined ( Figures 2K and 6A ; see also ( Liu et al., in press )). Conversely, A11 immunoreactivity appeared
+prior to plaque deposition in Tg2576 and hAPP-J20 mice and remained present in
+plaque-bearing brains ( Figure 2L ); no A11
+immunoreactivity was observed in rTg9191 brain extracts from any age ( Figures 2L , S2A and S2B , and ( Liu et al., in press )). A11 and OC
+immunoreactivity disappeared when extracts were immunodepleted of Aβ
+using a mixture of Aβ antibodies prior to immunoblotting ( Figures S2C and S2D ),
+demonstrating that the oligomers seen by A11 and OC in the brains of APP
+transgenic mice were indeed composed of Aβ. These results show that A11
+and OC antibodies recognize different structures generated in
+vivo , as there exist brain-derived Aβ assemblies that are
+A11-positive/OC-negative (in young Tg2576 and hAPP-J20 mice) or
+OC-positive/A11-negative (in rTg9191 mice), extending the findings that OC and
+A11 recognize mutually exclusive epitopes on synthetic Aβo generated in vitro ( Kayed et al.,
+2007 ; Wu et al., 2010 ).
+
+Tg2576, hAPP-J20, TetO-APP SweInd and rTg9191 mice express
+human APP at levels that vary between lines and contain one or more variants
+(Swedish in Tg2576; both Swedish and Indiana in hAPP-J20 and
+TetO-APP SweInd , and both Swedish and London in rTg9191). These
+alterations result in different levels and amino acid compositions of Aβ,
+which we hypothesize contribute to the variability in the amount and types of
+Aβo generated, by analogy with in vitro studies. To
+determine whether the amount of Aβ expressed does indeed affect the
+relative levels of A11- and OC-reactive Aβo, we turned to
+TetO-APP SweInd mice. These mice carry a regulatable APP
+transgene, allowing us to manipulate levels of APP expression, and, hence,
+levels of Aβ. When APP expression was suppressed by 90% for five weeks in
+plaque-bearing TetO-APP SweInd mice, TBS-soluble A11-reactive species
+decreased 60%, but TBS-soluble OC-reactive species remained stable ( Figure 3 ). These results support the
+hypothesis that in the presence of amyloid fibrils, the reaction kinetics favor
+the generation of OC-reactive over A11-reactive Aβo.
+
+We went on to use OC antibodies to detect Aβo in the brains of
+two mouse models: rTg9191 and Tg2576. We found that brains of both rTg9191 and
+Tg2576 mice showed areas of intense OC-immunoreactivity encircling Congo
+red-positive dense plaque cores ( Figure S3A ). In contrast to dense-core plaques, we found no
+OC-reactivity in diffuse plaques lacking dense cores and plaque-associated
+cytopathology ( Serrano-Pozo et al.,
+2011 ).
+
+Since immunohistological methods are not optimally suited to measure
+finely dispersed molecules, it is possible that we did not detect low
+concentrations of OC-immunoreactive Aβo located outside the immediate
+vicinity of dense-core plaques. We therefore performed biochemical analyses on
+microdissected brain tissue fractions to more accurately define the spatial
+distribution of OC-immunoreactive Aβo and to discriminate between
+insoluble and soluble OC-immunoreactive assemblies.
+
+Using laser microdissection, we isolated three issue fractions in
+rTg9191 mice: i ) dense plaque cores containing Aβ
+fibrils; ii ) halos extending 50 μm from the edge of the
+plaque cores; and iii ) plaque-free zones, annuli extending
+80-100 μm from the outer edges of the halos ( Figure 4A ). We opted to use autofluorescence rather than
+Thioflavin S to identify candidate dense-core plaques, because Thioflavin S
+artificially generated SDS-stable oligomers ( Figure S3B ). We performed
+control studies to verify the identity of autofluorescent structures by
+Thioflavin S and Aβ immunohistochemistry using 4G8 ( Figure S3C ). We then
+measured native Aβ assemblies in each tissue fraction in dot blots using
+OC antibodies, and found >99.9% of immunoreactivity confined to the cores
+and halos ( Figures 4B and 4C ).
+
+OC-immunoreactive Aβo thus are spatially, as well as temporally,
+associated with amyloid fibrils in the brains of APP transgenic mice. Further,
+OC-immunoreactive Aβo very probably share the in-register parallel
+β-sheet structure that is characteristic of brain-derived amyloid fibrils
+( Lu et al., 2013 ). The spatial and
+temporal patterns of appearance of OC-immunoreactive oligomers strongly support
+the hypothesis that these oligomers form via a process of secondary
+self-assembly dependent upon pre-existing amyloid fibrils (see Discussion and Figure
+S7 ). We hereafter refer to OC-positive oligomers that exhibit spatial and
+temporal relationships to amyloid fibrils as Type 2 Aβo. The laser
+microdissection results indicate that ~all OC-immunoreactive Aβo
+in the brains of rTg9191 mice meet the spatial criterion for Type 2
+oligomers.
+
+We next asked what fraction of the cortex is occupied by Type 2
+oligomers. Based on stereological analyses of Thioflavin S-stained sections and
+the geometry of dense-core plaques (see Note S1 ), we estimated the volume of the cortex occupied by
+Type 2 Aβo in rTg9191 mice to be 11.4%; therefore, >99.9% of the
+OC-immunoreactive Aβo in rTg9191 mice were confined to 11.4% of the
+cortex.
+
+To measure other potential soluble Aβ assemblies in rTg9191
+brains, we solubilized the Aβ assemblies from each tissue fraction in
+detergents, fractionated them by SDS-polyacrylamide gel electrophoresis (PAGE)
+(which denatures the assemblies, as described below), and detected the denatured
+Aβ assemblies by immunoblotting with two different anti-Aβ-specific
+antibodies (6E10, Figure 4D ; 4G8, Figure S4A ). We found an
+array of Aβ species in the cores and halos, but no Aβ assemblies
+in the plaque-free fraction. In addition, we found a strong concordance between
+measurements of the percentage of soluble Aβ assemblies located in the
+cores and halos obtained from dot blots with OC antibodies (>99.9%, Figure 4C ) and measurements obtained from
+Western blots with the two anti-Aβ antibodies (≥99.6%, Figures 4E and S4B ), suggesting that
+all, or nearly all, of the soluble Aβ oligomers in rTg9191 mice are Type
+2 Aβo.
+
+In additional biochemical studies, we found that when extracts of
+rTg9191 brains containing native Type 2 Aβo were fractionated by
+size-exclusion chromatography and subsequently denatured by SDS-PAGE, Aβ
+species appeared in immunoblots as monomers, dimers, and larger oligomers ( Figure S4C ). Dimers were
+the most abundant Aβ oligomeric species in the immunoblots and eluted in
+two distinct sets of fractions; one set of fractions corresponded to the
+molecular masses of globular proteins ranging from ~500 kDa to
+~2000 kDa while the other set of fractions corresponded to ~60 kDa
+to ~200 kDa proteins. We inferred from these results that the dimers in
+the immunoblots of denatured rTg9191 brain extracts represent disassembled
+high-molecular-mass Type 2 Aβo, but we cannot exclude the existence of
+free non-globular dimers with larger radii of hydration than would be expected
+for a globular protein with a molecular mass of ~9 kDa, the theoretical
+molecular mass of dimers.
+
+The A11-immunoreactive oligomer Aβ*56 appears months before the
+emergence of the first detectable dense-core plaques in Tg2576 mice ( Kawarabayashi et al., 2001 ; Lesne et al., 2006 ) and hAPP-J20 ( Cheng et al., 2007 ; Wright et al., 2013 ). We used Tg2576 mice, in which
+Aβ*56 was originally described ( Lesne et
+al., 2006 ), to compare the spatial distribution of Aβ*56 to
+that of Type 2 Aβo. We analyzed microdissected tissue fractions by dot
+blotting and Western blotting ( Figures 5A,
+5C and S4D ).
+In quantitative analyses, we found a striking divergence in the distribution of
+OC-immunoreactive Aβo and Aβ*56: 99.5% of OC-immunoreactive
+Aβo were concentrated within plaque cores and halos ( Figure 5B ), whereas most of the Aβ*56 (≥98.7%)
+was distributed outside the core, in the halo and plaque-free zone ( Figures 5D and S4E ). We estimated that
+Type 2 Aβo and Aβ*56 occupy 13.9% and 98.4%, respectively, of the
+volume of the cortex we sampled in aged Tg2576 mice (see Note S1 ).
+
+Thus, in contrast to Type 2 Aβo, Aβ*56 differs from
+amyloid fibrils in its temporal expression; spatial distribution; and quaternary
+structure, as inferred from its immunoreactivity with conformation-selective
+antibodies. We hereafter refer to A11-positive oligomers that appear
+independently of amyloid fibrils as Type 1 Aβo.
+
+To determine the relative abundance of Type 2 Aβo and
+Aβ*56, we estimated their masses in aqueous brain extracts from
+21-month-old Tg2576 mice. To ascertain the Aβ content of Type 2
+Aβo, we compared OC-immunoreactivity of extracts to that of
+synthetically-produced in-register parallel β-sheet Aβ fibrils
+containing known quantities of Aβ (measured by ELISA using 6E10
+antibodies, following denaturation with hexa-fluoro-isopropanol (HFIP)). This
+method assumes that the relationship between OC immunoreactivity and Aβ
+content is the same for the synthetic fibrils and brain-derived Type 2
+Aβo. Using this method, Type 2 oligomers were found to contain 14,500
+± 1,500 ng Aβ per gram of brain tissue. Levels of Aβ*56
+were assessed by comparing the density of the 56-kilodalton band to known
+quantities of synthetic Aβ monomers on Western blots probed with 6E10.
+This method assumes that the affinity of the 6E10 antibody was the same for the
+Aβ peptides within Aβ*56 as for the synthetic Aβ, in blots
+subjected to antigen retrieval prior to incubation with 6E10. Our estimate of
+the amount of Aβ*56 depends upon the stoichiometry of antibody binding to
+the synthetic standards and to Aβ*56. We assume a stoichiometry of
+antibody:Aβ monomer of 1:1. Each molecule of Aβ*56, a putative
+Aβ dodecamer, could bind between 1 and 12 antibody molecules. Under the
+assumption that one molecule of Aβ*56 binds 12 antibodies (i.e., a 1:1
+antibody:monomeric sub-unit ratio) , we found that Aβ*56 contains 57
+± 2 ng Aβ per gram of brain tissue. However, this value could be
+as much as 12 times higher, if only one antibody binds to each molecule of
+Aβ*56. Finally, the total mass of Aβ (Aβ x-38 ,
+Aβ x-40 , and Aβ x-42 ) in the extracts was
+measured by ELISA using 6E10 antibodies, following denaturation with formic
+acid. We found that the total Aβ in aqueous extracts from aged Tg2576
+mice is comprised of 0.4% - 4.8% Aβ*56, and ~95% Type 2 Aβo
+( Table 1 ; Figure S5 ).
+
+Multiple studies have shown a correlation between the Type 1 Aβo
+Aβ*56 and memory dysfunction in transgenic mice ( Billings et al., 2007 ; Cheng
+et al., 2007 ; Lesne et al.,
+2006 ). rTg9191 mice provide the opportunity to test the effects of
+Type 2 Aβo on cognition, as rTg9191 mice produce Type 2 Aβo
+exclusively. We studied cognitive function in rTg9191 mice that were aged until
+21 to 24 months, when the relative quantity of Type 2 Aβo in the brain,
+as assessed in dot blots using OC antibodies, was comparable to that in AD
+patients ( Figures 6A and 6B ). In a cohort
+of mice tested at 23 months, we found no significant transgene-associated
+effects on cognitive performance in the fixed consecutive number task, an
+operant behavioral task sensitive to lesions of the prefrontal cortex ( van Haaren et al., 1988 ) ( Figure 6C ). Similarly, we found no
+significant impairment of spatial memory in any of three other cohorts of mice
+[young (4 months); middle-aged (12 months); old (21 months)] evaluated using a
+water maze test of spatial reference memory that is sensitive to hippocampal
+lesions ( Morris, 2007 ) ( Figure 6D ). When the cohort of old mice was
+re-tested at 24 months, when levels of Type 2 Aβo were significantly
+higher than in 21-month-old mice, there was still no decrement in performance
+( Table S1 ).
+Furthermore, there were no significant differences in performances between the
+old cohort (21-month-old) and the other two cohorts ( Figure 6D , Table S1 ). The slight increase in the proximity index ( Table S1 ) and decrease in
+target-quadrant occupancy in the old mice appear to be related to aging since
+the same decrease can be seen in old, non-transgenic littermates ( Figure 6D ). Based on OC-immunoreactivity in
+dot blots, the levels of Type 2 Aβo in 24-month-old mice were 25- and
+2.1-fold greater (calculated after subtracting background immunoreactivity
+observed in non-transgenic mice) than those in 4- and 12-month-old mice,
+respectively ( Figure 6B ). In summary,
+within the statistical limits of our measurements, there were no differences in
+cognitive function between mice with Type 2 Aβo (at levels comparable to
+those in humans with AD), non-transgenic mice, and young rTg9191 mice with few
+or no such oligomers.
+
+The absence of any impact on cognitive function of Type 2 Aβo
+produced in situ suggests that Type 2 Aβo sequestered
+within dense-core plaques do not interfere with global network function, or that
+compensatory neural reorganization effectively preserves brain function when the
+oligomers occupy <15% of the cortex. It is possible that the background
+strain (129FVBF1) of rTg9191 is not permissive for the disruptive effects of
+Aβ on cognition, but this is unlikely, because Tg2576 mice in the same
+background strain showed spatial memory deficits ( Kotilinek et al., 2008 ). We also considered the possibility
+that the Type 2 Aβo produced by rTg9191 mice lack neurotoxicity. To test
+this hypothesis, we prepared aqueous protein extracts containing Type 2
+Aβo from the brains of 26-month-old rTg9191 mice and injected the
+extracts into the lateral cerebral ventricles of rats previously trained in a
+delayed non-matching-to-place task, a test of short-term working memory ( Paule et al., 1998 ). Each rat sequentially
+received brain extracts containing ~0% (Aβ-immunodepletion),
+~0.1% (low dose) or ~1% (high dose) of the total amount of Type 2
+Aβo in a 26-month-old rTg9191 mouse, and was tested two hours after the
+injections. Compared to baseline performance, memory was significantly impaired
+when rats were injected with the high dose of Aβ-containing extracts, but
+not when rats received the low dose or extracts from which Aβ was
+depleted ( Figures 6E and S6 ). These results
+indicate that normal cognition in rTg9191 mice is probably not due to the lack
+of neurotoxicity of Type 2 Aβo, since extracts containing minute
+quantities of dispersed Type 2 Aβo disrupted cognition. These findings
+support the conclusion that spatial localization is a more significant
+determinant of the neurological effects of Aβo than overall
+abundance.
+
+## Discussion
+The data in this paper indicate that brain-derived Aβo can be
+categorized based upon distinct temporal, spatial and structural relationships to
+fibrils. Type 2 Aβo are observed only after dense-core plaque formation, are
+highly concentrated around dense-core plaques, and are recognized by OC antibodies,
+which we here show selectively bind to structures containing in-register parallel
+β-sheets. The in-register parallel β-sheet conformation is
+characteristic of all known naturally occurring Aβ fibrils (for review, see
+( Glabe, 2009 ; Tycko, 2011 )), so it appears that Type 2 Aβo and
+Aβ fibrils share a common quaternary structure. By contrast, Type 1
+Aβo are present both prior to and following the appearance of dense-core
+plaques, are dispersed in brain tissue, and are recognized by A11 antibodies.
+Importantly, these two classes of Aβo are differentially associated with
+impaired cognition: the Type 1 Aβo Aβ*56 is associated with memory
+dysfunction in APP transgenic mice ( Billings et al.,
+2007 ; Cheng et al., 2007 ; Lesne et al., 2006 ; Lesne et al., 2008 ), while mice with levels of Type 2 oligomers
+similar to those of AD patients have intact cognition. These results are summarized
+in Table S2 . Taken
+together, these findings refine our understanding of how Aβo are organized
+and impact global neural network function in the brain.
+
+The results of recently reported behavioral studies in
+TetO-APP SweInd mice are consistent with our conclusion that Type 2
+Aβo are less harmful to neurological function than Type 1 Aβo ( Fowler et al., 2014 ). Using
+TetO-APP SweInd mice of the identical age and strain background,
+exposed to the same dose of doxycycline for the same amount of time as the mice used
+here, Fowler et al. showed that 90% suppression of APP expression led to cognitive
+improvement, assayed with multiple behavioral tests. Cognitive improvement in these
+mice was accompanied by significant reductions in the level of A11-immunoreactive
+species generally, and in the level of Aβ*56 particularly, with no changes in
+amyloid plaque burden. In the current study, we have confirmed the findings of
+Fowler et al., showing that suppression of APP leads to reductions in
+A11-immunoreacitve species, and have extended these findings to show that levels of
+OC-immunoreactive Aβo are unchanged. To summarize, an experimental
+manipulation that reduces levels of A11-reactive Aβo, while preserving levels
+of OC-reactive Aβo, leads to cognitive improvement in
+TetO-APP SweInd mice.
+
+We hypothesize that the differences in the spatiotemporal distributions of
+Type 1 and Type 2 Aβo result from distinct modes of biogenesis. Aβo
+have been shown in vitro to form via one of two processes: primary
+self-assembly occurring independently of amyloid fibrils, or secondary self-assembly
+requiring pre-existing fibrils that catalyze the self-assembly of monomers ( Cohen et al., 2013 ) ( Figure S7 ). If these
+processes also occur in vivo , Aβo formed via secondary
+self-assembly should be seen only in brains containing amyloid fibrils and should be
+at highest concentration in the immediate vicinity of foci of Aβ fibrils
+(i.e., dense-core plaques). We propose that Type 2 Aβo are generated by a
+secondary self-assembly process, because they appear only after dense-core plaques
+are present and they are highly concentrated around these plaques. Conversely,
+Aβo that form via primary self-assembly may be present prior to plaque
+formation and need not be concentrated around plaques – characteristics of
+Type 1 Aβo, as defined here.
+
+The two-pathway model of the self-assembly of Aβ ( Figure S7 ) can explain the
+quantitative differences between Type 1 and Type 2 Aβo reported here. In vitro studies have shown that, in the presence of amyloid
+fibrils, reaction kinetics favor the generation of oligomers via a secondary
+self-assembly process ( Cohen et al., 2013 ).
+After amyloid fibrils form in vitro , Aβ monomers are
+consumed by the elongation of fibrils and the secondary self-assembly reaction; if
+the consumption of monomers by these processes exceeds the production of Aβ
+monomers needed to form Aβo via primary self-assembly, then Aβo formed
+by primary self-assembly will decline or disappear. This model predicts that Type 2
+Aβo should predominate in plaque-bearing brains; indeed, Type 2 Aβo
+are the most abundant Aβo in aged Tg2576 mice, comprising ~95% of the
+Aβ species in aqueous brain extracts from Tg2576 mice (with plaque loads
+slightly higher than those found in AD). The model also anticipates our result in vivo in TetO-APP SweInd mice − when we
+reduced the pool of monomers by lowering APP expression, levels of Type 1 Aβo
+fell but levels of Type 2 Aβo remained unchanged. Finally, the presence of
+Type 1 Aβo in Tg2576 mice and their absence in rTg9191 is also consistent
+with this model. Tg2576 mice express more total Aβ than rTg9191 mice, but
+relatively less fibrillogenic Aβ42, because Tg2576 lack the London mutation; therefore, more monomers are available to form
+Type 1 Aβo in Tg2576 than in rTg9191 mice.
+
+Surprisingly, the prolific Type 2 Aβo were not dispersed throughout
+brain tissue, but were instead encapsulated around dense-core plaques that in total
+occupied <15% of the cortex. Within this microenvironment, Type 2 Aβo
+very likely cause neurodegenerative changes such as dystrophic neurites. It was
+previously shown that anti-Aβ immunotherapy reverses plaque-associated
+neuritic abnormalities without affecting plaque burden ( Rozkalne et al., 2009 ), strongly suggesting that soluble
+Aβo cause cytopathology. Our rTg9191 mice, which generate only Type 2
+Aβo, exhibit plaque-associated cytopathology ( Liu et al., in press ), yet remain cognitively normal. Thus, the
+encapsulation of Type 2 Aβo in cyst-like dense-core plaques appears to
+neutralize their potential to disrupt neurological function. These results indicate
+that the spatial localization of Aβo is critically important, certainly more
+important than their overall abundance.
+
+To evaluate the relevance of our findings to AD, we estimated the volume of
+human cortex occupied by Type 2 Aβo in AD, using two different methods. One
+method depended upon immunohistological data of tissue stained with the Aβ
+oligomer-specific antibody NAB-61 ( Lee et al.,
+2006 ), which we inferred selectively recognizes Type 2 Aβo and
+amyloid fibrils from its almost exclusive staining of neuritic plaques (dense-core
+plaques associated with neuritic abnormalities ( Serrano-Pozo et al., 2011 )). The average volume of AD cortex occupied by
+Aβ assemblies detected using NAB-61 was ~5% ( Perez-Nievas et al., 2013 ). The other method relied upon
+neuritic plaque densities. We estimated that the upper limit of the volume of cortex
+occupied by neuritic plaques in AD brain is ~10% (see Note S1 ). Both estimates are
+smaller than those in the two mouse model systems studied here, suggesting that in
+humans, Type 2 Aβo influence a relatively small volume of cortex and, as in
+the mice, would participate little if at all in disrupting cognition or inducing
+widespread neurodegeneration. However, we cannot exclude the possibility that Type 2
+Aβo might disrupt intrinsic connectivity networks in AD if
+higher-than-average concentrations of neuritic plaques accumulate in critical
+“nodes.” Nor can we conclude with certainty that Type 1 Aβ
+oligomer levels are equivalent across all brain regions; for example, within a given
+region, local rates of Aβ production may be affected by neural activity
+( Cirrito et al., 2005 ; Kamenetz et al., 2003 ), which might alter the
+kinetics of self-assembly. A better understanding of the roles of Type 1 and Type 2
+Aβo in AD might be gained by comparing their respective levels in brain
+regions that are differentially vulnerable to neurodegenerative and functional
+abnormalities.
+
+Although the biological factors involved in maintaining the sequestration of
+Type 2 Aβo in dense-core plaques are not well understood, neuroinflammation
+seems to be important. While Type 2 Aβo are smaller and therefore more
+diffusible than amyloid fibrils, their diffusion range may be circumscribed by
+microglial cells that may “seal” them inside amyloid plaques ( Bolmont et al., 2008 ), thus potentially limiting
+their influence on brain function. It is possible that the compartmentalization
+eventually breaks down in symptomatic AD patients, allowing Type 2 Aβo to
+leak out and damage a broader population of neurons. If Type 2 Aβo in AD are
+as neurotoxic as those in rTg9191 mice, our results indicate that small breaches
+allowing only ~1% to pass through the putative barrier might be sufficient to
+disrupt global network function. Actual quantification is needed to test the
+hypothesis directly, but the poor correlation between neuritic plaques,
+β-amyloidosis, and cognition in humans ( Katzman et al., 1988 ; Terry et al.,
+1991 ) argues against this possibility.
+
+The uncertainty about which Aβo contribute to the pathogenesis of AD
+is a major impediment to progress on disease prevention, treatment and diagnosis.
+Apparently conflicting results obtained in clinical trials of anti-amyloid therapies
+highlight the need for a more complete understanding of the types and toxicity of
+Aβ assemblies that are seen during the progression of AD. Passive
+immunization with two monoclonal antibodies that recognize Aβ fibrils,
+Bapineuzumab and Gantenerumab, reduced amyloid burdens but failed to provide
+cognitive or functional benefits ( Alzforum,
+2015a , b ; Ostrowitzki et al., 2012 ; Rinne
+et al., 2010 ). However, preliminary reports that a third antibody,
+Aducanumab, practically eliminates plaques and slows cognitive and
+functional decline in patients with prodromal or mild AD has generated tremendous
+excitement in the field ( Strobel, 2015 ).
+Aducanumab reportedly is highly selective for Aβo over Aβ monomers,
+but further details of the conformational selectivity of the antibody have not been
+made public. Taken together with the findings in mice reported here, the results of
+the clinical trials raise several questions: How did the stage at which therapy was
+administered, the degree of target engagement, and/or the precise identities of
+Aβ species targeted contribute to the differences in the outcomes of the
+clinical trials? Does Aducanumab discriminate between Type 1 and Type 2 Aβo,
+as defined here, or does it recognize an epitope common to both types of Aβo?
+Does the microlocalization of different structural classes of Aβo in human
+brain parallel that seen in the brains of APP transgenic mice, reported here, and
+does this spatial distribution change during the progression of AD from the
+prodromal phase to dementia? Are there regions of the human brain where Type 2
+Aβo reach a high enough concentration to disrupt network function (the
+critical “nodes” mentioned above)?
+
+In summary, the findings reported here suggest that while most of the
+soluble Aβ in brains bearing dense-core plaques (e.g., AD brains) are Type 2
+Aβo, the bulk of these oligomers are rendered functionally innocuous by their
+effective containment within plaques. Type 1 Aβo may be more directly
+pathogenic in many brain regions because they are more finely dispersed than Type 2
+Aβo. We hope that our findings will open up new directions of research,
+particularly in understanding and developing therapies that target the rarer Type 1
+Aβo. A better understanding of how Type 1 and Type 2 Aβo impact the
+pathogenesis of AD may result from the synthesis of future biophysical and
+biological studies.
+
+## Experimental Procedures
+rTg9191 mice were generated using a binary system of responder and
+activator transgenes ( Paulson et al.,
+2008 ). Tg2576 mice ( Hsiao et al.,
+1996 ) in a B6SJLF1 background ( Westerman et al., 2002 ) and 4-month-old hAPP-J20 mice in a C57Bl6
+background were from K.H.A.'s colony at the University of Minnesota.
+TetO-APP SweInd mice in a B6FVB F1 background were from J.L.J.'s
+laboratory at Baylor College of Medicine. Brains from 12-month-old hAPP-J20 were
+a gift of Dr. Lennart Mucke of the University of California, San Francisco. All
+experiments involving mice and rats were conducted in full accordance with the
+Association for Assessment and Accreditation of Laboratory Animal Care and the
+Institutional Animal Care and Use Committee guidelines at the University of
+Minnesota, Minneapolis Veterans Administration Medical Center, or Baylor College
+of Medicine.
+
+De-identified samples of inferior temporal gyrus (Brodmann Area 20) from
+individuals with a clinical diagnosis of Alzheimer's disease were obtained from
+the Religious Order Study (Rush Alzheimer's Disease Center, Chicago, IL).
+
+Details of preparation procedures are provided in the Supplemental Experimental
+Procedures .
+
+To extract native Aβ aggregates, water-soluble extracts were
+prepared based on a protocol previously described ( Shankar et al., 2008 ). Briefly, tissue specimens were
+weighed and transferred to 4 volumes of ice-cold buffer (25 mM Tris-HCl, pH7.4;
+140 mM NaCl; 3 mM KCl; 0.1 mM phenylmethylsulfonyl fluoride; 0.2 mM
+1,10-phenanthroline monohydrate; protease inhibitor cocktail (Sigma-Aldrich, St.
+Louis, MO); and phosphatase inhibitor cocktails (Sigma-Aldrich)) and homogenized
+using a Dounce homogenizer. The resulting materials were centrifuged for 90
+minutes (16,100 g ; 4°C); the supernatant was depleted of
+endogenous immunoglobulins and stored at -20°C until further use.
+
+Details of the dot blotting method are provided in the Supplemental Experimental
+Procedures . Briefly, 0.5 μg protein from brain
+extracts or 0.02-2 ng synthetic Aβ fibrils ( Qiang et al., 2012 ) were spotted onto nitrocellulose
+membranes, which were then probed with either OC (Millipore, Billerica, MA,
+AB2286, 1:50,000) or A11 (Invitrogen, Carlsbad, CA, AHB0052, 1:1,000)
+antibodies.
+
+Detergent-soluble Aβ species were extracted and Western blotting
+was performed using the method of Liu et al. ( Liu et al., 2011 ).
+
+Details of micro-dissection are provided in the Supplemental Experimental
+Procedures . Native and detergent-soluble proteins were
+extracted as described above; to compare protein levels in the micro-dissected
+fractions, extracts from equal volumes of tissue were used in dot blots and
+Western blots. For negative controls, protein extracts from age-matched,
+nontransgenic littermates were loaded such that the total protein content
+equaled that of the plaque-free regions used for each blot.
+
+Details of the behavioral tests are provided in the Supplemental Experimental
+Procedures .
+
+Forty-one (19 rTg9191, 22 “neg”) mice completed
+training under this assay. Mice were 20.5-month-old at the start of
+training. After training, mice were run under the FCN-4 five days per week
+for 30 daily sessions.
+
+Spatial reference memory was measured in rTg9191 mice using a
+modified version of a water maze tailored to more rapid learning in the
+129S6/FVB background strain and more sensitive to subtle deficits ( Westerman et al., 2002 ). rTg9191 mice
+(female and male) were tested cross-sectionally at 4 and 12 months of age,
+and longitudinally from 21 to 24 months. The spatial cues and hidden
+platform location were changed for the mice tested longitudinally at 24
+months of age. Illness and spontaneous deaths were observed at the 21-24
+month time point (4/60 “neg” and 6/40 rTg9191 mice, Chi Square
+p = 0.15). Mice requiring euthanasia were not included in the analysis. The
+power of our study was sufficient to have an 80% chance of detecting an
+8-point drop in mean percent target quadrant occupancy at a confidence level
+of 0.05.
+
+Twenty male Sprague Dawley rats previously trained on a Delayed
+Non-Matching to Position task were injected intracerebroventricularly with
+brain extracts through chronically implanted guide cannulae ( Reed et al., 2011 ). Each rat received
+10 μL brain extract, prepared using the protocol for native
+aggregates described above; control extracts were prepared by two rounds of
+immunodepletion with monoclonal antibody 4G8. Animals were tested 2 hours
+post-injection. Each animal received injections of both fibril-dependent
+Aβ oligomer-containing and control extracts, on different days.
+
+The task yields an accuracy-by-delay relationship, with high
+accuracy (percent of correct responses) at the short delays and near random
+performance (50% correct) at the longest delays. This relationship is
+shifted leftwards (working memory deficit) by compounds or conditions that
+adversely affect cognition. Performance on the day of injection was compared
+to baseline performance, defined as the mean of the scores at each delay
+(per cent correct choices) for three days contiguous to the day of
+injection. Two animals that lost their cannulae were excluded from the
+analysis.
+
+Details of histological procedures are provided in the Supplemental Experimental
+Procedures .
+
+Statistics were performed using StatView Version 5.0.1 (SAS Institute
+Inc., Cary, NC). Data are expressed as mean ± SEM.
