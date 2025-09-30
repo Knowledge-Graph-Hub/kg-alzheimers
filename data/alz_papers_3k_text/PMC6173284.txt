@@ -1,0 +1,477 @@
+# Title
+Structure of the membrane-assembled retromer coat by cryo-electron
+tomography
+
+# Abstract
+Eukaryotic cells traffic proteins and lipids between different
+compartments using protein-coated vesicles and tubules. The retromer complex is
+required for generating cargo-selective tubulovesicular carriers from endosomal
+membranes 1 – 3 . Conserved in eukaryotes, retromer
+controls the cellular localisation and homeostasis of hundreds of transmembrane
+proteins, and its disruption is associated with major neurodegenerative
+disorders 4 – 7 . How retromer is assembled and how it is
+recruited to form coated tubules is unknown. Here we describe the structure of
+the retromer complex (Vps26-Vps29-Vps35) assembled on membrane tubules with the
+sorting nexin (SNX) BAR protein Vps5, using cryo-electron tomography (cryoET)
+and sub-tomogram averaging. This reveals a membrane-associated Vps5 array, from
+which arches of retromer extend away from the membrane surface. Vps35 forms the
+legs of these arches and Vps29 sits at the apex where it is free to interact
+with regulatory factors. The bases of the arches connect to each other and to
+Vps5 through Vps26. We observe the same arches on coated tubules within cells,
+confirming their functional significance. Vps5 binds to Vps26 at a position
+analogous to the previously described cargo and Snx3 binding site, implying the
+existence of distinct retromer-sorting nexin assemblies. The structure provides
+insights into the architecture of the coat and its mechanism of assembly, and
+suggests that retromer promotes tubule formation by directing the distribution
+of SNX proteins on the membrane surface while providing a scaffold for
+regulatory protein interactions.
+
+## Methods
+All proteins were expressed in Escherichia coli BL21(DE3) strain with induction by IPTG ( Extended Data Table 3 ). For purification of retromer complex, Vps29
+and Vps35 proteins were co-expressed whereas Vps26 was expressed separately.
+Cell pellets from both expressions were combined and lysed by high-pressure
+homogenization in R-buffer (20 mM HEPES-KOH pH 7.5, 200 mM NaCl). The homogenate
+was cleared by centrifugation and loaded onto an HisTrap HP (GE Healthcare)
+resin cartridge followed by elution with 200 mM imidazole in R-buffer. The
+eluate was loaded onto a Glutathione-Sepharose 4B (GE Healthcare) cartridge and
+the retained protein was eluted by PreScission protease cleavage of the GST
+domain. The eluted retromer, devoid of GST-tag, was further purified by gel
+filtration chromatography using a Superdex 200 10/300 column (GE Healthcare) in
+R-buffer with 1 mM TCEP ( Extended Data Fig.
+1a ).
+
+His-tagged Vps5 dimer was isolated using a HisTrap cartridge followed by
+gel-filtration chromatography as above ( Extended
+Data Fig. 1b, c ). To prepare retromer-Vps5 complex, the purified Vps5
+was mixed with Vps35-Vps26-Vps29 complex, and the mixture was purified by gel
+filtration on Superose 6, 10/300 (GE Healthcare) in R-buffer with 1mM TCEP.
+
+GST-tagged Vps29 was expressed and purified essentially as above but
+using thrombin (Sigma Aldrich) to cleave the linker between GST and Vps29, and
+50 mM Tris-HCl pH 8.0, 200 mM NaCl buffer instead of R-buffer. The cleaved
+protein was further purified by gel filtration chromatography on a Superdex 75
+10/300 column (GE Healthcare) in 50 mM Tris-HCl pH 8.0, 200 mM NaCl.
+
+C. thermophilum Vps29 is 201 amino acids in length and
+thrombin cleavage leaves an additional two non-native N-terminal residues
+(GlySer). Crystals of Vps29 were produced by hanging drop vapour diffusion using
+protein at a concentration of 15 mg/ml. Crystals in spacegroup P2 1 grew from a reservoir solution of 8% PEG20000, 8% PEG550MME, 0.2 M calcium
+acetate and 0.1 M Tris (pH 8.0), and were cryoprotected in 25% glycerol.
+Crystals were screened at the UQ ROCX diffraction facility on a Rigaku FR-E
+Superbright generator with Osmic Vari-Max HF optics and Rigaku Saturn 944 CCD
+detector. Data for structure determination was collected at the Australian
+Synchrotron MX1 Beamline. Data was integrated with iMOSFLM 30 and scaled with SCALA 31 . The structure was solved by molecular replacement with
+PHASER 32 using the human Vps29
+protein 18 as an input model. The
+resulting models were rebuilt with COOT 33 and refined with PHENIX 34 .
+Crystallographic data and structure statistics are provided in Extended Data Table 2 .
+
+Liposomes composed of POPC/POPE
+(1-palmitoyl-2-oleoyl-sn-glycero-3-phosphocholine and
+1-palmitoyl-2-oleoyl-sn-glycero-3-phosphocholine in 70:30 molar ratio, Avanti
+Polar Lipids), Folch brain extract (Sigma) and Folch brain extract supplemented
+with 3 mol% of dipalmitoyl-phosphatidylinositol-3-phosphate (PI3P), (Echelon
+Biosciences) were prepared at 1 mg/ml liposome solution in R-buffer by extrusion
+through a 0.4 μm polycarbonate filter. For pelleting assays, liposomes at
+a final concentration of 0.5 mg/ml and protein at a final concentration of 3
+μM were mixed in a final volume of 50 μl, incubated at room
+temperature for 15 min and then spun at 50,000 g for 30 min at 20ºC in a
+Beckman TLA 100 rotor. Supernatant and pellet fractions were analysed by
+Coomassie stained SDS-PAGE ( Extended Data Fig.
+1e ). While the relative stoichiometry of retromer to Vps5 cannot be
+reliably measured by Coomassie staining, we note that there appears to be a
+reduced stoichiometry of retromer to Vps5 in the assembled structure. A
+proportion of retromer may dissociate from the pre-assembled retromer-Vps5
+complex as tubule formation proceeds.
+
+For tubulation assays, 2.5 μM of proteins were incubated with
+Folch liposomes (0.5 mg/mL) for 2 h at room temperature in R-buffer ( Extended Data Fig. 1f ).
+
+The retromer-Vps5 liposome tubulation reaction was mixed with 10 nm gold
+fiducial markers in identical buffer solution. 3 μl of this mixture was
+applied on a glow-discharged holey carbon grid (CF-2/1-3C, Protochips), blotted
+from the back and plunge-frozen in liquid ethane (Leica EM GP automatic
+plunger).
+
+Imaging was performed on an FEI Titan Krios microscope fitted with Gatan
+Quantum 967 LS and Gatan K2 Summit direct detector operated by Serial-EM
+software 35 . 71 tomographic series
+were acquired using a dose-symmetric scheme 36 with tilt range ± 60°, 3° angular increment
+and defoci between -2.5 μm and -6.5 μm. The acquisition
+magnification was 105,000x resulting in calibrated pixel size of 1.35 Å.
+Tilt images were recorded as 10-frame movies in super-resolution mode at dose
+rate ~1.8 e - /A 2 /s and a total dose per tomogram of
+~131 e/A 2 . Super-resolution 8K frames were aligned, combined
+and Fourier-cropped to 3838 × 3710 pixels using the
+“alignframes” command from the IMOD package. Data collection
+parameters are summarized in Extended Data Table
+1 .
+
+A small number of high-tilt images were discarded (e.g. those showing
+significant movement or where other objects obscured the field of view).
+Tilt-series were filtered according to the cumulative radiation dose 37 and aligned based on the gold fiducials
+using the IMOD package 38 . CTF correction
+was performed with “ctfphaseflip” IMOD command 39 using defocus values measured by
+CTFFIND4 40 on non-dose-filtered
+images. Tomograms were reconstructed from CTF-corrected, aligned stacks using
+weighted back-projection in IMOD. Tomograms were further binned 2, 4 and 8 times
+(hereafter called bin2, bin4 and bin8 tomograms) with anti-aliasing, resulting
+in pixel sizes of 2.7 Å/px, 5.4 Å/px and 10.8 Å/px
+respectively.
+
+Subtomogram averaging was performed using MATLAB (MathWorks) functions
+adapted from the TOM 41 , AV3 42 and Dynamo packages 43 essentially as described previously 44 . To define initial subtomogram positions, the central
+axes of retromer tubules were manually traced in bin4 tomograms and tube radii
+(measured from tube centre to the middle of the retromer layer) were recorded.
+The tubular geometry was used to define coordinates and initial rotations of
+overlapping sub-volumes along the tube surface. Rotations were defined to orient
+sub-volumes normal to the membrane and with the in-plane angle perpendicular to
+the main tubular axis; sub-volume spacing was 12 pixels (21.6 Å).
+
+Reference-free subtomogram averaging (SA) was performed independently on
+120 3 pixel subtomograms extracted from two bin4 tomograms
+acquired at -2.5 μm and -5.5 μm defoci. A low-pass filter at 50
+Å and a soft-edged cylindrical alignment mask were applied throughout.
+The alignment in both tomograms converged in 5 iterations revealing prominent
+two-fold symmetrical arch-like structures decorating the membrane layer ( Extended Data Fig. 2a ). These initial
+structures were aligned, averaged ( Extended Data
+Fig. 2b ) and rotated to place either the arch (“arch”
+model) or the base between two neighbouring arches (“base” model)
+in the centre of the reference ( Extended Data Fig.
+2c ). The observed 2-fold symmetry was applied, and the reference was
+low-pass filtered to 50 Å prior to using it as a starting reference for
+alignment of the full dataset.
+
+The full dataset was aligned against the “base” and
+“arch” models in two identical but independent procedures. Initial
+alignment was performed using 60 3 pixels subvolumes extracted from
+bin8 tomograms applying a low-pass filter at 50 Å and 2-fold symmetry.
+Upon alignment convergence ( Extended Data Fig.
+2d ), where two or more subvolumes had converged to similar positions
+(within 5 pixels distance), only the subvolume giving the highest
+cross-correlation value to the reference was retained. Retained subvolumes were
+divided into odd and even datasets, which were processed independently
+hereafter.
+
+Subsequent iterations of alignment and averaging were performed on
+sub-volumes of 72 3 pixels extracted from bin4 tomograms, and then
+subvolumes of 144 3 pixels from bin2 tomograms. The step-increment of
+the angular search was gradually decreased and the low pass-filter was gradually
+moved towards higher resolution (but set at least 3 Fourier pixels lower than
+the frequency corresponding to 0.5 Fourier-shell correlation between the odd and
+even datasets). A shell mask that follows the curvature of the membrane layer
+was applied so that only retromer density was considered during alignment. A
+population of sub-volumes with lowest cross-correlation (~40 %) were
+removed by imposing a cross-correlation threshold selected manually for each
+tomogram. The threshold was set to remove sub-volumes that were not aligned to
+the membrane. The resolution for both “base” and
+“arch” alignments reached ~13 Å upon convergence
+(see maps in Extended Data Fig. 2e ).
+
+Further alignments were performed using masks focussed on three
+different regions of the arch structure (apex, leg and the membrane-associated
+region below the apex, Extended Data Fig.
+2f , panels 1, 2, and 3 respectively) and two different regions of the
+base structure (immediately adjacent to, and slightly above, the membrane, Extended Data Fig. 2f , panels 4 and 5
+respectively) to generate five maps ( Extended
+Data Table 1 ). Two-fold symmetry was applied except for the alignment
+focussed on the leg, where two subvolumes were extracted from each arch using
+dynamo_subboxing_table (Dynamo), and symmetry was not applied.
+
+Final converged averages were formed by 37,360 asymmetric units for
+“arch”-derived and 32,074 asymmetric units for
+“base”-derived maps. The measured overall resolutions for each
+average ranged from 8.8 Å to 9.7 Å ( Extended Data Fig. 3a ). Local resolution maps are provided in Extended Data Fig. 3b . Final maps were
+reweighted by division by their summed CTFs and sharpened by empirically
+determined B factors of between 1300 and 1600.
+
+Human Snx1 (4FSZ) is the deposited atomic model with highest sequence
+similarity with C. thermophilum Vps5 BAR domain. However, the
+Snx1 BAR dimer in 4FSZ is highly curved and cannot be docked into the Vps5 BAR
+densities in our reconstruction. In contrast, the two deposited structures of
+SNX-BAR domains, Snx9 (2RAJ) and Snx33 (4AKV), correspond well to the shape of
+our experimentally-determined Vps5 densities. To allow Snx1 to be used as a
+template for structural homology modelling, we adapted the curvature of the Snx1
+to match that of Snx9. This was done by flexibly fitting the Snx1 BAR domain
+into a density map simulated from the Snx9 structure using VMD and MDFF software
+(within NAMD) 45 . Secondary structure
+changes were prohibited throughout the simulation. The resulting
+“curvature adjusted” Snx1 BAR model was then used to build a
+homology model of the Vps5 BAR domain using the i-TASSER online service 46 . The Vps5 PX domain was modelled on the
+Snx7 PX domain (3IQ2) with i-TASSER. A complete Vps5 PX-BAR dimer was modelled
+by aligning the models of Vps5 PX and BAR domains to the Snx9 template as rigid
+bodies using the match-maker tool in Chimera.
+
+No structures of the full-length retromer complex are available. Two
+partial homology models were generated using crystal structures of an N-terminal
+fragment of human Vps35 bound to Vps26 (5F0J) and a C-terminal fragment of human
+Vps35 bound to Vps29 (2R17). The Vps26-Vps35(N) complex and Vps29-Vps35(C)
+complex include residues 14-470 and 476-780 respectively, together covering
+nearly the entire human Vps35 sequence (796 residues in total). These two models
+were used as templates for modelling C. thermophilum Vps26-Vps35(N) and Vps29-Vps35(C) respectively using the
+“hetero-project” pipeline on the Swiss-Model web-server 47 . In the latter model the modelled Vps29
+was then replaced by our X-ray structure of C. thermophilum Vps29 (1W8M).
+
+UCSF Chimera 48 and ChimeraX 49 were used for rigid-body fitting and
+visualization. The relative orientations of the locally aligned maps were
+determined by sequential alignment of the maps using their overlapping regions
+using the “fit” command preceded by rough manual placement. The
+obtained composite was used to visualize the relative positions of structural
+models built in individual locally-aligned maps and to transfer models between
+the maps.
+
+Vps26-Vps35(N), Vps29-Vps35(C) and Vps5 dimer homology models were fit
+into locally aligned maps using the Chimera fit command with random initial
+placement. Unique docking positions were identified displaying the highest
+cross-correlation and coverage scores ( Extended
+Data Fig. 5a-c ).
+
+The results of rigid body fitting showed excellent correspondence with
+the observed density. For Vps5 and the central region of Vps35, some small
+differences in the positions of helices were observed between the fitted model
+and the EM density. Vps5 and residues 122-816 of Vps35 were therefore flexibly
+fit into the density maps with the highest local resolution using the MDFF
+software within NAMD 45 , maintaining all
+secondary structure. A long yeast-specific loop (305-387) and a long linker
+between N- and C-portions of Vps35 (537-559) were excluded from the Vps35 model.
+An unoccupied density (indicated by arrowhead in Extended Data Fig. 3b ) may correspond to the putative helical region
+(340-370) in the 305-387 loop of Vps35.
+
+We note that Vps5 dimers that contact Vps26 via their C-terminal helix
+(“stabilised dimers”) are better resolved than dimers with free
+C-termini ( Extended Data Fig. 3b ). In the
+final model, the “stabilised” Vps5 dimer that was fit into the map
+with highest local resolution was copied to all other positions where
+“stabilised” dimers were present and was fitted locally as a rigid
+body. For “unstabilised” Vps5 dimers, the fit into the map with
+highest local resolution was copied to another equivalent position.
+
+The arrangement of the retromer coat on individual tubules was
+visualised by placing models of protein components of the coat at the
+coordinates and rotations to which subtomograms converged during alignment (see
+example in Fig. 3a ). Simplified models were
+prepared by segmenting densities of interest from the corresponding
+Gaussian-smoothed subtomogram averages using UCSF Chimera.
+
+To assess the long-range order of the retromer coat, we determined the
+relative orientation of neighbouring retromer subunits. To do this, we took the
+positions and rotational orientations of all subtomograms in the final
+alignment, and plotted the relative positions of all neighbouring subtomograms
+(those within 416 Å). We performed this operation for subtomograms
+aligned on Vps26 and for subtomograms aligned on the apex of the retromer arch.
+In this way, the positions of 16037 and 18680 sets respectively of
+distance-selected neighbours were plotted to generate a 3D density plot ( Extended Data Fig. 7a, b ). To simplify
+visualisation, we flattened and projected the 3D density plot to give a 2D
+density plot ( Extended Data Fig. 7c, d ).
+The presence of peaks in the density plot shows that neighbours are found in
+preferred relative positions. The membrane-associated layer of the coat
+(represented by Vps26 dimers) shows more long-range order than the retromer
+arches, likely due to relative structural flexibility in the arch (compare Extended Data Fig. 7c and d ).
+
+Analysing the 3D density plot for Vps26 neighbours reveals six positions
+at which the nearest-neighbour Vps26 is located. Subtomograms were divided into
+groups according to whether a neighbour was identified in each of the six peaks
+(numbered in Extended Data Fig. 7e ). Peaks
+related by the two-fold symmetry of Vps26 are equivalent and were therefore
+included in the same groups. Each of the six groups of subtomograms was then
+separately averaged (at bin4) to generate six local density maps of the retromer
+coat ( Extended Data Fig. 7g ). Each of the
+structures therefore shows the conformation of retromer when a nearest-neighbour
+is present in one of the six preferred positions ( Fig 3b ).
+
+Models shown in Fig. 3a were
+prepared by segmentation and low-pass filtering, their respective protein
+structures are illustrated in the boxed panels. The models shown in Fig. 3b and c were built by fitting retromer
+components into the six density maps for each relation ( Extended Data Fig. 7g ), and combining the fitted structures
+in the relative arrangements observed in Fig.
+3a .
+
+In a previously described study, C. reinhardtii cells
+were vitrified, and thin lamellae containing regions of the cell interior were
+prepared by cryo-focused ion beam milling 50 , 51 before imaging by
+cryo-electron tomography 26 , 52 . We reanalyzed these tomograms,
+identifying 17 coated tubular membranes in 12 tomograms. The coat on these tubes
+appeared distinct from previously observed COPI, COPII and clathrin coats. For 9
+tubes, we could determine the morphology of the compartment they emanated from:
+4 budded from multivesicular bodies, 4 from TGN compartments (rounded
+translucent cisternae without luminal vesicles), and 1 from a lysosome-like
+compartment. In tomographic slices of some of the tubes positioned perpendicular
+to the XY plane, we observed that the coat was formed by arch-like densities. We
+performed reference-free subtomogram averaging to determine the structure of the
+coat, essentially as described in 26 ,
+using a modified wedge mask that accounts for the amplitudes of the determined
+CTF and applied exposure filters at each tilt 53 . We extracted subtomograms from binned tomograms (pixel size 1.36
+nm) normal to the tube surface with a spacing of 8 pixels (11 nm) and box size
+of 64 pixels. Subtomogram positions were randomized by 4 pixels along the tube
+axis to avoid any artefacts from periodic picking. The initial average was
+created and subtomograms were aligned to it with only z-axis shifts followed by
+12 iterations of alignment with a soft cylindrical mask of 16 nm diameter and 37
+nm height, with a lowpass filter set to 60 Å. The resulting average
+displayed two arches. The centermost arch was shifted to the center of the box
+and used as a reference for 4 additional iterations of alignment with two-fold
+symmetry applied. Overlapping subtomograms were removed with the distance
+threshold of 8 pixels (11 nm), the dataset was split in two halves from which
+the averages were generated. The resolution was estimated using mask-corrected
+FSC between these references, and was 37 Å at 0.5 cross-correlation,
+extending significantly beyond the 60 Å lowpass filter used during
+alignment.
+
+## Extended Data
+(a) Retromer forms a stable complex in solution.
+Fractions containing retromer (Vps35, Vps26 and Vps29) after gel-filtration
+on a Superdex 200 column analysed by Coomassie-stained SDS-PAGE. (b) Gel-filtration profile of Vps5 and MALLS analysis of
+molecular weight. Mean molecular weight and standard deviation from three
+independent gel-filtration experiments are shown. The expected molecular
+weight of Vps5 monomer is 67 kDa, so the observed molecular weight of 129
+kDa indicates formation of a homodimer (c) . A Coomassie-stained
+SDS-PAGE of Vps5 fractions from b . (d) Vps5 binds
+to retromer in solution. SDS-PAGE of GST-Vps5 and of retromer are given in
+the “input” panels. Retromer was incubated with GST-tagged
+Vps5 or GST baits, and the resultant complex was isolated on Gluthathione
+Sepharose beads (“pull-down” panels). The bottom panel shows
+the intact PAGE gel used to extract lanes for the upper panel. (e) Retromer membrane recruitment is dependent on Vps5.
+GST-Vps5 alone, GST-Vps5 with retromer complex, and retromer complex alone
+were incubated with liposomes and pelleted to isolate the liposome-bound
+protein fraction. Supernatant (S) and pelleted fraction (P) were compared
+with Coomassie stained SDS-PAGE. PC/PE liposomes were used as a negative
+control. Vps5 is efficiently pelleted by Folch brain extract liposomes, and
+the introduction of PI3P does not increase the amount of pelleted protein.
+The retromer complex shows no membrane association on its own, but is
+recruited to Folch and Folch/PI3P membranes when it interacts with Vps5. (f) Retromer promotes tubule formation by Vps5.
+Characteristic cryoEM images at medium (left) and high (right) magnification
+of Folch liposomes incubated either with Vps5 alone (top panels) or in the
+presence of the retromer complex (bottom panels). Data shown in all panels
+are representative of at least three independent experiments.
+
+Stages in the subtomogram averaging procedure are shown from top to
+bottom. Key steps are illustrated by average volumes (grey) overlaid with
+the corresponding alignment mask (gold). Alignment masks are shown at 0.5
+value threshold. Volumes in a-c are low-pass filtered to 50
+Å. ( a ) The final iteration of reference-free subtomogram
+averaging procedure independently conducted in bin4 tomograms that were
+acquired at -2.5 mm (left) and -5.5 mm (right) defoci, filtered to 50
+Å resolution. ( b ) The average of the references shown in a . ( c ) The volume from b was
+rotated to place either the apex of the arch (left) or the base of the arch
+(right) in the box centre, 2-fold symmetrized, and filtered to 50 Å.
+These two volumes were used as starting references for further alignments.
+( d ) The references after alignment at bin8.
+( e ) The references after alignment at bin2. After SA
+convergence in bin2, focused alignment was conducted on individual
+structural features. The final maps are shown in f1-f3 and f4-f5 for alignments focussed on the regions within the
+gold alignment masks.
+
+(a) Mask-corrected FSC curves for each of the final
+focused maps shown in Extended Data Fig.
+2f . The overall resolution at the 0.143 criterion is marked.
+( b ) Sharpened maps coloured by local resolution according
+to the indicated colour map determined by FSC within a moving local mask.
+Arrowheads indicate an unassigned density, which may correspond to a helical
+element in loop 305-387 of Vps35.
+
+(a) Crystal structure of C.
+thermophilum Vps29 (red) overlaid with the crystal structure of
+human Vps29 (blue) 18 .
+Crystallographic structure determination statistics are given in Extended Data Table 2 . (b) The fitted Vps26 dimer model with monomers coloured in dark green and light
+green. The homodimeric interface is formed by β-sheet extension of
+two N-terminal β-sandwich domains. The positions of the docked Vps26
+models suggest formation of an extended hydrophobic core between subunits.
+Close-up images of fitted Vps26 subunits highlight the extended hydrophobic
+core. (c) Surface representation of the Vps26-Vps35-Vps29
+trimer mapped with binding regions for retromer effectors. Neighbouring Vps5
+and retromer proteins in the assembled array are shown as ribbons. Retromer
+components are coloured as in Fig. 1 .
+Lower panels show higher magnification views of the overviews in the upper
+panels. Binding sites observed in structural data are coloured according to
+colour of the corresponding label; dashed lines indicate binding regions
+identified in biochemical assays. The binding interfaces of human Snx27,
+Snx3, Snx3/Dmt1-II, Varp/TBC1d5 were modelled using coordinates with PDB
+accession numbers 4P2A, 5F0L and 5GTU respectively; the Dmt1-II cargo
+peptide is shown as a ribbon. The Snx3/Dmt1-II binding site overlaps with
+that of Vps5. The binding site of the Snx27 PDZ domain on Vps26 10 is accessible although due to a lack
+of structural information on full-length Snx27 it is unclear whether this
+binding is simultaneously consistent with membrane binding by the Snx27 PX
+domains. The regulatory factors Varp and TBC1d5 share a binding interface on
+Vps29 that is exposed towards the outer extremity of the coat. This site in
+human Vps29 is also hijacked by the RidL protein from the pathogen Legionella pneumophila 54 , 55 . However, as for
+Snx27, full-length structures of Varp, TBC1d5 and RidL are not available so
+we cannot be sure how they will be arranged in the fully assembled array.
+Rab7 has been speculated to contribute to membrane recruitment of retromer
+by binding to Vps35 in the region indicated by the dashed line 56 , 57 . The deletion of this helical region (helix 6 in S.
+cerevisiae ) resulted in loss of interaction with Ypt7 57 (the Rab7 homologue in yeast). It
+has been shown recently that retromer binding to the PX-BAR complex
+displaces Rab7 during formation of tubules 58 , 59 . The Vps10
+“binding site” (dashed line) indicates a region where point
+mutations affect Vps10 recycling 16 ,
+however, no biochemical interactions between Vps10 and retromer have been
+shown, and our efforts at detecting a physical interaction between Vps35 and
+the cytosolic domains of Vps10 have not shown any direct binding. (d) Snx3 and Dmt1-II (transparent yellow and dark green
+surfaces respectively), as bound to Vps35/Vps26 from PDB 5F0L 17 , overlayed with our retromer-Vps5
+complex structure (ribbons, coloured as above) demonstrating a sterical
+clash between Vps5 BAR and Snx3 PX domains. Note that C-terminal helix of
+Vps5 BAR (arrowheads) clashes with the Dmt1-II cargo peptide density. Left
+panel shows the same view as in the panel above in C; right panel shows the
+model rotated by 90 degrees around the vertical axis to provide the view
+along the long axis of BAR domain.
+
+( a-c ) Fitting of structures to electron density maps
+was performed from 10000 random initial placements of atomic models using
+Chimera fit command. The cross-correlation between model and EM map, is
+plotted against the fraction of the structural model within the EM density
+threshold for: ( a ) Global fit of Vps5 dimer into the
+membrane-associated BAR domain density under the arch (map f3
+in Extended Data Fig. 2 ); ( b )
+Global fit of Vps26/Vps35(N) into the base of the arch (map f5
+in Extended Data Fig. 2 ). ( c )
+Global fit of Vps29/Vps35(C) into the apex of the arch (map f1
+in Extended Data Fig. 2 ). Arrows indicate
+the high-scoring rigid body fits which were used as starting points for
+flexible fitting. ( d, e ) For a subset of ~50% of the
+data we calculated tube centroids by spline fitting, and determined local
+membrane curvature as the inverse of the distance from the subtomogram to
+the tube centroid. (d) Slices through averages of 20% of the
+subtomograms from the dataset with lowest (left) and highest (right)
+membrane curvature, focused on the arch (top) or Vps26-dimer (bottom). See
+also animation in Supplementary Video 5 . (e) Distribution of membrane
+curvatures of retromer tubules in situ and in
+vitro . Lumenal diameter of each tube were measured manually
+from which mean and standard deviation were calculated.
+
+(a) Overlay of the Vps5 heterodimer model after
+flexible fitting into the cryoET structure (blue) with the human Snx9 PX-BAR
+domains (beige; the bound PI3P headgroup is also shown in magenta in stick
+representation). The PX and BAR domains in Vps5 adopt a very similar
+architecture to the Snx9 protein, but there are variations in the angle
+between the BAR domains, and in the orientations of the lateral PX domains.
+The second and third α helices of the Vps5 BAR domain are also longer
+than in Snx9. (b) Sequence alignment of Chaetomium
+thermophilum (CtVps5, CtVps17) and human (hSnx1, hSnx5)
+PX-BARs. CtVps5 secondary structure is indicated above the sequences.
+Sequence alignment and its representation were prepared in MultAlign 60 and ESPript 3.0 61 . (c) Overlay of ribbon models of CtVps5
+(blue) and CtVps17 (grey). CtVps17 structure was modelled using CtVps5 as a
+template (SWISS-MODEL).
+
+3D plots that visualise the relative positions of ( a )
+neighbouring Vps26 dimers or ( b ) neighbouring Vps35/Vps29
+arches (see supplementary
+information for details). The isosurface for visualization is set
+at 8σ. ( c, d ) Flattened cylindrical projections through
+the boxed regions in volumes a and b respectively.
+Blue to red gradient colouring is proportional to pixel values. The white
+circle shows the position of the central Vps26 dimer or arch.
+( e ) A close-up view at the boxed region in c with arrows indicating position and the identity of neighbours corresponding
+to each of six nearest-neighbour relative arrangements between Vps26 dimers.
+( f ) Bar plot of frequency occurrence of arrangements from e for 15795 analysed Vps26 dimers. The arrangements
+numbered 3 and 6, where Vps26 dimers are very closely packed, are less
+frequent than other arrangements. Models of these relative arrangements are
+shown in Fig. 3b, c . ( g )
+Density maps are shown for the local retromer structure for each of the six
+different relative Vps26 arrangements. Numbering corresponds to arrangements
+shown in Fig. 3b . Maps are radially
+coloured in grey, blue, green and gold for the membrane, Vps5, Vps26 and
+Vps35/Vps29 layers respectively. (h) Overlay of density maps
+for arrangements 2 and 3, and 2 and 4, showing that in some arrangements,
+the Vps35 arch can tilt relative to the tubule to accommodate nearby arches.
+The average of arrangement 2 is coloured as above, while arrangement 3 and 4
+averages are coloured transparent grey.
+
+*Values in parentheses are for highest-resolution shell.

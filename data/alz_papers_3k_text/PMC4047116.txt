@@ -1,0 +1,18 @@
+# Title
+Apolipoprotein E controls cerebrovascular integrity via cyclophilin A
+
+# Abstract
+Human apolipoprotein E has three isoforms: APOE2, APOE3 and APOE4 1 . APOE4 is a major genetic risk factor for Alzheimer’s disease 2 , 3 and is associated with Down’s syndrome dementia and poor neurological outcome after traumatic brain injury and haemorrhage 3 . Neurovascular dysfunction is present in normal APOE4 carriers 4 , 5 , 6 and individuals with APOE4 -associated disorders 3 , 7 , 8 , 9 , 10 . In mice, lack of Apoe leads to blood–brain barrier (BBB) breakdown 11 , 12 , whereas APOE4 increases BBB susceptibility to injury 13 . How APOE genotype affects brain microcirculation remains elusive. Using different APOE transgenic mice, including mice with ablation and/or inhibition of cyclophilin A (CypA), here we show that expression of APOE4 and lack of murine Apoe, but not APOE2 and APOE3, leads to BBB breakdown by activating a proinflammatory CypA–nuclear factor-κB–matrix-metalloproteinase-9 pathway in pericytes. This, in turn, leads to neuronal uptake of multiple blood-derived neurotoxic proteins, and microvascular and cerebral blood flow reductions. We show that the vascular defects in Apoe- deficient and APOE4 -expressing mice precede neuronal dysfunction and can initiate neurodegenerative changes. Astrocyte-secreted APOE3, but not APOE4, suppressed the CypA–nuclear factor-κB–matrix-metalloproteinase-9 pathway in pericytes through a lipoprotein receptor. Our data suggest that CypA is a key target for treating APOE4-mediated neurovascular injury and the resulting neuronal dysfunction and degeneration.
+
+## METHODS SUMMARY
+Apoe −/− , GFAP- APOE mice on murine apoE null background and Ppia − / − mice were acquired from Jackson Laboratories. TR- APOE mice were generated as previously described 16 . The Ppia − / − mice were crossed to the Apoe −/− and TR- APOE4 mice to generate the Apoe −/− Ppia −/− and TR- APOE4 Ppia −/− mice used in the present study. Mice were housed in plastic cages on a 12 h light cycle with ad libitum access to water and a standard laboratory diet. All studies were performed in accordance with the University of Rochester Institutional Animal Care and Use Committee using National Institute of Health guidelines. All lines were maintained on a C57Bl6 background. No significant phenotypic differences were found between littermate control animals.
+
+In some studies, APOE4 or Apoe −/− mice were treated for 7 consecutive days with a low intraperitoneal non-toxic dose of cyclosporine A (Sigma, 30024-25; 10 mg/kg/day for 3 days followed by 5 mg/kg/day for 4 days), or pyrrolidine dithiocarbamate (PDTC, 100 mg/kg/day) or SB-3CT (25 mg/kg/day).
+
+si RNA -mediated LRP1, MMP-9, MMP-2 and RELA knockdown was performed as previously described 26 .
+
+In vivo multiphoton imaging of TMR-conjugated dextran and detection of endogenous IgG, fibrin, thrombin and Prussian blue deposits in brain tissue was performed as previously described 14 . Detection of neuronal uptake of systemically administered Alexa fluor 555-conjugated cadaverine was performed as described 15 .
+
+Data were analyzed by multifactorial analysis of variance (ANOVA) followed by Tukey posthoc tests and Pearson’s correlation analysis using GraphPad Prism 3.0 software. A p value less than 0.05 was considered statistically significant in all studies.
+
+A complete description of all experiments performed and associated references are available in the Supplemental Materials and Methods section.

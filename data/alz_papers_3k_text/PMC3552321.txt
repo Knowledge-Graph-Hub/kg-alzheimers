@@ -1,0 +1,5 @@
+# Title
+Pathological α-Synuclein Transmission Initiates Parkinson-like Neurodegeneration in Non-transgenic Mice
+
+# Abstract
+Parkinson’s disease is characterized by abundant α-Synuclein (α-Syn) neuronal inclusions known as Lewy-bodies and Lewy-neurites, and the massive loss of midbrain dopamine neurons. However, a cause-and-effect relationship between Lewy inclusion formation and neurodegeneration remains unclear. Here we found that in wildtype non-transgenic mice a single intrastriatal inoculation of synthetic α-Syn fibrils led to the cell-to-cell transmission of pathologic α-Syn and Parkinson’s-like Lewy pathology in anatomically interconnected regions. Lewy pathology accumulation resulted in progressive loss of dopamine neurons in the substantia nigra pars compacta, but not in the adjacent ventral tegmental area, and was accompanied by reduced dopamine levels culminating in motor deficits. This recapitulation of a neurodegenerative cascade thus establishes a mechanistic link between transmission of pathologic α-Syn and the cardinal features of Parkinson’s disease.

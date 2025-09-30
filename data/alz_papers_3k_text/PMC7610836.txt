@@ -1,0 +1,5 @@
+# Title
+Reversal of Neurological Defects in a Mouse Model of Rett Syndrome
+
+# Abstract
+Rett Syndrome is an autism spectrum disorder caused by mosaic expression of mutant copies of the X-linked MECP2 gene in neurons. Neuronal death is absent suggesting that this is not a neurodegenerative disorder. An important question for future therapeutic approaches to this and related disorders concerns phenotypic reversibility. Can viable but defective neurons be repaired, or is the damage done during development without normal MeCP2 irrevocable? Using a mouse model, we demonstrate robust phenotypic reversal, as activation of MeCP2 expression leads to striking loss of advanced neurological symptoms in both immature and mature adult animals.

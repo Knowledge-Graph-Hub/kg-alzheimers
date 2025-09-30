@@ -1,0 +1,5 @@
+# Title
+Identification of common variants influencing risk of the tauopathy Progressive Supranuclear Palsy
+
+# Abstract
+Progressive supranuclear palsy (PSP) is a movement disorder with prominent tau neuropathology. Brain diseases with abnormal tau deposits are called tauopathies, the most common being Alzheimer’s disease. Environmental causes of tauopathies include repetitive head trauma associated with some sports. To identify common genetic variation contributing to risk for tauopathies, we carried out a genome-wide association study of 1,114 PSP cases and 3,247 controls (Stage 1) followed up by a second stage where 1,051 cases and 3,560 controls were genotyped for Stage 1 SNPs that yielded P ≤ 10 −3 . We found significant novel signals (P < 5 × 10 −8 ) associated with PSP risk at STX6 , EIF2AK3 , and MOBP . We confirmed two independent variants in MAPT affecting risk for PSP, one of which influences MAPT brain expression. The genes implicated encode proteins for vesicle-membrane fusion at the Golgi-endosomal interface, for the endoplasmic reticulum unfolded protein response, and for a myelin structural component.

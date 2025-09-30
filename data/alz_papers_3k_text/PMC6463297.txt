@@ -1,0 +1,731 @@
+# Title
+Genetic meta-analysis of diagnosed Alzheimer’s disease
+identifies new risk loci and implicates Aβ, tau, immunity and lipid
+processing
+
+# Abstract
+Risk for late-onset Alzheimer’s disease (LOAD), the most prevalent
+dementia, is partially driven by genetics. To identify LOAD risk loci, we
+performed a large genome-wide association meta-analysis of clinically diagnosed
+LOAD (94,437 individuals). We confirm 20 previous LOAD risk loci and identify
+five new genome-wide loci ( IQCK , ACE , ADAM10 , ADAMTS1, and WWOX ), two of which ( ADAM10 , ACE ) were identified in a recent genome-wide association
+(GWAS)-by-familial-proxy of Alzheimer’s or dementia. Fine-mapping of the
+human leukocyte antigen (HLA) region confirms the neurological and
+immune-mediated disease haplotype HLA-DR15 as a risk factor for LOAD. Pathway
+analysis implicates immunity, lipid metabolism, tau binding proteins, and
+amyloid precursor protein (APP) metabolism, showing that genetic variants
+affecting APP and Aβ processing are associated not only with early-onset
+autosomal dominant Alzheimer’s disease but also with LOAD. Analyses of
+risk genes and pathways show enrichment for rare variants ( P =
+1.32 × 10 −7 ), indicating that additional rare variants
+remain to be identified. We also identify important genetic correlations between
+LOAD and traits such as family history of dementia and education.
+
+## Results
+The Stage 1 discovery meta-analysis produced 12 loci with genome-wide
+significance ( P ≤ 5 × 10 −8 )
+( Table 1 ), all of which are
+previously described 1 , 4 – 11 . Genomic inflation factors ( λ )
+were slightly inflated ( λ median = 1.05; λ regression = 1.09; see Supplementary Figure 2 for a
+quantile–quantile (QQ) plot); however, univariate linkage disequilibrium
+score (LDSC) regression 12 , 13 estimates indicated that the
+majority of this inflation was due to a polygenic signal, with the intercept
+being close to 1 (1.026, s.e.m. = 0.006). The observed heritability
+( h 2 ) of LOAD was estimated at 0.071 (0.011)
+using LDSC. Stage 1 meta-analysis was first followed by Stage 2, using the
+I-select chip we previously developed in Lambert et al. 1 (including 11,632 variants, n = 18,845; Supplementary Table 4 ) and finally
+Stage 3A ( n = 11,666) or Stage 3B ( n = 30,511)
+(for variants in regions not well captured in the I-select chip) (see Supplementary Figure 1 for the workflow). The final sample was 35,274 clinical and autopsy-documented
+Alzheimer’s disease cases and 59,163 controls.
+
+Meta-analysis of Stages 1 and 2 produced 21 genome-wide-significant
+associations ( P ≤ 5 × 10 −8 )
+( Table 1 and Fig. 1 ), 18 of which were previously reported as
+genome-wide significant in Lambert et al. 1 . Three other signals were not initially described in the
+initial IGAP GWAS: the rare R47H TREM2 coding variant
+previously reported by others 7 , 8 , 14 ; ECHDC3 (rs7920721; NC_000010.10:
+g.11720308A>G), which was recently identified as a potential
+genome-wide-significant Alzheimer’s disease risk locus in several
+studies 15 – 17 , and ACE (rs138190086; NC_000017.10: g.61538148G>A) ( Supplementary Figs. 3 and 4 ). In addition, seven
+signals showed suggestive association with P < 5
+× 10 −7 (closest genes: ADAM10, ADAMTS1,
+ADAMTS20, IQCK , MIR142/ TSPOAP1-AS1 , NDUFAF6, and SPPL2A ) ( Supplementary Figs. 5 – 11 ). Stage 3A and
+meta-analysis of all three stages for these nine signals (excluding the TREM2 signal; see Supplementary Table 5 for the
+variant list) identified five genome-wide-significant loci. In addition to ECHDC3 , this included four new genome-wide
+Alzheimer’s disease risk signals at IQCK, ADAMTS1, ACE, and ADAM10 ( Table
+2 ) . ACE and ADAM10 were previously
+reported as Alzheimer’s disease candidate genes 18 – 22 but were not replicated in some subsequent
+studies 23 – 25 . A recent GWAS using family
+history of Alzheimer’s disease or dementia as a proxy 26 also identified these two risk loci,
+suggesting that while use of proxy Alzheimer’s disease/dementia cases
+introduces less sensitivity and specificity for true Alzheimer’s disease
+signals overall in comparison to clinically diagnosed Alzheimer’s
+disease, proxy studies can identify disease-relevant associations. Two of the
+four other signals approached genome-wide significance: miR142/TSPOAP1-AS1 ( P = 5.3 ×
+10 −8 ) and NDUFAF6 ( P =
+9.2 × 10 −8 ) ( Table
+2 ). Stage 3A also extended the analysis of two loci
+( NME8 and MEF2C ) that were previously
+genome-wide significant in our 2013 meta-analysis. These loci were not
+genome-wide significant in our current study and will deserve further
+investigation ( NME8 : P = 2.7 ×
+10 −7 ; MEF2C : P = 9.1
+× 10 −8 ; Supplementary Figs. 12 and 13 ). Of note, GCTA
+COJO 27 conditional
+analysis of the genome-wide loci indicates that TREM2 and three
+other loci ( BIN1 , ABCA7, and PTK2B/CLU ) have multiple independent LOAD association
+signals ( Supplementary Table
+6 ), suggesting that the genetic variance associated with some GWAS
+loci is probably underestimated.
+
+We also selected 33 variants from Stage 1 (28 common and 5 rare variants
+in loci not well captured in the I-select chip; see Methods for full selection criteria) for genotyping in Stage
+3B (including populations of Stage 2 and Stage 3A). We nominally replicated a
+rare variant (rs71618613; NC_000005.9: g.29005985A>C) within an
+intergenic region near SUCLG2P4 (MAF = 0.01; P
+= 6.8 × 10 −3 ; combined P
+= 3.3 × 10 −7 ) and replicated a
+low-frequency variant in the TREM2 region (rs114812713;
+NC_000006.11: g.41034000G>C, MAF = 0.03, P = 7.2
+× 10 −3 ; combined P = 2.1 ×
+10 −13 ) in the gene OARD1 that may
+represent an independent signal according to our conditional analysis ( Table 2 , Supplementary Figs. 14 and 15 , Supplementary Tables 6 and 7 ). In addition,
+rs62039712 (NC_000016.9: g.79355857G>A) in the WWOX locus reached genome-wide significance ( P = 3.7 ×
+10 −8 ), and rs35868327 (NC_000005.9: g.52665230T>A)
+in the FST locus reached suggestive significance
+( P = 2.6 × 10 −7 ) ( Table 2 and Supplementary Figs. 16 and 17 ). WWOX may play a role in Alzheimer’s disease through
+its interaction with tau 28 , 29 , and it is worth noting that
+the sentinel variant (defined as the variant with the lowest P value) is just 2.4 mega-bases from PLCG2 , which contains a rare
+variant that we recently associated with Alzheimer’s disease 14 . Since both rs62039712 and
+rs35868327 were only analyzed in a restricted number of samples, these loci
+deserve further attention.
+
+To evaluate the biological significance and attempt to identify the
+underlying risk genes for the newly identified genome-wide signals
+( IQCK , ACE , ADAM10 , ADAMTS1, and WWOX ) and those found
+previously, we pursued five strategies: (1) annotation and gene-based testing
+for deleterious coding, loss-of-function (LOF) and splicing variants; (2)
+expression-quantitative trait loci (eQTL) analyses; (3) evaluation of
+transcriptomic expression in LOAD clinical traits (correlation with the BRAAK
+stage 30 and
+differential expression in Alzheimer’s disease versus control
+brains 31 ); (4)
+evaluation of transcriptomic expression in Alzheimer’s
+disease–relevant tissues 32 – 34 ; and
+(5) gene cluster/pathway analyses. For the 24 signals reported here, other
+evidence indicates that APOE 35 , 36 , ABCA7 (refs. 37 – 40 ), BIN1 (ref. 41 ), TREM2 ( refs. 7 , 8 ), SORL1 (refs. 42 , 43 ), ADAM10 (ref. 44 ), SPI1 (ref. 45 ), and CR1 (ref. 46 ) are the true Alzheimer’s disease
+risk gene, although there is a possibility that multiple risk genes exist in
+these regions 47 . Because many
+GWAS loci are intergenic, and the closest gene to the sentinel variant may not
+be the actual risk gene, in these analyses we considered all protein-coding
+genes within ±500 kilobases (kb) of the sentinel variant linkage
+disequilibrium (LD) regions ( r 2 ≥ 0.5) for
+each locus as a candidate Alzheimer’s disease gene ( n =
+400 genes) ( Supplementary
+Table 8 ).
+
+We first annotated all sentinel variants for each locus and variants in
+LD ( r 2 > 0.7) with these variants in a search
+for deleterious coding, LOF or splicing variants. In line with findings that
+most causal variants for complex disease are non-coding 48 , only 2% of 1,073 variants across the 24
+loci (excluding APOE ) were exonic variants, with a majority
+(58%) being intronic ( Supplementary Fig. 18 and Supplementary Table 9 ). Potentially
+deleterious variants include the rare R47H missense variant in TREM2 , common missense variants in CR1 , SPI1 , MS4A2, and IQCK ,
+and a relatively common (MAF = 0.16) splicing variant in IQCK .
+Using results of a large whole-exome-sequencing study conducted in the ADGC and
+CHARGE sample 49 ( n = 5,740 LOAD cases and 5,096 controls), we also
+identified ten genes located in our genome-wide loci as having rare deleterious
+coding, splicing or LOF burden associations with LOAD (false discovery rate
+(FDR) P < 0.01), including previously implicated
+rare-variant signals in ABCA7 , TREM2, and SORL1 (refs. 14 , 49 – 55 ), and additional associations
+with TREML4 in the TREM2 locus, TAP2 and PSMB8 in the HLA-DRB1 locus, PIP in the EPHA1 locus, STYX in the FERMT2 locus, RIN3 in the SLC24A4 locus, and KCNH6 in the ACE locus ( Supplementary Table 10 ).
+
+For eQTL analyses, we searched existing eQTL databases and studies for
+cis-acting eQTLs in a prioritized set of variants ( n = 1,873)
+with suggestive significance or in LD with the sentinel variant in each locus.
+Of these variants, 71–99% have regulatory potential when considering all
+tissues according to RegulomeDB 56 and HaploReg 57 , but restricting to Alzheimer’s
+disease–relevant tissues (via Ensembl Regulatory Build 58 and GWAS4D 59 ) appears to aid in regulatory variant
+prioritization, with probabilities for functional variants increasing
+substantially when using GWAS4D cell-dependent analyses with brain or monocytes,
+for instance (these and other annotations are provided in Supplementary Table 11 ). Focusing
+specifically on eQTLs, we found overlapping cis-acting eQTLs for 153 of the 400
+protein-coding genes, with 136 eQTL-controlled genes in Alzheimer’s
+disease–relevant tissues (that is, brain and blood/immune cell types; see Methods for details) ( Supplementary Tables 12 and 13 ). For our newly
+identified loci, there were significant eQTLs in Alzheimer’s
+disease–relevant tissue for ADAM10 , FAM63B , and SLTM (in the ADAM10 locus); ADAMTS1 ( ADAMTS1 locus); and ACSM1 , ANKS4B , C16orf62 , GDE1 , GPRC5B , IQCK , and KNOP1 ( IQCK locus). There were no eQTLs in Alzheimer’s
+disease–relevant tissues in the WWOX or ACE locus, although several eQTLs for PSMC5 in coronary artery tissue were found for the ACE locus. eQTLs for genes in previously identified loci
+include BIN1 ( BIN1 locus), INPP5D ( INPP5D locus), CD2AP ( CD2AP locus), and SLC24A4 ( SLC24A4 locus). Co-localization
+analysis confirmed evidence of a shared causal variant affecting expression and
+disease risk in 66 genes over 20 loci, including 31 genes over 13 loci in
+LOAD-relevant tissue (see Supplementary Table 14 and 15 for complete lists). Genes
+implicated include CR1 ( CR1 locus), ABCA7 ( ABCA7 loci), BIN1 ( BIN1 locus), SPI1 and MYBPC3 ( SPI1 locus), MS4A2 , MS4A6A , and MS4A4A ( MS4A2 locus), KNOP1 ( IQCK locus), and HLA-DRB1 ( HLA-DRB1 locus) ( Supplementary Table 12 ).
+
+To study the differential expression of genes in brains of patients with
+Alzheimer’s disease versus controls, we used 13 expression
+studies 31 . We found
+that 58% of the 400 protein-coding genes within the genome-wide loci had
+evidence of differential expression in at least one study ( Supplementary Table 16 ). Additional
+comparisons to Alzheimer’s disease related gene expression sets revealed
+that 62 genes were correlated with pathogenic stage (BRAAK) in at least one
+brain tissue 30 (44 genes in
+prefrontal cortex, the most relevant LOAD tissue; 36 in cerebellum and 1 in
+visual cortex). Finally, 38 genes were present in a set of 1,054 genes
+preferentially expressed in aged microglial cells, a gene set shown to be
+enriched for Alzheimer’s disease genes ( P = 4.1 ×
+10 −5 ) 34 .
+We also annotated our list of genes with brain RNA-seq data, which showed that
+80% were expressed in at least one type of brain cell, and the genes were most
+highly expressed in fetal astrocytes (26%), followed by microglia/ macrophages
+(15.8%), neurons (14.8%), astrocytes (11.5%), and oligodendrocytes (6.5%). When
+not considering fetal astrocytes, mature astrocytes (21%), and microglial cells
+(20.3%), the resident macrophage cells of the brain thought to play a key role
+in the pathologic immune response in LOAD 8 , 14 , 60 , became the highest expressed cell types
+in the genome-wide set of genes, with 5.3% of the 400 genes showing high
+microglial expression ( Supplementary Table 17 ; see Supplementary Table 18 for the
+highly expressed gene list by cell type).
+
+We conducted pathway analyses (MAGMA 61 ) separately for common (MAF > 0.01) and rare
+variants (MAF < 0.01). For common variants, we detected four function
+clusters including (1) APP metabolism/Aβ formation (regulation of
+Aβ formation: P = 4.56 × 10 −7 and regulation of APP catabolic process: P = 3.54 ×
+10 −6 ); (2) tau protein binding ( P = 3.19
+× 10 −5 ); (3) lipid metabolism (four pathways including
+protein−lipid complex assembly: P = 1.45 ×
+10 −7 ); and (4) immune response ( P = 6.32
+× 10 −5 ) ( Table 3 and Supplementary Table
+19 ). Enrichment of the four clusters remained after removal of genes
+in the APOE region. When APOE -region genes and
+genes near genome-wide-significant genes were removed, tau showed moderate
+association ( P = 0.027), and lipid metabolism and
+immune-related pathways showed strong associations ( P <
+0.001) ( Supplementary Table
+20 ). Genes driving these enrichments (that is, having a gene-wide P < 0.05) included SCNA , a
+Parkinson’s risk gene that encodes alpha-synuclein, the main component of
+Lewy bodies, whch may play a role in tauopathies 62 , 63 , for the tau pathway; apolipoprotein genes
+( APOM , APOA5 ) and ABCA1 ,
+a major regulator of cellular cholesterol, for the lipid metabolism pathways;
+and 52 immune pathway genes ( Supplementary Table 21 ). While no pathways were significantly
+enriched for rare variants, lipid and Aβ pathways did reach nominal
+significance in rare-variant-only analyses. Importantly, we also observed a
+highly significant correlation between common and rare pathway gene results
+( P = 1.32 × 10 −7 ), suggesting that
+risk Alzheimer’s disease genes and pathways are enriched for rare
+variants. In fact, 50 different genes within tau, lipid, immunity and Aβ
+pathways showed nominal rare-variant driven associations ( P < 0.05) with LOAD.
+
+To further explore the APP/Aβ pathway enrichment, we analyzed a
+comprehensive set of 335 APP metabolism genes 64 curated from the literature. We observed
+significant enrichment of this gene set in common variants ( P = 2.27 × 10 −4 ; P = 3.19 ×
+10 −4 excluding APOE ), with both ADAM10 and ACE nominally significant
+drivers of this result ( Table 4 and Supplementary Tables 22 and 23 ). Several
+‘sub-pathways’ were also significantly enriched in the common
+variants, including ‘clearance and degradation of Aβ’, and
+‘aggregation of Aβ’, along with its subcategory
+‘microglia’, the latter supporting microglial cells suspected role
+in response to Aβ in LOAD 65 . Nominal enrichment for risk from rare variants was found
+for the pathway ‘aggregation of Aβ: chaperone’ and 23 of
+the 335 genes.
+
+To identify candidate genes for our novel loci, we combined results from
+our five prioritization strategies in a priority ranking method similar to that
+of Fritsche et al. 66 ( Fig. 2 and Supplementary Table 24 ). ADAM10 was the top ranked gene of the 11 genes within the ADAM10 locus. ADAM10, the most important α-secretase
+in the brain, is a component of the non-amyloidogenic pathway of APP
+metabolism 67 and sheds
+TREM2 (ref. 68 ), an innate
+immunity receptor expressed selectively in microglia. Overexpression of ADAM10
+in mouse models can halt Aβ production and subsequent
+aggregation 69 . In
+addition, two rare ADAM10 alterations segregating with disease
+in LOAD families increased Aβ plaque load in
+‘Alzheimer-like’ mice, with diminished α-secretase activity
+from the alterations probably the causal mechanism 19 , 44 . For the IQCK signal, which is also an
+obesity locus 70 , 71 , IQCK , a relatively
+uncharacterized gene, was ranked top, although four of the other 11 genes in the
+locus have a priority rank ≥ 4, including KNOP1 and GPRC5B , the latter being a regulator of
+neurogenesis 72 , 73 and inflammatory signaling in
+obesity 74 . Of the 22
+genes in the ACE locus, PSMC5 , a key regulator
+of major histocompatibility complex (MHC) 75 , 76 , has a top
+score of 4, while DDX42 , MAP3K3 , an important
+regulator of macrophages and innate immunity 77 , 78 , and CD79B , a B lymphocyte antigen receptor subunit, each have a
+score of 3. Candidate gene studies have associated ACE variants
+with Alzheimer’s disease risk 20 , 22 , 79 , including a strong association in the
+Wadi Ara, an Israeli Arab community with high risk of Alzheimer’s
+disease 21 . However,
+these studies yielded inconsistent results 23 , and our work reports a clear genome-wide association
+in NHW at this locus. While ACE was not prioritized, it should
+not be rejected as a candidate gene, as its expression in Alzheimer’s
+disease brain tissue is associated with Aβ load and Alzheimer’s
+disease severity 80 .
+Furthermore, cerebrospinal fluid (CSF) levels of the angiotensin-converting
+enzyme (ACE) are associated with Aβ levels 81 and LOAD risk 82 , and studies show ACE can inhibit
+Aβ toxicity and aggregation 83 . Finally, angiotensin II, a product of ACE function,
+mediates a number of neuropathological processes in Alzheimer’s
+disease 84 and is now a
+target for intervention in phase II clinical trials of Alzheimer’s
+disease 85 . Another
+novel genome-wide locus reported here, ADAMTS1 , is within 665
+kb of APP on chromosome 21. Of three genes at this locus, our
+analyses nominate ADAMTS1 as the likely risk gene, although we
+cannot rule out that this signal is a regulatory element for APP . ADAMTS1 is elevated in Down’s syndrome with
+neurodegeneration and Alzheimer’s disease 86 , and it is a potential neuroprotective
+gene 87 – 89 or a neuroinflammatory gene
+important to microglial response 90 . Finally, WWOX and MAF ,
+which surround an intergenic signal in an obesity associated locus 91 , were both prioritized for the WWOX locus, with MAF , another important
+regulator of macrophages 92 , 93 , being highly expressed in
+microglia in the Brain RNA-seq database, and WWOX , a
+high-density-lipoprotein cholesterol and triglyceride–associated
+gene 94 , 95 , being expressed most highly in
+astrocytes and neurons. WWOX has been implicated in several neurological
+phenotypes 96 ; in
+addition, it binds tau and may play a critical role in regulating tau
+hyper-phosphorylation, neurofibrillary formation and Aβ
+aggregation 28 , 29 . Intriguingly, treatment of
+mice with its binding partner restores memory deficits 97 , hinting at its potential in
+neurotherapy.
+
+For previously reported loci, applying the same prioritization approach
+highlights several genes, as described in Fig.
+2 , some of which are involved in APP metabolism ( FERMT2,
+PICALM ) or tau toxicity ( BIN1 , CD2AP , FERMT2 , CASS4 , PTK2B ) 98 – 101 .
+Pathway, tissue and disease trait enrichment analyses support the utility of our
+prioritization method, as the 53 prioritized genes with a score ≥ 5 are
+(1) enriched in substantially more Alzheimer’s disease–relevant
+pathways, processes and dementia-related traits; (2) enriched in candidate
+Alzheimer’s disease cell types such as monocytes (adjusted P
+= 9.0 × 10 −6 ) and macrophages (adjusted P = 5.6 × 10 −3 ); and (3) more
+strongly associated with dementia-related traits and Alzheimer’s
+disease–relevant pathways ( Supplementary Table 25 and 26 ; see Supplementary Fig. 19 for the
+interaction network of these prioritized genes). To further investigate the cell
+types and tissues the prioritized genes are expressed in, we performed
+differentially expressed gene (DEG) set enrichment analysis of the prioritized
+genes by using GTEx 102 tissues, and we identified significant differential expression in several
+potentially relevant Alzheimer’s disease tissues including immune-related
+tissues (upregulation in blood and spleen), obesity-related tissue (upregulation
+in adipose), heart tissues (upregulation in left ventricle and atrial
+appendage), and brain tissues (dowregulation in cortex, cerebellum,
+hippo-campus, basal ganglia, and amygdala). Furthermore, the 53 genes are
+overexpressed in ‘adolescence’ and ‘young adult’
+brain tissues in BrainSpan 103 , a transcriptomic atlas of the developing human brain, which
+is consistent with accumulating evidence suggesting Alzheimer’s disease
+may start decades before the onset of disease 104 , 105 ( Supplementary Fig. 20 ; see Supplementary Fig. 21 for a tissue
+expression heat map for the 53 genes).
+
+The above approach prioritized HLA-DRB1 as the top
+candidate gene in the MHC locus, known for its complex genetic organization and
+highly polymorphic nature (see Supplementary Fig. 22 for a plot of the region of the Stage 1
+results). Previous analyses in the ADGC (5,728 Alzheimer’s disease cases
+and 5,653 controls) have linked both HLA class I and II haplotypes with
+Alzheimer’s disease risk 106 . In order to further investigate this locus in a much
+larger sample, we used a robust imputation method and fine-mapping association
+analysis of alleles and haplotypes of HLA class I and II genes in 14,776 cases
+and 23,047 controls from our datasets ( Supplementary Table 27 ). We found
+risk effects of HLA-DQA1 * 01:02 (FDR P = 0.014), HLA-DRB1 * 15:01 (FDR P = 0.083), and HLA-DQB1 * 06:02 (FDR P = 0.010) ( Supplementary Table 28 ). After
+conditioning on the sentinel meta-analysis variant in this region (rs78738018),
+association signals were lost for the three alleles, suggesting that the signal
+observed at the variant level is due to the association of these three alleles.
+These alleles form the HLA-DQA1 * 01:02~HLA-DQB1 * 06:02~HLA-DRB1 * 15:01 ( DR15 ) haplotype, which is also associated with
+Alzheimer’s disease in our sample (FDR P = 0.013) ( Supplementary Table 29 ).
+Taken together, these results suggest a central role of the DR15 haplotype in Alzheimer’s disease risk, a
+finding originally discovered in a small study in the Tunisian
+population 107 and
+more recently in a large ADGC analysis 106 . Intriguingly, the DR15 haplotype and
+its component alleles also associate with protection against diabetes 108 , a high risk for multiple
+sclerosis 109 , 110 , and risk or protective
+effects with many other immune-mediated diseases ( Supplementary Table 30 ). Moreover,
+the associated diseases include a large number of traits queried from an
+HLA-specific Phewas 111 ,
+including neurological diseases (for example, Parkinson’s
+disease 112 , 113 ) and diseases with risk factors for
+Alzheimer’s disease (for example, hyperthyroidism 114 ), pointing to potential shared and/or
+interacting mechanisms and co-morbidities, a common paradigm in the MHC
+locus 115 . Two
+additional alleles, HLA-DQA1 * 03:01 and HLA-DQB1 * 03:02 ,
+belonging to another haplotype, show a protective effect on Alzheimer’s
+disease, but their signal was lost after conditioning on HLA-DQA1 * 01:02 ,
+and the HLA-DQA1 * 03:01~HLA-DQB1 * 03:02 haplotype is not associated with Alzheimer’s disease (FDR P = 0.651).
+
+As described above, several of our genome-wide loci have potentially
+interesting co-morbid or pleiotropic associations with traits that may be
+relevant to the pathology of Alzheimer’s disease. To investigate the
+extent of LOAD’s shared genetic architecture with other traits, we
+performed LD-score regression to estimate the genetic correlation between LOAD
+and 792 human diseases, traits and behaviors 12 , 116 ( Supplementary Table 31 ).
+The common variant genetic architecture of LOAD was positively correlated with a
+maternal family history of Alzheimer’s disease/dementia
+( r g for the genetic correlation of two traits =
+0.81; FDR P = 2.79 × 10 −7 ), similar to
+the Marioni et al. family proxy analyses 26 , which found maternal genetic correlation with
+Alzheimer’s disease to be higher than that for paternal
+Alzheimer’s disease ( r g = 0.91 and 0.66,
+respectively). There is substantial overlap between these estimates, as the
+Marioni et al. analyses include the 2013 IGAP summary statistics and employed
+the same UK Biobank variable that we used for r g estimates with maternal history of dementia. We also find significant negative
+correlation between Alzheimer’s disease and multiple measures of
+educational attainment (for example, college completion, r g = −0.24; years of schooling, r g range = −0.19 to −0.24;
+cognitive scores, r g = −0.24 and
+−0.25) (FDR P < 0.05), supporting the theory that
+a greater cognitive reserve could help protect against development of
+LOAD 117 . The extent
+to which socioeconomic, environmental, or cultural factors contribute to the
+correlation between educational attainment and risk for Alzheimer’s
+disease is unknown, but research shows dementia risk to be associated with lower
+socio-economic status, independently of education status 118 , 119 . We also found negative correlations at P < 0.05 with multiple measures of cardiovascular health (that is, family
+history of high blood pressure and heart disease and vascular/heart problems)
+and diabetes (that is, fasting proinsulin, basal metabolic rate and fasting
+insulin), supporting previous research suggesting that use of blood pressure and
+diabetic medications may reduce the risk of Alzheimer’s disease 120 . In fact, use of blood
+pressure medication does show a negative genetic correlation with
+Alzheimer’s disease in our study ( r g =
+−0.12; P = 0.035), although this result does not survive
+FDR correction. These and other top results from this analysis (for example,
+body mass index, height; see Supplementary Table 31 for a full list of other nominally
+significant correlations) have been linked to Alzheimer’s disease
+previously 116 , 120 – 127 , either through suggestive or
+significant genetic or epidemiological associations (see Kuzma et al. 128 for a recent review), but
+the multiple measures here support and emphasize their genetic correlation with
+LOAD and highlight the possible genetic pleiotropy or co-morbidity of these
+traits with pathology of LOAD.
+
+## Discussion
+In conclusion, our work identifies five new genome-wide associations for
+LOAD and shows that GWAS data combined with high-quality imputation panels can
+reveal rare disease risk variants (for example, TREM2 ). The
+enrichment of rare variants in pathways associated with Alzheimer’s disease
+indicates that additional rare variants remain to be identified, and larger samples
+and better imputation panels will facilitate identifying them. While these rare
+variants may not contribute substantially to the predictive value of genetic
+findings, they will enhance the understanding of disease mechanisms and potential
+drug targets. Discovery of the risk genes at genome-wide loci remains challenging,
+but we demonstrate that converging evidence from existing and new analyses can
+prioritize risk genes. We also show that APP metabolism is associated with not only
+early-onset Alzheimer’s disease but also LOAD, suggesting that therapies
+developed by studying early-onset families could also be applicable to the more
+common late-onset form of the disease. Pathway analysis showing that tau is involved
+in LOAD supports recent evidence that tau may play an early pathological role in
+Alzheimer’s disease 129 – 131 and
+confirms that therapies targeting tangle formation/degradation could potentially
+affect LOAD. Finally, our fine-mapping analyses of HLA and genetic correlation
+results point to LOAD’s shared genetic architecture with many immunemediated
+and cognitive traits, suggesting that research and interventions that elucidate
+mechanisms behind these relationships could also yield fruitful therapeutic
+strategies for LOAD.
+
+## Methods
+All Stage 1 meta-analysis samples are from four consortia: ADGC, CHARGE,
+EADI, and GERAD/PERADES. Summary demographics of all 46 case-control studies
+from the four consortia are described in Supplementary Tables 1 and 2 . Written informed
+consent was obtained from study participants or, for those with substantial
+cognitive impairment, from a caregiver, legal guardian, or other proxy. Study
+protocols for all cohorts were reviewed and approved by the appropriate
+institutional review boards. Further details of all cohorts can be found in the Supplementary
+Note .
+
+Standard quality control was performed on all datasets individually,
+including exclusion of individuals with low call rate, individuals with a high
+degree of relatedness, and variants with low call rate. Individuals with
+non-European ancestry according to principal components analysis of
+ancestry-informative markers were excluded from the further analysis.
+
+Following genotype chip quality control, each dataset was phased and
+imputed to the 1,000 Genomes Project (phase 1 integrated release 3, March
+2012) 132 using
+SHAPEIT/IMPUTE2 133 , 134 or MaCH/Minimac 135 , 136 software ( Supplementary Table 3 ). All
+reference population haplotypes were used for the imputation, as this method
+improves accuracy of imputation for low-frequency variants 137 . Common variants (MAF ≥ 0.01%)
+with an r 2 or an information measure <0.40
+from MaCH and IMPUTE2 were excluded from further analyses. Rare variants (MAF
+< 0.01%) with a ‘global’ weighted imputation quality score
+of <0.70 were also excluded from analyses. This score was calculated by
+weighting each variant’s MACH/IMPUTE2 imputation quality score by study
+sample size and combining these weighted scores for use as a post-analysis
+filter. We also required the presence of each variant in 30% of cases and 30% of
+controls across all datasets.
+
+Stage 1 single variant-based association analysis employed an additive
+genotype model adjusting for age (defined as age-at-onset for cases and
+age-at-last exam for controls), sex, and population substructure using principal
+components 138 . The
+score test was implemented on all case-control datasets. This test is optimal
+for meta-analysis of rare variants due to its balance between power and control
+of type 1 error 139 . Family
+datasets were tested using GWAF 140 , with generalized estimating equations (GEE) implemented
+for common variants (MAF ≥ 0.01), and a general linear mixed effects
+model (GLMM) implemented for rare variants (MAF < 0.01), per our
+preliminary data showing that the behavior of the test statistics for GEE was
+fine for common variants but inflated for rare variants, while GLMM controlled
+this rare-variant inflation. Variants with regression coefficient |β|
+> 5 or P value equal to 0 or 1 were excluded from
+further analysis.
+
+Within-study results for Stage 1 were meta-analyzed in METAL 141 using an
+inverse-variance-based model with genomic control. The meta-analysis was split
+into two separate analyses according to the study sample size, with all studies
+being included in the analysis of common variants (MAF ≥ 0.01), and only
+studies with a total sample size of 400 or greater being included in the
+rare-variant (MAF < 0.01) analysis. See the Supplementary Note for further
+details of the meta-analyses methods.
+
+Genomic inflation was calculated for lambda ( λ )
+in the GenABEL package 142 . In
+addition, we performed LDSC regression via LD Hub v.1.9.0 (refs. 12 , 13 ) to calculate the LD score regression intercept and
+derive a heritability estimate for the inverse-variance weighted meta-analysis
+summary statistics. The APOE region
+(Chr19:45,116,911–46,318,605) was removed to calculate the intercept.
+Removal of the APOE region reduced the heritability estimate
+slightly from 0.071 (s.e.m. = 0.011) to 0.0637 (s.e.m. = 0.009).
+
+LDSC was also employed via the LD Hub web server to obtain genetic
+correlation estimates (rg) 116 between LOAD and a wide range of other disorders, diseases and human traits,
+including 518 UK BioBank traits 143 . UK BioBank is a large long-term study (~500,000
+volunteers aged 40 to 69) begun in 2006 in the United Kingdom, which is
+investigating the contributions of genetic predisposition and environmental
+exposure (that is, nutrition, lifestyle, and medications) to the development of
+disease. While volunteers in the study are generally healthier than the overall
+United Kingdom population 144 ,
+its large size and comprehensive data collection make the study an invaluable
+resource for researchers looking to interrogate the combined effect of genetics
+and environmental factors on disease. Before analyses in LD Hub, we removed all
+SNPs with extremely large effect sizes including the MHC
+(Chr6:26,000,000–34,000,000) and APOE region, as
+outliers can overly influence the regression analyses. A total of 1,180,989
+variants were used in the correlation analyses. Statistical significance of the
+genetic correlations was estimated using 5% Benjamini−Hochberg FDR
+corrected P values.
+
+GCTA COJO 27 was used
+to conduct conditional analysis of the Stage 1 summary statistics, with 28,730
+unrelated individuals from the ADGC as a reference panel for calculation of LD.
+See URLs for methods for creation of the
+‘ADGC reference dataset’.
+
+Stage 2 genotypes were determined for 8,362 cases and 10,483 controls
+( Supplementary Table
+4 ). 1,633 variants from the I-select chip were located in the 24
+genome-wide loci (defined by the LD blocks of the sentinel variants; excluding
+the APOE region), with an average of 68 variants per locus. The
+most well-covered loci were HLA-DRB1 , M24A2, and PICALM (763, 202, and 156 variants available,
+respectively); the least were MAF , ADAMTS1, and INPP5D (0, 4, and 5 variants, respectively).
+
+Stage 3A was conducted for variants selected as novel loci from
+meta-analyses of Stages 1 and 2 with P < 5 ×
+10 −7 (9 variants) and variants that were previously
+significant ( P < 5 × 10 −8 ) that
+were not genome-wide significant after Stages 1 and 2 (2 variants) (4,930 cases
+and 6,736 controls) ( Supplementary Table 5 ). Variants were genotyped using Taqman.
+
+Stage 3B, which combined samples from Stage 2 and 3A, included variants
+with MAF < 0.05 and P < 1 ×
+10 −5 or variants with MAF ≥ 0.05 and P < 5 × 10 −6 in novel loci
+not covered in the 2013 iSelect genotyping 1 (13,292 cases and 17,219
+controls) ( Supplementary Table
+7 ). See the Supplementary Note for details on selection of variants for Stage 3B
+follow-up genotyping. For Stages 1, 2, and 3, samples did not overlap.
+
+Per-sample quality checks for genetic sex and relatedness were performed
+in PLINK. Sex mismatches or individuals showing a high degree of relatedness
+(identical-by-descent value of 0.98 or greater) were removed from the analysis.
+A panel of ancestry-informative markers was used to perform principal component
+analysis with SMARTPCA from EIGENSOFT 4.2 software 145 , and individuals with non-European
+ancestry were excluded. Variant quality control was also performed separately in
+each country including removal of variants missing in more than 10% of
+individuals, having a Hardy−Weinberg P value in controls
+lower than 1 × 10 −6 or a P value for
+missingness between cases and controls lower than 1 ×
+10 −6 .
+
+Per-study analysis for Stage 2 and Stage 3 followed the same analysis
+procedures described for Stage 1, except for covariate adjustments per cohort,
+where all analyses were adjusted on sex and age apart from the Italian, Swedish,
+and Gr@ACE cohorts, which were also adjusted for principal components.
+Within-study results were meta-analyzed in METAL 141 using an inverse-variance-based
+model.
+
+We determined the base-pair boundaries of the search space for potential
+gene(s) and non-coding features in each of the 24 associated loci (excluding APOE ) using the ‘proxy search’ mechanism in
+LDLink 146 . LDLink
+uses 1,000 genomes genotypes to calculate LD for a selected population; in our
+case all five European populations were selected (population codes CEU, TSI,
+FIN, GBR, and IBS). The boundaries for all variants in LD
+( r 2 ≥ 0.5) with the top associated
+variant from the Stage 2 meta-analysis for each region ±500 kb of the
+ends of the LD blocks (as eQTL controlled genes are typically less than 500 kb
+from their controlling variant 147 ) were input into the UCSC genome browser’s
+‘Table Browser’ for RefSeq 148 and GENCODEv24lift37 149 genes at each associated locus. The
+average size of the LD blocks was 123 kb.
+
+To identify deleterious coding or splicing variants that may represent
+causal variants for our genome-wide loci, we first used SNIPA 150 to identify variants in high
+LD (defined as r 2 > 0.7) with the sentinel
+variants of the 24 genome-wide loci (excluding APOE )
+( n = 1,073). The sentinel variants were defined as the
+variants with the lowest P in each genome-wide locus. We then
+used Ensembl VEP 151 for
+annotation of the set of sentinel variants and their proxies. We used BLOSUM62
+(ref. 152 ), SIFT 153 , Polyphen-2 (ref. 154 ), CADD 155 , Condel 156 , MPC 157 and Eigen 158 to predict the pathogenicity of
+protein-altering exonic variants and MaxEntScan to predict the splicing
+potential of variants. Splicing variants with high splicing potential according
+to MaxEntScan 159 and
+protein-coding variants predicted to be deleterious by two or more programs were
+considered to be potentially causal variants for a locus. It should be noted
+that while we do include rare variants from imputation in our analyses, we may
+be missing many rare causal variants in this study.
+
+We used the summary statistics results of a large whole-exome sequencing
+(WES) study of LOAD, the Alzheimer’s Disease Sequencing Project (ADSP)
+case-control study ( n = 5,740 LOAD cases and 5,096 cognitively
+normal controls of NHW ancestry) to identify genes within our genome-wide loci
+that may contribute to the association signal through rare deleterious coding,
+splicing or LOF variants. The individuals in the ADSP study largely overlap with
+individuals in the ADGC and CHARGE cohorts included in our Stage 1
+meta-analysis. All 400 protein-coding genes within our LD-defined genome-wide
+loci were annotated with the gene-based results from this study, and the results
+were corrected using a 1% FDR P as a cutoff for significance.
+Complete details of the analysis can be found in Bis et al. 49 and the Supplementary Note .
+
+To identify potential functional risk variants and genes at each
+associated locus, we first annotated a list of prioritized variants from the 24
+associated loci (excluding APOE ) ( n = 1,873).
+This variant list combined variants in LD with the sentinel variants
+( r 2 ≥ 0.5) using INFERNO 160 LD expansion
+( n = 1,339) and variants with suggestive significance
+( P < 10 −5 ) and LD
+( r 2 ≥ 0.5) with the sentinel variants for
+the 24 associated loci (excluding APOE ) ( n =
+1,421 variants). We then identified variants with regulatory potential in this
+set of variants using four programs that incorporate various annotations to
+identify likely regulatory variants: RegulomeDB 56 , HaploReg v.4.1 (refs. 57 , 161 ), GWAS4D 59 , and the Ensembl Regulatory Build 58 . We used the ChromHMM (core 15-state
+model) as ‘source epigenomes’ for the HaploReg analyses. We used
+immune (Monocytes-CD14 + , GM12878 lymphoblastoid, HSMM myoblast) and
+brain (NH-A astroctyes) for the Ensembl Regulatory Build analyses. We then used
+the list of 1,873 prioritized variants to search for genes functionally linked
+via eQTLs in LOAD relevant tissues including various brain and blood tissue
+types, including all immune-related cell types, most specifically myeloid cells
+(macrophages and monocytes) and B-lymphoid cells, which are cell types
+implicated in LOAD and neurodegeneration by a number of recent studies 14 , 45 , 162 , 163 . While their specificity may be lower
+for identifying Alzheimer’s disease risk eQTLs, we included whole blood
+cell studies in our Alzheimer’s disease–relevant tissue class due
+to their high correlation of eQTLs with Alzheimer’s
+disease–relevant tissues (70% with brain 164 ; 51–70% for monocytes and
+lymphoblastoid cell lines 165 )
+and their large sample sizes that allow for increased discovery power. See the Supplementary Note for details on the eQTL databases and studies searched, and Supplementary Table 13 for sample
+sizes of each database/study.
+
+Formal co-localization testing of our summary Stage 1 results was
+conducted using (1) COLOC 166 via INFERNO and (2) Summary Mendelian Randomization (SMR)-Heidi
+analysis 167 . The
+approximate Bayes factor (ABF), which was used to assess significance in the
+INFERNO COLOC analysis, is a summary measure that provides an alternative to the P value for the identification of associations as
+significant. SMR-Heidi analysis, which employs a heterogeneity test (HEIDI test)
+to distinguish pleiotropy or causality (a single genetic variant affecting both
+gene expression and the trait) from linkage (two distinct genetic variants in
+LD, one affecting gene expression and one affecting trait), was also employed
+for co-localization analysis. Genes located less than 1 Mb from the GWAS
+sentinel variants that pass a 5% Benjamini–Hochberg FDR-corrected SMR P- value significance threshold and a HEIDI P- value > 0.05 threshold were considered
+significant. The Westra eQTL 168 summary data and Consortium for the Architecture of Gene
+Expression (CAGE) eQTL summary data were used for analysis. These datasets,
+conducted in whole blood, are large eQTL studies (Westra: discovery phase n = 5,311, replication phase n = 2,775;
+CAGE: n = 2,765), and while there is some overlap in samples
+between the two datasets, CAGE provides finer coverage. The ADGC reference panel
+dataset referenced above for GCTA COJO analysis was used for LD
+calculations.
+
+We also evaluated gene expression of all candidate genes in the
+associated loci (see Supplementary Table 8 for a complete list of genes searched), using
+differential Alzheimer’s disease gene expression results from
+AlzBase 31 , brain
+tissue expression from the Brain RNA-seq Database 32 , 33 (see URLs ), and the
+HuMi_Aged gene set 34 , a set of
+genes preferentially expressed in aged human microglia established through
+RNA-seq expression analysis of aged human microglial cells from ten post-mortem
+brains. AlzBase includes transcription data from brain and blood from aging,
+non-dementia, mild cognitive impairment, early-stage Alzheimer’s disease,
+and late-stage Alzheimer’s disease. See ALZBase (see URLs ) for a complete list of studies included in the
+search. Correlation values for the BRAAK stage expression were taken from the
+Zhang et al. 30 study of 1,647
+post-mortem brain tissues from LOAD patients and non-demented subjects.
+
+Pathway analyses were performed with MAGMA 61 , which performs SNP-wise gene analysis
+of summary statistics with correction for LD between variants and genes to test
+whether sets of genes are jointly associated with a phenotype (that is, LOAD),
+compared to other genes across the genome. Adaptive permutation was used to
+produce an empirical P value and an FDR-corrected q value. Gene sets used in the analyses were from
+GO 169 , 170 , KEGG 171 , 172 , REACTOME 173 , 174 , BIOCARTA,
+and MGI 175 pathways. Analyses
+were restricted to gene sets containing between 10 and 500 genes, a total of
+10,861 sets. Variants were restricted to common variants (MAF ≥ 0.01) and
+rare variants (MAF < 0.01) only for each analysis, and separate analyses
+for each model included and excluded the APOE region. Analyses
+were also performed after removal of all genome-wide-significant genes. Primary
+analyses used a 35-kb upstream/10-kb downstream window around each gene in order
+to capture potential regulatory variants for each gene, while secondary analyses
+were run using a 0-kb window 176 . To test for significant correlation between common and
+rare-variant gene results, we performed a gene property analysis in MAGMA,
+regressing the gene-wide association statistics from rare variants on the
+corresponding statistics from common variants, correcting for LD between
+variants and genes using the ADGC reference panel. The Aβ-centered
+network pathway analysis used a curated list of 32 Aβ-related gene sets
+and all 335 genes combined (see Campion et al. 64 for details). The combined dataset of
+28,730 unrelated individuals from the ADGC referenced in the GCTA COJO analysis
+was used as a reference set for LD calculations in these analyses.
+
+Evaluation of the prioritization of the risk genes in genome-wide loci
+was done using STRING 177 , and
+Jensen Diseases 178 , Jensen
+Tissues 179 , dbGAP
+gene sets, and the ARCHS4 180 resource via the EnrichR 181 tool. We evaluated both the 400 genes set list and a list of 53 genes with
+priority score ≥ 5 (adding in APOE to both lists as the
+top gene in the APOE locus) using the standard settings for
+both STRING and EnrichR. We used the q value, which is the
+adjusted P value using the Benjamini–Hochberg FDR method
+with a 5% cutoff for correction for multiple hypotheses testing. We also
+performed ‘differentially expressed gene (DEG)’ sets analysis via
+FUMA 182 . These
+analyses were performed in order to assess whether our 53 prioritized genes were
+significantly differentially expressed in certain GTEx v.7 (ref. 102 ; 30 general tissues and 53
+specific tissues) or BrainSpan tissues (11 tissue developmental periods with
+distinct DEG sets ranging from early prenatal to middle adulthood) 103 . FUMA defines DEG sets by
+calculating a two-sided t -test per tissue versus all remaining
+tissue types or developmental periods. Genes with a Bonferonni-corrected P < 0.05 and absolute log(fold change) ≥ 0.58
+were considered DEGs. Input genes were tested against each of the DEG sets using
+the hypergeometric test. Significant enrichment was defined by
+Bonferonni-corrected P ≤ 0.05.
+
+Non-familial datasets from the ADGC, EADI and GERAD consortiums were
+used for HLA analysis. After imputation quality control, a total of 14,776 cases
+and 23,047 controls were available for analysis ( Supplementary Table 27 ). Within
+ADGC, GenADA, ROSMAP, TARC1, TGEN2, and a subset of the UMCWRMSSM datasets were
+not imputed as Affymetrix genotyping arrays are not supported by the imputation
+software.
+
+Two-field resolution HLA alleles were imputed using the R package
+HIBAG v.1.4 (ref. 183 )
+and the NHW-specific training set. This software uses specific combinations
+of variants to predict HLA alleles. Alleles with an imputation posterior
+probability lower than 0.5 were considered as undetermined as recommended by
+HIBAG developers. HLA-A , HLA-B , HLA-C class I genes, and HLA-DPB1 , HLA-DQA1 , HLA-DQB1 , and HLA-DRB1 class II genes were imputed. Individuals with
+more than two undetermined HLA alleles were excluded.
+
+All analyses were performed in R 184 . Associations of HLA alleles with
+disease were tested using logistic regressions, adjusting for age, sex, and
+principal components as specified above for single variant association
+analysis. Only HLA alleles with a frequency higher than 1% were analyzed.
+Haplotype estimations and association analyses with disease were performed
+using the ‘haplo.glm’ function from the haplo.stats R
+package 185 with
+age, sex, and principal components as covariates. Analysis was performed on
+two-loci and three-loci haplotypes of HLA-DQA1 , HLA-DQB1, and HLA-DRB1 genes.
+Haplotypes with a frequency below 1% were excluded from the analysis.
+Considering the high LD in the MHC region, only haplotypes predicted with
+posterior probabilities higher than 0.2 were considered for analysis.
+Meta-analysis P values were computed using an
+inverse-variance-based model as implemented in METAL software 141 . For haplotypes
+analysis, only individuals with no undetermined HLA alleles and only
+datasets with more than 100 cases or controls were included. Adjustments on
+HLA significant variants and HLA alleles were performed by introducing the
+variant or alleles as covariates in the regression models. Adjusted P values were computed using the FDR method and the R
+‘p.adjust’ function, and applied to the meta-analysis P values. The FDR threshold was set to 10%.
+
+Further information on research design is available in the Nature
+Research Reporting Summary linked to this article.

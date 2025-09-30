@@ -1,0 +1,712 @@
+# Title
+Genome-wide Analyses Identify KIF5A as a Novel ALS
+Gene
+
+# Abstract
+To identify novel genes associated with ALS, we undertook two lines of
+investigation. We carried out a genome-wide association study comparing 20,806
+ALS cases and 59,804 controls. Independently, we performed a rare variant burden
+analysis comparing 1,138 index familial ALS cases and 19,494 controls. Through
+both approaches, we identified kinesin family member 5A (KIF5A) as a novel gene associated with ALS. Interestingly, mutations predominantly in
+the N-terminal motor domain of KIF5A are causative for two neurodegenerative
+diseases, hereditary spastic paraplegia (SPG10) and Charcot-Marie-Tooth Type 2
+(CMT2). In contrast, ALS associated mutations are primarily located at the
+C-terminal cargo-binding tail domain and patients harboring loss of function
+mutations displayed an extended survival relative to typical ALS cases. Taken
+together, these results broaden the phenotype spectrum resulting from mutations
+in KIF5A and strengthen the role of cytoskeletal defects in the
+pathogenesis of ALS.
+
+## INTRODUCTION
+Amyotrophic lateral sclerosis (ALS, OMIM #105400) is a
+neurodegenerative disorder clinically characterized by rapidly progressive muscle
+weakness and death due to respiratory failure, typically within two to four years of
+symptom onset ( van Es et al., 2017 ). Although
+ALS is perceived as being rare, approximately 6,000 Americans die annually from the
+condition ( Hirtz et al., 2007 ). Furthermore,
+the number of ALS cases across the globe will increase to nearly 400,000 in 2040,
+predominantly due to aging of the population ( Arthur
+et al., 2016 ). This increase is anticipated to place an enormous
+socioeconomic burden on global healthcare systems, in particular because the annual
+healthcare cost per patient with ALS is among the highest for any neurological
+disease ( Gladman and Zinman, 2015 ).
+
+Approximately 10% of ALS display a family history (FALS) whereas the
+remaining 90% of ALS cases are sporadic (SALS) in nature. Driven in large
+part by advances in genotyping and sequencing technology, the genetic etiology of
+two-thirds of familial cases and about 10% of sporadic ALS cases is now
+known ( Chia et al., 2018 ; Renton et al., 2014 ). Mutations in SOD1 were the first identified cause of ALS ( Rosen et
+al., 1993 ) contributing to ~20% of FALS and ~2% of SALS.
+More recently, pathogenic hexanucleotide repeat expansions located within the first
+intron of the C9orf72 gene on chromosome 9p21 were identified as
+the most common cause of both FALS (~40%) and SALS (~7%) ( DeJesus-Hernandez et al., 2011 ; Renton et al., 2011 ). Interestingly, this repeat
+expansion contributes to ~10% of all FTD cases thus genetically explaining
+much of the overlap between these clinical syndromes ( Majounie et al., 2012 ). As a result of these major
+discoveries, there are several ongoing efforts towards directed silencing of these
+mutant genes which could result in a therapeutic treatment for up to 10% of
+all ALS cases and for a similar portion of FTD cases.
+
+In addition to the insights provided by each novel ALS gene, the collective
+knowledge gained from genetic factors provides a more comprehensive understanding of
+the interacting pathways underlying motor neuron degeneration. For example, the
+identification of ALS genes has revealed at least three pathways believed to
+contribute to the development of ALS: (1) RNA metabolism (based on the observation
+of mutations in C9orf72 , TDP-43 , FUS , HNRNPA1 , and MATR3 ); (2)
+protein homeostasis ( UBQLN2 , VCP , OPTN , VAPB ); (3) cytoskeletal dynamics
+( PFN1 , TUBA4A , DCTN1 ) ( Chia et al., 2018 ; Robberecht and Eykens, 2015 ; Taylor et al., 2016 ). Understanding the mechanisms
+leading to disease pathogenesis again provides targets for therapeutic intervention
+that may be applicable to all forms of ALS.
+
+Due to the decreased accessibility of multiple affected family members with
+unknown genetic etiology, there has been an increased focus on the identification of
+ALS associated genes with moderate to low impact. Despite their lower effect, such
+genes continue to provide valuable insight into ALS pathogenesis. For example, the
+product of the risk factor TBK1 is known to interact with the
+product of ALS associated gene OPTN , further solidifying the role
+of autophagy and protein homeostasis in disease development ( Cirulli et al., 2015 ; Freischmidt et al., 2015 ; Maruyama et
+al., 2010 ; Morton et al., 2008 ).
+Similarly, the risk factor NEK1 , identified through a rare variant
+burden analysis of index FALS (i.e., one affected sample per family), is a known
+binding partner of C21orf2 , an ALS risk factor found through
+genome-wide association studies (GWAS) ( Cirulli et
+al., 2015 ; Kenna et al., 2016 ; Malovannaya et al., 2011 ; van Rheenen et al., 2016 ). The interaction of these two
+proteins is required for efficient DNA damage repair ( Fang et al., 2015 ), a pathway which is becoming
+increasingly implicated as a contributing factor in ALS and other neurodegenerative
+diseases ( Coppedè and Migliore, 2015 ; Lopez-Gonzalez et al., 2016 ; Madabhushi et al., 2014 ; Wang et al., 2013 ).
+
+## RESULTS
+To identify new susceptibility loci operating in ALS, we undertook a
+large-scale GWAS involving 12,663 patients diagnosed with ALS and 53,439 control
+subjects ( Table S1,
+S2 ). Our data were then incorporated into a meta-analysis with a recently
+published GWAS involving 12,577 ALS cases and 23,475 control subjects ( van Rheenen et al., 2016 ). After imputation
+and quality-control measures (see Methods , Figure S1 for the workflow and Figure S2 for the
+multidimensional scaling plot), 10,031,630 genotyped and imputed variants from
+20,806 ALS cases and 59,804 control samples were available for association
+analysis ( Figure 1A ). Quantile-quantile
+plots did not show evidence of significant population stratification
+(λ 1000 = 1.001, Figure S3 ). Single nucleotide
+polymorphisms (SNPs) achieving genome-wide significance ( P <
+5.0×10 −8 ) are listed in Table 1 , Table S3 and suggestive loci with
+SNPs associated at P < 5.0×10 −7 are listed in Table
+S4 .
+
+Our analysis revealed five previously identified loci that achieved
+genome-wide significance (loci including TNIP1 , C9orf72 , TBK1 , UNC13A , C21orf2 ) ( Benyamin et al.,
+2017 ; Laaksovirta et al.,
+2010 ; Shatunov et al., 2010 ; van Es et al., 2009 ; van Rheenen et al., 2016 ). In addition, we observed a
+strong association signal for five SNPs in linkage disequilibrium on chromosome
+12q14.1 that reached genome-wide statistical significance ( Table 1 , Figure
+1B ) spanning a region of several hundred kilobases. Of the five SNPs,
+two of them resided in close proximity to each other within a large intergenic
+region and two in proximity to short-chain dehydrogenase/reductase
+family 9C member 7 ( SDR9C7 ), a gene expressed
+primarily in skin. However, one SNP (rs113247976) results in a p.Pro986Leu
+coding change within the kinesin family member 5A ( KIF5A ) gene ( P =
+6.4×10 −10 , OR = 1.38, 95% CI
+= 1.24–1.53). The case:control allele frequencies for the
+combined discovery cohort were 2.07%:1.55% and genotype counts
+were 5: 529: 12,043 to 7: 786: 22,682 (homozygotes alternative allele:
+heterozygotes: homozygous reference allele, Figure
+2 ). Calculations based on our cohort size as well as the OR and
+allele frequency of rs113247976 result in a ~99.5% power to detect this
+as an ALS associated SNP.
+
+In an independent line of investigation, we attempted to identify novel
+ALS genes through exome-wide rare variant burden analysis (RVB). In brief, RVB
+compares the frequency of variants within each gene below a user defined
+frequency threshold in a case-control cohort. As the last two ALS associated
+genes identified by this methodology ( TBK1 , NEK1 ) displayed an increased frequency of loss of function
+(LOF) variants, we focused our initial analysis on such variants (consisting of
+nonsense and predicted splice-altering) ( Cirulli
+et al., 2015 ; Freischmidt et al.,
+2015 ; Kenna et al., 2016 ).
+
+Towards this end, we performed RVB testing for association of LOF
+variants in a cohort of 1,138 index FALS cases and 19,494 controls, after
+applying quality control filters ( Experimental Methods , Figure S4 , Table S5, S6 ). Genes
+displaying P < 5.0×10 −4 are shown
+in Table 2 . The previously identified ALS
+genes, TBK1 ( P =
+5.58×10 −7 , OR = 15.11, 95% CI
+= 5.81–38.69) and NEK1 ( P = 1.68×10 −6 , OR = 6.64, 95%
+CI = 3.32–12.51), yielded strong associations with ALS reaching
+exome-wide significance ( Figure 3 ). In
+addition, we observed a single novel gene reaching exome-wide significance, KIF5A ( P =
+5.55×10 −7 ; OR = 32.07, 95% CI
+= 9.05–135.27). Within this gene, we observed 6 LOF variants in
+our 1,138 cases (0.53%) compared to 3 such variants in our comparison
+cohort of 19,494 controls (0.015%, Table
+2 ). There was no evidence of genomic inflation
+(λ=0.93, Figure S5 ), sequencing center or other sub-cohort bias ( Figure S6 ), or call rate
+bias ( Figure S7 ) in our
+analysis. Of the index FALS cases carrying KIF5A LOF mutations,
+we obtained DNA from two siblings of the proband carrying a c.2993-3C>T, exon
+27 - 5′ splice junction variant, and from a sibling of a different
+proband carrying a c.3020+2T>A, exon 27 - 3′ splice junction
+variant. These variants segregated with disease within each of these families.
+Sanger sequencing validated all identified LOF variant containing samples in the
+discovery set and affected relatives.
+
+Interestingly, when we investigated the location of the six ALS
+associated variants present in KIF5A , all occurred within a 34
+bp stretch of DNA and were predicted to effect splicing of exon 27 that encodes
+amino acids 998–1007 ( Table 3 , Figure 4A ). Five of the six variants
+were located on sequential base pairs on the 3′ end of the exon, whereas
+one was located 5′ end of the exon. We used the application ASSEDA
+(Automated Splice Site and Exon Definition Analyses) to predict any mutant mRNA
+splice isoforms resulting from these variants ( Tompson et al., 2007 ). This algorithm was chosen as it is known to
+have high performance in splice prediction ( Caminsky et al., 2014 ). ASSEDA predicted a complete skipping of exon
+27 for all variants, yielding a transcript with a frameshift at coding amino
+acid 998, the deletion of the normal C-terminal 34 amino acids of the
+cargo-binding domain, and the extension of an aberrant 39 amino acids to the
+C-terminus ( Table 3 , Figure 4B, 4C ). The presence of transcripts with
+skipped exon 27 was demonstrated by performing RT-PCR in two patients carrying
+exon 27 - 3′ splice junction variants (c.3020+2T>A and
+c.3020+1G>A) using RNA from lymphoblasts and peripheral blood
+mononuclear cells, respectively. This splice form was not detected in four
+control lines ( Figure 4D ). Sequence
+analysis of the smaller RT-PCR products obtained from the patient cells
+confirmed the exon 26–28 splicing event. Material for RT-PCR was not
+available for any other patient carrying a KIF5A LOF
+variant.
+
+Our initial RVB was restricted to single nucleotide variants due to the
+limited sensitivity and comparatively high false positive rates associated with
+identifying small insertions and deletions (indels) within exome sequencing data
+( Fang et al., 2014 ). Based on our
+discovery of increased LOF variants within KIF5A , we
+re-evaluated this region for the presence of indels. Our analysis revealed two
+(0.026%) indels within our cohort of 1,138 FALS cases, compared to zero
+(0%) indels among 19,494 control samples. Both of these indels
+(p.Asp996fs, p.Asn999fs) resulted in a frameshift of the KIF5A protein coding
+sequence, and were located close to the splice junction variants that we
+previously observed to cause skipping of exon 27 resulting in a frameshift at
+amino acid 998 ( Table 3 ). Sanger
+sequencing confirmed the presence of both indels. Combining the results of the
+single nucleotide and indel variant analysis yielded a highly significant P of 3.8×10 −9 (OR =
+41.16, 95% CI = 12.61–167.57). We failed to detect any
+signals of RVB association for rare missense variants across KIF5A or within any sub-domain of the gene ( Table S8 ).
+
+Given the strong signal of the missense variant identified by our GWAS
+(p.Pro986Leu, rs113247976) and its close proximity to the LOF variants
+identified by our RVB analysis (amino acids 996–999), we attempted to
+replicate its association with ALS by analyzing additional cohorts. To
+accomplish this, we evaluated this variant in a cohort of 4,159 ALS cases and
+18,650 controls that were non-overlapping with our GWAS discovery analysis
+( Methods , Figure S8 ). This included non-overlapping samples from our RVB
+analysis (673 FALS, 17,696 controls). Analysis of the cohort revealed an allele
+frequency of 1.78% in cases and 1.32% in controls (rs113247976, P = 3.82×10 −4 , OR
+= 1.42, 95% CI = 1.17–1.70), thereby replicating
+the association of the original GWAS. A meta-analysis of the GWAS and
+replication cohort (n = 24,965 cases, 78,454 controls) yielded a highly
+significant P of 7.09×10 −13 (OR
+= 1.39, 95% CI = 1.33–1.45, Figure 2 ). These results support the association of KIF5A p.Pro986Leu with ALS. However, at this point we
+cannot definitely state that the missense variant is the primary risk factor, as
+we cannot rule out other variants in linkage disequilibrium.
+
+We next performed mutational screening of KIF5A in an
+additional cohort of 9,046 ALS cases that had not been included in our original
+RVB analysis. This revealed three additional carriers of C-terminal variants.
+One sporadic patient harbored an exon 26 frameshift mutation (p.Asn997fs) and a
+second sporadic patient harbored an exon 27 splice altering mutation
+(c.2993-1G>A, Table 3 ). The third
+patient carried a p.Arg1007Lys (c.3020G>A) mutation and had a familial
+history of ALS. This mutation was also observed in a FALS patients from our RVB
+analysis, however, a comparison of 240,715 common variant sites between the two
+patients failed to reveal a familial relationship ( Experimental
+Methods ). Additionally, one patient was observed to carry a predicted
+splice altering variant proximal to exon 3 (c.291+5G>A). However,
+this variant was not supported as creating an aberrant transcript by ASSEDA. The
+cohort used for this analysis was comprised mainly frequency of sporadic ALS
+cases. LOF variants were not observed in a follow up panel of 1,955 controls.
+Comparison of the LOF variants in sporadic patients (2/9,046 cases,
+0.022%) with either the 1,955 replication controls or all controls
+analyzed in this study (21,449 controls) both yielded insignificant P values (0.868 and 0.423, respectively). Interestingly,
+the frequency of LOF variants in sporadic cases is lower than that observed in
+our original FALS cohort (0.703%), suggesting that KIF5A LOF variants display a high penetrance. Furthermore,
+the rate of LOF variants reported in the Exome Aggregation Consortium (ExAC)
+database is lower than we observed in the control samples used in our discovery
+cohort (0.007% versus 0.015%).
+
+Missense mutations within KIF5A are a known cause of
+hereditary spastic paraparesis (spastic paraplegia type 10, autosomal dominant;
+OMIM #604187) and of Charcot-Marie-Tooth disease Type 2 (CMT2) ( Crimella et al., 2011 ; Jennings et al., 2017 ; Liu et al., 2014 ; Reid et al., 2002 ). Although SPG10 and CMT2 share clinical features
+with ALS, a careful examination of the clinical records of the ALS cases with
+LOF mutations in KIF5A ruled out misdiagnosis. Furthermore, we
+detected no variants previously associated with SPG10 or CMT2 in our FALS cohort
+( Liu et al., 2014 ).
+
+To further elucidate genotype-phenotype relationships, we evaluated the
+location of mutations within KIF5A . Interestingly, mutations
+contributing to SPG10 and to CMT2 are almost exclusively to be missense changes
+and are located in the N-terminal motor domain (amino acids 9–327) of
+KIF5A ( Figure 5 ). In contrast, the
+mutations identified as contributing to ALS are found predominantly in the
+C-terminal cargo binding region of KIF5A (amino acids 907–1032) with the
+highly penetrant FALS mutations showing LOF. These results indicate that the
+functional domain mutated in KIF5A dictates the clinical phenotype, resulting in
+distinct yet overlapping neurodegenerative diseases.
+
+To establish the existence of any commonalities between patients with
+LOF mutations in the C-terminal region of KIF5A, we evaluated their clinical
+phenotype. Cases with LOF mutations exhibited a median age of onset at 46.5
+years (n = 19, Table
+S7 ). This is lower than the age of onset reported for ALS in
+epidemiological studies (65.2 years, interquartile range 56.0 – 72.2)
+( ALSGEN Consortium et al., 2013 ).
+Interestingly, we also observed an increased disease duration (survival) in
+patients harboring these LOF mutations. The median survival time of ALS patients
+is 20 – 36 months ( ALSGEN Consortium et
+al., 2013 ). In contrast, cases with LOF mutations exhibited a median
+survival of nearly 10 years (117 months, n = 17, Table S7 ). ALS patients with
+symptom onset before 40 years of age have been shown to have longer survival,
+often exceeding 10 years ( Chio et al.,
+2009 ). In contrast, patients with uncomplicated types of hereditary
+spastic paraparesis and CMT2 display a normal life expectancy ( Patzkó and Shy, 2011 ).
+
+## DISCUSSION
+We previously identified KIF5A as a candidate gene for ALS
+in our prior study that lacked the power to draw a definitive conclusion ( Kenna et al., 2016 ). KIF5A was
+also a candidate ALS gene in a previous GWAS, though it similarly failed to reach
+genome-wide significance ( McLaughlin et al.,
+2017 ; van Rheenen et al., 2016 ) as
+well as a single gene study selected based on the a priori knowledge of its role in HSP/CMT2 and cytoskeletal function ( Brenner et al., 2018 ). Here, we have confirmed KIF5A as an ALS-associated gene with genome-wide significance
+through two independent approaches. By performing a GWAS involving ~80,000 samples,
+in addition to replicating five previously published loci, as well as the previously
+reported locus SCFD1 using a linear mixed model analysis (data not
+shown), we identified a missense variant within the KIF5A gene that
+reached genome-wide significance for association with ALS risk. It should be stated
+though that, as with all GWAS, we cannot rule out that other variants in linkage
+disequilibrium represent the primary risk factor. In an independent line of
+investigation, we applied RVB analysis to exome sequencing of ~21,000 samples and
+identified an exome-wide significant association between FALS risk and rare KIF5A LOF variants. Analyses of KIF5A in
+independent replication cohorts confirmed our initial finding for both the
+p.Pro986Leu variant and revealed three additional carriers of LOF variants in 9,046
+ALS cases. Taken together our results indicate that the p.Pro986Leu KIF5A variant may represent a relatively common, but low
+penetrance risk allele for ALS, while LOF variants constitute rare, but high
+penetrance risk factors.
+
+Kinesins are microtubule-based motor proteins involved in intracellular
+transport of organelles within eukaryotic cells. In mammals, there are three heavy
+chain isoforms of KIF5: KIF5A, KIF5B and KIF5C ( Miki
+et al., 2001 ). The three proteins homo- and heterodimerize through their
+coiled-coiled stalk domain, and create a complex with two kinesin light chains via
+binding to the tail domain ( Hirokawa et al.,
+1989 ). All three KIF5 genes are expressed in neurons ( Kanai et al., 2000 ) and function to transport many cargos
+by binding to distinct adaptor proteins.
+
+The central role of kinesins in axonal transport leads us to speculate that
+mutations in KIF5A cause disease by disrupting axonal transport.
+Indeed, defects in axonal transport are a common observation in ALS patients and are
+already known to directly contribute to motor neuron degeneration pathogenesis
+( Chevalier-Larsen and Holzbaur, 2006 ; Hirokawa et al., 2010 ; Millecamps and Julien, 2013 ). KIF5 mediates the transport
+of granules containing both RNA and RNA binding proteins within neuronal dendrites
+and axons ( Kanai et al., 2004 ). Among these
+cargos are the ALS-associated proteins FUS and hnRNPA1 ( Guo et al., 2017 ; Kim et
+al., 2013 ; Kwiatkowski et al.,
+2009 ; Vance et al., 2009 ).
+Similarly, KIF5 mediates the transport of VAPB through the adaptor protein protrudin
+( Matsuzaki et al., 2011 ), and mutations
+in the VAPB gene have been identified in ALS and late-onset spinal
+muscular atrophy ( Nishimura et al., 2005 ; 2004 ). KIF5 is responsible for the axonal
+transport of neurofilaments ( Wang and Brown,
+2010 ) and KIF5A knockout mice display abnormal transport of
+neurofilaments ( Xia et al., 2003 ). Abnormal
+accumulation of neurofilaments are a pathological hallmark of ALS and rare mutations
+in neurofilament heavy polypeptide (NEFH) are associated with ALS ( Al-Chalabi et al., 1999 ).
+
+KIF5 also contributes to the transport of mitochondria ( Kanai et al., 2000 ; Tanaka et al., 1998 ) and motor neurons derived from
+KIF5A −/− mice display transport deficits and reduced
+survival ( Karle et al., 2012 ). Impaired
+transport and dysfunction of mitochondria represent another common hallmark observed
+in ALS patients ( Chevalier-Larsen and Holzbaur,
+2006 ; Guo et al., 2017 ; Palomo and Manfredi, 2015 ; Smith et al., 2017 ). KIF5 also contributes to the
+transport of AMPA-type ( Heisler et al., 2014 ; Setou et al., 2002 ) and GABA A receptors ( Nakajima et al., 2012 ). In keeping
+with reported ALS genes such as NEK1 ( Thiel et al., 2011 ) and PFN1 ( Wu et al., 2012 ) , modulation
+of KIF5A expression has been shown to influence the formation of
+neurite like membrane protrusions ( Matsuzaki et al.,
+2011 ). Given its critical interactions with the cytoskeleton, the
+identification of KIF5A mutations further extends the list of
+cytoskeletal related proteins implicated in ALS pathogenesis, such as PFN1, TUBA4A,
+NEFH and peripherin ( Al-Chalabi et al., 1999 ; Gros-Louis, 2004 ; Smith et al., 2014 ; Wu et
+al., 2012 ).
+
+An important question raised by the current study is why variation within
+the C-terminal cargo binding domain is associated with ALS, while missense
+variations of the N-terminal motor domain are associated with hereditary spastic
+paraparesis and Charcot-Marie-Tooth, type 2. Missense mutations within this latter
+domain have been shown to affect microtubule binding and/or ATP hydrolysis,
+resulting in a defective KIF5A-mediated anterograde transport of cargo along
+dendrites and axons. This, in turn, leads to the axonal retrograde degeneration
+observed both in hereditary spastic paraparesis and Charcot-Marie-Tooth, type 2, two
+length-dependent axonopathies ( Ebbing et al.,
+2008 ). In contrast, the primary cellular lesion in ALS is believed to
+occur within motor neuron cell bodies, where cytoplasmic protein aggregates are
+consistently observed, and to propagate anterograde along neurites. We anticipate
+that LOF variants within the C-terminal domain of KIF5A will disrupt binding with
+specific cargo proteins. This is supported by a study in zebrafish in which
+truncation of the C-terminal resulted in a dramatic disruption of axonal
+localization of mitochondria ( Campbell et al.,
+2014 ). One possible mechanism is that disruption of binding to cargo may
+possibly lead to their accumulation and seed aggregation within the cell body
+resulting in a deficiency at neurite terminals. Deficiency in KIF5A expression and
+cargo binding has been associated with accumulation of phosphorylated neurofilaments
+and amyloid precursor protein within neuronal cell bodies, and subsequent
+neurodegeneration, in patients with multiple sclerosis ( Hares et al., 2016 ). While differences in KIF5A kinetics
+and KIF5A interactions constitute one possibility to explain the phenotypic
+heterogeneity, it is also possible C-terminal and N-terminal variants act through a
+common mechanism, but that a difference in the relative extent of loss or gain of
+function toxicities leads to milder (i.e. hereditary spastic paraplegia,
+Charcot-Marie-Tooth, type 2) or more severe (i.e. ALS) phenotypes.
+
+## STAR METHODS
+Further information and requests for resources and reagents should be
+directed to and will be fulfilled by the Lead Contact, John Landers
+( john.landers@umassmed.edu ).
+
+We undertook a GWAS of patients diagnosed with ALS (case cohort)
+and neurologically normal control individuals (control cohort). DNA was
+extracted from either whole blood or frozen brain tissue samples using
+standard procedures. All 12,663 patients included in the case cohort had
+been diagnosed with ALS according to the El Escorial criteria ( Brooks, 1994 ) by a neurologist
+specializing in ALS, had onset of symptoms after age 18 years, and were
+of non-Hispanic white race/ethnicity. Both patients with familial ALS
+and patients with sporadic ALS were included in the analysis.
+
+For the control cohort, we used genotype data obtained from (a)
+the database of Genotypes and Phenotypes (dbGaP) web repository (n
+= 44,017 US samples); (b) the HYPERGENES Project (n =
+887 Italian samples) ( Salvi et al.,
+2012 ); and (c) the Wellcome Trust Case Control Consortium (n
+= 5,663 British samples). An additional 2,112 US and Italian
+control samples were genotyped in the Laboratory of Neurogenetics,
+National Institute on Aging. The control cohort was matched to the case
+cohort for race and ethnicity, but not for age or sex. A detailed
+description of the cohorts is available in Table S1, S2 .
+
+Written consent was obtained from all individuals enrolled in
+this study, and the study was approved by the institutional review board
+approval of the National Institute on Aging (protocol number
+03-AG-N329).
+
+Summary statistics from a recently published GWAS based on
+logistic regression analysis involving 12,577 cases and 23,475 controls
+were downloaded from the Project MinE Variant Browser. Additional
+details of the cohorts used in this study are available in van Rheenen et al ( van Rheenen
+et al., 2016 ).
+
+A total of 1,463 FALS patients were included in the initial
+cohort (pre-QC). Patients were recruited at specialist clinics in
+Australia (n = 92), Belgium (n = 13), Canada (n
+= 34), Germany (n = 228), Ireland (n = 18),
+Israel (n = 26), Italy (n = 230), Netherlands (n
+= 50), Spain (n = 60), Turkey (n = 72), UK (n
+= 223), and USA (n = 417). All samples were exome
+sequenced except those from the Netherlands which were whole genome
+sequenced. Familial history was considered positive for ALS if the
+proband had at least one affected relative within three degrees of
+relatedness.
+
+Read level sequencing data were obtained from dbGAP and the
+European Genome-Phenome Archive (EGA) and are listed in Table S5 .
+
+Replication analyses included sequencing data for a further
+9,046 ALS cases and 1,955 non-ALS controls that were not also
+represented in the FALS discovery set. These samples included 2,742
+cases subjected to WXS by the ALS Sequencing Consortium, as described
+previously ( Cirulli et al.,
+2015 ); 719 cases subjected to WXS by the Laboratory of
+Neurogenetics, National Institute on Aging; 307 cases and 296 controls
+subjected to WGS by the Laboratory of Neurogenetics, National Institute
+on Aging; 155 cases subjected to WGS by the CReATe Consortium; 1,017
+cases subjected to WGS by the NYGC ALS Consortium, Genomic Translation
+for ALS Care (GTAC) Consortium and Answer ALS Foundation; and 4,100
+cases and 1,659 controls subjected to WGS by the Project MinE Sequencing
+Consortium.
+
+All samples included in the case cohort had been diagnosed with
+ALS according to the El Escorial criteria ( Brooks, 1994 ) by a neurologist specializing
+in ALS. We received approval for this study from the institutional
+review boards of the participating centers, and written informed consent
+was obtained from all patients (consent for research).
+
+The case cohort (n = 12,663 samples) and part of the
+control cohort (n = 2,112) were genotyped in the Laboratory of
+Neurogenetics, National Institute on Aging, using HumanOmniExpress
+BeadChips (version 1.0, Illumina Inc., San Diego, CA) according to the
+manufacturer’s protocol. These SNP genotyping arrays assay
+716,503 SNPs across the genome. Individual-level genotypes for these
+samples are available on the dbGaP web portal (accession number
+phs000101.v4.p1). The remainder of the control cohort had been
+previously genotyped on HumanOmni BeadChips (Illumina) as part of other
+GWAS efforts (see Table S2 ). Analyses were confined to the 595,692 autosomal
+SNPs that were common across the SNP genotyping arrays.
+
+Exome sequencing of cases was performed as previously described
+( Kenna et al., 2016 ). Control
+exome sequences were generated as described under the relevant dbGAP and
+EGA project accessions. Sequence reads were aligned to human reference
+GRCh37 using BWA (Burrows-Wheeler Aligner) and processed according to
+recommended Genome Analysis Toolkit’s (GATK) best practices
+( https://software.broadinstitute.org/gatk/best-practices/ ).
+Joint variant detection and genotyping of all samples were performed
+using the GATK HaplotypeCaller. Variant quality control was performed
+using the GATK variant quality score recalibration method with default
+filters. A minimum variant quality by depth (QD) score of 2 was also
+imposed and all genotypes associated with genotype quality (GQ)< 20
+were reset to missing. Variants were also excluded in the event of case
+or control call rates <70% (post genotype QC). Identified
+variants can be viewed through our web based ALS Variant Server (see
+link below).
+
+Data for the KIF5A locus was extracted from all
+independently generated sequencing datasets and remapped to GRCh37.
+Variant calling was performed using the GATK haplotype caller as
+described above. In addition to the KIF5A locus, data
+was also extracted for a panel of 240,715 common variant sites and used
+to perform a single unified sample QC as described below.
+
+Variant calls were assigned predicted functional consequences using
+snpEFF (Single Nucleotide Polymorphism Effect)( Cingolani et al., 2012 ), dbNSFP (A Database of
+Human Non-synonymous SNVs and Their Functional Predictions and
+Annotations)( Liu et al., 2013 )
+and dbscSNV (database of splice site consequences of Single Nucleotide
+Variants)( Jian et al., 2014 ),
+which is incorporated into dbNSFP. Variants were classified as “loss
+of function” (LOF) where the sequence change was predicted to encode
+a premature stop codon, a frameshift causing insertion-deletion or a splice
+site disrupting SNV. Variants were classified as potentially splice altering
+if assigned an “ada” or “rf” score >0.7
+by dbscSNV. Splice variants of potential interest were further assessed for
+putative effects on exon skipping using a secondary algorithm - automated
+splice site and exon definition server (ASSEDA)( Tompson et al., 2007 ).
+
+Total RNA was prepared from lymphoblast lines using Trizol reagent.
+Reverse transcription using Applied Biosystems RNA to cDNA kit (#
+4368814) was performed with 0.5 ug with RNAse inhibitor in a 20 ul reaction
+according to the manufacturer’s protocol. PCR was carried out using
+New England Biolabs One Taq Hot Start DNA Polymerase (# M0481S), 2
+ul RT reaction (representing 50 ng input RNA) and forward and reverse primer
+(0.15 uM each) in a 20 ul reaction volume. Amplification conditions were as
+follows: 94°C for 30 seconds, {94°C for 20 seconds,
+58°C for 20 seconds, 68°C for 1 minute} x 35 cycles,
+followed by an extension stage of 68°C for 5 minutes and a
+4°C hold. Amplification of both normal and mutant splice forms used
+primers F1 (CAGTGGAGCCACATCTTCTG) and R1 (TCTCTTGGTGGAGAGGGAAA). Primers
+used for the specific amplification of the mutant splice form were F2
+(CCAACATGGACAATGGAGTGA), which spans exons 26 and 28, and R1.
+
+Standard quality-control procedures were applied to our genotype
+data using PLINK software package (version 1.9)( Chang et al., 2015 ), and a summary of the
+workflow is shown in Figure S1 . We excluded samples that demonstrated: call rates
+of less than 97.5%; non-European ancestry; abnormal F inbreeding coefficient; mismatch between
+phenotypic and genotypic gender; or, cryptic relatedness defined as
+identity-by-descent proportion of inheritance (pi_hat from PLINK)
+greater than 0.125. Samples in common between our study and van
+Rheenen’s study were identified using the checksum program
+id_geno_checksum and were removed from our analyses. We excluded
+palindromic SNPs, as well as SNPs with: call rates less than 95%
+in the US and Italian cohorts or less than 99% in the UK, French
+and Belgium cohorts; minor allele frequency less than 0.05 in the
+control cohorts; Hardy-Weinberg equilibrium P less than
+10 −7 in the US and Italian control cohorts and
+less than 10 −5 in the UK, French and Belgium cohorts;
+missingness by case-control status P less than
+10 −5 ; or SNPs associated between the UK and
+French control cohorts with P less than
+5.0×10 −8 . After quality control, 8,229
+case and 36,329 control samples were included in the analysis, and
+436,746 SNPs were available for imputation in the USA and Italy cohorts,
+and 420,131 SNPs were available in the UK, French and Belgium
+cohorts.
+
+Estimation of the haplotypes was performed with SHAPEIT (version
+2.r790)( Delaneau et al.,
+2013 ). Imputation was performed for individual batches based on
+ethnicity using the 1000 Genomes Project dataset (phase 3, version 5a,
+release 2013-05-02, 1000genomes.org) as reference and using Minimac3
+software (version 1.0.11)( Das et al.,
+2016 ) with default settings. After imputation, principal
+components were calculated using PLINK software after removing known
+hypervariable regions and the 1 MB surrounding the C9orf72 region. After analysis of the Scree plots,
+2 to 4 principal components were retained per cohort as covariates in
+the association analyses to compensate for any residual population
+stratification.
+
+Logistic regression was performed per batch using mach2dat
+software (version 1.0.24)( Marchini and
+Howie, 2010 ) incorporating 2 to 4 principal components, age
+and gender as covariates, with dosage of imputed SNPs selected based on
+a Minimac3 R 2 value of imputation accuracy greater than 0.3.
+SNPs with an absolute beta coefficient value above 5 or with a minor
+allele frequency less than 0.01 were excluded from meta-analysis.
+Meta-analysis was then performed combining the association results of
+the 13 batches of our individual-level studies with van
+Rheenen’s study summary statistics using METAL software (version
+2011-03-25)( Willer et al.,
+2010 ) under an inverse-weighted, fixed effect model. A
+threshold P of 5.0×10 −8 was
+set for genome-wide significance after Bonferroni correction for
+multiple testing in the GWAS ( Pe’er et al., 2008 ).
+
+The programming code used to analyze these data is freely
+available on GitHub (see link below), and GWAS summary statistics
+results for all tested SNPs are available from (link to be supplied at
+publication).
+
+For both the discovery and replication phases, samples were
+excluded from the study in the event of failing to meet standard
+genotype call rate, heterozygosity, duplication, relatedness or
+population stratification filters as summarized in Table S6 . Each of these
+filters was performed using a set of autosomal markers meeting all of
+the following criteria: call rate > 0.95, minor allele frequency
+(MAF) > 0.01, P > 0.001 for deviation from
+Hardy-Weinberg equilibrium, linkage disequilibrium pruning
+(R 2 < 0.5, window size = 50, step =
+5). Filtering of autosomal markers, sample call rate assessments and
+sample heterozygosity assessments were performed using PLINK software.
+Study duplicates and sample relatedness within the WXS/WGS cohorts was
+identified using KING software ( Manichaikul et al., 2010 ). Study duplicates between WXS/WGS
+cohorts and GWAS datasets were identified using the checksum program
+id_geno_checksum. LASER was used to generate PCA coordinates for samples
+from the Human Genome Diversity Panel (HGDP). Samples from the FALS
+discovery cohort were then mapped to this reference co-ordinate space.
+The discovery cohort was restricted to cases and controls occurring
+within 3 standard deviations of the mean for European HGDP samples along
+principal components 1–4.
+
+RVB analyses were performed by penalized logistic regression of
+case-control status with respect to number of minor alleles observed per
+sample per gene with and MAF <0.001. Analyses were only performed
+where the dataset contained more than 3 variant allele occurrences.
+Replication analyses of rs113247976 were performed using the same
+logistic regression protocol as used for RVB analyses. All analyses were
+conditioned on the first 4 eigenvectors generated by principal
+components analysis of common variant profiles. Genomic inflation
+factors were calculated using genome-wide association analysis for
+quantitative, binary and time-till-event traits using GenABEL software.
+Candidate associations were tested for signs of call-rate or subcohort
+biases as outlined in Figures S6, S7 . Meta-analysis of rs113247976 association
+results between sequencing and GWAS was performed using METAL. Unless
+otherwise indicated, all statistical analyses were performed using R
+(version 3.2.0).
+
+To identify genes potentially subject to confounding biases in
+FALS RVB analyses and to assess the potential impact of batch effects
+with non-ALS-related data, population or phenotypic stratifiers, the
+control sample cohort was divided into 28 pseudo case-control groups
+based on the sequencing center or associated dbGaP/EGA project ( Table S5 ). Genes
+shown in gray achieve for possible confounder association. Loci
+achieving a minimu P < 1 ×
+10 –3 were deemed as displaying possible
+association with non-ALS related batch effects.
+
+The programming code used to analyze the GWAS data including the
+imputation with SHAPEIT and Minimac3, individual-based association analysis
+using Mach2dat and a meta-analysis using METAL is freely available on
+GitHub: https://github.com/AudeDN/ALS_GWAS_1000G_mach2dat_2017 ).
+GWAS summary statistics results for all tested SNPs and identified SNVs from
+our 1,138 FALS cohort used for the RVB analysis can be viewed through our
+web based ALS Variant Server ( http://als.umassmed.edu ). For each variant, information on over
+50 annotation fields and the results can be downloaded directly into
+Excel.
+
+1000 Genomes Project dataset: http://www.internationalgenome.org
+
+Database of Genotypes and Phenotypes (dbGaP): www.ncbi.nlm.nih.gov/gap
+
+dbNSFP: https://sites.google.com/site/jpopgen/dbNSFP
+
+dbscSNV: incorporated into dbNSFP (see previous link).
+
+European Genome-phenome Archive (EGA): https://ega-archive.org
+
+HapMap project: http://www.sanger.ac.uk/resources/downloads/human/hapmap3.html .
+
+Human Genome Diversity Panel (HGDP): http://www.hagsc.org/hgdp/
+
+HYPERGENES Project: http://www.hypergenes.eu
+
+Project MinE Variant Browser: http://databrowser.projectmine.com
+
+snpEFF: http://snpeff.sourceforge.net/SnpEff.html
+
+Wellcome Trust Case Control Consortium: www.wtccc.org.uk
+
+ASSEDA: http://www.cytognomix.com/?post_type=duka&p=2670
+
+BWA: http://bio-bwa.sourceforge.net
+
+GenABEL: http://www.genabel.org
+
+GATK: https://software.broadinstitute.org/gatk/
+
+id_geno_checksum: https://personal.broadinstitute.org/sripke/share_links/checksums_download/
+
+KING: http://people.virginia.edu/~wc9c/KING/
+
+LASER: http://csg.sph.umich.edu/chaolong/LASER/
+
+Mach2dat: https://genome.sph.umich.edu/wiki/Mach2dat:_Association_with_MACH_output
+
+METAL: http://csg.sph.umich.edu/abecasis/metal/index.html
+
+Minimac3: https://genome.sph.umich.edu/wiki/Minimac3
+
+PLINK: http://zzz.bwh.harvard.edu/plink/
+
+R: https://www.r-project.org
+
+SHAPEIT: https://mathgen.stats.ox.ac.uk/genetics_software/shapeit/shapeit.html
+
+## Supplementary Material
+Figure S1. Related to Figure 1 ;
+Workflow showing the quality control procedures applied to the present
+study.
+
+Figure S2. Related to Figure 1 ;
+Multi-dimensional scaling plot of the 44,558 genotyped samples included in
+analysis compared to the HapMap populations.
+
+Figure S3. Related to Figure 1 ;
+Quartile-Quartile plot of P -values from the meta-analysis
+based on logistic regression analysis.
+
+Figure S4. Related to Figure 3 ;
+Principal components analysis of samples included in the RVB analysis
+compared to the Human Diversity Panel.
+
+Figure S5. Related to Figure 3 ;
+Quartile-Quartile plot of P values from the gene-based rare variant burden
+analysis of exome data.
+
+Figure S6. Related to Figure 3 ;
+Control-control analyses.
+
+Figure S7. Related to Fgure 3 ;
+Plot of variant call rates across the KIF5A protein-coding region in FALS
+versus controls analyzed by RVB testing.
+
+Figure S8. Related to Figure 2 ;
+Principal components analysis of samples included in KIF5A replication cohort.
+
+Table S1. Related to Figure 1 ;
+Demographics and baseline characteristics of patients diagnosed with ALS and
+control individuals included in the GWAS analysis.
+
+Table S2. Related to Figure 1 ;
+DbGaP studies contributing to the GWAS analysis.
+
+Table S3. Related to Figure 1 ;
+SNPs achieving genome-wide significance in the GWAS analysis.
+
+Table S4. Related to Figure 1 ;
+Suggestive SNPs with P values less than 5.0×10-7 in the GWAS
+analyses.
+
+Table S5. Related to Figure 3 ;
+DbGaP/EGA studies contributing to the RVB analysis.
+
+Table S6. Related to Figure 2 , 3 ; Quality control filtering of the
+FALS discovery and KIF5A replication cohorts.

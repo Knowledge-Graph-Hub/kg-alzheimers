@@ -1,0 +1,5 @@
+# Title
+Fibril structure of amyloid-ß(1-42) by cryo-electron microscopy
+
+# Abstract
+Amyloids are implicated in neurodegenerative diseases. Fibrillar aggregates of the amyloid-β protein (Aβ) are the main component of the senile plaques found in brains of Alzheimer’s disease patients. We present the structure of an Aβ(1-42) fibril composed of two intertwined protofilaments determined by cryo-electron microscopy (cryo-EM) to 4.0 Å resolution, complemented by solid-state nuclear magnetic resonance (NMR) experiments. The backbone of all 42 residues and nearly all sidechains are well resolved in the EM density map, including the entire N-terminus, which is part of the cross-β structure resulting in an overall "LS"-shaped topology of individual subunits. The dimer interface protects the hydrophobic C-termini from the solvent. The unique staggering of the non-planar subunits results in markedly different fibril ends, termed "groove" and "ridge", leading to different binding pathways on both fibril ends, which has implications for fibril growth.

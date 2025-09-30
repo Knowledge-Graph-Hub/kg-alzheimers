@@ -1,0 +1,5 @@
+# Title
+Fate Mapping Analysis Reveals That Adult Microglia Derive from Primitive Macrophages
+
+# Abstract
+Microglia are the resident macrophages of the central nervous system and are associated with the pathogenesis of many neurodegenerative and brain inflammatory diseases; however, the origin of adult microglia remains controversial. We show that postnatal hematopoietic progenitors do not significantly contribute to microglia homeostasis in the adult brain. In contrast to many macrophage populations, we show that microglia develop in mice that lack colony stimulating factor-1 (CSF-1) but are absent in CSF-1 receptor–deficient mice. In vivo lineage tracing studies established that adult microglia derive from primitive myeloid progenitors that arise before embryonic day 8. These results identify microglia as an ontogenically distinct population in the mononuclear phagocyte system and have implications for the use of embryonically derived microglial progenitors for the treatment of various brain disorders.

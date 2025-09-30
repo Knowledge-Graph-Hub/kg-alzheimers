@@ -1,0 +1,5 @@
+# Title
+Non-Specificity of Binding of γ-Secretase Modulators to the Amyloid Precursor Protein†
+
+# Abstract
+Evidence has been presented (Kukar et al. 2008 Nature 453 , 925–929) that certain γ–secretase modulators (GSMs) target the 99 residue C-terminal domain (C99) of the amyloid precursor protein, a substrate of γ-secretase, but not the protease complex itself. Here, NMR results demonstrate a lack of specific binding of these GSMs to monodisperse C99 in LMPG micelles. In addition, results indicate that C99 was likely to have been aggregated in some of the key experiments of the previous work, and that binding of GSMs to these C99 aggregates is also of a non-specific nature.

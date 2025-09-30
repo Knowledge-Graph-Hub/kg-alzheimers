@@ -1,0 +1,433 @@
+# Title
+Potential genetic modifiers of disease risk and age at onset in
+patients with frontotemporal dementia and GRN mutations: a genome-wide
+association study
+
+# Abstract
+Loss-of-function mutations in progranulin (GRN) cause frontotemporal dementia. Patients with GRN mutations
+present with a uniform subtype of TDP-43 pathology at autopsy (FTLD-TDP type
+A); however, age at onset and clinical presentation are variable, even
+within families. We aimed at identifying potential genetic factors modifying
+disease onset and disease risk in GRN mutation
+carriers. In the discovery stage, genome-wide logistic and linear regression
+analyses were performed to test association of genetic variants with disease
+risk (case/control status) and age at onset. Suggestive loci
+(p<10 −5 ) were genotyped in a replication
+cohort, followed by a meta-analysis. The effect of genome-wide significant
+variants at the novel GFRA2 locus on expression of GFRA2 was assessed using mRNA expression studies in
+cerebellar tissue samples from the Mayo Clinic brain bank. The effect of the GFRA2 locus on progranulin protein (PGRN) levels was
+studied using previously generated ELISA-based expression data.
+Co-immunoprecipitation experiments in HEK293T cells were performed to test
+for a direct interaction between GFRA2 and PGRN Previously ascertained patients and controls were enrolled in the
+current study between October 2014 and October 2017. After quality control
+measures, statistical analyses in the discovery stage included 382 unrelated
+symptomatic GRN mutation carriers and 1,146 controls free
+of neurodegenerative disorders collected from 34 research centers located in
+North America, Australia and Europe. In the replication stage, 210 patients,
+including 67 symptomatic GRN mutation carriers and 143
+pathologically-confirmed non-GRN FTLD-TDP type A patients, and 1,798
+controls free of neurodegenerative diseases were recruited from 26 sites, of
+which 20 sites overlapped with the discovery stage. No genome-wide
+significant association with age at onset was identified in the discovery,
+replication or meta-analysis. However, in the case/control analysis, we
+replicated the previously reported TMEM106B association
+(meta-analysis:rs1990622, p=3·54×10 −16 , OR=0·54,
+95% CI: 0·46 − 0·63), and identified a novel genome-wide significant
+locus at GFRA2 on chromosome 8p21.3 associated with disease
+risk (meta-analysis: rs36196656, p=1·58×10 −8 ,
+OR=1·49, 95% CI: 1·30 − 1·71). Expression analyses showed that the
+risk-associated allele at rs36196656 decreased GFRA2 mRNA
+levels in cerebellar tissue. No effect of rs36196656 on plasma and
+cerebrospinal fluid PGRN levels was detected by ELISA; however,
+co-immunoprecipitation experiments in HEK cells did suggest a direct binding
+of PGRN and GFRA2. The identification of TMEM106B and GFRA2 as potential modifiers of disease risk in GRN carriers raises the possibility that TMEM106B and
+GFRA2-related pathways are targets for therapies; yet, the biological
+interaction between PGRN and these disease modifiers requires further study.
+These potential genetic modifiers might also provide opportunities to select
+and stratify patients for future clinical trials and, when more is known
+about their potential effects, to inform genetic counselling,especially in
+the context of asymptomatic individuals.
+
+## INTRODUCTION
+Frontotemporal lobar degeneration (FTLD) represents a collection of
+neurodegenerative diseases accounting for 5–10% of all dementia patients and
+10–20% of patients with an onset of dementia before 65 years. 1 Three clinical variants have been
+described: the behavioral variant of frontotemporal dementia (bvFTD), and two
+language variants of FTLD including the non-fluent and the semantic variant of
+primary progressive aphasia (PPA). The most common pathological subtype of FTLD is
+characterized by aggregates of the TAR DNA-binding protein 43, TDP-43
+(FTLD-TDP). 2 , 3 Four different FTLD-TDP pathological subtypes
+have been defined based on the morphology and anatomical distribution of the TDP-43
+pathology (A to D). 2
+
+Mutations in progranulin (GRN) are the second most common
+genetic cause of FTLD-TDP, accounting for 5–20% of FTLD with positive family
+history. 4 – 6 All currently known heterozygous pathogenic GRN mutations cause disease through a uniform disease
+mechanism, i.e. the loss of 50% functional progranulin protein (PGRN), leading to
+haploinsufficiency. 4 Additionally, all patients with GRN mutations present with FTLD-TDP
+type A at autopsy. 2 Despite this
+uniform disease mechanism and pathological presentation, clinical research has made
+clear that the age at symptom onset and clinical phenotype associated with GRN mutations are highly variable, even within the same family,
+and the penetrance of GRN mutations is not complete, even at old
+age. 7 , 8 Importantly, a genome-wide association study
+performed in 2010 reported variants in the transmembrane protein 106 B locus (TMEM106B) as a risk factor for FTLD-TDP and subsequent studies
+established TMEM106B as a modifier of disease risk in individuals
+with GRN mutations. 9 – 11 Identification of additional genetic modifiers of GRN- associated
+frontotemporal dementia could lead to improved genetic counselling, and could
+suggest potential new targets for disease-modifying therapies. We therefore aimed to
+identify additional genetic modifiers in GRN mutation carriers
+through genome-wide association analyses in the largest collection of unrelated
+symptomatic GRN patients ascertained to date.
+
+## METHODS
+Participants for this study were all Caucasian and recruited at 40
+international clinical and/or pathological research centers in Italy, US,
+France, Spain, UK, Canada, The Netherlands, Sweden, Australia, Denmark, Poland
+and Germany ( appendix
+p.3 , Supplementary
+Table 1 ). No restriction in terms of age, sex or race was applied to
+the initial selection; however statistical analysis only included white
+individuals ( appendix
+p.3 ). Identification of GRN mutations, and
+assessment of TDP-43 pathological subtype, was performed at each individual
+site. For the discovery stage we obtained DNA from a total of 33 centers from
+493 symptomatic GRN carriers from North America, Europe and
+Australia, and 505 controls from Italy and Spain ( Table 1 ). We also obtained genetic data from 1,986
+controls free from neurodegenerative diseases from the Genome-wide association
+study of Parkinson disease: Genes and Environment from the CIDR consortium (NCBI
+dbGaP phs000196.v3.p1 NINDS CIDR PD Environment; hereinafter referred to as CIDR
+dataset and considered one site, Table 1 , appendix p.3 , Supplementary Table 1 and Supplementary Figure
+1 ). Additional and non-overlapping patients (n=210) and controls free
+from neurodegenerative diseases (n=1,798) for the replication stage were
+recruited from 26 centers, 20 overlapping with the discovery stage and 6 newly
+identified centers ( Table 1 ; Supplementary Table 1 ).
+The 210 replication-stage cases included 67 patients with GRN mutations unrelated and independent from the discovery stage and 143
+GRN-negative patients with pathologically confirmed FTLD-TDP type A.
+
+Age at onset was defined as the age at which first disease symptoms
+appeared, including initial cognitive dysfunction in judgment, language, memory,
+or changes in behavior or personality.
+
+Informed consent for genetic studies was given by patients and controls
+during life, or by next of kin at time of death for autopsy material, with
+approval of each institution’s Institutional Review Board.
+
+Genotyping and quality control (QC) procedures for the discovery stage
+are described in detail in appendix (p.3–4) . Genome-wide association analyses, using
+logistic and linear regressions, were performed to test the association of
+genetic variants with patient/control status (disease risk) and age at onset,
+respectively, under an additive model for allele effects and adjusting for age,
+sex, and the first two principal components of genetic variation (PCs) when
+appropriate ( appendix
+p.4 ). As exploratory analyses, association of variants with absence
+or presence of specific first clinical symptoms (memory, behavior or language
+impairment) or presence of parkinsonism at any time during the course of the
+disease was tested among patients using logistic regression adjusting for age,
+sex, and first two PCs ( appendix p.4 ; Supplementary Results ). Association of previously reported putative
+genetic modifier variants in known neurodegenerative diseases genes with disease
+presentation and age at onset were also determined and reported.
+
+Lead variants or a proxy associated at p<10 −5 with disease risk or age at onset in the discovery stage were selected for the
+replication stage. Genotyping and quality control measures for this stage are
+described in detail in appendix (p.4–5) . Association analyses were performed using
+logistic or linear regressions to replicate association of genetic variants
+suggestively associated with disease risk or age at onset, adjusting for age and
+sex when appropriate under an additive model. Thirty-six variants at 34 loci
+were analyzed in the replication stage, and thus a Bonferroni-corrected
+significance threshold of p<1–5×10 −3 was
+employed in this stage. Meta-analyses of the discovery and replication results
+were performed under a fixed effects model. We also calculated I 2 heterogeneity statistics to evaluate the degree of heterogeneity of the effects
+in the discovery and replication stages, and for SNPs with I 2 suggesting moderate or high heterogeneity (I 2 >0.3) we also
+performed a random effects meta-analysis, to verify that conclusions regarding
+association would not change under this model. Using the discovery data, a test
+of interaction was performed for the genome-wide significant loci found to
+modify disease risk in GRN mutation carriers. Specifically,
+using the top variants from the TMEM106B and GFRA2, a logistic regression model was fit with both
+variant genotypes and their multiplicative effect as predictors of risk, and a
+likelihood ratio test of the multiplicative term was performed to assess the
+effect of the variant interaction on disease risk.
+
+To determine the effect of the lead variant at the GFRA2 locus (rs36196656) on brain GFRA2 mRNA expression levels, quantitative real-time PCR was performed in cerebellar
+tissue samples of AA and CC carriers ( appendix p.5 ). Effect of rs36196656
+on progranulin protein (PGRN) levels in plasma and cerebrospinal fluid (CSF) was
+assessed by Taqman genotyping of 345 individuals for which levels of PGRN were
+previously determined by ELISA 12 , using linear regression adjusting for age and sex.
+Whole-genome sequence data from 959 control individuals from the Mayo Clinic
+biobank was used to estimate linkage disequilibrium measures (D’ and
+r 2 ) between all variants at the GFRA2 locus and
+rs36196656.
+
+To study the direct interaction between PGRN and GFRA2, HEK293T cells
+were co-transfected with GFRA2 and PGRN. Cell lysates were collected and
+subjected to immunoprecipitation ( appendix p.6 ).
+
+## RESULTS
+In the discovery stage of our study we obtained DNA samples from 493
+patients carrying 120 different loss-of-function mutations in GRN ( appendix p.3 ; Supplementary Table 2 ). Three
+mutations were identified in more than 20 patients: p.Thr272Serfs*10 (n=97),
+p.Arg493* (n=35) and c.709–1G> (n=31). Patients had a median age at
+onset of 60 0 years (interquartile range, IQR 55 0 – 66 0) and 55 2% (n=211)
+were female ( Table 1 ). Large variability in
+the age at onset was detected even among patients with the same mutation. Indeed,
+among patients with the most frequent mutation p.Thr272Serfs*10, ages at onset
+ranged from 39 to 82 years with a median age at onset at 62 0 years (IQR 56 0
+– 66 0). To identify genetic modifiers of disease risk and disease onset in
+this unique cohort of patients with GRN mutations, we performed a
+two-stage genome-wide association study. After QC, the discovery stage included 382
+unrelated symptomatic GRN mutation carriers and 1,146 unrelated
+controls. Genome-wide logistic regression analysis identified an expected highly
+significant association with variants at the GRN locus on chr17q21
+( Figure 1 ). Haplotype analyses using 16
+variants around GRN showed that this association was driven by
+distantly related individuals sharing founder haplotypes corresponding to the most
+common mutations in our cohort. We estimated the presence of a shared haplotype in
+100% (n=22) of patients carrying the p.709–1G>A mutation and in 63 (80
+8%) of patients carrying the p.Thr272Serfs*10 mutation, whereas 18 patients with
+p.Arg493* (60 0%) were estimated to carry one of two founder haplotypes. We also
+detected the known TMEM106B locus including 93 variants with
+genome-wide significant association and in strong linkage disequilibrium (LD;
+D’>0 8, r 2 >0 6) with the lead variant rs7791726
+(p=1–53*10 −10 ,OR=0 53, 95% confidence interval CI: 0
+44–0 64; Figure 1 ; Supplementary Figures 2 and 3 ). In particular, the lead
+variant rs7791726 is in strong LD with the previously reported TMEM106B variants rs1990622, rs3173615 and rs1990620
+(D’=1, r 2 >0 8). No additional genome-wide significant
+association signals were detected throughout the genome; however, 29 additional loci
+showed suggestive association at p<10 −5 ( Figure 1 , Supplementary Table 3 ).
+After adjustment with the lead variant on chr17q21 (rs141568868), these suggestive
+associations did not change substantially suggesting that they are independent
+events from the chr17q21 locus. In a separate analysis, genome-wide linear
+regression analysis of onset age within the patient cohort did not identify any
+genome-wide significant association signals; however, 14 loci showed suggestive
+association (p<10 −5 ) ( Figure 1 , Table 3 ; Supplementary Figure 3 and Supplementary Table 4 ).
+Since only the wild-type copy of GRN is expressed in patients with GRN mutations, we analyzed the effect of rs5848 located in the
+3’UTR of GRN comparing patients homozygous for the common
+(C) and rare (T) alleles at this marker; however, no significant association with
+onset age was observed (p=0 36).
+
+The replication stage of the association study, which included 210 patients
+(67 symptomatic GRN mutation carriers and 143 patients with
+pathologically confirmed FTLD-TDP type A without known mutations) and 1,798 controls
+( Table 1 ), identified significant
+association at the Bonferroni-corrected level of p<1
+5×10 −3 for two loci nominated by the case-control
+discovery GWAS ( Table 2 ). None of the loci
+nominated through the discovery GWAS of age at disease onset withstood Bonferroni
+correction ( Table 3 ). The strongest signal in
+the case-control analysis was at the TMEM106B locus with marker
+rs3173615 (p=8 97×10 −8 , OR=0 53, 95% CI: 0 47 – 0
+63). The lead variant at the second locus was rs36196656 located within intron 3 of
+the gene encoding GDNF family receptor alpha 2 (GFRA2; MAF patients =0 44, MAF controls =0 35 p=4
+35×10 −4 , OR=1 46, 95% CI: 118 – 1 80). In the
+meta-analysis of discovery and replication stages, both the TMEM106B and GFRA2 loci reached genome-wide
+significance (TMEM106B, rs3173615, p=3
+78×10 −16 , OR=0 54, 95% CI: 0 47 – 0 63; GFRA2, p=158×10 −8 , rs36196656, OR=1
+49, 95% CI: 1 30–1 71, Table 2 ). No
+other loci showed p<5×10 −8 in the meta-analysis.
+Conditional analysis adjusted for the TMEM106B variant rs3173615 in the discovery stage had no effect on the
+association at the GFRA2 variant rs36196656
+(p=5 80×10 −6 , OR=1 54, 95% CI: 1–28-1 85). Moreover,
+tests of interactions between these variants provided no evidence for interaction
+effects on disease risk (interaction p>0 1), indicating that the effect of
+the GFRA2 variant on disease risk is not modified by the TMEM106B genotype that a person carries, and vice versa. These
+results suggest that the associations at TMEM106B and GFRA2 are independent.
+
+At the putative novel GFRA2 locus both patients with GRN mutations and FTLD-TDP type A without known mutations
+contributed to the observed association in the replication stage ( Supplementary Results ). While more
+significant association was detected when only GRN patients were
+included (p=3 11×10 −3 , OR=1 69, 95% CI:
+1–19-2–40; Supplementary Table 5 ), the FTLD-TDP type A patients showed a comparable
+allele frequency and odds ratio at rs36196656 (p=108×10 −2 ,
+OR 1 40, 95% CI: 1 08–1 82; Supplementary Table 6 ).
+
+To identify possible functional variants at the newly identified putative GFRA2 locus, we queried publicly available data and
+whole-genome sequence data from 959 control individuals from the Mayo Clinic biobank
+which showed two single nucleotide polymorphisms (SNP, rs144692383 and rs150047054)
+and a 3-bp deletion (rs36144451) in strong linkage disequilibrium
+(r 2 >0 8) with the lead variant rs36196656 ( Figure 2A , Supplementary Table 7 ). All
+four variants are located in close proximity within GFRA2 intronic
+regions: intron 3 of GFRA2 transcript variant A (NM_001495), intron
+2 of GFRA2 transcript variant B (NM_001165038) and intron 1 of GFRA2 transcript variant C (NM_001165039) depending on
+alternative splicing at the GFRA2 locus ( Figure 2A ). Several of these variants are predicted to
+affect transcription factor binding sites and histone marks and they all are
+expression quantitative loci (eQTL) for GFRA2 in testis (p=1
+80×10- 14 ; www.gtexportal.org ). Indeed, GFRA2 RNA expression
+analyses in cerebellar tissue samples from individuals with rs36196656
+‘CC’ (n=24) and ‘AA’ (n=24) genotypes available from the
+Mayo Clinic brain bank showed substantial variability in expression among
+individuals but confirmed a 40% reduction in all GFRA2 transcripts
+in brains of homozygous carriers of the risk allele (AA) compared to CC carriers,
+which reached significance when analyzing all GFRA2 variants (p=0
+04) or variant A individually (p=0 01) ( Figure
+2B ). GFRA2 transcript variant A was consistently the
+predominant transcript expressed in cerebellum ( Supplementary Figure 4A, B ) and no
+significant difference in the ratio of GFRA2 transcripts (A, B, and
+C) was observed between AA and CC carriers (data not shown). Since the potential
+functional variant(s) underlying the observed association could also be less
+frequent than the lead variant, we further identified all variants with
+D’>0 8, which resulted in an additional 130 single nucleotide
+variants, none of which were coding (data not shown).
+
+In order to assess a potential direct effect of GFRA2 markers on PGRN expression levels in plasma and CSF, we performed a linear
+regression adjusting for age and sex, which showed that rs36196656 is not associated
+with PGRN levels in both plasma and CSF in 345 individuals (p=061 and p=0 67
+respectively; Supplementary Figure
+5A and B ). We next hypothesized
+that GFRA2 might directly interact with PGRN and serve as a receptor for PGRN.
+Indeed, using transient overexpression of untagged PGRN and GFRA2 in HEK293T cells,
+immunoprecipitation of GFRA2 pulled down PGRN in cell lysates. Reciprocally,
+immunoprecipitation of PGRN pulled down GFRA2 ( Figure
+3A and B ).
+
+## DISCUSSION
+Using an unbiased two-stage genome-wide association study in the largest
+available collection of unrelated FTLD patients with pathogenic GRN mutations, we identified two association signals, one at the known TMEM106B locus and one at a novel putative locus encompassing GFRA2. GRN mutations are a relatively rare cause of FTLD and
+despite the international nature of our collaboration we were limited by the number
+of GRN carriers we were able to identify. In the discovery stage,
+we therefore relied on the uniform loss-of-function disease mechanism associated
+with pathogenic GRN mutations and combined genetic analysis of
+patients with 120 distinct mutations. In the replication stage, newly identified GRN mutation carriers were combined with FTLD-TDP type A
+patients with unknown genetic etiology which are pathologically indistinguishable
+from GRN carriers and possibly share common pathomechanisms. Using
+this approach, genome-wide significant associations were detected when symptomatic
+patients were compared to healthy controls, suggesting that TMEM106B and GFRA2 are able to modify disease
+risk. Moreover, the allele at the lead GFRA2 variant (rs36196656)
+associated with reduced disease risk was shown to correlate with increased brain
+mRNA expression of GFRA2 transcripts.
+
+Our study confirms TMEM106B as the strongest modifier of
+disease risk in GRN mutation carriers and GRN-negative FTLD-TDP
+type A patients. Published studies already established that variants associated with
+the TMEM106B risk haplotype correlate with increased expression of TMEM106B 11 and increases in the amount of TMEM106B have been reported to be detrimental to
+lysosomal health and function. 13 – 15 Among the
+variants in strong LD, several functional candidates have been reported including
+rs3173615 encoding TMEM106B p.Thr185Ser and the non-coding variant rs1990620
+suggested to affected higher-order chromatin architecture at the TMEM106B locus. 15 , 16 We estimated that GRN carriers of the TMEM106B protective
+haplotype (tagged by the ‘G’ allele of rs3173615) have 50% lower odds
+to develop disease symptoms as compared to non-protective haplotype carriers.
+Indeed, despite a population frequency of 14 2% in our control cohort, only 4 out of
+382 (1 0%) unrelated symptomatic patients were homozygous rs3173615
+‘GG’ carriers, suggesting that many GRN mutation
+carriers who are also homozygous for the protective TMEM106B haplotype never develop symptoms. This is a remarkable finding for a disease gene
+once thought to be nearly fully penetrant and prompts the important question as to
+whether TMEM106B genotyping should be performed routinely when GRN genetic testing is requested or should at least be
+discussed as a crucial component of predictive GRN genetic testing
+and counselling protocols, especially in asymptomatic individuals.
+
+The GFRA2 locus was identified as a second independent
+potential modifier of disease risk, which reached significance in the meta-analysis
+of our combined discovery and replication stages. Both GRN carriers
+and FTLD-TDP type A patients without mutations contributed to the observed
+association. Expression data points to a potential disease mechanism in which
+risk-associated variants at the GFRA2 locus decrease brain mRNA
+expression of GFRA2. Whether these variants similarly affect GFRA2
+protein expression, remains to be tested. GFRA2 is the preferential co-receptor for
+neurturin (NRTN), one of four members of the glial cell line-derived neurotrophic
+factor (GDNF) family ligands (GFLs) with an important role in neuronal
+differentiation, proliferation and surviva.l 17 NRTN further requires the transmembrane signaling receptor
+tyrosine kinase RET to assemble as a multi-component receptor system. Upon binding
+of NRTN to GFRA2, RET activates downstream signaling pathways including mitogen
+activated protein kinase (MAPK), extracellular signal-regulated kinase 1/2 (ERK1/2)
+and AKT. In-vitro, we obtained evidence of a direct binding of PGRN
+to GFRA2 which could suggest that GFRA2 may be a signaling receptor for PGRN;
+however, future experiments both in vitro and in
+vivo will be needed to determine the functional consequences of this
+interaction. If it is confirmed that GFRA2 indeed serves as a receptor for PGRN, one
+possible future therapeutic avenue could be to enhance their binding, e.g. by using
+small molecules or compounds. Another possibility, which is not mutually exclusive,
+is that PGRN and GFRA2 are part of independent neurotrophic signaling pathways. In
+this scenario, reduced neurotrophic signaling in GFRA2 risk allele
+carriers may facilitate the development of symptoms in GRN mutation
+carriers, which are already vulnerable as a result of reduced neurotrophic PGRN
+signaling. A loss of neurotrophic GFRA2 signaling may also affect FTLD-TDP type A
+patients without GRN mutations, especially since GFRA2 expression appears to be enriched in the frontal and
+motor cortex, highly vulnerable regions in FTLD ( Supplementary Figure 4C-E ). The
+observation of impaired behavior and memory deficits in GFRA2 knock-out mice further supports this. 18 Excitingly, GDNF (another GFL with preferential binding to
+GFRA1) and NRTN have already been extensively studied for their neuroprotective
+potential in Parkinson’s disease (PD) models and clinical trials in PD
+patients have been performed by delivery of GDNF and NRTN as purified proteins or by
+means of viral vector mediated gene delivery to the brain. 19 – 21 While none of these studies have yet shown efficacy in clinical
+trials, the brain delivery of GFLs was found to be safe and provides hope that
+modified gene-therapy approaches to boost GFRA2/NRTN signaling could be developed
+and tested in the context of sporadic FTLD and GRN patients.
+
+Our study did not identify genome-wide significant associations with age at
+disease onset. Variability in the clinical presentation of FTLD and the subjective
+nature of defining disease onset may have contributed to this, especially since 40
+clinical centers contributed data to this study. The focus on unrelated symptomatic
+patients as opposed to extended families where a more limited number of genetic
+factors are expected to contribute to disease onset may have further limited our
+ability to observe significant association. One previous study in 4 large families
+reported a 13 year decrease in onset age for carriers of the TMEM106B risk allele 10 ; however, no association with age at onset was observed for TMEM106B in our study (rs3173615, p=0 87, Beta=−0 12,
+95% CI 1–59-1 35).
+
+Our study also has limitations. First, only symptomatic unrelated GRN mutation carriers were included in the analysis. Individual GRN families were generally small with limited numbers of
+symptomatic and informative asymptomatic carriers available, limiting the ability to
+perform family-based studies. Second, since patient samples were collected in
+various countries, population stratification could bias the results. To address this
+issue, we combined publically available control genotype data with newly generated
+genotypes from control individuals ascertained in Italy and Spain, allowing each
+patient to be matched to 3 geographical controls, followed by standard methodology
+to correct for any remaining bias. Importantly, detailed analysis at the newly
+identified putative GFRA2 locus across geographical populations,
+showed consistent ORs associated with the lead variant (rs36196656) ( Supplementary Table 10 ). Third,
+FTLD-TDP type A patients without GRN mutations were included in the
+replication stage. While this broadens the potential impact of TMEM106B and GFRA2 associations to sporadic
+FTLD patients, our approach likely discounted a number of genetic modifiers specific
+to GRN mutation carriers. Finally, our functional studies were
+limited to GFRA2 and thus it remains possible that other genes in addition to GFRA2 may contribute to the observed association on chromosome
+8.
+
+In conclusion, this is the first large-scale genome-wide association study
+focused on genetic modifiers in patients with GRN mutations and the
+first study in a homogenous cohort of genetically defined FTLD patients. Two loci - TMEM106B and GFRA2 - were shown to harbor
+genetic variants able to modify the disease risk. These modifiers may inform genetic
+counselling in families and could aid in future clinical trial designs. More
+importantly, identification of these modifiers in human subjects supports TMEM106B
+and GFRA2-related pathways as potential targets for therapies. Accordingly,
+improving lysosomal function and/or increasing GFRA2 expression or signaling in
+FTLD-relevant brain areas may be viable treatment options and important areas for
+future research which could complement the current translational research efforts
+focused on increasing GRN levels. 22 – 24
+
+Mutations in the progranulin gene (GRN) are an
+important cause of frontotemporal lobar degeneration with TDP-43 pathology
+(FTLD-TDP). Pathogenic mutations are heterozygous and cause disease through
+a uniform mechanism leading to 50% loss of functional progranulin protein
+(PGRN). We searched for the terms “GRN” OR
+“PGRN” AND “onset age variability” in PubMed on
+January 30 th 2018 including all publications from the database
+inception and identified seven publications reporting large age at onset
+variability among GRN mutation carriers, suggesting that
+genetic modifiers may be in part responsible for the phenotypic
+presentation. We also searched PubMed with the terms “GRN” OR
+“PGRN” AND “Genome-wide association study” for
+reports published on January 30 th 2018, without restriction on
+language of publication and including all publications from the database
+inception and identified one previous study focused on FTLD-TDP which
+included 80 GRN mutation carriers in a genome-wide
+association analyses. That study identified TMEM106B as a
+risk factor in FTLD-TDP patients, with a particular strong effect in GRN mutation carriers, suggesting an effect of TMEM106B variants on disease penetrance in individuals
+with GRN mutations. No other genome-wide association
+studies in GRN patients have been performed prior to the
+current study.
+
+Through international collaborations we were able to use a 5-fold
+larger cohort of patients with GRN mutations compared to
+the previous genome-wide association study. Importantly, using a two-stage
+association study, we confirmed the TMEM106B locus as the
+most important modifier of disease risk in GRN mutation
+carriers and we were able to estimate that GRN carriers of
+the TMEM106B protective haplotype (tagged by the
+‘G’ allele of rs3173615) have 50% lower odds to develop
+disease symptoms as compared to non-protective haplotype carriers. We also
+newly identified the GFRA2 locus on chromosome 8p21.3 as a
+potential genome-wide significant modifier of disease risk in patients with GRN mutations. The lead variant at the GFRA2 locus (rs36196656) is located within GFRA2 intron 3 and was shown to affect the expression
+profile of GFRA2.
+
+Functional studies also showed that PGRN binds to GFRA2 in
+vitro.
+
+The identification of genetic variants in TMEM106B and GFRA2 as modifiers of the disease risk in patients with GRN mutations provides new avenues towards biomarker
+discovery and the development of therapeutic approaches for FTLD patients.
+These genetic variants might further inform genetic counselling in families
+and could aid in future clinical trial designs.

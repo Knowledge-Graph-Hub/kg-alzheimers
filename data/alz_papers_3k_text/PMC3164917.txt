@@ -1,0 +1,5 @@
+# Title
+Presenilin 1 Regulates Homeostatic Synaptic Scaling Through Akt Signaling
+
+# Abstract
+Neurons in vivo and in vitro adapt to long-lasting changes in network activity by adjusting their synaptic strengths to stabilize firing rates. Here we show that homeostatic scaling of excitatory synapses is impaired in mouse hippocampal neurons lacking presenilin 1 ( PS1 −/− ) or expressing a familial Alzheimer’s disease-linked PS1 mutation ( PS1 M146V ). These findings suggest that deficits in synaptic homeostasis may contribute to brain dysfunction in Alzheimer’s disease.

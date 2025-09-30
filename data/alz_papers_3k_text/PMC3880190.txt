@@ -1,0 +1,5 @@
+# Title
+Sleep Drives Metabolite Clearance from the Adult Brain
+
+# Abstract
+The conservation of sleep across all animal species suggests that sleep serves a vital function. We here report that sleep has a critical function in ensuring metabolic homeostasis. Using real-time assessments of tetramethylammonium diffusion and two-photon imaging in live mice, we show that natural sleep or anesthesia are associated with a 60% increase in the interstitial space, resulting in a striking increase in convective exchange of cerebrospinal fluid with interstitial fluid. In turn, convective fluxes of interstitial fluid increased the rate of β-amyloid clearance during sleep. Thus, the restorative function of sleep may be a consequence of the enhanced removal of potentially neurotoxic waste products that accumulate in the awake central nervous system.

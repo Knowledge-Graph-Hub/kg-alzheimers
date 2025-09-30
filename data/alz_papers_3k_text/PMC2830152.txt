@@ -1,0 +1,5 @@
+# Title
+Polyglutamine Dances the Conformational Cha-Cha-Cha
+
+# Abstract
+While polyglutamine repeats appear in dozens of human proteins, high-resolution structural analysis of these repeats in their native context has eluded researchers. Kim et al. now describe multiple crystal structures and demonstrate that polyglutamine in huntingtin dances through multiple conformations.

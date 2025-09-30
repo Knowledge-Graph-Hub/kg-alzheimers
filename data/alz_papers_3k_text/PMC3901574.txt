@@ -1,0 +1,333 @@
+# Title
+Direct Observation of Heterogeneous Amyloid Fibril
+Growth Kinetics via Two-Color Super-Resolution Microscopy
+
+# Abstract
+ The
+self-assembly of normally soluble proteins into fibrillar amyloid
+structures is associated with a range of neurodegenerative disorders,
+such as Parkinson’s and Alzheimer’s diseases. In the
+present study, we show that specific events in the kinetics of the
+complex, multistep aggregation process of one such protein, α-synuclein,
+whose aggregation is a characteristic hallmark of Parkinson’s
+disease, can be followed at the molecular level using optical super-resolution
+microscopy. We have explored in particular the elongation of preformed α-synuclein
+fibrils; using two-color single-molecule localization microscopy we
+are able to provide conclusive evidence that the elongation proceeds
+from both ends of the fibril seeds. Furthermore, the technique reveals
+a large heterogeneity in the growth rates of individual fibrils; some
+fibrils exhibit no detectable growth, whereas others extend to more
+than ten times their original length within hours. These large variations
+in the growth kinetics can be attributed to fibril structural polymorphism.
+Our technique offers new capabilities in the study of amyloid growth
+dynamics at the molecular level and is readily translated to the study
+of the self-assembly of other nanostructures.
+
+## Amyloid Growth from Seed Fibrils Is a Bidirectional
+Process
+In order to visualize α-synuclein fibrils using d STORM, we prepared separate batches of covalently labeled
+cysteine
+variants (N122C) of the protein with Alexa Fluor 647 (AF647) and with
+Alexa Fluor 568 (AF568) dyes (Invitrogen, Carlsbad, CA, U.S.A.) (see
+Materials and Methods in Supporting Information ). We verified that the dye labels do not interfere with the aggregation
+process and that the fibril morphology and the kinetics of fibril
+formation are indistinguishable from those of the unlabeled protein,
+as revealed by AFM and ThT assays (see Supporting
+Information ). We chose to use direct covalent labeling of α-synuclein
+rather than immunofluorescence staining because of the very small
+size of the Alexa dye labels compared to antibody molecules, and because
+of the high specificity of labeling afforded by use of covalent linkages,
+both of which result in an increase in the resolution of the imaging
+process. 25 , 26 We found the optimal labeling ratio for
+two-color d STORM to be ca. 1:20 for the fraction
+of labeled relative to unlabeled protein; too high a labeling density
+would compromise resolution (by increasing the likelihood that proximate
+fluorophores emit simultaneously and therefore cause mislocalization)
+and might potentially lead to steric interferences of the dye with
+the amyloid protein. Figure 1 a,c show the conventional,
+diffraction limited fluorescence images of α-synuclein fibrils;
+the corresponding d STORM images are shown in Figure 1 b,d. From the d STORM images, we
+inferred an average fibril diameter of 18 ± 2 nm, which shows
+that the resolution achieved approaches that of techniques such as
+AFM. 29
+
+Comparison of conventional fluorescence
+and super-resolution images
+of directly labeled amyloid fibrils of α-synuclein: (a,c) conventional
+(diffraction limited) fluorescence images of the fibrils, labeled
+with AF647 and AF568, respectively; (b,d) corresponding d STORM images, demonstrating the dramatic resolution enhancement obtainable
+over conventional imaging.
+
+Having established that α-synuclein fibrils can be
+reliably
+imaged using our super-resolution technique, we proceeded to perform
+two-color d STORM experiments and to analyze the dynamics
+of fibril growth. We visualized the process of fibril elongation using
+a seeded aggregation assay; 30 , 31 the starting point
+was a solution of preformed fibrils of α-synuclein with an average
+length of 400 nm, labeled at 5% with AF568 (green) (see Materials
+and Methods in Supporting Information for
+details). At the start of each such assay, a solution containing α-synuclein
+in its monomeric state with 5% of the protein molecules labeled with
+AF647 (red) was added to the initial sample at a 10-fold excess (by
+mass); under these conditions the only relevant molecular process
+is elongation, 31 , 32 permitting the direct measurement
+of the rates of this specific process. The solution was left to incubate
+for 24 h at 37 °C and under quiescent conditions in which breakage
+of fibrils is minimal. At different time points during the aggregation
+reaction aliquots were taken from the solution and deposited onto
+glass coverslip chambers containing photoswitching buffer, optimized
+for two-color d STORM (see Materials and Methods in Supporting Information ). The fibrils had therefore
+been allowed to elongate in bulk solution in the absence of any sample-substrate
+interactions that might have affected the growth kinetics. 11 , 13 Figure 2 shows the elongation of the seed
+fibrils as a function of time. In Figure 2 a,
+the seed fibrils, labeled with green AF568, are shown before addition
+of the monomeric protein. At the beginning of the experiment ( t = 0 h) monomeric protein labeled with red AF647 was added
+and two-color super-resolution images were recorded at different time
+points during 24 h of fibril growth, as shown in Figure 2 b–h.
+
+Using two-color d STORM
+we are able to distinguish
+between the seed fibrils initially present (indicated by arrowheads
+and rendered in green color) and the freshly added protein (indicated
+by arrows and rendered in red color). We can therefore monitor the
+process of fibril elongation over hours or even days in the absence
+of any destructive sample preparation steps such as drying or shaking,
+which are known to induce breakage. Indeed, fibril breakage was observed
+to be negligible in our experiments, as all fibrils we had imaged
+contained either elements of both green fluorescence (AF568 from the
+seed species) and red fluorescence (AF647, signifying the newly added
+protein), or just green fluorescence (AF568, the latter also indicating
+that no detectable growth had taken place); no fibrils were observed
+that were solely labeled with red fluorophores, indicating that neither
+monomer nucleation, nor fibril breakage were significant under the
+experimental conditions reported here. In contrast to conventional
+TIRF fluorescence imaging (Figure 2 i), two-color d STORM (Figure 2 h) clearly distinguishes
+between the original fibril seeds and the grown regions of the fibrils.
+Importantly, our data establish unambiguously that α-synuclein
+fibril elongation under the conditions used here is a bidirectional
+process, that is, that it proceeds from both ends of fibril seeds.
+In previous experiments, both bidirectional 10 , 12 , 13 and unidirectional 6 , 7 , 9 growth of different amyloid fibrils such
+as Aβ, amylin, and α-synuclein have been reported, although
+issues such as substrate interference with fibril growth could not
+be excluded, or the resolution from conventional techniques was limited.
+Here, the elongation reaction occurs in an undisturbed environment
+in bulk solution, and hence is unaffected by such interference. Furthermore,
+the resolution achieved with two-color d STORM enables
+to conclusively establish that fibril growth is bidirectional.
+
+We performed additional control experiments using solutions containing
+either seed fibrils in the absence of monomeric protein, or solutions
+containing monomeric protein in the absence of seed fibrils. Incubation
+of these samples for 24 h at 37 °C resulted in no observable
+fibril elongation or fibril formation (see Supporting
+Information Figure 3). These results confirm that seed fibrils
+are inert in the absence of monomeric protein and therefore do not,
+for example, join together by mutual interaction of their free ends.
+Also, de novo formation of α-synuclein amyloid
+fibrils via primary nucleation occurs at a negligible rate relative
+to fibril growth, confirming elongation of seeds as the only significant
+process during the aggregation reactions presented here.
+
+## Analysis of Fibril
+Elongation Kinetics Reveals Inhomogeneous
+Growth Rates and Distinct Fibril Populations
+In order to
+investigate possible variations in growth kinetics for individual
+fibrils, we analyzed multiple d STORM images of growing
+fibrils, recorded at different time points during the aggregation
+reaction and in different regions of the glass coverslips (see Materials
+and Methods in Supporting Information for
+details); we then studied the distribution of elongation values as
+a function of time. In Figure 3 a, histograms
+of the measured elongation lengths of individual fibrils are shown
+( d STORM, red channel) for different time points up
+to 24 h of the aggregation reaction. The width of the observed distributions
+of fibril elongation values can be seen to increase significantly
+with time; for example, after t = 24 h, some fibrils
+have reached lengths of up to 7 μm, but others show either no,
+or only a very small, increase in length. In Figure 3 b, we have plotted the histograms of the corresponding average
+growth “velocities” (calculated as the length increase
+divided by the overall growth time) at the same time points as depicted
+in Figure 3 a. These histograms show that the
+variation in elongation rates remains approximately constant over
+time, indicating that at each time point there is a range of fibrils
+displaying distinct growth rates.
+
+We further investigated the
+two extreme elongation values; namely the frequency of the occurrence
+of seeds that show no detectable growth (denoted by the absence of
+any red regions that would indicate that fibril elongation had taken
+place) or that of species exhibiting very fast growth rates. The most
+striking feature of the data presented in Figure 3 c is that a significant proportion of seed fibrils (17%) did
+not exhibit any growth in the presence of monomeric protein and remained
+at their initial length. 100 In contrast,
+the majority of the fibrils (63%) grew up to 10 times their initial
+length in 24 h; indeed, a small fraction of fibrils (20%) grew more
+than 10 times their initial length. Taking the average of all individual
+rates observed, including data from fibrils that had not elongated,
+we obtained a mean growth rate of 1.4 nm/min over 24 h, with a standard
+deviation of 1 nm/min, which is in good agreement with the values
+for average growth rates obtained using ThT ensemble measurements. 31 Clearly, the observed ensemble kinetics are
+a consequence of a larger number of elementary reaction steps that
+cannot be resolved in ensemble measurements in which it is assumed
+that the growth of all fibrils contributes equally to the observed
+total increase in fibril mass. Of particular interest is the finding
+that some seed fibrils remain inactive throughout the entire duration
+of the experiment (24 h) that suggests that individual seeds can have
+very different elongation capacities.
+
+Two-color d STORM images
+reveal details of the
+elongation of α-synuclein fibrils through addition of soluble
+protein molecules, in vitro . (a) The initial sample
+consists of α-synuclein seed fibrils at 8 μM concentration,
+labeled with AF568 (green). At t = 0 h, monomeric
+α-synuclein at a total concentration of 80 μM (76 μM
+wild type, 4 μM AF647-labeled N122C) (red) was added to the
+solution. (b–h) Aliquots were taken during the aggregation
+reaction and imaged with two-color d STORM. The images
+show the overlay of the two channels (green, AF568 and red, AF647).
+The time points after the initiation of aggregation are (b) t = 1 h, (c) t = 2 h, (d) t = 3 h, (e) t = 5 h, (f) t = 6
+h, and (g,h) t = 24 h. Each fibril consists of the
+initial seed (green, indicated by an arrowhead) and the extended region
+formed through addition of monomeric protein (red, indicated by an
+arrow). The lengths of the fibrils reach several micrometers with
+the initial seed fibril being extended from both ends. (h) Two-color d STORM image of a fibril at t = 24 h and
+(i) conventional fluorescence image in TIRF of the same fibril as
+in (h), showing that the increase in resolution achieved by d STORM enables the original and the newly formed section
+of the fibril to be clearly distinguished.
+
+## The Mechanism of α-Synuclein Fibril Elongation Deviates
+from a Purely Stochastic Process Involving Random Growth
+To gain insights into possible molecular mechanisms underlying the
+observed variations in elongation rates we carried out a more detailed
+analysis of rate distributions and studied the results in the context
+of different models of fibril elongation. For a random (stochastic)
+process involving discrete events, such as the addition of monomeric
+protein molecules to fibril ends, the probability of a certain number
+of these events occurring in a given time is governed by Poisson statistics.
+In each histogram of Figure 3 a, we have therefore
+overlaid curves depicting the corresponding Poisson distributions
+for the number of attached monomers, based on the averages of the
+elongation values obtained from the histograms and assuming that addition
+of a single monomer of α-synuclein leads to a fibril length
+increase of 0.5 nm. 31 The data indicate
+that the measured distributions are not at all represented by Poisson
+distributions and that much larger variations in elongation rates
+are observed than predicted by this analysis, again indicating rapid
+growth of certain fibrils whereas others exhibit imperceptible growth,
+as schematically depicted in Figure 4 .
+
+A different model to account for inhomogenous growth kinetics invokes
+the so-called “stop-and-go” mechanism, which has been
+discussed for amyloid fibrils of Aβ 25–35 14 and glucagon. 16 In
+these studies, it was proposed that the origin of the observed switching
+between active (“go”) and inactive (“stop”)
+states lies in the occasional incorrect addition of a monomer onto
+a fibril end, such that the templating effect is lost until this monomer
+detaches or rearranges into the correctly folded state. 33 The consistency of this hypothesis with the
+reported in these studies data can, however, be probed by a simple
+argument; the free energy barrier for the dissociation of a correctly
+incorporated monomer from a fibril end must represent an upper bound
+for the energy barrier of dissociation, or for the rearrangement of
+improperly attached monomers, given that the correctly incorporated
+monomer is likely to represent the minimum in the free energy landscape. 34 The data presented in ref ( 14 ) allowed the elongation
+rate constants during the growth phases, k + , to be determined as ∼10 6 M –1 s –1 and the critical concentration, c crit to be ∼10 μM. At equilibrium, the fluxes
+of growth and dissociation are equal, and therefore the equilibrium
+constant is K = 1/ c crit = k + / k off , where k off is the rate constant of
+dissociation. From this analysis we estimate k off ≈ 10 s –1 , which represents a rate
+more than 2 orders of magnitude faster than that of switching between
+the growth-incompetent and the growth-competent states reported in
+ref ( 14 ) (∼0.03
+s –1 ). It therefore seems likely that additional
+factors determine the duration of the inactive periods in the experiments
+reported; one possibility is interactions with the surfaces on which
+the fibrils grow. In the present study, the seed fibrils grow in solution
+and are only deposited onto a surface for imaging, therefore minimizing
+such additional interactions.
+
+Histograms of the distributions of elongation
+lengths (corresponding
+to the newly formed (red) regions) of seed fibrils. The histograms
+in panel (a) show the relative frequency of different elongation lengths
+obtained at 1, 3, 6, and 24 h. A curve depicting the Poisson distribution
+for the number of attached monomers with the same average value as
+the average elongation value obtained from the histogram is overlaid
+at each time point. The x -axis label, k , corresponds to the number of attached monomers divided by 2, assuming
+that each monomer has a length of 0.5 nm. (b) Histograms showing the
+relative frequency of the mean growth “velocities” over
+the same time points as in (a). The bin size is 0.05 μm/h. (c)
+Diagram summarizing the distribution of the elongation values of fibrils
+at the end of the incubation process ( t = 24 h).
+Black bar: percentage of fibrils that exhibit zero growth (no detectable
+red regions). Blue bar: percentage of fibrils that have grown to a
+size ranging from the lowest detectable length to up to 10 times the
+length of the initial seed. Violet bar: percentage of fibrils that
+have elongated by more than 10 times the length of the initial seed
+fibril.
+
+Schematic diagram of the elongation of α-synuclein
+seed fibrils,
+depicting the different mechanisms that influence fibril growth. The
+green cylinders correspond to fibrillar seeds labeled with Alexa Fluor
+568 and the red spheres correspond to the monomeric protein labeled
+with Alexa Fluor 647. k e denotes the average
+elongation rate constant.
+
+We next explored whether or not the heterogeneous growth
+kinetics
+for individual fibrils observed in our experiments are compatible
+with a “stop-and-go” model. Looking at the histograms
+in Figure 3 it is apparent that some fibrils
+have inactive periods of several hours. Assuming that a fibril will
+become active again when an incorrectly folded monomer becomes detached
+at its end we can estimate using similar arguments as above whether
+this time scale is compatible with such a hypothesis: using a critical
+concentration of α-synuclein of ∼2 μM, 34 and the determined average growth rate of k + ≈ 10 3 ± 375 M –1 s –1 (this work and ref ( 31 )) we obtain an estimate for the lower bound for
+the average dissociation rate, k off ≈
+(2.0 ± 0.8) × 10 –3 s –1 . Although this value may deviate from that for individual fibrils,
+it cannot account for the observation that some fibrils are inactive
+for the entire duration of the experiment, that is, for at least 24
+h. Additionally, since this process should affect fibrils of all lengths
+equally, it is unlikely to provide an explanation of the observed
+heterogeneity in fibril elongation rates. Therefore we suggest the
+following alternative explanations:
+
+(1) Certain amyloid templates/seeds
+are not efficient in recruiting
+monomeric protein, leading to different fibril morphologies and growth
+rates (fibril polymorphism). 35 This mechanism
+has been proposed for several proteins such as the yeast prion Sup35, 36 − 38 glucagon, 39 Aβ, 40 − 44 tau, 45 and α-synuclein. 46 , 47
+
+(2) The spatial arrangement of fibrils, for example, because
+of
+assembly into higher order structures 31 or variations in protofilament organization, 41 may block the access needed for monomers to attach to fibril
+ends. Additionally, the ends of seed fibrils may become damaged during
+production, although this is unlikely here, because neither sample
+drying nor harsh fragmentation methods, such as sonication, were used.
+
+In conclusion, we have demonstrated the development and application
+of two-color d STORM as a powerful tool for the visualization
+of α-synuclein fibril growth from seed templates and have carried
+out a quantitative analysis of the kinetics of this process. With
+this technique, we are able to distinguish de novo growth of fibrils from the original seed and to follow elongation
+at nanometer resolution. Our method proves conclusively that α-synuclein
+fibril elongation, under the conditions used here, is a bidirectional
+process. In addition, no end-to-end association of seed fibrils was
+observed to occur and elongation of seeds was evident only in the
+presence of monomeric protein. The kinetics of fibril growth are not
+adequately described by a single elongation rate parameter; rather,
+a large variation in growth rates was found to exist. The observed
+process is neither consistent with a “stop-and-go” type
+mechanism in which misfolded species at the fibril end need to be
+removed before growth can resume, nor with the notion that monomer
+addition is a diffusion controlled, stochastic process, for which
+variations in growth rates would be much smaller. We therefore suggest
+two alternative mechanisms that can be explored in future studies.
+Furthermore, the methodology described here can be readily extended
+to in situ applications in biological samples, for
+example, to monitor aggregation within cells and to elucidate the
+various parameters that affect fibril growth. It could also be used
+to identify different fibril strains, which may arise in vivo , and to investigate their role in the production and spreading of
+amyloidogenic species in disease.

@@ -1,0 +1,5 @@
+# Title
+A fast link between face perception and memory in the temporal pole
+
+# Abstract
+The question of how the brain recognizes the faces of familiar individuals has been important throughout the history of neuroscience. Cells linking visual processing to person memory have been proposed, but not found. Here we report the discovery of such cells through recordings from an fMRI-identified area in the macaque temporal pole. These cells responded to faces when they were personally familiar. They responded non-linearly to step-wise changes in face visibility and detail, and holistically to face parts, reflecting key signatures of familiar face recognition. They discriminated between familiar identities, as fast as a general face identity area. The discovery of these cells establishes a new pathway for the fast recognition of familiar individuals.

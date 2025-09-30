@@ -1,0 +1,5 @@
+# Title
+S-Nitrosylation of Drp1 Mediates β-Amyloid–Related Mitochondrial Fission and Neuronal Injury
+
+# Abstract
+Mitochondria continuously undergo two opposing processes, fission and fusion. The disruption of this dynamic equilibrium may herald cell injury or death and may contribute to developmental and neurodegenerative disorders. Nitric oxide functions as a signaling molecule, but in excess it mediates neuronal injury, in part via mitochondrial fission or fragmentation. However, the underlying mechanism for nitric oxide–induced pathological fission remains unclear. We found that nitric oxide produced in response to β-amyloid protein, thought to be a key mediator of Alzheimer’s disease, triggered mitochondrial fission, synaptic loss, and neuronal damage, in part via S-nitrosylation of dynamin-related protein 1 (forming SNO-Drp1). Preventing nitrosylation of Drp1 by cysteine mutation abrogated these neurotoxic events. SNO-Drp1 is increased in brains of human Alzheimer’s disease patients and may thus contribute to the pathogenesis of neurodegeneration.

@@ -1,0 +1,5 @@
+# Title
+Tau protein function in living cells
+
+# Abstract
+Tau protein from mammalian brain promotes microtubule polymerization in vitro and is induced during nerve cell differentiation. However, the effects of tau or any other microtubule-associated protein on tubulin assembly within cells are presently unknown. We have tested tau protein activity in vivo by microinjection into a cell type that has no endogenous tau protein. Immunofluorescence shows that tau protein microinjected into fibroblast cells associates specifically with microtubules. The injected tau protein increases tubulin polymerization and stabilizes microtubules against depolymerization. This increased polymerization does not, however, cause major changes in cell morphology or microtubule arrangement. Thus, tau protein acts in vivo primarily to induce tubulin assembly and stabilize microtubules, activities that may be necessary, but not sufficient, for neuronal morphogenesis.

@@ -1,0 +1,5 @@
+# Title
+Identification and Rescue of α-Synuclein Toxicity in Parkinson Patient-Derived Neurons
+
+# Abstract
+The induced pluripotent stem (iPS) cell field promises a new era for in vitro disease modeling. However, identifying innate cellular pathologies, particularly for age-related neurodegenerative diseases, has been challenging. Here, we exploited mutation correction of iPS cells and conserved proteotoxic mechanisms from yeast to human to discover and reverse phenotypic responses to α-Synuclein (αSyn), a key protein involved in Parkinson’s disease (PD). We generated cortical neurons from iPS cells of patients harboring αSyn mutations, who are at high risk of developing PD dementia. Genetic modifiers from unbiased screens in a yeast model of αSyn toxicity led to identification of early pathogenic phenotypes in patient neurons. These included nitrosative stress, accumulation of ER-associated degradation (ERAD) substrates and ER stress. A small molecule identified in a yeast screen, and the ubiquitin ligase Nedd4 it activates, reversed pathologic phenotypes in these neurons.

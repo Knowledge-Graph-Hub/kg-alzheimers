@@ -1,0 +1,183 @@
+# Title
+Regularization Paths for Generalized Linear Models via Coordinate Descent
+
+# Abstract
+We develop fast algorithms for estimation of generalized linear models with convex penalties. The models include linear regression, two-class logistic regression, and multinomial regression problems while the penalties include ℓ 1 (the lasso), ℓ 2 (ridge regression) and mixtures of the two (the elastic net). The algorithms use cyclical coordinate descent, computed along a regularization path. The methods can handle large problems and can also deal efficiently with sparse features. In comparative timings we find that the new algorithms are considerably faster than competing methods.
+
+## 1 Introduction
+The lasso [ Tibshirani, 1996 ] is a popular method for regression that uses an ℓ 1 penalty to achieve a sparse solution. In the signal processing literature, the lasso is also known as basis pursuit [ Chen et al., 1998 ]. This idea has been broadly applied, for example to generalized linear models [ Tibshirani, 1996 ] and Cox’s proportional hazard models for survival data [ Tibshirani, 1997 ]. In recent years, there has been an enormous amount of research activity devoted to related regularization methods: The grouped lasso [ Yuan and Lin, 2007 , Meier et al., 2008 ], where variables are included or excluded in groups; The Dantzig selector [ Candes and Tao, 2007 , and discussion], a slightly modified version of the lasso; The elastic net [ Zou and Hastie, 2005 ] for correlated variables, which uses a penalty that is part ℓ 1 , part ℓ 2 ; ℓ 1 regularization paths for generalized linear models [ Park and Hastie, 2007 ]; Regularization paths for the support-vector machine [ Hastie et al., 2004 ]. The graphical lasso [ Friedman et al., 2008 ] for sparse covariance estimation and undirected graphs
+
+The grouped lasso [ Yuan and Lin, 2007 , Meier et al., 2008 ], where variables are included or excluded in groups;
+
+The Dantzig selector [ Candes and Tao, 2007 , and discussion], a slightly modified version of the lasso;
+
+The elastic net [ Zou and Hastie, 2005 ] for correlated variables, which uses a penalty that is part ℓ 1 , part ℓ 2 ;
+
+ℓ 1 regularization paths for generalized linear models [ Park and Hastie, 2007 ];
+
+Regularization paths for the support-vector machine [ Hastie et al., 2004 ].
+
+The graphical lasso [ Friedman et al., 2008 ] for sparse covariance estimation and undirected graphs
+
+Efron et al. [2004] developed an efficient algorithm for computing the entire regularization path for the lasso. Their algorithm exploits the fact that the coefficient profiles are piecewise linear, which leads to an algorithm with the same computational cost as the full least-squares fit on the data (see also Osborne et al. [2000] ).
+
+In some of the extensions above [2,3,5], piecewise-linearity can be exploited as in Efron et al. [2004] to yield efficient algorithms. Rosset and Zhu [2007] characterize the class of problems where piecewise-linearity exists—both the loss function and the penalty have to be quadratic or piecewise linear.
+
+Here we instead focus on cyclical coordinate descent methods. These methods have been proposed for the lasso a number of times, but only recently was their power fully appreciated. Early references include Fu [1998] , Shevade and Keerthi [2003] and Daubechies et al. [2004] . Van der Kooij [2007] independently used coordinate descent for solving elastic-net penalized regression models. Recent rediscoveries include Friedman et al. [2007] and Wu and Lange [2008a] . The first paper recognized the value of solving the problem along an entire path of values for the regularization parameters, using the current estimates as warm starts. This strategy turns out to be remarkably efficient for this problem. Several other researchers have also re-discovered coordinate descent, many for solving the same problems we address in this paper—notably Shevade and Keerthi [2003] , Krishnapuram and Hartemink [2005] , Genkin et al. [2007] and Wu et al. [2009] .
+
+In this paper we extend the work of Friedman et al. [2007] and develop fast algorithms for fitting generalized linear models with elastic-net penalties. In particular, our models include regression, two-class logistic regression, and multinomial regression problems. Our algorithms can work on very large datasets, and can take advantage of sparsity in the feature set. We provide a publicly available R package glmnet. We do not revisit the well-established convergence properties of coordinate descent in convex problems [ Tseng, 2001 ] in this article.
+
+Lasso procedures are frequently used in domains with very large datasets, such as genomics and web analysis. Consequently a focus of our research has been algorithmic efficiency and speed. We demonstrate through simulations that our procedures outperform all competitors — even those based on coordinate descent.
+
+In section 2 we present the algorithm for the elastic net, which includes the lasso and ridge regression as special cases. Section 3 and 4 discuss (two-class) logistic regression and multinomial logistic regression. Comparative timings are presented in Section 5.
+
+## 2 Algorithms for the Lasso, Ridge Regression and the Elastic Net
+We consider the usual setup for linear regression. We have a response variable Y ∈ ℝ and a predictor vector X ∈ ℝ p , and we approximate the regression function by a linear model E ( Y | X = x ) = β 0 + x T β. We have N observation pairs ( x i , y i ). For simplicity we assume the x ij are standardized: ∑ i = 1 N x ij = 0 , 1 N ∑ i = 1 N x ij 2 = 1 , for j = 1 , … , p . Our algorithms generalize naturally to the unstandardized case. The elastic net solves the following problem (1) min ( β 0 , β ) ∈ ℝ p + 1 [ 1 2 N ∑ i = 1 N ( y i − β 0 − x i T β ) 2 + λ P α ( β ) ] , where (2) P α ( β ) = ( 1 − α ) 1 2 ‖ β ‖ ℓ 2 2 + α ‖ β ‖ ℓ 1 (3) = ∑ j = 1 p [ 1 2 ( 1 − α ) β j 2 + α | β j | ] is the elastic-net penalty [ Zou and Hastie, 2005 ]. P α is a compromise between the ridge-regression penalty (α = 0) and the lasso penalty (α = 1). This penalty is particularly useful in the p ≫ N situation, or any situation where there are many correlated predictor variables.
+
+Ridge regression is known to shrink the coefficients of correlated predictors towards each other, allowing them to borrow strength from each other. In the extreme case of k identical predictors, they each get identical coefficients with 1/ k th the size that any single one would get if fit alone. From a Bayesian point of view, the ridge penalty is ideal if there are many predictors, and all have non-zero coefficients (drawn from a Gaussian distribution).
+
+Lasso, on the other hand, is somewhat indifferent to very correlated predictors, and will tend to pick one and ignore the rest. In the extreme case above, the lasso problem breaks down. The Lasso penalty corresponds to a Laplace prior, which expects many coefficients to be close to zero, and a small subset to be larger and nonzero.
+
+The elastic net with α = 1 − ε for some small ε > 0 performs much like the lasso, but removes any degeneracies and wild behavior caused by extreme correlations. More generally, the entire family P α creates a useful compromise between ridge and lasso. As α increases from 0 to 1, for a given λ the sparsity of the solution to (1) (i.e. the number of coefficients equal to zero) increases monotonically from 0 to the sparsity of the lasso solution.
+
+Figure 1 shows an example. The dataset is from [ Golub et al., 1999b ], consisting of 72 observations on 3571 genes measured with DNA microarrays. The observations fall in two classes: we treat this as a regression problem for illustration. The coefficient profiles from the first 10 steps (grid values for λ) for each of the three regularization methods are shown. The lasso admits at most N = 72 genes into the model, while ridge regression gives all 3571 genes non-zero coefficients. The elastic net provides a compromise between these two methods, and has the effect of averaging genes that are highly correlated and then entering the averaged gene into the model. Using the algorithm described below, computation of the entire path of solutions for each method, at 100 values of the regularization parameter evenly spaced on the log-scale, took under a second in total. Because of the large number of non-zero coefficients for ridge regression, they are individually much smaller than the coefficients for the other methods.
+
+Consider a coordinate descent step for solving (1) . That is, suppose we have estimates β̃ 0 and β̃ ℓ for ℓ ≠ j , and we wish to partially optimize with respect to β j . Denote by R (β 0 , β) the objective function in (1) . We would like to compute the gradient at β j = β̃ j , which only exists if β̃ j ≠ 0. If β̃ j > 0, then (4) ∂ R ∂ β j | β = β ˜ = − 1 N ∑ i = 1 N x ij ( y i − β ˜ o − x i T β ˜ ) + λ ( 1 − α ) β j + λ α .
+
+A similar expression exists if β̃ j < 0, and β̃ j = 0 is treated separately. Simple calculus shows [ Donoho and Johnstone, 1994 ] that the coordinate-wise update has the form (5) β ˜ j ← S ( 1 N ∑ i = 1 N x ij ( y i − y ˜ i ( j ) ) , λ α ) 1 + λ ( 1 − α ) where y ˜ i ( j ) = β ˜ 0 + ∑ ℓ ≠ j x i ℓ β ˜ ℓ is the fitted value excluding the contribution from x ij , and hence y i − y ˜ i ( j ) the partial residual for fitting β j . Because of the standardization, 1 N ∑ i = 1 n x ij ( y i − y ˜ i ( j ) ) is the simple least-squares coefficient when fitting this partial residual to x ij . S ( z , γ) is the soft-thresholding operator with value (6) sign ( z ) ( | z | − γ ) + = { z − γ if z > 0 and γ < | z | z + γ if z < 0 and γ < | z | 0 if γ ≥ | z | .
+
+y ˜ i ( j ) = β ˜ 0 + ∑ ℓ ≠ j x i ℓ β ˜ ℓ is the fitted value excluding the contribution from x ij , and hence y i − y ˜ i ( j ) the partial residual for fitting β j . Because of the standardization, 1 N ∑ i = 1 n x ij ( y i − y ˜ i ( j ) ) is the simple least-squares coefficient when fitting this partial residual to x ij .
+
+S ( z , γ) is the soft-thresholding operator with value (6) sign ( z ) ( | z | − γ ) + = { z − γ if z > 0 and γ < | z | z + γ if z < 0 and γ < | z | 0 if γ ≥ | z | .
+
+The details of this derivation are spelled out in Friedman et al. [2007] .
+
+Thus we compute the simple least-squares coefficient on the partial residual, apply soft-thresholding to take care of the lasso contribution to the penalty, and then apply a proportional shrinkage for the ridge penalty. This algorithm was suggested by Van der Kooij [2007] .
+
+Looking more closely at (5) , we see that (7) y i − y ˜ i ( j ) = y i − y ^ i + x ij β ˜ j = r i + x ij β ˜ j , where ŷ i is the current fit of the model for observation i , and hence r i the current residual. Thus (8) 1 N ∑ i = 1 N x ij ( y i − y ˜ i ( j ) ) = 1 N ∑ i = 1 N x ij r i + β ˜ j , because the x j are standardized. The first term on the right-hand side is the gradient of the loss with respect to β j . It is clear from (8) why coordinate descent is computationally efficient. Many coefficients are zero, remain zero after the thresholding, and so nothing needs to be changed. Such a step costs O ( N ) operations— the sum to compute the gradient. On the other hand, if a coefficient does change after the thresholding, r i is changed in O ( N ) and the step costs O (2 N ). Thus a complete cycle through all p variables costs O ( pN ) operations. We refer to this as the naive algorithm , since it is generally less efficient than the covariance updating algorithm to follow. Later we use these algorithms in the context of iteratively reweighted least squares (IRLS), where the observation weights change frequently; there the naive algorithm dominates.
+
+Further efficiencies can be achieved in computing the updates in (8) . We can write the first term on the right (up to a factor 1/ N ) as (9) ∑ i = 1 N x ij r i = 〈 x j , y 〉 − ∑ k : | β ˜ k | > 0 〈 x j , x k 〉 β ˜ k , where 〈 x j , y 〉 = ∑ i = 1 N x ij y i . Hence we need to compute inner products of each feature with y initially, and then each time a new feature x k enters the model (for the first time), we need to compute and store its inner product with all the rest of the features ( O ( N p ) operations). We also store the p gradient components (9) . If one of the coefficients currently in the model changes, we can update each gradient in O ( p ) operations. Hence with m non-zero terms in the model, a complete cycle costs O ( pm ) operations if no new variables become non-zero, and costs O ( Np ) for each new variable entered. Importantly, O ( N ) calculations do not have to be made at every step. This is the case for all penalized procedures with squared error loss.
+
+We are sometimes faced with problems where the N × p feature matrix X is extremely sparse. A leading example is from document classification, where the feature vector uses the so-called “bag-of-words” model. Each document is scored for the presence/absence of each of the words in the entire dictionary under consideration (sometimes counts are used, or some transformation of counts). Since most words are absent, the feature vector for each document is mostly zero, and so the entire matrix is mostly zero. We store such matrices efficiently in sparse column format , where we store only the non-zero entries and the coordinates where they occur.
+
+Coordinate descent is ideally set up to exploit such sparsity, in an obvious way. The O ( N ) inner-product operations in either the naive or covariance updates can exploit the sparsity, by summing over only the non-zero entries. Note that in this case scaling of the variables will not alter the sparsity, but centering will. So scaling is performed up front, but the centering is incorporated in the algorithm in an efficient and obvious manner.
+
+Often a weight w i (other than 1/ N ) is associated with each observation. This will arise naturally in later sections where observations receive weights in the IRLS algorithm. In this case the update step (5) becomes only slightly more complicated: (10) β ˜ j ← S ( ∑ i = 1 N w i x ij ( y i − y ˜ i ( j ) ) , λ α ) ) ∑ i = 1 N w i x ij 2 + λ ( 1 − α ) .
+
+If the x j are not standardized, there is a similar sum-of-squares term in the denominator (even without weights). The presence of weights does not change the computational costs of either algorithm much, as long as the weights remain fixed.
+
+We compute the solutions for a decreasing sequence of values for λ, starting at the smallest value λ max for which the entire vector β̂ = 0. Apart from giving us a path of solutions, this scheme exploits warm starts , and leads to a more stable algorithm. We have examples where it is faster to compute the path down to λ (for small λ) than the solution only at that value for λ.
+
+When β̃ = 0, we see from (5) that β̃ j will stay zero if 1 N | 〈 x j , y 〉 | < λ α . Hence N αλ max = max ℓ |〈 x ℓ , y 〉|. Our strategy is to select a minimum value λ min = ελ max , and construct a sequence of K values of λ decreasing from λ max to λ min on the log scale. Typical values are ε = 0.001 and K = 100.
+
+Irrespective of whether the variables are standardized to have variance 1, we always center each predictor variable. Since the intercept is not regularized, this means that β̂ 0 = ȳ , the mean of the y i , for all values of α and λ.
+
+It is easy to allow different penalties λ j for each of the variables. We implement this via a penalty scaling parameter γ j ≥ 0. If γ j > 0, then the penalty applied to β j is λ j = λγ j . If γ j = 0, that variable does not get penalized, and always enters the model unrestricted at the first step and remains in the model. Penalty rescaling would also allow, for example, our software to be used to implement the adaptive lasso [ Zou, 2006 ].
+
+Considerable speedup is obtained by organizing the iterations around the active set of features—those with nonzero coefficients. After a complete cycle through all the variables, we iterate on only the active set till convergence. If another complete cycle does not change the active set, we are done, otherwise the process is repeated. Active-set convergence is also mentioned in Meier et al. [2008] and Krishnapuram and Hartemink [2005] .
+
+## 3 Regularized Logistic Regression
+When the response variable is binary, the linear logistic regression model is often used. Denote by G the response variable, taking values in 𝒢 = {1, 2} (the labeling of the elements is arbitrary). The logistic regression model represents the class-conditional probabilities through a linear function of the predictors (11) Pr ( G = 1 | x ) = 1 1 + e − ( β 0 + x T β ) , Pr ( G = 2 | x ) = 1 1 + e + ( β 0 + x T β ) = 1 − Pr ( G = 1 | x ) .
+
+Alternatively, this implies that (12) log Pr ( G = 1 | x ) Pr ( G = 2 | x ) = β 0 + x T β .
+
+Here we fit this model by regularized maximum (binomial) likelihood. Let p ( x i ) = Pr( G = 1| x i ) be the probability (11) for observation i at a particular value for the parameters (β 0 , β), then we maximize the penalized log likelihood (13) max ( β 0 , β ) ∈ ℝ p + 1 [ 1 N ∑ i = 1 N { I ( g i = 1 ) log p ( x i ) + I ( g i = 2 ) log ( 1 − p ( x i ) ) } − λ P α ( β ) ] .
+
+Denoting y i = I ( g i = 1), the log-likelihood part of (13) can be written in the more explicit form (14) ℓ ( β 0 , β ) = 1 N ∑ i = 1 N y i · ( β 0 + x i T β ) − log ( 1 + e ( β 0 + x i T β ) ) , a concave function of the parameters. The Newton algorithm for maximizing the (unpenalized) log-likelihood (14) amounts to iteratively reweighted least squares. Hence if the current estimates of the parameters are (β̃ 0 , β̃), we form a quadratic approximation to the log-likelihood (Taylor expansion about current estimates), which is (15) ℓ Q ( β 0 , β ) = − 1 2 N ∑ i = 1 N w i ( z i − β 0 − x i T β ) 2 + C ( β ˜ 0 , β ˜ ) 2 where (16) z i = β ˜ 0 + x i T β ˜ + y i − p ˜ ( x i ) p ˜ ( x i ) ( 1 − p ˜ ( x i ) ) , ( working response ) (17) w i = p ˜ ( x i ) ( 1 − p ˜ ( x i ) ) , ( weights ) and p̃ ( x i ) is evaluated at the current parameters. The last term is constant. The Newton update is obtained by minimizing ℓ Q .
+
+Our approach is similar. For each value of λ, we create an outer loop which computes the quadratic approximation ℓ Q about the current parameters (β̃ 0 , β̃). Then we use coordinate descent to solve the penalized weighted least-squares problem (18) min ( β 0 , β ) ∈ ℝ p + 1 { − ℓ Q ( β 0 , β ) + λ P α ( β ) } .
+
+This amounts to a sequence of nested loops: OUTER LOOP: Decrement λ. MIDDLE LOOP: Update the quadratic approximation ℓ Q using the current parameters (β̃ 0 , β̃). INNER LOOP: Run the coordinate descent algorithm on the penalized weighted-least-squares problem (18) .
+
+OUTER LOOP: Decrement λ.
+
+MIDDLE LOOP: Update the quadratic approximation ℓ Q using the current parameters (β̃ 0 , β̃).
+
+INNER LOOP: Run the coordinate descent algorithm on the penalized weighted-least-squares problem (18) .
+
+There are several important details in the implementation of this algorithm. When p ≫ N , one cannot run λ all the way to zero, because the saturated logistic regression fit is undefined (parameters wander off to ±∞ in order to achieve probabilities of 0 or 1). Hence the default λ sequence runs down to λ min = ελ max > 0. Care is taken to avoid coefficients diverging in order to achieve fitted probabilities of 0 or 1. When a probability is within ε = 10 −5 of 1, we set it to 1, and set the weights to ε. 0 is treated similarly. Our code has an option to approximate the Hessian terms by an exact upper-bound. This is obtained by setting the w i in (17) all equal to 0.25 [ Krishnapuram and Hartemink, 2005 ]. We allow the response data to be supplied in the form of a two-column matrix of counts, sometimes referred to as grouped data. We discuss this in more detail in Section 4.2. The Newton algorithm is not guaranteed to converge without step-size optimization [ in Lee et al., 2006 ]. Our code does not implement any checks for divergence; this would slow it down, and when used as recommended we do not feel it is necessary.. We have a closed form expression for the starting solutions, and each subsequent solution is warm-started from the previous close-by solution, which generally makes the quadratic approximations very accurate. We have not encountered any divergence problems so far.
+
+When p ≫ N , one cannot run λ all the way to zero, because the saturated logistic regression fit is undefined (parameters wander off to ±∞ in order to achieve probabilities of 0 or 1). Hence the default λ sequence runs down to λ min = ελ max > 0.
+
+Care is taken to avoid coefficients diverging in order to achieve fitted probabilities of 0 or 1. When a probability is within ε = 10 −5 of 1, we set it to 1, and set the weights to ε. 0 is treated similarly.
+
+Our code has an option to approximate the Hessian terms by an exact upper-bound. This is obtained by setting the w i in (17) all equal to 0.25 [ Krishnapuram and Hartemink, 2005 ].
+
+We allow the response data to be supplied in the form of a two-column matrix of counts, sometimes referred to as grouped data. We discuss this in more detail in Section 4.2.
+
+The Newton algorithm is not guaranteed to converge without step-size optimization [ in Lee et al., 2006 ]. Our code does not implement any checks for divergence; this would slow it down, and when used as recommended we do not feel it is necessary.. We have a closed form expression for the starting solutions, and each subsequent solution is warm-started from the previous close-by solution, which generally makes the quadratic approximations very accurate. We have not encountered any divergence problems so far.
+
+## 4 Regularized Multinomial Regression
+When the categorical response variable G has K > 2 levels, the linear logistic regression model can be generalized to a multi-logit model. The traditional approach is to extend (12) to K − 1 logits (19) log Pr ( G = ℓ | x ) Pr ( G = K | x ) = β 0 ℓ + x T β ℓ , ℓ = 1 , … , K − 1 .
+
+Here β ℓ is a p -vector of coefficients. As in Zhu and Hastie [2004] , here we choose a more symmetric approach. We model (20) Pr ( G = ℓ | x ) = e β 0 ℓ + x T β ℓ ∑ k = 1 K e β 0 k + x T β k This parametrization is not estimable without constraints, because for any values for the parameters { β 0 ℓ , β ℓ } 1 K , { β 0 ℓ − c 0 , β ℓ − c } 1 K give identical probabilities (20) . Regularization deals with this ambiguity in a natural way; see Section 4.1 below.
+
+We fit the model (20) by regularized maximum (multinomial) likelihood. Using a similar notation as before, let p ℓ ( x i ) = Pr( G = ℓ| x i ), and let g i ∈ {1, 2, …, K } be the i th response. We maximize the penalized log-likelihood (21) max { β 0 ℓ , β ℓ } 1 K ∈ ℝ K ( p + 1 ) [ 1 N ∑ i = 1 N log p g i ( x i ) − λ ∑ ℓ = 1 K P α ( β ℓ ) ] .
+
+Denote by Y the N × K indicator response matrix, with elements y i ℓ = I ( g i = ℓ). Then we can write the log-likelihood part of (21) in the more explicit form (22) ℓ ( { β 0 ℓ , β ℓ } 1 K ) = 1 N ∑ i = 1 N [ ∑ ℓ = 1 K y i ℓ ( β 0 ℓ + x i T β ℓ ) − log ( ∑ ℓ = 1 K e β 0 ℓ + x i T β ℓ ) ] .
+
+The Newton algorithm for multinomial regression can be tedious, because of the vector nature of the response observations. Instead of weights w i as in (17) , we get weight matrices , for example. However, in the spirit of coordinate descent, we can avoid these complexities. We perform partial Newton steps by forming a partial quadratic approximation to the log-likelihood (22) , allowing only (β 0ℓ , β ℓ ) to vary for a single class at a time. It is not hard to show that this is (23) ℓ Q ℓ ( β 0 ℓ , β ℓ ) = − 1 2 N ∑ i = 1 N w i ℓ ( z i ℓ − β 0 ℓ − x i T β ℓ ) 2 + C ( { β ˜ 0 k , β ˜ k } 1 K ) , where as before (24) z i ℓ = β ˜ 0 ℓ + x i T β ˜ ℓ + y i ℓ − p ˜ ℓ ( x i ) p ˜ ℓ ( x i ) ( 1 − p ˜ ℓ ( x i ) ) , (25) w i ℓ = p ˜ ℓ ( x i ) ( 1 − p ˜ ℓ ( x i ) ) ,
+
+Our approach is similar to the two-class case, except now we have to cycle over the classes as well in the outer loop. For each value of λ, we create an outer loop which cycles over ℓ and computes the partial quadratic approximation ℓ Q ℓ about the current parameters (β̃ 0 , β̃). Then we use coordinate descent to solve the penalized weighted least-squares problem (26) min ( β 0 ℓ , β ℓ ) ∈ ℝ p + 1 { − ℓ Q ℓ ( β 0 ℓ , β ℓ ) + λ P α ( β ℓ ) } .
+
+This amounts to the sequence of nested loops: OUTER LOOP: Decrement λ. MIDDLE LOOP (OUTER): Cycle over ℓ ∈ {1, 2, …, K , 1, 2, …}. MIDDLE LOOP (INNER): Update the quadratic approximation ℓ Q ℓ using the current parameters { β ˜ 0 k , β ˜ k } 1 K . INNER LOOP: Run the co-ordinate descent algorithm on the penalized weighted-least-squares problem (26) .
+
+OUTER LOOP: Decrement λ.
+
+MIDDLE LOOP (OUTER): Cycle over ℓ ∈ {1, 2, …, K , 1, 2, …}.
+
+MIDDLE LOOP (INNER): Update the quadratic approximation ℓ Q ℓ using the current parameters { β ˜ 0 k , β ˜ k } 1 K .
+
+INNER LOOP: Run the co-ordinate descent algorithm on the penalized weighted-least-squares problem (26) .
+
+As was pointed out earlier, if { β 0 ℓ , β ℓ } 1 K characterizes a fitted model for (20) , then { β 0 ℓ − c 0 , β ℓ − c } 1 K gives an identical fit ( c is a p -vector). Although this means that the log-likelihood part of ( (21) is insensitive to ( c 0 , c ), the penalty is not. In particular, we can always improve an estimate { β 0 ℓ , β ℓ } 1 K (w.r.t. (21) ) by solving (27) min c ∈ ℝ p ∑ ℓ = 1 K P α ( β ℓ − c ) .
+
+This can be done separately for each coordinate, hence (28) c j = arg min t ∑ ℓ = 1 K [ 1 2 ( 1 − α ) ( β j ℓ − t ) 2 + α | β j ℓ − t | ] .
+
+Theorem 1 Consider problem (28) for values α ∈ [0, 1]. Let β̄ j be the mean of the β j ℓ , and β j M a median of the β j ℓ ( and for simplicity assume β ¯ j ≤ β j M . Then we have (29) c j ∈ [ β ¯ j , β j M ] , with the left endpoint achieved if α = 0, and the right if α = 1.
+
+The two endpoints are obvious. The proof of Theorem 1 is given in the appendix . A consequence of the theorem is that a very simple search algorithm can be used to solve (28) . The objective is piecewise quadratic, with knots defined by the β j ℓ . We need only evaluate solutions in the intervals including the mean and median, and those in between.
+
+We recenter the parameters in each index set j after each INNER MIDDLE LOOP step, using the the solution c j for each j .
+
+Not all the parameters in our model are regularized. The intercepts β 0ℓ are not, and with our penalty modifiers γ j (section 2.6) others need not be as well. For these parameters we use mean centering.
+
+As in the two class case, the data can be presented in the form of a N × K matrix m i ℓ of non-negative numbers. For example, if the data are grouped: at each x i we have a number of multinomial samples, with m i ℓ falling into category ℓ. In this case we divide each row by the row-sum m i = ∑ ℓ m i ℓ , and produce our response matrix y i ℓ = m i ℓ / m i . m i becomes an observation weight. Our penalized maximum likelihood algorithm changes in a trivial way. The working response (24) is defined exactly the same way (using y i ℓ just defined). The weights in (25) get augmented with the observation weight m i : (30) w i ℓ = m i p ˜ ℓ ( x i ) ( 1 − p ˜ ℓ ( x i ) ) .
+
+Equivalently, the data can be presented directly as a matrix of class proportions, along with a weight vector. From the point of view of the algorithm, any matrix of positive numbers and any non-negative weight vector will be treated in the same way.
+
+## 5 Timings
+In this section we compare the run times of the coordinate-wise algorithm to some competing algorithms. These use the lasso penalty (α = 1) in both the regression and logistic regression settings. All timings were carried out on an Intel Xeon 2.80GH processor.
+
+We do not perform comparisons on the elastic net versions of the penalties, since there is not much software available for elastic net. Comparisons of our glmnet code with the R package elasticnet will mimic the comparisons with lars for the lasso, since elasticnet is built on the lars package.
+
+We generated Gaussian data with N observations and p predictors, with each pair of predictors X j , X j′ having the same population correlation ρ. We tried a number of combinations of N and p , with ρ varying from zero to 0.95. The outcome values were generated by (31) Y = ∑ j = 1 p X j β j + k · Z where β j = (−1) j exp(−2( j − 1)/20), Z ~ N (0, 1) and k is chosen so that the signal-to-noise ratio is 3.0. The coefficients are constructed to have alternating signs and to be exponentially decreasing.
+
+Table 1 shows the average CPU timings for the coordinate-wise algorithm, and the LARS procedure [ Efron et al., 2004 ]. All algorithms are implemented as R language functions. The coordinate-wise algorithm does all of its numerical work in Fortran, while LARS (written by Efron and Hastie) does much of its work in R, calling Fortran routines for some matrix operations. However comparisons in [ Friedman et al., 2007 ] showed that LARS was actually faster than a version coded entirely in Fortran. Comparisons between different programs are always tricky: in particular the LARS procedure computes the entire path of solutions, while the coordinate-wise procedure solves the problem for a set of pre-defined points along the solution path. In the orthogonal case, LARS takes min( N , p ) steps: hence to make things roughly comparable, we called the latter two algorithms to solve a total of min( N , p ) problems along the path. Table 1 shows timings in seconds averaged over three runs. We see that glmnet is considerably faster than LARS; the covariance-updating version of the algorithm is a little faster than the naive version when N > p and a little slower when p > N . We had expected that high correlation between the features would increase the run time of glmnet, but this does not seem to be the case.
+
+We used the same simulation setup as above, except that we took the continuous outcome y , defined p = 1/(1 + exp(− y )) and used this to generate a two-class outcome z with Prob( z = 1) = p , Prob( z = 0) = 1 − p . We compared the speed of glmnet to the interior point method l1lognet proposed by Koh et al. [2007] , Bayesian Logistic Regression (BBR) due to Genkin et al. [2007] and the Lasso Penalized Logistic (LPL) program supplied by Ken Lange [ Wu and Lange, 2008b ]. The latter two methods also use a coordinate descent approach.
+
+The BBR software automatically performs ten-fold cross-validation when given a set of λ values. Hence we report the total time for ten-fold cross-validation for all methods using the same 100 λ values for all. Table 2 shows the results; in some cases, we omitted a method when it was seen to be very slow at smaller values for N or p .
+
+Again we see that glmnet is the clear winner: it slows down a little under high correlation. The computation seems to be roughly linear in N , but grows faster than linear in p .
+
+Table 3 shows some results when the feature matrix is sparse: we randomly set 95% of the feature values to zero. Again, the glmnet procedure is significantly faster than l1lognet.
+
+Table 4 shows some timing results for four different datasets. Cancer [ Ramaswamy et al., 2001 ]: gene-expression data with 14 cancer classes. Leukemia [ Golub et al., 1999a ]: gene-expression data with a binary response indicating type of leukemia— AML vs ALL . We used the preprocessed data of Dettling [2004] . Internet-Ad [ Kushmerick, 1999 ]: document classification problem with mostly binary features. The response is binary, and indicates whether the document is an advertisement. Only 1.2% nonzero values in the predictor matrix. Newsgroup [ Lang, 1995 ]: document classification problem. We used the training set cultured from these data by Koh et al. [2007] . The response is binary, and indicates a subclass of topics; the predictors are binary, and indicate the presence of particular tri-gram sequences. The predictor matrix has 0.05% nonzero values.
+
+Cancer [ Ramaswamy et al., 2001 ]: gene-expression data with 14 cancer classes.
+
+Leukemia [ Golub et al., 1999a ]: gene-expression data with a binary response indicating type of leukemia— AML vs ALL . We used the preprocessed data of Dettling [2004] .
+
+Internet-Ad [ Kushmerick, 1999 ]: document classification problem with mostly binary features. The response is binary, and indicates whether the document is an advertisement. Only 1.2% nonzero values in the predictor matrix.
+
+Newsgroup [ Lang, 1995 ]: document classification problem. We used the training set cultured from these data by Koh et al. [2007] . The response is binary, and indicates a subclass of topics; the predictors are binary, and indicate the presence of particular tri-gram sequences. The predictor matrix has 0.05% nonzero values.
+
+All four datasets are available as saved R data objects at http://www-stat.stanford.edu/~hastie/glmnet/ (the latter two in sparse format using the Matrix package).
+
+For the Leukemia and Internet-Ad datasets, the BBR program used fewer than 100 λ values so we estimated the total time by scaling up the time for smaller number of values. The Internet-Ad and Newsgroup datasets are both sparse: 1% nonzero values for the former, 0.06% for the latter. Again glmnet is considerably faster than the competing methods.
+
+## 6 Discussion
+Cyclical coordinate descent methods are a natural approach for solving convex problems with ℓ 1 or ℓ 2 constraints, or mixtures of the two (elastic net). Each coordinate-descent step is fast, with an explicit formula for each coordinate-wise minimization. The method also exploits the sparsity of the model, spending much of its time evaluating only inner products for variables with non-zero coefficients. Its computational speed both for large N and p are quite remarkable.
+
+A public domain R language package glmnet is available from the CRAN website. Matlab functions (written by Rahul Mazumder), as well as the real datasets used in Section 5.3, can be downloaded from the second author’s website at http://www-stat.stanford.edu/~hastie/glmnet/

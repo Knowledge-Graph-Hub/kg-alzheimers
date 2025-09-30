@@ -1,0 +1,18 @@
+# Title
+Phase Transitions in the Assembly of Multi-Valent Signaling Proteins
+
+# Abstract
+Cells are organized on length scales ranging from Angstroms to microns. However, the mechanisms by which Angstrom-scale molecular properties are translated to micron-scale macroscopic properties are not well understood. Here we show that interactions between diverse, synthetic multivalent macromolecules (including multi-domain proteins and RNA) produce sharp, liquid-liquid demixing phase separations, generating micron-sized liquid droplets in aqueous solution. This macroscopic transition corresponds to a molecular transition between small complexes and large, dynamic supramolecular polymers. The concentrations needed for phase transition are directly related to valency of the interacting species. In the case of the actin regulatory protein, neuronal Wiskott-Aldrich Syndrome Protein (N-WASP) interacting with its established biological partners Nck and phosphorylated nephrin 1 , the phase transition corresponds to a sharp increase in activity toward the actin nucleation factor, Arp2/3 complex. The transition is governed by the degree of phosphorylation of nephrin, explaining how this property of the system can be controlled to regulatory effect by kinases. The widespread occurrence of multivalent systems suggests that phase transitions are likely used to spatially organize and biochemically regulate information throughout biology.
+
+## Methods Summary
+See Supplementary Materials .
+
+Samples were incubated for >12 hours before scoring for droplets using bright-field microscopy; when observed, droplets formed immediately after mixing. For in vitro FRAP experiments, a 5 μm diameter spot was bleached in OG-SH3 4 -containing droplets >20 μm in diameter using a 488 nm laser line. Mean intensity of the bleached spot was fit to a single exponential.
+
+For titrations monitored by DLS (DynaPro, Wyatt) and SAXS (Advanced Photon Source, BioCAT beamline), samples contained 170 μM SH3 5 plus PRM proteins at PRM:SH3 module ratios of 0–5. Droplets were removed from all relevant samples by centrifugation (16,000 g, 10 minutes) before analysis. For SH3 5 +PRM(N-WASP) 8 and SH3 5 +PRM 5 droplets, single angle DLS data were collected on a DynaPro instrument (Wyatt), and multi-angle DLS data were collected on a custom build apparatus, respectively.
+
+Samples were blotted and frozen immediately after mixing, and imaged under low-dose cryo conditions in a JEOL 2200FS FEG transmission electron microscope, using a 2Kx2K Tietz slowscan CCD camera.
+
+HeLa cells were imaged at 32 °C 24 hours after transfection with vectors expressing mCherry-SH3 5 and/or eGFP-PRM 5 (or eGFP-PRM 3 ). Images were acquired on a Zeiss LSM 510 confocal microscope. For FRAP experiments, individual mCherry-SH3 5 /eGFP-PRM 5 puncta were bleached with a 488 nm laser line.
+
+4 μM actin (5% pyrene labeled) was polymerized in the presence of 3 μM nephrin 3pY, 10 μM Nck, 50 nM N-WASP, and 10 nM Arp2/3 complex plus increasing concentrations of N-WASPΔ in 150KMEI buffer as described 21 . Imaging was performed on a Zeiss LSM 510 confocal microscope after adding rhodamine-actin (10 % labeled, 4 μM), 300 nM Alexa 488 phalloidin and 10 nM Arp2/3 complex to droplets containing 3 μM nephrin 3pY, 10 μM Nck and 2 μM N-WASP.

@@ -1,0 +1,5 @@
+# Title
+Correlated gene expression supports synchronous activity in brain networks
+
+# Abstract
+During rest, brain activity is synchronized between different regions widely distributed throughout the brain, forming functional networks. However, the molecular mechanisms supporting functional connectivity remain undefined. We show that functional brain networks defined with resting-state functional magnetic resonance imaging can be recapitulated by using measures of correlated gene expression in a post mortem brain tissue data set. The set of 136 genes we identify is significantly enriched for ion channels. Polymorphisms in this set of genes significantly affect resting-state functional connectivity in a large sample of healthy adolescents. Expression levels of these genes are also significantly associated with axonal connectivity in the mouse. The results provide convergent, multimodal evidence that resting-state functional networks correlate with the orchestrated activity of dozens of genes linked to ion channel activity and synaptic function.

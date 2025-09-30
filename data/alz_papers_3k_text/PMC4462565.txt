@@ -1,0 +1,52 @@
+# Title
+Structural
+Insight into an Alzheimer’s Brain-Derived
+Spherical Assembly of Amyloid β by Solid-State NMR
+
+# Abstract
+ Accumulating
+evidence suggests that various neurodegenerative
+diseases, including Alzheimer’s disease (AD), are linked to
+cytotoxic diffusible aggregates of amyloid proteins, which are metastable
+intermediate species in protein misfolding. This study presents the
+first site-specific structural study on an intermediate called amylospheroid
+(ASPD), an AD-derived neurotoxin composed of oligomeric amyloid-β
+(Aβ). Electron microscopy and immunological analyses using ASPD-specific
+“conformational” antibodies established synthetic ASPD
+for the 42-residue Aβ(1–42) as an excellent structural/morphological
+analogue of native ASPD extracted from AD patients, the level of which
+correlates with the severity of AD. 13 C solid-state NMR
+analyses of approximately 20 residues and interstrand distances demonstrated
+that the synthetic ASPD is made of a homogeneous single conformer
+containing parallel β-sheets. These results provide profound
+insight into the native ASPD, indicating that Aβ is likely to
+self-assemble into the toxic intermediate with β-sheet structures
+in AD brains. This approach can be applied to various intermediates
+relevant to amyloid diseases.
+
+## Materials and Methods
+Aβ(1–42) was synthesized
+and purified as previously described using solid-phase synthesis with
+standard Fmoc synthesis and cleavage protocols as well as HPLC purification. 1 , 22 Further details are available in the SI .
+
+The SSNMR experiments were performed following the established
+procedures used for amyloid intermediates of Aβ(1–40). 6 All of the SSNMR experiments were performed with
+a Varian Infinity-plus or Bruker Avance III SSNMR spectrometer using
+a home-built 2.5 mm triple-resonance MAS probe at 9.4 T ( 1 H frequency of 400.2 MHz). In the 2D 13 C/ 13 C correlation experiments with DARR mixing 26 shown in Figure 2 , 1.8–3.5 mg samples
+of isotope-labeled Aβ(1–42) ASPD were used. Other details
+are in the SI .
+
+The Bioethics Committees
+of Kyoto University, Institute of Biomedical
+Research and Innovation, and Niigata University approved all experiments
+using human subjects. The native ASPDs were collected from concentrated
+human brain extracts by immunoisolation using the ASPD-specific
+haASD1 antibody as previously described. 22 , 24 The reactivity of ASPDs with antibodies was estimated by dot blotting
+using a method previously described. 22 , 24 The details,
+including the preparation of the brain extract, are provided in the SI .
+
+The nanoscale morphology of the samples
+was observed by TEM using
+a JEM-1010 instrument (JEOL, Tokyo, Japan) operated at 100 kV and
+magnification of 80 000 as previously described. 22 Other details, including
+the grid preparation and image analysis, are found in the SI .

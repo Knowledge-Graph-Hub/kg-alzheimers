@@ -1,0 +1,5 @@
+# Title
+ApoE-Directed Therapeutics Rapidly Clear β-Amyloid and Reverse Deficits in AD Mouse Models
+
+# Abstract
+Alzheimer’s disease (AD) is associated with impaired clearance of β-amyloid (Aβ) from the brain, a process normally facilitated by apolipoprotein E (apoE). ApoE expression is transcriptionally induced through the action of the nuclear receptors peroxisome proliferator–activated receptor gamma and liver X receptors in coordination with retinoid X receptors (RXRs). Oral administration of the RXR agonist bexarotene to a mouse model of AD resulted in enhanced clearance of soluble Aβ within hours in an apoE-dependent manner. Aβ plaque area was reduced more than 50% within just 72 hours. Furthermore, bexarotene stimulated the rapid reversal of cognitive, social, and olfactory deficits and improved neural circuit function. Thus, RXR activation stimulates physiological Aβ clearance mechanisms, resulting in the rapid reversal of a broad range of Aβ-induced deficits.

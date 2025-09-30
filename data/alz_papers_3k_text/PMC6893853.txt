@@ -1,0 +1,1325 @@
+# Title
+Regulation of Lifespan by Neural Excitation and REST
+
+# Abstract
+The mechanisms that extend lifespan in humans are poorly understood. Here
+we show that extended longevity in humans is associated with a distinct
+transcriptome signature in the cerebral cortex characterized by downregulation
+of genes related to neural excitation and synaptic function. In the model system C. elegans , neural excitation increases with age and
+inhibition of excitation globally, or in glutamatergic or cholinergic neurons,
+increases longevity. Furthermore, longevity is dynamically regulated by the
+excitatory-inhibitory balance of neural circuits. The REST transcription factor
+is upregulated in humans with extended longevity and represses
+excitation-related genes. Notably, REST-deficient mice exhibit increased
+cortical activity and neuronal excitability during aging. Similarly,
+loss-of-function mutations in the C. elegans REST orthologs spr -3 and spr-4 elevate neural excitation
+and reduce the lifespan of long-lived daf-2 mutants. In
+wild-type worms, spr-4 overexpression suppresses excitation and
+extends lifespan. REST, SPR-3/4 and reduced excitation activate the
+longevity-associated transcription factors FOXO1 and DAF-16 in mammals and
+worms, respectively. These findings reveal a conserved mechanism of aging
+mediated by neural circuit activity and regulated by REST.
+
+## Neural excitation and longevity
+Previous studies of the aging human brain have shown dynamic gene expression
+changes that distinguish young adults from the aging population 8 . However, the recent expansion of human aging
+cohorts has increased the statistical power for partitioning the aging population
+into subgroups based on transcriptome profiling. To gain insight into gene
+expression changes in the brain associated with extended human longevity, we
+analyzed RNA-seq 9 , 10 and microarray data 11 from the frontal cortex of aged individuals
+with intact cognitive function in three different cohorts. Age-associated genes were
+compared between all individuals and Pearson correlation coefficients were derived.
+Hierarchical clustering suggested that the aging population partitioned into three
+groups ( Extended Data Fig. 1a – c ). The most significant changes associated with
+the extended longevity groups (≥85 versus ≤80 years of age) were
+downregulation of neural excitation/synaptic function genes and upregulation of
+immune function genes ( Fig. 1a – d , Extended Data
+Fig. 1d – f , Supplementary Tables 1 – 6 ). This did not change after
+adjusting for the presence of amyloid deposits and neurofibrillary tangles in the
+ROSMAP cohort (data not shown). Meta-analysis of gene ontology (GO) enrichment in
+each cohort indicated that terms related to excitatory, but not inhibitory synaptic
+transmission were enriched in the downregulated genes ( Extended Data Fig. 1g , Supplementary Table 7 ). These results suggest that extended human
+longevity may be associated with reduced excitatory neurotransmission.
+
+To explore the neural regulation of longevity, we utilized C.
+elegans , a well-established model system of aging. Neural excitation in C. elegans was monitored by GCaMP calcium imaging in the
+glutamatergic ASH neurons 12 . In
+wild-type worms, rapid, transient pulses of GCaMP fluorescence indicative of
+neuronal excitation were observed ( Supplementary Video 1 ). Calcium influx in ASH neurons increased
+significantly during normal aging from adult day 1-2 to day 12-16 ( Fig. 1e ). To determine the effect of decreasing calcium
+influx on lifespan, worms were treated with nemadipine, an inhibitor of L-type
+calcium channels that reduces neural excitation ( Fig.
+1f ). Continuous treatment with nemadipine beginning at adult day 1
+significantly extended lifespan ( Fig. 1g ).
+Moreover, incubation of worms with ivermectin, an agonist of invertebrate
+glutamate-gated chloride channels, suppressed neural excitation and resulted in a
+dose-dependent extension of mean lifespan ( Fig.
+1h , i ). Nemadipine and ivermectin
+also extended lifespan when administered at day 8 when feeding activity has largely
+abated ( Extended Data Fig. 2a ), suggesting that
+the drugs do not act through caloric restriction. Furthermore, worm motility was
+preserved ( Extended Data Fig. 2b , Supplementary Videos
+4 – 6 ).
+These results suggest that global inhibition of neural excitation extends lifespan
+in C. elegans .
+
+To explore the neural systems that mediate lifespan, we expressed a
+transgenic Drosophila histamine-gated chloride channel (HisCl1) in
+different neuronal populations 13 .
+Addition of histamine, which is not endogenously produced by worms, activates HisCl1
+and inhibits neural excitation. First, we expressed HisCl1 under the control of a
+pan-neuronal promoter. Continuous incubation with histamine beginning on adult day 1
+or day 8 significantly extended mean lifespan ( Extended Data Fig. 3a , b , i ). There was no effect of histamine on the
+lifespan of wild-type worms that did not express HisCl1 ( Supplementary Table 22 ).
+
+We next expressed the HisCl1 channel in glutamatergic and cholinergic
+neurons, the major excitatory neuronal populations in C. elegans .
+Repression of excitation in either population robustly extended lifespan whether
+initiated at adult day 1 or day 8 ( Extended Data Fig.
+3c – f , i ). Expression of HisCl1 in GABAergic neurons using an unc-47 driver extended lifespan when initiated at day 1, but
+reduced lifespan when initiated at day 8 ( Extended
+Data Fig. 3g – i ). GCaMP
+imaging showed that addition of histamine to unc-47 : HisCl1 worms
+at day 1 resulted in a marked and persistent suppression of excitation in ASH
+neurons, which was not observed after addition at day 8 ( Extended Data Fig. 3j ). Thus, blockade of GABAergic
+neurotransmission early in adult life may result in compensatory downregulation of
+excitation in other neuronal populations. Taken together, these results suggest that
+continuous or late-life repression of neural excitation in multiple different
+neuronal cell populations extends lifespan in C. elegans .
+
+To explore the effect of hyperexcitation on lifespan, we suppressed GABAergic
+neurotransmission by using RNAi, which would be predicted to be less extensive than
+histamine-HisCL1-mediated blockade. When worms were treated with RNAi against the
+GABA vesicular transporter unc-47 , there was a robust increase in
+the excitation of ASH neurons and a significant reduction in lifespan ( Extended Data Figure 4a , b ). Thus, the effects of neurotransmission on lifespan are
+bidirectional; lifespan is extended by reducing excitation and shortened by
+increasing excitation.
+
+Neural activity can regulate neuropeptide secretion. To address the role of
+neuropeptide signaling in lifespan regulation, we evaluated worms with loss-of
+function of the egl-3 proprotein convertase from an egl-3 mutation or egl -3 RNAi. The egl-3 mutants exhibited significant lifespan extension ( Extended Data Fig. 4c ). Lifespan extension was
+also observed in worms treated with egl-3 RNAi ( Extended Data Fig. 4d ), consistent with previous
+results 14 . A similar
+extension of lifespan was observed in a glutamatergic loss-of-function eat-4 mutant and the synaptic transmission mutant unc-13 ( Extended Data Fig.
+4c ). These results suggest that both synaptic neurotransmission and
+peptidergic signaling contribute to lifespan regulation.
+
+## REST and the modulation of neural excitation in the aging brain
+We have previously demonstrated that the transcriptional repressor REST is
+induced in the aging brain 15 .
+Genes that were downregulated in the brain in individuals with extended longevity
+were enriched for the canonical REST RE1 motif in all three aging cohorts (ROSMAP:
+P=5e-12, CommonMind Consortium: P=8e-4, Gibbs: P=1e-2) ( Supplementary Tables 1 , 3 , 5 ). Moreover, unbiased analysis by
+ChIP-seq showed that REST was the most strongly implicated transcription factor in
+multiple ENCODE datasets ( Supplementary Tables 8 – 11 ). Furthermore, the downregulated
+gene set was highly enriched for neuronal REST target genes ( Supplementary Table 12 ). Expression of
+these downregulated genes, as well as an index of synaptic gene expression, were
+inversely related to REST mRNA expression ( Fig.
+2a , b ; Extended Data Fig. 5a , b ). Furthermore, nuclear REST levels were significantly elevated in
+prefrontal cortical neurons in centenarians relative to individuals who were 70-80
+years of age ( Fig. 2c ). Although REST mRNA
+expression is upregulated in the brain during aging 15 , increased REST mRNA expression did not
+distinguish the extended longevity versus normal aging groups based on
+RNA-sequencing ( Supplementary
+Tables 1 , 3 ).
+However, for a given level of REST mRNA expression, there is greater gene
+downregulation in the extended longevity group ( Extended Data Fig. 5c , d ). These
+results suggest that REST repressor function is upregulated in the brain in
+individuals with extended longevity, resulting in downregulation of genes that
+mediate excitation and synaptic function.
+
+To assess the role of REST as a modulator of neural activity in the aging
+mammalian brain, we examined the uptake of fluorodeoxyglucose (FDG) by PET-CT in the
+brains of 18 month old Nestin-Cre:REST lx/lx (REST cKO) mice and
+littermate controls ( Extended Data Fig.
+5e ) 16 . REST cKO
+mice showed significantly elevated cortical 18 FDG uptake, indicative of
+increased neural activity ( Fig. 2d , e ). Previous studies suggest that REST can
+modulate excitability in mouse models of epilepsy induced by kindling or
+kainate 16 , 17 . To assess excitability during aging, we
+performed electroencephalographic (EEG) recordings of REST cKO mice ( Supplementary Table 13 ). Intermittent
+epileptiform discharges were significantly more frequent in 22-month-old REST cKO
+mice than in controls ( Fig. 2f ). Furthermore,
+challenge with the GABA antagonist pentylenetetrazol (PTZ) significantly increased
+seizure duration in REST cKO mice relative to controls ( Fig. 2g ), with a trend to increased mortality ( Extended Data Fig. 5f ). These results suggest
+that REST globally represses neural activity and prevents hyperexcitation in the
+aging brain.
+
+## Regulation of longevity and neural excitation byC. elegansREST
+orthologs
+The C. elegans gene spr -4 is a structural
+and functional ortholog of mammalian REST that protects against toxic stressors,
+such as reactive oxygen species and amyloid β-protein 15 . To determine if spr-4 modulates lifespan, we induced endogenous spr-4 expression by
+utilizing the RNA-guided endonuclease Cas9 as a programmable transcription
+factor 18 . A
+nuclease-deficient variant of Cas9 (dCas9) was fused to the transcriptional
+activator VP16 (dCas9::VP64) and stably introduced into C. elegans together with four small guide RNAs (sgRNAs) targeting the spr-4 promoter. This resulted in a modest elevation of spr-4 mRNA and
+protein expression, and a significant increase in mean lifespan ( Extended Data Fig. 6a – d ). Expression of dCas9::VP64 and spr-4 sgRNAs in worms with the loss-of-function allele spr-4 ( tm465 ) did not affect lifespan,
+suggesting specificity for spr-4 ( Extended Data Fig. 6e ). Moreover, spr-4 overexpression
+robustly reduced excitation in ASH neurons ( Extended
+Data Fig. 6f ). Thus, spr -4 both represses neural
+excitation and extends lifespan.
+
+The forkhead transcription factor DAF-16 is the central downstream target of
+the daf-2 /insulin IGF-like signaling pathway that regulates
+lifespan in C. elegans . RNAi-mediated knockdown of DAF-16 prevented
+lifespan extension by spr-4 overexpression ( Extended Data Fig. 7a ). Furthermore, lifespan extension by
+the neural excitation inhibitors nemadipine and ivermectin was also dependent on daf-16 , and ivermectin elevates both total and nuclear levels
+of DAF-16 ( Extended Data Fig. 7b – d ). Thus, daf-16 mediates
+lifespan extension by spr -4 and neural suppression.
+
+To further explore the effects of REST orthologs on the daf-2 / daf-16 signaling pathway, we performed daf-2 RNAi in wild-type, spr-3 and spr-4 loss-of-function mutants, and an spr-4 ; spr-3 double mutant. As previously
+shown 19 , daf-2 RNAi extends lifespan by ~50% in wild-type worms.
+Mutations of spr-3 , spr-4 , or both, significantly
+reduced lifespan extension by daf-2 RNAi ( Extended Data Fig. 8a ). Mutations in spr-3 and spr-4 also reduced the lifespan
+extension associated with the loss-of-function daf-2 ( e1370 ) allele; the greatest reduction
+occurred in the spr-4;spr-3;daf-2 triple mutant ( Fig. 3a ). The spr-3 and spr-4 mutants did not affect lifespan in a wild-type background
+( Extended Data Fig. 8b ), in contrast to a
+previous report that suggested a lifespan effect of spr-3 mutants 20 . These results
+suggest that spr-3 and spr-4 contribute to the
+regulation of lifespan by the insulin/IGF-like signaling pathway in worms.
+
+We next asked whether the C. elegans orthologs spr-3 and spr-4 function in neurons to
+regulate lifespan. To address this question, we utilized a C.
+elegans line in which RNAi was abolished by deletion of the
+double-stranded RNA transporter sid-1 , but restored specifically in
+neurons by a sid-1 transgene driven by a neuron-specific
+promoter 21 . These alleles
+were crossed into the daf-2(e1370) mutant background, and
+RNAi-mediated knockdown of both spr-3 and spr-4 was performed. Neuronal knockdown of SPR-3 and SPR-4 significantly reduced lifespan
+( Fig. 3b , Extended Data Fig. 8c ). Thus, neuronal expression of spr-3 and spr-4 contributes to lifespan
+extension in the daf-2 mutant.
+
+To gain further insight into the effects of spr-3 and spr-4 on daf-2 function and lifespan, we
+performed RNA-seq on wild-type worms and worms with mutations in spr-4;spr-3, daf-2 , and spr-4;3;daf -2 (triple
+mutants) ( Extended Data Fig. 8d ; Supplementary Table 14 ). The
+comparison of triple mutant spr-4;3;daf-2 worms with single mutant daf-2 worms was notable for highly significant transcriptome
+changes in GO terms related to neural excitation, signaling and synaptic function
+( Fig. 3c , Supplementary Table 15 ). Furthermore,
+gene expression changes in daf-2 mutants and spr-4;3 mutants were overlapping ( Extended Data Fig. 8e ), and genes downregulated in daf-2 mutants but upregulated in the spr-4;3;daf-2 triple mutants were enriched for GO terms related
+to neural excitation ( Supplementary Table 16 ). These results suggest that repression of
+neuronal genes is a conserved regulatory feature of REST and its worm orthologs.
+
+A central question is whether SPR-3 and SPR-4 affect lifespan by suppressing
+neural excitation. GCaMP calcium imaging showed that neural excitation was strongly
+suppressed in daf -2 mutants both in young adult worms and during
+aging ( Fig. 4a , b ; Extended Data Fig. 8f ). The spr-4;3 mutations partially restored neural excitation in daf-2 mutants ( Fig. 4a , b , Supplementary Videos 1 – 3 ), but did not increase
+excitation in wild-type worms ( Extended Data Fig.
+8g ). Suppression of excitation in daf -2 mutants was not
+mediated by neuronal DAF-16 ( Extended Data Fig.
+8h ). However, inhibition of neural excitation with ivermectin reversed
+the lifespan shortening effect of spr-4;3 mutations in daf-2 mutant worms ( Fig.
+4c ). Thus, SPR-3 and SPR-4 contribute to the extreme longevity of daf-2 mutant worms by repressing neural excitation.
+
+To identify the neural systems affected by SPR-4 and SPR-3,
+neurotransmitters and neuropeptides were targeted by RNAi in spr-4;3;daf-2 triple mutants and d af-2 single
+mutants. The most significant lifespan effects were observed following RNAi directed
+against signaling through glutamatergic ( eat-4 ), cholinergic
+( cha-1/unc-17 ) and monoaminergic ( cat-2 )
+neurons, and by RNAi to axonal kinesin ( unc-104 ) and the proprotein
+convertase ( egl-3 ) ( Fig. 4d , Extended data Fig. 8i ). These results
+suggest that SPR-3 and SPR-4 suppress excitatory neurotransmitter systems, as well
+as neuropeptide signaling, to extend lifespan in daf-2 mutant
+worms.
+
+Loss-of-function of daf-2 extends lifespan through
+activation of DAF-16 22 . Following daf -2 RNAi, spr-4;3 mutants showed reduced
+total and nuclear DAF-16 levels ( Extended Data Fig.
+9a ). RNA-seq analysis of day10 spr-4;3;daf-2 triple
+mutant worms showed a significant reduction in the expression of DAF-16 target genes
+relative to daf-2 single mutants ( Extended Data Fig. 9b – d , Supplementary Tables
+17 , 18 ).
+Furthermore, inhibition of neural excitation by ivermectin restored DAF-16 levels in spr-4;3 mutants following daf-2 RNAi ( Extended Data Fig. 9e ). Thus, SPR-3 and SPR-4
+suppress neural excitation ( Fig. 4a , b ), which leads to the activation of DAF-16.
+
+## REST, FOXO1 and Neural Excitation
+We next asked if the association between REST, neural excitation and human
+longevity ( Fig. 2a – c ) might be mediated by a mammalian forkhead transcription
+factor orthologous to C. elegans DAF-16. REST has been shown to
+regulate the expression of FOXO1 in SH-SY5Y neuroblastoma cells 15 . In the human brain, REST mRNA expression
+was positively correlated with FOXO1 expression, but did not correlate with the
+expression of other FOXO family members ( Fig.
+5a , Extended Data Fig. 10a ).
+Furthermore, REST and FOXO1 co-localized in neurons of the aging human prefrontal
+cortex ( Extended Data Fig. 10b ), and nuclear
+levels of REST and FOXO1 were strongly positively correlated in all age groups
+( Fig. 5b ).
+
+To determine whether REST regulates FOXO1 expression in the brain, we
+examined REST cKO and littermate control mice. FOXO1 localized predominantly to
+cortical neurons, and showed an age-related increase in 18 month old relative to 9
+month old control mice ( Fig. 5c ). Age-dependent
+induction of nuclear FOXO1 was abolished in REST cKO mice ( Fig. 5c ). Thus, regulation of forkhead transcription
+factors is a conserved feature of REST and its C. elegans orthologs.
+
+To explore the role of neural excitation in FOXO1 regulation, primary mouse
+cortical neuronal cultures were treated with kynurenic acid, a broad spectrum
+glutamate receptor antagonist, or with either APV or NBQX, NMDA and AMPA/kainate
+receptor antagonists, respectively. Kynurenic acid and NBQX significantly increased
+nuclear and total FOXO1 levels ( Extended Data Fig.
+10c ). Thus, FOXO1 is regulated by glutamatergic signaling in mammalian
+cortical neurons, paralleling the effect of neural excitation on DAF-16 in
+worms.
+
+## Discussion
+Here we show that extended longevity and cognitive preservation in humans is
+associated with coordinate downregulation of genes that mediate excitatory
+neurotransmission. In the model system C.elegans , an increase in
+the activity of excitatory neurons is a normal concomitant of aging. Global
+inhibition of neural excitation, or inhibition of specific excitatory neuronal
+populations, particularly glutamatergic or cholinergic neurons, resulted in robust
+lifespan extension. These findings are consistent with previous studies which showed
+that the anticonvulsants ethosuximide and valproic acid can extend lifespan in C. elegans 23 – 25 . Moreover, we found that lifespan was
+dynamically regulated by the excitatory-inhibitory balance of neural circuits. Thus,
+an imbalance between neural excitation and inhibition might degrade neural function
+and contribute to the aging process.
+
+Our findings suggest that REST and the C. elegans orthologs
+SPR-3/4 regulate aging by reducing neural activity as transcriptional repressors of
+synaptic genes. Aging conditional REST-deficient mice exhibit increased cortical
+neural activity and hyperexcitability. This is consistent with previous studies in
+neuronal cell culture which suggest that REST maintains neural network homeostasis
+by buffering changes in neural excitation 26 , 27 .
+
+It is intriguing that REST and neural activity converge with insulin/IGF
+signaling to regulate the activity of forkhead transcription factors that play
+pivotal roles in lifespan regulation 22 , 28 . The activation
+of daf-16 by REST orthologs in worms and FOXO1 by REST in humans
+might be a mechanism for integration of neural activity with metabolism. We suggest
+that activating REST and reducing excitatory neural activity may be an approach to
+slowing aging in humans.
+
+## Materials and Methods
+Postmortem human brain material was procured in accordance with
+institutional guidelines governed by approved protocols. Tissue samples were
+procured from the Rush University Medical Center and the Brigham and
+Women’s Hospital. Tissue samples (both paraffin-embedded and frozen) from
+Rush University Medical Center were derived from participants in the Religious
+Order Study (ROS) and Rush Memory and Aging Project (MAP) at the Rush
+Alzheimer’s Disease Center, which are longitudinal, clinical-pathologic
+studies of aging, cognitive decline and AD 29 , 30 . Study
+participants agreed to comprehensive annual clinical and neuropsychological
+evaluation and brain donation at death. Twenty-one cognitive function tests were
+employed in the present study, including a summary score of all 17 tests used as
+a measure of global cognition, and separate measures of episodic, semantic, and
+working memory, perceptual speed, and visuospatial ability. The follow-up rate
+exceeds 95% and the autopsy rate exceeds 90%. All autopsy cases underwent a
+uniform structured neuropathologic evaluation of AD, including assignment of
+Braak (measure of number and distribution of neurofibrillary tangles), CERAD
+(Aβ plaque pathology), and NIA-Reagan (composite measure of
+neurofibrillary tangles and amyloid plaques) scores. Paraffin-embedded brain
+samples were also obtained from the Brigham and Women’s Hospital. These
+samples included young adult cases without neurological abnormalities.
+
+Immunofluorescence analysis using paraffin-embedded brain sections was
+performed in the prefrontal cortex (Broadmann areas 9, 10 and 47).
+Paraffin-embedded tissue sections were first deparaffinized in xylene, then
+rehydrated with decreasing concentrations of ethanol and placed in water.
+Sections then underwent antigen retrieval using the Diva decloaker (BioCare,
+USA). They were then washed and blocked with 2% BSA, 0.1% Triton X-100 in PBS
+for 1 hr at room temperature. Primary antibodies were diluted in 2% BSA, 0.1%
+Triton in PBS. Following overnight incubations, sections were washed three times
+with PBS. Secondary antibodies, diluted in 2% BSA, 0.1% Triton in PBS were
+either biotin-coupled (1:200, Vector Labs, USA) or coupled to Alexa fluorophores
+(1:300, Invitrogen). Sections were incubated with 1% Sudan Black in 80% ethanol,
+for 10 minutes, to suppress lipofuscin autofluorescence. Following washes in
+PBS, sections were mounted and imaged using confocal microscopy. The following
+antibodies have been used for immunolabeling studies: (i) a rabbit polyclonal
+IgG recognizing a region between residues 1050 and the C-terminus (residue 1097)
+of REST (Bethyl laboratories, IHC-00141); (ii) a goat polyclonal IgG recognizing
+the C-terminal region of FOXO1a (LSBio B415, discontinued, replaced with LSBio
+1322). To quantify immunofluorescence, images that were randomly acquired in
+selected brain regions were analyzed in the Metamorph® image analysis
+system. Antigen-expressing areas within each neuron (such as the nucleus) were
+selected using the average signal intensity measured. Values were corrected by
+subtracting the average slide background intensity (measured outside of cells).
+The investigator was blinded to sample origin or diagnosis.
+
+To assess the relationship between the levels of nuclear REST protein
+and FOXO1, we performed confocal immunofluorescence with triple-labeling for
+REST, MAP2 and FOXO1. Multiple 40x pictures were acquired (at various locations)
+within the prefrontal cortex displaying pyramidal neurons using an Olympus
+Fluoview Confocal Microscope. For cases displaying a majority of pyramidal
+neurons with very high (or very low) nuclear REST levels, fields were also
+included that displayed lower (or higher, respectively) REST levels, to test for
+potential correlations between REST and FOXO1. Antigen-expressing areas within
+neuronal nuclei were selected using the Metamorph® image analysis system
+and the average signal intensity was measured. Values were corrected by
+subtracting the average slide background intensity (measured outside of cells).
+Between 70 and 115 pyramidal neurons were quantified for each case.
+
+Animal housing and experimental procedures were approved by the
+Institutional Animal Care and Use Committee of Harvard Medical School. Mice
+carrying floxed alleles of REST flanking exon 2 were described
+previously 31 , 32 . These mice were crossed to
+Nestin-Cre transgenic mice (Jackson laboratory; strain No. 003771) to achieve
+REST conditional inactivation in the nervous system. The Nes-Cre transgene is in
+the C57BL/6J background, and the RESTlx/lx alleles were in a hybrid C57BL/6J and
+129Sv/Ev background. The resulting Nestin-Cre:RESTlx/lx conditional knockout
+mice (hybrid C57BL/6J and 129Sv/Ev background), referred to as REST cKO, were
+born at expected Mendelian ratios, were viable and fertile, and did not display
+any visible alterations. The control group included RESTlx/lx and Nes-Cre mice.
+Mouse genotyping by PCR was performed using the following primers to amplify a
+region in the REST gene flanking exon 2: re08
+(5′-CATGCGAGTACTGCCATACCCAAC-3′), re09
+(5′-GTGATGGGGCAGTCTTCTGGAGG-3′), and re11
+(5′-GGCACACCTTTAATCCTAGCTTC-3′); this allowed the identification
+of WT (220 bp), floxed (264 bp) or recombined (375 bp) REST
+alleles. The experimental groups included both male and female mice. The REST
+cKO and REST+/+ control groups were composed of littermate mice (same genetic
+background). Mice were identified by eartag numbers, and were randomly selected
+for PET/CT and EEG experiments, as well as histological processing (perfusion,
+brain dissection, etc.).
+
+Mice were anesthetized with isoflurane and carbon dioxide and then
+perfused with cold PBS buffer for 20 minutes. Brains were rapidly removed and
+placed in 4% PFA overnight. They were then processed for paraffin embedding,
+according to standard procedures. The investigator was blind to the genotype. To
+assess FOXO1 nuclear expression in cortical neurons, coronal brain sections from
+WT and REST conditional KO mice (aged 9 or 18 months) were immunolabeled with
+FOXO1 and MAP2 antibodies. Cortical neurons (MAP2-positive) were identified and
+FOXO1 mean fluorescence intensity in each nucleus was measured using the
+Metamorph software. Between 50-100 neuronal nuclei were assessed for FOXO1
+expression, and the mean FOXO1 nuclear expression was derived for each animal.
+To confirm REST deficiency ( Extended Data Fig.
+5e ), REST cKO mouse cortical sections were labeled with an anti-REST
+antibody provided by the Hsieh lab (see Supplementary Table 20 ).
+
+Mice were anesthetized with 3% isoflurane (Baxter Medical) and medical
+grade oxygen at a rate of 1 L/min. A CT scout scan was done first, followed by a
+CT scan and a dynamic PET scan. Each mouse received the same dose per gram of
+body weight, 1.75 Ci/g 18 Fluorodeoxyglucose (FDG) tracer solution by tail vein injection, followed by a
+0.1 ml saline flush. Dynamic PET imaging for each mouse was immediately
+performed for 1 hour (in vivo PET) using a small animal PET/CT scanner (eXplore
+Vista; GE Healthcare). The spatial resolution of the PET scanner was 1.6 mm at
+the center of the field-of-view. The data were acquired in 3D mode at the energy
+window of 250–700 keV, which yields 4% count sensitivity. For each
+timepoint, 5 or 6 3-D volumes, spanning cortical and subcortical regions, were
+selected in the center of the brain of the animal, with volumes of .2
+cm 3 each, and used for quantification using the eXplore Vista
+software. Averages of these regions were used as the standard uptake value (SUV)
+for the animal.
+
+Primary cortical neuronal cultures, derived from E16.5 wildtype C57BL/6J
+fetuses, were plated in 10% serum-containing neuronal culture media (neurobasal
+medium containing B27 supplements, penicillin, streptomycin, and GlutaMax) on
+either coverslips or culture dishes that were pre-coated with poly-L-ornithine
+(Sigma p4957). Medium was changed 4 hours after initial plating to serum-free
+neuronal culture media, and then a half-medium change was performed every three
+days.
+
+Mice were implanted with wireless telemetry units (PhysioTel
+ETA-F10; Data Sciences International, DSI, St. Paul, MN) under appropriate
+sterile technique per laboratory protocol as previously described 33 , 34 35 , 36 . Mice were anesthetized by
+intraperitoneal (i.p.) injection of 100 mg/kg ketamine (Putney Vet,
+Portland, ME) and 10 mg/kg xylazine (Lloyd Inc, Shenandoah, IA). The
+transmitter was placed intraperitoneally, and electrodes were threaded
+subcutaneously to the cranium. After skull exposure, hemostasis, and
+identification of cranial sutures, bregma and lambda, two burr holes, 1 mm
+diameter, were drilled over the right olfactory bulb (reference) and left
+occipital cortex (active). The telemetry units’ epidural electrodes
+connected to the leads of the transmitter were placed into the burr holes
+and secured by stainless steel skull screws. Once in place, the skull screws
+were covered with dental cement (Dentsply International Inc., Milford, DE).
+Mice were subcutaneously injected at 0 and 24 hours post-operatively with 5
+mg/kg meloxicam (Norbrook Laboratories, Newry, Northern Ireland) for
+analgesia. After 1 week of recovery, mice were individually housed in their
+home cages in a 12 hour light/12 hour dark, temperature, and humidity
+controlled chamber with ad libitum access to food and water in preparation
+for recording.
+
+One-channel video-EEG was recorded differentially between the
+reference (right olfactory bulb) and active (left occipital lobe) electrodes
+after 24 h of acclimation in recording chambers. EEG (1000 Hz), core-body
+temperature and locomotor activity (200 Hz) signals were continuously
+sampled over a period of 48h along with time-registered videos. At the end
+of baseline EEG acquisition, all mice were provoked with a convulsive dose
+(40 mg/kg; i.p.) of pentylenetetrazol (PTZ; Sigma-Aldrich, Co., St. Louis,
+MO), a GABAA receptor antagonist, to measure seizure susceptibility and
+evaluate seizure thresholds 33 , 36 . Mice were
+continuously monitored for clinical and electrographic epileptiform activity
+during both periods and post hoc verified by the blinded review of the video
+EEG. Following PTZ administration, latency to generalized tonic-clonic
+seizures (GTCs), number of seizures and, total duration of GTCs were
+recorded per mouse. Mice without seizures were assigned a time of 20 min at
+the end of the PTZ challenge observation period. One REST cKO mouse was
+excluded from the analysis based on a febrile temperature of 40.68
+°C, vs an average temperature of 34.56 ±1.48 °C for all
+other mice.
+
+Embryonic mouse cortical neuronal cultures described above were plated
+on poly-L-ornithine coated coverslips. Stocks of NBQX, APV(Tocris Bioscience
+Cat. No. 0190, 0106, respectively), and kynurenic acid sodium salt (Abcam,
+ab146693) were added to Neurobasal media and used in a half-medium change for a
+final concentration of 5uM kynurenic acid, 50 μM APV or 2 μM NBQX
+at day 10 of culture. After 24 hours, the culture media was aspirated and cells
+were fixed by incubation with 4% (v/v) paraformaldehyde in PBS for 20 minutes at
+room temperature, and permeabilized with 0.2% Triton X-100 in PBS for 15 minutes
+at room temperature. After a wash in PBS, cells were blocked with 4% BSA in PBS
+overnight at 4°C. Primary antibodies were diluted to the appropriate
+concentration in 4% BSA, and incubated overnight at 4°C. Cells were then
+washed 3 times in PBST (PBS with 0.05% Triton) for 10 minutes each, before
+adding fluorophore-conjugated secondary antibodies for 2 hours at room
+temperature. Fluorophore labeled cells were then washed in PBST, 3×10
+minutes, and then mounted using Prolong Gold mounting medium with DAPI and
+anti-fade reagent (Invitrogen). Primary antibodies used in Figure 5d are rabbit anti-FoxO1 (Cell Signaling 2880)
+and chicken MAP2 (Sigma-Millipore, AB5392). Nuclei were identified by DAPI
+labeling, and the cellular distribution of FOXO1 labeling was quantified using
+Metamorph software. Cell identification parameters were optimized for scoring
+neuronal cultures, and then the same image analysis macro was applied to all
+images to generate average FOXO1 cellular intensities in MAP2-positive
+neurons.
+
+The N2 Bristol strain was used as the wild-type background for these
+studies. C. elegans strains were cultured at 20°C under
+standard conditions as described in Brenner 37 . The following mutations and chromosome rearrangements
+were used: LGI: spr-4(by105) 38 , spr-4(tm465) 15 ,
+daf-16(mu86 ) 39 , hT2[bli-4(e937) qIs48] (I;III) ,
+unc-13(e51) 37 ;
+LGIII: daf-2(e1370) 39 eat-4(nj2) 40 ; LGV :
+spr-1(ok2144) 41 , sid-1(pk3321) 42 ,
+egl -3 (gk238) 43 and LGX spr-3(ok2525) 15 ; EG7215(oxTi334
+[ eft-3p :: TdTomato :: h2b :: unc-54
+3’UTR + Cbr-unc-119 (+)]). All strains,
+except for spr-4(tm465) , were provided by the Caenorhabditis
+Genetics Center (CGC), which is funded by the NIH Office of Research
+Infrastructure Programs (P40 OD010440). Worms which had not been outcrossed
+previously were outcrossed six times before use. See Supplementary Table 19 for a full
+listing of strains.
+
+The s pr-5 mutants exhibit transgenerational effects,
+including increased defects in DNA double strand break repair and germline
+apoptosis 44 as well as
+lifespan effects 45 . Although
+we have not fully evaluated the transgenerational phenotypes of spr-3 and spr-4 alleles, as a precaution,
+all lifespan assays were performed with worms no more than 5 generations removed
+from a heterozygote ancestor. To facilitate this, spr-4 alleles
+were carried over the hT2 balancer described above, while spr-3 ( ok2525 ) was carried over the
+MosTIC 46 insertion oxTi335 , which carries a eft-3::tdTomato::h2b fluorescent fusion construct
+integrated in the X chromosome at 4,348,071bp. Since spr-3 is
+located on the X chromosome at 4,514,00 bp, this effectively marked wildtype spr-3 , allowing us to maintain heterozygous stocks of our
+double and single mutants.
+
+The daf-16::gfp fusion line TJ356, bearing transgene zIs356 [ daf-16p::daf-16a/b ::GFP + rol-6 ], was mildly anesthetized with 0.01% tetramizole and
+outcrossed to lab wild-type males twice, and then mated to spr-4(by105);spr-3(ok2525) double mutants. Double mutants
+bearing zIs356 were recovered and propagated.
+
+Feeding RNAi experiments were performed at 20 °C as described in
+Kamath and Ahringer, 2003 47 . A
+feeding clone containing a full length daf-2 cDNA was provided
+by Keith Blackwell. A daf-16 RNAi vector was provided by Eric Greer. Control
+RNAi was performed by feeding HT115 bacteria carrying the empty pL440 vector. A
+list of all RNAi clones used is available in Supplementary Table 20 .
+
+Enhanced neuronal RNAi was achieved as described in Calixto et
+al 21 , by using sid-1(pk3321) mutants in which sid-1 (a
+dsRNA transporter required for RNAi) is re-expressed solely in neurons via a punc-119 : sid-1 transgene. The animals are
+therefore systemically deficient in RNAi in all cell types except neurons, where
+RNAi is enhanced by heightened expression of sid-1 .
+
+For transgenic C. elegans experiments, lines were
+generated by microinjecting the relevant constructs into the gonads of the
+indicated worm strains. Prab-3:: mCherry (pGH8, Addgene: 19359)
+or pmyo-2::mCherry (pCFJ90, Addgene 19327): were used as coinjection markers.
+Three independent lines that demonstrated reliable transmission of the marker
+were propagated as described above for each experiment. Where possible,
+non-array segregating worms were also maintained as controls. For the
+dCas9::VP64 experiments, a peft-3::dCas9VP64::tbb -2 UTR
+construct was cloned using the Wormgate Gateway recombination system into the
+pCFJ151 MosSCI destination vector (Cloning, genotyping and plasmids). The EG6699
+strain, bearing the ttTi5605 , MosSCI integration site on
+chromosome II (at 8.42 MB) was raised on HT115 and microinjected as described in
+Frøkjær-Jensen C, et al 48 . Integration was confirmed by
+genotyping, as well as the absence of unrescued Unc- progeny. These worms were
+then microinjected with a cocktail of 4 sgRNAs (5ng/ul each) generated by nested
+overlap PCR (see Cloning, genotyping and plasmids), along with a pGH8 myo-2::mcherry (10ng/ul) as a marker. 3 transgenic lines
+from independent injections were selected. For simplicity of presentation, these
+are presented as merged data for lifespans and qPCR validation. For the GCaMP
+experiment, 2 of the lines were selected for mating and analysis.
+
+The SPR-4::GFP reporter line was generated by microparticle bombardment
+using the fusion construct and bombardment protocol provided in Sarov et al.
+2012 49 (see Cloning
+and Genotyping for additional detail).
+
+To analyze RNA from transgenic lines, 100 worms (24 hours post-L4) of
+each strain (including controls) were placed into 1.5 ml M9 buffer. For RNAi
+experiments 5 worms per plate were harvested in M9. Worms were washed once in
+M9, pelleted by centrifugation, resuspended in 200 μl Trizol, vortexed
+for 2 minutes and flash frozen in liquid nitrogen. Worms were then
+freeze-cracked by thawing in a 37°C water bath and re-freezing in liquid
+nitrogen. This was repeated 2 more times. After the final thaw, 100 μl of
+Trizol was added and the tubes were maintained at room temperature for 5
+minutes. RNA was then extracted with 140 μl of chloroform, precipitated
+with an equal volume of 70% ethanol and transferred to an RNeasy spin column
+(Qiagen) and purified. Quantitative RT-PCR was performed directly from isolated
+RNA, using 1ng of RNA and the Qiagen One Step qPCR mix. All reactions were
+performed in triplicate.The ddCt method was used to analyze qRT-PCR data, and
+the dCt values were used for statistical analysis.
+
+Worms were treated for 24 hours with the indicated drugs, and then 150
+worms were transferred to 1.5mL liquid NGM (1mM MgCl2, 1mM CaCl2, 200mM KHP04,
+50mM NaCl) and washed once to remove bacterial clumps. Worms were transferred in
+100ul volumes to a 96 u-shaped well plate, and assayed in the Nemametrix
+wMicrotracker ( https://nemametrix.com/product-category/phenotyping-products/wmicrotracker/ )
+per manufacturer instructions.
+
+Lifespan and aging experiments were performed at 20°C and on FUDR
+unless otherwise noted. For each genotype, 20-35 day 1 worms were transferred to
+NGM plates containing 100ug/ml FUDR. Worms were scored for viability every day
+or every other day, and transferred to fresh plates between day 10 and day 14.
+For daf-2 mutant worms, worms were moved again at day 20-24.
+For histamine and ivermectin experiments, where the same plates were used for
+the entirety of the lifespan, a wetted towel was placed in the container with
+the plates to mitigate evaporative loss of water from the plates. For lifespan
+experiments in which untreated worms were transferred to the treatment group
+(e.g. day 8 histamine treatment), control worms (+/−) treatment were also
+transferred to fresh plates of the same type to control for any lifespan effects
+resulting from plate transfer. The presence or absence of FUDR is indicated for
+each experiment in Supplementary Table 22
+
+For all lifespans and stress resistance experiments, worms that burst
+(interior leaking out through the vulva) or bagged (interior hatching of
+progeny) were discarded from the plate and not used in lifespan analysis, along
+with animals that crawled off the plate during the course of the assay. Plates
+with mold or other contamination were discarded.
+
+For quantification of GFP fluorescence in fixed animals, 25-30 worms
+were transferred to an Eppendorf tube containing M9 buffer, washed once in M9
+and pelleted. The supernatant was removed and the pellet was frozen in liquid
+nitrogen. The day before imaging, worm pellets were thawed in PBS with 4%
+paraformaldehyde (ThermoFisher) and fixed for 30 minutes at room temperature
+while rocking. The PFA was removed by washing twice with PBS, with .025% Triton
+(PBST, to prevent sticking), and the worms were stained with DAPI for 10 minutes
+at room temperature. The DAPI was removed with a final wash in PBST, and the
+pellet was resuspended in 15ul of ProLong Gold mounting media (Life
+Technologies). The worms were transferred, in 12.5ul of mounting media, to a
+slide, and gently placed under a coverslip, which was then sealed with clear
+nail polish (E.M.S.).
+
+Slides were imaged on an Olympus Fluoview 1000 confocal microscope,
+using manufacturer settings for GFP and DAPI (488 and 405 laser, respectively)
+within 2 weeks of mounting, and all slides compared with each other were imaged
+on the same day, in the same imaging session. Worms were imaged via a 40x
+objective with a 2x digital zoom. For every worm, Z-stack image series were
+taken at 2 μm step sizes (roughly 13-15 images per series). To quantify
+nuclear GFP levels, these Z-stacks were opened in ImageJ (NIH) and flattened
+using a maximum intensity Z-stack projection. For pharyngeal nuclei, 3 regions
+of interest (ROI) were selected based on DAPI staining of nuclei, on either side
+of the pharynx and behind it, encompassing the bulk of the nuclei in that area.
+These were then used as the ROIs within which to measure GFP fluorescence, using
+the ImageJ intensity measuring tool. Average scores from the ROIs were computed
+for each worm. For Extended Data Figure 6b middle panel, Extended Data Figure 7d right panel, and Extended Data Figure 9a right panel, all nuclei located in the middle 3 z planes of the worm were
+individually selected using the same ROI/Intensity measuring tools. These nuclei
+were then used to calculate an average score per worm.
+
+GCaMP imaging was performed in lines bearing kyIs602 [sra-6::GCaMP3.0, 75 ng/μL+unc-122::GFP,
+10 ng/μL], which expresses predominately in the ASH neurons. Worms
+were removed from plates and mounted on 7.5% agarose pads in NGM liquid
+media (1mM MgCl 2 , 1mM CaCl 2 , 200mM KH 2 P04,
+50mM NaCl), mixed 1:1 with .05 micron polystyrene beads (Polysciences, Inc,
+cat#: 08691) as described here: http://wbg.wormbook.org/2009/12/01/agarose-immobilization-of-c-elegans/ .
+A coverslip was very gently applied and worms were imaged for a maximum of
+30 minutes after mounting. Videos of 144 seconds (240 frames, ~.6
+frames per second) were recorded on the confocal microscope described above
+(FV1000), with the confocal aperture widened to 250 microns to allow lower
+excitation intensity and mitigate z-drift. Worms were imaged with factory
+GFP settings and the 488 laser set to 2% . Videos were opened and played in
+Image J, and excitation events were scored by manually for Figure 4a . Scoring was performed blinded to
+genotype.
+
+For analyses of dF/F0 maximum intensity, videos were analyzed using
+a custom MATLAB script, which automatically registered and segmented the ASH
+neuron and recorded GCaMP fluorescence intensity for each frame. Videos of
+tracked neurons were manually reviewed and neurons that were poorly tracked
+were excluded from analysis. To normalize the fluorescence intensity per
+worm we used dF/F0 which was calculated as (F(t)-F0)/F0 where F(t) is the
+fluorescence intensity at time t and F0 represents an estimate of the
+baseline fluorescence which was calculated as the 0.2 quantile fluorescence
+per worm. dF/F0 max intensity was the maximum dF/F0 over the entire
+recording (240 frames). For analysis of nemadipine treated worms and for
+worms expressing the HisCL channel (and their controls), ROIs were
+hand-drawn because the tracking program failed due to either low signal
+intensity (nemadipine treated worms) or the inability to distinguish a
+confounding GFP signal (HISCL::GFP worms). Some worms were used in multiple
+GCaMP analyses.
+
+The SPR-4::GFP fusion fosmid used in bombardment ( ED Fig 6a , b ;
+Clone: 3167840880351681 C09) was provided by the Transgenome consortium (Sarov,
+2012) 49 . All primers
+used for genotyping can be found in Supplementary Table 22 .
+
+Brain samples were from the dorsolateral prefrontal cortex of 638
+individuals spanning the range of cognitive function from cognitively normal
+to MCI to AD from the ROS and MAP cohorts. https://www.synapse.org/#!Synapse:syn3219045
+
+Brain samples were from the dorsolateral prefrontal cortex of 602
+individuals with Schizophrenia, Bipolar disease, and control individuals
+with no neuropsychiatric disorders. https://www.synapse.org/#!Synapse:syn2759792
+
+Brain samples were from the frontal cortex of 146 neurologically
+normal Caucasian individuals 11 .
+
+ROSMAP cohort https://www.synapse.org/#!Synapse:syn3388564 .
+
+CommonMind Consortium cohort. https://www.synapse.org/#!Synapse:syn3157743 .
+
+Libraries were prepared using Illumina TruSeq Stranded mRNA sample
+preparation kits from 500 ng of purified total RNA according to the
+manufacturer’s protocol. The finished dsDNA libraries were quantified
+by Qubit fluorometer, Agilent TapeStation 2200, and RT-qPCR using the Kapa
+Biosystems library quantification kit according to manufacturer’s
+protocols. Uniquely indexed libraries were pooled in equimolar ratios and
+sequenced on an Illumina NextSeq 500 with paired-end 75 bp reads by the
+Dana-Farber Cancer Institute Molecular Biology Core Facilities.
+
+cDNA was synthesized Clontech SmartSeq v4 reagents from of 2ng RNA,
+due to low yields from aged worms. Full length cDNA was fragmented to a mean
+size of 150bp with a Covaris M220 ultrasonicator and Illumina libraries were
+prepared from 2ng of sheared cDNA using Rubicon Genomics Thruplex DNAseq
+reagents according to manufacturer’s protocol. The finished dsDNA
+libraries were quantified by Qubit fluorometer, Agilent TapeStation 2200,
+and RT-qPCR using the Kapa Biosystems library quantification kit. Uniquely
+indexed libraries were pooled in equimolar ratios and sequenced on Illumina
+NextSeq500 run with paired-end 75 bp reads at the Dana-Farber Cancer
+Institute Molecular Biology Core Facilities. One sequenced sample consisted
+of primarily ribosomal RNA and was discarded. This sample was reprocessed
+along with two other previously sequenced samples (as quality controls) with
+a new library preparation and sequencing. On a principal components plot
+these three samples showed no clear batch effect compared to the other
+samples so the resequencing of the sample that was problematic in the
+original batch was used. The two additional resequenced samples used for
+quality control were not used in the analysis.
+
+Samples were excluded if missing cognitive diagnosis (cogdx) or PMI,
+if the expression of sex-specific genes did not agree with reported sex, or
+if RNA integrity (RIN)<6.5. Of the 638 samples with RNA sequencing we
+removed 3 due to missing information, 180 due to low RIN, 1 due to sex
+mismatch, and the remaining 1 sample from sequencing batch 7 the samples of
+which had a strong batch effect on principal components plots and were
+removed due to low RIN. Next we performed outlier analysis (see below), and
+removed 10 outliers (3 no cognitive impairment (NCI), 1 mild cognitive
+impairment (MCI), 5 AD dementia, 1 other dementia). After quality control,
+there were 443 individuals for analysis (150 NCI, 118 MCI, 164 AD dementia,
+11 other dementia).
+
+We excluded the 10 outlier samples identified in the original
+publication. No other samples were removed. After quality control, of the
+602 samples with RNA sequencing, there were 592 individuals for analysis
+(279 Control, 258 Schizophrenia, 47 Bipolar, 8 Affective/mood disorder).
+
+No samples were removed due to missing information or incorrect sex.
+Next we performed outlier analysis, and removed 2 outliers. After quality
+control, there were 144 individuals for analysis.
+
+Outlier analysis was performed for each cohort in an iterative
+manner using only genes expressed in the youngold and oldestold groups at
+each iteration (see sections “Gene
+expression sample groups for human cohorts” and
+“ Gene expression normalization and
+covariate adjustment ”). For ROSMAP and CommonMind
+Consortium cohorts we used edgeR TMM-normalized log(CPM) expression. For
+Gibbs cohort we used log2 expression. At each iteration, the sample deemed
+to be the strongest outlier was removed, if any, and the process was
+iterated until no outliers were detected. Outlier detection was performed
+using principal components analysis, agglomerative hierarchical clustering
+using the Euclidean distance metric and average linkage criterion, and
+pairwise correlation of gene expression per sample. Samples were classified
+as outliers if they were isolated on a plot of the first and second
+principal components or in the hierarchical clustering tree, and had
+relatively low correlation with other samples determined as its mean
+pairwise correlation with other samples more than 3 standard deviations
+below the mean.
+
+BAM files containing reads aligned to hg19 were obtained from
+synapse ( https://www.synapse.org/#!Synapse:syn3388564 ). Reads were
+obtained from these BAM files using Picard v1.138 ( http://broadinstitute.github.io/picard/ )
+SamToFastq. Reads were aligned to GRCh38 with Ensembl GRCh38.86 gene models
+using STAR version 2.5.2b 50 with options --outFilterMismatchNoverLmax 0.04
+--outFilterMismatchNmax 999 --alignSJDBoverhangMin 1 --alignSJoverhangMin 8
+--outFilterMultimapNmax 20 --outFilterType BySJout --alignIntronMin 20
+--alignIntronMax 1000000 --alignMatesGapMax 1000000. Expression levels of
+genes were quantified as gene counts using FeatureCounts v1.5.1 51 with options -C -p -B -s 2
+-t exon -g gene_id.
+
+Gene counts were obtained from synapse. https://www.synapse.org/#!Synapse:syn3346749
+
+Quality control of sequencing reads was performed with FastQC
+( https://www.bioinformatics.babraham.ac.uk/projects/fastqc/ ).
+Reads were aligned to the Caenorhabditis elegans WBcel235
+genome with Ensembl WBcel235.86 gene models using STAR version 2.5.2b with
+options --outFilterMismatchNoverLmax 0.04 --outFilterMismatchNmax 999
+--alignSJDBoverhangMin 1 --alignSJoverhangMin 8 --outFilterMultimapNmax 20
+--outFilterType BySJout --alignIntronMin 15 --alignIntronMax 1000000
+--alignMatesGapMax 1000000. Expression levels of genes were quantified as
+gene counts using FeatureCounts v1.5.1 with options -C -p -B -s 2 -t exon -g
+gene_id for day 2 and -C -p -B -s 0 -t exon -g gene_id for day 10. Data are
+available in the Gene Expression Omnibus (GEO) under accession number
+GSE123146.
+
+ROSMAP was our discovery cohort. Based on hierarchical clustering of
+age-associated genes (see section
+“Hierarchical clustering to select age group
+cutoffs” ) we partitioned NCI individuals into 3 age
+groups: youngold (28 individuals, ages ≥70 and ≤80), middleold
+(33 individuals, ages >80 and <85), and oldestold (89
+individuals, ages 85-101). Individuals with cognitive impairment were
+grouped into a separate cognitive impairment group (293 individuals).
+
+CommonMind Consortium was a replication cohort for the ROSMAP
+results. We partitioned control individuals into 4 age groups: young (105
+individuals, ages ≥17 and ≤60), youngold (96 individuals, ages
+≥60 and ≤80), middleold (19 individuals, ages >80 and
+<85), oldestold (59 individuals, ages ≥85 and 90+; in this
+cohort, age of death greater than 90 years is censored to 90+.) Individuals
+with neuropsychiatric illnesses were grouped into a separate group (313
+individuals).
+
+Gibbs was a replication cohort for the ROSMAP results. We
+partitioned cognitively normal individuals into 4 age groups: young (104
+individuals, ages ≥15 and <55), youngold (18 individuals, ages
+≥55 and ≤80), middleold (3 individuals, ages >80 and
+<85), and oldestold (19 individuals, ages 85-101).
+
+Throughout the paper, “individuals with extended
+longevity” refers to individuals in the oldestold groups defined
+above.
+
+There were 4 genotypes of worms: daf-2 , daf-2; spr-4;3 , N2, and spr-4;3 , and
+each genotype had 3 biological replicates. Each genotype was considered as a
+separate group for analysis.
+
+Gene counts were input to edgeR 52 . Genes were deemed expressed if ≥10
+individuals in a combined youngold and oldestold group had ≥ 1 counts
+per million (CPM). Genes not satisfying these criteria were removed keeping
+the original library sizes. These were expressed genes used during each
+iteration of outlier analysis. After outlier analysis, of 58051 annotated
+genes this filtering retained 18511 expressed genes for analyses involving
+the ROSMAP cohort. Counts were then normalized using the TMM method in
+edgeR. Finally, log(CPM) values were calculated for analyses other than
+differential expression.
+
+To adjust gene expression for covariates we fit the linear
+regression model for each gene separately using lm() in R: gene expression
+~ group + covariates where gene expression is log(CPM), and using the
+group and covariates for ROSMAP. For ROSMAP group was a factor with 4
+levels: youngold, middleold, oldestold, and cognitivedecline with
+cognitivedecline as the reference level. The covariates were sex (factor, 2
+levels), RIN (continuous), RIN^2 (continuous), PMI (continuous), and
+sequencing batch (factor, 8 levels). The final normalized and adjusted gene
+expression values were derived from adding the regression residuals to the
+estimated effect of the group level to preserve the effect of the group on
+expression. These normalized and adjusted gene expression values were used
+to perform gene-gene regression analysis, gene-gene group regression
+analysis, and visualize gene expression.
+
+Gene counts were input to edgeR. Genes were deemed expressed if
+≥10 individuals in a combined youngold and oldestold group had
+≥ 1 counts per million (CPM). Genes that did not satisfy these
+criteria were removed maintaining the original library sizes. These were
+expressed genes used during each iteration of outlier analysis. After
+outlier analysis, of 56632 annotated genes, this filtering retained 19453
+expressed genes for analyses involving the CommonMind Consortium cohort.
+Counts were then normalized using the TMM method in edgeR. Finally, log(CPM)
+values were calculated for analyses other than differential expression. To
+adjust gene expression for covariates we fit the linear regression model for
+each gene separately using lm() in R: gene expression ~ group +
+covariates where gene expression is log(CPM), and using the group and
+covariates for CommonMind Consortium. For CommonMind Consortium group was a
+factor with 5 levels: young, youngold, middleold, oldestold, and
+neuropsychiatric illness with neuropsychiatric illness as the reference
+level. The covariates used were selected from those used in the original
+publication: sex (factor, 2 levels), RIN (continuous), RIN^2 (continuous),
+PMI (continuous), clustered batch (factor, 9 levels), and Institute (factor,
+3 levels). The final normalized and adjusted gene expression values were
+derived from adding the regression residuals to the estimated effect of the
+group level to preserve the effect of the group on expression. These
+normalized and adjusted gene expression values were used to perform
+gene-gene regression analysis, gene-gene group regression analysis, and
+visualize gene expression.
+
+Gene expression data measured on the Illumina humanRef-8 v2.0
+expression beadchip platform was downloaded from NCBI GEO GSE15745. Raw
+intensity values for each probe were transformed using the rank invariant
+normalization method by the authors 11 , and then log2 transformed for analysis. Probes
+were deemed expressed if ≥10 individuals in a combined youngold and
+oldestold group had Detection P-value<0.01. Unmapped probes according
+to updated GPL annotation were removed. These were expressed probes used
+during each iteration of outlier analysis. After outlier analysis, of 22184
+probes this filtering retained 13239 expressed probes for analyses involving
+the Gibbs cohort.
+
+To adjust gene expression for covariates we fit the linear
+regression model for each gene separately using lm() in R: probe expression
+~ group + covariates where probe expression is log2 expression, and
+using the group and covariates for Gibbs. For Gibbs group was a factor with
+4 levels: young, youngold, middleold, and oldestold with young as the
+reference level. The covariates were sex (factor, 2 levels), PMI
+(continuous), and prep hybridization batch (factor, 7 levels). The final
+normalized and adjusted probe expression values were derived from adding the
+regression residuals to the estimated effect of the group level to preserve
+the effect of the group on expression. These normalized and adjusted probe
+expression values were used to visualize probe expression.
+
+Gene counts were input to edgeR. Genes were deemed expressed if
+≥3 samples had ≥ 1 counts per million (CPM). Genes not
+satisfying these criteria were removed keeping the original library sizes.
+Of 46739 annotated genes this filtering retained 12981 expressed genes for
+analyses involving C. elegans day 2 and 15154 expressed
+genes for analyses involving C. elegans day 10. Counts were
+then normalized using the TMM method in edgeR. Finally, log(CPM) values were
+calculated for analyses other than differential expression. For day 2
+covariate adjustment was not necessary because there were no other
+covariates beyond the group variable. For day 10 we did not include a batch
+covariate because there was no observed batch effect on a principal
+components plot, and results were similar if a batch covariate was included
+and the two dropped technical repeat sequencings were used instead of their
+original sequenced reads (data not shown). Thus, covariate adjustment was
+not necessary because there were no other covariates beyond the group
+variable. These normalized gene expression values were used to visualize
+gene expression.
+
+To visualize differentially expressed genes in heat maps, normalized
+gene expression values were transformed to a z-score per gene and
+thresholded to [−3, 3].
+
+Differential expression analysis between the oldestold and youngold
+groups with covariate adjustment using the covariates listed in section “Gene expression normalization
+and covariate adjustment: ROSMAP” was performed for
+expressed genes using edgeR (estimateDisp, glmFit, and glmLRT with default
+arguments) in R. All 443 samples were included to increase statistical power
+during covariate modeling. Genes were considered differentially expressed if
+Benjamini and Hochberg false discovery rate (FDR) was ≤0.1, which was
+calculated using the R function p.adjust with argument
+method=”fdr” 53 .
+
+Differential expression analysis between the oldestold and youngold
+groups with covariate adjustment using the covariates listed in section “Gene expression normalization
+and covariate adjustment: CommonMind Consortium” was
+performed for expressed genes using edgeR (estimateDisp, glmFit, and glmLRT
+with default arguments) in R. All 592 samples were included to increase
+statistical power during covariate modeling. Genes were considered
+differentially expressed if FDR≤0.05 and absolute value of the fold
+change ≥ 1.2.
+
+Differential expression analysis between the oldestold and youngold
+groups with covariate adjustment using the covariates listed in section “Gene expression normalization
+and covariate adjustment: Gibbs” was performed for
+expressed probes using linear regression models in limma (lmFit and eBayes
+with default arguments) in R. All 144 samples were included to increase
+statistical power during covariate modeling. Probes were considered
+differentially expressed if FDR≤0.05.
+
+Differential expression analysis between all pairs of groups such as spr-4;3;daf-2 vs daf-2 was performed
+for expressed genes using edgeR (estimateDisp, glmFit, and glmLRT with
+default arguments) in R. All 12 samples were included during edgeR analysis.
+Genes were considered differentially expressed if FDR≤0.05.
+
+Gene annotation and gene sets used for functional gene classification
+into biological process (BP), molecular function (MF), and cellular component
+(CC) were from the GRCh38.p7 database downloaded from Ensembl Biomart on
+November 2, 2016.
+
+Synaptic transmission genes were genes that had direct or indirect
+annotation of GO Biological Process “chemical synaptic
+transmission” GO:0007268.
+
+REST target genes. The REST RE1 motif position-specific weight matrix
+MA0138.2 was obtained from JASPAR 54 . FIMO version 4.10.1 55 was used with the Homo sapiens genome sequence GRCh38
+to predict REST binding sites. A gene was defined to be a REST target if it had
+an RE1 motif with motif P-value < 1e-7 that was +/−10kb from the
+transcription start site of any transcript of the gene in the Ensembl GRCh38.86
+gene models. This procedure identified 2632 REST target genes before filtering
+for expressed genes in each cohort during gene set enrichment analysis.
+
+ENCODE ChIP-seq transcription factor target gene sets were from the
+ENCODE_TF_ChIP-seq_2015 database 56 downloaded from http://amp.pharm.mssm.edu/Enrichr/ on March 8, 2018.
+
+Cell type analysis gene sets were derived from a transcriptome database
+of the major cell classes of the mouse cerebral cortex 57 using data from https://web.stanford.edu/group/barres_lab/brain_rnaseq.html . To
+select cell marker genes first we calculated the fold expression of each gene in
+each cell type by dividing the FPKM expression in that cell type by the mean of
+the FPKM expression in the other 6 cell types. For each cell type we selected as
+cell marker genes those that had at least 10-fold higher expression and that had
+one-to-one human-mouse homologs. Homologs were downloaded from http://www.informatics.jax.org/downloads/reports/HOM_MouseHumanSequence.rpt on November 16, 2016.
+
+DAF-16 class I (upregulated) genes were derived by selecting genes with
+FDR<0.01 and class=”up” from Tepper et al Table S1 58 .
+
+For gene set enrichment analysis of differentially expressed genes, we
+only retained genes in each gene set that were expressed in that differential
+expression analysis. Gene set enrichment analysis was performed separately for
+upregulated genes vs not upregulated genes, downregulated genes vs not
+downregulated genes, and differentially regulated genes vs not differentially
+regulated genes. For Gene Ontology gene sets, gene set enrichment was determined
+using the topGO R package 59 using the classic algorithm and Fisher’s statistic. Gene set enrichment
+for REST target genes, ENCODE ChIP-seq transcription factor target gene sets,
+and Cell type analysis gene sets was performed using the hypergeometric
+distribution (one-tailed). Gene sets with less than 5 genes after filtering for
+expressed genes were removed before the gene set enrichment false discovery
+rates were calculated.
+
+To calculate the statistics for overlap of daf-2 upregulated genes, spr-4;3;daf-2 upregulated genes, spr-4;3;daf-2 downregulated genes, and daf-16 class I genes
+for C. elegans day 10 we used the SuperExactTest version 1.0.0
+R package 60 .
+
+For meta-analysis of GO terms and ENCODE ChIP-seq transcription factor
+target gene set enrichment from the ROSMAP, CMC, and Gibbs cohorts, we used
+Stouffer’s method with weights 61 for combining p-values implemented in the sumz function
+in the metap R package 62 .
+P-values equal to 1 were replaced with 0.999999 to comply with the requirement
+that 0<P-value<1. For study weights we used the square root of the
+total number of individuals in the combined youngold and oldestold group for
+each study (ROSMAP, sqrt(117); CMC, sqrt(155); Gibbs, sqrt(37) 63 .
+
+Normalized and adjusted gene expression values were derived as described
+in the section “Gene expression
+normalization and covariate adjustment” with the following
+changes. First, the group variable was a factor with levels cogdx1, cogdx2,
+cogdx3, cogdx4, cogdx5, and cogdx6 (ROSMAP); control, Schizophrena, Bipolar,
+Affective (CommonMind Consortium); or not included (Gibbs). Next, genes were
+deemed expressed if ≥10 individuals in the cognitively normal group
+(ROSMAP, cogdx1; CommonMind Consortium, control with age>=60) had
+≥ 1 counts per million (CPM). Genes not satisfying these criteria were
+removed keeping the original library sizes. For the Gibbs cohort, probes were
+deemed expressed if ≥10 individuals with age>=55 had Detection
+P-value<0.01 and no samples had NA values. Probes not satisfying these
+criteria were removed. These were expressed genes used for analysis. This
+filtering retained: ROSMAP, 18734 expressed genes; CommonMind Consortium, 19615
+expressed genes; Gibbs, 13411 expressed probes. For RNA-seq data, counts were
+then normalized using the TMM method in edgeR, and log(CPM) values were
+calculated for expression. Finally, age was included as a continuous covariate,
+and the effects of group and age were added back to the residuals. Then
+cognitively normal aged individuals were selected in each cohort (ROSMAP,
+cogdx1; CommonMind Consortium, control with age≥60; Gibbs, age
+≥55). To determine age-associated genes, the expression of each expressed
+gene was correlated with the age of death of the individual using spearman
+correlation. Genes with spearman rank correlation FDR<0.1 (ROSMAP, n=1025
+genes) or FDR<0.05 (CommonMind Consortium, n=6828 genes; Gibbs, n=203
+probes) were age-associated genes. Permuting sample ages before calculating the
+spearman correlations gave no genes passing the FDR threshold. Genes were then
+normalized to have mean 0 and standard deviation 1 across individuals, and genes
+with normalized expression >=3 or <=−3 were set to 3 or
+−3, respectively. The Pearson correlation coefficient between individuals
+was then calculated using only age-associated genes.
+
+Agglomerative hierarchical clustering using the Euclidean distance
+metric and average linkage criterion was performed on the matrix of pair-wise
+Pearson correlations to cluster individuals. The resulting tree was cut into 3
+groups, and the distribution of the age of death of individuals of each group
+was analyzed. Using the ROSMAP cohort, for the cluster with the smallest median
+age, with c1 individuals, we calculated the number of individuals, nyoc, with
+age of death in [70, youb], of nyo total, and for the cluster with the largest
+median age, of c2 individuals, we calculated the number of individuals, nooc,
+with age of death in [oolb, Inf), of noo total, as the age boundaries youb and
+oolb varied. For each set of age cutoffs we assigned a score as (nyoc/nyo*c1 +
+nooc/noo*c2)/(c1+c2). To ensure adequate sample sizes for differential
+expression and because individuals with older ages appeared more heterogeneous
+in the cluster heat map we only considered age cutoffs with at least 25
+individuals in the youngold group and at least 75 individuals in oldestold
+group. Based on the top scoring age cutoffs in the ROSMAP cohort, we selected
+youb=80 and oolb=85. Thus, the age cutoffs for defining the youngold, middleold,
+and oldestold groups used for differential expression in the ROSMAP, CommonMind
+Consortium, and Gibbs cohorts were selected to be ≤80, >80 and
+<85, and ≥85, respectively.
+
+Statistical analysis was performed using R. Statistical tests used are
+noted in the figure legends or in the relevant Methods section . Throughout the paper, all tests are two-sided and
+unpaired unless stated otherwise. A significance level of 0.05 was used to
+reject the null hypothesis unless stated otherwise.
+
+Boxplots throughout the paper show the median, lower and upper hinges
+(first and third quartiles), upper whisker (hinge to the largest value no
+further than 1.5 * IQR from the hinge), lower whisker (hinge to the smallest
+value at most 1.5 * IQR of the hinge), and outlying points beyond the whiskers.
+Additionally, all points are plotted on top of the boxplot and randomly jittered
+horizontally
+
+A t-test was used for parametric comparisons between two groups with
+normally distributed data, and utilized t.test(). For groups with equal variance
+Student’s t-test was used (argument var.equal=TRUE); otherwise
+Welch’s t-test was used (argument var.equal=FALSE). ANOVA was used for
+parametric comparisons between more than two groups and used aov(). The
+Mann–Whitney U test was used for nonparametric comparisons between two
+groups without knowledge of their distribution and used wilcox.test() with
+arguments exact=TRUE, correct=FALSE. Levene’s test was used to
+investigate the homogeneity of variance across groups and used leveneTest() from
+the “car” R package. Q-Q plots and the Shapiro-Wilk test were used
+to assess normality and used shapiro.test(). The Bonferroni outlier test was
+used to assess outliers and used outlierTest() from the “car” R
+package. The log-rank test was used to compare the survival distributions of two
+groups. Survival statistics were calculated using survfit() with argument
+type=“kaplan-meier” and survdiff(). To determine if there was a
+linear relationship between two variables we fit a linear regression model and
+tested the null hypothesis that the slope of the regression line is 0 using a
+two-sided t-test using lm(). P-values were corrected for multiple comparisons
+where noted using p.adjust() with argument method=”fdr”,
+“holm”, or “bonferroni” for false discovery rate,
+Holm’s method, or Bonferroni correction, respectively. The GCaMP imaging
+data indicated that nonparametric analyses were most appropriate and thus were
+used for all GCaMP analyses. In Fig 2e the
+presence of candidate outliers and/or potential non-normality for timepoints
+1-12.5 minutes suggested a Mann–Whitney U test was more appropriate
+although a t-test produced similar conclusions. Meta-analysis of lifespan
+experiments that performed pairwise comparisons among more than 2 groups ( Extended Data Fig. 8a right, Extended Data Fig. 8c ) used pairwise Student’s
+t-tests implemented in pairwise.t.test() with argument pool.sd=TRUE to calculate
+a common standard deviation used for all groups and comparisons.
+
+## Extended Data
+a-c , Adjusted gene expression profiles for
+age-associated genes were compared between cognitively normal aged
+individuals to derive a matrix of Pearson correlation coefficients that
+indicate the degree of similarity between any two cases in the ROSMAP (a,
+dorsolateral prefrontal cortex, n=150 individuals) CommonMind Consortium (b,
+dorsolateral prefrontal cortex, n=174 individuals) and Gibbs (c, frontal
+cortex, n=40 individuals) cohorts. d-f , Most significantly
+enriched GO terms for upregulated genes in the cortex of cognitively normal
+individuals who lived to be ≥85 years old relative to individuals who
+lived to be ≤80 years old in the ROSMAP (d, n=117 individuals),
+CommonMind Consortium (e, n=155 individuals), and Gibbs (f, n=37
+individuals) cohorts. P-values were calculated using Fisher’s exact
+test (see Methods ). g ,
+Meta-analysis of GO term enrichment for downregulated genes. Shown are
+selected GO terms related to excitatory and inhibitory synaptic
+transmission. The individual cohort enrichment p-values were combined using
+Stouffer’s method (see Methods ).
+NS, FDR>0.1.
+
+a, Worms were transferred at day 8 to either standard
+NGM plates or plates containing ivermectin (1 pg/ml) or nemadipine (2
+μM). Shown is a representative curve of an experiment repeated twice.
+Nemadipine versus WT: P=3.2 e-4; Ivermectin versus WT: P=2.2e-7 by log-rank
+test. Nemadipine, n=81; Ivermectin, n=82; WT, n=76. b. Day 2
+worms treated with nemadipine or ivermectin for 24 hours were transferred to
+liquid culture and thrashing rate was assessed using the Nemametrix
+wMicrotracker (see Methods ). Shown are
+mean motility scores for the first 60 minutes, ± S.E.M.. Untreated,
+n=17 wells; Ivermectin, n=17 wells; Nemadipine, n=16 wells. Each well
+contained ~10 worms. **P=1.7e-4 vs untreated, Mann–Whitney U
+test with multiple testing correction by Holm’s method. Results are
+representative of an experiment replicated twice.
+
+a-h. C. elegans lines expressing the transgenic HisCl1 channel
+in the indicated neuronal populations were treated with 10 mM histamine
+(His+) starting at adult day 1 (a, c, e, g) or day 8 (b, d, f, h) and
+compared to untreated controls (His−). P-values are by log-rank. See Supplementary Table
+22 for individual n values and statistics. i, Shown
+is the mean lifespan extension ± S.E.M. for worms treated with
+histamine at days 1 or 8 relative to untreated controls for at least three
+independent replicates, *P<0.05, **P<0.01 by Student’s t -test. HisCl1was driven using the GAL4SK:VP64 system
+for the GABAergic (GABA), glutamatergic (GLUT) and cholinergic systems,
+using unc-47 , eat-4 , and unc-17 drivers, respectively (see Supplementary Table 19 for
+details). j, Reduced ASH neuron excitation following inhibition
+of GABA activity at day 1 but not day 8. Shown is normalized maximum GCaMP
+fluorescence in day 1 and 8 unc-47 :HisCl1 worms that were
+treated with 10 mM histamine [His (+)] on the indicated day, or untreated
+controls [His (−)]. Day 1 His(−): n=18 worms; Day 1 His(+),
+n=19 worms; Day 8 His(−): n=23 worms; Day 8 His(+): n=20 worms.
+*P=1.1e-3 by the Mann–Whitney U test.
+
+a, Increased excitation of ASH neurons following RNAi
+against the GABA vesicular transporter unc-47 . GCaMP
+imaging was performed on worms with enhanced neuronal RNAi (See Figure 3 legend and Methods for details) for unc-47 (n=37)
+or controls (n=43) at day 2. **P= 6.8e-3 by the Mann–Whitney U test. b, RNAi for unc-47 reduces lifespan. Worms
+with enhanced neuronal RNAi were treated with unc-47 (n=31)
+or control RNAi (n=84). Shown is a representative lifespan analysis
+replicated 3 times. P= 1.3e-6 by log-rank test. c, Reduction of
+synaptic neurotransmission or neuropeptide signaling extend lifespan in C. elegans . Mutations in genes affecting glutamatergic
+neurotransmission ( eat-4 ), presynaptic function
+( unc-13 ) and neuropeptide signaling
+( egl-3) exhibit comparable lifespan extension. WT,
+n=57; eat-4 ( nj2 ), n=54. P≤2.2e-16; unc-13 ( e51 ), n=92, P=3.6e-14; egl-3 ( gk238 ), n=35, P=8.3e-11 by
+log-rank test. Shown are curves representative of two independent
+replicates. d, Extension of lifespan by egl-3 RNAi in worms with enhanced neuronal RNAi. Shown are lifespan curves
+representative of two independent replicates. egl-3 RNAi
+(n=47 worms); Empty Vector (n=84 worms). P=3.5e-11 by the log-rank test.
+
+a-b, Expression of genes downregulated in individuals
+≥85 years versus ≤80 years old is inversely related to REST
+mRNA levels. Shown is linear regression analysis of normalized and adjusted
+REST mRNA levels and mean expression of a, all downregulated
+genes and b, downregulated genes associated with the synaptic
+transmission GO term. Data is from the CommonMind cohort. Each point
+represents an individual case, n=155 individuals. P-values were derived by a
+t-test for the slope of the regression line. Note similarity to the data for
+the ROSMAP cohort in Fig. 2a , b . c-d, Stratification by
+age group. Analysis of the ROSMAP cohort (c, n=117 individuals) and the
+CommonMind cohort (d, n=155 individuals) as in Fig 2a , but stratified by age group. P-values were derived by
+t-test for the slope of the regression line. e, Loss of REST
+expression in conditional REST knockout mice. Representative images of the
+cortex (top panel) and hippocampus (bottom panel) from REST lx/lx (Control) , and Nestin-Cre;REST lx/lx (REST−/−) mice. Immunolabeling was performed with the
+anti-mouse REST-14 antibody directed against the REST C-terminal domain.
+Scale bar, 40 μm. Image shown is representative of an experiment
+replicated 4 times. f, Survival of REST −/− and
+control mice following administration of the seizure-inducing agent
+pentylentetrazole (PTZ, 40 mg/kg). P=0.065 for REST−/− versus
+control by the log-rank test. Control, n=9; REST−/−, n=7.
+
+a, spr-4 mRNA levels in worms expressing a stably integrated
+dCas9::VP64 transgene in the presence, sgRNA(+), or absence sgRNA(−),
+of 4 different sgRNAs targeting the spr-4 promoter.
+Transcript levels were determined by qRT-PCR and normalized to
+sgRNA(−) controls. Values are the mean ± S.E.M., n=3. A: *P=
+0.041; B: P=0.020 by one-sided Student’s t -test. b, dCas9::VP64-mediated elevation of SPR-4 protein levels.
+Left panel: Representative images of the head region of heterozygous F1
+progeny of the strains bearing a pspr-4::spr-4::gfp::spr-4utr transgene. Arrowheads
+indicate SPR-4::GFP positive nuclei. Dashed red lines indicate the outline
+of the worm body. Scale bar, 40 μm. Middle panel: Values represent
+the mean ± S.E.M. sgRNA(−), n=5 worms; sgRNA(+), n=5 worms
+with 7-38 measurements per worm; *P=0.022, one-sided Student’s
+t-test. Right panel: Values represent the mean ± S.E.M.
+sgRNA(−), n=4 worms; sgRNA(+), n=4 worms. P=0.011, one-sided
+Student’s t-test. Shown is a representative experiment replicated
+three times. c, Extended lifespan in worms expressing an
+integrated dCas9::VP64 transgene and sgRNAs targeting the spr-4 promoter [sgRNA(+)] (n=79 worms) relative to
+dCas9::VP64-expressing worms in the absence of sgRNAs [sgRNA (−)]
+(n=57 worms) P=5.5e-9, log-rank test. Representative of an experiment
+replicated 6 times. d , Lifespans of worms expressing sgRNA
+targeting the spr-4 promoter in the presence (n=87 worms)
+or absence (n=58 worms) of dCas9::VP64. P=3.7e-7, log-rank test.
+Representative of an experiment replicated twice. e, Lifespans
+of dCas9::VP64 expressing worms in the presence (n=51 worms) or absence
+(n=58 worms) of sgRNAs on the spr-4(tm465) loss-of-function
+mutant background. P=0.49, log-rank test. Representative of three
+independent replicates. f, Overexpression of spr-4 reduces neural excitation. GCaMP imaging was
+performed in ASH neurons in SPR-4 overexpressing (sgRNA+) and control
+(sgRNA-) worms in the lines described in c . Shown are maximum
+GCaMP fluorescence changes. sgRNA minus, n=12 worms; sgRNA plus, n=10 worms.
+*P=0.025, Mann–Whitney U test.
+
+a, Lifespan extension by overexpression of spr-4 is daf-16 dependent. Lifespans
+of worms overexpressing spr-4 (sgRNA+;dCAS9::VP64) or not
+overexpressing spr -4 (sgRNA-;dCAS9::VP64) following
+treatment with daf-16 RNAi or an empty vector control.
+sgRNA(+)EV (n=29 worms) versus sgRNA(−)EV (n=25 worms): P=2.7e-4;
+sgRNA(+) daf-16 (n=18 worms) versus
+sgRNA(−) daf-16 (n=29 worms) P=0.20 by log-rank
+test. Representative of 4 independent replicates. b, c, Lifespan extension by the neural excitation inhibitors ivermectin and
+nemadipine is daf-16 -dependent. Shown are lifespan
+determinations for WT control and daf-16 ( mu86 ) mutant worms in the
+presence or absence of nemadipine (2μM) ( b ) or
+ivermectin (1pg/ml) ( c ). b, WT, n=69 worms;
+WT+Nema, n=51; daf-16 , n=43; daf-16 +Nema,
+n=67. WT+Nema vs WT, P=9.9e-8; daf-16+Nema vs daf-16, P=0.014 by log-rank
+test c, WT, n=78 worms; WT+Ive, n=77; daf-16 ,
+n=27; daf-16 +Ive, n=29. WT+Ive vs WT, P=7.3e-8; daf-16 +Ive vs daf-16 , P=0.22; log-rank
+test. Curves are representative of an experiment replicated 2 (nemadipine)
+or 3 (ivermectin) times. d, Inhibition of neural excitation
+with ivermectin elevates DAF-16 levels. Worms expressing a DAF-16::GFP
+transgene were treated for 10 days with 1 pg/mL ivermectin and assessed by
+confocal microscopy. Left panel: Shown is total DAF-16::GFP. Values
+represent the mean ± S.E.M (untreated, n=19 worms, Ivermectin, n=16
+worms). **P=2.5e-7, Mann-Whitney U test. Right panel: Shown is nuclear
+DAF-16::GFP (n=5 worms per group, 50-61 nuclei per worm). *P= 0.013 by
+Student’s t-test. Results are representative of an experiment
+replicated twice. e, DAF-16 is not required for inhibition of
+neural excitation by nemadipine. Shown are maximum ASH GCaMP intensity
+changes for day 2 daf-16 ( mu86 ) mutant
+worms treated for 24 hours with 2 μM nemadipine (untreated, n=16
+worms; nemadipine, n=18 worms). P=9.4e-5, Mann-Whitney U test). f, DAF-16 is not required for inhibition of neural
+excitation by ivermectin. Shown are day 2 worms treated for 24 hours with 1
+pg/mL ivermectin (control, n=19 worms; ivermectin, n=32 worms). P=0.030,
+Mann-Whitney U test).
+
+a , Loss of function of SPR-3 and SPR-4 reduces the
+lifespan extension of daf-2 RNAi. Left panel:
+Representative lifespan analysis of spr-4(by105);spr-3(ok2525) double mutant and wild-type
+(WT) worms following daf-2 or empty vector (EV) control
+RNAi. WT+EV, n=54 worms; spr-4;3 +EV, n=58 worms;
+WT+ daf-2 , n=26 worms; spr-4;3 + daf-2 , n=54 worms. Right
+panel: Values represent mean percent lifespan extension ± S.E.M.
+( daf-2 RNAi versus EV control) in the indicated
+genotypes. WT, n=6 independent experiments; spr-4 ( by105 ), n=3, *P=0.017 versus WT; spr-4 ( tm465 ), n=4, **P=0.0062 versus
+WT; spr-3 ( ok2525 ), n=4, **P=0.0018 versus
+WT; spr-4 ( by105 ); spr-3 ( ok2525 ),
+n=4, **P=0.0016 versus WT by Students t -test. See Supplementary Table
+22 for individual lifespan data and statistics. b, Lifespan is unaffected by spr-4 and spr-3 mutations in a wild-type background. WT, n=50 worms; spr-3 ( ok2525 ), n=31; spr-4 ( by105 ); spr-3 ( ok2525 ),
+n=32; spr-4 ( by105 ), n=34; spr-4 ( tm465 ), n=33.There were no
+reproducibly significant changes by the log-rank test in 3-6 independent
+experiments per genotype (see Supplementary Table 22 ). c, Quantification of lifespan extension in daf-2 mutant worms shown in Fig. 3b attributable to neuronal expression of spr-3 and spr -4. RNAi was targeted to
+neurons by neuronal expression of a sid -1 transgene in
+otherwise sid-1 null daf-2(1370) mutants
+( daf-2 ;p[neuron]: sid-1 ), and compared
+with untargeted RNAi in sid-1 wild-type daf-2(1370) mutants ( daf-2 ). Values
+represent mean lifespan extension relative to the control sid-1 ( pk3321 );p[neuron]: sid-1 worms treated with empty vector (EV) ± S.E.M (n= 3 independent
+experiments). Significant lifespan effects were not observed for RNAi in the
+absence of the daf-2 mutation. *P<0.05;
+**P<0.01 by Student’s t -test. d, Gene expression determined by RNA sequencing in day 2 adult worms.
+Differentially expressed genes (rows) and the indicated worm genotypes
+(columns) were clustered, and gene expression, transformed to a z-score per
+gene, is represented in a heat map. N=3 independent replicates per genotype. e , Venn diagram illustrating the overlap of differentially
+expressed genes in daf-2 single mutant vs WT and spr-4;3;daf-2 triple mutant vs daf-2 single mutant comparisons. P=7e-30, Fisher’s exact test with a
+one-sided alternative hypothesis. . f, Long-lived daf-2 mutants do not show an age-related increase in
+neural excitation. Shown is maximum ASH GCaMP intensity changes in day1-2
+(n=39) and day 14-16 (n=20) daf-2(e1370) mutant worms. Note
+the absence of the age-related increase in excitation observed in wild-type
+aging worms ( Fig. 1e ). P=0.93,
+Mann-Whitney U test. g , The spr-4;spr-3 double
+mutant in a wild-type background does not significantly affect neural
+excitation in ASH neurons. WT, n=15 worms; spr-4;spr-3 ,
+n=15 worms. P= 0.62, Mann-Whitney U test. h, DAF-16 does not
+mediate suppression of neural excitation in the daf-2 mutant. RNAi for daf-16 was performed in daf-2(e1370) mutant worms on a sid-1 ( pk3321 );p[neuron]: sid-1 background to augment RNAi in neurons ( daf-16 RNAi, n=20
+worms, empty vector (EV) control, n=12 worms). P=0.33, Mann–Whitney U
+test. i, Description of the genes targeted by RNAi in Figure 4d .
+
+a, Reduced DAF-16 activation in spr-4;3 mutants following daf-2 RNAi.
+Left confocal panel: Shown are day 10 worms of the indicated genotypes
+expressing an integrated DAF-16::GFP transgene and treated with daf-2 RNAi or empty vector (EV) control since day 1 of
+adulthood. Images are maximum intensity z-projections. Scale bar,
+40μm. Left bar graph: Values represent mean GFP intensity ±
+S.E.M. in the peri-pharyngeal regions of spr-4;3 double
+mutants relative to wild-type controls for a representative experiment
+replicated 4 times (see methods for
+details of analysis). (n=8-12 worms per replicate). **P=5.2e-5 by
+Welch’s t-test. Right confocal panel: Higher magnification views of
+DAF-16::GFP and DAPI-labeled nuclei. Images are magnified confocal z-planes.
+Scale bar, 10μm. Right bar graph: Values represent mean nuclear GFP
+intensity ± S.E.M. relative to the WT-EV control, n=5 worms per
+genotype and 51-89 nuclei per worm. *P=0.016, **P=5.5e-3 by ANOVA with
+post-hoc Tukey test. Values and images are representative of an experiment
+replicated 3 times. b, Gene expression determined by RNA
+sequencing in adult day 10 worms. Differentially expressed genes (rows) and
+replicates of the indicated worm genotypes (columns) were clustered, and
+gene expression, transformed to a z-score per gene, is represented in a heat
+map. n=3 independent replicates per genotype. c , Venn diagram
+illustrating the overlap of differentially expressed genes in day 10 daf-2 vs WT and spr-4;3;daf-2 vs daf-2 comparisons. P=4e-123, Fisher’s exact test
+with a one-sided alternative hypothesis. d, Overlap of class I daf-16 target genes (described in Methods ) with genes downregulated in day 10 spr-4;3;daf-2 triple mutants relative to daf-2 single mutants. P-values were calculated using a
+hypergeometric distribution (see Methods ). n.s, p=0.99 e, Ivermectin increases
+DAF-16::GFP levels in spr-4;3 worms following daf-2 RNAi. Left panel: Confocal imaging of GFP
+fluorescence in ivermectin-treated (10 pg/ml) and untreated worms. The red
+dashed lines indicate the worm body. Right panel: Quantification of
+DAF-16::GFP. Values represent mean GFP intensity ± S.E.M.,
+WT/Untreated, n=12; WT/Ivermectin, n=10; spr-4; 3/Untreated,
+n=10; spr-4; 3/Ivermectin, n=10. **P=4.6e-4
+( spr-4;3 vs WT untreated), P=2.6e-4
+( spr-4;3 +Ivermectin vs spr-4;3 untreated) by Mann–Whitney U test with multiple testing correction by
+Holm’s method. Shown is a representative experiment replicated 3
+times.
+
+a, Linear regression analysis of REST and FOXO mRNA
+levels in the prefrontal cortex of 174 cognitively-intact individuals
+(age≥60 years) from the CommonMind Consortium determined by RNA
+sequencing. P-values are derived from a t -test for the
+slope of the regression line and Bonferroni-corrected across all expressed
+genes. b, Colocalization of REST and FOXO1 in neurons of the
+aged human prefrontal cortex. Confocal immunofluorescence microscopy was
+performed in human prefrontal cortex using antibodies against REST (green,
+rabbit polyclonal; Bethyl), FOXO1 (red, goat polyclonal; LS-Bio) and the
+neuronal marker MAP2 (grey, chicken polyclonal; Abcam). Scale bar, 40
+μm. The image shown is representative of immunofluorescence labeling
+performed in 30 individuals. See Supplementary Table 20 for
+additional information on antibodies. c, Inhibition of
+glutamatergic signaling in mouse cortical neuronal cultures elevates FOXO1
+levels. Left panel: Primary mouse cortical neuronal cultures treated with
+kynurenic acid (KYNA, 5 μM), APV (50 μM), NBQX (2 μM)
+or vehicle (Control) were analyzed by confocal immunofluorescence for FOXO1
+or MAP2 and labeled with DAPI. Boxed areas were magnified in the lower three
+rows. Note that most FOXO1 in cultured neurons is cytoplasmic, but a
+detectable nuclear component overlaps with DAPI. Scale bar, 40 μm.
+Right panel: Quantification of total and nuclear FOXO1 levels in
+MAP2-positive neurons. Values represent the mean ± S.E.M. Control,
+n=200; KYNA, n=326; APV, n=148; NBQX, n=197. FOXO1 Total/KYNA: **P=2.1e-8;
+FOXO1 Nuclear/KYNA **P=1.1e-4; FOXO1 Total/NBQX **P=8.8e-13; FOXO1
+nuclear/NBQX **P=5.2e-6 by the Mann–Whitney U test with multiple
+testing correction by Holm’s method. Shown is a representative
+experiment replicated 3 times.

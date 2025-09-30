@@ -1,0 +1,5 @@
+# Title
+TFEB Links Autophagy to Lysosomal Biogenesis
+
+# Abstract
+Autophagy is a cellular catabolic process that relies on the cooperation of autophagosomes and lysosomes. During starvation, the cell expands both compartments to enhance degradation processes. We found that starvation activates a transcriptional program that controls major steps of the autophagic pathway, including autophagosome formation, autophagosome-lysosome fusion and substrate degradation. The transcription factor EB (TFEB), a master gene for lysosomal biogenesis, coordinated this program by driving expression of autophagy and lysosomal genes. Nuclear localization and activity of TFEB were regulated by serine phosphorylation mediated by the extracellular signal-regulated kinase 2, whose activity was tuned by the levels of extracellular nutrients. Thus, a mitogen-activated protein kinase-dependent mechanism regulates autophagy by controlling the biogenesis and partnership of two distinct cellular organelles.

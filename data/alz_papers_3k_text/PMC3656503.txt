@@ -1,0 +1,370 @@
+# Title
+CSF biomarker associations with change in hippocampal volume and precuneus thickness:
+implications for the Alzheimer’s pathological cascade
+
+# Abstract
+Neurofibrillary tangles (NFT) and amyloid plaques are hallmark neuropathological features
+of Alzheimer’s disease (AD). There is some debate as to which neuropathological feature
+comes first in the disease process, with early autopsy studies suggesting that NFT develop first,
+and more recent neuroimaging studies supporting the early role of amyloid beta (Aβ)
+deposition. Cerebrospinal fluid (CSF) biomarkers of Aβ 42 and hyperphosphorylated
+tau (p-tau) have been shown to serve as in vivo proxy measures of amyloid plaques and NFT,
+respectively. The aim of this study was to examine the association between CSF biomarkers and rate
+of atrophy in the precuneus and hippocampus. These regions were selected because the precuneus
+appears to be affected early and severely by Aβ deposition, and the hippocampus similarly by
+NFT pathology. We predicted (1) baseline Aβ 42 would be related to accelerated
+rate of cortical thinning in the precuneus and volume loss in the hippocampus, with the latter
+relationship expected to be weaker, (2) baseline p-tau 181p would be related to
+accelerated rate of hippocampal atrophy and cortical thinning in the precuneus, with the latter
+relationship expected to be weaker. Using all ADNI cohorts, we fitted separate linear mixed-effects
+models for changes in hippocampus and precuneus longitudinal outcome measures with baseline CSF
+biomarkers modeled as predictors. Results partially supported our hypotheses: Both baseline
+p-tau 181p and Aβ 42 were associated with hippocampal atrophy over time.
+Neither p-tau 181p nor Aβ 42 were significantly related to cortical
+thinning in the precuneus over time. However, follow-up analyses demonstrated that having abnormal
+levels of both Aβ 42 and p-tau 181p was associated with an accelerated
+rate of atrophy in both the hippocampus and precuneus. Results support early effects of Aβ
+in the Alzheimer’s disease process, which are less apparent than and perhaps dependent on
+p-tau effects as the disease progresses. However, amyloid deposition alone may be insufficient for
+emergence of significant morphometric changes and clinical symptoms.
+
+## INTRODUCTION
+Neurofibrillary tangles (NFT) and amyloid plaques are the hallmark neuropathological
+features of Alzheimer’s disease (AD). There is some debate about which neuropathological
+feature comes first in the disease process. Early autopsy studies suggested that NFT develop first
+( Braak, Braak, Bohl, & Reintjes, 1996 ), whereas some
+recent neuroimaging studies, particularly those employing 11 C-PiB methods, support the
+early role of amyloid deposition (see Jack et al., 2010 for
+review), in line with the amyloid cascade hypothesis ( J. A. Hardy
+& Higgins, 1992 ; see J. Hardy, 2009 for a critical
+reappraisal of this hypothesis). CSF biomarkers of phosphorylated tau and Aβ 42 have been shown to serve as in vivo proxy measures of NFT and amyloid plaques, respectively ( Buerger et al., 2006 ; Clark et al.,
+2003 ; Shaw et al., 2009 ), and improve diagnostic
+accuracy for AD ( Hampel, Goernitz, & Buerger, 2003 ; Strozyk, Blennow, White, & Launer, 2003 ). There is evidence
+that as amyloid plaques develop, CSF Aβ 42 decreases ( Shaw, Korecka, Clark, Lee, & Trojanowski, 2007 ), thus lower CSF
+Aβ 42 suggests increased brain amyloid deposition. Unlike total tau, which may be
+a general marker of neuronal damage, p-tau is likely to reflect the formation of tangles in AD
+( Blennow & Hampel, 2003 ), with increased levels of CSF
+p-tau thought to reflect increased NFT pathology.
+
+Investigation of the relationship between CSF biomarkers and regional changes on
+structural and functional MRI may contribute to understanding the pathological mechanisms of AD.
+Aβ-associated neurodegeneration manifests as cortical thinning in regions vulnerable to
+early Aβ deposition and this may begin prior to clinically evident cognitive impairment
+( Becker et al., 2011 ). The precuneus is a site of preferential
+amyloid uptake in PiB studies (see Rabinovici & Jagust,
+2009 for review), consistently shows hypometabolism in FDG-PET studies of AD and
+atrophy/cortical thinning in morphometric studies ( Buckner et al.,
+2005 ), and is a key part of the default network ( Buckner,
+Andrews-Hanna, & Schacter, 2008 ), which is important for memory function ( Sperling et al., 2009 ). Relationships between CSF Aβ 42 or
+amyloid load as measured by PiB and the precuneus have previously been demonstrated in nondemented
+older adults and in MCI and AD subjects ( Becker et al., 2011 ; Chetelat et al., 2010 ; Fjell
+et al., 2008 ; Tosun et al., 2010 ). In contrast to the
+precuneus, the hippocampus remains relatively free of amyloid deposition during normal aging and
+early to mid-stage AD ( Braak et al., 1996 ), and there is
+variability in the literature as to the presence of an association between amyloid load and
+hippocampal atrophy, with some studies supporting at least a weak relationship ( Apostolova et al., 2010 ; Beckett et al.,
+2010 ; Henneman et al., 2009 ; Mormino et al., 2009 ; Schuff et al.,
+2009 ), and other studies not finding a significant relationship ( Becker et al., 2011 ; Fagan et al.,
+2009 ).
+
+A relationship between p-tau and both baseline hippocampal volume and rate of hippocampal
+atrophy has been demonstrated across several studies ( Apostolova et
+al., 2010 ; Beckett et al., 2010 ; de Leon et al., 2006 ; Hampel et al.,
+2005 ; Henneman et al., 2009 ; Tosun et al., 2010 ; but also see Schuff et
+al., 2009 ), consistent with the well-established finding that the hippocampus is an early
+site of NFT pathology in the course of AD. While a number of studies have investigated the
+association of CSF biomarkers and change in selected brain regions, to our knowledge only one study
+to date has investigated the potential interaction of multiple CSF biomarkers on atrophy. Desikan and colleagues (2011) found an interaction between
+Aβ 42 and p-tau 181p status on entorhinal cortex atrophy over time, with
+elevated atrophy in individuals with abnormal levels of both Aβ 42 and
+p-tau 181p . Follow-up analyses further revealed that Aβ 42 status was
+associated with accelerated atrophy in entorhinal cortex only among p-tau 181p positive
+individuals in a nondemented sample. The authors demonstrated this same effect within an
+“AD-vulnerable” region of interest (ROI) that averaged longitudinal changes in
+multiple temporal and parietal regions affected subsequently to the entorhinal cortex. They did not
+examine this effect in the hippocampus and precuneus, and included only nondemented subjects. There
+has been an increasing emphasis on considering Alzheimer’s disease as a continuum, with the
+process beginning in otherwise “normal” individuals, and progressing slowly over
+time, with eventual clinical expression resulting in the diagnostic classifications of MCI and
+eventually AD dementia. Although the use of diagnostic classification is clinically useful, when
+studying the effects of CSF biomarkers it is important to examine effects across the entire disease
+spectrum. This focus separates the current study from recent work that has examined similar
+questions within diagnostic subgroups ( Desikan et al., 2011 ; Tosun et al., 2010 ).
+
+The primary aim of this study was to examine the association of CSF biomarkers and rate
+of atrophy in the precuneus and hippocampus. These regions were selected because the precuneus
+appears to be affected early and severely by Aβ deposition, and the hippocampus similarly by
+NFT pathology. A secondary aim was to extend the findings of Desikan and colleagues by assessing the
+effect of a three-way interaction of Aβ 42 , p-tau 181p and time on rates
+of atrophy in the precuneus and hippocampus. We predicted (1) baseline Aβ 42 would
+be related to accelerated rate of cortical thinning in the precuneus and volume loss in the
+hippocampus, with the latter relationship expected to be weaker, (2) baseline p-tau 181p would be related to accelerated rate of hippocampal atrophy and cortical thinning in the precuneus,
+with the latter relationship expected to be weaker and (3) an interaction between low
+Aβ 42 and high p-tau 181p would be associated with an accelerated rate
+of atrophy in both the hippocampus and precuneus. The precentral gyrus was selected as a control
+region because we did not predict a relationship with either CSF biomarker in this ROI as primary
+motor regions remain relatively free of Alzheimer’s pathology until late in the disease
+process.
+
+## METHOD
+Data used were obtained from the Alzheimer’s Disease Neuroimaging Initiative
+(ADNI) database ( www.loni.ucla.edu/ADNI ). ADNI was launched in 2003 by the National Institute on Aging
+(NIA), the National Institute of Biomedical Imaging and Bioengineering (NIBIB), the Food and Drug
+Administration (FDA), and private pharmaceutical companies and non-profit organizations, as a 5-year
+public-private partnership. The primary goal of ADNI has been to test whether serial magnetic
+resonance imaging (MRI), positron emission tomography (PET), other biological markers, and clinical
+and neuropsychological assessment can be combined to measure the progression of mild cognitive
+impairment (MCI) and early Alzheimer’s disease (AD). Determination of sensitive and specific
+markers of very early AD progression is intended to aid researchers and clinicians to develop new
+treatments and monitor their effectiveness, as well as lessen the time and cost of clinical trials.
+The Principal Investigator of this initiative is Michael W. Weiner, MD, VA Medical Center and
+University of California – San Francisco. ADNI is the result of efforts of many
+coinvestigators from a broad range of academic institutions and private corporations, and subjects
+have been recruited from over 50 sites across the U.S. and Canada. The initial goal of ADNI was to
+recruit 800 adults, ages 55 to 90, to participate in the research, approximately 200 cognitively
+normal older individuals to be followed for 3 years, 400 people with MCI to be followed for 3 years
+and 200 people with early AD to be followed for 2 years (see www.adni-info.org ). This study was approved by each
+ADNI-affiliated institution. Written informed consent was obtained from all patients or authorized
+representatives participating in the study.
+
+ADNI general eligibility criteria are described at www.adni-info.org/Scientists/ADNIGrant/ProtocolSummary.aspx . Briefly, healthy controls
+(HC) had a Mini-Mental State Exam (MMSE; Folstein, Robins, &
+Helzer, 1983 ) score between 24–30 (inclusive), a global Clinical Dementia Rating
+(CDR; Morris, 1993 ) score of 0, and did not meet criteria for
+MCI or dementia ( Petersen et al., 2001 ). MCI participants had
+MMSE scores between 24–30 (inclusive), a memory complaint, evidence of objective memory loss
+as measured by education adjusted scores on the Wechsler Memory Scale Logical Memory II, a CDR of
+0.5, absence of significant levels of impairment in other cognitive domains, essentially preserved
+activities of daily living, and an absence of dementia. Mildly demented AD participants had MMSE
+scores between 20–26, global CDR scores of 0.5 or 1.0, and met NINCDS/ADRDA criteria for
+probable AD ( McKhann et al., 1984 ). The ADNI study collected
+CSF from approximately 50% of participants at baseline, and from smaller subgroups
+subsequently. CSF biomarker acquisition procedures for ADNI are described in detail elsewhere ( Jagust et al., 2010 ; Petersen et
+al., 2010 ; Trojanowski et al., 2010 ). A measure
+derived from the components of the CDR known as “sum of boxes” (CDR-SB) was
+calculated to further estimate level of clinical impairment. The data used in the current analysis
+was downloaded on 6/1/2011. Participants with CSF data and baseline and follow-up MRI scans
+(interval info) that met global quality control criteria were used in the current analysis (see www.loni.ucla.edu/twiki/pub/ADNI/ADNIPostProc/UCSFFreeSrferMethodsSummary.pdf ).
+
+Protocols are described in detail at http://www.loni.ucla.edu/ADNI/Research/Cores/ . Two T1-weighted volumes were acquired for
+each participant. Volumetric ( Fischl et al., 2002 ; Fischl, Salat et al., 2004 ) and cortical surface reconstruction
+( Dale, Fischl, & Sereno, 1999 ; Fischl, Sereno, & Dale, 1999 ; Fischl, van
+der Kouwe et al., 2004 ) methods based on FreeSurfer software, optimized for use on large,
+multi-site datasets, were used. To measure thickness, the cortical surface was reconstructed ( Dale et al., 1999 ) and parcellated into distinct ROIs ( Desikan et al., 2006 ; Fischl, van
+der Kouwe et al., 2004 ). Details of the application of these methods to the ADNI data have
+been described in full elsewhere ( Fennema-Notestine et al.,
+2009 ). Three a priori selected ROIs were included in the present analyses: precuneus cortical
+thickness, precentral gyrus cortical thickness and hippocampal volume.
+
+We used linear mixed effects (LME) multiple regression ( Diggle, Heagerty, Liang, & Zeger, 2002 ) to model hippocampus, precuneus and precentral
+gyrus as three separate longitudinal outcomes. Each model included time in months (0,
+6 th , 12 th , 18 th and 24 th from baseline), baseline CSF
+biomarkers (Aβ 42 and p-tau 181p ) and their interactions with time as
+predictors, and baseline age, sex, and apoe4 status as control variables. CSF biomarkers were
+normalized using the Blom’s rank normalization algorithm ( Conover & Inman, 1981 ) so that estimated effects of these two biomarkers on the outcome
+could be meaningfully compared. Intercept and time were treated as random effects in all models. All
+models assumed an unstructured within-subject error covariance structure. Restricted maximum
+likelihood was used for estimation. Pairwise interactions between CSF biomarkers and time were of
+substantive interest. That is, we were interested in examining the interplay between CSF biomarkers
+at baseline and trajectories over time in outcome measures (hippocampal volume, precuneus and
+precentral gyrus thickness). We first carried out the LME analyses described above on the complete
+data set (n=342). Next, we applied the same LME models to each diagnostic group separately
+(normal controls, MCI, and AD) to examine the effect of baseline CSF biomarkers on longitudinal
+outcomes of interest within each group. Quadratic and higher order time variables did not improve
+the model fitness indicated by Bayesian information and log-likelihood criteria for any models and
+is thus not included. The overall fit of the models was examined using a combination of formal fit
+criteria and visual inspection of residual plots. Results were considered significant when at p < .05; we also provide Bonferroni-adjusted p -values in Table 2 .
+
+## RESULTS
+CSF measures were obtained in a subset of ADNI subjects. Out of 819 subjects enrolled in
+the ADNI I study, 342 subjects had information on Aβ 42 , p-tau 181p , and
+valid assessment of hippocampal brain volume, precuneus and precentral gyrus measures at baseline.
+These subjects were included in the current analyses using their follow-up assessments up to 24
+months. Demographic characteristics are presented in Table
+1 .
+
+Across all subjects, there was a main effect of time, and this effect persisted within
+each diagnostic subgroup. There was no main effect of Aβ 42 , meaning that
+Aβ 42 was not associated with hippocampal volume at baseline, either across all
+groups or within diagnostic groups. There was a main effect of p-tau 181p ; higher
+p-tau 181p was associated with lower hippocampal volume, and this effect persisted within
+the AD group. There was an interaction of time and CSF biomarkers: higher Aβ 42 was
+associated with a smaller decline in hippocampal volume over time, and higher p-tau was associated
+with a larger decline in hippocampal volume over time. When running the model within subgroups, the
+interaction of Aβ 42 and time persisted only within the NC group, suggesting that
+Aβ 42 at baseline does not significantly affect change over time within MCI and AD
+groups. P-tau 181p showed the opposite pattern: baseline p-tau 181p does not
+significantly affect change in hippocampal volume over time in the NC group, whereas within the MCI
+and AD groups, higher p-tau 181p at baseline was associated with greater decline in
+hippocampal volume over time ( Table 2 ). Figure 1 shows examples of the trajectories of hippocampal volume. We
+illustrate the effect of high/low CSF biomarkers on hippocampal volume over time for the diagnostic
+group where significant interactions of biomarkers and time were found using the coefficients
+obtained in the mixed effects models. For models where hippocampal volume is the outcome, models
+were ran both with and without controlling for baseline estimated total intracranial vault (eTIV)
+volume ( Buckner et al., 2004 ) and the same pattern of results
+was obtained. We present results of models without controlling for eTIV.
+
+Across all subjects there was a main effect of time, and this effect persisted within
+each diagnostic group. There was no main effect of Aβ 42 , either across all groups
+or within diagnostic groups. There was a main effect of p-tau 181p ; higher
+p-tau 181p was associated with lower precuneus thickness at baseline. Within groups, this
+main effect was significant only within the MCI group. There were no interactions with time, either
+across all groups or within groups.
+
+Across all subjects there was a main effect of time, and this effect persisted within
+each individual group. There was no main effect of Aβ 42 , either across all groups
+or within individual groups. There was a main effect of p-tau 181p for all groups
+combined; higher p-tau 181p was associated with lower precentral gyrus thickness at
+baseline. Within diagnostic groups, this main effect was significant only within the NC group. There
+were no interactions with time, either across all groups or within groups.
+
+In a set of secondary analyses, we tested for potential interaction effects of
+p-tau 181p and Aβ 42 to determine if having both abnormal
+p-tau 181p and Aβ 42 values has an added effect on atrophy over time in
+our selected ROIs. We dichotomized high and low values of each CSF biomarker for the 3-way
+interaction to facilitate interpretation of results. Previously defined cutoffs were applied ( Shaw et al., 2009 ): abnormal p-tau 181p was defined as
+p-tau 181p > 23pg/ml (−0.34818 using blom normalized scores), and abnormal
+Aβ 42 was defined as Aβ 42 < 192pg/ml (0.4395 using blom
+normalized scores). The proportion of those with both abnormal p-tau 181p and
+Aβ 42 was 81.7%, 64.0% and 21.3% among AD, MCI, and normal
+controls, respectively (Pearson chi-square test, p<0.001). In the entire sample (NC, MCI and AD),
+there was a 3-way interaction of abnormal p-tau 181p and abnormal Aβ 42 with time for each ROI (HCV p=0.040, precuneus p=0.0007, precentral gyrus
+p=0.029), after controlling for gender, Apoe4, and baseline age, p-tau and
+Aβ 42 (continuous variables) and 2-way interactions of p-tau and time, and
+Aβ 42 and time. That is, having the combination of both abnormal
+p-tau 181p and Aβ 42 resulted in an additional increased rate of atrophy
+over time beyond the additive effect of each biomarker. There was also a significant interaction of
+p-tau and time (p=0.012) when outcome was hippocampal volume (all diagnostic groups
+combined). Within subgroups, the 3-way interaction remained significant only for the AD group for
+precuneus (p=0.005) and precentral gyrus (p=0.019) thickness.
+
+## DISCUSSION
+These results demonstrate that across the Alzheimer’s disease spectrum from
+normal aging to early dementia, CSF biomarkers exert an influence on rate of atrophy, although this
+effect varies by region, CSF biomarker, and sample composition.
+
+Baseline association results showed a significant relationship between
+p-tau 181p and hippocampal volume, whereas the relationship between
+Aβ 42 and hippocampal volume was not significant, but a trend was demonstrated.
+These baseline results supported our prediction that p-tau 181p would have a stronger
+relationship with hippocampal volume than Aβ 42 . The lack of baseline association
+of hippocampal volume and markers of amyloid burden has been demonstrated in prior PiB and CSF
+biomarker studies ( Becker et al., 2011 ; Fagan et al., 2009 ; Fjell et al.,
+2010 ), whereas other studies have demonstrated at least a weak relationship ( Apostolova et al., 2010 ; Henneman et al.,
+2009 ; Mormino et al., 2009 ). A somewhat different
+pattern of results was revealed for rates of change. Within the entire sample, both
+p-tau 181p and Aβ 42 were significantly associated with accelerated
+rates of hippocampal atrophy. Within-group results demonstrated a relationship between
+Aβ 42 and accelerated rate of hippocampal atrophy within the NC group, but not
+within the two clinical groups. Although trajectories of change within the NC group may differ since
+some subjects are destined to develop AD while others are not, the early detection of effects of
+Aβ 42 only in the NC group is consistent with a potential initiating role as
+suggested by Jack et al. (2010) . In contrast, within-group
+results demonstrated a relationship between p-tau 181p and accelerated rate of hippocampal
+atrophy within the MCI and AD groups, consistent with studies showing that rates of brain atrophy
+and clinical progression correlate well with pathological indices of NFT ( Josephs et al., 2008 ). Henneman and
+colleagues (2009) similarly found that CSF p-tau 181p predicted accelerated rate of
+hippocampal atrophy when collapsing across normal and clinical groups, but in that study results did
+not persist within diagnostic subgroups, potentially due to much smaller sample sizes relative to
+the current study: In their study, the total sample size combining normal, MCI and AD was 75
+subjects. Other studies have demonstrated a significant relationship between p-tau 231p or
+p-tau 181p and accelerated hippocampal atrophy in MCI ( de
+Leon et al., 2006 ; Fjell et al., 2010 ; Hampel et al., 2005 ; Tosun et al.,
+2010 ).
+
+Considered together, our results demonstrate that lower baseline Aβ 42 in the NC group and higher baseline p-tau 181p in the MCI and AD groups is associated with
+an accelerated rate of hippocampal atrophy over time. Our results are consistent with the biomarker
+model proposed by Hyman, (2011) and further supported by data
+from Lo et al., (2011) in which Aβ may exert an
+effect early in the disease, but it has relatively smaller effects later. That is, once there are
+clinically detectable symptoms warranting a diagnosis of MCI or AD, the downstream effects of
+Aβ become uncoupled from Aβ itself. Hyman’s model emphasizes a two-stage
+process in which intervention efforts may be beneficial very early in the disease process, before
+there is any clinically detectable cognitive symptoms or MRI atrophy, whereas once clinical symptoms
+emerge, Aβ or another early initiating factor has already instigated the pathological
+cascade and may be less important for predicting disease progression and ineffective as a treatment
+target in these later stages of the disease.
+
+Because accumulation of amyloid beta is theorized to occur prior to NFT ( Jack et al., 2010 ), we hypothesized that baseline Aβ 42 would be related to accelerated rates of cortical thinning in the precuneus given evidence of early
+amyloid deposition in this region. However, a pattern opposite to that we predicted was
+demonstrated: baseline Aβ 42 did not predict accelerated rates of cortical
+thinning in the precuneus, whereas it did predict accelerated rate of hippocampal atrophy as
+discussed above. In fact, neither CSF biomarker predicted accelerated rates of cortical thinning in
+the precuneus. A baseline association of p-tau 181p and precuneus thickness was
+demonstrated, whereas a baseline association of Aβ 42 and precuneus was not. The
+precuneus is assumed to be an early site of amyloid deposition based largely on the findings of
+multiple PiB studies that have demonstrated preferential amyloid uptake in this region ( Aizenstein et al., 2008 ; Mintun et
+al., 2006 ; Rowe et al., 2007 ) and its involvement in
+the default network ( Buckner et al., 2008 ). A few PiB studies
+have shown a significant baseline association between amyloid uptake and hippocampal volume ( Becker et al., 2011 ; Chetelat et
+al., 2010 ; Fjell et al., 2008 ), and one study has
+shown PiB uptake is associated with accelerated hippocampal atrophy in MCI ( Tosun et al., 2010 ). Because PiB and CSF measures of amyloid may not be
+equivalent, this alone could explain our discrepant findings. Our use of an ROI analysis approach,
+as opposed to voxelwise analysis that may be more sensitive to localized changes within subregions
+of the precuneus, may also explain our findings. However, autopsy studies have not demonstrated a
+predilection for early amyloid plaque accumulation in the precuneus relative to other areas of the
+neocortex ( Nelson et al., 2009 ), so further investigation of
+the relationship between amyloid and the precuneus is warranted.
+
+We also predicted a significant relationship between p-tau 181p and
+accelerated rates of precuneus thinning based on a hypothesized indirect relationship. An indirect
+relationship was expected due to the extensive anatomical and functional connections between
+posterior cortical regions including the precuneus and medial temporal lobe regions affected early
+in AD, including the hippocampus ( Dorfel, Werner, Schaefer, von
+Kummer, & Karl, 2009 ; Kobayashi & Amaral,
+2003 ; Teipel et al., 2010 ). Decreased resting state
+functional connectivity between the precuneus and the hippocampus (as well as other regions of the
+default network) has been demonstrated in patients with early AD, PiB+ normal healthy
+elderly and PiB− normal healthy elderly APOE4 allele carriers ( Sheline, Morris et al., 2010 ; Sheline,
+Raichle et al., 2010 ). Results did not support this hypothesis; we found no baseline or
+longitudinal associations beween p-tau 181p and precuneus thickness. To our knowledge no
+other studies have directly assessed this relationship.
+
+An interaction between low Aβ 42 and high p-tau 181p was
+associated with greater cortical thinning in the precuneus and precentral gyrus and hippocampal
+atrophy over time, extending the findings of Desikan et al.
+(2011) to these additional regions in a combined NC, MCI and AD sample. This suggests that
+having both abnormal Aβ 42 and p-tau 181p leads to accelerated atrophy.
+The significance of this effect in our “control” region (precentral gyrus) was
+surprising and may point toward more diffuse effects of these combined biomarkers. Inconsistent with
+the results of Desikan et al. (2011) , this 3-way interaction
+persisted only within the AD group for cortical thickness measures. Although the analyses performed
+on the entire sample demonstrated this effect in all regions studied, the 3-way interaction was not
+significant within NC or MCI groups when examined individually.
+
+There are several limitations that must be considered when interpreting these results.
+First, we selected a small number of potential biomarkers to focus on in this study to maintain a
+narrow focus. We did not include t-tau or ratio values of Aβ 42 and tau. We also
+included only a small number of a priori ROIs, instead of performing exploratory voxelwise analyses.
+Because ROIs average across an entire region, subtle group difference that may be detected within
+such a region by voxelwise analysis may be missed; in other words, ROI analyses may be less
+sensitive. However, examining these effects using ROIs is important, as this is likely to be a
+widely used approach in large clinical trials applying automated neuroimaging processing techniques.
+Second, the primary goal of the ADNI is to optimize clinical trials, and the sample is not
+representative of the general population (e.g., highly educated); therefore the generalizability of
+the current results is limited. Third, we did not include longitudinal CSF data, thus the timing of
+biomarker effects cannot be fully disentangled with the current set of analyses. A longer duration
+of follow-up would likely be necessary to optimally complete such analyses, as there is evidence
+that little change in CSF biomarkers can be measured over relatively short intervals such as those
+included in this study ( Vemuri et al., 2010 ). This is
+particularly notable for Aβ 42 , as change in this CSF biomarker has not been
+significantly associated with annual decline in cognitive and functional scores in MCI and AD groups
+despite evidence of clear cognitive and functional decline ( Vemuri
+et al., 2010 ), leading some to propose that CSF load is nearly disconnected from the disease
+stage ( Caroli & Frisoni, 2010 ). Finally, the sample size
+varied across the diagnostic subgroups, with nearly twice as many subjects in the MCI sample
+relative to the NC and AD subgroups. This limits the extent to which we can make conclusions
+regarding the significance or lack thereof of effects across subgroups. Again, this is why we chose
+to focus primarily on the results collapsed across groups.
+
+In summary, the current results provide at least partial support for the Jack et al. (2010) dynamic biomarker model, although the current analyses
+alone are insufficient to fully test this model. Results suggest that there may be an early affect
+of amyloid in the Alzheimer’s pathological cascade process, which appears to be most
+detectable in its effects on the rate of hippocampal atrophy in normal older people. Despite this
+early effect, amyloid does not appear to directly affect atrophy in later disease stages. Results
+also raise questions about how the precuneus is affected by AD since evidence of relationships
+between Aβ and rates of atrophy are weak. Finally, in conjunction with results from Desikan and colleagues (2011) , these results highlight the
+importance of considering the additive effect of Aβ 42 and p-tau 181p in
+the progression of atrophy over time across the Alzheimer’s disease spectrum, and provide
+further support of the possibility that amyloid deposition alone may be insufficient for emergence
+of significant morphometric changes and clinical symptoms.

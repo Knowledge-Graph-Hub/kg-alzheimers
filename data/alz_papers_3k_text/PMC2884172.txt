@@ -1,0 +1,5 @@
+# Title
+Synchronous Hyperactivity and Intercellular Calcium Waves in Astrocytes in Alzheimer Mice
+
+# Abstract
+While senile plaques injure neurons focally, the functional response of astrocytes to Alzheimer’s disease pathology is unknown. Using multiphoton fluorescence lifetime imaging microscopy in vivo, we quantitatively imaged astrocytic calcium homeostasis in a mouse model of Alzheimer’s disease. Resting calcium was globally elevated in the astrocytic network, but was independent of proximity to individual plaques. Time lapse imaging revealed that calcium transients in astrocytes were more frequent, were synchronously coordinated across long distances, and were uncoupled from neuronal activity. Furthermore, rare intercellular calcium waves were observed, but only in mice with amyloid-β plaques, originating near plaques and spreading radially at least 200 µm. Thus, while neurotoxicity is observed near amyloid-β deposits, there exists a more general astrocyte-based network response to focal pathology.

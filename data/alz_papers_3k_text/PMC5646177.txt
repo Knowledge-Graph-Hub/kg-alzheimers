@@ -1,0 +1,19 @@
+# Title
+The Alzheimer's Disease Sequencing Project: Study design and sample selection
+
+## ADSP family study design.
+Approximately 1,400 multiplex LOAD families were reviewed for inclusion. Families were required to have multiple members with LOAD, genomic DNA, and available APOE genotypes. Families meeting initial criteria were assigned a priority rank based on number and age at onset of affected individuals, number of generations affected, and presence of APOE ε4 alleles. Priority was given to families heavily loaded for AD (≥4 affected members with DNA available) with minimal APOE ε 4 alleles. Cases met National Institute of Neurological Diseases–Alzheimer's NINCDS-ADRDA (National Institute of Neurological and Communicative Disorders and Stroke, and the Alzheimer's Disease and related Disorders Association; now, Alzheimer's Association) criteria for possible, probable, or definite AD. Controls were free of clinical AD on cognitive assessment. A detailed description of the family design is in Appendix 1 at Neurology.org/ng .
+
+In total, we selected 582 individuals (498 affected and 84 unaffected) from 111 families for WGS to identify genomic regions associated with increased risk of LOAD. Selected individuals include 229 European ancestry and 353 Caribbean Hispanic (CH) individuals ( table ). The European ancestry families included 2 large Dutch families from the Erasmus Rucphen Family study. 5 Most of these families were recently analyzed for genetic linkage, an analysis that will be used in the analysis of the sequence data. 6 , 7 By design, no ε4/ε4 individuals were selected for sequencing, and we prioritized ε3/ε4 individuals with earlier disease onset. Twenty-seven percent of families had at least 1 case with autopsy confirmation.
+
+Sample demographics for family and case-control studies
+
+## ADSP case-control design.
+Over 30,000 samples were considered for inclusion in the case-control design. All cases met NINCDS-ADRDA criteria for possible, probable, or definite AD, had documented age at onset or age at death (for pathologically verified cases), and APOE genotyping. All controls were at least 60 years old and were free of dementia by direct, documented cognitive assessment. Three primary case-control selection strategies were evaluated, and ultimately, a design was chosen that targeted cases with minimal risk as predicted by known risk factors (age, sex, and APOE ) and targeted controls with the least probability of conversion to AD by age 85 years. The details and rationale of the case-control selection process and the evaluation of alternate study designs are described in detail in Appendix 2.
+
+In total, we selected 5,096 cases and 4,965 controls under the chosen design ( table ). We selected 682 additional unrelated cases from additional multiplex families that had a strong family history for LOAD. Because some of these 682 cases arose from CH multiplex families, we included 171 cognitively normal CH control samples in the WES.
+
+The sequencing of the nearly 600 whole genomes and 11,000 whole exomes has been completed; the data sets are currently available to the research community through qualified access (dbGaP study phs000572.v7.p4). This data set will be used to identify genetic factors influencing AD risk and protection and will be a critical resource for the LOAD research community.
+
+## Standard protocol approvals, registrations, and patient consents.
+This study has the approval of the institutional review boards of participating institutions, and informed consent was obtained from all patients.

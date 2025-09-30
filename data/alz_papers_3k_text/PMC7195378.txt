@@ -1,0 +1,57 @@
+# Title
+A first case of meningitis/encephalitis associated with SARS-Coronavirus-2
+
+# Abstract
+• Novel coronavirus (SARS-Coronavirus-2:SARS-CoV-2) which emerged in Wuhan, China, has spread to multiple countries rapidly. • This is the first case of meningitis associated with SARS-CoV-2 who was brought in by ambulance. • The specific SARS-CoV-2 RNA was not detected in the nasopharyngeal swab but was detected in a CSF. • This case warns the physicians of patients who have CNS symptoms. Novel coronavirus (SARS-Coronavirus-2:SARS-CoV-2) which emerged in Wuhan, China, has spread to multiple countries rapidly. This is the first case of meningitis associated with SARS-CoV-2 who was brought in by ambulance. The specific SARS-CoV-2 RNA was not detected in the nasopharyngeal swab but was detected in a CSF. This case warns the physicians of patients who have CNS symptoms.
+
+## Introduction
+Novel coronavirus (SARS-Coronavirus-2:SARS-CoV-2) emerged in December 2019 in Wuhan, China, and has become a global health emergency. ( Wang et al., 2020a , Wang et al., 2020b ) A preliminary report warned that SARS-CoV-2 could have neuroinvasive potential because some patients showed neurologic symptoms such as headache, nausea, and vomiting ( Li et al., 2020 ). In order to end the pandemic of SARS-Coronavirus-2 diseases, the diagnosis of the disease must be prompt and not overlook any findings.
+
+This brief report describes the first case of the patient, which brought in by the ambulance due to a convulsion accompanied by unconsciousness, was diagnosed with aseptic encephalitis with SARS-CoV-2 RNA in cerebrospinal fluid.
+
+## Case
+He has never been to foreign countries. He felt headache, generalized fatigue and fever in late February 2020 (day 1). On day 2, he consulted a doctor nearby. There, he was prescribed Laninamivir and antipyretic agents under the diagnosis of influenza due to his clinical symptoms in spite of the negative result of the diagnostic test. Three days later (day 5), he visited another clinic because of the worsening of his previous symptoms, headache, and sore throat. He underwent chest X-ray examination and blood test resulted in negative findings. On day 9, he was found lying on the floor with consciousness disturbance. He was immediately transferred to our hospital by ambulance. During emergency transport, he presented with transient generalized seizures for about a minute.
+
+Upon arrival at our hospital, he had a Glasgow coma scale (GCS) of 6 (E4 V1 M1) with hemodynamically stability. He had obvious neck stiffness. Blood investigation showed an increased white cell count, neutrophil dominant, relatively decreased lymphocytes, increased C-reactive protein. Subsequent investigations included systemic CT demonstrating no evidence of brain edema. The chest CT showed that there was small ground glass opacity on the right superior lobe and both sides of the inferior lobe. On a further lumbar puncture examination, his cerebrospinal fluid was clear and colorless, and the initial pressure was greater than 320 mmH 2 O. The CSF cell count was 12/μL–10 mononuclear and 2 polymorphonuclear cells without red blood cells. Anti-HSV 1 and varicella-zoster IgM antibodies were not detected in serum samples. The RT-PCR test for SARS-CoV-2 was performed using a nasopharyngeal swab and CSF because we assumed that a SARS-CoV-2 was involved in the outbreak. Although the specific SARS-CoV-2 RNA was not detected in the nasopharyngeal swab, it was detected in CSF (Supplementary Table 1).
+
+During emergency treatment, the endotracheal intubation and mechanical ventilation were required because of multiple epileptic seizures. He was transferred to the ICU with the clinical diagnosis of meningitis and viral pneumonia. After the ICU admission, he was empirically started on intravenous (IV) ceftriaxone, vancomycin, aciclovir and steroids. He also underwent intravenous administration of Levetiraceta for seizure. Favipiravir had been administered via nasogastric tube for 10 days since day 2. Brain MRI was performed 20 h after admission to the ICU ( Figure 1 ). Diffusion weighted images (DWI) showed hyperintensity along the wall of inferior horn of right lateral ventricle. Fluid-attenuated inversion recovery (FLAIR) images showed hyperintense signal changes in the right mesial temporal lobe and hippocampus with slight hippocampal atrophy. Contrast-enhanced imaging showed no definite dural enhancement. These findings indicated right lateral ventriculitis and encephalitis mainly on right mesial lobe and hippocampus. A differential diagnosis was considered to be hippocampal sclerosis accompanying post convulsive encephalopathy. Besides, T2-weighted image showed pan-paranasal sinusitis. Figure 1 Brain MRI performed 20 hours after admission. A: Diffusion weighted images (DWI) showed hyperintensity along the wall of inferior horn of right lateral ventricle. B,C: Fluid-attenuated inversion recovery (FLAIR) images showed hyperintense signal changes in the right mesial temporal lobe and hippocampus with slight hippocampal atrophy. These findings indicated right lateral ventriculitis and encephalitis mainly on right mesial lobe and hippocampus. D: T2-weighted image showed pan-paranasal sinusitis. Figure 1
+
+Brain MRI performed 20 hours after admission.
+
+A: Diffusion weighted images (DWI) showed hyperintensity along the wall of inferior horn of right lateral ventricle.
+
+B,C: Fluid-attenuated inversion recovery (FLAIR) images showed hyperintense signal changes in the right mesial temporal lobe and hippocampus with slight hippocampal atrophy. These findings indicated right lateral ventriculitis and encephalitis mainly on right mesial lobe and hippocampus.
+
+D: T2-weighted image showed pan-paranasal sinusitis.
+
+At day 15, we are continuing treatment for bacterial pneumonia and impaired consciousness due to encephalitis associated with SARS-CoV-2 in intensive care unit.
+
+We declare no competing interests. Patient relative's written consent was obtained for publication.
+
+## Specimen collection
+Clinical specimens for SARS-CoV-2 diagnostic testing were obtained in accordance with guidelines of National Institute of Infectious Diseases in Japan. Nasopharyngeal swab specimens were collected with synthetic fiber swabs; each swab was inserted into a separate sterile tube containing 1 ml of phosphate-buffered saline (PBS) supplemented with 0.5% BSA. Spinal fluid was collected in sterile specimen containers. Specimens were immediately examined at the Yamanashi University Hospital Laboratory Department or stored at 4 °C until ready for examination.
+
+## Diagnostic testing for SARS-CoV-2
+Viral RNA was extracted from clinical specimen using magLEAD 6gC (Precision System Science Co., Ltd.). The SARS-CoV-2 RNA was detected using AgPath-ID™ One-Step RT-PCR Reagents (AM1005) (Applied Biosystems) on CobasZ480 (Roche). The diagnostic assay for SARS-CoV-2 has three nucleocapsid gene targets (Supplementary Materials).
+
+## Specimen testing for SARS-CoV-2
+The nasopharyngeal swabs obtained from this patient on day 1 (66 minutes after admission) were negative for N and N2 (Supplementary Table 1). As for spinal fluid, however, 1 sample out of 2 (1/2) on day 1 (84 min after admission) was positive for N, but not for N2. Therefore, we re-examined the same specimen again and found that 2/2 samples were positive for N, but not for N2. Again, the nasopharyngeal swabs were negative for both N and N2.
+
+## Discussion
+Our report described the first case of meningitis/encephalitis associated with SARS-CoV-2. This case shows the neuroinvasive potential of the virus and that we cannot exclude SARS-CoV-2 infections even if the RT-PCR test for SARS-CoV-2 using the patient's nasopharyngeal specimen is negative.
+
+In 2002–2003, Severe Acute Respiratory Syndrome (SARS) pandemic appeared and SARS-CoV was isolated as the pathogen and as the new family of the human coronaviruses ( Drosten et al., 2003 , Ksiazek et al., 2003 ). Over a number of years, human coronaviruses including SARS-CoV was identified as possible pathogens for pathologies outside the respiratory systems. ( Gu et al., 2005 , Raj et al., 2014 ).
+
+A report shows that SARS-CoV genome sequences were detected in the brain of all SARS autopsies with real-time RT-PCR ( Gu et al., 2005 ). Importantly, the signals were strong in the hippocampus where we found inflammation in the patient's brain.
+
+Recent study claims that the genomic sequence is similar between SARS-CoV and SARS-CoV-2 ( Yu et al., 2020 ), especially the receptor-binding domains of SARS-CoV is structurally similar to that of SARS-CoV-2 ( Lu et al., 2020 ). This may lead that SARS-CoV and SARS-CoV-2 shares the ACE2 as a receptor. That might be the reason why SARS-CoV and SARS-CoV-2 might invade the same place in human brains.
+
+In the present case, MRI demonstrated the abnormal findings of medial temporal lobe including hippocampus suggesting encephalitis, hippocampal sclerosis or post convulsive encephalitis. Hippocampal sclerosis would be unlikely because he had no episodes of mesial temporal epilepsy in his past history. In addition, this case was presented with significant paranasal sinusitis. Although the relation between sinusitis and retrograde trans-synaptic transfer is obscure, we should pay attention to nasal and paranasal condition in the diagnosis and treatment for SARS-CoV-2 infection.
+
+We claim that this case is important because this case shows that the unconscious patients are potentially infected by SARS-CoV-2 and might cause the horizontal infection. In order to end the pandemic of SARS-CoV-2 diseases, the diagnosis of the disease must be prompt and not overlook any findings. Finding the suspected patient is the first step of a preventive measure against the pandemic. It should be kept in mind that the symptoms of the encephalitis or cerebropathia may be the first indication, as well as respiratory symptoms, to find the hidden SARS-CoV-2 patients.
+
+## Funding
+This research did not receive any specific grant from funding agencies in the public, commercial, or not-for-profit sectors.
+
+## Conflicts of interest
+The authors declare no conflicts of interest.

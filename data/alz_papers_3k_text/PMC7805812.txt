@@ -1,0 +1,191 @@
+# Title
+The accumulation rate of tau aggregates is higher in females and younger amyloid-positive subjects
+
+# Abstract
+In a longitudinal PET study, Smith et al . show that tau accumulation rates are higher in females, younger Aβ-positive individuals, and those with higher baseline tau load. This is in contrast to Aβ-accumulation rates, which are higher in APOE-ε4 carriers and older individuals.
+
+## Introduction
+Neuropathological hallmarks of Alzheimer’s disease are deposition of amyloid-β and tau aggregates in the brain, with tau pathology presumably starting to accumulate in the medial temporal lobe and spreading from there throughout the neocortex ( Grundke-Iqbal et al. , 1986 ; Braak and Braak, 1991 ). In recent years, several PET tracers detecting tau have been developed ( Chien et al. , 2013 ; Okamura et al. , 2014 ; Harada et al. , 2016 ; Declercq et al. , 2017 ; Wong et al. , 2018 ; Betthauser et al. , 2019 ; Leuzy et al. , 2019 ). The most well established tau-PET tracer is 18 F-flortaucipir, which detects the tau pathology of Alzheimer’s disease in vivo ( Chien et al. , 2013 ; Cho et al. , 2016 ; Ossenkoppele et al. , 2016 ; Smith et al. , 2016 , 2019 ), correlates with tau deposits detected at neuropathology ( Smith et al. , 2019 ) and distinguishes Alzheimer’s disease from other neurodegenerative disorders with high specificity and sensitivity ( Ossenkoppele et al. , 2018 ).
+
+The prevalence and life-time risk of Alzheimer’s disease is higher in females than in males ( Andersen et al. , 1999 ; Mielke et al. , 2014 ; Chene et al. , 2015 ). Female sex has also been related to more neuritic amyloid-β plaques and a more widespread tau pathology as indicated by higher Consortium to Establish a Registry for Alzheimer's Disease (CERAD) scores and Braak stages at death ( Filon et al. , 2016 ; Hohman et al. , 2018 ). Females showed higher tau-PET retention in the medial temporal lobes in cognitively unimpaired participants compared to males ( Buckley et al. , 2019 ), but only in participants with high amyloid. Further, a sex × APOE ε4 interaction on tau in the entorhinal cortex has been described in patients with mild cognitive impairment (MCI) due to Alzheimer’s disease ( Liu et al. , 2019 ). But apart from these studies the literature on systematic sex differences related to tau pathology using PET is limited. Several cross-sectional studies have shown an increased tau-PET retention in neocortical areas in younger patients with Alzheimer’s disease compared to Alzheimer’s disease patients with a late-onset disease ( Ossenkoppele et al. , 2016 ; Day et al. , 2017 ; Koychev et al. , 2017 ; Pontecorvo et al. , 2017 b ; Scholl et al. , 2017 ). Considering that female sex and lower age has been suggested to be associated with a higher brain resilience against tau pathology ( Digma et al. , 2020; Ossenkoppele et al ., 2020 ), females and younger cases could be more likely to be included in less advanced diagnostic groups (e.g. in cohorts with cognitively unimpaired cases) despite higher tau load compared to males and older participants. As a result of these differences, longitudinal studies in the same individuals are needed to study whether certain factors, such as age and sex, are associated with a faster development of tau pathology over time. Longitudinal studies also allow for the baseline tau burden, which may be associated with the accumulation rate of tau pathology ( Pontecorvo et al. , 2019 ), to be included in the prediction models.
+
+The majority of 18 F-flortaucipir studies in Alzheimer’s disease have been with a cross-sectional design but there are now several reports describing the longitudinal accumulation of tau in Alzheimer’s disease ( Jack et al. , 2018 ; Southekal et al. , 2018 ; Cho et al. , 2019 ; Hanseeuw et al. , 2019 ; Harrison et al. , 2019 ; Pontecorvo et al. , 2019 ), indicating larger yearly increases in tau standardized uptake value ratios (SUVRs) in cognitively impaired compared to cognitively unimpaired subjects. Despite several now published longitudinal studies, factors associated with increased or decreased rates of tau accumulation remain largely unknown. In this exploratory study, we included 419 participants from four cohort studies in North America and Europe to assess whether age, sex, APOE ε4 status, amyloid-β status, diagnosis and baseline tau load were associated to a slower or a more rapid rate of tau accumulation.
+
+## Materials and methods
+A convenience sample consisting of amyloid-β-negative cognitively unimpaired individuals ( n = 88) as well as amyloid-β-negative patients with MCI ( n = 58) and participants spanning the Alzheimer’s disease spectrum [amyloid-β-positive; cognitively unimpaired ( n = 65), MCI ( n = 81) and Alzheimer’s disease dementia ( n = 127)] was included from the Avid Radiopharmaceuticals Study A05e (NCT 02016560; n = 157), the placebo arm of the Expedition-3 study ( n = 82), the Swedish BioFINDER study ( http://biofinder.se ) at Lund University ( n = 57), and the publicly available Alzheimer Disease Neuroimaging Initiative (ADNI; http://adni.loni.usc.edu , n = 123). Longitudinal data from Avid Radiopharmaceuticals Study A05e has been published previously ( Pontecorvo et al. , 2019 ). Clinical characteristics of the participants are provided in Table 1 . Participant characteristics within each sub-cohort and between cohort comparisons are shown in supplementary Tables 1 and 2 . The distribution of APOE ε4 genotypes in males and females is provided in Supplementary Table 3 and demographics for young onset participants in Supplementary Table 4 . The participants underwent two to four (median three) 18 F-flortaucipir PET scans between November 2014 and May 2019. The mean interval [± standard deviation (SD)] from first to last scan was 537 (±163) days (range: 209–1222 days). All underwent a medical history and neurological examination, brain MRI, and neuropsychological testing. Participants were evaluated against the 2012 NIA-AA criteria for preclinical Alzheimer’s disease ( Jack et al. , 2012 ), Albert criteria for MCI ( Albert et al. , 2011 ) or McKhann criteria for Alzheimer’s disease ( McKhann et al. , 2011 ). We included only amyloid-β-positive patients in the Alzheimer’s disease dementia group to minimize the number of patients clinically misdiagnosed with Alzheimer’s disease dementia. Amyloid-β status was determined using 18 F-florbetapir (ADNI, Avid 05e and Expedition-3 studies; a cortical composite cut-off of <1.11 using a whole cerebellar reference region was used in ADNI and <1.1 in Avid 05e and Expedition-3) ( Pontecorvo et al. , 2017 a ) or 18 F-flutemetmol (BioFINDER; using a cortical composite cut-off of <0.743 with a white matter/brainstem/cerebellar reference region) PET, as previously described ( Thurfjell et al. , 2014 ; Palmqvist et al. , 2017 ). Cognitively unimpaired control subjects had no significant neurological or psychiatric illnesses and were a mix of research volunteers recruited through advertisements and persons visiting the memory clinic with subjective cognitive decline (24 of 153 cognitively unimpaired) but normal performance at neuropsychological testing ( Jessen et al. , 2014 ).
+
+Clinical characteristics of participants
+
+Aβ− CU and Aβ+ CU ***
+
+Aβ− MCI and Aβ+ CU ***
+
+Aβ+ CU and Aβ+ MCI *
+
+Aβ+ CU and AD **
+
+Aβ− CU and Aβ− MCI *
+
+Aβ− CU and Aβ+ MCI ***
+
+Aβ− CU and AD ***
+
+Aβ− MCI and Aβ+ MCI *
+
+Aβ− MCI and AD ***
+
+Aβ+ CU and Aβ+ MCI *
+
+Aβ+ CU and AD ***
+
+Aβ+ MCI and AD ***
+
+Aβ− CU and Aβ+ CU ***
+
+Aβ− CU and Aβ+ MCI ***
+
+Aβ− CU and AD ***
+
+Aβ− MCI and Aβ+ CU **
+
+Aβ− MCI and Aβ+ MCI ***
+
+Aβ− MCI and AD ***
+
+Aβ+ CU and AD **
+
+Aβ− CU and Aβ+ MCI ***
+
+Aβ− CU and AD ***
+
+Aβ− MCI and Aβ+ MCI ***
+
+Aβ− MCI and AD ***
+
+Aβ+ CU and Aβ+ MCI ***
+
+Aβ+ CU and AD ***
+
+Aβ+ MCI and AD ***
+
+Aβ− CU and Aβ+ MCI ***
+
+Aβ− CU and AD ***
+
+Aβ− MCI and Aβ+ MCI ***
+
+Aβ− MCI and AD ***
+
+Aβ+ CU and Aβ+ MCI *
+
+Aβ+ CU and AD ***
+
+Aβ+ MCI and AD ***
+
+Aβ− CU and Aβ+ MCI ***
+
+Aβ− CU and AD ***
+
+Aβ− MCI and Aβ+ MCI ***
+
+Aβ− MCI and AD ***
+
+Aβ− CU and AD ***
+
+Aβ− MCI and Aβ+ MCI **
+
+Aβ− MCI and AD ***
+
+Aβ+ CU and AD **
+
+Aβ− CU and Aβ+ MCI **
+
+Aβ− CU and AD ***
+
+Aβ− MCI and Aβ+ MCI ***
+
+Aβ− MCI and AD ***
+
+Aβ− CU and Aβ+ MCI *
+
+Aβ− CU and AD ***
+
+Aβ− MCI and Aβ+ MCI **
+
+Aβ− MCI and AD ***
+
+Aβ+ CU and AD **
+
+Aβ− = amyloid-β-negative; Aβ+ = amyloid-β-positive; AD = Alzheimer’s disease dementia; CU = cognitively unimpaired; n.s. = not significant; ROI = region of interest.
+
+P < 0.05;
+
+P < 0.01;
+
+P < 0.001.
+
+a APOE status not available for two individuals.
+
+For assessing factors influencing longitudinal amyloid-β accumulation, a separate dataset was downloaded from ADNI comprising 639 participants (accessed 20 August 20 2018), having undergone at least two 18 F-florbetapir PET scans from 9 June 2010 through 12 July 2018 (cohort characteristics are summarized in Supplementary Table 5 ). The mean interscan interval was 803 days (range: 475–2409 days). Written informed consent was obtained from all participants and local institutional review boards for human research approved the studies at each site.
+
+Images in Avid 05e, Expedition-3 and BioFINDER were acquired as previously described ( Hahn et al. , 2017 ; Honig et al. , 2018 ; Pontecorvo et al. , 2019 ). ADNI image acquisition description can be found at: http://adni.loni.usc.edu/methods/pet-analysis-method/pet-analysis/ . In brief, 18 F-flortaucipir PET data were locally attenuation corrected and reconstructed according to scanner specific protocols into 4 × 5-min frames for the 80–100 min interval or 6 × 5-min frames in the 75–105 min (ADNI protocol) interval after injection of ∼370 MBq 18 F-flortaucipir ( Hahn et al. , 2017 ; Pontecorvo et al. , 2019 ). Since the ADNI images were acquired on different scanners, these images were motion corrected, averaged, with a standard image and voxel-size and smoothed with an 8 mm smoothing filter to harmonize the resolution between scans in the study. The PET images were subsequently centrally processed at Lund University using an in-house developed semi-automated pipeline ( Mattsson et al. , 2017 ; Ossenkoppele et al. , 2018 ). Processing was performed by personnel who were blinded to clinical information. In brief, PET images were resampled to the same image size (128 × 128 × 63 matrix) and voxel dimensions (2.0 × 2.0 × 2.0 mm) across cohorts. The images were motion-corrected using Analysis of Functional NeuroImages (AFNI) 3dvolreg, time-averaged, and rigidly coregistered to the skull-stripped MRI scan. Using an inferior cerebellar grey matter reference region, voxelwise standardized uptake value ratio (SUVR) images were created. To increase region of interest stability between scans, FreeSurfer (version 6.0, https://surfer.nmr.mgh.harvard.edu/ ) parcellation/region of interest definition was performed on a midpoint MRI created by fusing the baseline and follow up MRI scans. The regions of interest were then warped back to the separate MRIs. Regions of interest were applied to the PET data transformed to participants’ native T 1 space to extract mean regional SUVR values for each participant. For a supplementary analysis we performed partial volume effect (PVE) correction using the Geometric Transfer Matrix model ( Rousset et al. , 1998 ), with point-spread-function set to be an isotropic Gaussian with full-width at half-maximum = 5 mm. PVE correction was performed in PET space (at 2 × 2 × 2 mm resolution). After masking in PET space the volume was corrected using region-based voxel-wise correction ( Thomas et al. , 2011 ) and then propagated to magnetic resonance space with a rigid PET-magnetic resonance transform where the final interpolation used was Lanczos windowed sinc and masking of region of interest averages were performed. The regions of interest used in this study were a medial temporal meta-region of interest (bilateral entorhinal, amygdala, fusiform, inferior and middle temporal and parahippocampal cortices), and an extra-temporal neocortical region of interest (bilateral caudal anterior cingulate, caudal middle frontal, cuneus, inferior parietal, isthmus cingulate, lateral occipital, lateral orbitofrontal, lingual, medial orbitofrontal, paracentral, pars opercularis, pars orbitalis, pars triangularis, pericalcarine, postcentral, posterior cingulate, precentral, precuneus, rostral anterior cingulate, rostral middle frontal, superior frontal, superior parietal, superior temporal, supramarginal, frontal pole, temporal pole, transverse temporal and insular cortices). For the longitudinal amyloid-β-PET a composite reference region consisting of cerebellar white matter/brainstem and eroded white matter was used ( Landau et al. , 2015 ). No PVE correction was performed for the amyloid-β-PET data.
+
+Since the participants had undergone different number of 18 F-flortaucipir PET scans (ranging from two to four) we performed linear regressions on the data, where the slopes of the regression lines reflect the annual change in SUVR. The slopes and other continuous variables [e.g. age, education, Mini-Mental State Examination (MMSE)] were compared between groups using ANOVA with Tukey’s post hoc tests. APOE ε4 genotypes (0/1/2 APOE ε4 alleles ) were compared using Kruskal-Wallis test with post hoc Mann-Whitney U-tests. Sex prevalence and dichotomous APOE ε4 (presence of at least one APOE ε4 allele) comparisons were performed using Chi-square tests. Linear models were used to study the factors affecting the rate of tau accumulation: tau slopes ∼ APOE ε4 status (present/not present) + amyloid-β status (positive/negative) + age + sex + study cohort + diagnosis (cognitively unimpaired/MCI/Alzheimer’s disease dementia) + baseline tau. We tested for interactions between age × amyloid and sex × amyloid. When examining amyloid-β accumulation in ADNI we used the linear model amyloid-β Slope ∼ APOE ε4 status + amyloid-β status + age + sex. Statistical significance was assumed at P < 0.05 (two-sided). Statistical analyses were performed using R (version 3.6.2).
+
+Anonymized data will be shared by request from a qualified academic investigator for the sole purpose of replicating procedures and results presented in the article and as long as data transfer is in agreement with EU legislation on the general data protection regulation and decisions by the Ethical Review Board of Sweden and Region Skane, which should be regulated in a material transfer agreement.
+
+## Results
+In this study we examined 419 participants, including amyloid-β-negative cognitively unimpaired subjects or patients with MCI as well as amyloid-β-positive cognitively unimpaired subjects, and patients with MCI or Alzheimer’s disease dementia from four different cohorts. Participant characteristics and demographic data are presented in Table 1 (characteristics for each separate cohort are presented in Supplementary Table 1 ). Amyloid-β-positive cognitively unimpaired were significantly older than the other participants. There was no difference in sex distribution between groups ( Table 1 ). The amyloid-β-positive groups exhibited higher tau-signal in the temporal region of interest and in the widespread neocortical region of interest, with the highest values in Alzheimer’s disease dementia ( Table 1 and Supplementary Fig. 1 ).
+
+Slopes representing the unadjusted change in 18 F-flortaucipir SUVR per year were generated from linear regressions of the tau-PET SUVRs plotted against interscan intervals. Increased accumulation rate in the tau-PET signal was observed in amyloid-β-positive MCI and Alzheimer’s disease dementia, respectively, when compared to either amyloid-β-negative cognitively unimpaired, amyloid-β-negative MCI and amyloid-β-positive cognitively unimpaired, when using both the temporal region of interest and the neocortical region of interest ( Table 1 and Fig. 1A and B ). Individual longitudinal changes in tau-PET SUVR over time are depicted in Fig. 1C and D .
+
+18 F-flortaucipir slopes and longitudinal change. 18 F-flortaucipir SUVR/year slopes in ( A ) the temporal meta-region, and ( B ) the neocortical region of interest. Box plots depict median value and the interquartile ranges. ( C and D ) Longitudinal 18 F-flortaucipir SUVRs plotted against age in ( C ) the temporal meta-region, and ( D ) the neocortical region of interest. Red dots = amyloid-β-positive (Aβ+); grey dots = amyloid-β-negative (Aβ-). AD = Alzheimer’s disease dementia; CU = cognitively unimpaired. Note that the y -axes in A and B have been cut for visualization purposes. Some individuals in the amyloid-β-positive MCI and Alzheimer’s disease groups with high slopes are outside of the maximum y -limit. Scaled versions of A and B with all participants are provided in Supplementary Fig. 2 .
+
+To elucidate the factors associated with an increased rate of tau accumulation, linear models were analysed with tau-PET slopes as outcome variable and age, sex, APOE ε4 genotype, amyloid-β-status, study cohort, diagnosis and baseline tau-PET SUVR simultaneously as predictors. Results for the two tau-PET regions of interest are detailed in Table 2 and results are visualized in Fig. 2 . There were associations between change in tau-PET over time and female sex (temporal region of interest: t = 2.86, P = 0.005; neocortical region of interest: t = 2.90, P = 0.004), lower age (temporal region of interest: t = −2.49, P = 0.013), and baseline tau-PET signal (temporal region of interest: t = 3.83, P < 0.001; neocortical region of interest: t = 5.01, P < 0.001), indicating that they were independent predictors of increased accumulation rate of tau pathology ( Fig. 2 ). There was a significant interaction between age and amyloid-β-status on change in tau-PET (temporal region of interest: t = −2.39, P = 0.018), suggesting that the effect of lower age was only observed in amyloid-β-positive subjects ( Fig. 2B ). There were no effects of diagnosis, study cohort or APOE ε4 status. Using partial volume corrected data produced similar results ( Supplementary Table 6 ).
+
+Effects on the rate of tau accumulation of baseline tau, age, amyloid status and sex. ( A ) The effects of baseline tau on the slopes of tau accumulation in the temporal meta-region of interest. Linear regressions within amyloid-β-positive (Aβ+) are shown in red [slope 0.068 (95% CI 0.038 to 0.099); P < 0.001] and amyloid-β-negative (Aβ−) in black [slope −0.062 (95% CI −0.003 to 0.122); P = 0.04]. ( B ) The effect of age on temporal meta-region of interest tau slopes. Linear regressions within amyloid-β-positive are shown in red [slope −0.003 (95% CI −0.0018 to −0.0044); P < 0.001] and amyloid-β-negative in black [slope −0.000 (95% CI −0.0005 to 0.0005); P = 0.981], respectively. ( C ) The effect of baseline tau [low (L) or high (H), high; cut-off 1.34 SUVR], age [young (Y) (<65 years) or old (O) (>65 years)] and sex [female (F) or male (M)] on tau-PET slopes in the temporal meta-region of interest. ( D ) Tau slopes in amyloid-β-positive and amyloid-β-negative males and females. The y -axes have been cut (leaving out a few individuals with high tau accumulation rate) for better visualization of the data. * P < 0.05, *** P < 0.001.
+
+Results of linear models for tau accumulation
+
+Linear models were analysed for each region using the slopes of tau accumulation. Statistical model: Tau slopes ∼ APOE ε4 status + amyloid-β status + age + sex + study + diagnosis + baseline tau SUVR. CU = cognitively unimpaired; SE = standard error. Values in bold represent statistically significant effects.
+
+P < 0.05;
+
+P < 0.01;
+
+P < 0.001.
+
+As preliminary evidence indicates that females may have higher tau-PET signal in off-target binding in the skull/meninges ( Minhas et al. , 2020 ), a region of interest encompassing these regions was created to control for this potential effect. To control for a potential effect of off-target binding in the skull/meninges we created a region of interest surrounding the brain, encompassing these off-target structures ( Supplementary Fig. 3 ). The ‘off-target region of interest’ was adjusted for cortical retention to compensate for bleeding in of true cortical signal (see Supplementary material for details). Using the retention in the off-target region of interest we found no increased retention longitudinally and no effect of sex on off-target binding ( Supplementary Fig. 4 and Supplementary Tables 7 and 8 ). Further, including the SUVR value of this off-target region of interest as a covariate in the analysis did not alter the sex effect on tau-PET accumulation in the temporal and neocortical regions of interest. In a similar analysis, we studied longitudinal tau accumulation in regions of interest located away from the surface of the brain, namely the amygdala and the precuneus/posterior cingulate, and also found strong sex effects in these regions (amygdala: t = 3.3, P = 0.001; precuneus/posterior cingulate: t = 3.4, P < 0.001; Supplementary Table 9 ).
+
+APOE ε4 has been shown to be associated to an increased rate of amyloid-β accumulation in subjects that were amyloid-β-negative at baseline ( Ge et al. , 2018 ). To study whether the females and younger individuals also have an increased accumulation rate of amyloid-β fibrils, we studied a sample consisting of 639 ADNI participants (amyloid-β-negative cognitively unimpaired n = 155, amyloid-β-negative MCI n = 145, amyloid-β-positive cognitively unimpaired n = 101, amyloid-β-positive MCI n = 204 and Alzheimer’s disease n = 34; for details see Supplementary Table 5 ) with longitudinal 18 F-florbetapir PET scans. A linear model with amyloid-β slope in a neocortical composite as outcome variable and APOE ε4 status, amyloid-β-status, age and sex as predictors was used. We found positive associations of APOE ε4 positivity ( t = 2.0, P < 0.05), amyloid-β positivity ( t = 4.8, P < 0.001) and higher age ( t = 2.4, P < 0.05) with the rate of amyloid-β accumulation, but no effect of sex (for details see Supplementary Table 10 ).
+
+## Discussion
+Tau-PET using 18 F-flortaucipir has proven a reliable marker of tau pathology in Alzheimer’s disease ( Cho et al. , 2016 ; Johnson et al. , 2016 ; Ossenkoppele et al. , 2016 , 2018 ; Scholl et al. , 2016 ; Smith et al. , 2019 ). In this study we analysed the largest longitudinal dataset thus far, comprising 419 patients from four different cohort studies in the US (ADNI, Avid 05e and Expedition-3) and Sweden (BioFINDER). We found an increased rate of tau accumulation in amyloid-β-positive MCI and Alzheimer’s disease compared to amyloid-β-negative cognitively unimpaired, amyloid-β-negative MCI and amyloid-β-positive cognitively unimpaired participants. When analysing factors related with an increased rate of tau accumulation, we found that the strongest predictors were higher baseline tau load and female sex. Further, in the temporal region of interest there was an interaction between amyloid-β status and younger age such that younger amyloid-β-positive individuals had higher rates of tau deposition. These results remained significant after partial volume correction, and were not related to or explained by sex differences in off-target binding in the skull or meninges.
+
+Recently there have been a number of publications addressing the longitudinal accumulation of tau in Alzheimer’s disease using tau-PET ( Jack et al. , 2018 ; Southekal et al. , 2018 ; Cho et al. , 2019 ; Hanseeuw et al. , 2019 ; Harrison et al. , 2019 ; Pontecorvo et al. , 2019 ). The main findings have been yearly increases ranging from −1.2 to 0.5%/year in cognitively unimpaired ( Jack et al. , 2018 ; Cho et al. , 2019 ; Pontecorvo et al. , 2019 ) and from 1.5 to 5.0%/year in cognitively impaired subjects ( Jack et al. , 2018 ; Cho et al. , 2019 ; Pontecorvo et al. , 2019 ). Here, we report similar findings with SUVR increases of 3.0 ± 5.5% in the temporal region of interest of amyloid-β-positive MCI and Alzheimer’s disease compared to 0.1 ± 2.6% in amyloid-β-negative participants. We found similar, albeit less pronounced, increases in SUVRs in amyloid-β-positive MCI (2.2%) and Alzheimer’s disease (2.9%) in the neocortical region of interest. Our study sample ( n = 419) is more than two times larger than the largest previously studied cohort, allowing us more power in assessing the risk factors associated to increased rate of tau accumulation.
+
+Alzheimer’s disease dementia is more common in females than in males ( Andersen et al. , 1999 ; Mielke et al. , 2014 ; Chene et al. , 2015 ), and according to neuropathology studies females have higher CERAD and Braak scores ( Hohman et al. , 2018 ), indicating greater amyloid-β and tau pathology at death. Using cross-sectional tau-PET data in cognitively unimpaired subjects, it has been suggested that females have a higher tau load in the entorhinal cortex compared to males ( Buckley et al. , 2019 ), and that this increased tau level in females was associated with a higher amyloid-β burden, but not with APOE ε4-carrier status ( Buckley et al. , 2019 ). Another study in ADNI instead found an interaction of APOE ε4 status and sex on entorhinal tau ( Liu et al. , 2019 ). But the available data are limited, and in cross-sectional analyses, it is difficult to determine whether the increased tau load is due to a more rapid accumulation or whether it is a consequence of higher brain resilience to the effects of tau in females, allowing them to remain free of cognitive impairment despite higher tau loads. However, the present study clearly shows that female sex is associated with an increased accumulation rate of tau pathology, even when adjusting for baseline tau load.
+
+Alzheimer’s disease dementia is more common among females than males ( Mielke et al. , 2014 ), but cerebral amyloid pathology is not more prevalent among non-demented females ( Jansen et al. , 2015 ). A possible explanation for this discrepancy could be a more rapid accumulation of tau in amyloid positive females. In line with this, cognitive deterioration was faster in female MCI participants in ADNI compared to males ( Lin et al. , 2015 ), and females showed a higher risk of progression from MCI to dementia ( Tifratene et al. , 2015 ). Further, females with MCI or Alzheimer’s disease have a 1–1.5% higher rate of brain atrophy compared to males ( Hua et al. , 2010 ), and more females show severe tau pathology at autopsy ( Filon et al. , 2016 ). The reasons for the increased rate of tau accumulation and the increased progression rates are unclear, but sex differences in comorbidities, neurotrophic factors, inflammation and synapse biology have been suggested as potentially involved in differences in cognitive decline (for a review see Ferretti et al. , 2018 ). In our data, the effect of sex on disease progression was tau specific in that we did not find any effect of sex on the rate of amyloid-β accumulation. When analysing amyloid-β accumulation in a separate cohort from ADNI we instead find that baseline amyloid-β positivity, the presence of APOE ε4, and older age were associated with a more rapid amyloid-β accumulation. In a similar analysis, Ge et al. (2018) found APOE ε4 status to be associated with an increased rate of amyloid-β accumulation in participants that were amyloid-β-negative at baseline, but not among the amyloid-β-positive participants. The tau and amyloid-β cohorts used in this study were different when it comes to the number of participants in the different diagnostic groups and the age of cognitively unimpaired participants and the results should be interpreted with this in mind.
+
+Autopsy studies have indicated that patients with early-onset Alzheimer’s disease harbour greater tau pathology than late-onset Alzheimer’s disease ( Hansen et al. , 1988 ; Ho et al. , 2002 ), and cross-sectional tau-PET studies have revealed higher tau-PET signal in younger Alzheimer’s disease patients ( Ossenkoppele et al. , 2016 ; Day et al. , 2017 ; Koychev et al. , 2017 ; Pontecorvo et al. , 2017 b ; Scholl et al. , 2017 ). In this longitudinal study, we showed that lower age in amyloid-β-positive subjects was associated with a faster accumulation rate of tau pathology, independent of sex and baseline tau load, providing evidence that younger cases with Alzheimer’s disease pathology exhibit an increased rate of tau accumulation over time. A limitation is that most of our subjects were older [ n = 69 (16%) were below age 65]. Because of the relatively small number of young subjects, the power to detect age-related effects was lower, and results will need to be reproduced in a larger dataset.
+
+Interestingly, we found no independent effect of APOE ε4 positivity on the rate of tau accumulation. This is in contrast to recent cross-sectional studies that found APOE ε4 to be associated with increased levels of tau-PET retention in the medial temporal lobe independent of amyloid-β status ( Mattsson et al. , 2018 ; Therriault et al. , 2019 ), but also greater tau load in the parietal and occipital lobes in APOE ε4 negative participants. When analysing the different cohorts separately we found an effect of APOE ε4 on tau accumulation in ADNI (temporal meta-region of interest: t = 3.8, P < 0.001; neocortical: t = 4.6, P < 0.001), but not in any of the other cohorts. Similarly, the effect of APOE ε4 on cognitive decline in amyloid-β-positive subjects has been shown to vary widely between different cohorts ( Insel et al. , 2019 ), indicating that the amyloid-β-independent effects of APOE ε4 on tau propagation and cognitive decline are rather weak and cohort-dependent.
+
+Our results indicate that the accumulation rate of tau is increased in females and younger amyloid-β-positive individuals as well as in subjects with higher baseline tau load, while the rate of amyloid-β accumulation is associated with older age, APOE ε4 positivity and baseline amyloid-β positivity. These results may provide insights into the optimal design of therapeutic drug trials in Alzheimer’s disease. It might, for instance, be important to include younger amyloid-β-positive females for a more robust and rapid read out, but might also be important to match the treatment and placebo arms for age, sex and baseline tau load.
+
+A limitation of the present study is that the data were acquired at different sites and that the protocol for data acquisition was not uniform. We dealt with this limitation by centrally processing the reconstructed images at Lund University, thus minimizing differences in region of interest and reference region delineation as well as using a uniform method for partial volume correction. Nonetheless, there were between cohort differences in the type of PET scanner used, and in the age, sex distribution and educational background of the participants. Because of these differences, the study cohort was included as a covariate in the analyses and no study cohort specific effects were observed, except for the association between APOE ε4 and tau accumulation in ADNI as discussed earlier, and a weak effect of study cohort in PVE-corrected neocortical region of interest data ( Supplementary Table 6 ). Further, the study does not include longitudinal cognitive data. The effects of an increased tau accumulation rate on cognition will be the focus of a future study. Another limitation was the variability of the longitudinal data, where some amyloid-β-positive MCI and Alzheimer’s disease patients showed relative decreases over time, which is a well-known phenomenon ( Jack et al. , 2018 ; Cho et al. , 2019 ; Harrison et al. , 2019 ; Pontecorvo et al. , 2019 ). The reasons for these negative SUVR changes in some individuals are not yet well understood and merit study in more detail in future work. The effects seen on age and sex were not driven by the subjects with negative tau accumulation rates since even after removing tau-positive subjects that showed negative tau-PET slopes age and sex remained significant predictors. We thus found an effect of female sex and a negative effect of age on the rate of tau accumulation in Alzheimer’s disease. The age effect was weaker and was only found in the temporal lobes, whereas the sex effect was more robust and was seen throughout the brain. However, despite this cohort being the largest published thus far, the data should be considered preliminary until replicated in other cohorts.
+
+In conclusion, the present longitudinal tau-PET study suggests that tau accumulation rate is increased in females and younger amyloid-β-positive individuals as well as in subjects with higher baseline tau load. This contrasts with amyloid-β accumulation, which is increased in APOE ε4 carriers and older individuals. These findings might improve our understanding of the mechanisms behind tau accumulation and carry implications for the design of clinical trials directed against tau pathology in Alzheimer’s disease.
+
+## Funding
+Work at Lund University was supported by the Swedish Research Council, the Knut and Alice Wallenberg foundation, the Marianne and Marcus Wallenberg foundation, the Strategic Research Area MultiPark (Multidisciplinary Research in Parkinson’s disease) at Lund University, the Swedish Alzheimer Foundation, the Swedish Brain Foundation, The Parkinson foundation of Sweden, The Parkinson Research Foundation, the Skåne University Hospital Foundation, the Medical Faculty at Lund University, Region Skåne, and the Swedish federal government under the ALF agreement. The precursor of 18 F-flortaucipir was kindly provided by Avid Radiopharmaceuticals.
+
+## Competing interests
+R.S., O.S., A.L., S.P., R.O., N.M.C. report no disclosures. O.H. has acquired research support (for the institution) from Roche, Pfizer, GE Healthcare, Biogen, AVID Radiopharmaceuticals and Euroimmun. In the past 2 years, he has received consultancy/speaker fees (paid to the institution) from Biogen and Roche. M.D. and M.P. are full time employees of Avid Radiopharmaceuticals, a wholly owned subsidiary of Eli Lilly.
+
+## Supplementary material
+Supplementary material is available at Brain online.
+
+## Supplementary Material
+Click here for additional data file.

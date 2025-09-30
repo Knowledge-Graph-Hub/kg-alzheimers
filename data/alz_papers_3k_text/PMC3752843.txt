@@ -1,0 +1,290 @@
+# Title
+Preparing Synthetic Aβ in Different Aggregation States
+
+# Abstract
+This chapter outlines protocols that produce homogenous preparations of oligomeric and fibrillar amyloid -β peptide (Aβ). While there are several isoforms of this peptide, the 42 amino acid form is the focus because of its genetic and pathological link to Alzheimer’s disease (AD). Past decades of AD research highlight the dependence of Aβ42 function on its structural assembly state. Biochemical, cellular and in vivo studies of Aβ42 usually begin with purified peptide obtained by chemical synthesis or recombinant expression. The initial steps to solubilize and prepare these purified dry peptide stocks are critical to controlling the structural assembly of Aβ. To develop homogenous Aβ42 assemblies, we initially monomerize the peptide, erasing any “structural history” that could seed aggregation, by using a strong solvent. It is this starting material that has allowed us to define and optimize conditions that consistently produce homogenous solutions of soluble oligomeric and fibrillar Aβ42 assemblies. These preparations have been developed and characterized by using atomic force microscopy (AFM) to identify the structurally discrete species formed by Aβ42 under specific solution conditions. These preparations have been used extensively to demonstrate a variety of functional differences between oligomeric and fibrillar Aβ42. We also present a protocol for fluorescently labeling oligomeric Aβ42 that does not affect structure, as measured by AFM, or function, as measured by a cellular uptake assay. These reagents are critical experimental tools that allow for defining specific structure/function connections.
+
+## 1. Introduction
+Currently, research is focused on soluble oligomeric assemblies of Aβ42 as the proximate cause of the neuropathology that defines AD. Controlling Aβ assembly is critically important as Aβ structure determines its function ( Figs. 1 and 2 ). Numerous experiments have addressed methods to characterize Aβ structure (for review, refs. ( 1 , 2 )). These studies demonstrate that peptide conformation and aggregation behavior are highly dependent on initial solvent conditions ( Fig. 3 ) and subsequent solution conditions ( Fig. 1a ). Oligomer preparations are defined using a variety of different methods, including neurotoxic activities, isolation techniques (primarily size exclusion chromatography (SEC)), size estimation such as by SDS or native PAGE, imaging techniques, and reactivity with various Aβ conformation-specific antibodies. These multiple operative definitions of oligomeric Aβ have resulted in a literature that is often difficult to interpret and almost impossible to compare. A rigorous approach is particularly important with Aβ42, which aggregates faster and to a significantly greater extent than Aβ40 and other shorter forms of the peptide ( Fig. 1a, b ).
+
+AFM is particularly well suited to the analysis of amyloidogenic peptides and proteins that can assemble into a variety of structurally discrete species, specifically those like Aβ. Polydispersity of morphologies and sizes often complicates or precludes the use of other biophysical techniques (such as NMR or light scattering methods), or is masked by solvent incompatibilities of the bulk solution (as for secondary structure detected by far-UV circular dichroism). Techniques based on separation by size (SDS-PAGE, Native PAGE and SEC) may lead to apparent multimers/sizes arising from technical artifacts due to matrix effects. AFM is one of the few techniques that provide direct, high-resolution, 3-dimensional morphological images of the broad range of structures present in a single scan without the need for chemical manipulation of the sample. Numerous studies have demonstrated several advantages of tapping mode AFM for Aβ42 morphological characterization ( 3 – 8 ). We have used AFM for developing conditions that consistently produce homogenous preparations of oligomeric or fibrillar assemblies of Aβ42 ( 9 , 10 ). We have used these preparations extensively to demonstrate significant functional differences between Aβ42 oligomers and fibrils using a variety of experimental models (for example, Figs. 1c and 2b ) ( 9 , 11 – 14 ).
+
+To directly assess the conformation-dependent differences among Aβ assemblies, we have developed protocols for the preparation of homogeneous unaggregated, oligomeric, and fibrillar Aβ42 ( 9 , 10 ) ( Figs. 1 and 4 ). Because Aβ42 is the isoform of the peptide most associated with AD, we chose to utilize it almost exclusively, with Aβ40 used occasionally as a negative control ( Fig. 1b, d ). Using AFM to image Aβ42, we remove preexisting aggregates and β-sheet secondary structure from Aβ42 with a strong fluorinated alcohol, hexafluoroisopropanol (HFIP) ( Fig. 3 ), followed by solubilization of the now monomerized peptide in dimethylsulfoxide (DMSO). Starting with this monomeric peptide preparation, we further developed two aggregation protocols that consistently produce extensively oligomeric or fibrillar populations of Aβ42 ( Fig. 1 ). For the “unaggregated” peptide preparation, the DMSO-solubilized peptide is diluted in the experimental solution (for example, culture media) and used immediately ( Fig. 1a , 0 h). To grow a “plaque in a dish,” follow the fibril forming procedure, with the addition of salt at physiological concentrations ( Fig. 5a2 ). Note that AFM is an optimal method for determining the aggregation state of Aβ42 as it is difficult to consistently identify Aβ42 assemblies by Western analysis of SDS-PAGE ( Fig. 5 ) ( 15 ).
+
+These distinct assemblies are derived from chemically identical and structurally homogeneous starting materials and are thus particularly well suited for comparative structure–function studies. We have demonstrated that in vitro, oligomeric Aβ42 is ~10-fold more neurotoxic than the fibrillar (plaque-forming) assembly, and ~40-fold more toxic than the unaggregated peptide, with oligomeric Aβ42-induced toxicity significant at 10 nM ( Fig. 1c ). Under Aβ42 oligomer- and fibril-forming conditions, Aβ40 remains predominantly as unassembled monomer ( Fig. 1b ) and had significantly less effect on neuronal viability than preparations of Aβ42 ( Fig. 1d ). We applied the aggregation protocols developed for wild type (WT) Aβ42 to Aβ42 with the Dutch (E22Q) or Arctic (E22G) mutations ( Fig. 2 ). Oligomeric preparations of the mutant peptides exhibited extensive protofibril and fibril formation, respectively, but were not consistently different from WT Aβ42 in terms of inhibition of neuronal viability. However, fibrillar preparations of the mutants appeared larger in diameter and induced significantly more inhibition of neuronal viability than WT Aβ42 fibril preparations. These data demonstrate that protocols developed to produce oligomeric and fibrillar Aβ42 are useful in distinguishing the structural and functional differences between Aβ42, Aβ40, and Aβ containing known genetic mutations.
+
+As researchers become increasingly conscientious of utilizing structurally uniform, well-characterized Aβ preparations, the same criteria need to be applied to fluorophore-labeled-Aβ, prior to their widespread use as experimental tools. Numerous recent studies utilizing fluorophore-labeled Aβ42 peptides demonstrate this need for defined methods of consistently preparing well-characterized fluorescent Aβ assemblies ( 16 – 31 ). The fluorescent Aβ42 reagents used to date are prepared from different sources of Aβ assemblies, in many cases using Aβ42 preparations that have not yet been structurally/morphologically characterized. Thus, structural comparisons between the unlabeled and labeled Aβ assemblies are not possible. Establishing the specific structural form of the assemblies, by AFM and other methods, is necessary to be able to interpret and compare results from the various fluorescent Aβ42 species. We present a method for preparing Alexa Fluor ® 488-labeled Aβ oligomers, extending our structural and functional characterization to fluorophore-labeling of Aβ42 oligomers. Structural characterization by AFM establishes a method for labeling uniform oligomeric assemblies that is comparable to unlabeled oligomeric Aβ42 ( Fig. 6a ). To compare function, we demonstrate that the uptake of labeled and unlabeled oligomeric Aβ42 by neurons in vitro is also similar ( Fig. 6b ) (see Note 1 ). These well-characterized fluorophore-Aβ42 oligomers are an exciting new reagent for use in a variety of studies designed to elucidate critical cellular and molecular mechanisms underlying the functions of this Aβ42 assembly form in AD.
+
+## 2. Materials
+Chemical fume hood.
+
+Synthetic human amyloid-β (1–42), (California Peptide Research, Inc., Napa, CA) (see Note 2 ).
+
+1,1,1,3,3,3-Hexafluoro-2-Propanol.
+
+2.5 mL glass Hamilton syringe with Teflon plunger and sharp non-coring needle tip (point style 5).
+
+Bath sonicator, e.g., benchtop ultrasonic cleaner.
+
+Needle, 16–18 gauge.
+
+0.65 mL and 1.7 mL microcentrifuge tubes, untreated (not siliconized).
+
+Repeating Pipettor and tips.
+
+SpeedVac.
+
+Dessicant.
+
+Plastic screw-top containers.
+
+Dimethylsulfoxide (DMSO) (see Note 3 ).
+
+Ultrapure 18.2 MΩ H 2 O.
+
+Ham’s F-12, phenol red-free cell culture media, supplemented with 146 mg/L L-Glutamine (see Note 4 ).
+
+10 mM hydrochloric acid solution (prepared in ultrapure H 2 O from a 1 M HCl stock).
+
+10 mM HCl containing 150 mM NaCl.
+
+1× PBS, pH 7.4.
+
+Alexa Fluor ® 488 TFP Ester Microscale Protein labeling kit (Invitrogen/Molecular Probes).
+
+NuPAGE 4–12% BisTris gels, MES running buffer, LDS sample buffer, and Transfer Buffer.
+
+Electrophoresis power supply.
+
+Molecular weight standards.
+
+PVDF membrane.
+
+Filter paper packs.
+
+Methanol.
+
+Tween-20.
+
+Tris-buffered saline (TBS): 25 mM Tris-HCl, pH 7.4, 137 mM NaCl, 2.7 mM KCl.
+
+Carnation Instant Nonfat dry milk (NFDM).
+
+Anti-Aβ antibodies 6E10 and 4G8 (Covance).
+
+Rabbit anti-mouse IgG, HRP conjugate.
+
+ECL Western blotting substrate.
+
+Imaging system to detect chemiluminescence.
+
+Mica sheets (Ted Pella) die-punched into 7/16 in. to ½ in. discs using a punch and die set and mounted on 12 mm stainless steel pucks (Ted Pella) with 2-ton epoxy adhesive.
+
+Adhesive tape.
+
+Magnetic sample disc holder, sample disc grippers, and cantilever tweezers.
+
+1 M HCl.
+
+0.02 μm syringe filter.
+
+10 mL Luer lock non-siliconized syringe.
+
+Ultrapure H 2 O.
+
+Tetrafluoroethane.
+
+Veeco Multimode with NanoScope IIIa controller equipped with a MultiMode head using a Vertical Engage EV piezoceramic scanner.
+
+Atomic force microscopy (AFM) probes: Al-coated Si cantilevers (42 N/m spring constant; ~300 kHz resonance frequency; tetrahedral tip with 7 nm radius).
+
+NanoScope Software vs. 5.31R1.
+
+Neuro-2a (N2A) mouse neuroblastoma cells.
+
+Opaque, white 96-well culture plates.
+
+Earle’s minimum essential medium (EMEM).
+
+Liquid penicillin-streptomycin.
+
+0.05% trypsin solution with EDTA.
+
+Fetal bovine serum (FBS).
+
+N2 supplement.
+
+Unaggregated (Subheading 3.2), oligomeric (Subheading 3.3), or fibrillar (Subheading 3.4) Aβ42.
+
+Dulbecco’s phosphase-buffered saline (DPBS).
+
+CellTiter-Glo ® Luminescent Cell Viability Assay (Promega).
+
+96-well luminescence plate reader.
+
+Poly-D-Lysine 8-well culture slides.
+
+16% paraformaldehyde solution.
+
+Blocking buffer: DPBS with 50 mM NH 4 Cl, 10 mM glycine, 3% BSA.
+
+Alexa Fluor ® 488 donkey anti-mouse IgG.
+
+VectaShield mounting medium for fluorescence.
+
+Laser scanning confocal microscope.
+
+## 3. Methods
+Steps 1–7 need to be done in a fume hood.
+
+Prepare a 1 mM Aβ solution by adding HFIP directly to the vial containing lyophilized powder through the rubber septum using a 2.5 mL glass Hamilton syringe with a Teflon plunger and sharp (not blunt-end) needle. For Aβ42, add 2.217 mL to 10 mg peptide (see Note 6 ).
+
+After the peptide is completely dissolved, pierce the septum with a syringe needle to release the vacuum (see Note 7 ).
+
+Incubate the Aβ – HFIP solution at room temperature (RT) for at least 30 min (see Note 8 ).
+
+Decap the glass vial (pliers work well) and remove the rubber septum being careful not to allow the HFIP to come in contact with the septum. Have a rack of 0.5 mL or 1.7 mL micro-centrifuge tubes ready.
+
+Using a positive-displacement repeating pipette, aliquot the solution into 10 μL (0.045 mg for Aβ42) or 100 μL (0.45 mg for Aβ42) aliquots in either 0.5 mL or 1.7 mL microcentrifuge tubes (see Note 9 ).
+
+Allow HFIP to evaporate in the open tubes overnight in the fume hood.
+
+Transfer tubes to a SpeedVac and dry down for 1 h without heating to remove any remaining traces of HFIP and moisture.
+
+Remove tubes from SpeedVac. The resulting peptide should be a thin clear film at the bottom of the tubes (see Note 10 ).
+
+Store dried peptide films over desiccant in glass jars at −20°C (see Note 11 ).
+
+Prior to use, remove peptide film from −20°C freezer and allow sample to come to RT.
+
+Prepare a 5 mM Aβ DMSO stock by adding 20 μL fresh dry DMSO to 0.45 mg Aβ42 peptide (2 μL to 0.045 mg Aβ42). Pipette thoroughly, scraping down the sides of the tube near the bottom to ensure complete resuspension of peptide film (see Note 12 ).
+
+Vortex well (~30 s) and pulse in a microcentrifuge to collect solution at the bottom of the tube (see Note 13 ).
+
+Sonicate 5 mM Aβ DMSO solution for 10 min in a bath sonicator.
+
+Use this preparation as the starting material for unaggregated Aβ (Subheading 3.2), oligomeric Aβ (Subheading 3.3), fibrillar Aβ (Subheading 3.4), “plaque in a dish” (Subheading 3.5), or fluorophore-labeled oligomeric Aβ (Subheading 3.6).
+
+Start with a tube of freshly resuspended 5 mM Aβ42 in DMSO at RT (see Note 15 ).
+
+To this Aβ aliquot, add ice-cold H 2 O to a final concentration of 100 μM Aβ.
+
+Vortex for 15 s and use immediately.
+
+The expected AFM pattern for this preparation is shown in Fig. 1a , upper panels.
+
+Start with a tube of freshly resuspended 5 mM Aβ42 in DMSO at RT (see Note 15 ).
+
+To this Aβ aliquot, add cold phenol-free F-12 cell culture media, diluting to a final concentration of 100 μM Aβ. For example, to 2 μL of 5 mM Aβ in DMSO, add 98 μL cold F-12. Remember to use proper sterile technique. When using F-12 media, avoid prolonged exposure to light and keep F-12 solutions on ice.
+
+Vortex for 15 s, transfer to 4°C and incubate for 24 h.
+
+The expected AFM pattern for this preparation is shown in Fig. 1a , lower left panel.
+
+Start with a tube of freshly resuspended 5 mM Aβ42 in DMSO at RT (see Note 15 ).
+
+To this Aβ aliquot, add 10 mM HCl at RT, diluting to a final concentration of 100 μM Aβ. For example, to 2 μL of 5 mM Aβ in DMSO, add 98 μL of 10 mM HCl.
+
+Vortex for 15 s, transfer to 37°C and incubate for 24 h.
+
+The expected AFM pattern for this preparation is shown in Fig. 1a , lower right panel.
+
+Start with a tube of freshly resuspended 5mM Aβ42 in DMSO at RT (see Note 15 ).
+
+To this Aβ aliquot, add 10 mM HCl + 150 mM NaCl, diluting to a final concentration of 100 μM Aβ.
+
+Vortex for 15 s, transfer to 37°C and incubate for 24 h.
+
+The expected AFM pattern for this preparation is shown in Fig. 5a , panel 2.
+
+Start with a tube of freshly resuspended 5 mM Aβ42 in DMSO at RT (see Note 15 ).
+
+To this Aβ aliquot, add cold 1× PBS buffer, pH 7.4, diluting to a final concentration of 100 μM Aβ.
+
+Incubate under oligomer-forming conditions (4°C, 24 h as in Subheading 3.3).
+
+Prepare solution for labeling using the Alexa Fluor ® 488 Microscale Protein labeling kit (Molecular Probes/Invitrogen) according to the manufacturer instructions by adding 10% volume of 1 M NaHCO 3 .
+
+Dissolve the provided Alexa Fluor ® 488 TFP Ester into 10 μL ultrapure H 2 O immediately before adding to Aβ oligomers. Use 8 μL dye for every 100 μL oligomer solution.
+
+Incubate the labeling reaction for 15 min in the dark at RT.
+
+In the meantime, prepare the spin columns by delivering 425 μL of the kit-provided Bio-Gel P-6 fine resin slurry into the provided spin column tubes. Prepare two spin columns for every 100 μL of oligomers. One minute before the end of the labeling incubation, centrifuge the spin columns at RT for 15 s at 16,000 × g per the manufacturer recommendations.
+
+Add 55 μL of the crude labeling reaction to the top of the resin and centrifuge for 1 min at 16,000 × g to removed unincorporated fluorophore. The leftover crude reaction solution can be analyzed by gel.
+
+Store the labeled product at 4°C protected from light. Avoid prolonged storage.
+
+Prepare dilutions of Aβ solutions in LDS sample buffer without reducing agent to deliver 50–200 pmoles Aβ per lane.
+
+Perform electrophoresis on NuPAGE 4–12% BisTris gels in 1× MES running buffer until the dye front reaches the bottom of the gel (see Note 17 ).
+
+Prepare the gel for transfer to PVDF membrane in the transfer cassette using filter paper, pads, and membrane pre-equilibrated in chilled 1× transfer buffer containing 10% methanol.
+
+Set power supply limits for the transfer for 20–30 min at very low current (such as 15 mA) followed by 25 V, 160 mA for 1 h.
+
+After transfer, incubate the membrane in TBST for 5 min.
+
+Block for 30–60 min in TBST + 5% NFDM.
+
+Perform incubation with primary antibody (1:5,000 dilutions of mouse monoclonal antibody 4G8 (anti-Aβ 17–24) or 6E10 (anti-Aβ 1–16) prepared in TBST + 5% NFDM) overnight at 4°C.
+
+Perform 3 × 10 min washes in TBST + 5% NFDM.
+
+Incubate in secondary antibody for 1 h at RT (1:10,000 dilutions of rabbit anti-mouse IgG-HRP conjugate).
+
+Wash 3 × 10 min in TBST + 5% NFDM.
+
+Rinse in TBST.
+
+Incubate in ECL substrate for 1 min followed by the immediate detection of chemiluminescence.
+
+For representative example of expected results, see Fig. 5b .
+
+Fill a 10 mL syringe with ultrapure water and equip with a 0.02 μm filter. Discard the initial 1–2 mL syringe filter output. All subsequent steps use 0.02 μm-filtered water.
+
+Prepare samples for spotting on mica by diluting to final concentrations of 10–30 μM in water.
+
+Immediately before sample delivery, cleave away the top one to four layers of mica using adhesive tape to reveal a clean, flat, featureless surface.
+
+For mica pre-treatment, add ~3 μL (enough to cover the surface) of 1 M HCl to mica for 30 s and rinse with two drops of water by letting water out of the syringe filter roll over the mica, held at a 45° angle on a magnetic surface (see Note 18 ).
+
+Immediately deliver sample onto mica and incubate for 3 min.
+
+Rinse with three drops of water and blow dry with several gentle pulses of compressed air.
+
+Incubate on benchtop for a few minutes to hours (covered to protect from dust) at RT until analysis (see Note 19 ).
+
+When AFM tip engages, optimize instrument parameters for each scan keeping contact force at a minimum, with scan rates between 1 and 2 Hz, drive amplitude between 20 and100 mV (depending on cantilever), and amplitude set point between 1.4 and 1.5 V.
+
+Process data to remove vertical offset between scan lines by applying zero order flattening polynomials using NanoScope Software vs. 5.31R1.
+
+For representative examples of expected results, see Figs. 1 – 3 , 5 and 6 .
+
+Mouse neuroblastoma N2A cells are routinely grown in 100-mm tissue culture dishes containing 10 mL of complete growth medium, consisting of EMEM supplemented with 10% FBS and 1% penicillin/streptomycin. The cells are maintained in a humidified incubator at 37°C with a 5% CO 2 atmosphere.
+
+Cells are split such that 0.5 × 10 6 cells were seeded in a new dish each time the cells reached 80–90% confluency. Briefly, when the cells reach this confluency (approximately once a week), the old growth medium is removed, and DPBS is used to wash cells. 1.5 mL of 0.05% Trypsin-EDTA solution is added to cells, and the dish is returned to the incubator for 2–5 min without disturbance. When cells are detached from the dish, 6 mL of the complete growth medium is added to halt the trypsinization of cells. Cells are collected in a sterile 15 mL conical tube, and pelleted in a clinical centrifuge with the setting of 168 × g for 2 min. The supernatant is decanted and cells are resuspended in 6 mL of complete growth medium. The cell density in a 12 μL aliquot of this cell suspension is counted using a hemocytometer. Based on the counted cell density, an appropriate volume to deliver 0.5 × 10 6 cells is then added to a new 100 mm dish containing 10 mL of complete growth medium. The dishes are then placed back into the incubator.
+
+Neurotoxicity Assay (see Note 5 )
+
+Start fresh oligomeric or fibrillar Aβ preparations so that they will be ready to use the next day.
+
+Prepare a 96-well plate of N2A cells to be treated. N2A cells from a healthy growing dish are seeded at 5,000 cells/well on an all-white 96-well plate in complete growth medium. An accurate multichannel pipette is ideal to dispense cells. In experimental planning, calculate the minimal number of wells required. For example, within a 96-well plate, we typically perform five to six replicate treatments of the same dose of Aβ assembly (e.g., 10 μM oligomers). Do not use corner wells in the plate as these wells do not have consistent luminescence values. Also include control wells containing medium without cells to measure the background luminescence of the wells. Cells are allowed to grow for 24 h before the start of treatments for the neurotoxicity assay.
+
+Prepare the 96-well plate cultures for treatment. Cells are washed twice with 90 μL of prewarmed plain EMEM medium using a 12-channel pipette. Take care not to touch the well bottom to minimize cell loss during this washing step. 90 μL of fresh EMEM medium supplemented with 1% N2 Supplement is added to each well.
+
+Add the appropriate volumes of prepared oligomeric or fibrillar Aβ to the wells being treated according to the desired experimental design (e.g., comparing oligomers versus fibrils at 10 μM Aβ concentration). The final volume of medium is 100 μL. Add the same volume of F-12 or 10 mM HCl + DMSO to other wells to serve as the vehicle control. Cells are returned to the incubator for 24 h.
+
+At the end of the 24-h treatment, leave the plate at the bench for 10 min to allow it to equilibrate to RT. The neurotoxicity assay is performed by measuring the cellular ATP value with CellTiter-Glo ® reagent according to the manufacturer’s instruction. Briefly, the reagent is thawed to reach RT and an equal volume (100 μL) of the reagent is added directly to the cells. The plate is then gently rotated in an orbital shaker for 10 min. The luminescence intensity is then measured in a luminescent plate reader.
+
+To calculate the neurotoxicity, the data set is normalized to the vehicle-treated cells, which is set to 100% for viability, and the relative values of treated cells versus control cells is calculated accordingly.
+
+N2A cells are seeded at 30,000 cells/well on poly-D-lysine coated 8-well culture slides for 8 h in phenol red-free DMEM + 10% FBS.
+
+Cells are washed with plain DMEM medium. Alexa Fluor ® 488-labeled (1–2 μM) or unlabeled (10 μM) synthetic Aβ42 oligomers are added to cells in the fresh media of DMEM supplemented with 1% N2, and incubated for 2–16 h at 37°C.
+
+At the end of the treatment, cells are washed extensively with blocking buffer without BSA, and then fixed in 4% paraformaldehyde for 20 min at RT.
+
+Cells treated with unlabeled Aβ42 oligomers are permeabilized with 0.2% Triton X-100 in DPBS for 5 min, and then blocked for 15 min with 3% BSA in the blocking buffer. Cells are then incubated overnight with anti-Aβ( 1 – 16 ) antibody 6E10 (1:500) at 4°C. After several washes with DPBS, cells are incubated 1 h at RT with Alexa488-labeled donkey anti-mouse IgG (1:500). Cells are further washed several rounds with DPBS. Wells are mounted with VectaShield mounting medium and covered with glass coverslips.
+
+Immunofluorescence images are acquired on a laser scanning confocal microscope using a Plan-Apochromate Zeiss 40×/1.3 oil immersion objective. To visualize the 488 nm excited fluorophores from the directly fluorophore-labeled Aβ42 oligomers, or the Alexa488-immunolabeled Aβ42 oligomers, 488 nm laser light (krypton-argon laser), a 488/543 two notch dichroic excitation mirror, and a 505–530 nm bandpass emission filter are used with optimized PMT parameters.

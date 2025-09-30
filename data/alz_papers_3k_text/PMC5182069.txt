@@ -1,0 +1,5 @@
+# Title
+RNA splicing is a primary link between genetic variation and disease
+
+# Abstract
+Noncoding variants play a central role in the genetics of complex traits, but we still lack a full understanding of the molecular pathways through which they act. We quantified the contribution of cis-acting genetic effects at all major stages of gene regulation from chromatin to proteins, in Yoruba lymphoblastoid cell lines (LCLs). About ~65% of expression quantitative trait loci (eQTLs) have primary effects on chromatin, whereas the remaining eQTLs are enriched in transcribed regions. Using a novel method, we also detected 2893 splicing QTLs, most of which have little or no effect on gene-level expression. These splicing QTLs are major contributors to complex traits, roughly on a par with variants that affect gene expression levels. Our study provides a comprehensive view of the mechanisms linking genetic variation to variation in human gene regulation.

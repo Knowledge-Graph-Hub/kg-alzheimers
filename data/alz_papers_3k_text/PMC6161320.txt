@@ -1,0 +1,329 @@
+# Title
+Living Neurons with Tau Filaments Aberrantly Expose Phosphatidylserine and Are Phagocytosed by
+Microglia
+
+# Abstract
+Tau protein forms insoluble filamentous inclusions that are closely associated with nerve cell death in many
+neurodegenerative diseases. How neurons die in these tauopathies is unclear. We report that living neurons with tau inclusions
+from P301S-tau mice expose abnormally high amounts of phosphatidylserine because of the production of reactive oxygen species
+(ROS). Consequently, co-cultured phagocytes (BV2 cells or primary microglia) identify and phagocytose the living neurons, thereby
+engulfing insoluble tau inclusions. To facilitate engulfment, neurons induce contacting microglia to secrete the opsonin
+milk-fat-globule EGF-factor-8 (MFGE8) and nitric oxide (NO), whereas neurons with tau inclusions are rescued when MFGE8 or NO
+production is prevented. MFGE8 expression is elevated in transgenic P301S-tau mouse brains with tau inclusions and in tau
+inclusion-rich brain regions of several human tauopathies, indicating shared mechanisms of disease. Preventing phagocytosis of
+living neurons will preserve them for treatments that inhibit tau aggregation and toxicity.
+
+## INTRODUCTION
+The assembly of tau protein into abnormal inclusions underlies many human neurodegenerative diseases ( Spillantini and Goedert, 2013 ), but how neurons die in tauopathies is still unknown. Transgenic mice that
+express neuron-specific human mutant 0N4R P301S-tau reproduce much of the tau pathology observed in a family with frontotemporal
+dementia due to a P301S-tau mutation ( Bugiani et al., 1999 ), with neurons in the central and
+peripheral nervous systems developing filamentous tau inclusions and progressive neurodegeneration between 3 and 5 months of age
+(Allen etal., 2002; Mellone etal., 2013). Peripheral neurons are also affected in human tauopathies ( Kawasaki et al., 1987 ; Nishimura et al., 1993 ), making them a relevant model of
+disease. We reported that the pentameric oligothiophene dye pFTAA specifically detects filamentous tau aggregates in dorsal root gan-
+glion (DRG) neurons from P301S-tau mice ( Brelstaff et al., 2015a , 2015b ), enabling investigation of how tau aggregates may lead to cell death. Observing pFTAA + cultured DRG neurons showed that they are slowly removed, without showing signs of apoptosis or necroptosis ( Brelstaff et al., 2015a ). Such slow kinetics accord with phagocytic cell death of live neurons by microglia
+( Neher et al., 2011 ). Glial cells, particularly microglia, are thought to be crucial in
+neurodegeneration ( Salter and Stevens, 2017 ; Spangenberg and
+Green, 2017 ). Microglial activation has been associated with tau aggregation in frontotemporal dementia (FTDP-17T) ( Bellucci et al., 2011 ) and P301S-tau mouse brains ( Bellucci et al.,
+2004 ) and has also been implicated in tau spreading through phagocytosis ( Bolos et al.,
+2016 ; Ma- phis et al., 2015 ).
+
+Death of cells through phagocytosis occurs extensively ( Brown et al., 2015 ) and is
+required for programmed cell death in C. elegans ( Johnsen and Horvitz, 2016 ).
+Most studies of neuronal cell death through microglial phagocytosis have relied on the induction of phagocytic activity by
+inflammatory signals ( Brown and Neher, 2014 ). Inflammatory microglia instigate living neurons
+to expose the ‘‘eat me’’ signal phosphatidylserine (PS) and perform phagocytosis through release of
+opsonins (e.g., MFGE8). MFGE8 simultaneously binds target-exposed PS ( Hanayama et al., 2002 )
+and phagocytic αvβ3 vitronectin receptors, causing cytoskeletal rearrangements that facilitate target engulfment.
+Whether non-apoptotic exposure of PS occurs on diseased neurons and whether it activates microglial inflammation and phagocytosis are
+unknown.
+
+We have investigated how tau inclusion-bearing neurons die, showing that live neurons with aggregated tau produce sufficient
+reactive oxygen species (ROS) to externalize PS and activate microglial phagocytosis. Preventing key steps in this pathway leads to
+the rescue of living neurons.
+
+## RESULTS
+Neurons cultured from 5-month-old P301S-tau mice (P301S mice) were probed with the PS-binding protein annexin V
+(AnnV-Alexa Fluor 647) and cell-impermeable nuclear dyes. Living DRG neurons with pFTAA + tau inclusions displayed
+significantly more externalized PS compared with pFTAA + neurons that also expressed P301S-tau (detected with anti-human
+tau HT7; Figures 1A and 1B ; p < 0.0001). PS exposure was highest in cultures
+containing P301S-tau + neurons from 5-month-old mice, while significantly lower AnnV labeling was present in DRG neurons
+cultured from 5-month-old C57BL/6 (C57) control mice, tau + ortau - neuronsfrom 2-month-old P301Smice, which
+express hyperphosphorylated forms of P301S-tau but do not contain filamentoustau aggregates ( Delobel etal., 2008 ; Mellone et al., 2013 ), and tau + or
+tau - neurons from 5-month-old Alz17 mice that express wild-type 2N4R human tau but do not develop tau aggregates
+( Brelstaff et al., 2015a ; Probst et al., 2000 )
+( Figure 1C ; p < 0.001 5-month-old P301S-tau HT7 + versus all
+others).
+
+pFTAA/AnnV + neurons were viable, as assessed by these criteria: (1) impermeability to nuclear dyes (PI, Figure 1D ; DAPI, Figure S1A ), in
+contrast to strong staining of fixed/permeable cells; (2) retention of calcein-AM, similar to pFTAA - neurons, in
+contrast to fixed/permeable cells showing no calcein-AM labeling ( Figure 1D ); and (3) no
+active caspase-3, which drives PS exposure on apoptotic cells ( Nagata et al., 2016 ) ( Figure 1E ), in contrast to caspase-3-dependent exposure of PS on all neurons exposed to
+pro-apoptotic staurosporine (Sts; 250 nM) ( Figure 1E ). Also, only Sts-induced PS exposure,
+but not that induced by P301S-tau, was inhibited by the pan-caspase inhibitor Boc-Asp(0-methyl)-FMK (BAF) ( Figure S1B ). Staining with pFTAA was not the cause of PS exposure, as enhanced AnnV
+staining intensity was present prior to pFTAA application ( Figure S1C ).
+Thus, pFTAA + neurons with exposed PS are alive.
+
+To investigate what drives PS exposure, we measured ROS production, as ROS can activate PS transporters ( Sarkar et al., 2015 ; Schreiber et al., 2018 ), and oxidized PS is
+a powerful pro-phagocytic signal ( Tyurin et al., 2014 ). DRG neurons with P301S-tau
+aggregates displayed significantly higher dihydroe- thidium (DHE) fluorescence compared with pFTAA - neurons in the same
+cultures ( Figures 2A and 2B ; p < 0.0001), indicating higher ROS production. Moreover,
+PS exposure was ROS dependent, as preincubation with the antioxidants N-acetyl-L- cysteine (NAC) or TEMPOL for 48 hr reduced AnnV
+binding values compared to untreated pFTAA + neurons ( Figure 2C ; p < 0.0001,
+untreated pFTAA + neurons vs all). In contrast, the pro-oxidant arsenite induced rapid PS exposure in the absence of
+cell permeabilization or death in all neurons ( Figure 2C ). Thus, ROS production associated
+with tau aggregates is a component of the signaling pathway that leads to PS externalization in P301S-tau neurons but is
+insufficient to cause cell death, unlike ROS-driven ferroptosis/oxytosis ( Tan et al., 2001 ; Yang and Stockwell, 2016 ).
+
+To investigate if cultures containing neurons that display PS would activate phagocytes, microglial-derived BV2 cells were
+co-cultured in contact with DRG neurons for 4 days before the cells and media were analyzed for nitric oxide (NO) and MFGE8
+production, MFGE8 having been shown to be a key opsonin via PS binding in the nervous system ( Boddaert et al., 2007 ; Kranich et al., 2010 ; Neher et al., 2011 ). DRG neurons from 5-month-old P301S mice induced a significant increase in the expression and
+secretion of MFGE8 ( Figures 3A–3C ) specifically in cultures containing neurons with
+P301S-tau aggregates, as no increase in its expression was detected when BV2 cells were co-cultured with DRG neurons from
+5-month-old Alz17 or C57 mice or 2-month-old P301S mice. Importantly, DRG neurons cultured from 5-month-old P301S mice also
+induced the release of MFGE8 from co-cultured primary microglia (containing 90% microglia and 10% astrocytes) from C57 mice, MFGE8
+concentration being ~6-fold higher than that measured from equivalent numbers of BV2 cells ( Figure
+3E ). No MFGE8 was detected in medium conditioned by microglia alone or microglia from negative-control MFGE8 knockout
+(KO) mice ( Silvestre et al., 2005 ).
+
+NO was also significantly elevated (~3-fold) in medium conditioned by neurons from 5-month-old P301S mice co-cultured with
+BV2 cells ( Figure 3D ), but no increase was detected in cocultures of BV2 cells with neurons
+from 5-month-old Alz17 or C57 mice or 2-month-old P301S mice. More NO was also released when neurons from 5-month-old P301S mice
+were co-cultured with primary microglia from C57 mice, but there was no increase in its release from MFGE8 KO microglia ( Figure 3F ), suggesting a mutual mechanism of induction between NO- and MFGE8-initiated
+signaling pathways. Notably, no increase in MFGE8 in BV2 cell lysates or in released MFGE8 or NO was detected when BV2 cells were
+co-cultured in transwell inserts regardless of neuronal origins ( Figures 3A–3D ),
+indicating a requirement for close contact between neurons and microglia to achieve activation of NO and MFGE8 production.
+
+To assess the intensity and the specificity of stimulation by pFTAA + neurons, BV2 cells were treated with 100
+ng/mL lipopolysaccharide (LPS) for 24 hr and washed prior to their addition to the various neuronal cultures ( Figure S2 ). LPS induced similarly elevated amounts of MFGE8 and NO regardless of
+neuron source or placement of BV2 cells in contact or transwell inserts. Thus, cultures of neurons with tau inclusions that expose
+PS provide a microglial stimulus that is as robust as that of LPS, assessed by MFGE8 and NO production.
+
+To demonstrate the relevance of the results from the culture systems to the in vivo conditions, brain
+sections from C57 and P301S mice were stained for the presence of MFGE8 and protein extracts from cortex, brain stem, and
+cerebellum were analyzed for MFGE8 expression. Less MFGE8 immunoreac- tivity was evident in the cortex of C57 mice compared with
+that of P301S mice, though some immunostaining was present in the C57 brains compared with MFGE8 KO controls ( Figure 3G ). Similarly, extracts from the brains of 5-month-old P301S mice contained significantly higher
+amounts of MFGE8 compared with lysates from age-matched C57 or Alz17 mice band intensities being slightly higher than background
+staining in MFGE8 KO lysates ( Figures 3H and 3I ). Expression of MFGE8 was especially
+prominent in the brain stem, in which a high number of neurons with tau aggregates is found ( Allen
+et al., 2002 ).
+
+To determine whether a similar pattern of activation occurs in human tauopathies, we compared the expression of MFGE8 in
+brain extracts from the frontal cortex of healthy human controls and three cases each of inherited tauopathies (P301L and +3
+mutations in MAPT ; Hutton et al., 1998 ; Mirra et al., 1999 ; Spill- antini et al., 1997 ) and three cases of sporadic
+Pick’s disease (case details in STAR Methods). Increased MFGE8 expression was found in the cortical extracts of all human
+tauopathy cases compared with healthy controls ( Figure 3J ). MFGE8 was barely detected in the
+cerebellum of P301L-tau cases, an area with little or no tau pathology. We also examined brain extracts from C9orf72 cases
+containing TDP-43 pathology in the cortex but little tau, as detected by antibody AT8. No increase in MFGE8 was found in the
+cortex or cerebellum of C9orf72 cases, consistent with the specific expression of MFGE8 in tauopathies and strengthening the
+relevance of our findings in P301S mice for human disease.
+
+We next investigated if phagocytes specifically engulf P301S- tau + neurons with tau inclusions. Figure 4A shows that when neurons were cultured in contact with BV2 cells, more than 50% of the
+HT7 + neurons were lost after 4 days (p < 0.001). There was no loss of HT7 + neurons when BV2 cells
+were co-cultured in a transwell, showing that physical contact was necessary for neuronal loss. In contrast, no HT7 + neuron loss was found when BV2 cells were co-cultured with neurons from 5-month- old Alz17 mice or 2-month-old P301S mice. The
+extent of phagocytosis that followed BV2 activation by neurons was similar to that produced by LPS, in agreement with the similar
+amounts of MFGE8 and NO produced by both stimuli ( Figure S2E ; p <
+0.05). Importantly, microglia from the cortex of neonatal C57 mice caused a similar extent of neuronal loss as BV2 cells ( Figure 4B ; p < 0.05), whereas no neuronal loss occurred with microglia from MFGE8 KO
+mice ( Figure 4B ). Macrophages prepared from bone marrow (BMDMs) of C57 mice also caused
+neuron loss, while macrophages from MFGE8 KO mice did not ( Figure S2F ; p
+< 0.01).
+
+We noted several examples of IB4 + phagocytes in close proximity to cultured pFTAA + neurons and some
+internalization of pFTAA + aggregates ( Figure 4C ). To examine whether endogenous
+phagocytes were responsible for the loss of tau aggregate-containing neurons that occurs over 2–3 weeks, we eliminated the
+phagocytes by treatment (4 hr) with leucine methyl ester (LME) ( Jebelli et al., 2015 ),
+followed by an overnight incubation to ensure death of phagocytes. We found that ~90% of the pFTAA + neurons were
+maintained after phagocytes were eliminated from the cultures, whereas only ~70% of the neurons remained in untreated cultures
+after 14 days ( Figure 4D ; p < 0.0001). Because it was reported recently that living
+necrop- totic cells also externalize PS ( Zargarian et al., 2017 ), we tested whether the
+neurons were dying by necroptosis. In contrast to the abolition of neuron loss caused by LME, neuron loss was not prevented by the
+RIPK1 inhibitor necrostatin-1 ( Degterev et al., 2008 ), indicating that neuron loss was not
+due to necroptosis ( Figure S4 ). Thus, four types of phagocytes (BV2
+cells, primary microglia, BMDMs, and resident phagocytes) are activated by pFTAA + neurons that then phagocytose them,
+thereby causing neuronal loss.
+
+To further demonstrate phagocytosis of pFTAA + neurons with tau inclusions by microglia, we pre-labeled BV2
+cells with IB4- Alexa Fluor 594 before adding them to pFTAA pre-labeled neurons from 5-month-old P301S or C57 mice. Both cell
+types were washed extensively before co-culture to remove free dyes. After 4 days, BV2 cells were collected and sorted by
+fluorescence-activated cell sorting (FACS). Figure 4E shows that a minor but significant
+proportion of BV2 cells was double-labeled with pFTAA and IB4–594 in the population exposed to P301S- tau-derived DRG
+neurons (4.9%, gated fraction P6), but none was present in the P6-gated population exposed to C57-derived DRG neurons, indicating
+that the BV2 cells had engulfed prelabeled tau inclusions. To confirm that the pFTAA + material inside BV2 cells was
+insoluble tau, sorted cells were lysed in 5% SDS and filtered through a cellulose acetate membrane trap ( Figure 4F ). Tau from the P6-gated pFTAA/IB4 + population was retained on the filter, as
+detected by HT7, but no tau was retained from the C57 P6-gated population or the P4-gated single- labeled BV2 population.
+Sarkosyl-insoluble tau extracted from 5-month-old P301S mouse brain served as the positive control ( Allen et al., 2002 ). These data indicate that pFTAA + tau aggregates are transferred to BV2 cells during
+their co-culture with pFTAA + DRG neurons, confirming that phagocytosis had occurred.
+
+Many instances of pFTAA + P301S-tau were also detected in microglia in brains from 5-month-old P301S mice. Figure 4G shows an example of a double-labeled pFTAA/HT7 + neuron with an intact
+nucleus inside an Iba1-stained microglial cell in the facial nucleus (FN). Engulfmentof the whole neuron is evident in the
+confocal image ( Figure 4G ). Similar examples were present in the cortex from P301S mice
+( Figure S4 ).
+
+Brains from 5-month-old P301S mice showed significant alterations in microglial morphology in the FN and other areas of
+the brain stem rich in tau aggregates, with marked increases in microglial proximity to neurons ( Figure 4H ), as previously noted ( Bellucci et al., 2004 ). Interestingly, the
+neurons against which microglia were closest showed an altered morphology, although their nuclei retained a normal appearance. To
+establish that the proximity of tau aggregate-bearing neurons to microglia was induced by the presence of P301S-tau, we mapped the
+relative spatial distribution of neurons and microglia ( Figures 4I and 4J ). A clustered
+pattern of microglia intermingled with neurons was evident in brains of P301S mice compared with C57 or MFGE8 KO mice ( Figure 4I ). Quantification showed that there was a 2-fold increase in the interaction strength
+between microglia and neurons in P301S mice compared with C57 controls ( Figure 4J ). However,
+microglia were also closely associated with the neurons ( Figure 4I , quantified in Figure 4J ) in 5-month-old double homozygous MFGE8 KO/P301S mice with tau aggregates. Thus, the
+change in location of microglia depended more on the state of neurons containing P301S-tau aggregates than on MFGE8 per
+se that instead seems necessary for phagocytosis.
+
+To show further evidence that neurons with tau inclusions are eaten alive in an MFGE8-dependent manner, we co-cultured
+neurons from 5-month-old P301S mice with BV2 cells and added either excess AnnV to mask neuronal PS ( Krahling et al., 1999 ; Neher et al., 2011 ) or the cyclo peptide
+cRGD/V (cRGD), to mask MFGE8 RGD binding to the αv vitronectin receptor subunit ( Asano et
+al., 2004 ). AnnV significantly reduced the loss of tau + (HT7 + ) neurons from the cultures (p
+< 0.01), while the cRGD peptide showed a trend toward protection ( Figures 5A and 5D ).
+Interestingly, both treatments reduced MFGE8 and NO secretion in the cocultures (Figures 5B ,
+p < 0.01 and 5C , p < 0.001). Reduced phagocytosis was not due to a
+priori inactivation of BV2 microglia by AnnV or the cRGD peptide, as neither compound reduced MFGE8 expression or
+MFGE8 and NO release when added to LPS-activated cultures of BV2 cells ( Figures
+S5A-S5C ). Hence, phagocytosis induced by the DRG neurons with tau inclusions requires MFGE8 and NO production in BV2
+cells, which, when abrogated, leads to the rescue of living neurons.
+
+Because AnnV and cRGD treatments inhibited both MFGE8 and NO production, we investigated whether direct inhibition of NO
+production using inducible NO synthase (iNOS) inhibitors would also abrogate phagocytosis. The results show that N-(3-
+(aminomethyl)benzyl)acetamidine (1400W) or aminoguanidine (AG) significantly reduced the production of NO from BV2 cells induced
+by neurons from 5-month-old P301S mice ( Figure 4I ; 1400W, p < 0.05; AG, p <
+0.001) and that both compounds inhibited the loss of tau + neurons ( Figure 4G ;
+1400W, p < 0.05; AG, p < 0.01). Moreover, the iNOS inhibitors also abrogated the production of MFGE8 ( Figure 4H ; p < 0.001), further demonstrating the reciprocity between NO signaling and MFGE8
+production. Thus, NO induced in phagocytes by neurons with tau inclusions is an essential component of the phagocytic process.
+
+## DISCUSSION
+The presence of tau filaments is correlated with neurodegeneration in familial and sporadic tauopathies, but the mechanisms by
+which assembled tau may cause neuronal cell death remain elusive ( Spillantini and Goedert,
+2013 ). This study implicates neurons with intracellular filamentous tau aggregates in instigating a type of cell death whereby
+living neurons under stress expose the ‘‘eat me’’ signal PS and activate phagocytic cells that recognize,
+engulf, and dispose them while still alive. Our study adds neurons with tau inclusions to a growing list of cells that are
+phagocytosed while still alive as a homeostatic mechanism to regulate cell numbers and remove potentially unfit cells ( Merino et al., 2015 ).
+
+It has been suggested that neuronal cell death in neurode- generative diseases is the consequence of a breakdown of
+cooperative processes between neurons and other cells, not least microglia ( De Strooper and Karran,
+2016 ). Microglia are the resident immune cells of the brain that sometimes interact beneficially with surrounding cells and
+sometimes have deleterious effects, especially during inflammation ( Aguzzi et al., 2013 ; Boche et al., 2013 ). By instigating the exposure of PS, intracellular P301S-tau aggregates cause
+microglia to release opsonins, which facilitate engulfment, and NO that can perpetuate an inflammatory state. In contrast to its
+exposure in apoptosis, here PS could be re-internalized, emphasizing the fact that the neurons are alive, and it is phagocytosis that
+kills them.
+
+Interest is increasing in inflammation as contributing to neurodegeneration ( Bolos et al.,
+2017 ). A role for innate immune factors has long been acknowledged in Alzheimer’s disease (AD) ( Eikelenboom and Stam, 1982 ) and some tauopathies ( Singhrao et al.,
+1996 ), but how neuroinflammation is instigated in diseases with intracellular protein aggregates in unclear. Here, neurons
+with filamentous tau aggregates led to microglial activation through close contact, establishing a causal relationship between
+intracellular aggregation and an inflammatory response. The signaling pathway starts in the neurons by tau aggregate- mediated ROS
+production, causing neuronal PS exposure, followed by NO production in the phagocytes that regulates release of MFGE8 necessary for
+phagocytosis (see Figure 5 for summary scheme). We further extend the model in which NO is
+postulated to promote release of MFGE8 ( Hornik et al., 2016 ) by proposing that MFGE8 released
+as a result of iNOS/NO stimulation feeds back onto the αvβ3 receptor to amplify iNOS/NO output. Indeed,
+αvβ3 has been implicated in the activation of astrocytes, which also produce MFGE8 in the brain ( Lagos-Cabre et al., 2017 ). It is interesting that lack of MFGE8 did not prevent the proximity of microglia
+to neurons in the facila nucleus of 5-month-old double crossed MFGE8 KO/P301S-tau +/+ mice. However, many other pairs of
+signals are expressed on target cells and phagocytes that might facilitate proximity, even though MFGE8 is still required for
+phagocytosis ( Neher et al., 2013 ; Rothlin et al., 2015 ).
+Which of these signals predominate under each disease condition remains to be explored.
+
+Phagocytosis of alive tau inclusion-bearing neurons may have implications for potential therapies. We found increased
+expression of MFGE8 in the frontal cortex of FTD cases with MAPT mutations (P301L and FTDP+3) or sporadic
+Pick’s disease but not in the cerebellum of P301L cases, showing that the expression level of MFGE8 depends on the presence of
+tau aggregates. Preservation of neurons, albeit with tau inclusions, preserves a working network and provides a substrate for
+potential therapies, which by altering aggregation and toxicity may well be able to prevent neuronal loss.
+
+## STAR★METHODS
+Further information and requests for resources and reagents should be directed to and will be fulfilled by the Lead
+Contact, Maria Grazia Spillantini ( mgs11@cam.ac.uk ).
+
+Mouse and human study protocols were approved by the Local Review and Ethics Committees (LREC) of University of
+Cambridge and the Indiana University Institutional Review Board. Homozygous mice transgenic for human mutant 0N4R P301S-tau or
+wild- type human 2N4R tau (Alz17) ( Probst et al., 2000 ), and C57BL/6:OlaHsd (Harlan)
+background-matched control mice were maintained as described previously ( Mellone et al.,
+2013 ). MFGE8 KO mice express a mutant MFGE8 lacking one of the two obligatory vitronectin receptor binding sites
+and a transmembrane sequence that tethers the protein in the ER membrane thereby abrogating its secretion ( Silvestre et al., 2005 ). MFGE8 KO mice were crossed with P301S-taumice in a C57BL/6:Jax background
+to produce double homozygous MFGE8 KO/ P301S-tau+/+ mice. Both female and male mice were used and each individual was from a
+different litter. Mice were housed in groups in individually ventilated cages, adding a cardboard roll and nesting material
+for enrichment. Mice were kept under a 12 h light/dark cycle, with food and water available ad libitum. Mash
+food was placed in the cage when the onset of pathology was evident, around 4 month of age. Our research was performed under
+the Animals (Scientific Procedures) Act 1986, Amendment Regulations 2012, following an ethical review by the University of
+Cambridge Animal Welfare and Ethical Review Body (AWERB).
+
+Human brain tissue was obtained from The Alzheimer Disease Center, Indiana University School of Medicine and the
+Cambridge Brain Bank. Grey matter (0.2 g) was mechanically homogenized in RIPA buffer containing 2.5% SDS with phosphatase and
+protease inhibitors at a 1:2 (w/v) ratio. Lysate was clarified at 20,000 xg for 30 min and protein assayed.
+
+Patient details are as follows:
+
+DRG neurons were cultured in DMEM-based growth medium lacking anti-oxidants as described previously ( Brelstaff et al., 2015a ). Primary microglia were prepared from cortices of newborn C57 mice or
+MFGE8 KO mice and expanded in medium containing 40% DMEM with 10% heat inactivated FBS and 60% L929 cell conditioned medium
+( Sawada et al., 1990 ). BMDM cells were prepared from bone marrows of long limbs of
+3–4 week-old mice ( Trouplin et al., 2013 ). BV2 cells were expanded from an
+original stock obtained from ATCC. For co-culture, 200,000 BV2 cells or primary microglia or BMDM per culture (a ratio of
+about 20:1) were added either directly to the medium or physically separated using a 0.4 mm pore transwell insert (Costar).
+Co-cultures were maintained in DMEM, 1% PSF, 5% heat inactivated FBS, and 2 mM GlutaMax (GIBCO) for 4 days before
+analysis.
+
+For live labeling with AnnV, neurons were cultured for 7 days, washed, and labeled with 3 μM pFTAA and 0.1
+mg/ml PI or DAPI ( Brelstaff et al., 2015a ). Medium was exchanged for HBSS containing
+2.5 mM CaCl 2 and 0.5% (v/v) Alexa Fluor®−647-conjugated AnnV for 15 min at RT in the dark, then
+returned to growth medium and imaged on a Leica DMI4000B microscope using a Leica DFC3000 G camera and the Leica application
+suite 4.0.0.11706.
+
+Following 4 h of incubation with LME (50 mM) in normal growth medium, LME was removed by 3 washes with PBS and
+cultures were returned into growth medium overnight to ensure the death of the endogenous phagocytes. The next day, cultures
+were stained with pFTAA, returned to growth medium and counted. The same fields of neurons were imaged over 14 days.
+
+NAC or TEMPOL (5 mM final concentration) were added in growth medium for 2 days after which cells were washed and
+labeled with AnnV-647. Arsenite (0.5 mM) was added for 15 min before washing and labeling with AnnV-647.
+
+Dissociated DRG neurons were fixed either in 100% ethanol or 4% PFAfor 20 min and permeabilised in PBS containing 0.3%
+triton x-100 (PBST). Antibodies were applied in PBST as described previously ( Brelstaff et
+al., 2015a ). Fluorescent images were captured on a Leica DMI 4000B microscope as described above. Images were
+analyzed using ImageJ (Rasband, W.S., ImageJ, U.S. National Institutes of Health, Bethesda, Maryland, USA, http://imagej.nih.gov/ij/,1997–2014 ). Confocal images were taken on a Leica SP8TCS microscope using LAS
+X version 2.0.1.14392 software.
+
+Fresh mouse brains were immediately fixed in 4% PFA for 24–48 h and sunk in PBS containing 30% sucrose. Coronal
+sections (25 μm) were cut on a freezing microtome (Bright Instruments). Floating sections were permeablised in PBST and
+stained in PBST with primary antibodies at 4°C, followed by the appropriate biotin-conjugated secondary antibodies.
+Staining was revealed using the VECTASTAIN Elite ABC HRP Kit followed by the DAB kit (Vectorlabs). Sections were counter
+stained in Cresyl Violet and mounted in DPX.
+
+Cells were lysed in 1% NP40 lysis buffer with protease inhibitor cocktail (Roche). Equal protein amounts were loaded
+in LDS sample buffer (NuPAGE, ThermoFisher) onto 4%−12% gradient SDS-PAGE gels, and run with NuPAGE antioxidant
+(ThermoFisher). After blotting onto 0.2 μm pore PVDF membranes (Merck), nonspecific background was blocked in 5% w/v
+skimmed milk (Tesco) or 10% BSA in PBS containing 0.1% Tween-20 for 1 h and incubated with primary antibody overnight at
+4°C, followed by the appropriate HRP-labeled secondary antibody. Blots were developed with ECL Dura (GE Healthcare).
+For the dot blot, FACS-sorted cells were pelleted and lysed in lysis buffer. DNA was digested by the addition of 50 mg/ml
+DNase-I (Sigma) in 50 mM TrispH 8 with 10 mM MgCl 2 for 1 h at 37° C. Samples were incubated in 5% SDS in
+dH 2 O for 10 min at room temperature and the entire mixture was filtered through a cellulose acetate membrane
+under vacuum. Membranes were washed in 5% SDS under vacuum, blocked in 5% skimmed milk in PBS for 30 min, then incubated with
+primary antibody (HT7) overnight at 4°C, and developed using the method described above. Asarkosyl-insoluble tau
+preparation from a 5 m P301S-tau mouse brain ( Allen et al., 2002 ) and was used as a
+positive control.
+
+Live neurons pooled from three 5 m P301S-tau or C57 mice per sample were cultured for 7 DIV, labeled with 3 μ;M
+pFTAAfor30 min at room temperature and washed. BV2 microglia were pre-labeled with IB4–594 for 15 min and washed before
+addition to DRG neuron cultures. After 4 days, BV2 cells were mechanically dislodged from DRG co-cultures, strained through a
+40 μm pore filter (BD Falcon), and sorted on a BD FACSAriaFusion Cell Sorter (Cambridge NIHR BRC Cell Phenotyping Hub).
+Voltage range was set against unlabelled BV2 microglia and those singly labeled with IB4–594. Appropriate gates to
+exclude doublets and cellular debris were set and single or double positive populations were collected.
+
+Conditioned medium was deproteinised by centrifugation through a 10 KDa cutoff filter (Amicon UFC501024). NO was
+measured using a colorimetric Griess NO kit (ab65328 Abcam). Absorbance (540 nm) was measured on an InfiniteM200Pro Tecan
+plate reader.
+
+Conditioned medium was concentrated through a 10 KDa cutoff filter and diluted back to its original volume with PBS.
+MFGE8 was measured using a colorimetric ELISA kit (R&D MFGE80). Absorbance (at 450 nm) with wavelength correction at 540
+nm was measured on the Tecan plate reader.
+
+The MosaicIA - Interaction Analysis toolkit in ImageJ ( http://mosaic.mpi-cbg.de/?q=downloads/imageJ ) was used to analyze the strength of interaction between neurons
+and microglia in the facial nucleus. For proximity analysis, sections were imaged under a 10x objective. Sections were 25
+μm thick and spaced 300 μm apart. The total number of sections from 3 mice each were: C57, 23; P301S-tau 23;
+P301S x MFGE8 KO 19; MFGE8 KO 12.
+
+Statistical analysis and graphing was performed using graph pad Prism version 7. The Kolmogorov-Smirnov test with a
+Bonferroni post hoc correction for multiple comparisons was applied where appropriate to analyze differences between the
+cumulative frequencies of AnnV intensities. Five fields of neurons per coverslip were counted from the center of the coverslip to
+its periphery in a blinded fashion by assigning each source of neurons a random file number. The distribution of
+HT7/β-III-tubulin values for 5 m P301S-tau, 2 m P301S-tau and 5 m ALZ17 mice passed the normality test (D’Agostino
+& Pearson, n = 21, K 2 = 3.305, p = 0.1915). The following numbers of neurons were counted: 5 m P301S DRG Naive,
+2578; 5 m P301S DRG+BV2, 2431; 5 m P301S DRG+ BV2/transwell 2270; 2 m P301S DRG Naive, 2202; 2 m P301S DRG+BV2 1523; 2 m P301S
+DRG+BV2/transwell 3524; 5 m ALz17 DRG Naive 1956; 5 m ALz17 DRG+BV2 1604; 5 m ALz17 DRG+BV2/transwell 2377; C57 DRG Naive 2099; 5
+m C57 DRG+BV2 2236; 5 m C57 DRG+BV2/transwell 2010. All other samples were compared by Students t test, 1-way or 2-way analysis of
+variance (ANOVA) followed by an appropriate post hoc test as indicated. Significant differences are reported as *p < 0.05,
+**p < 0.01, ***p < 0.001, ****p < 0.0001.

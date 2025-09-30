@@ -131,7 +131,9 @@ dmypy.json
 .pyre/
 
 # data input and ouptut
-data/
+data/*
+!data/alz_papers_3k_text/
+data/alz_papers_3k_text/.pqa/
 output/
 test-output/
 

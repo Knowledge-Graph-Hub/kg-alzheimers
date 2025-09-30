@@ -1,0 +1,11 @@
+# Title
+MotionCor2 - anisotropic correction of beam-induced motion for improved cryo-electron microscopy
+
+## Methods
+Methods, additional experiments and any associated references are available in the online version of the paper.
+
+## Data Availability
+The pre-compiled program MotionCor2 can be downloaded for academic use as Supplementary Software . Latest updates can be found in http://msg.ucsf.edu/em/software/index.html .
+
+## Supplementary Material
+Comparison of atomic models of archaeal 20S proteasome (T. acidophilum ) refined against the 3D density maps determined previously 4 and in this work.

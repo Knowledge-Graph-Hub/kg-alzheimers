@@ -1,0 +1,219 @@
+# Title
+Using probabilistic estimation of expression residuals (PEER) to obtain increased power and interpretability of gene expression analyses
+
+# Abstract
+We present PEER (probabilistic estimation of expression residuals), a software package implementing statistical models that improve the sensitivity and interpretability of genetic associations in population-scale expression data. This approach builds on factor analysis methods that infer broad variance components in the measurements. PEER takes as input transcript profiles and covariates from a set of individuals, and then outputs hidden factors that explain much of the expression variability. Optionally, these factors can be interpreted as pathway or transcription factor activations by providing prior information about which genes are involved in the pathway or targeted by the factor. The inferred factors are used in genetic association analyses. First, they are treated as additional covariates, and are included in the model to increase detection power for mapping expression traits. Second, they are analyzed as phenotypes themselves to understand the causes of global expression variability. PEER extends previous related surrogate variable models and can be implemented within hours on a desktop computer.
+
+## INTRODUCTION
+Here we present a protocol to improve the power and interpretability of population-level gene expression analyses. The protocol is based on the software suite known as PEER, which consists of a collection of Bayesian approaches to infer hidden determinants and their effects from gene expression profiles by using factor analysis methods 1 , 2 .
+
+Our understanding of the genetic basis of gene expression has been developed by studying species such as yeast 3 - 5 , worms 6 , mice 7 , 8 and humans 9 - 12 . As large-scale expression data were generated from these and other species over the past decade, it became increasingly apparent that there are nontrivial statistical hurdles to overcome in order to fully harness their power 13 , 14 .
+
+First, there are heterogeneous sources of variability in expression data, and dealing with them requires careful, iterative analysis. It is important to account for technical and other confounding sources of expression variation, including batch effects, environmental influences, sample history and other known or unknown factors. At the same time, we need to model the effect of the variables of interest, such as locus genotypes or case-control status. Second, it is beneficial to integrate existing knowledge on pathways and regulatory networks into the statistical analysis and mapping procedure to better understand the regulation of multiple transcripts from a single locus 15 , 16 .
+
+Several studies have found that batch effects and other global confounders reduce the power to find expression quantitative trait loci (eQTLs) 17 , 18 . However, these factors cannot be directly included in modeling if they are not measured. We and others have developed novel statistical approaches to account for such hidden determinants of expression variation 1 , 19 , 20 . Our method infers a small number of variables for every individual in the data set. We assume that these variables have a broad influence, and thus each of them has an effect size for every gene. We then treat them analogously with measured global confounders such as batch labels or measured RNA quality, and include them in the model to both improve power to detect true eQTLs and reduce spurious false-positive associations 1 .
+
+eQTL studies have shown the existence of regulatory hotspots that are associated with multiple genes in trans 3 - 5 , 21 , 22 . Although a single enhancer may regulate multiple genes via a direct mechanism, an important alternative explanation is the existence of some other biological variable that affects the expression levels and is itself under genetic regulation. PEER can help to find the biological origin of such factors and hence the observed eQTL hotspots 2 . For example, we may model the expression variability of genes as a function of transcription factor activations. Our method again infers a small number of variables, now corresponding to the activation of each transcription factor, for every individual. However, we no longer assume that these variables affect all gene expression levels. Instead, they are likely to influence the gene expression level only if the corresponding transcription factor targets the gene. For all other genes, the effect of the variable is likely to be very close to zero. The information pertaining to which factor can affect which gene is provided to PEER, for example, in the form of transcription factor binding or pathway membership data. The learned factors can themselves be used as traits and mapped to genetic loci, thereby explaining trans hotspots as a composite effect of interpretable biological features 2 .
+
+PEER has been successfully used in several gene expression variation studies to increase the number of eQTL discoveries. Initially, we demonstrated additional eQTL findings in yeast and mouse data sets 1 . We then found three times more eQTLs compared with a standard linear model in the HapMap II gene expression data using genotyping arrays 1 , as well as in full genome sequences from the 1000 Genomes project 23 . In the MuTHER project, the eQTL findings increased twofold in skin and fat tissues, as well as in lymphoblastoid cell lines 24 .
+
+Applications of PEER have also helped in understanding the genetics of inferred cellular traits when including prior information on targets of cellular features 2 . We reanalyzed the data from Smith and Kruglyak 5 , inferring the activations of 167 transcription factors in a set of yeast segregants. Here 15% of hotspot-associated trans eQTLs could be explained by genetic control of the transcription factor activations, which had downstream effects on gene expression levels.
+
+PEER can be applied to the analysis of reference populations as well as case-control studies and differential expression analyses. For such uses, an additional covariate for the case status must be introduced, but the availability of genotype data is not required. PEER can also account for further measured covariates; for example when data are combined from multiple experiments or laboratories. More generally, PEER can be used for analyzing any high-dimensional phenotype with population-scale data.
+
+The application of PEER to gene expression studies consists of two steps ( Fig. 1 ). First, PEER is used to infer hidden expression determinants from the expression profiles. Second, the learned factors are used in alternative genetic analyses ( Fig. 1a–c ).
+
+The learning step done in PEER infers hidden expression determinants from the normalized and preprocessed expression profiles, taking any known covariates into account. The learned variables can be constrained to affect known sets of genes via a prior connectivity matrix. By default, with no prior connectivity given, they are assumed to be global and to affect large fractions of all genes. The learning algorithm in PEER estimates a suitable number of factors implicitly and only explains broad variance components, thereby helping to avoid overfitting 1 .
+
+PEER produces learned factor activations, their effects on each gene and a residual data set of the expression values after subtracting the factor contribution ( Fig. 1 ). eQTLs can then be mapped on the residuals directly ( Fig. 1a ), or on original data, treating the learned factors as covariates in the association tests ( Fig. 1b ). The factors can also be used as phenotypes in genetic mapping ( Fig. 1c ) or they can be tested for association with other phenotypes.
+
+PEER itself does not offer low-level data processing. Gene expression normalization and the necessary preprocessing of genotype information need to be done using external tools 25 , 26 . When RNA-seq estimates are used for transcript abundance, we recommend using DESeq to estimate library sizes and variance-stabilize expression data sets 27 . If it is available from low-level processing, PEER can also correctly use information on measurement uncertainty for specific probes and samples.
+
+The learning of factors implemented in PEER is based on efficient approximate inference techniques that ensure computational tractability for practical applications while retaining the necessary accuracy of the results obtained 1 , 2 , 28 . Once the hidden expression determinants are learned, association testing is carried out in the second analysis step by using a range of existing methods. Our instructions assume the use of a standard linear model that yields a test statistic for linkage or association between individual variants and genes, such as that implemented in R/qtl (ref. 29 ) or PLINK 30 . To assess genome-wide significance, these statistics have to be converted to association probabilities and corrected for multiple testing for both genetic variants and transcript levels (e.g., using Bonferroni or false discovery rate (FDR) 31 ).
+
+The functionality implemented in PEER is in part also available in alternative packages that account for confounding influences in eQTL studies. These either recover the set of hidden factors explicitly 19 or use the covariance structure induced by them 20 , 32 . The algorithm implemented in PEER is most closely related to surrogate variable analysis 19 and has previously been compared in more detail 1 . Notably, PEER allows for the following: the automatic setting of an appropriate number of hidden determinants to learn, the incorporation of probe-level uncertainties (e.g., if probe measurements are not variance-stabilized from count data) and the combination of the inference of hidden confounding factors while accounting for the effect of known covariates.
+
+Similarly, alternative approaches to learn hidden determinants to be used as trait variables have been suggested. For example, other bilinear models have previously been used by Biswas et al. 33 , and methods to combine eQTL mapping with integrated network models have been considered by Zhu et al. 34 and Aten et al. 35 . Notably, the supervised factor inference in PEER is scalable and can be used on genome-wide data sets while retaining sufficient accuracy, thus allowing for meaningful conclusions to be drawn from the inferred quantities themselves 2 .
+
+PEER is applicable to a wide range of analysis settings. At present, there is no support for mixed modeling, wherein some variables (e.g., zygosity, gender, batch) have a random effect. In addition, information on population structure, if not encoded by the covariates (e.g., by introducing principal components of the genotype data), is not included in the model, and it may be recapitulated in the inferred factors. Finally, as a rule of thumb, the number of samples needs to be larger than the expected number of factors to be learned. In combination with prior knowledge, it is, however, feasible to statistically identify a greater number of factors than individuals in the data set 2 .
+
+The application of PEER for eQTL mapping requires gene expression profiles and genotype information for a set of N individuals. Example data files are provided in Supplementary Data 1 . For applications not related to QTL mapping, the genotype matrix is not required.
+
+Expression matrix . Matrix of shape N × G , where G denotes the number of measured gene expression levels. Expression estimates can be positive or negative values and on a logarithmic scale, as provided by most common normalization methods. Ideally, the expression estimates should be variance-stabilized.
+
+Genotype matrix . Matrix of shape N × S , where S denotes the number of genotypes. For fitting association models, genotypes should be encoded as the minor allele count (0/1 for haploid, 0/1/2 for diploid organisms). Existing packages (R/qtl, PLINK) will have their own format requirements for genotype data.
+
+Covariates matrix . Matrix of size N × C , where C is the number of covariates. Examples of covariates include other cofactors such as gender information, population membership or batch variables to be accounted for in the analysis. Categorical variables (e.g., batch number) have to be encoded as indicators, with a different binary variable for each batch, having a value of 1 if the individual was in the batch and a value of 0 otherwise. See the tutorials provided with the PEER package for further examples.
+
+Uncertainty matrix. If they are provided by the low-level processing of gene expression, it is possible to include uncertainty estimates specific to each gene. This matrix has the same dimension as the expression estimate, N × G, providing the variance of each measurement. If no uncertainty matrix is provided, PEER estimates the data variance automatically.
+
+Prior connectivity matrix. To infer factors that affect specific genes, PEER requires knowledge about which genes every factor can influence. This information takes the form of a matrix of size K × G, where the ( k,g ) entry corresponds to the a priori probability of factor k having a nonzero effect on gene g . For example, if a transcription factor k is known to bind to the promoter of gene g , the ( k,g ) entry should be close to 1, denoting a high probability of true regulation. In the simplest case, this matrix is binary with a value of 1 if variable k is known to affect gene g and a value of 0 otherwise. Prior link probabilities between 0 and 1, reflecting uncertain information, are also possible 2 . Note that the genes in the expression matrix and in the prior connectivity matrix have to be ordered in the same way.
+
+Data files should be formatted as comma-separated values (CSVs) or tab-delimited values. CSV files can be exported from common software for genomic data.
+
+Missing data are not supported for covariates and expression levels. Individuals with missing values should be dropped before the protocol, or their missing values need to be imputed. We suggest using the R ‘impute’ package for this task (see Step 5).
+
+We provide data files with an example eQTL experiment based on yeast data 4 in a format compatible with R/qtl ( Supplementary Data 1 ). These experimental data include a genotype matrix (genotype.csv), expression levels (expression.csv), covariates (covariates.csv) and a prior connectivity matrix for learning biological variables (prior.csv). These example data can be used to understand the PEER workflow for other experiments and to reproduce the analysis steps in this protocol.
+
+## MATERIALS
+Computer operating system: Linux or Mac OSX
+
+R ( http://www.r-project.org ): an open-source software environment for statistical computing (version 2.9.0 or higher)
+
+Example data (example data sets and scripts to reproduce the results shown here are available as Supplementary Data 1 )
+
+PEER R package (can be downloaded from https://github.com/PMBio/peer/wiki . The examples in the protocol are based on PEER 1.3.)
+
+R/qtl (optional for QTL mapping in crosses; it can be installed from R by entering install.packages ( “qtl” at the command prompt)
+
+Impute R package (optional for imputation of missing values in gene expression; it can be installed from R by entering install.packages ( “impute” ) at the command prompt)
+
+Optionally, all analysis steps outlined in this protocol can also be implemented using the Python interface of PEER, offering near-identical syntax, or the command-line tool (see https://github.com/PMBio/peer/wiki ).
+
+## PROCEDURE
+Preparation and data loading TIMING 15 min
+
+1| Load PEER and R/qtl:
+
+> library(peer)
+
+> library(qtl)
+
+2| Load the prepared data matrices into an R/qtl cross object in the running R session. We assume that the data files follow the naming convention of the example data provided. For details on required and optional data matrices, see Experimental design.
+
+> cross < - read.cross(format=“csvs”,genfile=“genotype.csv”, phefile=“expression.csv”, genotypes=c(0,1))
+
+Learning of hidden determinants from gene expression using PEER TIMING 30 min–2 h
+
+3| Build the model ( Fig. 1 ).
+
+> model=PEER()
+
+4| Set the maximum number of unobserved factors to model.
+
+> PEER_setNk(model, n_unobserved_factors)
+
+Note that unlike PCA-type models, the number of unobserved factors is not crucial when no prior is specified because PEER uses automatic relevance determination 36 to choose a suitable effective number of factors. Hence, n_unobserved_factors needs only to be set to a sufficiently large value (for technical details see Stegle et al. 1 ). If no prior information on the magnitude of confounding effects is available, we recommend using 25% of the number of individuals contained in the study but no more than 100 factors.
+
+5| (Optional) Impute missing values in gene expression. If the gene expression data set contains missing values, we suggest using the impute package to fill in the missing measurements.
+
+> library(impute)
+
+> cross$pheno < - impute.knn(cross$pheno)
+
+6| Set expression data.
+
+> PEER_setPhenoMean(model, as.matrix(cross$pheno))
+
+7| (Optional) Set expression data uncertainty.
+
+> PEER_setPhenoVar(model, as.matrix(expression_variance))
+
+8| (Optional) Set observed covariates.
+
+> PEER_setCovariates(model, as.matrix(covariates))
+
+9| (Optional) Set prior connectivity.
+
+> PEER_setSparsityPrior(model, as.matrix(prior))
+
+If prior connectivity is specified, setting the number of unobserved factors is not needed. The number of factors in the prior information matrix over-rides any previous specification.
+
+10| Train the model, observing convergence:
+
+> PEER_update(model)
+
+If the model is not converged after the default 1,000 iterations, and the variance of the residuals keeps decreasing, choose a higher value of iterations, e.g., 10,000.
+
+> PEER_setNMax_iterations(model, 10000)
+
+A total of 100 iterations should be sufficient to reach convergence on most data sets.
+
+? TROUBLESHOOTING
+
+Diagnostics and interpretation of learned hidden determinants TIMING 30 min
+
+11| Run correlation analyses between the inferred variables and batch confounding effects. For example, to check first factor and first covariate, use:
+
+> cor (PEER_getX(model)[,1], PEER_getCovariates(model)[,1]))
+
+If several inferred factors correlated with batch effects/confounders, this can be indicative of a more complex, nonlinear effect of these known covariates on the mRNA levels. Scatter plots can help understand the nature of these dependencies.
+
+12| Plot the posterior variance of the factor weights and convergence diagnostics. If there is a natural choice for the number of factors (usually observed as an ‘elbow’), and you are using the inferred factors as covariates in the linear model (see below), consider only including the more relevant factors, or rerun the model with this number of factors ( Fig. 2 ).
+
+> PEER_plotModel(model)
+
+Application of learned hidden determinants in eQTL analyses TIMING 5 h
+
+13| Correcting for learned determinants in eQTL scans . This can be done using option A (performing an eQTL scan on residual data set after accounting for confounders ( Fig. 1a )) or option B (including observed and inferred confounders in the model ( Fig. 1b )).
+
+Perform an eQTL scan on a residual data set after accounting for confounders This allows the use of nonparametric QTL methods such as rank correlation. To perform per-marker nonparametric tests on PEER residuals for genes 7–12, implicitly estimating genotype probabilities where data are missing, and to calculate q -values, use: > cross$pheno=PEER_getResiduals(model) > colnames(cross$pheno)=1:dim(cross$pheno)[2] > lod_scores=scanone(cross, model=“np”, pheno.col=7:12) Correct for multiple testing by using FDR for the first tested trait, on the basis of χ 2 P values from the nested model. > qvals=p.adjust(dchisq(2.*log(10)*lod_scores[,3]), method=“fdr”) Alternatively, for all traits without correcting for tests with multiple transcripts, use: > qvals=apply(lod_scores[,3:8],2,function(x){p.adjust(dchisq(2*log(10)*x,1), method=“fdr”)
+
+This allows the use of nonparametric QTL methods such as rank correlation. To perform per-marker nonparametric tests on PEER residuals for genes 7–12, implicitly estimating genotype probabilities where data are missing, and to calculate q -values, use:
+
+> cross$pheno=PEER_getResiduals(model)
+
+> colnames(cross$pheno)=1:dim(cross$pheno)[2]
+
+> lod_scores=scanone(cross, model=“np”, pheno.col=7:12)
+
+Correct for multiple testing by using FDR for the first tested trait, on the basis of χ 2 P values from the nested model.
+
+> qvals=p.adjust(dchisq(2.*log(10)*lod_scores[,3]), method=“fdr”)
+
+Alternatively, for all traits without correcting for tests with multiple transcripts, use:
+
+> qvals=apply(lod_scores[,3:8],2,function(x){p.adjust(dchisq(2*log(10)*x,1), method=“fdr”)
+
+Include observed and inferred confounders in the model This approach can only be used with parametric models. To perform per-marker parametric test for genes 7–12, using inferred PEER factors as covariates, use: > lod_scores=scanone(cross, method=“hk”, model=“normal”, pheno.col=7:12, addcovar=PEER_getX(model))
+
+This approach can only be used with parametric models. To perform per-marker parametric test for genes 7–12, using inferred PEER factors as covariates, use:
+
+> lod_scores=scanone(cross, method=“hk”, model=“normal”, pheno.col=7:12, addcovar=PEER_getX(model))
+
+The number of discovered associations between expression levels and genotypes of nearby loci should increase as the variability attributable to other global factors is explained away. When testing for association with variants in a 10,000-bp window around the probe, we found many additional eQTLs for a range of LOD score cutoffs ( Fig. 2a ).
+
+? TROUBLESHOOTING
+
+14| Genetic mapping by using the hidden determinants ( Fig. 1c ). This can be achieved by using option A (mapping the genetic basis of inferred variables by setting them as the cross phenotype, followed by standard mapping) or option B (further genetic analyses based on the learned factors).
+
+Mapping the genetic basis of inferred variables by setting them as the cross phenotype, followed by standard mapping To map the genetic basis of inferred variables, set them as the cross phenotype, followed by standard mapping: > cross$pheno < - PEER_getX(model) > colnames(cross$pheno) < - 1:n_factors > lod_scores < - scanone(cross, pheno.col=1:n_factors, method=“hk”) Factors associated with a genotype are indicative of a trans eQTL hotspot, with many gene expression levels associated with a single variant. If a biological prior is not being used, include this locus genotype in the model as a covariate and rerun; this increases the interpretability of the results. Depending on strong effects or suitable prior information, learned factors explain trans eQTL hotspots with few individual factors ( Fig. 3 ).
+
+To map the genetic basis of inferred variables, set them as the cross phenotype, followed by standard mapping:
+
+> cross$pheno < - PEER_getX(model)
+
+> colnames(cross$pheno) < - 1:n_factors
+
+> lod_scores < - scanone(cross, pheno.col=1:n_factors, method=“hk”)
+
+Factors associated with a genotype are indicative of a trans eQTL hotspot, with many gene expression levels associated with a single variant. If a biological prior is not being used, include this locus genotype in the model as a covariate and rerun; this increases the interpretability of the results. Depending on strong effects or suitable prior information, learned factors explain trans eQTL hotspots with few individual factors ( Fig. 3 ).
+
+Further genetic analyses based on the learned factors The learned factors can be used in other contexts, e.g., to identify genetic interactions between cellular features, the genetic state and expression levels 2 . For an interaction scan of gene 10 and factor 5 using R/qtl, use: > int_lods=scanone(cross, pheno.col=10, intcovar=PEER_getX(model)[,5], addcovar=PEER_getX(model)[,5]) In this case, additional care has to be taken for multiple testing corrections, as the space of possible interactions is large. ? TROUBLESHOOTING
+
+The learned factors can be used in other contexts, e.g., to identify genetic interactions between cellular features, the genetic state and expression levels 2 . For an interaction scan of gene 10 and factor 5 using R/qtl, use:
+
+> int_lods=scanone(cross, pheno.col=10, intcovar=PEER_getX(model)[,5], addcovar=PEER_getX(model)[,5])
+
+In this case, additional care has to be taken for multiple testing corrections, as the space of possible interactions is large.
+
+? TROUBLESHOOTING
+
+? TROUBLESHOOTING
+
+Troubleshooting advice can be found in Table 1 . For additional troubleshooting and diagnostic guidelines, please also consult the PEER WIKI online ( https://github.com/PMBio/peer/wiki ).
+
+TIMING
+
+Steps 1 and 2, loading data and setting up the R environment: 15 min
+
+Steps 3–10, setting up the PEER model and running inference: 30 min–2 h (for 6,000 genes and 170 factors). Application of PEER scales linearly in time and memory consumption with the number of genes and individuals, and quadratically with the number of learned factors. We recommend creating a moderate-sized data set to estimate the running time.
+
+Steps 11 and 12, diagnostics of inference results: 30 min
+
+Steps 13 and 14, application to eQTL analysis: 5 h (for 6,000 genes and 3,000 SNPs)
+
+Computation time for eQTL scans scales linearly with the number of tested loci and transcripts.
+
+## ANTICIPATED RESULTS
+PEER produces estimates of hidden determinants of gene expression that aid analysis of the data. Depending on whether prior information is included while learning (Step 9), these estimates resemble either interpretable cellular features or broad variance components ( Fig. 2 ). In eQTL mapping, the inferred factors can be used to increase power in genetic mapping ( Fig. 2 ) and to identify the genetic determinants of learned cellular features ( Fig. 3 ). In addition to applications in genetic mapping, hidden determinants of gene expression can be used in other analyses of gene expression (see, for example, Leek et al. 19 ).

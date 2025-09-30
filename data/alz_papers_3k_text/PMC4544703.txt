@@ -1,0 +1,14 @@
+# Title
+PLD3-variants in population studies
+
+## Methods
+RS 3 , FHS 4 and AGES 5 were genotyped on the Illumina exome chip 6 . Amsterdam Dementia cohort 7 , Alzheimer Center Erasmus MC and RS underwent
+whole exome sequencing at Center for Biomics, Rotterdam. RS exome sequence and exome
+chip data partially overlapped, genotypes were concordant and non-overlapping
+samples were used in PLD3 -Val232Met analysis. As covariates gender
+and age at onset for AD cases or the date of last examination/censoring for
+cognitively healthy controls were used. GRIP 8 was imputed using the Dutch specific reference
+panel(Imputation quality [Rsq]=0.74) 9 , 10 .
+Subjects aged below 55 were excluded. The R-package
+“seqMeta”(version seqMeta_1.4) was used for meta-analysis of single
+variant score test and gene-based test.

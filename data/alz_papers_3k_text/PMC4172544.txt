@@ -1,0 +1,393 @@
+# Title
+TDP-43 is a key player in the clinical features associated with
+Alzheimer’s disease
+
+# Abstract
+The aim of this study was to determine whether the TAR DNA-binding
+protein of 43kDa (TDP-43) independently has any effect on the clinical and
+neuroimaging features typically ascribed to Alzheimer’s disease (AD)
+pathology, and whether TDP-43 pathology could help shed light on the phenomenon
+of resilient cognition in AD. Three-hundred forty-two subjects pathologically
+diagnosed with AD were screened for the presence, burden and distribution of
+TDP-43. All had been classified as cognitively impaired or normal, prior to
+death. Atlas-based parcellation and voxel-based morphometry were used to assess
+regional atrophy on MRI. Regression models controlling for age at death,
+apolipoprotein ε4 and other AD-related pathologies were utilized to
+explore associations between TDP-43 and cognition or brain atrophy, stratified
+by Braak stage. Additionally, we determined whether the effects of TDP-43 were
+mediated by hippocampal sclerosis. One-hundred ninety-five (57%) cases
+were TDP-positive. After accounting for age, apolipoprotein ε4, and
+other pathologies, TDP-43 had a strong effect on cognition, memory loss, and
+medial temporal atrophy in AD. These effects were not mediated by hippocampal
+sclerosis. TDP-positive subjects were 10× more likely to be cognitively
+impaired at death compared to TDP-negative subjects. Greater cognitive
+impairment and medial temporal atrophy were associated with greater TDP-43
+burden and more extensive TDP-43 distribution. TDP-43 is an important factor in
+the manifestation of the clinico-imaging features of AD. TDP-43 also appears to
+be able to overpower what has been termed resilient brain aging. TDP-43
+therefore should be considered a potential therapeutic target for the treatment
+of AD.
+
+## INTRODUCTION
+Since the time of Alzheimer himself [ 2 ], two proteins, beta-amyloid (Aβ) deposited in senile plaques, and
+tau deposited in neurofibrillary tangles, have become tantamount to
+Alzheimer’s disease (AD) [ 9 ].
+Neurofibrillary tangles progress throughout the brain in a stereotypic pattern
+defined by the Braak staging scheme [ 9 ]. This
+staging scheme correlates with cognitive impairment and brain atrophy in AD [ 18 , 20 , 44 ]. However, a significant
+proportion of patients with AD pathology remain clinically normal up to the time of
+death despite the presence of both neurofibrillary tangles and senile plaques [ 15 ]. Little is known about this phenomenon and
+whether other proteins may also be playing a role.
+
+A third protein, the TAR DNA binding protein of 43kDa (TDP-43), has however
+recently been found to be present in the brains of subjects with pathologically
+diagnosed AD [ 3 , 4 , 8 , 14 , 24 , 26 , 43 ].
+TDP-43 is an RNA-binding protein that functions in exon skipping and is identified
+in an abnormal phosphorylated state in cellular inclusions [ 11 ]. TDP-43 is associated with neurodegeneration and cognitive
+impairment [ 34 ] yet it is unknown whether
+TDP-43 plays any role in what has been considered “the AD neurodegenerative
+process” or whether TDP-43 could help explain why some patients remain
+clinically normal, while others do not, despite both having similar degrees of AD
+pathology.
+
+The primary aim of this study was to determine whether TDP-43 is
+independently associated with cognitive impairment and brain atrophy in AD, and
+hence an important contributor to the AD phenotype. A secondary aim was to determine
+whether cognitive impairment and atrophy would correlate with TDP-43 burden or the
+distribution of TDP-43 (number of brain regions showing TDP-43
+immunoreactivity).
+
+## MATERIALS AND METHODS
+All cases were identified from the Mayo Clinic neuropathological
+database, Rochester, MN and fulfilled the following inclusion criteria: (1)
+intermediate-high probability AD diagnosis according to the National Institute
+on Aging and the Reagan Institute criteria (NIA-Reagan) [ 47 ], (2) Braak neurofibrillary tangle stage IV–VI
+[ 9 ], and (3) available formalin fixed
+paraffin blocks of brain tissue regions. Three-hundred and forty-six cases were
+identified; four were excluded for not having available paraffin blocks,
+resulting in 342 cases being included in this study. All subjects were
+prospectively recruited and followed in the Alzheimer’s Disease Research
+Center or Patient Registry between 1992 and 2010.
+
+All subjects had undergone a clinical evaluation by a dementia
+specialist, completed neuropsychological testing and were determined to be
+cognitively normal or cognitively impaired before death. The determination of
+cognitive status was based on consensus of a team of scientists utilizing data
+generated from detailed clinical and neuropsychological evaluations. For this
+study, we analyzed the Mini-Mental State Examination (MMSE) [ 17 ] as a measure of general cognitive
+impairment, Clinical Dementia Rating Scale Sum-of-Boxes (CDR-SB) [ 31 ] as a measure of functional impairment,
+Boston Naming Test (BNT) [ 27 ] as a
+measure of confrontational naming, memory subscale of the Dementia Rating Scale
+(mDRS) [ 29 ] as a measure of loss of
+episodic memory, brief questionnaire version of the Neuropsychiatric Inventory
+(NPI-Q) [ 28 ] as a measure of behavioral
+impairment, and cognitive status, at the final evaluation before death.
+Apolipoprotein E ( APOE ) genotyping was performed, as previously
+described[ 13 , 23 ].
+
+Neuropathological examinations were performed according to
+recommendations of the Consortium to Establish a Registry for AD (CERAD)[ 30 ]. Every specimen was assigned a Braak
+stage[ 9 ] using modified Bielschowsky
+silver stain, on the basis of the earliest appearance of neurofibrillary
+tangles. Lewy bodies and infarcts were documented, and Aβ burden
+measured using CERAD recommendations [ 30 ]. Hippocampal sclerosis (HpScl) was diagnosed if neuronal loss in the
+subiculum and CA1 regions of the hippocampus was out of proportion to the burden
+of neurofibrillary tangles [ 16 ].
+
+This study was approved by the Mayo Clinic IRB. All patients or their
+proxies provided written informed consent before participating in any research
+activity.
+
+Amygdala blocks were sectioned and immunostained for TDP-43 (polyclonal
+antibody MC2085 that recognizes a peptide sequence in the 25-kDa C-terminal
+fragment[ 48 ]) with a DAKO-Autostainer
+(DAKO-Cytomaton, Carpinteria, California) and 3, 3’-diaminobenzidine as
+the chromogen. Sections were lightly counterstained with Hematoxylin. Amygdala
+sections were screened (by DWD), to assess for the presence of TDP-43
+immunoreactive neuronal cytoplasmic inclusions, dystrophic neurites, or neuronal
+intranuclear inclusions ( Figure 1 ). We
+screened the amygdala as the amygdala has been shown to be the first region
+affected in AD by TDP-43 pathology[ 19 ].
+Any AD case not showing TDP-43 immunoreactivity in the amygdala was considered
+TDP-negative ( Figure 2a ), while any AD case
+showing any amount of TDP-43 immunoreactivity in the amygdala was considered
+TDP-positive ( Figure 2b–d ). Hence,
+amygdaloid positivity was all that was necessary to call an individual AD case
+TDP-43 positive. For TDP-positive cases, we sectioned additional paraffin blocks
+of the middle frontal, superior temporal, and inferior parietal cortices,
+nucleus basalis, hippocampus, midbrain and medulla using the same protocol as
+described above for the amygdala. The following 14 distinct brain regions per
+case were reviewed simultaneously with a multi-headed microscope (by DWD and
+KAJ) for TDP-43 immunoreactivity: amygdala, entorhinal cortex, subiculum,
+hippocampal dentate fascia, occipitotemporal cortex, inferior temporal cortex,
+basal forebrain, insula, ventral striatum, frontal lobe, basal ganglia,
+substantia nigra, midbrain tegmentum, and inferior olive. A region was
+considered positive if TDP-43 immunoreactive lesions were observed at
+20× magnification screening the entire region, with subsequent
+confirmation at 40× magnification. The number of cases with TDP-43
+immunoreactivity for each of the 14 regions is shown in Figure 3 .
+
+To ensure antibody sensitivity, we additionally screened amygdala
+sections from 10% of the TDP-negative cases using a different antibody
+against phosphorylated TDP-43 peptide (1:5,000 rabbit polyclonal anti-human
+phosphoserine 409/410). None of the cases that had initially screened negative
+with the polyclonal antibody MC2085 showed TDP-43 immunoreactivity with the
+phosphorylated antibody, ensuring excellent sensitivity of MC2085.
+
+TDP-43 burden was assessed in the hippocampal dentate fascia using the
+Aperio slide scanner and a customized color deconvolution algorithm enabling the
+detection of any abnormal TDP-43 ( Figure
+4 ). The dentate fascia was selected for the burden analysis since the
+dentate fascia has been demonstrated to be most strongly associated with memory
+loss [ 36 ]. TDP-43 immunostained sections
+of the posterior hippocampus at the level of the lateral geniculate were scanned
+at ultra-resolution on the ScanScope XT (Aperio Technologies, Vista, CA). This
+instrument permits scanning of the entire slide from which large areas of
+interest can be annotated using ImageScope version 11.2 (Aperio Technologies,
+Vista, CA). The method greatly increases the sampling frame compared to some
+other image analysis systems that are limited to the field of view of the
+microscope or require image tiling [ 38 ].
+The entirety of the dentate fascia was assessed to quantitatively determine
+TDP-43 immunohistochemical burden. To operationalize annotation of the dentate
+fascia, the ruler tool was used to measure 125µm across the granule cell
+layer to molecular layer to avoid quantification variability resulting from
+tissue sectioning differences. Any dust or dirt particles or tissue folds were
+excluded using the negative trace tool. Annotated layers were analyzed in
+Spectrum version 11.2 (Aperio Technologies, Vista, CA) using a custom-designed
+color deconvolution algorithm, as previously described [ 22 ]. After applying the color deconvolution algorithm, each
+high resolution image was reviewed independently by two investigators (MM
+& AL) in order to ensure that only abnormal TDP-43 was being measured.
+Cases where the algorithm was unable to separate abnormal TDP-43 from normal
+nuclear TDP-43, were removed from further analysis of TDP-43 burden (n=20).
+TDP-43 burden was then expressed as the area of immunoreactive pixels to the
+total area of the annotated region.
+
+Two-hundred and forty-eight subjects had an antemortem volumetric MRI
+performed with a standardized protocol [ 21 ]. The MRI closest to death was selected for each subject to
+correspond to the clinical data. Two-hundred and twenty subjects were scanned at
+1.5T. A reference group for volumetric analysis included 46 healthy controls
+that had antemortem MRI and normal pathological diagnosis (Braak 0-III,
+NIA-Reagan no/low) and were TDP-negative (mean age=82±6, 46%
+female). Gradient non-linearity and intensity non-uniformity corrections were
+applied.
+
+Grey matter volumes of specific regions-of-interest were calculated
+using atlas-based parcellation in SPM5 and the automated anatomic labeling
+atlas[ 42 ], as previously described
+[ 45 ]. Volumes were calculated for
+medial temporal regions (hippocampus, amygdala, and entorhinal cortex) and
+association cortices (fusiform gyrus, medial and lateral frontal and parietal
+lobes, and lateral temporal lobe). Left and right volumes were averaged.
+Regional volumes were scaled by total intracranial volume [ 46 ] to correct for head size. Grey matter atrophy was also
+assessed at the voxel-level using voxel-based morphometry (VBM)[ 6 ]. Standard preprocessing steps were
+employed, including normalization to a customized template, unified segmentation
+[ 7 ], modulation and smoothing at 8mm
+full-width at half-maximum. A VBM “full-factorial” (i.e. ANCOVA)
+model was used to compare TDP-negative and TDP-positive subjects to controls
+(p<0.05 using family wise error correction), and to each other
+(uncorrected p<0.001). Comparisons were performed separately at Braak
+IV, V and VI. Age, gender and total intracranial volume were included as
+covariates in all analyses.
+
+We used linear, binary logistic, and ordinal logistic regression models
+to estimate associations between outcome variables and TDP-43. In our first
+modeling analysis we treated TDP-43 status as a binary predictor.
+
+In order to better understand the relationship between TDP-43 and
+cognition and brain atrophy while taking into account the Braak neurofibrillary
+tangle stage, we stratified by Braak stage and tested for additive associations
+and interactions between TDP-43 and Braak using linear or logistic regression
+adjusted for age at death. This analysis allowed us to investigate whether the
+association between TDP-43 and cognition/brain atrophy differed across Braak
+stage IV, V and VI. We extended this analysis in two ways to account for any
+potential genetic or other pathological confounders: (1) to account for
+confounding effects due to APOE, infarctions, Lewy bodies, neuritic plaques
+(CERAD) we included these variables as covariates in our models. (2) In order to
+address the issue of whether the TDP-43 effects were wholly or partly mediated
+by HpScl we added this factor to the models and evaluated the resulting
+HpScl-adjusted TDP associations. We encountered the problem of logistic
+regression separation in models involving the cognitive impairment outcome. This
+was because all 104 TDP-positive subjects at Braak stage VI were cognitively
+impaired and thus in this subgroup there were no “non-events”.
+To address this problem we used weakly informative variance stabilizing data
+augmentation priors for the coefficient corresponding to the Braak VI by TDP-43
+interaction [ 40 ]. This method is very
+closely related to the popular approach of adding one success and one failure
+when estimating a proportion [ 1 ]. Our
+priors specified that on the odds ratio scale 95% of the prior
+probability was in the range 1/16 to 16 which serves to conservatively shrink
+estimates towards the null.
+
+For our secondary analyses we modeled the outcome variables as a
+function of TDP-43 burden and as a function of the number of brain regions
+positive for TDP-43 (i.e. distribution). These analyses were limited only to
+subjects who were TDP-positive. Quantitative TDP-43 burden was expressed as a
+percentage of pixels showing immunoreactivity. We rank transformed the numeric
+value because of extreme right skewness ( Figure
+3 ). So that a 1-unit increase was more interpretable, we divided the
+rank-transformed value by 40 to obtain a uniformly distributed predictor with a
+max (and range) of ~4. In these analyses we assessed three models that
+included: age at death alone; age at death and Braak stage given our interest in
+Braak stage; and age at death, APOE, Braak stage, CERAD, Lewy bodies, infarcts
+and HpScl as adjustment covariates to remove the potential confounding effect of
+all these variables.
+
+## RESULTS
+One hundred-ninety five cases (57%) were TDP-positive. After
+accounting for age at death, the TDP-positive subjects had a higher proportion of
+APOE ε4 carriers, and worse performance on MMSE, CDR-SB, BNT and mDRS than
+the TDP-negative subjects ( Table 1 ). The
+TDP-positive group had a lower proportion of subjects who were cognitively normal at
+death (2% vs 19%). The TDP-positive group had higher Braak stage,
+and higher proportions of Lewy bodies and HpScl. Volumes of all medial temporal
+structures and fusiform gyrus were smaller in the TDP-positive group compared to the
+TDP-negative group, with no differences observed in other association cortices.
+
+After accounting for age at death, CERAD, APOE ε4, infarcts,
+Braak stage, and Lewy bodies, TDP-43 had an additive effect on cognitive
+impairment, MMSE, mDRS, CDR-SB and BNT ( Figure
+5 ). When we further account for HpScl in our mediation analysis, the
+additive effect of TDP-43 on cognitive impairment and BNT remained significant
+with similar trends persisting for MMSE, mDRS and CDR-SB. ( Figure 5 ). An interaction, in addition to an additive effect
+beyond Braak, was observed for MMSE and CDR-SB. Specifically, a greater
+difference was observed between TDP-positive and TDP-negative groups at Braak IV
+and V. For example, a greater than 4-point difference on MMSE was observed at
+Braak stages IV and V between TDP-positive and TDP-negative subjects, while less
+than a 2-point difference was observed for MMSE at Braak stage VI.
+
+Similar to the clinical outcomes, after accounting for age at death,
+CERAD, APOE ε4, infarcts, Braak stage, and Lewy bodies, TDP-43 had an
+additive effect on hippocampal, amygdala and entorhinal cortex volumes ( Figure 6 ). When we further account for HpScl
+in our mediation analysis, the additive effect of TDP-43 on hippocampal volume
+remained significant with similar trends persisting for the amygdala and
+entorhinal cortex volumes ( Figure 6 ). No
+added interactions were observed for these medial temporal volumes. Conversely,
+interactions, but no additive effects of TDP-43 were observed on the association
+cortex volumes.
+
+On VBM, the TDP-positive AD subjects showed progressive worsening of
+volume loss with increasing Braak, when compared to the 46 healthy control
+subjects ( Figure 7 ). The TDP-negative AD
+subjects showed no volume loss at Braak IV and only a tiny area of focal loss at
+Braak V, when compared to the healthy controls. When the TDP-positive and
+TDP-negative subjects were directly compared, the TDP-positive subjects showed
+greater medial temporal loss than the TDP-negative subjects at all Braak stages.
+Conversely, the TDP-negative subjects showed no regions of greater loss than the
+TDP-positive subjects, except at Braak VI, where more parieto-occipital loss was
+observed.
+
+A strong correlation was observed between TDP-43 burden and distribution
+(Spearman correlation=0.74, p<0.001). After accounting for age at death,
+CERAD, APOE ε4, infarcts, Braak stage, Lewy bodies and HpScl, TDP-43
+burden and TDP-43 distribution was associated with many clinical and
+neuroimaging variables ( Table 2 and Table 3 ). Fort all these associations,
+clinical performance worsened and volume loss increased with higher TDP-43
+burden in the dentate gyrus, and as more regions were affected by TDP-43.
+
+## DISCUSSION
+In this large clinico-imaging-pathological study, we demonstrate that TDP-43
+is associated with the major features of AD: memory loss and medial temporal
+atrophy. In fact, in the presence of less severe AD pathology, the absence of TDP-43
+was strongly associated with normal cognition. Consequently, TDP-43 appears to play
+an important role in the cognitive and neuroimaging characteristics that have been
+linked to AD.
+
+The findings from this study challenge the perception that Aβ and
+tau are the only important proteins accounting for the clinical features of AD by
+demonstrating that TDP-43 also has an effect on the core clinical and neuroimaging
+features considered pathognomonic for AD. Importantly, the effects of TDP-43 on
+cognition and atrophy occurred after taking into account AD related pathogenetic
+potential confounders, including Braak stage, and hence tau, the presence of Lewy
+bodies, Aβ, infarctions and APOE ε4. The effects of TDP-43 also
+persisted after taking into account HpScl. Therefore, although HpScl likely
+influences cognition and brain atrophy when present in AD [ 10 , 33 , 35 ], the effects of TDP-43 on the clinical and
+imaging variables assessed in our cohort were not mediated by HpScl. This suggests
+that TDP-43 itself is an important factor. The fact that TDP-43 had an effect on
+these outcome variables at Braak IV, which represents mild AD, is evidence that
+TDP-43 is not just a feature of severe pathology. In fact, the differences between
+TDP-positive and TDP-negative groups were most striking at Braak IV and V. One
+explanation for this finding is that TDP-43 plays a more important role in the early
+stages of AD, but once tau deposition is widespread, i.e. Braak VI, the importance
+of TDP-43 becomes somewhat overshadowed. Alternatively, it is also possible that the
+effects of TDP-43 at Braak VI are just as strong as they are at Braak IV and V, but
+are more difficult to detect since the range of cognitive values at Braak VI are
+likely to be truncated given that most subjects are severely affected at this
+stage.
+
+One of the most important findings of this study was that the absence of
+TDP-43 was strongly associated with normal cognition, despite subjects with and
+without TDP-43 having similar degrees of AD pathology. In our sample, approximately
+one third of the TDP-negative Braak IV and V subjects were cognitively normal,
+compared to only 4% of the TDP-positive Braak IV and V subjects. Given that
+the TDP-positive Braak IV and V groups showed greater medial temporal atrophy than
+the TDP-negative Braak IV and V subjects, it appears that the presence of TDP-43
+creates a synergistic effect with the AD pathology. A similar effect has also been
+previously reported to occur with vascular pathology [ 39 ] and with argyrophilic grains disease [ 25 , 41 ]. It therefore
+appears that the resilience of some subjects to AD pathology can be overpowered by
+the presence of TDP-43. These findings help to further shed light on those subjects
+that remain cognitively unimpaired despite having AD pathology [ 5 , 15 , 37 ]. Previous studies have
+suggested that cognitively resilient subjects may have lower burdens of Aβ
+fibrillar plaques, oligomeric Aβ deposits or hyperphosphorylated tau in
+synapses [ 37 ], or preserved densities of
+presynaptic terminals and dentritic spines [ 5 ]; although none of these studies assessed TDP-43. We now know that such
+subjects are also less likely to have TDP-43.
+
+An association was also identified between APOE ε4,
+a major risk factor for AD [ 12 ], and TDP-43.
+The proportion of subjects with the APOE ε4 allele was
+higher in the presence of TDP-43 across all Braak stages. At Braak VI, for example,
+approximately three-quarters of the TDP-positive subjects had the APOE ε4 allele; a higher proportion than typically
+observed in AD [ 32 ]. It is therefore probable
+that APOE ε4 increases the risk of TDP-43 pathology; an
+association not previously recognized. However, APOE ε4,
+like Lewy body disease, Aβ deposition, infarctions and HpScl, was not a
+confounder of the observed associations with TDP-43.
+
+An intriguing observation was the atypical characteristics of the Braak VI
+TDP-negative group. This group showed widespread atrophy, yet the atrophy pattern
+was unusual when compared to the Braak VI TDP-positive group, with more atrophy in
+cortical association regions and less atrophy in medial temporal regions. This group
+of subjects was approximately 10 years younger than all other groups and is
+reminiscent of the hippocampal sparing variant of AD, which typically is associated
+with younger age, relatively greater cortical atrophy, an atypical distribution of
+neurofibrillary tangles [ 32 , 46 ], and absence of TDP-43 [ 8 ]. It is unlikely that TDP-43 is protective
+against involvement of the cortex and more likely that the greater cortical atrophy
+in the TDP-negative subjects is being driven by a greater burden of cortical tau in
+these younger subjects [ 32 , 46 ]. Conversely, the greater hippocampal
+atrophy observed in the older TDP-positive subjects is likely associated with the
+presence of TDP-43. It therefore appears that tau and TDP-43 may have distinct
+effects in AD as shown in these models from our cohort that presumably generalizes
+to the general population ( Figure 8 ).
+
+The co-existence of the hallmark AD pathologies of Aβ and tau, along
+with TDP-43, could be interpreted in two ways. First, TDP-43 is simply a
+pathological feature of AD. Arguments supporting this hypothesis are (1) the fact
+that the TDP-negative subjects were more likely to be cognitively normal and show
+atypical patterns of atrophy, and (2) that important factors that are associated
+with Braak stage, and hence tau pathology, were also associated with TDP-43,
+including APOE ε4, memory loss and medial temporal atrophy.
+One strong argument against this interpretation however is the fact that there were
+many AD subjects without TDP-43 that were cognitively impaired. The second more
+likely possibility is that the presence of TDP-43 represents a secondary or
+independent pathology that shares overlapping features with AD by targeting the
+medial temporal lobe. If this latter interpretation is correct then TDP-43 may have
+obscured our view of the true AD clinico-imaging phenotype, given that such a high
+proportion of AD cases have TDP-43.
+
+We acknowledge that our outcome measures were not all independent. However,
+since our aim was not to determine which outcome variable is most affected by
+TDP-43, and the fact that all the variables we assessed for the study are strongly
+associated with AD, our approach was very reasonable. We also note that our data for
+TDP-43 deposition in the dentate gyrus was highly right skewed. However, we
+addressed this potential problem by rank transforming the burden data prior to our
+modelling analyses. We did not address the issue of the spatial distribution of
+TDP-43 in AD given that we have previously done so and describe five stages for
+TDP-43 deposition in AD for this exact cohort [ 26 ]. In fact, all five stages were roughly equally represented. Hence
+our data was not biased by the overrepresentation of early or late stages.
+
+In this study we demonstrate that TDP-43 is an important player in the AD
+field, particularly during the early phases of neurodegeneration. Our findings
+suggest that in order to be cognitively resilient TDP-43 must be absent. That is,
+the synergistic effect of having TDP-43 results in cognitive impairment. TDP-43
+therefore should be considered a potential therapeutic target for the future
+treatment of AD.

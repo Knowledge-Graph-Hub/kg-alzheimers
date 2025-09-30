@@ -1,0 +1,5 @@
+# Title
+Extremely Long-lived Nuclear Pore Proteins in the Rat Brain+
+
+# Abstract
+To combat the functional decline of the proteome, cells use the process of protein turnover to replace potentially impaired polypeptides with new functional copies. Here we found that extremely long-lived proteins (ELLPs) did not turn over in post-mitotic cells of the rat central nervous system. These ELLPs were associated with chromatin and the nuclear pore complex, the central transport channels that mediate all molecular trafficking in and out of the nucleus. The longevity of these proteins would be expected to expose them to potentially harmful metabolites putting them at risk of accumulating damage over extended periods of time. Thus, it is possible that failure to maintain proper levels and functional integrity of ELLPs in non-proliferative cells might contribute to age-related deterioration in cell and tissue function.

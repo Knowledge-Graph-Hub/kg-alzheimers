@@ -1,0 +1,16 @@
+# Title
+Amyloid-β Dynamics Correlate with Neurological Status in the Injured Human Brain
+
+# Abstract
+The amyloid-β peptide (Aβ) plays a central pathophysiological role in Alzheimer’s disease, but little is known about the concentration and dynamics of this secreted peptide in the extracellular space of the human brain. We used intracerebral microdialysis to obtain serial brain interstitial fluid (ISF) samples in 18 patients who were undergoing invasive intracranial monitoring after acute brain injury. We found a strong positive correlation between changes in brain ISF Aβ concentrations and neurological status, with Aβ concentrations increasing as neurological status improved and falling when neurological status declined. Brain ISF Aβ concentrations were also lower when other cerebral physiological and metabolic abnormalities reflected depressed neuronal function. Such dynamics fit well with the hypothesis that neuronal activity regulates extracellular Aβ concentration.
+
+## Supplementary Material
+www.sciencemag.org/cgi/content/full/321/5893/1221/DC1
+
+Methods
+
+SOM Text
+
+Figs. S1 to S7
+
+References

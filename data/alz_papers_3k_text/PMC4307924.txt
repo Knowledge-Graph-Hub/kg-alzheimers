@@ -1,0 +1,5 @@
+# Title
+Targeted Enhancement of Cortical-Hippocampal Brain Networks and Associative Memory
+
+# Abstract
+The influential notion that the hippocampus supports associative memory by interacting with functionally distinct and distributed brain regions has not been directly tested in humans. We therefore used targeted noninvasive electromagnetic stimulation to modulate human cortical-hippocampal networks and tested effects of this manipulation on memory. Multi-session stimulation increased functional connectivity among distributed cortical-hippocampal network regions and concomitantly improved associative memory performance. These alterations involved localized long-term plasticity, because increases were highly selective to the targeted brain regions, and enhancements of connectivity and associative memory persisted for ~24 hours following stimulation. Targeted cortical-hippocampal networks can thus be enhanced noninvasively, demonstrating their role in associative memory.

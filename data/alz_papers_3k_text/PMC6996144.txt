@@ -1,0 +1,1024 @@
+# Title
+Targeted complement inhibition at synapses prevents microglial
+synaptic engulfment and synapse loss in demyelinating disease
+
+# Abstract
+Multiple sclerosis (MS) is a demyelinating, autoimmune disease of the
+central nervous system. While work has focused on myelin and axon loss in MS,
+less is known about mechanisms underlying synaptic changes. Using postmortem
+human MS tissue, a preclinical nonhuman primate model of MS, and two rodent
+models of demyelinating disease, we investigated synapse changes in the visual
+system. Similar to other neurodegenerative diseases, microglial synaptic
+engulfment and profound synapse loss were observed. In mice, synapse loss
+occurred independently of local demyelination and neuronal degeneration, but
+coincided with gliosis and increased complement component C3, but not C1q, at
+synapses. Viral overexpression of the complement inhibitor Crry at C3-bound
+synapses decreased microglial engulfment of synapses and protected visual
+function. These results indicate that microglia eliminate synapses through the
+alternative complement cascade in demyelinating disease and identify a strategy
+to prevent synapse loss that may be broadly applicable to other
+neurodegenerative diseases.
+
+## Introduction
+Multiple sclerosis (MS) is a neurological disease of the central nervous
+system (CNS) affecting more than 2 million people worldwide (2019). The disease is
+typically characterized by recurrent episodes of inflammatory demyelination with a
+relapsing-remitting course, which can be accompanied by neurodegeneration ( Reich et al., 2018 , Amato et al., 2010 ). A subset of patients initially
+present with or develop a progressive, chronic neurodegenerative disease with
+significant synapse loss and CNS atrophy, termed progressive MS ( Mahad et al., 2015 ). Current FDA and EMA-approved
+disease-modifying therapies, which inhibit peripheral immune attack of the CNS in
+MS, are increasingly effective at reducing episodes of inflammatory demyelination
+and neurological disability ( Mahad et al.,
+2015 , Weideman et al., 2017 ).
+However, the neurodegenerative process, particularly for patients with progressive
+MS, has proven more challenging to decelerate ( Ciotti and Cross, 2018 ). Similar to other neurodegenerative diseases,
+there is no clear mechanistic understanding of why some patients develop profound
+degeneration and disability. Therefore, studying neurodegeneration in MS may offer
+an opportunity to capture early phases of the degenerative process, which may be
+broadly applicable to other CNS diseases and could lead to therapeutic strategies to
+meet an urgent clinical need.
+
+Synapse loss is an early and likely key feature underlying circuit
+dysfunction in many neurodegenerative diseases, including Alzheimer’s disease
+and other related dementias ( Selkoe et al.,
+2008 , Mucke and Selkoe, 2012 , Selkoe, 2002 , Milnerwood and Raymond, 2010 , Yoshiyama et al., 2007 , Coleman et al., 2004 , Forner et al.,
+2017 , Tyebji and Hannan, 2017 , Henstridge et al., 2016 ). However,
+compared to other diseases, far less is known regarding how synaptic connections are
+affected in MS. The vast majority of research aimed at treating neurodegenerative
+aspects of MS focus on mechanisms of de- and remyelination, as well as axon de- and
+regeneration ( Lassmann, 2018 , Lassmann, 2010 , Mahad et
+al., 2015 , Dutta and Trapp, 2011 , Reich et al., 2018 ). From the few studies
+assessing synaptic changes in postmortem MS tissue, synapse loss is observed in the
+hippocampus and normal appearing gray matter in the cortex ( Dutta et al., 2011 , Jurgens et al., 2016 ). Similar results are found in rodent models of
+demyelinating disease. For example, in a cuprizone model of demyelination, a
+significant decrease in excitatory synapses is observed in the visual thalamus
+concomitant with reactive gliosis and subcortical demyelination ( Araujo et al., 2017 ). In another study, experimental
+autoimmune encephalomyelitis (EAE)-induced demyelination in mice results in a
+~28% decrease in PSD-95-positive postsynaptic densities in the hippocampus,
+which is observed in the absence of hippocampal demyelination, but in the presence
+of reactive, phagocytic microglia ( Bellizzi et al.,
+2016 ). A common feature in all these studies is reactive gliosis,
+including pronounced increases in inflammatory microglia, a resident CNS macrophage
+( Lassmann, 2018 , Lassmann, 2010 , Mahad et
+al., 2015 , Voet et al., 2018 ).
+However, it remains unclear if and how these inflammatory glial cells could modulate
+synaptic connectivity in demyelinating disease.
+
+Microglia have recently been identified as key regulators of synaptic
+connectivity in the healthy and diseased brain. During development, microglia
+regulate synaptic pruning by engulfing and removing a subset of synapses that
+initially form in excess. One key mechanism is classical complement
+cascade-dependent phagocytic signaling ( Stevens et
+al., 2007 , Schafer et al., 2012 ).
+In the peripheral immune system, components of the classical complement cascade, C1q
+and C3, bind the surface of invading pathogens, cellular debris, etc., leading to
+clearance by professional phagocytes that express complement receptors ( Carroll, 1998 , Morgan and Kavanagh, 2018 , Lambris and
+Tsokos, 1986 , Reis et al., 2019 ).
+Similarly, in the developing rodent visual thalamus, C1q and C3 localize to synapses
+( Stevens et al., 2007 ). Microglia
+expressing complement receptor 3 (CR3), a C3 receptor, then engulf these
+complement-associated synapses. Mice deficient in either CR3 expressed by microglia,
+C3, or C1q have a ~50% decrease in their ability to engulf and remove
+synapses ( Schafer et al., 2012 , Bialas and Stevens, 2013 ). Classical complement
+cascade-mediated phagocytic signaling is also aberrantly upregulated in mouse models
+of Alzheimer’s disease, frontotemporal dementia, and West Nile Virus
+infection, leading to synapse loss ( Hong et al.,
+2016a , Vasek et al., 2016 , Lui et al., 2016 ). In MS patients, complement
+proteins are elevated systemically and in the CNS ( Aeinehband et al., 2015 , Ingram et al.,
+2012 , Ingram et al., 2009 , Watkins et al., 2016 ), and recent work suggests
+that C1q and C3 colocalize with synaptic proteins in postmortem MS brains ( Michailidou et al., 2015 ). However, it remains
+elusive if complement and/or microglia are necessary for synaptic changes in MS.
+
+In the current study, we use the retinogeniculate system to study synaptic
+changes in demyelinating disease. The retinogeniculate system is comprised of
+retinal ganglion cells (RGCs), which are neurons in the retina that extend their
+axons via the optic nerve and tract and synapse onto relay neurons within the
+lateral geniculate nucleus (LGN) of the thalamus. This circuit was chosen because
+even subtle synaptic changes are readily detected by immunohistochemical methods
+( Schafer et al., 2016 , Schafer et al., 2012 , Hong et al., 2014 ). In addition, the anterior visual pathway is commonly
+affected in MS with upwards of 50% of patients experiencing inflammation of the
+optic nerve (i.e. optic neuritis) and prolonged visual dysfunction ( Toosy et al., 2014 , Reich
+et al., 2018 ). Using postmortem human MS tissue, a preclinical nonhuman
+primate model of MS, and two different rodent models of demyelinating disease, we
+investigated early synapse changes in the retinogeniculate system. Profound synapse
+loss and engulfment of synaptic material by microglia, but not astrocytes, were
+detected in the LGN from human MS tissue and in all MS-relevant animal models. In
+rodents and non-human primates, synapse loss in demyelinating disease occurred
+independent of neuronal cell death or axon degeneration and, in some cases, prior to
+significant demyelination. In all species, synapse loss occurred concomitant with
+reactive gliosis. To identify a molecular mechanism underlying this synapse loss, we
+focused on the complement cascade and provide evidence for activation of the
+alternative, but not the classical, complement cascade at synapses in demyelinating
+disease. We then used an adeno-associated viral (AAV) approach to overexpress the C3
+inhibitor Crry at sites of synaptic C3 activation in the retinogeniculate circuit
+and demonstrated robust protection from synapse engulfment by microglia and synapse
+loss. The rescue of structural synapses with this AAV approach was specific to the
+retinogeniculate circuit and restored function as assessed by visual acuity.
+Together, our data provide evidence that local inflammatory microglia and the
+alternative complement cascade mediate synapse loss and functional decline in
+demyelinating disease. With our data demonstrating that targeted inhibition of
+activated C3 protects synapses, we further uncover a strategy to prevent synapse
+loss at specific synapses and preserve circuit function during
+neurodegeneration.
+
+## Results
+To first interrogate retinogeniculate synaptic changes that are
+clinically relevant to MS, we assessed synaptic connectivity in postmortem LGN
+from MS and control patients without neurological disease ( Table S1 and Fig. S1A - F ). Using anti-vesicular glutamate
+transporter 2 (VGluT2) immunostaining, a marker specific to retinogeniculate
+presynaptic inputs, and confocal imaging, we observed a significant decrease in
+retinogeniculate presynaptic terminals within the LGN of MS patients compared to
+controls ( Fig. 1A ). Colabeling with the
+microglia/macrophage marker Iba1 and 3D-surface rendering further revealed that
+significant amounts of VgluT2 + -terminals were engulfed within
+Iba1 + -cells with morphological characteristics of microglia vs.
+peripheral macrophages ( Fig. 1B ). These
+results are consistent with previous work showing significant degeneration of
+the thalamus and deep gray matter early in the disease course of MS, which
+accurately predicts subsequent disease severity ( Eshaghi et al., 2018 , Zivadinov et
+al., 2013 ). This is also in line with studies showing decreases in
+presynaptic inputs in the hippocampus and cortex of postmortem MS tissue ( Dutta et al., 2011 , Jurgens et al., 2016 ) and studies demonstrating that
+microglia engulf and eliminate synaptic components in other models of
+neurodegenerative disease ( Hong et al.,
+2016a , Paolicelli et al.,
+2017 , Lui et al., 2016 , Vasek et al., 2016 ).
+
+We next sought to corroborate these findings in a preclinical nonhuman
+primate model of MS, experimental autoimmune encephalomyelitis (EAE) in common
+marmosets induced by immunization with human white matter homogenate ( Lee et al., 2018 ). This model is
+particularly powerful as it has many of the pathological features present in
+human MS ( Absinta et al., 2016 ). Similar
+to MS patient LGN, we found a ~2-fold reduction in the density of
+retinogeniculate terminals and an increased localization of VgluT2 within
+Iba1 + -cells ( Fig. 1C , D ) in the LGN from animals that developed EAE
+with demyelinating lesions in the optic nerve and tract ( Table S2 and S1G - K ). This contrasts with either EAE
+or non-EAE animals with no detectable lesions in the optic nerve and tract
+( Table S2 ), which
+were used as controls. Many of the engulfed VGluT2 + -retinogeniculate
+terminals were detected within microglial phagocytic cups, which were not
+present in Iba1 + -cells from control animals ( Fig. 1D ). To determine if loss of presynaptic inputs
+and engulfment by microglia is specific to retinogeniculate terminals or if
+synaptic connectivity within the LGN is affected more broadly, we assessed the
+density of corticothalamic inputs by immunostaining against VGluT1 in marmosets.
+Like retinogeniculate terminals, we also found a significant decrease in the
+density of VGluT1 + -corticothalamic inputs in the LGN and detected
+significant amounts of VGluT1 within Iba1 + -cells in marmosets with
+lesions in the optic nerve and tract following EAE ( Fig. 1E , F ). These
+data provide evidence that reactive microglia engulf and eliminate presynaptic
+inputs within the retinogeniculate circuit in demyelinating disease.
+
+Retinogeniculate synapse loss in human and marmoset raised the following
+questions: 1) Is synapse loss a separable feature of disease or secondary to
+other pathologies? and 2) What mechanism underlies synapse loss? We turned to
+mouse models to gain a deeper mechanistic understanding and address these
+questions. We assessed two distinct mouse models: a model of inflammatory
+demyelination and a model of primary demyelination. Inflammatory demyelination
+was induced using the MOG 35–55 C57Bl6/J mouse EAE model ( Crocker et al., 2006 ). We assessed synapse
+density at the onset of clinical symptoms (average scores: 1.35±0.35 at
+10.8±0.4 days-post induction; Fig.
+2A ) and made all comparisons to Complete Freund’s Adjuvant
+(CFA)-treated controls. The other model we tested was the Plp1-CreER T ;ROSA26-EGFP-DTA (diphtheria toxin A (DTA)) mouse model of primary demyelination ( Traka et al., 2010 , Traka et al., 2016 ). In this model, 5–7-week-old DTA and
+control (ROSA26-EGFP-DTA) mice receive tamoxifen injections. In DTA mice, this
+induces the expression of diphtheria toxin A in mature oligodendrocytes, which
+results in demyelination within several weeks post-injection ( Fig. 2D ). For consistency, we performed the bulk of
+our analyses in male mice. Also, in humans, while males are less prone to MS
+compared to females, they tend to develop more aggressive forms of the disease
+with more disability ( Bove et al., 2012 , Gholipour et al., 2011 , Confavreux et al., 2000 ). Therefore,
+analysis of males is highly relevant for studying neurodegeneration related to
+MS.
+
+Like human and marmoset data ( Fig.
+1 ), we detected a significant, >50% reduction in
+VGluT2 + - and VGluT1 + -presynaptic inputs within the LGN
+at earlier stages of mouse EAE ( Fig.
+2B , C ) and during demyelination
+at 35 days post-injection (35 dpi) in the DTA model ( Fig. 2E , F ). This
+was accompanied by a pronounced reduction in the density of structural synapses
+(colocalized presynaptic VGluT2 or VGluT1 with postsynaptic PSD-95 or Homer1).
+However, this synapse loss was mainly attributed to a presynaptic effect in both
+models, as the densities of postsynaptic PSD-95 and Homer1 were relatively
+unaltered ( Fig. 2Bi , Ci , Ei , Fi ). These data are consistent with
+previously published work demonstrating preferential loss of presynaptic
+elements in the retinogeniculate system ( Schafer
+et al., 2012 , Schafer et al.,
+2016 ). Note, in EAE, similar synapse loss was observed in female mice
+( Fig. S4A , C ). However, these
+effects were less robust compared to male mice, which could be one explanation
+underlying the more aggressive disease in human male MS patients. Taken
+together, these results are consistent with retinogeniculate synapse loss as a
+common feature in human MS and across nonhuman primate and multiple mouse models
+of disease.
+
+In the human MS cases, patients have had protracted disease with
+demyelination ( Fig.
+S1A , B ) and
+many patients had a history of optic neuritis ( Table S1 ). Likewise, in the
+marmoset EAE and mouse DTA models, there were indications of demyelination in
+the LGN and optic tract ( Table
+S2 ; Figs.
+S1G , H and S5A , B ). Although there were some signs
+of apoptotic cells and mild axonal degeneration in the human LGN ( Fig. S1C - F ), we found no indications of
+neuron or axonal loss in nonhuman primate and DTA mouse models ( Figs. S1I - K and S5C - G ). These data raise the
+possibility that synaptic changes could be a separable, independent event in the
+degenerative process. This idea is supported by human imaging studies where
+thalamic degeneration is an accurate predictor of subsequent MS-related
+disability ( Eshaghi et al., 2018 , Zivadinov et al., 2013 ). To further test
+this possibility, we assessed demyelination, neuron cell loss, and axon
+degeneration in the mouse EAE model at the onset of clinical symptoms. While we
+observed significant increases in peripheral immune cells ( Fig. S2A , B ), we detected no significant
+changes in the myelin sheath in the retinogeniculate circuit at early stages of
+EAE when we detect synapse loss (average clinical scores: 1.35±0.35; Figs. 3A - C and S3A - F ).
+These analyses included electron microscopy to measure g-ratios and myelin
+thickness in the optic nerve, assessment of nodes of Ranvier and paranodal
+junctions in the optic nerve by immunofluorescence microscopy ( Wolswijk and Balesar, 2003 , Howell et al., 2006 ), and assessment of
+immunofluorescence intensity for myelin proteins (MOG, MBP, and MAG) in the
+optic tract, the LGN, and optic nerve in EAE compared to CFA-controls. Similar
+to marmoset EAE and DTA models, there were also no significant changes in the
+density of NeuN + -neurons or neurofilament + -axons and no
+significant increases in the number of cleaved caspase 3 + -apoptotic
+cells or amyloid precursor protein (APP) accumulations in axons within the
+retinogeniculate circuit at these early phases of mouse EAE ( Figs. 3D - G ; S3G - K ). These results demonstrate that
+synapse loss can occur prior to neuronal degeneration in multiple models and, in
+the case of mouse EAE, prior to myelin pathology but in the presence of local
+inflammation.
+
+Given our initial data demonstrating microglial engulfment of synapses
+in human MS and marmoset EAE LGN, we hypothesized that reactive glia were
+responsible for the loss of synapses in demyelinating disease. Indeed, a common
+pathological feature across models was reactive gliosis ( Figs. S2C - E and S5J - M ) and the presence of infiltrating
+peripheral immune cells, albeit less severe in the DTA model ( Fig. S2A , B and S5H , I ). The reactive gliosis in mouse
+models included microglia with a neurodegenerative phenotype ( Krasemann et al., 2017 , Keren-Shaul et al., 2017 ), indicated by reduced
+P2RY12, a marker of homeostatic microglia, and increased Clec7a, a
+neurodegeneration-associated marker. To further examine whether local
+inflammatory gliosis was a contributing factor to early synapse loss, we tested
+whether reactive microglia engulfed presynaptic terminals in the mouse EAE and
+DTA models. We labeled microglia with anti-P2RY12, which distinguishes resident
+microglia from peripheral infiltrating macrophages ( Butovsky et al., 2014 , Jordao et al., 2019 ), and microglial lysosomes with
+anti-CD68 to assess engulfed presynaptic terminals using confocal imaging and
+3D-surface rendering. Like data from humans and marmosets ( Fig. 1 ), we found a ~10-fold increase in the
+engulfment of VGluT2 + - and VGluT1 + -presynaptic inputs
+within microglial lysosomes in the LGN in male EAE and DTA mice ( Fig. 4A , B , D , E )
+compared to controls. Note, while overall P2RY12 was reduced, it was still
+detectable allowing us to distinguish microglia from peripheral myeloid cells.
+Synaptic engulfment by microglia was also detected in female EAE mice, but,
+similar to synapse loss, was less pronounced compared to males ( Fig S4B , D ). There was no evidence for
+engulfment of postsynaptic compartments in EAE mice ( Fig. 4C ). This latter finding is in line with other
+reports showing that microglia predominantly engulf presynaptic inputs ( Schafer et al., 2012 , Schafer et al., 2014 , Weinhard et al., 2018 , Gunner et
+al., 2019 ), and our findings that the density of postsynaptic
+compartments were relatively unaltered in EAE and DTA mice ( Fig. 2 ).
+
+In addition to microglia, astrocytes engulf synaptic material during
+postnatal development of the visual system ( Chung et al., 2013 ). To test if reactive astrocytes similarly engulf
+synaptic material in a demyelinating disease context, we stained astrocytes in
+the LGN with an antibody against ALDH1L1 and assessed engulfment of VGluT2 into
+LAMP2 + -lysosomes in the mouse EAE and DTA models. No engulfment
+of VGluT2 was detected within astrocytes in either model ( Fig. 4F , G ). We
+found similar effects in the marmoset EAE model ( Fig. 4H ). These data suggest that while astrocytes engulf synapses
+during developmental synaptic pruning, reactive astrocytes are not contributing
+to the engulfment of presynaptic terminals in demyelinating disease. This is
+consistent with recent work demonstrating that reactive astrocytes are less
+capable of phagocytosis ( Liddelow et al.,
+2017 ). Together, these data demonstrate that reactive gliosis is a
+common feature across demyelinating disease, which can occur prior to
+significant demyelination in mouse EAE and in the absence of significant axonal
+or neuronal degeneration in all animal models tested. Our data further suggest
+that reactive microglia mediate synapse engulfment and elimination in
+demyelinating disease.
+
+Previous work in mice has shown that microglial engulfment and
+elimination of synapses in development and in models of neurodegeneration is
+mediated by the classical complement cascade ( Hong et al., 2016b ). In this cascade, the initiating molecule C1q
+and downstream C3 localize to synapses, and microglia that express the receptor
+for C3 (CR3) engulf and eliminate synapses ( Stevens et al., 2007 , Schafer et
+al., 2012 ). These complement factors also increase in other CNS
+regions in EAE and MS patient tissue ( Nataf et
+al., 2000 , Ingram et al.,
+2012 , Ingram et al., 2014 , Michailidou et al., 2017 , Michailidou et al., 2015 , Watkins et al., 2016 ), but it is unknown if
+complement mediates synapse loss in these contexts. We first assessed C1q and C3
+protein in the retinogeniculate system in mouse and marmoset EAE. This analysis
+revealed a significant increase in C1q and C3 in the LGN in both species
+following EAE ( Fig. 5 ). However, despite
+increases in C1q throughout the LGN, it did not colocalize with presynaptic
+terminals ( Figs. 5A , B , E , S4E ). In contrast,
+complement factor C3 was colocalized with both presynaptic terminal markers and
+enrichment at synaptic compartments ( Figs.
+5C , D , F , S4F ). The same observations were made in the mouse DTA model ( Fig. S5N , O ). These data support a
+complement-dependent model by which microglia engulf and eliminate synapses.
+However, unlike developmental and other neurodegenerative disease contexts,
+synapse loss in demyelinating disease may be independent of C1q localization to
+synapses. Instead, our data support the involvement of the alternative
+complement cascade, which bypasses C1q and works directly through
+synapse-localized activated C3, to mediate synapse loss.
+
+To test whether synapse-localized, activated C3 was inducing
+microglia-mediated synapse engulfment and elimination, we took a gene therapy
+approach. We used adeno-associated virus (AAV9) to overexpress the complement
+inhibitor Crry, which restricts C3 activation and inhibits C3-mediated
+opsonization ( Turnberg and Botto, 2003 , Molina, 2002 ) in the retinogeniculate
+circuit ( Fig. 6A ). To gain further
+specificity, we fused Crry to a domain of complement receptor 2 (CR2), which is
+a receptor that binds activated C3. Following the sequence encoding the
+Crry-CR2-fusion protein was an autocleavage site and an EGFP sequence, which we
+used to identify transduced neurons and their projections. We termed this vector
+AAV-Crry. The Crry-CR2 fusion protein is targeted by the CR2 domain to sites of
+activated C3 deposition where Crry then inhibits further C3 activation ( Alawieh et al., 2015 , Atkinson et al., 2005 , Atkinson et al., 2006 , Qiao et al.,
+2006 , Alawieh and Tomlinson,
+2016 ). For a control vector, we used an EGFP encoding construct
+(AAV-EGFP). AAV9 viral vectors were then generated and validated in cultured
+neuro-2a (N2a) cells. One week after viral transduction, western blot analysis
+revealed robust expression of Crry and EGFP in transduced N2a cells ( Fig. 6B ). Following initial validation,
+AAV-Crry or AAV-EGFPs were injected into the vitreous of both eyes of separate
+cohorts of four-week-old WT mice to transduce retinal ganglion cells (RGCs).
+Twenty-eight days following AAV delivery, EAE was induced in these mice ( Fig. 6C ). Mice were then analyzed at the
+onset of clinical symptoms (average: AAV-Crry: 1.4±0.3; AAV-EGFP
+1.5±0.3), which was typically observed around day 11 post-immunization
+(AAV-Crry: 11.2±0.6; AAV-EGFP: 11.4±0.4). Another cohort of mice
+was assessed at peak disease (average: AAV-Crry: 3±0.45; AAV-EGFP:
+2.66±0.71), which was typically observed around day 18
+post-immunization.
+
+Beginning with mice at the onset of EAE, we first determined the degree
+of EGFP colocalization with VGluT2 + -retinogeniculate terminals in the
+LGN and found ~45% of VGluT2 + - retinogeniculate terminals in
+the LGN colocalized with EGFP after injection of both AAVs ( Fig. 6D ). We then immunostained for Crry protein and
+identified that Crry was highly enriched at presynaptic terminals within the LGN
+of AAV-Crry injected mice ( Fig. 6E , F ), precisely where we identified enrichment
+of C3 ( Fig. 5 ). These data demonstrate
+successful CR2-mediated Crry targeting to retinogeniculate synapses bound by
+activated C3. In contrast, AAV-EGFP injected mice showed only diffuse Crry
+immunoreactivity with no concentration on or around presynaptic inputs in the
+LGN following EAE. Regardless of AAV treatment, mice showed comparable reactive
+gliosis, infiltration of peripheral immune cells, and C1q upregulation ( Figs. 6H , and 7E - J ). These data suggest that
+retinogeniculate overexpression of Crry did not have global effects on
+inflammation. We next asked if Crry overexpression reduced deposition of C3 at
+the onset of EAE. While we found modest reductions in total C3 throughout the
+LGN in EAE AAV-Crry treated mice, there was a pronounced decrease in the
+colocalization of C3 with VGluT2 + -retinogeniculate terminals in
+AAV-Crry treated EAE mice at the onset of disease compared to AAV-EGFP controls
+( Fig. 6G ). C3 colocalization with
+VGluT1 + -corticothalamic inputs was also reduced, but this
+decrease was less pronounced compared to VGluT2 + -terminals. These
+data demonstrate that AAV-Crry is highly localized to synapses within the
+retinogeniculate circuit and it can block C3 localization at synapses during
+EAE.
+
+Following validation that Crry is localized to retinogeniculate
+presynaptic terminals where it inhibits C3 localization at synapses without more
+global effects on inflammation and reactive gliosis, we next assessed
+microglia-mediated synapse engulfment. Consistent with microglia-eliminating
+synapses via C3-mediated engulfment, there was a significant reduction in
+VGluT2 + - and VGluT1 + -terminals engulfed within
+microglial lysosomes of AAV-Crry-treated mice compared to AAV-EGFP controls
+( Fig. 7K , L ). We then measured synapse loss and identified a significant
+attenuation of VGluT2 + - and VGluT1 + -synapse loss at EAE
+onset ( Fig. 7M , N ). We also assessed synapse engulfment and loss of
+presynaptic terminals in layer IV of the somatosensory cortex, a brain region
+without direct inputs from RGCs or the LGN and identified that AAV-Crry did not
+protect these synapses ( Fig.
+S7A , B ).
+These data suggest that the protective effects of AAV-mediated Crry expression
+are circuit-specific. To assess long-term effects of AAV-Crry, we also assessed
+synapses at peak disease ± AAV-Crry in a separate cohort of EAE mice
+( Fig. S6A ). First,
+in control AAV-EGFP mice, synapse loss was still observed, and mild but
+significant demyelination, neuron loss, and axon degeneration became apparent in
+the retinogeniculate circuit at peak EAE ( Fig. S6B - D ). However, in AAV-Crry mice,
+synapse loss was still protected at peak EAE, but demyelination, myelin
+engulfment by microglia, axon/neuron loss, gliosis, and peripheral immune cell
+infiltration were unaffected ( Figs. S6B - K and S7C ). These data
+further support that synapse loss is a separable feature of the degenerative
+process in demyelinating disease.
+
+Finally, to ask if protection of synapse loss in the retinogeniculate
+circuit has consequences for visual function, we assessed visual acuity ( Prusky et al., 2004 ) in mice before
+induction of EAE and either at the onset of EAE or at peak disease by optomotor
+testing ± AAV transduction ( Figs.
+7O , S6L ). We
+first found that intravitreal injection of AAVs had no significant effect on
+visual acuity performance prior to EAE induction. We then observed a significant
+decline in visual acuity following EAE induction in all mice, except the
+AAV-Crry treated cohorts. AAV-Crry treatment significantly blocked loss of
+visual acuity in mice at both the onset and peak of EAE. These data demonstrate
+that inhibition of C3 specifically at synapses protects circuit-specific
+structure and function. This represents a gene therapy approach to inhibiting
+synapse loss, which may be broadly applicable to many neurodegenerative diseases
+where complement-dependent synapse loss has been implicated.
+
+## Discussion
+In postmortem human tissue, a preclinical nonhuman primate model of MS, and
+two rodent models of demyelinating disease we identified microglial engulfment of
+presynaptic inputs and synapse loss in a MS-relevant visual circuit, the
+retinogeniculate circuit. We further provide evidence that this process can occur
+independent of axon degeneration and neuronal cell loss and, in the case of mouse
+EAE, in the absence of significant demyelination. Instead, synapse engulfment and
+loss in the visual thalamus occurred concomitant with local reactive gliosis and in
+the presence of synapse-enriched C3, but not synapse-associated C1q. Finally,
+overexpressing Crry, an inhibitor of C3, in the retinogeniculate circuit, reduced
+synaptic C3, inhibited microglial synapse engulfment, and attenuated synapse loss
+specifically within the LGN with no significant effect on other pathologies.
+Together, these data support a model by which reactive microglia mediate synapse
+loss through the alternative complement cascade in demyelinating disease.
+
+Our data showing that synapse engulfment and loss was in some cases
+independent of and/or prior to other MS-relevant pathologies is in line with
+previous work suggesting that gray matter degeneration in MS can at least partially
+occur independent of demyelination ( Mandolesi et
+al., 2015 ). Also, there is evidence that, even with the generation of new
+FDA-approved MS therapies, there is ‘silent progression’ of the
+disease where a symptom-free patient at a 2 year follow-up still develops
+significant disability by the 10 th year ( Cree et al., 2019 ). Local gliosis and microglia-mediated synapse
+elimination may be an underlying feature of this ‘silent progression’
+and an early event in the progressive course of neurodegeneration. Consistent with
+this idea, prior work implicates the thalamus as one of the earliest targets of
+degeneration in MS, and thalamic degeneration is an accurate predictor of subsequent
+MS-related disability ( Eshaghi et al., 2018 , Zivadinov et al., 2013 ). Work in mouse
+models of other neurodegenerative diseases have also shown similar early synapse
+loss when reactive microglia are also present ( Hong
+et al., 2016a , Paolicelli et al.,
+2017 , Wishart et al., 2006 , Yoshiyama et al., 2007 ). In the current study,
+we further showed that these early synaptic changes in demyelinating disease occur
+in both males and females, but males trended towards more profound loss of synapses.
+This is consistent with the literature demonstrating that, while MS is less
+frequent, males tend to have more aggressive disease with more disability compared
+to females ( Bove et al., 2012 , Gholipour et al., 2011 , Confavreux et al., 2000 ). A further assessment of
+potential sex differences in severity of synapse loss and underlying mechanisms will
+be important going forward.
+
+A question arising from our work relates to how inflammatory reactive
+microgliosis and synapse loss are initiated. One possibility is that there are more
+subtle changes in the myelin sheath and/or neural activity, which are responsible
+for triggering microglia-mediated synapse loss in demyelinating disease. Indeed,
+recent work has suggested that mice mutant for myelin genes with no detectable gross
+changes in the myelin sheath have low grade inflammation and microgliosis ( Janova et al., 2018 ). Another likely mechanism
+for initiation of microglia-mediated synapse loss is through blood brain barrier
+breakdown and peripheral immune cell infiltration, which occurred in EAE and to a
+lesser extent in the DTA model. This potential mechanism is supported by a recent
+study showing that β-synuclein-specific T-cells, which are also present in
+human MS cases, can induce local gliosis and cortical gray matter degeneration in
+mice ( Lodygin et al., 2019 ). Similarly, T
+cells were shown to stimulate microglia-mediated synapse elimination in a mouse
+model of West Nile Virus infection and neuron loss in Zika infected mice ( Garber et al., 2019 ). In addition to T cells,
+leakage of fibrinogen from the vasculature following blood brain barrier breakdown
+has also been shown to regulate local microgliosis and axon degeneration in the
+spinal cord in mouse EAE and microglia-mediated dendritic spinal loss in the cortex
+in a mouse model of Alzheimer’s disease ( Davalos et al., 2012 , Merlini et al.,
+2019 , Szalai et al., 2007 ). The
+relative contribution of blood brain barrier breakdown to initiation of
+complement-mediated synapse elimination by microglia in MS-relevant disease is a key
+question.
+
+Another important consideration is the potential role of astrocytes and
+astrocyte-microglia crosstalk in the initiation of complement-mediated synapse
+engulfment and elimination. In development, similar to microglia, astrocytes engulf
+synaptic material and regulate synaptic architecture ( Chung et al., 2013 ). Astrocytes also become phagocytic
+and engulf increased amounts of synaptic material following stroke-induced brain
+ischemia and other disease-relevant conditions ( Morizawa et al., 2017 , Bellesi et al.,
+2017 , Chung et al., 2016 ). In
+contrast, we showed that synapse engulfment is mediated by microglia, but not
+astrocytes. Our data are most consistent with recent work showing that reactive,
+neurotoxic astrocytes have decreased phagocytic capacity ( Liddelow et al., 2017 ). However, this does not rule out
+the possibility that local astrogliosis can influence microglia-mediated synapse
+elimination in other ways. For example, astrocytes also promote microglial synaptic
+engulfment in the developing brain through IL-33 signaling ( Vainchtein et al., 2018 ). In other models of
+neurodegeneration, microglia induce astrocytes to transition to a more reactive
+phenotype, including induction of astrocytic C3 ( Liddelow et al., 2017 ). Understanding how these reactive astrocytes
+then, in turn, influence microglia-mediated synapse elimination will be an important
+direction to explore in the future.
+
+A key finding in our study is the identification of a role for C3 and the
+alternative vs. the classical complement cascade in retinogeniculate synapse
+elimination during inflammatory demyelinating disease. In contrast, the classical
+complement cascade molecules C1q and C3 localize to synapses and block microglial
+synapse engulfment and synapse elimination during developmental synaptic pruning
+( Schafer et al., 2012 , Stevens et al., 2007 , Bialas and Stevens, 2013 ) and in mouse models of Alzheimer’s
+disease, frontotemporal dementia and West Nile Virus infection ( Hong et al., 2016a , Vasek
+et al., 2016 , Lui et al., 2016 , Shi et al., 2017 ). Another recent study
+indicates that C1q and C3 increase in MS and may colocalize with synaptic proteins
+in postmortem MS brains ( Michailidou et al.,
+2015 ). Our data indicated a similar increase in C1q, but no C1q
+deposition at retinogeniculate synapses in multiple MS-relevant animal models.
+Instead, we observed localization of C3 to synapses. These data suggest that synapse
+elimination occurs through the alternative, versus the C1q-dependent classical,
+complement cascade in demyelinating disease. This is consistent with earlier work in
+EAE suggesting that the alternative complement pathway predominates and that
+blocking this pathway globally prevents disease progression ( Nataf et al., 2000 ). Similarly, clinical studies have
+shown increases in C3 in the plasma and CSF of MS patients, which correlates with
+disease severity and clinical disability ( Ingram et
+al., 2012 , Ingram et al., 2014 , Tatomir et al., 2017 ) ( Ingram et al., 2012 , Aeinehband et al., 2015 ). However, it is still important to consider the
+contribution of C1q and perhaps driving inflammatory reactive gliosis. Related, the
+microglial receptor regulating engulfment of C3-opsonized synapses in our models
+remains to be identified. Mice deficient in complement receptor 3 (CR3) display an
+~50% block of microglial synaptic engulfment during developmental synaptic
+pruning and in a mouse model of Alzheimer’s disease ( Hong et al., 2016a , Schafer et al., 2012 ). Complement receptor 3a (C3aR), but not CR3,
+regulates microglial synapse engulfment in a West Nile Virus-induced model of
+synapse loss and cognitive impairment ( Vasek et al.,
+2016 ). However, assessing synapse loss CR3 or C3aR-deficient mice is
+challenging, as both have attenuated EAE due to a dampened peripheral inflammatory
+response ( Boos et al., 2004 , Bullard et al., 2005 ). Therefore, the identification of
+microglial receptors involved in synapse engulfment in demyelinating disease
+requires new genetic tool development to more specifically manipulate these
+receptors in microglia versus other myeloid lineage cells.
+
+Finally, using AAV-mediated in vivo gene delivery of Crry
+in mouse EAE, we showed that selective inhibition of activated C3 at presynaptic
+boutons protected structural synapses and visual function. This was achieved by
+overexpressing Crry fused to a domain of CR2 that only binds activated C3 in RGCs,
+resulting in enrichment of Crry protein in retinogeniculate presynaptic terminals
+following EAE. Supporting this as a possible therapeutic strategy, AAV-mediated
+delivery of Crry decreases C3 activation in models of macular degeneration and
+ischemic brain injury ( Atkinson et al., 2005 , Huang et al., 2008 , Marshall et al., 2014 , Alawieh et al., 2015 , Atkinson et al.,
+2006 ). Also, systemic, peripheral administration of a Crry-CR2 encoding
+AAV attenuates EAE ( Hu et al., 2012 ), which
+was attributed to the targeting of peripheral immune cells and restricting epitope
+spreading. This contrasts with our study where the AAV was delivered locally to the
+eye, resulting in specific reduction in C3 and protection of synapses in the
+retinogeniculate circuit with no significant attenuation of peripheral immune
+infiltration, increased C1q, or reactive gliosis. Further, at later time points
+during peak EAE, synapses were still protected but the mild demyelination and axon
+degeneration in the retinogeniculate circuit in EAE were not. These data further
+support that synapse loss is an early pathology and is most consistent with Crry-AAV
+specifically inhibiting C3 at synapses in the LGN as compared to an indirect effect
+following decreases in, for example, reactive microgliosis. We also observed some,
+albeit milder, protection of VGluT1 + -corticothalamic synapses in the LGN,
+in addition to protection of VGluT2 + -retinogeniculate synapses. The Crry
+protein in our paradigm was not full length. Therefore, it is possible that Crry at
+retinogeniculate synapses was being released locally to protect
+VGluT1 + -synapses from elimination or that Crry modulated C3 production by
+astrocytes or microglial phagocytic capacity. In either case, these results
+demonstrate that Crry-mediated protection of synapses could be a viable therapeutic
+strategy to protect against synapse loss during neurodegeneration. While in some
+cases synapse loss may be an endogenous protective mechanism to dampen activity and
+inhibit excitotoxicity, synapse loss may become dysregulated over the course of
+disease leading to aberrant elimination of other ‘innocent bystander’
+synapses. This gives further support to developing a circuit-specific approach, such
+as AAV, to therapeutically target synapse loss in neurodegenerative disease.
+
+## STAR Methods
+Further information and requests for resources and reagents should be
+directed to and will be fulfilled by the Lead Contact, Dorothy Schafer
+( dorothy.schafer@umassmed.edu ). AAV-Crry was produced in our
+laboratory and is available upon request to the lead contact with a completed
+Materials Transfer Agreement.
+
+Male and female wildtype C57Bl/6J mice (stock #000664) were obtained
+from Jackson Laboratories (Bar Harbor, ME). Male Plp1-CreER T ;ROSA26-EGFP-DTA (DTA) and ROSA26-EGFP-DTA (DTA-ctrl.) littermates were
+generated by breeding hemizygous Plp1-CreER T mice with ROSA26-EGFP-DTA homozygous mice ( Traka et al., 2010 , Traka et al., 2016 ). 5–8-week-old
+mice and their respective littermate controls were used for all
+mouse experiments. 12 adult common marmosets (Callithrix
+jacchus), eight females and four males, were selected from the
+NINDS colony. All animal experiments were performed in accordance with
+Animal Care and Use Committees (IACUC) and under NIH guidelines for proper
+animal welfare.
+
+Collection of human postmortem brain tissue was performed after
+obtaining informed consent for collection. Tissue collection followed
+protocols approved by NIH Institutional Review Board. Samples analyzed in
+the current study were collected from 5 male and 5 female human subjects
+with ages ranging from 59–84 and 58–78 years, respectively.
+From these subjects, control samples were collected from 2 males and 3
+females without diagnosed neurological disease, and MS samples were
+collected from 3 male and 2 female patients with progressive MS. See Table S1 for further
+details.
+
+EAE was induced in marmosets by injecting human white matter
+homogenate emulsified in complete Freund’s adjuvant (Difco
+Laboratories, BD, Franklin Lakes, NJ, USA) ( Absinta et al., 2016 , Lee et
+al., 2018 ). For EAE induction, intradermal injections were
+divided over four areas around the inguinal and axillary lymph nodes. To
+conserve animals, marmoset tissue used in this study was drawn from prior
+studies, some of which were designed to examine the effects of intranasal
+inoculation of human herpesvirus (HHV)-6 on EAE development. Therefore, a
+subset of marmosets (EAE and non-EAE) used in our study also received either
+HHV6 serotype A derived from SUP-T1 cells, HHV6 serotype B derived from
+HSB-2 cells, or were inoculated with uninfected control SUP-T1 cells.
+Importantly, although the onset of EAE was accelerated with HHV6 treatment,
+no pathological changes in or outside of lesions other than accumulation of
+viral material were observed in the HHV6 studies ( Leibovitch et al., 2018 ). Marmoset demyelinating
+lesions were monitored in vivo and ex vivo (i.e. postmortem dissected brain)
+by MRI. The animals were subsequently divided into 2 groups. The
+experimental group included EAE marmosets with clear demyelinating lesions
+in the optic nerve and tract. The control group were either EAE or non-EAE
+marmosets with no evidence of demyelinating lesions in the optic nerve or
+tract.
+
+As described previously ( Crocker et
+al., 2006 ), experimental autoimmune encephalomyelitis (EAE) was
+induced in 8-week-old male and female mice, by subcutaneous (s.c.)
+administration of 200 μg of MOG 35–55 peptide
+(AnaSpec Inc., AS-60130–10, Fremont, CA, USA) emulsified in complete
+Freund’s Adjuvant (CFA, Sigma, F5881, Saint Louise, MO, USA)
+containing 0.2 mg of Mycobacterium tuberculosis H37Ra
+(Difco Laboratories, #231141 Detroit, MI, USA) into the flanks of both
+hind-limbs. Control animals received s.c. injections lacking
+MOG 35–55 peptide. At the time of immunization and 48h
+later, mice further received intraperitoneal (i.p.) injections with 500 ng
+of pertussis toxin (List Biologicals, #180, Deisenhofen, Germany). Weights
+and clinical scores were recorded daily (score 0.5: distal tail limpness;
+score 1: complete limp tail; score 1.5: limp tail and hindlimb weakness;
+score 2: mild hindlimb paresis; score 2.5: unilateral hindlimb paralysis;
+score 3: bilateral hindlimb paralysis, score 4: moribund). For the EAE
+experiments presented in this study, mice were either analyzed at the onset
+of EAE, when animals displayed moderate clinical scores (typically observed
+between day 10–12 post immunization) or at peak disease when mice
+displayed severe clinical scores (typically observed ~18 days post
+induction). None of the CFA-treated control mice developed clinical
+symptoms.
+
+Male Plp1-CreER T ;ROSA26-EGFP-DTA mice 5–7-week-old were injected intraperitoneally with 0.8 mg of
+4-hydroxytamoxifen (Sigma) per day for four consecutive days, as previously
+described, to induce demyelination driven by genetic ablation of mature
+oligodendrocytes ( Traka et al., 2010 , Traka et al., 2016 ).
+Tamoxifen-injected ROSA26-EGFP-DTA littermates were used as control
+mice.
+
+At the indicated time points, mice were deeply anesthetized and
+transcardially perfused with 0.1M phosphate buffer (PB) followed by 4%
+paraformaldehyde (PFA)/0.1M PB. Brains, retinas, and optic nerves were
+dissected, and brains and retinas were post-fixed at 4°C in PFA for
+4h and 30 min, respectively. Brains and optic nerves were then equilibrated
+in 30% sucrose/0.1M PB, and then embedded in a 1:1 mixture of 30%
+sucrose/0.1M PB and O.C.T. compound (ThermoFisher Scientific Waltham, MA,
+USA). Tissue was cryo-sectioned into 10 μm coronal brain sections and
+longitudinal optic nerve sections. Sections and whole retinas were blocked
+and permeabilized at room temperature for 1h in 10% normal goat serum/0.1M
+PB containing 0.3% Triton-X 100 (all Sigma) followed by overnight incubation
+with primary antibodies at room temperature. The following primary
+monoclonal (mAb) and polyclonal (pAb) antibodies have been used: mouse mAb
+α-ALDH1L1 (clone N103/39, Millipore, MABN495, 1:1000), mouse mAb
+α-APP (clone 22C11, Millipore, MAB348, 1:200), rabbit mAb
+α-C1q (clone 4.8, Abcam, ab182451, 1:100), rat mAb α-C3 (clone
+11H-9, Abcam, ab11862, 1:500), rabbit pAb α-CASPR (provided by
+Matthew N. Rasband, 1:100), rabbit mAb α-CD3 (clone SP7, Abcam,
+ab16669, 1:100), mouse mAb α-CD8 (clone 8/114B, Thermo Fisher
+Scientific, MA5–13473, 1:20), rat mAb α-CD45 (clone IBL-3/16,
+BioRad, MCA1388, 1:100), mouse mAb α-CD68 (clone KP1, Abcam, ab955,
+1:200), rat mAb α-CD68 (clone FA-11, AbD Serotec, MCA1957, 1:1000),
+rat mAb α-Clec7a (InvivoGen, mabg-mdect, 1:200), rabbit pAb
+α-Clec12a (LSBio, LS-C377776, 1:500), rabbit pAb α-cleaved
+caspase-3 (Cell Signaling Technologies, #9661, 1:200), mouse mAb
+α-Crry (clone TLD-1C11, Santa Cruz, sc-53530, 1:100), chicken pAb
+α-EGFP (Abcam, ab13970, 1:500), mouse mAb α-FoxP3 (clone 206D,
+BioLegend, 320102, 1:50), mouse mAb α-GFAP (clone G-A-5, Sigma,
+G3893, 1:500), rabbit pAb α-Homer1 (Synaptic Systems, #160003,
+1:1000), rabbit pAb α-Iba1 (Wako Chemicals, #019–19741,
+1:500), rat mAb α-LAMP2 (clone GL2A7, Abcam, ab13524, 1:200), rat mAb
+α-Ly6C (clone HK1.4, BioLegend, 128016, 1:300), mouse mAb
+α-MAG (clone 513, Millipore, MAB1567, 1:100), rat mAb α-MBP
+(clone 12, Millipore, MAB386, 1:500), mouse mAb α-MOG (clone
+8–18C5, Millipore, MAB5680, 1:200), rabbit pAb α-Neurofilament
+200 (Sigma, N4142, 1:1000), chicken pAb α-NeuN (Millipore, ABN91,
+1:1000), rabbit pAb α-P2RY12 (AnaSpec, AS-55043A, 1:2000), rat mAb
+α-P2RY12 (clone S16007D, BioLegend, 848002, 1:100), mouse mAb
+α-PSD-95 (clone 6G6–1C9, Millipore, MAB1596, 1:100), guinea
+pig pAb α-RBPMS (PhosphoSolutions, 1832-RBPMS, 1:500), rabbit pAb
+α-βIV-spectrin (provided by Matthew N. Rasband, 1:100), guinea
+pig pAb α-VGluT1 (Millipore, ab5905, 1:2000), and guinea pig pAb
+α-VGluT2 (Millipore, ab2251, 1:2000). The following day, sections
+were incubated with appropriate Alexa-fluorophore-conjugated secondary
+antibodies (ThermoFisher Scientific) and mounted with vectashield containing
+DAPI (Vector laboratories, Burlingame, CA, USA).
+
+Human postmortem brain tissue was dissected and formalin-fixed at
+autopsy and marmoset brains were collected within 1h of death and fixed in
+4% paraformaldehyde. Once individual slabs containing the lateral geniculate
+nucleus (LGN) of human and marmoset brains were identified, tissue was
+embedded in paraffin and sliced into 10 μm thick slides. For
+immunohistological stains on marmoset and human tissue, slices were
+deparaffinized and rehydrated, and antigen-binding sites were retrieved by
+heating for 1h in 10 mM citrate buffer, pH 6.0, with 0.05% Tween-20 in a
+steam oven before staining. All subsequent steps followed the above
+described protocol for staining of mouse tissue. If goat-derived primary
+antibodies were used, blocking was performed with 10% donkey serum (Sigma).
+Different from staining of mouse tissue (see below), rabbit pAb α-C1q
+(Biologicals, NBP1–87492, 1:200) and mouse mAb α-C3d (clone
+7C10, Abcam, ab17453, 1:50) were used to detect complement components,
+chicken pAb α-MAP2 (EnCor Biotechnology, CPCA-MAP2, 1:1000) was used
+to stain neurons, rabbit pAb α-VGluT1 (Millipore, abN1627) was used
+to label presynaptic corticothalamic inputs and goat pAb α-Iba1
+(Abcam, ab5076, 1:200) was used to visualize microglia/macrophages on human
+and marmoset tissue.
+
+Engulfment analysis was performed according to previously described
+protocols ( Schafer et al., 2012 , Schafer et al., 2014 ). Briefly,
+two sections from each sample containing the LGN in marmoset and human and
+the dorsal LGN in mouse were immunostained and imaged on a Zeiss Observer
+Spinning Disk Confocal microscope equipped with diode lasers (405 nm, 488
+nm, 594 nm, 647 nm) and Zen Blue acquisition software (Zeiss; Oberkochen,
+Germany). For each hemisphere, 2–3 randomly chosen 63x fields of view
+within the dorsal lateral geniculate nucleus were acquired with 50–70
+z-stack steps at 0.22 μm optimal spacing using identical settings.
+Images were then processed in ImageJ (NIH) and individual images of
+15–20 single cells per animal were processed in Imaris (Bitplane;
+Zurich, Switzerland) as previously described ( Schafer et al., 2014 , Schafer et al., 2012 ). Engulfment analysis was
+restricted to synaptic material within CD68-positive microglial lysosomes or
+LAMP2-positive astrocytic lysosomes. Unbiased quantification of all images
+was performed blind to genotype or treatment of animals.
+
+For assessing the density of presynaptic inputs (VGluT1, VGluT2) and
+postsynaptic compartments (Homer1, PSD-95), and for determining the
+deposition of complement components (C1q, C3), two stained sections from
+each sample containing the LGN (human and marmoset) or dorsal LGN (mice)
+were imaged on a Zeiss LSM700 laser scanning confocal microscope equipped
+with 405 nm, 488 nm, 555 nm, and 639 nm lasers and Zen black acquisition
+software (Zeiss; Oberkochen, Germany). For each hemisphere, 2–3
+randomly chosen 63x fields of view within the LGN were acquired with three
+z-stack steps at 0.68 μm spacing. Identical settings were used to
+acquire images from all samples within one experiment, and data analyses
+were performed using ImageJ (NIH, version 1.52k) as described previously
+with minor modifications ( Schafer et al.,
+2012 , Hong et al., 2016a ).
+First, to determine a consistent threshold range, sample images for each
+genotype and condition were subjected to background subtraction and then
+manual thresholding blinded to condition and genotype for each channel
+within one experiment was performed (IsoData segmentation method,
+85–255). Then, each channel from single z-planes of the z-stacks (3
+z-planes per animal) were subjected to the same background subtraction and
+thresholding, which was kept consistent for a given experiment. Using the
+analyze particles function, the total area of presynaptic inputs,
+postsynaptic compartments and complement component deposition was measured
+from the thresholded images. To quantify the total area of structural
+synapses, the image calculator tool was first used to visualize colocalized
+pre- and postsynaptic puncta from the previously thresholded images. Then,
+the analyze particles function was used to calculate the total area of
+colocalized signals. Colocalization of complement components (C1q, C3) or
+Crry-EGFP with presynaptic puncta was performed similarly. Data from single
+planes was averaged for each z-stack of each field of view, and the mean of
+all fields of view from one animal was determined to calculate
+densities.
+
+Similar to the quantification of synapses, densities of myelin (MOG,
+MAG, MBP), axons (neurofilament, MAP2), as well as nodes of Ranvier
+(βIV-spectrin) and paranodal junctions (CASPR) were determined. In
+brief, 2–3 randomly chosen 20x fields of view within the region of
+interest (ROI; LGN, optic nerve, optic tract) of 2–3 slides per
+animal were acquired with three z-stack steps at 0.44 μm spacing from
+each animal on a Zeiss Observer Spinning Disk Confocal microscope. Identical
+settings were used for the acquisition of all images from one experiment,
+and areas outlining the desired ROI (LGN, retina, optic nerve) were selected
+and quantified blind to genotype or condition with ImageJ as described above
+for the synapse analyses.
+
+For determining the density of microglia (P2RY12), neurons (NeuN,
+MAP2, RBPMS, Nissl), infiltrating peripheral immune cells (CD3, CD8, CD45,
+FoxP3, Ly6C, Clec12a), apoptotic cells (cleaved caspase 3) and degenerating
+axons (APP), single plane 10x and 20x fluorescence images were collected
+from both hemispheres of at least two slices from each animal with a Zeiss
+Observer microscope (Zeiss; Oberkochen, Germany). Identical settings were
+used for the acquisition of all images from one experiment, and areas
+outlining the desired ROIs (LGN, retina, optic nerve) were manually counted
+blind to treatment or genotype using Zen Blue software (Zeiss). The counts
+were normalized to the total area of the selected ROIs to calculate cell
+densities.
+
+For determination of GFAP, P2RY12, Clec7a, and Crry fluorescence
+intensities in the LGN, 10x and 20x single plane epifluorescence images were
+collected from both hemispheres of at least two slices from each animal with
+a Zeiss Observer microscope equipped with Zen Blue software (Zeiss;
+Oberkochen, Germany). Identical settings were used to acquire images for all
+samples within one experiment and data analyses were performed using ImageJ
+(NIH, version 1.52k) and blinded to genotype or conditions of samples.
+Before quantification, thresholds of pixel intensity were set to the full
+range of 16-bit images to ensure a consistent pixel range across all images
+and background was subtracted from all images. To sample fluorescence
+intensity, ROIs covering either the entire LGN or non-synaptic (VGluT
+1 - and VGluT2 - ) and synaptic (VGluT 1 + and VGluT2 + ) areas of the LGN were manually selected for each
+image and the raw integrated density of pixels within each ROI was measured.
+Average intensity over all ROIs was quantified for each animal and then
+normalized to the values of control treated animals.
+
+For measuring the soma size of microglia, two sections from each
+sample containing the dorsal LGN were immunostained against P2RY12 and
+imaged on an Observer Spinning Disk Confocal microscope equipped with diode
+lasers (405 nm, 488 nm, 594 nm, 647 nm) and Zen Blue acquisition software
+(Zeiss; Oberkochen, Germany). For each hemisphere, 2–3 randomly
+chosen 63x fields of view within the LGN were acquired with three z-stack
+steps at 0.68 μm spacing. Manually thresholded maximum projections of
+the z-stacks were generated using ImageJ and microglia soma were outlined
+using the free hand ROI tool. The microglia soma area was then determined
+using the analyze measure function.
+
+RNA in situ hybridization was performed according
+to the manufacturer’s specification (ACDBio; Newark, CA). Briefly,
+two sections from each sample containing the LGN were treated with
+“Protease III” for 20 minutes at 40°C, rinsed with
+RNase free water and incubated with RNA in situ probes
+against Il-6 (ACDBio, 315891) or Il- 1 β (ACDBio, 316891) for 2h
+at 40°C. Subsequent amplification steps were performed according to
+the manufacturer’s specification. Following in situ hybridization,
+slices were washed in PBS, blocked for 30 min in 2% normal goat serum
+containing 0.01% Triton X-100, and incubated with rabbit pAb α-P2RY12
+(AnaSpec, AS-55043A, 1:2000) overnight at room temperature for
+immunostaining of microglia. The following day, sections were washed,
+incubated with the appropriate secondary antibody and mounted with
+vectashield containing DAPI (Vector laboratories, Burlingame, CA, USA). For
+each hemisphere, 2–3 randomly chosen 63x fields of view within the
+LGN were acquired on an Observer Spinning Disk Confocal microscope equipped
+with diode lasers (405 nm, 488 nm, 594 nm, 647 nm) and Zen Blue acquisition
+software (Zeiss; Oberkochen, Germany). For quantification, fluorescent RNA
+signals within P2RY12 + -microglia were counted manually using
+ImageJ.
+
+At the indicated time points, mice were deeply anesthetized and
+transcardially perfused with 200 ml (10 ml/min) 2% paraformaldehyde and 1%
+glutaraldehyde (Ted Pella) in 0.12M Millonig’s phosphate buffer (pH
+7.3). Optic nerves were carefully dissected and post-fixed at 4°C for
+an additional 4h in the same fixative. The specimens were then rinsed in
+Millonig’s phosphate buffer, osmicated in 1% osmium tetroxide,
+dehydrated in ethanol and propylene oxide (Ted Pella), and embedded in Epon
+plastic resin (Ted Pella). Transverse ultrathin sections of 60–70 nm
+thickness were collected using an RMC PowerTome ultramicrotome (Boeckeler
+Instruments) on formvar coated single slot copper grids (Ted Pella),
+counterstained with uranyl acetate and lead citrate. The sections were
+analyzed under a transmission electron microscope operating at 80 KV (Tecnai
+G2 Spirit Twin, FEI®, ThermoFisher Scientific®). Optic nerves
+were photographed using a Gatan Orius SC 1000B digital camera
+(Gatan®, Inc.) at 4,400 x magnification, and the images were used for
+ultrastructural analysis and G-ratio calculations (G-ratio= axon
+diameter/fiber diameter).
+
+The pAAV-CB6-PI plasmid (4045 bp) (Gene Therapy Center, UMass
+Medical School, Worcester, MA, USA) was used as vector backbone in this
+study. Sequences encoding the complement inhibitor Crry fused to a CR2
+sequence and followed by an autocleavage side and the sequence for EGFP were
+synthesized as two separate gBlock gene fragments (IDT, Skokie, IL). The
+first gBlock (1382 bp) encoded the sequence for the mature murine Crry
+protein (residues 1–319, GenBank accession number NM013499 ) flanked by overhangs (~25bp) with the
+backbone at the 5’-terminus and the second gBlock at the
+3’-terminus (covering parts of the (G 4 S) 2 linker sequence). The second gBlock (1645 bp) encoded the sequence for a
+(G 4 S) 2 linker directly fused to a sequence
+encoding 4 N-terminal short consensus repeats of a CR2-sequence (residues
+1257 of mature protein, GenBank accession number M35684 ), followed by the sequence of a porcine teschovirus-1 2A
+(P2A) autocleavage site and the sequence for EGFP (New England Biolabs,
+NEBuilder Assembly Tool 2.0.8). At the 3’-terminus, the second gBlock
+was flanked by an overhang with the backbone and at the 5’-terminus
+with an overhang (both ~25bp) identical to terminal parts of the Crry
+sequence of the 3’-end of the first gBlock. Both gBlocks were
+PCR-amplified, purified and cleaned before sequences were confirmed by
+Sanger sequencing. To assemble gBlocks with the backbone, the one-step
+isothermal NEBuilder HiFi DNA assembly cloning method has been utilized
+according to the manufacture’s recommendations (New E ngland Biolabs,
+Ipswich, MA, #E2621L). 4 μl of the assembly reaction were used for
+transformation of Stbl3 chemically competent E. coli (Thermo Fisher Scientific, #C737303) and bacterial plasmid DNA extraction
+was performed using QIAfilter Plasmid Mega Kit (Qiagen, #12281) according to
+the manufacturer’s recommendations. Control constructs encoding the
+sequence for EGFP but, lacking the sequences for Crry fused to CR2, were
+generated by restriction enzyme digest (NheI/StyI) and religation of final
+construct. Restriction analysis of the constructs was performed with the
+following enzymes or combination of enzymes: SmoI, HincIII, XhoI/XbaI,
+BamHI, SalI/XhoI, XhoI, BamsHI/EcoRV and HindIII (all from New England
+Biolabs). The final constructs were further verified by sequencing analysis
+and subsequently packaged as AAV9 vectors by the UMass Viral Vector Core of
+the Gene Therapy Center at the University of Massachusetts Medical
+School.
+
+Four-week-old mice were deeply anesthetized with isoflurane, the
+surrounding tissue around the eye was swabbed with 5% povidone-iodine, and
+an incision was made into the sclera (app. 2 mm posterior of the superior
+limbus) using a sterile, sharp 30G needle. After careful removal of the 30G
+needle, a 33G blunt needle (Hamilton, 1.57PT3, #7803–05) attached to
+a 10 μl gastight syringe (Hamilton, #1701) was carefully inserted
+into the same incision and viral suspension was injected into the vitreous
+without damaging the lens or retina. Viral suspension (3 μl) was
+injected at a titer of 2.5 ×10 13 genome copies (GC)/ml.
+After injection, the needle was kept inside the vitreous for ~1 min.
+Mice received injections into both eyes. Finally, ophthalmic antibiotic
+ointment and local anesthetic were applied. Mice were placed in their home
+cage on a 37°C heating pad and monitored until they recovered from
+anesthesia. Twenty-eight days after AAV-injection, EAE was induced in the
+mice as described above. Only mice that showed substantial colocalization
+(<35%) of EGFP with VGluT2 + -retinogeniculate terminals in
+the LGN were included in the analyses.
+
+Murine neuro-2a cells (N2a) were purchased from ATCC (#CCL-131) and
+cultured in DMEM (Thermo Fisher) supplemented with 10% fetal bovine serum
+(HyClone, USA) and 1% penicillin-streptomycin at 37°C in a humidified
+incubator. At ~80% confluency, cells were passaged. For AAV-mediated
+transduction, N2a cells were seeded and, after full attachment to the plate,
+treated with 25 ^M all trans-retinoic acid (RA, Sigma, #R2625) to induce
+neurite outgrowth. The next day, cells were inoculated with either AAV-Crry
+or AAV-EGFP with a MOI of 10 5 GC/cell. AAVs were removed 48h
+after infection and cells were harvested or fixed for analysis another five
+days later.
+
+Samples were lysed in T-PER (Thermo Scientific), boiled at
+95°C for 10 min, separated on 4–20% Mini-PROTEAN TGX Gels
+under reducing conditions, and transferred to polyvinylidene diflouride
+membrane. After blocking with 5% (w/v) non-fat milk/PBS (all from BioRad),
+membranes were incubated with the following antibodies: mouse mAb
+α-Crry (clone TLD-1C11, Santa Cruz, sc-53530, 1:100), rabbit pAb
+a-EGFP (Millipore, ab3080P, 1:1000), goat pAb α-GAPDH (Abcam, ab9483,
+1:1000), and respective peroxidase-conjugated secondary antibodies (BioRad).
+Signals were visualized by enhanced chemiluminescence. Prior to the
+detection of further antigens on the same membrane, antibodies were washed
+off with Restore Plus Western Blot Stripping Buffer (Thermo Scientific).
+
+Assessment of visual acuity was performed before the induction of
+EAE and at the onset of clinical symptoms in awake, freely moving mice.
+Individual mice were placed on a round, elevated platform in the center of a
+soundproof chamber that was surrounded by four computer screens on which
+visual stimuli were projected. Mice were exposed to a virtual cylinder
+consisting of rotating sine wave gratings (12 deg/sec) of various spatial
+frequencies (cycles/degree). Mice reflexively track these gratings by
+stereotypic head movements as long as the grating is visible ( Prusky et al., 2004 ). To determine
+grating acuity, first a homogeneous gray stimulus was projected on the
+cylinder, which was followed by a low-spatial-frequency (0.05 cyc/deg) sine
+wave grating of the same mean luminance that was randomly rotating in one
+horizontal direction. A video camera positioned in the lid of the chamber
+directly above the animal was used by a trained observer to record the mice
+and assess smooth, reflexive head movements in response to the rotating
+gratings. To determine the highest spatial frequency perceptible for each
+individual mouse, the spatial frequency of the grating was systematically
+increased until the animal no longer responded to the projected grating.
+Visual acuity was assessed blind to treatment of animals.
+
+Results are expressed as means ± standard error (SEM) from at
+least three independent replicates for each experimental group. Two-tailed
+Student’s t-test to compare two groups or one-way analysis of variance
+(ANOVA) followed by Tukey’s multiple comparison post hoc test to compare multiple groups was performed using Prism 7 software (Graph-Pad,
+La Jolla, CA, USA). Values of *P<0.05, **P<0.01, ***P<
+0.001, ****P< 0.0001 were considered statistically significant.
+
+## KEY RESOURCES TABLE
+The table highlights the genetically modified organisms and strains, cell
+lines, reagents, software, and source data essential to reproduce
+results presented in the manuscript. Depending on the nature of the study, this may
+include standard laboratory materials (i.e., food chow for metabolism studies), but
+the Table is not meant to be comprehensive list of all materials and
+resources used (e.g., essential chemicals such as SDS, sucrose, or standard culture
+media don’t need to be listed in the Table). Items in the Table must
+also be reported in the Method Details section within the context of their use. The number of primers
+and RNA sequences that may be listed in the Table is restricted to no
+more than ten each. If there are more than ten primers or RNA sequences to report,
+please provide this information as a supplementary document and reference this file
+(e.g., See Table S1 for XX)
+in the Key Resources Table .
+
+Please report the information as follows:
+
+REAGENT or RESOURCE: Provide full descriptive name
+of the item so that it can be identified and linked with its description
+in the manuscript (e.g., provide version number for software, host
+source for antibody, strain name). In the Experimental Models section, please include all models used
+in the paper and describe each line/strain as: model organism: name used
+for strain/line in paper: genotype. (i.e., Mouse: OXTR fl/fl :
+B6.129(SJL)-Oxtr tml1Wsy/J ). In the Biological Samples
+section, please list all samples obtained from commercial sources or
+biological repositories. Please note that software mentioned in the Methods Details or Data and
+Software Availability section needs to be also included in the table.
+See the sample Table at the end of this document for examples of how to
+report reagents.
+
+SOURCE: Report the company, manufacturer, or
+individual that provided the item or where the item can obtained (e.g.,
+stock center or repository). For materials distributed by Addgene,
+please cite the article describing the plasmid and include
+“Addgene” as part of the identifier. If an item is from
+another lab, please include the name of the principal investigator and a
+citation if it has been previously published. If the material is being
+reported for the first time in the current paper, please indicate as
+“this paper.” For software, please provide the company
+name if it is commercially available or cite the paper in which it has
+been initially described.
+
+IDENTIFIER: Include catalog numbers (entered in the
+column as “Cat#” followed by the number, e.g., Cat#3879S).
+Where available, please include unique entities such as RRIDs, Model
+Organism Database numbers, accession numbers, and PDB or CAS IDs. For
+antibodies, if applicable and available, please also include the lot
+number or clone identity. For software or data resources, please include
+the URL where the resource can be downloaded. Please ensure accuracy of
+the identifiers, as they are essential for generation of hyperlinks to
+external sources when available. Please see the Elsevier list of Data
+Repositories with automated bidirectional linking for details. When
+listing more than one identifier for the same item, use semicolons to
+separate them (e.g. Cat#3879S; RRID: AB_2255011). If an identifier is
+not available, please enter “N/A” in the column. A NOTE ABOUT RRIDs: We
+highly recommend using RRIDs as the identifier (in
+particular for antibodies and organisms, but also for
+software tools and databases). For more details on how to
+obtain or generate an RRID for existing or newly generated
+resources, please visit the RII or search for RRIDs.
+
+A NOTE ABOUT RRIDs: We
+highly recommend using RRIDs as the identifier (in
+particular for antibodies and organisms, but also for
+software tools and databases). For more details on how to
+obtain or generate an RRID for existing or newly generated
+resources, please visit the RII or search for RRIDs.
+
+Please use the empty table that follows to organize the information in
+the sections defined by the subheading, skipping sections not relevant to your
+study. Please do not add subheadings. To add a row, place the cursor at the end
+of the row above where you would like to add the row, just outside the right
+border of the table. Then press the ENTER key to add the row. Please delete
+empty rows. Each entry must be on a separate row; do not list multiple items in
+a single table cell. Please see the sample table at the end of this document for
+examples of how reagents should be cited.
+
+## TABLE FOR AUTHOR TO COMPLETE
+Please upload the completed table as a separate document. Please do
+not add subheadings to the Key Resources Table . If you wish to make an
+entry that does not fall into one of the subheadings below, please contact your
+handling editor. ( NOTE: For authors publishing in Current Biology,
+please note that references within the KRT should be in numbered style, rather than
+Harvard.)

@@ -1,0 +1,5 @@
+# Title
+TDP-43 repression of nonconserved cryptic exons is compromised in ALS-FTD
+
+# Abstract
+Cytoplasmic aggregation of TDP-43, accompanied by its nuclear clearance, is a key common pathological hallmark of amyotrophic lateral sclerosis and frontotemporal dementia (ALS-FTD). However, a limited understanding of this RNA-binding protein (RBP) impedes the clarification of pathogenic mechanisms underlying TDP-43 proteinopathy. In contrast to RBPs that regulate splicing of conserved exons, we found that TDP-43 repressed the splicing of nonconserved cryptic exons, maintaining intron integrity. When TDP-43 was depleted from mouse embryonic stem cells, these cryptic exons were spliced into messenger RNAs, often disrupting their translation and promoting nonsense-mediated decay. Moreover, enforced repression of cryptic exons prevented cell death in TDP-43–deficient cells. Furthermore, repression of cryptic exons was impaired in ALS-FTD cases, suggesting that this splicing defect could potentially underlie TDP-43 proteinopathy.

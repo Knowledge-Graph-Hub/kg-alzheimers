@@ -1,0 +1,438 @@
+# Title
+Microglia-specific targeting by novel capsid-modified AAV6 vectors
+
+# Abstract
+Recombinant adeno-associated viruses (rAAV) have been widely used in gene therapy
+applications for central nervous system diseases. Though rAAV can efficiently target
+neurons and astrocytes in mouse brains, microglia, the immune cells of the brain, are
+refractile to rAAV. To identify AAV capsids with microglia-specific transduction
+properties, we initially screened the most commonly used serotypes, AAV1–9 and
+rh10, on primary mouse microglia cultures. While these capsids were not permissive, we
+then tested the microglial targeting properties of a newly characterized set of modified
+rAAV6 capsid variants with high tropism for monocytes. Indeed, these newly characterized
+rAAV6 capsid variants, specially a triply mutated Y731F/Y705F/T492V form, carrying a
+self-complementary genome and microglia-specific promoters (F4/80 or CD68) could
+efficiently and selectively transduce microglia in vitro . Delivery of these
+constructs in mice brains resulted in microglia-specific expression of green fluorescent
+protein, albeit at modest levels. We further show that CD68 promoter–driven
+expression of the inflammatory cytokine, interleukin-6, using this capsid variant leads to
+increased astrogliosis in the brains of wild-type mice. Our study describes the first
+instance of AAV-targeted microglial gene expression leading to functional modulation of
+the innate immune system in mice brains. This provides the rationale for utilizing these
+unique capsid/promoter combinations for microglia-specific gene targeting for modeling or
+functional studies.
+
+## Introduction
+Recombinant adeno-associated viruses (rAAV) are safe and robust gene therapy vehicles for
+preclinical and clinical usage. 1–3 Due to its ability to efficiently transduce neurons and
+astrocytes, 4 , 5 AAV-mediated gene targeting has been used widely as disease-modifying paradigms in
+preclinical models of several neuropsychiatric disorders, such as Parkinson’s
+disease, Huntington’s disease, amyotrophic lateral sclerosis, epilepsy, and
+malignant gliomas. 6 , 7 However, rAAV-mediated genetic targeting of microglia, and in
+general, cells of myeloid lineage, remains challenging. Aberrant activation of microglia,
+the resident immune cells of the brain, leads to pathological conditions underlying
+numerous neurologic disorders characterized by proteostasis and
+neurodegeneration. 8 Given that manipulating
+microglial function could result in disease modification in such intractable diseases,
+characterization of rAAVs that specifically transduce microglia would allow
+physiologically relevant disease modeling and development of glia-targeted
+immunobiotherapies.
+
+Several factors are critical in improving rAAV-based gene expression: increased AAV
+trafficking into cells, limiting its vulnerability to intracellular clearance pathways,
+and overall, higher expression of transgenes from targeted cells. These parameters can be
+regulated by (i) modifying the capsid to achieve higher transduction efficiency and
+limiting proteasomal degradation, (ii) using self-complementary (sc) vectors for faster
+and efficient gene expression, and (iii) utilizing stronger or cell-type–specific
+promoters and regulatory elements for robust gene expression from physiologically relevant
+cell populations. 9–13 Incorporating these concepts, we demonstrate that a
+capsid-modified rAAV6 expressing the transgene from a sc vector under the control of
+microglia-specific promoters results in microglia-specific transgene expression in
+vitro and in vivo . Our study highlights the potential utility of such
+capsid-modified vectors in reprograming glial function in neuroinflammatory disorders.
+
+## Results
+To test whether the most widely used rAAV serotypes can transduce microglia, primary
+wild-type (WT) mouse neuroglia and microglia cultures were transduced with AAV
+capsids-1–9 and rh10 expressing the enhanced green fluorescent protein (EGFP)
+transgene. This EGFP transgene is driven by the hybrid chicken β-actin (hCBA)
+promoter from a single-stranded (ss) vector ( Table 1a ). We
+did not detect any EGFP fluorescence in primary microglia cultures transduced with this
+viral preparations ( Supplementary Figure S1a ), though we
+detected variable levels of neuronal and astrocytic expression of EGFP in primary mixed
+neuroglial cultures following transduction by these same viruses ( Supplementary Figure S1b ). This suggests that WT AAV capsids either (i)
+cannot transduce microglia efficiently or (ii) are efficiently cleared via their
+endoproteasomal machinery once internalized or (iii) does not have the transcriptional
+machinery available for efficient gene expression in microglia. A recent study
+demonstrated that using scAAV packaged in capsid-modified AAV6 can efficiently transduce
+dendritic cells of monocyte lineage. 9 This
+study identified several surface-exposed serine and tyrosine residues of AAV6, which
+when mutated to nonphosphorylatable valine residue increased transgene expression in
+dendritic cells by limiting proteasome degradation. 9 Since microglia are derived from a similar monocytic
+lineage, 14 we tested whether these mutant
+scAAV vectors expressing the GFP transgene under the hCBA promoter could transduce mouse
+primary microglia ( Table 1b ). For these studies, we compared
+the transduction efficiency of four different AAV6 capsids: WT, S663V, S663V/T492V, and
+Y731F/Y705F/T492V (abbreviated as triple-mutant AAV6 or TM6) in primary mixed neuroglial
+( Supplementary Figure S2 ) and primary microglial cultures
+( Figure 1 ). Transduction of primary mixed neuroglial
+cultures with these scCBA-GFP viruses revealed that in addition to neurons and
+astrocytes being efficiently transduced, there were GFP-expressing cells with typical
+microglia-like morphology in cultures transduced with the capsid-modified
+AAV6 15 ( Supplementary
+Figure S2 ). These cells were neither microtubule-associated protein 2 (MAP2;
+neuronal specific cellular marker) or glial fibrillary acidic protein (GFAP;
+astrocyte-specific cellular marker) positive ( Supplementary Figure
+S2a , arrows), suggesting that these GFP-expressing cells could potentially be
+microglia. We next tested whether these capsid variants could transduce primary murine
+microglia by incubating primary microglial cultures with these rAAV6 capsid variants for
+5 days ( Figure 1a ). Quantitation of direct fluorescence
+( Figure 1b ) and RNA ( Figure
+1c ) shows that compared with WT AAV6-transduced microglia, the mutant AAV6
+capsids, in particular Y731F/Y705F/T492V triple-mutant (TM6) AAV6 capsid, shows high
+levels of GFP expression. Immunocytochemical colocalization with the microglia-specific
+cellular marker, ionized calcium-binding adapter molecule 1(Iba-1), confirmed that the
+GFP-expressing cells are indeed microglia ( Figure 1d ). We
+were further curious whether the scCBA vector or the mutant capsid was key to increasing
+microglial transduction and transgene expression. Using flow sorting of microglia
+transduced with a conventional ss or the sc vector packaged in either WT AAV6 or TM6, we
+found that both the vector conformations are efficiently transduced only when packaged
+in TM6 capsid ( Supplementary Figure S3a , b ). This implies that the capsid variant indeed improves microglial
+targeting and gene expression. Overall, our data shows that the combination of scCBA
+construct in TM6 capsid resulted in the most efficient transduction efficiency ( Supplementary Figure S3a , b ). Notably,
+the morphology of the scCBA-GFP-TM6 transduced microglia assumed a large, round flat
+morphology with numerous microspikes all over the cell body resembling an activated
+state 15 ( Figure
+1d , arrows). We explored whether the TM6 capsid, by itself, or the high
+levels of GFP produced in the microglia could be responsible for such activation. Using
+major histocompatibility complex II (MHCII), a marker for microglial phenotypic
+activation, 15 we noticed that the TM6
+capsid with an empty vector alone led to increased glial MHCII compared with naive glia
+or glia transduced with empty vector packaged in WT AAV6 capsid ( Figure 1e , arrows). Microglia transduced with WT AAV6 expressing scGFP also
+showed increased MHCII immunoreactivity compared with empty vector transduced microglia
+( Figure 1e , arrows). Next, we used the inflammatory
+cytokine, interleukin (IL)-6, to further demonstrate the utility of scCBA-mediated
+expression of transgene in primary microglia cells. IL-6 is an inflammatory cytokine
+that plays a critical role in modulating neuroplasticity and neurodegeneration in aging
+and neuropsychiatric diseases. 16 Primary
+microglia were transduced with scCBA-IL-6 packaged in TM6 capsid and analyzed after 96
+hours. Quantitative polymerase chain reaction (PCR) of microglial cells and
+enzyme-linked immunosorbent assay analyses of the culture media showed significantly
+increased IL-6 RNA and protein, respectively (RNA: 98.7-fold over control; protein:
+241.4-fold over control; P < 0.01, Student’s t -test).
+
+We have demonstrated that capsid-modified TM6 can efficiently transduce microglia as
+well as neurons and astrocytes. To enable selective microglia targeting, we incorporated
+two different microglia-specific promoters, F4/80 and CD68, in the scTM6-GFP vector
+construct ( Table 1c , d ). F4/80
+antigen is an adhesion G protein–coupled receptor present on murine mononuclear
+phagocyte surface, whereas CD68/macrosialin is an intracellular glycoprotein present in
+lysosomes. 17 Both F4/80 and CD68 are
+upregulated in macrophages and microglia following activation and are widely used as
+myeloid-specific promoters in transgenic mice. 15 We tested these promoter constructs on primary mouse microglial
+cultures and observed high levels of EGFP expression using the TM6 capsid variant
+( Figure 2a ). We consistently observed >95% transduction
+of microglial cells by either promoter in different viral batches. Both the scF4/80 and
+scCD8 promoter–driven TM6 viruses resulted in robust and comparable GFP
+expression in primary microglia ( Figure 2b ). To demonstrate
+specificity of microglia-restricted GFP expression from scF4/80 and scCD68 constructs,
+we also tested these viruses in primary mixed neuroglial cultures. Both the promoter
+constructs showed extremely selective microglial expression (arrows in Iba-1
+colocalization panel, Figure 2c ) with no neuronal
+(arrowheads in MAP2 panel, Figure 2d ) or astrocytic
+(arrowheads in GFAP panel, Figure 2c ) expression.
+
+Next, we examined whether the TM6 capsid variant is able to transduce microglia in
+mouse brains. For these experiments, we injected TM6 virus expressing scCBA-GFP,
+scF4/80-GFP, and scCD68-GFP in the cerebral ventricles of WT mouse pups on neonatal day
+P0 or in the hippocampus of 2- to 3-month-old WT adult female mice.
+Intracerebroventricular injections of rAAV in neonatal day P0 mice lead to extensive
+brain transduction and transgene expression. 4 On the other hand, hippocampal stereotaxic injections of AAVs in adult mice lead to
+restricted transgene expression in the hippocampus and overlying cortex. 18 Brains were analyzed by immunohistochemistry to
+detect cells with microglial morphology ( Figure 3a ) and
+confirmed by immunofluorescence showing colocalization with Iba-1 (microglia-specific
+marker) ( Figure 3b ). Injection of scCBA-GFP in neonatal P0
+pups resulted in widespread GFP expression in the forebrain after 15- and 30-day
+postinjection ( Figure 3a and Supplementary Figure S4 ). The majority of cells transduced were neurons
+( Figure 3a , arrowhead and Supplementary
+Figure S4b ), though few microglia expressing GFP were also seen ( Supplementary Figure S4c ). GFP was detected from neurons as well
+as microglia in adult mice injected in the hippocampus with scCBA-GFP and analyzed after
+15 days ( Figure 3 , arrow). Injection of scF4/80-GFP and
+scCD68-GFP in neonatal pups resulted in microglia-restricted expression of GFP when
+analyzed after 15 and 30 days ( Figure 3a , b , arrow). F4/80 and CD68 promoter–driven GFP–expressing
+microglia were observed to be clustered around the ventricles and overlying cortex in
+the P0-injected cohorts (~50–60 microglia per 10-µm cryosection). In the
+hippocampus-injected adult cohort, few microglia-expressing GFP from these
+promoter-specific constructs were noticed in the hippocampal area or white matter tracts
+overlaying the hippocampus ( Figure 3a , b , arrow). Quantitative analysis of cortical microglia shows that P0
+delivery of scCBA and scF4/80 promoter constructs result in higher transduction rates
+compared with the scCD68 promoter construct ( Figure 3c ),
+suggesting that overall CBA and F4/80 promoters are more efficient than CD68 under these
+conditions. Using the scCBA promoter resulted in transduction of both microglia (Iba+
+GFP+) and non-microglia cells (Iba− GFP+), and under certain conditions, such as
+P0 →30 days and adult delivery paradigms, most of the AAV-transduced cells were
+not microglia ( Figure 3c ). On the other hand, both scF4/80
+and scCD68 constructs resulted in GFP expression from exclusively Iba+ microglia cells,
+showing that these promoters drive microglia-selective gene expression in vivo ( Figure 3c ). Since we observed MHCII upregulation in
+primary microglia transduced with these constructs, we tested for MHCII immunoreactivity
+in scCBA-TM6 injected brains to explore whether there are any similar changes in
+microglial activation following viral delivery. Overall, MHCII immunostaining was rarely
+observed in these mice brains, including naive and injected brains; we did not observe
+any MHCII immunostaining in TM6 transduced microglia in vivo ( Supplementary Figure S5 ).
+
+In order to test whether TM6-targeted microglia–specific transgene expression
+can be used to alter immune activation state in the brain, we injected scCD68-IL6 in
+neonatal WT mice. In primary microglia culture, transduction with scCD68-IL6 results in
+increased IL-6 levels (RNA: 214.99-fold over control; protein:
+250.82 ± 5.1 pg/ml; P < 0.01, Student’s t -test). Neonatal day P0 mouse pups were injected in the cerebral ventricles
+with scCD68-IL6 vector and analyzed after 15 days. This led to increased IL-6 levels in
+the brain (RNA: 7.5× over uninjected mice; protein: 121% over uninjected mice; P = 0.05, Student’s t -test), increased microgliosis (lectin
+staining, Figure 4a ), and increased astrocytosis (GFAP
+immunostaining, Figure 4b ). The astrogliosis was restricted
+to the hippocampus, ventricles, and white matter tract (corpus callosum) overlying the
+hippocampus, whereas the cortex remained unaffected. This is consistent with P0
+injections targeting the area around the cerebral ventricles. 4 GFAP protein levels were significantly increased in IL-6
+expressing mice brains, demonstrating that TM6-scCD68–mediated IL-6 expression
+leads to substantial immune modification in vivo ( Figure
+4c ).
+
+## Discussion
+rAAVs are being increasingly used as ideal gene therapy vehicles in preclinical studies
+and clinical trials in central nervous system diseases. 2 Multiple rAAV serotypes lead to efficient gene expression from
+neurons, oligodendrocytes, and astrocytes when injected into the brain, spinal cord, tail
+vein, or even hindlimb muscles of rodents (reviewed in ref. 2 ) but robust microglial gene targeting has not been reported. Inefficient
+targeting of microglia is a major roadblock in devising accurate models of microgliopathy
+and design of therapies against neurologic diseases marked by microglial activation. As
+more AAV serotypes are being naturally isolated or invented by in vitro rational
+design in recent years, 19 it is now possible to
+test these newer variants for microglia-restricted transduction properties. Here, we show
+that (i) the capsid-mutated TM6 serotype with a sc vector sequence efficiently transduces
+neurons, astrocytes, and microglia in primary murine cultures and (ii) using F4/80 and
+CD68 promoters enables selective targeting of microglia by TM6 viruses in vitro and in vivo . This is the first study that demonstrates unique microglia tropism
+by TM6 and related capsid variants derived from AAV6. Our study establishes new technology
+platforms for microglial targeting by novel capsid-optimized rAAVs and opens up the
+possibility of designing more improved rAAVs with specific microglial biotransduction
+properties.
+
+In spite of the advent of new generations of engineered AAVs with improved stability and
+transduction properties, there have been only two previous reports that have shown some
+degree of microglial targeting. 20 , 21 The first of these reports showed that WT AAV2 can transduce
+microglia in culture, albeit at low kinetic rates compared with neurons. 21 The other report demonstrated selective microglial
+targeting by AAV5 serotype using the F4/80 and to a lesser extent, the CD68
+promoter. 20 However, we were unable to
+detect microglial transduction by either rAAV2 or rAAV5 in primary microglial cultures in
+this study. In addition, following intracerebroventricular delivery in neonatal mice, we
+have shown earlier that though both rAAV2 and rAAV5 can efficiently transduce neurons and
+astrocytes, they do not transduce microglia in the brain. 4
+
+Transgenic approaches using myeloid-specific promoters have been widely used to
+genetically model immune diseases or to test therapies designed against immunological
+diseases. 22 Since most of these promoters
+are active in all cells of hematopoietic lineage, exclusive targeting microglia by
+transgenic technology is challenging. In addition, presently available viral and nonviral
+methodologies display widely variable transduction efficiency for cells of myeloid
+lineage. Standard transfection methods achieve modest efficiency (~20%) of transgene
+expression in vitro , 23 though
+HIV-1–derived lentivirus–mediated gene delivery can, however, achieve high
+transduction efficiency in vitro and in vivo . 1 However, lentiviruses can potentially engage with the immune
+system, and because of their propensity to integrate randomly into the chromosome, this
+otherwise powerful gene targeting technology can result in variable gene expression in
+preclinical models and adverse outcomes such as leukemia in human patients. 24 On the other hand, AAV, especially the capsid variants,
+display widespread tolerability and relatively low immunogenicity. 2 Using a series of in vitro and in vivo experiments, Martino et al . 25 showed
+that by minimizing proteasomal trafficking in antigen-presenting cells, the triple capsid
+variant AAV2 (Y444F/Y500F/Y730F) potentially has lower antigen-presenting capabilities
+that, in turn, can prevent induction of innate immune responses and cytotoxicity. Similar
+studies have confirmed that though there is an initial and transient induction of immune
+response following virus transduction into monocytes, capsid-modified AAVs do not induce
+phenotypic alterations in the transduced cells. 26 , 27 More importantly, AAV-driven
+hepatic expression of transgenes can even drive immune tolerance by inducing hepatic Treg
+production. 28–30 Given
+such data, we expect that the triple-mutant AAVs used in our study would potentially share
+similar nonpathogenic and nonimmunogenic properties. Such a rAAV platform offers an
+attractive transgenesis paradigm for microglial targeting applications in
+neurodegenerative disorders without confounding side effects of peripheral immune
+alterations.
+
+In our study, we have used three relatively novel strategies to ensure increased
+transgene expression in the microglia: the use of surface tyrosine–mutated capsids,
+sc vectors, and microglia-specific promoters. Recent studies exploring different aspects
+of molecular trafficking of AAVs have shown that phosphorylation of surface-exposed serine
+and tyrosine residues on AAV capsids results in rapid ubiquitination and proteasomal
+degradation of AAVs. 11 , 31 In addition, oxidation of surface tyrosine can impair
+externalization of the N-terminal portion of the capsid proteins. 32 Mutation of surface-exposed serine and tyrosines to phenylalanines
+can reduce post-translational modifications of the capsid proteins and thereby reduce
+viral clearance by intracellular pathways. 33 This can potentially improve nuclear transport of the viral particles and increase
+transgene expression. 27 For example, S663V/T492V
+variant of AAV6 was shown to be 5× more efficient in transducing mouse monocyte
+derived dendritic cells than WT AAV6. 9 Similar
+results were observed for other AAV capsid serotypes—a triple-mutant
+AAV2—Y444F/Y500F/Y730F vector led to robust higher levels of transgene expression in vitro 34 and in
+vivo . 33 Intriguingly, several reports
+have demonstrated that the proteasomal system appears to be more active in glia than in
+neurons, 35 which may partially explain the
+inability of native WT capsids to result in high levels of microglial gene expression in
+our study.
+
+A second, rate-limiting step in rAAV-mediated gene expression is the conversion of the
+AAV genome into double-stranded DNA, once the viral genome enters the
+nucleus. 13 This can be circumvented by using
+a scAAV genome that consists of inverted repeats arranged in a way that facilitates the
+folding of the AAV genome into a double-stranded form without the requirement for DNA
+synthesis. Though packaging constraints impose size limits on the genes that can be
+delivered using this approach, scAAV vectors typically result in 20× to 100×
+more expression than conventional ss AAV vectors. 36
+
+Using either the F4/80 or CD68 promoter in combination with the surface-mutated AAV6
+capsid, we could demonstrate >95% transduction of primary microglial cells in culture
+and selective microglial transduction in vivo . Whereas we could achieve high
+transduction rates with TM6 capsids in culture, the biodistribution of transduced
+microglia was restricted in vivo . Since microglial turnover rates in the normal
+brain are slow (in order of months or more 8 , 37 ), it is difficult to explain the modest levels of
+microglial transduction in vivo compared with the excellent transduction
+properties of the TM6 viruses in vitro . One factor may be that the relative
+strength of the promoters used (F4/80 and CD68) is inherently low in the mouse brain and
+that our current detection methods are unable to detect such low levels of transgene
+expression. Though F4/80 and CD68 promoters are commonly used promoters, 17 recent RNA-sequencing studies have shown that neither
+of these promoters are highly active in the resting central nervous system. 38 This may have contributed to the modest levels of
+transgene expression following scGFP and scCD68-IL6 transduction of mouse brains in our
+studies, compared with our earlier observations using hCBA promoter. 4 , 18 Future manipulations of
+mouse microglia using other highly active microglial promoters could enhance transgene
+expression following transduction by capsid-modified rAAV6. In addition, understanding the
+exact mechanism that allows for high microglial transduction by the capsid variants and
+potential pathologic effects of long-term transgene expression affecting microglial
+homeostasis need to be characterized further in vivo . In summary, our studies
+will pave the way toward the development of improved engineered AAV vectors for selective
+microglial targeting as a means to explore microglial function in health and disease.
+
+## Materials and Methods
+A pAAV vector containing a hybrid cytomegalovirus enhancer/CBA promoter, a CBA intron
+(first intron of CBA gene plus the splice acceptor of the rabbit β-globin
+gene), 39 woodchuck hepatitis virus
+post-transcriptional regulatory element (WPRE), and the EGFP transgene was used as a
+template for further subcloning ( Table 1 ). This vector was
+modified by swapping in a modified SV40 late 16S rRNA intron in place of the CBA intron
+and also deleting the terminal resolution site sequence from the inverted terminal
+repeats to produce a mutant inverted terminal repeats, such that the viral Rep protein
+cannot generate the ss DNA nick. This resulted in a double-stranded sc pAAV
+vector. 40 To facilitate subcloning in this
+sc vector, a multiple cloning site was introduced 41 , and the SV40 intron was replaced by the minute virus of mouse
+intron (MVMi). 36 This scAAV vector expressing
+humanized GFP formed the template for expression vectors driven by the F4/80 or CD68
+promoters. The F4/80 promoter was released from pAAV-F4/80-RFP (kind gift from EF
+Terwilliger 20 ) by XbaI (blunt ended) and
+SalI digestions and used to replace the hCBA promoter region of the scAAV vector
+digested with KpnI (blunt ended) and SalI to produce the scF4/80-GFP construct. To
+produce the scCD68-GFP construct, the hCBA promoter was released from the scAAV vector
+and the free ends modified by PCR to yield 5′-Kpn I and 3′-Sal I sites,
+into which the CD68 promoter region was ligated from pAAV-CD68-RFP (kind gift from EF
+Terwilliger 20 ). Mouse IL-6
+cDNA 18 was swapped with the GFP sequence
+in the scCD68-GFP vector using EcoRV and NheI restriction sites producing scCD68-IL6.
+The scAAV plasmids were cotransfected along with rep and cap plasmids (modified AAV6
+capsid plasmids encoding S663V, S663V/T492V, and Y731F/Y705F/T492V mutations George
+Aslanidi and Arun Srivastava, University of Florida) into HEK293T cells. rAAV was
+prepared under sterile endotoxin–free conditions by methods described earlier
+using cell stacks. 42 Briefly, 180 µg of
+endotoxin-free vector DNA (Qiagen, Valencia, CA) was used to transfect HEK293T cells in
+two-chambered cell stack (Costar Product #3269, Thermo Fisher Scientific, Waltham, MA)
+and purified using iodixanol gradient into a final volume of ~200-µl sterile
+endotoxin–free phosphate-buffered saline (PBS) buffer. Genomic titers were
+determined by quantitative PCR as described earlier 4 , 43 ( Table
+2 ). The following custom primers corresponding to GFP was used: forward
+primer, 5′GAAACATTCTCGGCCACAAG; reverse primer, 5′TTGTCGGCCATGATGTACAC.
+For IL-6 quantitative reverse transcription–PCR, the following probe/primer
+combinations were used: Probe #6 (catalog # 04685032001, Roche Universal Probe Library,
+Roche, Indianapolis IN), forward primer, 5′GCTACCAAACTGGATATAATCAGGA; reverse
+primer, 5′CCAGGTAGCTATGGTACTCCAGAA. Quantitative PCR for bGH was carried out
+using custom TaqMan probe (5′TGCCAGCCATCTGTTGTTTGCC) and primers (forward:
+5′CCTCGACTGTGCCTTCTAG and reverse: 5′TGCGATGCAATTTCCTCAT). All the primers
+were ordered from Integrated DNA Technologies (Coralville, IA). The purity of the AAVs
+were analyzed by sodium dodecyl sulfate–polyacrylamide gel electrophoresis for
+detecting bands corresponding to the viral structural proteins, VP1, VP2, and VP3.
+Typical genomic titers of purified viruses are presented in Table
+2 .
+
+All animal husbandry procedures were performed following approval by University of
+Florida Institutional Animal Care and Use Committee. Primary neuroglia and microglia
+cultures were prepared by isolating mouse cortices from B6/C3H newborn mice (neonatal
+day P0–P2) as described earlier. 18 Mixed neuroglia were maintained in Neurobasal media (Life Technologies, Carlsbad, CA)
+supplemented with 0.02% NeuroCult SM1 (STEMCELL Technologies, Vancouver, British
+Columbia, Canada), 0.5 mmol/l GlutaMax (GIBCO, Life Technologies, Carlsbad, CA), 0.5%
+fetal bovine serum (Hyclone, GE Life Sciences, Pittsburgh, PA), and 0.01% Pen-strep
+(GIBCO, Life Technologies). Neuroglial cultures were plated in CC2 Lab Tek II 8-chamber
+slide (Fisher Scientific, Waltham, MA). The mixed microglia–astrocyte cultures
+were maintained in Tripleflasks (Thermo Fisher Scientific) with 200 ml of 5%
+Dulbecco’s modified Eagle's medium–containing serum. After 10–14
+days of incubation, the flasks were shaken for 30 minutes at 37°C at 150 rpm
+to dislodge the microglia from the astrocyte layer and plated in Nunc Lab-Tek II CC2
+chamber slides (Thermo Fisher Scientific). All cells were maintained at 37°C in a
+humidified incubator with 5% CO 2 . Microglia or neuronal cultures were
+transduced with purified rAAVs (1 × 10 8 vector genomes
+total for sc and ss viruses, Table 2 ) for 5 days. Direct
+fluorescence pictures were captured using Evos FL Cell Imaging System (Life
+Technologies, New York, NY) and analyzed using ImageJ 1.47b (NIH, Bethesda, MD).
+
+Intracerebroventricular injections of rAAVs were carried out in neonatal mice
+(B6/C3HNhsd, Envigo, Indianapolis, IN) on day P0 as described earlier. 4 Two-month-old naive B6/C3HNhsd mice were also
+stereotaxically in the hippocampus with rAAV as described earlier. 18 In both cases, purified
+2 × 10 8 viruses (2 µl in PBS) were administered
+bilaterally. After 15 or 30 days, mice were euthanized by transcardiac perfusion, brains
+harvested, and fixed in 10% normal buffered formalin (Thermo Fisher Scientific) and then
+transferred to 30% sucrose solution in PBS for cryosectioning.
+
+Total RNA from mouse brain was purified using Trizol and RNeasy kit (Qiagen,
+Gaithersburg, MD) and reverse transcribed using Superscript III (Invitrogen, New York,
+NY). Quantitative reverse transcription–PCR was performed using custom
+primer/probe mix. Probes (from Roche Universal Probe library: #6 (cat. no. 04685032001)
+for IL-6) were labeled at 5′ end with Fluorescein (FAM) and at the 3′ end
+with dark blue quencher. Target-specific primer sequences were ordered from Integrated
+DNA Technologies (IL-6: forward primer: GCTACCAAACTGGATATAATCAGGA; reverse primer:
+CCAGGTAGCTATGGTACTCCAGAA). The reaction utilized the SSoFast EvaGreen supermix (Bio-Rad,
+Hercules, CA) and used the following steps: initial denaturation cycle 95 °C/30
+seconds, followed by 39 amplification cycle of 95 °C/5 seconds and 60 °C/5
+seconds.
+
+For immunocytochemical analysis, fixed primary cultures were incubated in primary
+antibody overnight at 4 °C (Iba-1 (1:1,000; Abcam, San Francisco, CA), MHCII
+(1:500; Abcam), GFAP-Cy3 (1:1,000; Sigma–Aldrich, St Louis, MO), MAP2 (1:1,000;
+Cell Signaling, Beverly, MA), cd11b (1:500; Novus, Littleton, CO), MHCII (IBL-5/22)
+(1:250; Santa Cruz, Dallas, TX), and EGFP (1:1,000; Life Technologies, Carlsbad, CA)).
+Cells were washed three times with PBS, and fluorescence-conjugated secondary antibody
+(Life Technologies) was added and incubated for 1 hour at room temperature. Nuclei were
+stained with 4′,6-Diamidino-2-phenylindole (Southern Biotech, Birmingham,
+AL).
+
+Formalin-fixed, sucrose-saturated mouse brains were frozen in optimum cutting
+temperature compound (Tissue Tek, Torrance, CA) and sliced into 10-µm coronal
+sections. Sections were blocked in 2.5% horse serum (Vector Biolabs, Burlingame, CA) for
+1 hour at room temperature and incubated in primary antibody to Iba-1 (1:1,000; Abcam),
+GFAP-Cy3 (1:1,000; Sigma–Aldrich), and EGFP (1:1,000; Life Technologies)
+overnight at 4 °C. Bound antibodies were detected with either
+fluorescent-conjugated secondary antibodies (1:500; Life Technologies) or ImmPress
+reagents (Vector Labs) for visualization with 3,3’-diaminobenzidine (DAB)
+colorimetric assays. DyLight-594 labeled Lycopersicon esculentum (tomato)
+lectin (10 µg/ml, Vector Biolabs) staining was carried out using
+manufacturer’s instructions. Images were captured using Olympus Microscope or
+Aperio whole-slide imager. Brightness and contrast alterations were applied identically
+using Photoshop CS5.
+
+GFP-immunopositive microglia were manually counted to determine the extent of
+transduction in vivo . For each cohort, at least five independent fields of view
+(20× field of view, Olympus DP71 microscope) from the cortex of injected mice were
+counted, averaged over all the mice in the cohort ( n = 3), and presented. Iba-1
+immunostaining was used to determine the total microglia count in the same sections
+using double immunofluorescence staining.
+
+For immunoblotting, anti-GFAP (1:1,000; Sigma–Aldrich), anti-EGFP (1:1,000; Life
+Technologies, NY), anti-β-actin (1:1,000, Sigma–Aldrich), and
+anti-glyceraldehyde 3-phosphate dehydrogenase (1:2,000; Abcam) were used as primary
+antibodies and signals detected by fluorescent secondary antibodies using Li-Cor
+Biosciences Odyssey system (Lincoln, NB).
+
+Primary microglia were transduced in a six-well plate with viruses for 5 days, fixed in
+10% normal buffered formalin (Fisher Scientific, Pittsburgh, PA) containing
+0.05 M sucrose, washed in sterile PBS, and collected using a cell scraper. Fixed
+microglia were resuspended in PBS containing 1% bovine serum albumin
+(Sigma–Aldrich). Flow sorting was carried out using BD Accuri C6 Cytometer (BD
+Biosciences, San Jose, CA) at the University of Florida Interdisciplinary Center for
+Biotechnology Research.

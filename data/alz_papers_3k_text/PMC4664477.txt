@@ -1,0 +1,5 @@
+# Title
+Somatic mutation in single human neurons tracks developmental and transcriptional history
+
+# Abstract
+Neurons live for decades in a postmitotic state, their genomes susceptible to DNA damage. Here we survey the landscape of somatic single-nucleotide variants (SNVs) in the human brain. We identified thousands of somatic SNVs by single-cell sequencing of 36 neurons from the cerebral cortex of three normal individuals. Unlike germline and cancer SNVs, which are often caused by errors in DNA replication, neuronal mutations appear to reflect damage during active transcription. Somatic mutations create nested lineage trees, allowing them to be dated relative to developmental landmarks and revealing a polyclonal architecture of the human cerebral cortex. Thus, somatic mutations in the brain represent a durable and ongoing record of neuronal life history, from development through postmitotic function.

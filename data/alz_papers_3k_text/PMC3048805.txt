@@ -1,0 +1,284 @@
+# Title
+Meta-Analysis confirmsCR1,CLU,
+                    andPICALMas Alzheimer’s disease risk loci and reveals
+                    interactions withAPOEgenotypes
+
+# Abstract
+To determine whether genotypes at CLU , PICALM, and CR1 confer risk for
+                        Alzheimer’s disease (AD) and whether risk for AD associated with
+                        these genes is influenced by APOE genotypes. Association study of AD and CLU , PICALM , CR1 and APOE genotypes. Academic research institutions in the United States, Canada, and
+                        Israel. 7,070 AD cases, 3,055 with autopsies, and 8,169 elderly cognitively
+                        normal controls, 1,092 with autopsies from 12 different studies, including
+                        Caucasians, African Americans, Israeli-Arabs, and Caribbean Hispanics. Unadjusted, CLU [odds ratio (OR) =
+                        0.91, 95% confidence interval (CI) = 0.85 – 0.96 for
+                        single nucleotide polymorphism (SNP) rs11136000], CR1 (OR = 1.14, CI = 1.07 –
+                        1.22, SNP rs3818361), and PICALM (OR = 0.89, CI
+                        = 0.84 – 0.94, SNP rs3851179) were associated with AD in
+                        Caucasians. None were significantly associated with AD in the other ethnic
+                        groups. APOE ε4 was significantly associated with
+                        AD (ORs from 1.80 to 9.05) in all but one small Caucasian cohort and in the
+                        Arab cohort. Adjusting for age, sex, and the presence of at least one APOE ε4 allele greatly reduced evidence for
+                        association with PICALM but not CR1 or CLU. Models with the main SNP effect, APOE ε4 (+/−), and an
+                        interaction term showed significant interaction between APOE ε4 (+/−) and PICALM . We confirm in a completely independent dataset that CR1,
+                            CLU , and PICALM are AD susceptibility loci in
+                        European ancestry populations. Genotypes at PICALM confer risk predominantly
+                        in APOE ε4-positive subject. Thus, APOE and PICALM synergistically
+                        interact.
+
+## INTRODUCTION
+Alzheimer’s disease (AD) is the most common form of dementia,
+                affecting 5% of the population over 65 years and 30–50% over
+                80 years. Substantial progress was made identifying genes for rare forms of
+                early-onset AD 1 – 4 and this early success significantly contributed to
+                biologic study on AD mechanisms and more recently multiple drug discovery
+                approaches. Late-onset AD, the common form of the disease, has been more difficult
+                to solve with apolipoprotein E ( APOE ) being the only confirmed
+                susceptibility locus 5 . The combination of
+                high-density genotyping methods, large well-characterized AD and control
+                populations, and statistical methods to evaluate population stratification now
+                provide the tools to identify additional genes contributing to AD risk.
+
+Recently, two genome-wide association studies (GWAS) reported evidence that
+                variations in CLU (encoding Clusterin), PICALM (encoding the Phosphatidylinositol Binding Clathrin Assembly protein), and CR1 (encoding Complement Component (3b/4b) Receptor 1), confer
+                genetic risk for AD 6 – 7 . Evidence for these three loci reached genome wide
+                significance in samples consisting of 5,964 cases and 10,188 controls
+                    ( PICALM and CLU ) and 5,887 cases and 8,508
+                controls ( CRI and CLU ). To analyze the role of
+                these genes in AD risk, the Alzheimer’s Disease Genetics Consortium (ADGC)
+                performed a meta analysis using GWAS data for 15,239 subjects from 9 Northern
+                European Whites cohorts and 5 cohorts that included African Americans, Israeli
+                Arabs, and Caribbean Hispanics ( Table 1 ).
+                Genotypes for CR1 , CLU , and PICALM were analyzed for association with AD using cohorts that
+                are completely independent of those originally used to identify these 3 loci as AD
+                susceptibility factors. The controls used are all elderly (age > 60 years). We
+                also examined the interaction of APOE with CR1 , CLU , and PICALM on AD risk.
+
+## METHODS
+All cohorts are described in more detail in the supplementary material provide
+                    online. The National Institute on Aging (NIA) Alzheimer’s Disease
+                        Center (ADC) subjects were ascertained, evaluated, and sampled by the
+                    clinical and neuropathology cores of the 29 NIA-funded ADCs ( Table 1 ). Subject data data collection is
+                    coordinated by the National Alzheimer’s Coordinating Center (NACC). DNA
+                    from these samples for genotyping was prepared by the National Cell Repository
+                    for Alzheimer’s Disease (NCRAD). The Alzheimer’s Disease
+                        Neuroimaging Initiative (ADNI) subjects are AD cases and controls
+                    ascertained for neuroimaging, biomarker, and genetic studies. Data used here
+                    were generates as previously described 8 and obtained from the ADNI database ( www.loni.ucla.edu/ADNI ). The Collaborative Aging and Memory Project (CAMP) subjects are from
+                    the Amish communities of central Ohio and northern Indiana 9 – 10 .
+                    The Columbia University (CU) subjects are a Hispanic cohort
+                    described in detail elsewhere 11 . The Framingham Heart Study (FHS) is a single-site, community-based,
+                    ongoing cohort study described elsewhere 12 – 14 . Phenotype and
+                    genome-wide association study (GWAS) data were from dbGaP website ( http://www.ncbi.nlm.nih.gov/gap ). The Johns Hopkins
+                        University (JHU) subjects are from the Gen etic
+                    and En vironmental R isk Factors for A lzheimer’s disease among A frican Americans (GenerAAtions) Study identified
+                    through the electronic claims database of the Henry Ford Health System. The MIRAGE Study is a family-based genetic epidemiological study of
+                    AD in which AD cases and unaffected sibling controls were enrolled at 17
+                    clinical centers in the United States, Canada, Germany, and Greece 15 . The NIA-LOAD Family
+                        Study 16 cohort are families
+                    with two or more affected siblings with LOAD and unrelated, non-demented control
+                    subjects similar in age and ethnic background. One case per family was selected
+                    and controls were deteremined to be cognitively normal after an in-person
+                    neurological examination and were not related to a study participant. The Oregon Health and Science University (OHSU) were recruited from
+                    aging research cohorts at 10 NIA-funded ADCs and do not overlap with other ADGC
+                    samples. The TGEN dataset is a publicly available sample of AD
+                    cases and controls ( http://www.tgen.org/research/index.cfm?pageid=1065 17 . The University of
+                        Miami/Vanderbilt University/Mt. Sinai School of Medicine (UM/VU/MSSM) were new and previously published 18 – 22 subjects
+                    ascertained at the University of Miami, Vanderbilt University and Mt. Sinai
+                    School of Medicine. The Wadi Ara dataset are from an inbred Arab
+                    community in northern Israel 23 – 26 .
+
+The cohorts used were genotyped either on Illumina or Affymetrix SNP
+                    arrays ( Table 2 ). We selected 17 SNPs
+                    from CR1 , CLU , and PICALM that were recently reported to be significantly associated with AD in two large
+                    GWA studies 6 – 7 ( Table 3 ).
+                    Additional genotypes were obtained using an Applied Biosystems’ (ABI)
+                    TaqMan Assays including genotypes for rs7982. Genotyping for the APOE ε2/ε3/ε4 alleles was performed
+                    as described in the supplementary material provided online.
+
+The analysis included only individuals with a censoring age of 60 years
+                    or older. The age used for cases was that most closely approximating the age of
+                    disease onset. For some cohorts, age-at-onset was ascertained while for others,
+                    only age-at-ascertainment was available. For some autopsied subjects, only
+                    age-at-death was available and was used as the censoring age. For all studies,
+                    the age used for controls was the age of last exam or death. (see also supplementary material provided online).
+
+We imputed genotypes for all SNPs within 10Kb of the three genes
+                        using the Markov Chain haplotyping (MaCH) software 27 to obtain a common set of SNPs across all
+                        datasets. We imputed SNPs from both HapMap releases II and III and retained
+                        those with pairwise linkage disequilibrium (LD; r 2 > 0.50) for further analysis (see also
+                        the supplementary
+                            material online for more detail and for data cleaning
+                        protocols).
+
+To determine if population substructure existed in the different
+                        datasets, we used 30,000 – 100,000 SNPs with minor allele frequency
+                        (MAF) > 0.25 and minimal between-SNP linkage disequilibrium
+                                ( r 2 < 0.20) sampled at random from
+                        the autosomes, and analyzed with the STRUCTURE software package 28 – 29 . To account for population substructure in
+                        association analyses, EIGENSTRAT 30 was used on each cohort to generate loadings from principal components
+                        analysis on the sampled SNPs sampled (see also supplementary material online).
+
+Genotyped and imputed SNPs were tested for association with AD using
+                        a logistic generalized linear model (GLM) in case-control datasets and a
+                        logistic generalized estimating equation (GEE) in family-based datasets.
+                        Genotyped SNPs were coded as 0, 1, or 2 according to the number of minor
+                        alleles under the additive genetic model, whereas APOE was
+                        coded as 0 or 1 according to the presence or absence of the ε4
+                        allele. For imputed SNPs, a quantitative estimate between 0 and 2 for the
+                        dose of the minor allele were used to incorporate the uncertainty of the
+                        imputation estimates. Regression models for each SNP without covariates were
+                        evaluated for comparison with results from the original reports 6 – 7 Additional models containing all permutations of covariates
+                        for age, gender and APOE ε4 status were also
+                        tested. Formal tests of interaction between the SNPs and APOE were assessed by including the main effects and an
+                        interaction term. Regression models were evaluated using the R package 31 . Heterogeneity among odds ratios was
+                        assessed using Cochran’s Q , which was calculated as
+                        the weighted sum of squared differences between individual study effects and
+                        the pooled effect across studies, with the weights being those used in the
+                        pooling method. Q is distributed as a χ 2 with k (number of studies)
+                        minus 1 degrees of freedom. The I 2 statistic 32 – 33 describes the percentage of
+                        variation across studies that is due to heterogeneity rather than chance and
+                        is calculated as follows: I 2 =
+                        100% × ( Q −df)/ Q.
+                                I 2 is an intuitive and simple expression of the
+                        inconsistency of studies’ results. Unlike Q it does
+                        not inherently depend upon the number of studies considered. SNP association
+                        results obtained from individual datasets were combined by meta-analysis
+                        using the inverse variance method implemented in the software package METAL
+                            ( http://www.sph.umich.edu/csg/abecasis/Metal/index.html ). An
+                        additive model was assumed and the association results across datasets were
+                        combined by summing the regression coefficients weighted by the inverse
+                        variance of the coefficients. The meta-analysis P-value of the association
+                        was estimated by the summarized test statistic.
+
+## RESULTS
+To analyze the role CR1, CLU, and PICALM in AD risk, the ADGC performed a
+                meta-analysis using phenotypes and GWAS data from 12 different cohorts ( Table 1 ). The ADGC is a collaborative network
+                in the United States that includes the 29 NIA-funded ADCs and numerous AD genetics
+                investigators who are working to identify genes responsible for AD. Of 7,070 AD
+                cases examined, 3,055 of had autopsy documentation of AD. Of the 8,169 cognitively
+                normal elderly subjects (age >60) examined, 1,155 had autopsies documenting
+                absence of significant AD neuropathology. The cohorts used included unrelated
+                Caucasian cases and controls from the following sources: the NIA-funded ADCs,
+                    ADNI 8 , 34 , UM/VU/MSSM 18 – 21 , TGEN 17 , and OHSU 35 . Caucasian cases
+                and controls from the following family-based studies were also included: the MIRAGE
+                    Study 15 , FHS 13 – 14 , 36 , NIA-LOAD, and CAMP 9 – 10 .
+                Populations not of Caucasian descent included African American subjects from several
+                ADCs, a community-based (Detroit) study of AD, and the MIRAGE study 15 ; Caribbean Hispanics from Manhattan, the Dominican
+                Republic, and Puerto Rico; and members of a genetically isolated Arab community in
+                Wadi Ara, Israel 23 – 26 .
+
+In each dataset, we evaluated association of AD with SNPs in or near CR1 , CLU , and PICALM that
+                were genotyped on various platforms or imputed ( Table 2 ). Results were combined across datasets using a meta-analysis
+                approach ( Table 3 ). We analyzed each
+                racial/ethnic group separately. In Caucasians, the largest group (n = 5,935
+                cases, 7,034 controls), we found significant evidence of association with multiple
+                SNPs at each locus. In the unadjusted analyses, we obtained an odds ratio (OR) of
+                0.91 with a 95% confidence interval (CI) of (0.85 – 0.96) for CLU SNP rs11136000, which is comparable to the effect-size
+                reported previously for the same SNP (ORs = 0.86 7 and 0.91 6 ). For
+                the CR1 SNP rs3818361, we obtained an OR of 1.14 (CI = 1.07
+                – 1.22) compared to the previous report of 1.19 7 . PICALM SNP rs3851179 had an OR of
+                0.89 (CI = 0.84 – 0.94) compared to 0.86 observed previously 6 . None of the SNPs were significantly
+                associated with AD in any of the other ethnic groups analyzed together or
+                separately, possibly due to small sizes of these groups (1,135 cases and 1,135
+                controls, Supplementary eTable
+                    1 ).
+
+We also examined the influence of APOE on the associations
+                of the three genes with AD, since APOE is a known AD susceptibility
+                locus in most ethnic groups 5 , 37 and several APOE genotypes have been
+                reported to modify disease expression in persons with rare mutations in presenilin 1
+                    ( PSEN1) 38 , presenilin 2
+                    ( PSEN2) 39 , and the
+                amyloid precursor protein ( APP) 39 – 40 genes. For the 13
+                cohorts where APOE genotype data were available, presence of one or
+                more APOE ε4 alleles was significantly associated with AD
+                (ORs ranging from 1.80 to 9.05) in all groups except the Amish and Israeli-Arabs
+                    ( Table 4 ). We next re-evaluated the
+                association of AD with the CR1, CLU and PICALM SNPs in the Caucasian cohorts adjusting for age, sex, and the presence of at least
+                one APOE ε4 allele and found greatly reduced evidence for
+                association with PICALM after adjustment ( Table 3 , Supplementary eTable 2 ), an effect that
+                is attributable primarily to APOE ( eTable 2 ). To explore this effect
+                further, we analyzed the association of CR1 , CLU ,
+                and PICALM SNPs with AD in subgroups stratified by the presence
+                (+) or absence (−) of the APOE ε4 allele.
+                This analysis revealed that the association with CLU is evident
+                only among ε4 (−) subjects, whereas the association with PICALM is evident only among ε4 (+) subjects
+                    ( Table 5 ). Analysis of models containing
+                terms for the main effects of each SNP and APOE ε4
+                (+/−), and an interaction term showed significant evidence of
+                interaction for APOE ε4 (+/−) and seven of
+                the nine PICALM SNPs with indications of a synergistic effect of
+                these two genes on AD risk ( Table 5 and Supplementary eTable 3 ).
+                Interactions of CR1 and CLU SNPs with APOE ε4 (+/−) were not statistically
+                significant.
+
+## COMMENTS
+Using a large multi-center dataset of AD cases and controls, we confirm that CR1, CLU and PICALM are AD susceptibility loci
+                in European ancestry populations. The ORs we get for each is similar to those
+                obtained in the original discovery cohort, suggesting that these estimates of risk
+                are quite accurate for the Caucasian AD population, reflecting in part the large
+                size of the cohorts used 6 – 7 . Clearly a large dataset is required to
+                replicate these small-effect loci. We were unable to replicate the association of
+                these 3 genes in the African-American, Arab, and Hispanic populations. However,
+                further analysis is merited in these racial/ethnic groups using larger cohorts.
+
+While this manuscript was being prepared for publication, a GWAS on AD was
+                reported by Seshadri et al . 41 . There was some overlap in that study and ours in that the TGEN and
+                Framingham cohorts are used in both studies. However, whereas Seshadri et
+                    al. used only prospectively diagnosed AD cases (n=52) and
+                unrelated controls (n=2,091) from the Framingham Study, we included these
+                subjects as well as prevalent and newly diagnosed cases and related controls
+                yielding a total sample of 197 AD cases and 2,392 controls. Both studies
+                independently confirm that CLU and PICALM are AD
+                susceptibility genes. A primary difference between the 2 studies is that here we
+                confirm CR1 as an AD locus while Seshadri et
+                    al. 41 obtained only nominal
+                support for CR1 .
+
+The cohorts used here have several features worth mentioning in the context
+                of GWAS for AD. First, the cohorts have a large number of autopsies in the cases
+                (3,055). Because the gold standard for diagnosis is neuropathologic confirmation of
+                AD pathology, using autopsied cases reduces etiologic heterogeneity. Second, the
+                controls used here were elderly, of comparable age to case onset ages, and were
+                cognitively normal. Since these subjects lived to a comparable age to cases without
+                developing AD, the case-control contrast should be more robust than if young
+                controls are used. In addition, cases and controls will be comparably censored at
+                other non-AD loci responsible for common diseases of the elderly that are unrelated
+                to AD. Third, the cohorts used here were not involved in the initial discovery of CLU , CR1 and PICALM and thus
+                represent a completely independent replication dataset. This is critical in terms of
+                evaluating evidence that these genes are truly AD risk loci. The ideal controls for
+                an AD GWAS would be subjects who were cognitively normal at death, had autopsy
+                documentation that plaque load and tangle distribution did not reach criteria for AD
+                pathology, and who were elderly. In autopsy series of older cognitively normal
+                subjects, most have some NFTs and some non-neuritic, and possibly spare neuritic
+                amyloid deposits, but do not reach the accepted threshold for AD, although about a
+                third of these normal subjects do meet neuropathologic criteria for AD 42 – 45 . In autopsy series of MCI subjects, up to two thirds of subjects have
+                AD-level neuropathology 46 . These findings
+                give rise to the hypothesis that amyloid deposition and tangle formation begin
+                before cognitive decline becomes detectable, an idea strengthened by recent
+                biomarker and amyloid imaging work 47 . Thus in
+                persons without dementia, a fraction, mostly those with MCI, will develop AD within
+                a few years and this conversion rate increases with the age of the population,
+                decreasing the contrast between cases and controls and reducing power. To minimize
+                the potential confounding effect of MCI, we excluded them from these analyses and
+                emphasized 1,155 controls with autopsy information ( Table 1 ).
+
+When we examined the interaction CR1, CLU and PICALM, and APOE genotypes, we detected
+                synergy between APOE and PICALM but not with CR1 or CLU. Our results show that the PICALM association is predominantly in subjects carrying the
+                APOE ε4 allele. Consistent with conclusions from previous studies showing
+                interaction of APOE with PSEN1 38 , PSEN2 39 , and APP 39 – 40 , our results
+                suggest that the APOE and PICALM gene products
+                participate in a common pathogenic pathway leading to AD. Since PSEN1 , PSEN2 , and APP are all
+                involved in Aβ production, PICALM may also participate in
+                this process though a more indirect involvement cannot be ruled out and the biology
+                of these interactions remains to be detemined. We did not detect an interaction of APOE with CR1 or CLU, though this could be due to sample size,
+                which was not large enough to detect very weak interactions. Also, since the APOE effect on AD risk is much stronger in young case
+                    populations 37 , the age structure of our
+                study and of others may not be optimal for detecting these interactions.
+
+Our study and those from other consortia 6 , 7 , 56 show that AD
+                susceptibility loci can be identified by GWAS. Initial AD GWAS had samples sizes
+                that, in comparison to those from the large consortia, were modest and inadequately
+                powered to detect the small effect loci replicated here 19 , 48 – 53 . As sample sizes
+                increase, as in other complex disorders, we expect additional loci to be
+                identified.

@@ -1,0 +1,299 @@
+# Title
+Massively-parallel single nucleus RNA-seq with DroNc-seq
+
+# Abstract
+Single nucleus RNA-seq (sNuc-seq) profiles RNA from tissues that are preserved or cannot be dissociated, but does not
+provide the throughput required to analyse many cells from complex tissues. Here, we develop DroNc-seq, massively parallel
+sNuc-Seq with droplet technology. We profile 39,111 nuclei from mouse and human archived brain samples to demonstrate sensitive,
+efficient and unbiased classification of cell types, paving the way for systematic charting of cell atlases.
+
+## ONLINE METHODS
+See Protocol Exchange 21 for a step-by-step protocol for DroNc-seq.
+
+Microfluidic devices were designed using AutoCAD (AutoDESK, USA), tested using COMSOL Multiphysics as well as
+empirically, and fabricated using soft lithographic techniques 22 ( Supplementary Data 1 ). The devices were tested on a Drop-seq setup,
+using bare beads (Tosoh, Japan, Cat # HW-65s) in Drop-Seq Lysis Buffer (DLB 7 ; 10 ml stock consists of 4 ml of nuclease-free H 2 O, 3 ml 20% Ficoll PM−400
+(Sigma, Cat # F5415-50ML), 100 μl 20% Sarkosyl (Teknova, Cat # S3377), 400 μl 0.5M
+EDTA (Life Technologies), 2 ml 1M Tris pH 7.5 (Sigma), and 500 μl 1M DTT (Teknova, Cat # D9750), where the DTT
+is added fresh) and 1x PBS, to optimize flow and bead occupancy parameters in drops. Droplet generation was assessed under a
+microscope in real time using a fast camera (Photron, Model # SA5), and later by sampling the emulsion using a
+disposable hemocytometer (Life Technologies, Cat # 22-600-100) to check droplet integrity, size, and bead occupancy.
+The device design is provided as a Supplementary File 1 and Supplementary Fig. 1a . The unit in the CAD provided is 1 unit =
+1 μm; channel depth on device is 75 μm.
+
+3T3 and HEK293 cells were prepared as described 7 . TF1 cells were
+cultured according to ATCC’s instructions. For DroNc-seq, cells were washed once with PBS, scraped with 2 ml nuclease-
+and protease-free Nuclei EZ lysis or EZ PREP buffer (Sigma, Cat # EZ PREP NUC-101) and processed as tissues, described
+below.
+
+Microdissections of mouse hippocampus and PFC were performed under stereomicroscope 3 . Dissected sub-regions were flash frozen on dry ice and stored at −80°C until
+processed for nuclei isolation. To validate DroNc-seq for fixed tissue ( Supplementary Fig. 1e ), sub-regions were placed in ice-cold RNA later (ThermoFisher Scientific,
+Cat # AM7020), stored at 4°C overnight, after which RNA later was removed and samples were
+stored at −80°C until processing.
+
+Human hippocampus and PFC samples were obtained from the Genotype-Tissue Expression (GTEx) project. Samples were
+originally collected from recently deceased, non-diseased donors 18 , 23 . For this study, we selected samples of frozen hippocampus and PFC from five male
+donors, aged 40–65 (including three samples of PFC and four samples of hippocampus). We used RNA quality from tissues
+as a proxy for tissue quality, and selected tissues with RNA Integrity Number (RIN) values of 6.9 or higher (average RIN was
+7.3). Average post-mortem ischemic interval for tissues was 12.4 hours ( Supplementary Table 6 ).
+
+Nuclei were isolated with EZ PREP buffer (Sigma, Cat #NUC-101). Tissue samples cut into pieces < 0.5 cm or
+cell pellets were homogenized using a glass dounce tissue grinder (Sigma, Cat #D8938) (25 times with pastel A, and 25
+times with pastel B) in 2 ml of ice-cold EZ PREP and incubated on ice for 5 minutes, with additional 2 ml ice-cold EZ PREP.
+Nuclei were centrifuged at 500 x g for 5 minutes at 4°C, washed with 4 ml ice-cold EZ PREP and incubated on ice for 5
+minutes. After centrifugation, the nuclei were washed in 4 ml Nuclei Suspension Buffer (NSB; consisting of 1x PBS,
+0.01% BSA and 0.1% RNAse inhibitor (Clontech, Cat #2313A)). Isolated nuclei were resuspended in 2 ml
+NSB, filtered through a 35 μm cell strainer (Corning, Cat # 352235) and counted. A final concentration of
+300,000 nuclei/ml was used for DroNc-seq experiments.
+
+For comparison experiments of nuclei isolation protocols ( Supplementary Fig. 1c,d ), nuclei were also isolated using the sucrose gradient centrifugation method described for
+sNuc-Seq 3 . The nuclei isolation protocol used here is more efficient
+than the gradient centrifugation based method and does not require ultra-centrifugation. This reduced processing time and
+minimized RNA degradation, facilitating processing of multiple samples.
+
+10 μl of the single nuclei suspension in NSB (described above) was stained with DAPI (Fisher, Cat #
+D1306), loaded on a hemocytometer, and checked under microscope to ensure that nuclei were adequately isolated into
+singletons. The nuclei were suspended in NSB at ~300,000 nuclei/ml. Using ~75 um droplets, loading concentration of 300,000
+nuclei/ml, and ~4.5 million drops/ml, amounts to a Poisson loading parameter, λ ~ 300,000/4,500,000=
+0.07).
+
+Barcoded beads (Chemgenes, Cat # Macosko-2011-10) were prepared as in Ref 7 . Because the DroNc-seq microfluidic device has narrow channels (~70 μm), they are likely to
+clog from large beads, compared to Drop-seq. We therefore size-selected beads < 40 μm diameter using a strainer
+(PluriSelect, Cat # 43-50040-03); in our experience, these smaller beads comprise roughly 55% of the purchased
+bead pool. The barcoded beads were suspended in DLB (described above) and counted at 1:1 dilution in 20% PEG solution
+using a hemocytometer (VWR, Cat # 22-600-102) 7 , at concentrations
+between 325,000 and 350,000 per ml.
+
+The nuclei and barcoded bead suspension were loaded 7 and flown at 1.5
+ml/hr each, along with carrier oil (BioRad Sciences, Cat # 186-4006) at 16 ml/hr, to co-encapsulate single nuclei and
+beads in ~75 μm drops (vol. ~ 200 pl) at 4,500 drops/sec and double Poisson loading concentrations. The smaller
+droplet volume in DroNc-seq results in higher mRNA concentration in drops (> 5x) compared to 125 μm drops in
+Drop-seq.
+
+The theoretical Poisson loading concentration at 1/10 bead and nuclei occupancy for devices with channels 70
+μm wide and 75 μm deep is ~520,000/ml, and 100 μm depth (also tested) is 340,000/ml. We tested bead
+and cell loading at this and other concentrations using species-mixing experiments 7 ( e.g. , Supplementary Fig. 1f and Supplementary Table 1 ) and ease of bead flow as metrics and found
+that beads at 350,000/ml and nuclei at 300,000/ml concentrations performed best, in terms of low human-mouse doublet rate and
+fewer clogging events during droplet generation. At the nuclei loading concentrations used, the occurrence of one or more
+nuclei in a drop follows a Poisson distribution, P(x) = λ x e −λ /x!, where λ = Poisson parameter, and x=2 for doublet
+estimation. As a theoretical lower bound, increasing nuclei concentration will increase doublet rate as λ 2 e −λ /2; e.g., if nuclei loading is increased by 10%, the probability of getting two
+nuclei in a drop will increase from 0.21% to 0.25%. However, the probability of getting two or more nuclei in a drop, i.e. , doublets, triplets, etc., all
+of which would be indistinguishable in species-mixing experiments, is P(x ≥ 2; λ = 0.07) =
+0.5%. In practice, nuclei that stick together or cellular debris could also contribute to doublets or doublet-like
+phenomena. Empirical doublet rates in experiments ranged from ~1% (mouse tissue; clustering analysis) to ~5%
+(species-mixing).
+
+For nuclei experiments on human and mouse tissue, 75 μm DroNc-seq devices were used, except for where 125
+μm Drop-seq device was used for comparison ( Supplementary Fig.
+1b ). Note that for 3T3 nuclei , both 125 μm Drop-seq and 75 μm DroNc-seq devices
+yielded similar results, while 3T3 cells profiled by Drop-seq had better efficiency
+and complexity.
+
+Microfluidic emulsion was collected into 50 ml Falcon tubes for ~22 min each, and left at room temperature for up to
+45 min before breaking drops 7 and performing RT 7 .
+
+Post RT, each barcoded bead had cDNA barcoded with the bead’s unique barcode (BC) bound onto it, also referred
+to as a STAMP 7 . STAMPs from multiple collections of a given sample were
+pooled at this point, resuspended in 1 mL H 2 O, and a 10 μl aliquot of the suspension was mixed with 10
+μl of 20% PEG solution and counted. Aliquots of 5,000 beads were amplified 7 using the following PCR steps: 95°C for 3 min; then 4 cycles of: 98°C for 20 sec,
+65°C for 45 sec, 72°C for 3 min; then X cycles of: 98°C for 20 sec, 67°C for 20 sec,
+72°C for 3 min; and finally, 72°C for 5 min, where X was adjusted according to sample quality. STAMPs from
+mouse tissue were amplified for X=10 cycles and PCR products were pooled in batches of 4 wells or 16 wells. STAMPS
+from human tissue were amplified for X=10 or 12 cycles. Human PCR products were pooled in batches of 4 wells
+(X=12) or 16 wells (X=10). Supernatants from each well were combined in a 1.5 ml Eppendorf tube and cleaned
+with 0.6X SPRI beads (Ampure XP, Beckman Coulter, Cat # A63881).
+
+Notably, the number of PCR wells from a DroNc-seq run depends on the number of STAMPs obtained. A user may access the
+STAMPs in different ways, depending on the number of nuclei they wish to sequence. One would either access the pool one time
+or more, each time taking only a portion of the STAMPs to generate a library, and repeating the process if more is desired.
+For mouse and human brain, it was optimal to use 5,000 STAMPs in each PCR reaction and then pool 4 PCR wells together for
+library preparation, which is expected to yield 1,400 nuclei profiles based on our loading and flow parameters. Depending on
+the desired number of reads per nucleus and sequencing yield, one can pool higher numbers of PCR wells in a single Illumina
+Nextera ™ library, as demonstrated here using 16–32 wells for libraries used in the clustering
+analysis of mouse and human brain tissue.
+
+Purified cDNA was quantified 7 and 550 pg of each sample was
+fragmented, tagged, and amplified in each Nextera reaction 7 .
+
+The libraries were sequenced at 2.2 pM (mouse, 16 wells pool), 2.7 pM (mouse, 4 wells pool), and 2.3 pM (human) on an
+Illumina NextSeq 500. We used NextSeq 75 cycle v3 kits to sequence 20bp and 64bp paired-end reads, with Custom Read1
+primer 7 . The sequencing cluster density and percent passing filter
+number from different experiments varied according to the quality of nuclei samples used, but were optimized around cluster
+density of 220 and 90% passing filter.
+
+Paired-end sequence reads were processed mostly as previously described 7 , 11 . Briefly, the left read was used to infer both the cell
+of origin, based on the first 12 bases (the Nucleus Barcode or NB), and the molecule of origin, based on the next 8 bases
+(Unique Molecular Index or UMI). Reads were first filtered by quality score, and the right mate of each read pair was
+trimmed and aligned to the genome (mouse mm10 UCSC, human hg19 UCSC) using STAR v2.4.0a 24 . Reads mapping to exonic regions of genes as per the mouse UCSC genome (version
+mm10) or the human UCSC genome (version hg19) were recorded.
+
+Nucleus (cell) barcodes that represent genuine nuclei RNA libraries rather than technical and sequencing errors
+were distinguished as previously described 7 , 11 as true or “core” nucleus barcodes. Briefly, barcodes were first filtered based
+on a minimum number of transcripts associated with them and then barcodes were checked for synthesis errors and collapsed
+to core barcodes if they were within an edit distance of 1. To account for amplification bias, gene counts were collapsed
+within each sample, using UMI sequences (within an edit distance of 1, substitutions only), as previously
+described 7 , 11 . The
+expression count (or number of transcripts) for a given gene in a given nucleus was determined by counting unique UMIs,
+and compiled into a digital gene expression (DGE) matrix. The DGE matrix was scaled by total UMI counts, multiplied by the
+mean number of transcripts (calculated for each dataset separately) and the values were log transformed. To reduce the
+effects of library quality and complexity on cluster identity, a linear model was used to regress out effects of the
+number of transcripts and genes detected per nucleus (using the ‘RegressOut’ function in the Seurat
+software package).
+
+Nuclei with less than 200 detected genes and less than 10,000 usable reads were filtered out. We note that, as for
+scRNA-seq, depending on the cell-type in question; the cut-off may need to be set on a case-by-case basis, based on the
+characteristic RNA content of the cell type. A gene is considered detected in a cell if it has at least two unique UMIs
+(transcripts) associated with it. For each analysis, genes were removed that were detected in less than 10 nuclei. After
+filtering, the number of cells and nuclei were as follows: ( 1 ) 1,710 cells from the 3T3 single cell libraries
+(collected by Drop-seq) across two replicates; ( 2 ) 5,636 3T3 nuclei across 6 replicates; ( 3 )
+19,561 nuclei from the mouse brain (4 PFC samples and 4 hippocampus samples from 4 mice used for cell type analysis, and
+an additional 8 cortical samples from 4 mice used for quality control experiments); and ( 4 ) 19,550 nuclei
+from the human brain (3 PFC samples and 4 hippocampus samples from 5 donors). Clusters and cell-type classification were
+robust for different gene detection thresholds. The above threshold was used in all the clustering analyses. For the
+quality control experiments (specifically, testing the performance with RNA Later , different nuclei
+isolation protocols, different microfluidic devices; Supplementary Fig.
+1 ), at least 20,000 usable reads per nucleus were required (the number of reads at which we estimated sample
+saturation; Supplementary Fig. 2f,g ). For the assessment of the
+complexity and sensitivity of DroNc-seq at least 80,000 usable reads per nucleus were required; this analysis was
+performed only with the samples sequenced deeply to an average of 160,000 reads per nucleus, as required for saturation
+analysis.
+
+A list of quality metrics was obtained for all DroNc-seq datasets using Samtools ( http://samtools.sourceforge.net/ ), Picard Tools ( http://broadinstitute.github.io/picard/ ), and in-house scripts. For each single-nucleus profile, we
+calculated the total number of reads mapped to coding regions and UTRs, number of genes detected per nucleus, and the
+percentage of the total number of reads assigned to nucleus barcode that were from: ( 1 ) coding regions,
+( 2 ) UTRs, ( 3 ) intronic regions, ( 4 ) intergenic regions, ( 5 )
+ribosomal RNA (rRNA), and ( 6 ) transcripts derived from the mitochondrial genome.
+
+We compared DroNc-seq (nuclei) and Drop-seq (cells) using several measures. ( 1 ) We compared the capture
+rate efficiency of DroNc-seq and Drop-seq in libraries derived from pooling four PCR wells, followed by sequencing to an
+average depth of 160,000 usable reads per nucleus/cell. The efficiency is defined as the percent of nuclei actually observed
+out of the proportion expected per library, given the Poisson loading of 0.07 for DroNc-seq and 0.1 for
+Drop-seq. For example, at 100% efficiency, a DroNc-seq pool of 20,000 beads is expected to contain 1,400 nuclei (2,000
+cells in Drop-seq). On average, we observed 87% efficiency for DroNc-seq (78%, 89%, and 95%
+efficiency for cell lines, mouse brain, and human brain tissue, respectively) and 72% for Drop-seq on cell lines.
+( 2 ) We compared the means and the distributions of the number of genes and transcripts detected for all cells
+and nuclei that pass our quality filter ( Supplementary Figure
+2b–c ). ( 3 ) We compared the expression profiles of nuclei and cells (3T3 cell line) by
+computing the average expression for each gene (average log transformed UMI counts) in each replicate, and then the Pearson
+correlation coefficients between technical replicates of cells or nuclei (all have r =0.99+/−stdev=0.0023), and between nuclei and cells
+( r =0.81+/−stdev= 0.0024). ( Supplementary Figure 2d ) ( 4 ) We tested for genes differentially expressed between cells and nuclei
+(3T3 cell lines) after pooling technical replicates. We defined differentially expressed genes using Student’s t-test,
+requiring FDR < 0.001, log-ratio > 1 and an average expression across all nuclei or cell samples log(UMI count) > 3.
+We found only two genes up-regulated in the nuclei (lincRNAs Malat1 and Meg3 ), and 57 genes
+up regulated in cells, including many mitochondrial RNAs and ribosomal protein RNAs (known to be stable and thus enriched in
+cells compared to nuclei 13 , 14 ) ( Supplementary Table 2 ). ( 5 ) We compared the fraction of
+the total number of reads that were mapped to ( 1 ) coding regions, ( 2 ) UTRs, ( 3 )
+intronic regions, ( 4 ) intergenic regions, and ( 5 ) ribosomal RNA (as described above) ( Supplementary Figure 2e ).
+
+To select highly variable genes, we fit a relationship between mean counts and coefficient of variation using a
+Gamma distribution on the data from all the genes 19 , 25 , and ranked genes by the extent of excess variation as a function of their mean
+expression (using a threshold of at least 0.2 difference in the coefficient of variation between the empirical and the
+expected and a minimal mean transcript count of 0.005).
+
+We used a DGE matrix consisting only of variable genes as defined above, scaled and log transformed, and then
+reduced its dimensions with principal components analysis (PCA). We used the fast ‘rpca’ function in R
+(package ‘rsvd’), and chose the most significant principal components (or PCs) based on the largest eigen
+value gap 3 (separately for each dataset) to use as input in downstream
+analysis.
+
+We partitioned the profiles into clusters of transcriptionally similar nuclei using the top significant PCs as an
+input to a graph based clustering algorithm, as previously described 11 .
+Briefly, in the first step, we compute a k -nearest neighbor ( k -NN) graph, connected each
+nucleus to its k -nearest neighbors (based on Euclidean distance, using the ‘nng’ function
+of the ‘igraph’ package in R). We next used the k -NN graph as an input to the Infomap
+algorithm 26 , which decomposes an input graph into modules using
+the ‘cluster_infomap’ function in R). The clustering results were visualized by coloring a tSNE 27 2D map post hoc (below). We used k =100 for clustering of each full dataset, and k =80 for the human brain
+subset clustering ( Fig. 2f , Supplementary Fig. 8–9 ).
+
+To identify subtypes of cells, the same analyses were performed as described above but on a specific subset of
+nuclei (one or few of the major clusters; as described in the main text) to partition it to sub-clusters.
+
+We generated a two-dimensional (2D) non-linear embedding of the nuclei profiles using tSNE. The scores along the
+top significant PCs estimated above were used as input to the algorithm (using the ‘Rtsne’ package, with a
+maximum of 2,000 iterations, disabling the initial PCA step and setting the perplexity parameter to 100 for detection of
+the major clusters and 60 for sub-clusters). Since tSNE can produce different visualizations in different runs, we used
+these coordinates only for visualization and not to identify cell clusters. Interestingly, we can associate nuclei with a
+distinct known cell type even for those nuclei with as few as 100 genes detected, suggesting that the cell-type identity
+in the brain can be encoded by a small set of genes, easily detected with shallow sequencing, as previously observed in
+other systems 11 .
+
+To visualize the expression of known marker genes ( e.g. , subtypes of GABAergic neurons in the
+hippocampus and cortex 3 , 19 ) or
+genes found to be up-regulated, we visualized the average expression of the markers across each cluster or cell type as
+violin plots, and visualized the distribution of the expression across cells in the tSNE space by color coding the dots
+based on expression levels.
+
+To rule out the possibility that the resulting clusters are driven by batch or other technical effects, we
+examined the distribution of samples within each cluster and the distribution of the number of genes detected across
+clusters (as a measure of nuclei quality). Overall, the nuclei separated into distinct point clouds in tSNE space that
+were not driven by batch; each cluster/cloud was an admixture of cells from all technical and biological replicates, with
+variable numbers of genes. Related to the number of genes, we note that there is a distinct biological difference in cell
+size (and expected RNA content) between neuronal and glial cells in the brain.
+
+To assess the extent of saturation and required read depth of the DroNc-seq libraries, we used nuclei libraries from a
+mouse cell line (3T3), mouse brain tissue, and human brain tissue (cortex) each sequenced to an average read depth of 160,000
+reads per nucleus. We removed nuclei with less than either 200 genes detected or 10,000 reads. We performed saturation
+analyses for transcripts (UMI) and genes for each nucleus separately by sub-sampling reads with replacement across the range
+of reads for that nucleus (from 0.02 to 0.98 of the total read counts within a given nucleus or cell, in 0.02 increments). For
+each subsampling, we calculated the number of reads and transcripts detected. This sampling procedure was repeated 10 times
+and the mean values were reported. Saturation limits for UMI/genes were estimated by nonlinear fitting of the following
+saturation function to all points generated by the sampling procedure: y = a x ( b + x ) + c
+
+Major cell-type clusters were identified by using a set of known cell-type marker genes from the literature, as
+previously described 3 , 19 . In addition,
+we identified signatures of up-regulated genes for each cluster ( Supplementary Tables 4,5,8 and 9 ), which we used to further validate the identity of the cluster by matching these
+signatures with canonical cell-type marker genes and by testing for enriched pathways. Differentially expressed signatures
+were calculated using a binomial likelihood ratio test 28 to find genes that
+are up-regulated within each cluster compared to the rest of the nuclei in the dataset, with FDR 0.01 and requiring that these
+genes are expressed in at least 20% of nuclei in the given cluster and have a minimum difference of 20% in the
+fraction of nuclei in which they are detected. The differential expression signatures were tested for enriched pathways and
+gene sets using a hypergeometric test (FDR < 0.01). Pathways were taken from the MSigDB/GSEA resource (combining data from
+Hallmark pathways, REACTOME, KEGG, GO and BIOCARTA) 29 .
+
+We flagged problematic clusters to be disregarded in downstream analysis by any one of three criteria:
+( 1 ) clusters that had dubious quality of nuclei, in which the nuclei associated mainly with one sample did not
+associate with specific cell type markers. ( 2 ) clusters with nuclei expressing both overlapping markers of two
+different cell types and having a relatively higher number of transcripts, indicating they might be nuclei doublets; or
+( 3 ) clusters expressing markers of neighboring brain regions that might be a result of non-specific tissue
+dissection (such as genes enriched in the choroid plexus, Supplementary Fig.
+3b ). Several small clusters in the human and mouse brain were discarded from downstream analysis (as annotated in Supplementary Tables 3 and 7 , and in Supplementary Fig. 3b ).
+
+Cell types were defined by combining clusters of all subtypes ( e.g. the GABAergic sub-clusters were
+combined into one group of GABAergic neurons), which was used in the downstream analysis for testing the number of genes and
+transcripts in each cell type, defining cell-type specific expression signatures, sub-clustering, and comparing cell-type
+signatures to previous datasets.
+
+Cell-type specific expression patterns were compared to signatures previously defined in several relevant datasets
+by calculating the pairwise Pearson correlations coefficients between each pair of cell types in the other dataset and
+DroNc-seq datasets for the same set of genes. First , we compared to average cell-type specific signatures
+from sNuc-Seq analysis in the mouse hippocampus 3 (Supplementary Tables in
+Ref. 3 ). Second , we compared to the single cell RNA-seq
+dataset of the mouse visual cortex (Tasic et al. 17 ),
+using the previously defined cell-type annotations and expression values per cell (from GEO dataset GSE71585 and Ref. 17 ). Average log transformed TPM counts, FPKM counts, or scaled
+UMI counts were used to generate the mouse hippocampus 3 , mouse visual
+cortex 17 , and DroNc-seq signatures, respectively.
+
+To determine the congruence of cell subtypes between the DroNc-seq analyses to other neural datasets, we adopted
+an approach which we previously described in an analysis of retinal neurons 11 . Briefly, we trained a multi-class random forest classifier 30 on the clusters defined on the DroNc-seq data separately for human and mouse GABAergic neurons.
+In each case, we used the most variable genes (approximately 700–2,000 genes across datasets, as described above)
+to build a classifier on 60% of the data (training set). For each dataset, the classifier was tested on the
+remaining 40% of the data that was not used for training (test set) to obtain an estimate of the classification
+accuracy. Nuclei in the test set mapped to their correct classes at a rate of 93% for the human GABAergic neurons
+and 91% for the mouse GABAergic neurons (expected accuracy based on random assignment was 12.5%). These
+classifiers were then used to map cells or nuclei in other datasets including single nucleus RNA-seq in the mouse
+hippocampus brain region 3 and single cell RNA-seq in the mouse visual
+cortex 17 .
+
+To determine the congruence of neuron subtypes between DroNc-Seq analysis of hippocampus and PFC and previous
+analyses of human visual cortex (Lake et al . 4 ), we used
+the classifier previously defined in Lake et al. 4 that
+includes a set of signature genes at each point along a decision tree leading to the classification of eight GABAergic
+subtypes. To classify the DroNc-seq nuclei profiles, at each branch point in the tree, we scored each nucleus profile
+using the left and right gene signatures, by the average expression level of all signature genes per nucleus (log
+transformed UMI counts centered around the mean value), and assigned the tested nucleus by the higher score.
+
+RNA in situ hybridization (ISH) images for marker genes was taken from the Allen Institute Brain
+Atlas 31 .
+
+Raw human sequencing data is available at dbGaP, under accession phs000424.v8.p1, and expression tables are available
+at http://www.gtexportal.org/home/datasets . Raw and processed mouse sequencing data is available at https://portals.broadinstitute.org/single_cell and at the Gene Expression Omnibus (GEO) database.

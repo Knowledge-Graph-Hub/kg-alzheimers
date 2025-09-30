@@ -1,0 +1,5 @@
+# Title
+Atomic View of a Toxic Amyloid Small Oligomer
+
+# Abstract
+Amyloid diseases, including Alzheimer's, Parkinson's, and the prion conditions, are each associated with a particular protein in fibrillar form. These amyloid fibrils were long suspected to be the disease agents, but evidence suggests that smaller, often transient and polymorphic oligomers are the toxic entities. Here we identify a segment of the amyloid-forming protein, alphaB crystallin, which forms an oligomeric complex exhibiting properties of other amyloid oligomers: beta-sheet-rich structure, cytotoxicity, and recognition by an anti-oligomer antibody. The X-ray-derived atomic structure of the oligomer reveals a cylindrical barrel, formed from six anti-parallel, protein strands, which we term a cylindrin . The cylindrin structure is compatible with a sequence segment from the Abeta protein of Alzheimer's disease. Cylindrins offer models for the hitherto elusive structures of amyloid oligomers.

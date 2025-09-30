@@ -1,0 +1,5 @@
+# Title
+Microglia as Dynamic and Essential Components of the Amyloid Hypothesis
+
+# Abstract
+In this issue, Griciuc et al investigate the Alzheimer’s disease risk gene, CD33. AD brains have increased CD33 and CD33-positive microglia. Mice lacking CD33 have less AD pathology suggesting a role of microglia for Aβ clearance and development of future therapies.

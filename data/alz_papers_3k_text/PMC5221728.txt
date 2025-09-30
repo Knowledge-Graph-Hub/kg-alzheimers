@@ -1,0 +1,5 @@
+# Title
+Oligodendrocyte heterogeneity in the mouse juvenile and adult central nervous system
+
+# Abstract
+Oligodendrocytes have been considered as a functionally homogenous population in the central nervous system (CNS). We performed single-cell RNA-Seq on 5072 cells of the oligodendrocyte lineage from ten regions of the mouse juvenile/adult CNS. Twelve populations were identified, representing a continuum from Pdgfra + oligodendrocyte precursors (OPCs) to distinct mature oligodendrocytes. Initial stages of differentiation were similar across the juvenile CNS, whereas subsets of mature oligodendrocytes were enriched in specific regions in the adult brain. Newly-formed oligodendrocytes were found to be resident in the adult CNS and responsive to complex motor learning. A second Pdgfra + population, distinct from OPCs, was found along vessels. Our study reveals the dynamics of oligodendrocyte differentiation and maturation, uncoupling them at a transcriptional level and highlighting oligodendrocyte heterogeneity in the CNS.

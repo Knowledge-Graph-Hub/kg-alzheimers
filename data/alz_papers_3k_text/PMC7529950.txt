@@ -1,0 +1,1019 @@
+# Title
+Disrupted place cell remapping and impaired grid cells in knock-in
+model of Alzheimer’s disease
+
+# Abstract
+Patients with Alzheimer’s disease (AD) suffer from spatial memory
+impairment and wandering behavior, but brain circuit mechanisms causing such
+symptoms remain largely unclear. In healthy brains, spatially-tuned hippocampal
+place cells and entorhinal grid cells exhibit distinct spike patterns in
+different environments, a circuit function called “remapping.” We
+tested remapping in amyloid precursor protein knock-in (APP-KI) mice with
+impaired spatial memory. CA1 neurons, including place cells, showed disrupted
+remapping, although their spatial tuning was only mildly diminished. Medial
+entorhinal cortex (MEC) neurons severely lost their spatial tuning and grid
+cells were almost absent. Fast gamma oscillatory coupling between the MEC and
+CA1 was also impaired. Surprisingly, mild disruption of MEC grid cells emerged
+in younger APP-KI mice, although animals’ spatial memory and CA1
+remapping remained intact. These results point to the remapping impairment in
+the hippocampus, possibly linked to grid cell disruption, as circuit mechanisms
+underlying spatial memory impairment in AD.
+
+## Introduction
+Spatial memory impairment such as wandering behavior is one of the most
+troublesome symptoms in Alzheimer’s disease (AD), occurring in more than 60%
+of AD patients ( Hope et al., 1994 ). Despite
+recent molecular and cellular findings in AD research, it is still largely unclear
+how deterioration of brain circuit function causes spatial memory loss in AD. In
+healthy brains of both humans and rodents, grid cells in the medial entorhinal
+cortex (MEC) and place cells in the hippocampus form a neural circuit that is
+critical for spatial memory and navigation ( Scoville
+and Milner, 1957 ; O’Keefe and
+Dostrovsky, 1971 ; Morris et al.,
+1982 ; Ekstrom et al., 2003 ; Fyhn et al., 2004 ; Steffenach et al., 2005 ; Doeller et al., 2010 ). In this circuit, neurons in layers 2 and 3 of
+MEC, containing grid cells, send their axons to the CA1 region of the hippocampus
+that contains spatially-tuned place cells ( Witter
+and Amaral, 2004 ; Moser et al.,
+2015 ; Nilssen et al., 2019 ). Grid
+cells and place cells have an ability to store distinct firing patterns
+corresponding to different environments, a function called “remapping”
+( Muller and Kubie, 1987 ; Fyhn et al., 2007 ; Alme et
+al., 2014 ; Kyle et al., 2015 ).
+Because remapping of place cells and grid cells can provide subjects with distinct
+combinatorial codes for multiple environments, remapping is thought to provide the
+circuit mechanism for the pattern separation of spatial memory ( Colgin et al., 2008 ; Yassa and Stark, 2011 ). So far, the causal relationship between
+remapping and behavioral pattern separation is not clearly established in healthy
+subjects (but see ( Jeffery et al., 2003 )). No
+previous studies investigated remapping of place cells and grid cells in AD
+subjects.
+
+In AD patients, pathophysiology starts with amyloid-β (Aβ)
+plaque deposition from the expression of APP, which may slowly lead to Tau pathology
+and deterioration of brain circuit functions and cellular degeneration in the course
+of more than 20 years ( Sasaguri et al.,
+2017 ). The deterioration of circuit functions, as well as cellular
+degeneration occurring markedly in the entorhinal cortex and the hippocampus, would
+ultimately lead to memory impairment, with which patients are diagnosed with AD
+( Van Hoesen et al., 1991 ; Gomez-Isla et al., 1996 ; Khan et al., 2014 ). To replicate the slow and cumulative effect of
+pathological APP on brain circuit functions in mice, we recently generated a
+knock-in mouse model by manipulating the endogenous murine APP gene into the mutated
+human APP NL-F-G gene ( Saito et al.,
+2014 ). This homozygous knock-in manipulation causes Aβ deposition
+starting at 4-mo in the hippocampus and spatial memory impairment in a Y-maze task
+at 6-mo ( Saito et al., 2014 ). Recent studies
+start to show that, in several transgenic AD models, transgenes were randomly
+inserted into the loci of endogenous genes, thus disrupting them ( Tosh et al., 2017 ; Gamache et al., 2019 ). Therefore, pathophysiology observed in these
+transgenic AD models may not solely derive from the transgenic expression of APP or
+Tau, but from the “knock out” of endogenous genes unrelated to AD.
+These findings may indicate that phenotypes found in previous studies that used
+transgenic models may need to be revisited with another model that assures no
+endogenous genes are disrupted. In our knock-in model, the mutated APP gene is
+inserted into the mouse APP locus without disrupting other genes. Thus,
+pathophysiology in our APP-KI mice is more directly attributable to the mutated APP
+gene. Using APP-KI mice, we investigated the remapping of place cells and grid cells
+underlying the spatial memory impairments.
+
+## Results
+In this study, we specifically asked two questions: (1) Is remapping of
+hippocampal place cells deteriorated in AD subjects? (2) If so, is the place
+cell deterioration linked to impairment of entorhinal grid cells? Alternatively,
+does place cell deterioration occur autonomously inside the hippocampus and
+independent from grid cells? To this end, we investigated the remapping of
+hippocampal place cells and entorhinal grid cells in homozygous
+APP NL-G-F mice (hereafter termed as APP-KI mice). These mice
+start to show Aβ deposition at 4-mo in the hippocampus and spatial memory
+impairment in a Y-maze task at 6-mo ( Saito et
+al., 2014 ). Using this emergence of spatial memory impairment at 6-mo
+as a border, we defined a young period (3–5 mo, termed as “young
+APP-KI mice”) and an old period in APP-KI mice (7–13 mo, termed as
+“old APP-KI mice”).
+
+We first tested if old APP-KI mice of 12–13 months of age show
+impairments in distinguishing spatially distinct environments, as in the case
+for AD patients’ spatial memory impairment. We used a context
+discrimination task, where mice were trained to distinguish two contexts having
+distinct sets of visual and olfactory sensory cues (Context A and Context B, Fig. 1A ; see Methods ) ( McHugh et
+al., 2007 ). Because the APP-KI mouse is on the C57BL/6 background, we
+used 12-mo C57BL/6 mice as a control (referred to as WT mice). Mice were
+initially trained to induce a fear response in Context A for three days where a
+mild electrical foot shock was given 192 seconds after animals were brought into
+the box. ( Fig. 1A , n = 8 WT mice and n = 8
+APP-KI mice). Mice were then familiarized with another context, Context B, for
+two days. During the familiarization, there were no foot shocks. Mice were then
+trained with Context A and Context B for 5 days. During the 5-day training, both
+WT and APP-KI mice learned to freeze for more than 50% of time during the
+initial 3 min exposure to Context A, where a foot shock was again given 192
+seconds after the exposure ( Fig. 1B ). By
+contrast, across the 5-day training, WT mice did not develop freezing in Context
+B where no foot shock was given ( Fig. 1C ).
+APP-KI mice, however, developed freezing in Context B to a similar extent as
+observed in Context A, presumably due to over-generalization between two
+contexts. To assess a degree of spatial discrimination between Context A and
+Context B, we defined Discrimination Index (DI) by calculating
+the difference of percent time frozen between Context A and Context B divided by
+a sum ( Fig. 1D ; see Method ). The DI obtained from WT mice increased during
+the 5-day training, whereas DI did not improve in APP-KI mice. The DI of APP-KI
+mice was significantly lower between Day 3 to Day 5 compared to WT mice
+(p<0.01 or better, Fisher’s LSD post-hoc test after two-way ANOVA;
+p<0.001 for genotype comparison; see Supplementary Table S2 for
+statistics details hereafter). These results demonstrate that old APP-KI mice
+were impaired in context discrimination.
+
+Next, we investigated place cells in old APP-KI mice at 7–13
+months of age. We implanted a recording device containing 64 channels of
+electrodes in APP-KI mice and recorded place cells ( Fig. 1E – F and S1 ; no change
+observed within this age period, Fig. S2C ). No difference in
+animals’ running speed was observed between APP-KI and WT mice ( Fig. S1C ). In this paper
+we took an “analyze-all-the-cells” approach because we focused on
+addressing how the whole population of neurons becomes deteriorated in APP-KI
+mice. To avoid biased sampling toward spatially tuned cells that can be fewer in
+APP-KI mice, we collected all recorded principal neurons (termed as “CA1
+neurons” hereafter) in our data pool (n=105 neurons from n = 10 APP-KI
+mice; n=113 neurons from n = 10 WT mice; Supplementary Table S1 ). No
+difference was observed in the distribution of putative principal neurons and
+interneurons between WT and APP-KI mice ( Fig. S1B ). Neural activity of CA1
+neurons was first recorded in a 1×1 m open field to evaluate their
+spatial tuning and place cell properties ( Fig.
+1G ). A substantial amount of CA1 neurons in old WT mice showed
+spatially tuned spike activities ( Fig. 1H ).
+CA1 neurons in APP-KI mice also showed spatially tuned spikes, but exhibited
+less pronounced firing peaks ( Fig. 1I ). The
+degree of spatial tuning for individual CA1 neurons was quantitatively assessed
+using the spatial information score ( Skaggs et al., 1993 ) ( Fig. 1J – L ). The analysis
+revealed that APP-KI mice had neurons with less spatial tuning (p<0.001),
+with lower mean spatial information than those from the CA1 neurons recorded in
+WT mice (p<0.001). However, mean firing rates, field size and firing
+field number of CA1 neurons did not differ between WT and APP-KI mice,
+suggesting the spatial tuning of CA1 neurons in APP-KI mice was only mildly
+deteriorated ( Fig.
+S1D ). We then defined place cells using the spatial information score
+( Langston et al., 2010 ). Neurons were
+classified as place cells if their spatial information score was larger than
+0.63, which was the 95th percentile of a distribution of spatial information
+score based on shuffled data from 7–13 mo WT mice ( Fig. 1J – K ). This revealed that the proportion of place cells decreased from 50%
+in WT mice to 31% in APP-KI mice (p<0.001; Fig 1K – L ). Among these
+place cells, we did not observe any differences in their spike properties
+recorded from the open field task between APP-KI and WT mice ( Fig. S1E ).
+
+To investigate the remapping of CA1 neurons in APP-KI mice, we then
+trained animals to run back and forth in two 1m linear tracks (Tracks A and B)
+with distinct colors and textures ( Fig. 2A ,
+see experimental protocol). In a daily session, animals made 10 laps for each
+track in the following series: Track A, Track B, Track B and then back again in
+Track A. Similar to the emergence of behavioral spatial discrimination during
+the 5-day training ( Fig. 1 ), CA1 neurons in
+WT mice showed remapping across Track A and Track B on the fifth day of the
+training, with distinct firing patterns between the two tracks ( Fig. 2B , also known as “global
+remapping” ( Leutgeb et al.,
+2005b )). However, with the same training condition, CA1 neurons in APP-KI
+mice showed unchanged firing patterns between Track A and Track B ( Fig. 2C ). Population vector (PVec)
+correlation analysis ( Leutgeb et al.,
+2005b ) was used to assess the degree of remapping between Track A and
+Track B ( Fig. 2D – E ). A PVec correlation of 0 indicates strong
+remapping, whereas a PVec correlation of 1 indicates identical firing patterns
+(that is, no remapping at all) ( Leutgeb et al.,
+2005a ). Conventionally, remapping has been assessed by calculating
+PVec using spatially tuned cells (such as place cells or grid cells). In this
+study, to capture the overall picture of the pathophysiology, we first used all
+recorded CA1 neurons to assess remapping in both WT and APP-KI mice (referred to
+as “population remapping” hereafter). PVec correlation analysis
+from all recorded CA1 neurons revealed that WT mice showed remapping with low
+PVec correlation between Track A and Track B ( Fig.
+2E ). However, APP-KI mice exhibited PVec with significantly higher
+correlation, indicating that the remapping of CA1 neurons was disrupted in
+APP-KI mice (p<0.001, Fig. 2E ). Mean
+PVec correlation in APP-KI mice was significantly higher than that of WT mice
+(p<0.001; Fig. 2F ). We did not
+observe any difference in the field size, number of fields, firing rate or peak
+firing rate in the linear track recordings between WT and APP-KI mice ( Fig. S2A ). Disrupted
+remapping was observed independently of the direction of animals’ runs in
+the tracks ( Fig. S2B ).
+We also assessed the degree of remapping in individual neurons using the spatial correlation score between Track A and Track B
+( Leutgeb et al., 2005b ), confirming
+that CA1 neurons showed disrupted remapping in APP-KI mice compared to that from
+WT mice ( Fig. 2G ). By contrast, activity
+patterns of CA1 neurons between the two recordings in Track A were similar, with
+no difference in PVec correlations between WT and APP-KI mice, indicating that
+stability of spatial tuning in CA1 neurons was spared in APP-KI mice
+(p>0.05, Fig. 2E ; p>0.05, Fig. 2F ).
+
+We then assessed remapping of place cells ( Fig. 2H ). PVec correlation between Tracks A and B confirms that
+neurons defined as place cells also have severe impairment in the remapping
+( Fig. 2H ). Interestingly, the PVec
+correlation from two recordings in Track A were slightly lower in APP-KI mice
+( Fig. 2H , see Fig. S2D for spatial correlation),
+suggesting that the remapping impairment of place cells may be due to their
+reduced stability of place fields. In CA1 non-spatial cells, remapping observed
+in WT mice was also impaired, whereas the field stability remained intact ( Fig. 2I ).
+
+Together, these results demonstrate that CA1 principal neurons from
+APP-KI mice exhibited disrupted remapping for different spatial environments,
+while the spatial tuning of CA1 neurons was only mildly deteriorated.
+
+CA1 neurons in the hippocampus receive spatially-tuned information from
+hippocampal CA3 via the Schaeffer collateral as well as from the MEC via
+temporoammonic pathway ( Witter and Amaral,
+2004 ). We next asked whether these inputs contribute to disrupted
+remapping in CA1. We leveraged findings from previous healthy animal studies
+that identified two distinct types of gamma oscillations ( Bragin et al., 1995 ; Colgin et al., 2009 ) ( Fig. 3A ).
+When fast gamma oscillations occur in the hippocampal CA1, the MEC also exhibits
+fast gamma oscillations ( Colgin et al.,
+2009 ). The oscillations from these two brain regions are highly
+synchronized, suggesting that fast gamma oscillations support signal transfer
+from the MEC to CA1. By contrast, synchronization of slow gamma oscillations
+suggests signal transfer from CA3 to CA1 ( Colgin
+et al., 2009 ). We thus analyzed gamma oscillations in CA1 of WT and
+APP-KI mice. Recordings in the open field, where animals have relatively
+constant running speed, were used for gamma oscillation analyses. In WT mice, we
+observed gamma episodes across the slow and fast gamma range (20 – 90 Hz; Fig. 3B ). However, in APP-KI mice,
+gamma oscillations were observed only in low frequency ranges, and marginal
+gamma episodes were observed at a frequency range above 40 Hz. Comparison of
+oscillatory power normalized by gross 1–100 Hz frequency power ( Deshmukh et al., 2010 ) showed reduction of
+power at 62 – 100 Hz range, and increase of power at 5 – 8 Hz
+(theta) and 14 – 20 Hz (theta harmonics) ranges in APP-KI mice (false
+discovery rate (FDR) corrected for 100 multiple comparisons at 1–100 Hz
+bins, q<0.05; Fig. 3C ).
+
+To test whether fast and slow gamma oscillations are deteriorated in
+CA1, we investigated temporal structures of gamma oscillations. Previous healthy
+animal studies showed that gamma oscillations occur mainly at the peak to
+falling phase of co-existing theta oscillations, a property termed theta-gamma
+coupling ( Bragin et al., 1995 ; Colgin et al., 2009 ). The theta-gamma
+cross-frequency coupling correlates with animals’ memory performance and
+is suggested to be a mechanism for local information processing during memory
+demands ( Tort et al., 2009 ; Axmacher et al., 2010 ). Cross-frequency
+coherence plots from WT mice revealed peaks at two gamma frequency ranges at 20
+– 40 Hz and 40 – 90 Hz that were coupled to specific phases of
+theta oscillations ( Fig. 3D ). We thus
+defined slow gamma oscillations at 20 – 40 Hz frequency range, and fast
+gamma oscillations at 40 – 90 Hz range in our experiment. In APP-KI mice,
+only the slow gamma oscillations from 20 – 40 Hz range were coherent with
+co-existing theta oscillations ( Fig. 3D ).
+The occurrence rate of fast gamma oscillation was diminished in APP-KI mice
+(p<0.001, Fig. 3E ), whereas the
+occurrence rate of slow gamma remained similar (p >0.05, Fig. 3E ). Cross-frequency coupling spectrogram
+revealed fast and slow gamma oscillations occurring in the peak to falling phase
+of theta oscillations in WT mice, whereas fast gamma oscillations were
+significantly lost in APP-KI mice ( Fig.
+3F ). The degree of theta-gamma cross-frequency coupling was assessed by
+measuring the phase-locking vector length ( Colgin
+et al., 2009 ). The analysis revealed diminished theta-fast gamma
+coupling, while theta-slow gamma coupling was spared (p<0.05 for fast
+gamma; p>0.05 for slow gamma, Fig.
+3G ). To test whether spike timing is entrained by fast and slow gamma
+oscillations, we examined the temporal organization of spike activities during
+slow and fast gamma oscillations ( Colgin et al.,
+2009 ). Phase-locking of spikes to fast gamma oscillations was
+diminished in APP-KI mice, but not for slow gamma oscillations (p<0.001
+for fast gamma, p>0.05 for slow gamma; Fig.
+3H – I and Fig. S3C ). Altogether, our results
+demonstrate that fast gamma oscillations were disrupted in the hippocampal CA1
+of APP-KI mice, while slow gamma oscillations were relatively spared. These
+results suggest that MEC→CA1 signal transfer via fast gamma oscillations
+is deteriorated in APP-KI mice, whereas slow gamma-mediated CA3→CA1
+signal transfer remains relatively intact.
+
+Disrupted fast gamma oscillations observed in hippocampal CA1 suggest
+that neural activity in the MEC is deteriorated in APP-KI mice. To directly test
+this possibility, we next investigated spatial representation in the MEC of old
+APP-KI mice (7–13 mo). We implanted a recording device in the dorsal MEC,
+and performed unbiased recording of principal neurons in layers 2 and 3 (termed
+as “MEC neurons” hereafter, n=61 neurons from n = 13 WT mice; n=
+65 neurons from n = 13 APP-KI mice; Fig.
+4A – C and Fig. S4 ; no difference in the
+distribution of sampling positions between WT and APP-KI mice, Fig. S4B ). To test for their
+spatial tuning, MEC neurons were recorded while animals were randomly foraging
+in the 1×1 m open field. Among the recorded MEC neurons from WT mice, a
+portion of cells exhibited spatially tuned multiple firing fields as grid cells
+( Fig. 4D ). By contrast, most of the
+recorded MEC neurons in APP-KI mice showed scattered firing patterns around the
+open field ( Fig. 4E ). To evaluate their
+grid cell property, we analyzed the gridness score by computing
+the autocorrelation of their firing rate map ( Sargolini et al., 2006 ) ( Fig.
+4D – F ). A cumulative
+distribution curve of the gridness score for all recorded MEC neurons indicates
+that, compared to WT mice, APP-KI mice significantly lost a group of neurons
+with gridness score of more than ~0.4 (p<0.05, Fig. 4F ). To define grid cells, we used a cut-off of
+gridness score at 0.41, which was the 95th percentile of the distribution of
+gridness score based on the shuffled WT data ( Langston et al., 2010 ) ( Fig. 4F and S4D ). We found
+that, among recorded MEC neurons, 20% were grid cells in WT mice, whereas only
+2% were grid cells in APP-KI mice (p<0.001, Fig. 4F – G ). The
+scattered firing of APP-KI neurons resulted in significantly reduced spatial
+tuning (p< 0.001) and increased firing field area (p <0.01, Fig. 4G ). However, we did not observe any
+difference in their mean or peak firing rates, suggesting that MEC neurons in
+APP-KI mice did not show hyperactivity reported previously in severe transgenic
+AD models ( Busche et al., 2008 ) ( Fig. 4G and S4D ). The distribution of spatial
+information scores for MEC neurons indicated that APP-KI mice lost a significant
+portion of neurons with high spatial information score, suggesting that
+aperiodic spatially-tuned MEC neurons ( Fyhn et
+al., 2004 ; Diehl et al., 2017 ; Hardcastle et al., 2017 ; Miao et al., 2017 ) were also impaired in
+APP-KI mice ( Fig. 4H ). These data indicate
+that spatial tuning of MEC neurons, including grid cells, was severely disrupted
+in APP-KI mice.
+
+We then tested remapping of MEC neurons. Previous healthy animal studies
+showed that MEC grid cells exhibit remapping across distinct environments ( Fyhn et al., 2007 ; Diehl et al., 2017 ). The remapping of MEC grid cells
+occurs coherently with the remapping of hippocampal place cells. Consistent with
+the previous finding, we observed that MEC neurons in WT mice showed distinct
+grid fields between Track A and Track B ( Fig.
+5A ). However, MEC neurons in APP-KI mice showed scattered firing
+along both Track A and Track B, showing marginal difference in the firing
+patterns between the two tracks ( Fig. 5B ).
+PVec correlation analysis from all recorded MEC neurons revealed that APP-KI
+mice show larger PVec correlations than that from WT mice, indicating that
+population remapping property of MEC neurons is reduced in APP-KI mice
+(p<0.001, Fig. 5C – D and S5 ). We also assessed spatial
+correlation of individual neurons between Track A and Track B, confirming that
+MEC neurons showed reduced remapping property in APP-KI ( Fig. 5E ). We did not observe a significant difference
+between WT and APP-KI mice in the stability of MEC neurons from two Track A
+recordings (p > 0.05, Fig.
+5C – E ).
+
+We next assessed remapping properties from each cell class of MEC
+neurons. Because grid cells were significantly disrupted and reduced in number
+from APP-KI mice ( Fig. 4G and S4D ), remapping analysis
+could not be performed for grid cells. Spatially tuned cells were also reduced
+( Fig. 4E ), resulting with 12 spatially
+tuned cells recorded in APP-KI mice. Although less reliable from the limited
+sample number, remapping of spatially tuned cells in APP-KI mice were comparable
+to that in WT mice, suggesting intact remapping from surviving spatially tuned
+cells ( Fig. 5F ). By contrast, while MEC
+non-spatial cells showed discernible remapping in WT mice, remapping property of
+non-spatial cells was reduced in APP-KI mice ( Fig.
+5G ).
+
+To obtain insight into the causality between impairment of spatial
+tuning and remapping property in CA1 and MEC neurons, we measured the
+correlation between spatial information score and spatial correlation between
+Track A and Track B in individual neurons ( Fig.
+5H – I ). In WT mice,
+neither CA1 neurons nor MEC neurons showed correlation between spatial tuning
+and remapping, suggesting that these two functional properties are independent
+in healthy WT mice (p>0.05, Spearman correlation, Fig. 5H – I ). However, in APP-KI mice, we found that MEC neurons show significant
+negative correlation between spatial information score and spatial correlation
+(p<0.001 and r (67) = −0.49, Spearman correlation, Fig. 5I ; also see Fig. S5D ). By contrast, CA1 neurons
+in APP-KI mice did not show significant correlation (p>0.05, Fig. 5H ), implying that the remapping
+disruption of individual CA1 neurons is independent from their spatial tuning
+property.
+
+To test if the impairment of MEC neurons is accompanied by the
+deterioration of local gamma oscillations, we next examined gamma oscillations
+in the MEC ( Fig. 6A ). Because previous
+healthy animal studies found only fast gamma but not slow gamma oscillations in
+the MEC ( Chrobak and Buzsaki, 1998 ; Colgin et al., 2009 ), we focused our
+analysis on fast gamma oscillations. We indeed observed only marginal slow gamma
+oscillations in the MEC of WT mice ( Fig. 6B and 6E ). No difference was observed for MEC
+slow gamma oscillations between WT and APP-KI mice ( Fig. S6 ). The analysis of
+theta-fast gamma cross-frequency coupling revealed the absence of fast gamma
+oscillations coupled to theta oscillations in APP-KI mice ( Fig. 6B ). However, we did not see any difference in
+the normalized oscillatory power nor in the occurrence rate of fast gamma
+oscillations between WT and APP-KI mice (q>0.05, FDR corrected, Fig. 6C ; p>0.05 for gamma occurrence, Fig. 6D ). Theta-phase spectrograms
+showed tendency of fast gamma oscillations in APP-KI mice being weakly modulated
+by theta oscillations compared to WT mice (p=0.051, Fig. 6E – F ). Although our observation revealed only a tendency of reduction, the
+tendency was consistent with our previous finding that the theta-fast gamma
+coupling was reduced in the MEC of 5-mo anaesthetized APP-KI mice ( Nakazono et al., 2017 ). The spikes from MEC
+neurons in WT mice were phase-locked to local fast gamma oscillations, as
+reported in a previous study ( Quilichini et al.,
+2010 ) ( Fig. 6G – H ). However, the spike-fast gamma
+phase-locking was markedly disrupted in APP-KI mice (p<0.01, Fig. 6G – H and S6B ).
+
+To directly test the idea that the impairment of fast gamma oscillations
+affects MEC→CA1 signal transfer in APP-KI mice, we implanted two bundles
+of electrodes and simultaneously recorded from the hippocampal CA1 and the MEC
+(n = 6 WT mice and n = 6 APP-KI mice) ( Fig.
+6I ). To test the degree of synchronization between the gamma
+oscillations in the MEC and the CA1, we assessed coherence of oscillatory
+activity ( Colgin et al., 2009 ; Igarashi et al., 2014 ). Analysis revealed
+that the gamma oscillations between the MEC and CA1 have weaker coherence at 58
+– 75 Hz range in APP-KI mice (q<0.05, FDR corrected; Fig. 6J ). We then collected oscillatory
+activity in the MEC when fast gamma oscillations were detected from the
+hippocampal CA1 ( Colgin et al., 2009 )
+( Fig. 6K ). The MEC fast gamma
+oscillations were significantly desynchronized from the CA1 fast gamma
+oscillations in APP-KI mice. This was confirmed by the decreased MEC:CA1 ratio
+of fast gamma powers, where fast gamma power of CA1-gamma-triggered LFP episodes
+in the MEC was divided by the power of CA1 fast gamma episodes ( Colgin et al., 2009 ) (p<0.05, see method ) ( Fig.
+6L ). The reduction of MEC-CA1 fast gamma coupling ( Fig. 6K – L )
+without the reduction of MEC fast gamma power ( Fig. 6C ) implies that MEC fast gamma episodes tend to occur when CA1
+fast gamma is absent. In agreement with this notion, a reduction of CA1/MEC fast
+gamma power ratio was also observed when MEC gamma was used for triggering
+( Fig. S6C ).
+Altogether, these results demonstrate that the temporal coordination of the
+gamma oscillations between the MEC and the CA1 was diminished, suggesting that
+MEC→CA1 signal transfer mediated by the fast gamma oscillations is
+deteriorated in APP-KI mice.
+
+The above results imply that the impairment of MEC neurons can be a
+primary deficit that induces other secondary impairments in old APP-KI mice. If
+this is the case, the impairment of MEC neurons may emerge in the earlier phase
+of AD progression. To test this possibility, we examined spatial memory and
+recorded MEC and CA1 neurons from young APP-KI mice of 3–5 months of
+age.
+
+We first assessed the context discrimination of young APP-KI mice ( Fig. 7A – C ). Intriguingly, young APP-KI mice discriminated Context A and
+Context B, and did not develop freezing in Context B similar to control young WT
+mice (p> 0.05 for genotype, two-way ANOVA, n = 8 APP-KI and n =8 WT mice; Fig. 7A – B ). Discrimination index did not differ between APP-KI
+and WT mice (p> 0.05 for genotype, two-way ANOVA). These data indicate
+that young APP-KI mice exhibited intact spatial memory.
+
+The hippocampal CA1 region of young APP-KI mice already showed Aβ
+plaque formation ( Fig. 7D ). Our recordings
+from young APP-KI mice showed that CA1 neurons exhibit comparable spatial tuning
+and remapping (p>0.05 for all of spatial tuning, % place cells and
+population vector correlation, n = 35 neurons in n = 5 WT mice and n = 50
+neurons in n = 6 APP-KI mice; Fig.
+7E – H ). Remapping property
+was spared in place cells, but was weakly diminished in non-spatial cells ( Fig. 7I – J ). These data suggest that Aβ plaque formation in CA1 does
+not affect spatial tuning nor remapping of CA1 neuronal population in young
+APP-KI mice.
+
+We then assessed MEC neurons of young APP-KI mice. The MEC showed a
+moderate amount of Aβ plaques ( Fig.
+8A ). As expected, our recording showed that impaired spatial tuning
+of MEC neurons existed concurrently with Aβ plaques ( Fig. 8B – C ). Spatial information was diminished (p<0.01; n = 42 neurons in
+n = 11 WT mice and n = 39 neurons in n = 8 APP-KI mice). The percentage of grid
+cells decreased to 7.7 % (p<0.05, Fig.
+8C ), a milder disruption compared to the reduction to 2% in 12-mo
+APP-KI mice. The population remapping of MEC neurons, as well as remapping of
+spatially tuned cells, were weakly reduced compared to young WT mice
+(p<0.01, Fig. 8D – F ), whereas no reduction was discernible for
+non-spatial cells (p>0.05, Fig.
+8G ).
+
+Figure 8H summarizes the data
+obtained in our study ( Fig. 8H ). The
+age-dependent progression of deterioration in spatial memory, spatial tuning,
+and population remapping found in our results were plotted for CA1 and MEC. In
+these plots, we defined Impairment Index (II) as the following:
+each functional property (spatial tuning score for spatial tuning, PVec
+correlation for remapping and Discrimination Index for spatial memory) obtained
+from APP-KI mice was first normalized by that obtained from age-matched WT mice.
+This ratio was then subtracted from 1 ( II = 1 − APP-KI /
+WT) so that II becomes 0 if there is no impairment and II becomes 1 if the functional property is completely
+impaired (see Method ). Properties in
+APP-KI mice with significant reduction relative to WT mice found in the study
+were shown with asterisks (*p<0.01, **p<0.001). In these plots,
+the impairment of spatial memory was plotted in both CA1 and MEC plots. For
+Aβ plaque, percent areas with Aβ plaque in young APP-KI mice were
+plotted so that the values obtained from the same area in old mice become 1.
+These plots indicate that the spatial tuning impairment in the MEC emerges in
+young APP-KI mice, and suggest that this impairment is already close to their
+asymptote. By contrast, memory impairment and the CA1 remapping impairment
+emerged only in old APP-KI mice. These results demonstrate that the spatial
+tuning impairment of MEC neurons emerged earlier than memory impairment or CA1
+remapping impairment in APP-KI mice.
+
+## Discussion
+In this study, using novel APP-KI mice, we for the first time investigated
+how the expression of mutated APP gene and resultant Aβ affect the remapping
+of neurons in CA1 and the MEC. In old APP-KI mice, we found that the spatial memory
+and remapping of CA1 neurons was disrupted. Spatial tuning of MEC neurons, including
+grid cells, was severely impaired. By contrast, in young APP-KI mice that do not
+show any spatial memory impairment, mild impairments of MEC neurons were found while
+CA1 neurons were still intact for both spatial tuning and remapping. These results
+are summarized in Fig. S8D .
+Thus, answers to our initial questions would be that, (1) yes, the remapping of CA1
+place cells was disrupted, and (2) yes, the impairment of remapping in CA1 place
+cells accompanied the spatial tuning impairment of MEC neurons, including grid
+cells. The alternative hypothesis that the place cell deterioration occurs
+independently from impairments in MEC neuron is thus unlikely. Previous anatomical
+studies in AD patients showed that neurons in the entorhinal cortex exhibit the
+earliest neuronal degeneration ( Van Hoesen et al.,
+1991 ; Gomez-Isla et al., 1996 ),
+but the functional deterioration of entorhinal neurons and its link to spatial
+memory impairment has been unclear. Although impairments in the spatial tuning of
+place cells or grid cells were reported ( Cacucci et
+al., 2008 ; Kunz et al., 2015 ; Fu et al., 2017 ; Mably et al., 2017 ), no previous studies have
+investigated remapping in AD subjects. Our study provides the first circuit-level
+evidence that identifies the remapping disruption of hippocampal CA1 neurons,
+possibly linked to the impairment of MEC neurons, and as an underlying mechanism for
+memory impairment in AD ( Fig.
+S8D ).
+
+What are causal relationships between the MEC spatial tuning impairment, CA1
+remapping impairment, spatial memory impairments and Aβ plaque formations in
+the MEC and CA1 in our APP-KI mice? Previous studies in healthy animals showed that
+the manipulation of MEC neuronal activity modulates remapping in CA1 ( Miao et al., 2015 ; Kanter et al., 2017 ), whereas another study showed that
+CA1 remapping can occur without inputs from the MEC ( Schlesiger et al., 2018 ). Thus, the mechanism for remapping in the
+entorhinal-hippocampal circuit has not been clearly established in healthy subjects.
+Importantly, our recording from young APP-KI mice provides the
+following clues ( Fig. 8F ): (1) The spatial
+tuning impairment was found only in the MEC, but not in CA1; (2) Although Aβ
+plaques were already present weakly in CA1, spatial tuning and remapping in CA1 were
+not affected in young APP-KI mice; (3) Behavioral memory impairment did not occur
+even with the emergence of mild MEC spatial tuning impairment. Taken together, this
+line of evidence raises a possibility that the circuit dysfunction progresses in the
+direction of MEC→CA1 in the entorhinal-hippocampal circuit. Although
+speculative, the following steps may coherently explain our findings: (i) In young
+APP-KI mice, Aβ plaques induced by the knock-in expression of mutated APP may
+cause the impairment of spatial tuning of MEC neurons including grid cells ( Fig. 8 ), presumably through the deterioration of
+network interaction in the MEC ( Moser et al.,
+2014 ). (ii) As disease progresses in old APP-KI mice, MEC neurons with
+impairment in spatial tuning increase in number ( Fig.
+4 ), and remaining neurons with intact remapping property further becomes
+reduced ( Fig. 5 ). Note that, because of the
+severe disruption of spatial tuning of MEC neurons, it was unclear from our result
+if remapping was truly disrupted in the MEC. The spatial tuning impairment in the
+MEC may result in the severe remapping impairment of CA1 neurons in old APP-KI mice
+( Fig. 2 ), even though the CA1 spatial
+tuning is relatively spared ( Fig. 1 ). (iii) The
+remapping impairment of CA1 neurons may ultimately result in the behavioral
+impairment in spatial memory ( Fig. 1 ). It is
+likely that the dysfunction in the CA1, rather than the dysfunction in the MEC, may
+be the direct cause for the spatial memory impairment. A pathophysiological
+progression in the opposite CA1→MEC direction, or the autonomous emergence of
+symptoms in the CA1, would be incompatible with the early emergence of MEC
+impairment observed in young APP-KI mice. Our results, however, do not exclude a
+possibility that another brain region unexamined in this study causes impairments
+observed in the MEC and CA1. Whatever the causality may be, our finding emphasizes
+the importance of the entorhinal cortex as a brain region that manifests spatial
+tuning impairment earlier than the hippocampus. In the AD research field, the
+hippocampus has been the main brain region of interest for decades. Together with a
+previous study showing diminished grid cell activity in humans at AD risk ( Kunz et al., 2015 ), our results point to MEC
+spatial tuning impairment as a potential “functional biomarker” that
+may predict subsequent development of memory impairments in AD. Yet, discrepancy of
+pathophysiology can exist between APP-KI mice and AD patients. The combination of
+three mutations (Swedish, Iberian and Arctic mutations) harbored in APP-KI mice does
+not occur simultaneously in familial AD patients, and AD patients do not harbor
+homozygous mutations as used in this study. Importantly, the impairments found in
+our APP-KI model need to be thoroughly tested in AD patients.
+
+Consistent with our previous findings showing disrupted fast gamma
+oscillations in the MEC of young APP-KI mice ( Nakazono et al., 2017 ), we found that fast gamma oscillations were
+disrupted in old APP-KI mice in both the MEC and CA1. The fast gamma coupling
+between the MEC and CA1 is also diminished, suggesting impaired signal transfer in
+the MEC→CA1 circuit. Together with previous finding of impaired gamma
+oscillations in the hippocampus ( Iaccarino et al.,
+2016 ; Mably et al., 2017 ), our
+results suggest that the reactivation of gamma oscillations may be used as a
+potential therapeutic method in AD ( Nakazono et al.,
+2018 ). Interestingly, we observed a gap of fast and slow gamma
+oscillations around 40 Hz in our WT and APP-KI mice, compared to the border at 50 Hz
+in rats ( Colgin et al., 2009 ). There may exist
+a species-specific border between slow and fast gamma oscillations in mice.
+
+In healthy animals, neurons in the entorhinal-hippocampal circuit exhibit
+two forms of remapping known as “global remapping” and “rate
+remapping” ( Leutgeb et al., 2005b ).
+When animals move across environments with distinct features, entorhinal grid cells
+and hippocampal place cells show distinct patterns of firing (global remapping)
+( Muller and Kubie, 1987 ; Fyhn et al., 2007 ). By contrast, when there is only a
+slight change in an environment, hippocampal place cells show change in their firing
+rate, while keeping the position of firing field constant (rate remapping) ( Leutgeb et al., 2005a ; Leutgeb et al., 2007 ). Although it is likely that both
+global remapping and rate remapping are needed for high-precision spatial memory,
+disruption of global remapping would completely deprive AD patients of spatial
+information about which environment they are currently in. Our results showing the
+disruption of global remapping in the hippocampal CA1 of APP-KI mice clearly explain
+the devastating impairment of spatial memory in AD patients, who often exhibit the
+wandering symptom and cannot discriminate distinct features of surrounding
+environments. Future development of techniques to protect or reactivate spatial
+tuning and remapping in the entorhinal-hippocampal circuit may lead to therapeutic
+methods that can be used to slow the rate of spatial memory decline in AD
+patients.
+
+## STAR★METHODS
+Further information and requests for resources and reagents should
+be directed to and will be fulfilled by the Lead Contact, Kei Igarashi
+( kei.igarashi@uci.edu ).
+
+This study did not generate new unique reagents.
+
+Neurophysiological data and analytical codes are available upon
+request.
+
+Mice were maintained in standard housing conditions on a 12h
+dark/light cycle with food and water provided ad libitum. All procedures
+were conducted in accordance with the guidelines of the National Institutes
+of Health and approved by the Institutional Animal Care and Use Committee at
+the University of California, Irvine. We previously generated
+App NL-G-F/NL-G-F maintained on a C57BL/6 background ( Saito et al., 2014 ). For all
+experiments, 28 App NL-G-F/NL-G-F mice (21 males and 7 females)
+and 27 App WT/WT mice (18 males and 9 females) between 3 months
+and 13 months of age were used. We noted no difference in our preliminary
+analyses between sexes. Detailed information about ages when the recording
+was performed is in Supplementary Table S1 . Animals were housed in a reversed 12h
+dark/light cycle, and all testing occurred during the dark phase. If animals
+died or were sick during or before the final test, their recording positions
+could not be validated and therefore were removed from the data
+analysis.
+
+## METHODS DETAIL
+All mice received a custom-built 64-channel drive modified from Liang et
+al ( Liang et al., 2017 ) targeting either
+CA1 or MEC. For a group of animals, eight tetrodes targeted CA1 of hippocampus
+and another eight tetrodes targeted the superficial layer of medial entorhinal
+cortex. Tetrodes were constructed from four twisted 17 μm
+polyimide-coated platinum-iridium (90%–10%) wires (California Fine Wire).
+The electrode tips were plated with gold to reduce electrode impedances to
+between 150 and 300 kΩ at 1 kHz. Animals were anesthetized with
+isoflurane (air flow: 0.8–1.0 l/min, 1% isoflurane, adjusted according to
+physiological condition). The mice received subcutaneous injections of
+buprenorphine at the start of the surgery. Depth of anesthesia was examined by
+testing tail and pinch reflexes as well as breathing. Upon induction of
+anesthesia, the animal was fixed in a Kopf stereotaxic frame for implantation. A
+craniotomy was performed centering at AP 2.5 mm ML 2.5 mm from Bregma for
+hippocampus (approximately 1 × 1mm) and 0.2–0.4mm anterior to
+transverse sinus and ML 3.5mm from midline for medial entorhinal cortex
+(approximately 1 × 1mm). The dura was carefully removed, and the tetrodes
+were implanted. A stainless-steel screw fixed to skull above the cerebellum
+served as the ground electrode. The recording drive was secured to the scratched
+skull using dental cement.
+
+Behavioral training started at least 5 days after the surgery and data
+collection was performed exactly on the fifth day of the training. All
+experiments were conducted in a room containing a 1m-square box made of black
+acryl and a polarizing white cue card (216mm × 280mm) and two 1-m long
+linear tracks. In the open field task, running was motivated in the 1m-square
+box with cookie crumbs thrown randomly into the enclosure. Each session lasted
+10 to 20 min. Upon finishing the open field task, animals rested for 5 minutes
+and then were tested in the remapping task. The remapping task training required
+mice to run in 1-m long linear tracks. Two 1-m long linear tracks were used:
+(Track A) Black acryl enclosure with inner wall decorated with patterns of white
+cue cards across the track and black rubber floor. (Track B) White acryl
+enclosure with inner wall decorated with distinct patterns of black cue signs
+across the track and white sandpaper floor. During the remapping task, animals
+were trained to run in successive series of Track A → Track B →
+Track B → Track A. Two tracks were in the same room. Between the
+sessions, animals were given 5 minutes rest. Running was motivated by placing
+cookie crumbs on the end positions of the linear tracks. Each session lasted 5
+to 10 min. On the linear tracks, the mice ran 10 full laps (back and forth).
+
+LFPs were recorded single-ended using a ground in the skull above the
+cerebellum. One mouse without single-ended recording was excluded for LFP
+analyses. The tetrodes were connected to a multichannel, impedance matching,
+unity gain headstage (Neuralynx). The output of the headstage was conducted to a
+data acquisition system (Neuralynx). Unit activity was amplified by a factor of
+3000–5000 and band-pass filtered from 600 Hz to 6000 Hz. Spike waveforms
+above a threshold set by the experimenter (~55 μV) were
+time-stamped and digitized at 32 kHz for 1 ms. LFP signals, 1 per tetrode, were
+recorded in the 0–475 Hz frequency band at a sampling rate of 2000 Hz.
+Notch filters were not applied. The recording system tracked the position of two
+light-emitting diodes (LEDs), one large and one small, on the head stage
+(sampling rate 50 Hz) by means of an overhead video camera.
+
+Unless indicated otherwise, analyses were performed using MATLAB codes
+kindly provided by Dr. Edvard Moser, or written by the authors ( Igarashi et al., 2014 )
+
+Spike sorting was performed offline using graphical cluster-cutting
+software, MClust by Dr. David Redish. Putative excitatory cells were
+distinguished from putative interneurons by spike peak-valley width and
+average rate ( Bartho et al., 2004 ).
+All putative excitatory cells with spike peak-valley width of more than 230
+μs and mean firing rates of more than 0.1 Hz (mean firing rate during
+all left and right cue sampling intervals) were included for further
+analysis. We used this conservative criterion only for selecting putative
+principal neurons, but not for selecting interneurons. It should be noted
+that neurons with spike peak-valley width of less than 230 μs contain
+a certain number of cells with low spike firing frequency, which could
+potentially be principal neurons.
+
+Position estimates were based on tracking of the LEDs on the head
+stage connected to the recording drive. For rate maps in the random foraging
+task, data were speed-filtered; only epochs with instantaneous running
+speeds of 1 cm/s or more were included.
+
+To characterize firing fields, the position data were sorted into
+one-dimensional 1 cm bins for the linear tracks and 2.5 cm × 2.5 cm
+bins for the open field. For the open field map, the path was smoothed with
+a 21-sample boxcar window filter (400 ms; 10 samples on each side). Firing
+rate distributions were then determined by counting the number of spikes in
+each bin as well as the time spent per bin. Maps for number of spikes and
+time were smoothed individually using a boxcar average over the surrounding
+5 × 5 bins. Weights were distributed as follows: box = [ 0.0025 0.0125 0.0200 0.0125 0.0025 ; … 0.0125 0.0625 0.1000 0.0625 0.0125 ; … 0.0200 0.1000 0.1600 0.1000 0.0200 ; … 0.0125 0.0625 0.1000 0.0625 0.0125 ; … 0.0025 0.0125 0.0200 0.0125 0.0025 ; ]
+
+For each cell, the spatial information score in bits per spike was
+calculated from the recordings in the open field task as Spatial Information Score = ∑ i p i λ i λ log 2 λ i λ where λ i is the mean firing rate of a unit in the i th bin, λ is the overall mean firing rate, and p i is the probability of
+the animal being in the i th bin (occupancy in the i th bin / total recording time) ( Skaggs et al., 1993 ). An adaptive smoothing
+method, introduced by Skaggs et al . (Skaggs et al., 1996),
+was used before the calculation of information scores ( Henriksen et al., 2010 ).
+
+A firing field in the open field was estimated as a contiguous
+region of at least 7.5 cm × 7.5 cm where the firing rate was above
+20% of the peak rate. Low threshold for peak rate was 1 Hz. Additional
+fields were identified by deleting the detected field from the rate map and
+iterating the search for contiguous firing regions in the remaining part of
+the rate map until no additional fields were found. The cell’s peak
+rate was estimated as the highest firing rate observed in any bin of the
+smoothed rate map. For the linear tracks, a place field was defined as a
+contiguous region of at least 4 cm where the firing rate exceeded 20 % of
+the peak rate. Low threshold for peak rate was 1 Hz. Additional place fields
+were counted only when the peak position of the field was separated from
+other fields by more than the width of the field size.
+
+Place cells were defined as cells with spatial information score
+above the chance level ( Langston et al.,
+2010 ). The chance level was determined in each brain region by a
+random permutation procedure using all cells recorded at that time-point in
+that region from old WT mice. One hundred permutations were performed for
+each cell in the sample. For each permutation trial, the entire sequence of
+spikes fired by the cell was time-shifted along the animal’s path by
+a random interval between 20 s and 20 s less than the total length of the
+trial (usually 600 −20 = 580 s), with the end of the trial wrapped to
+the beginning to allow for circular displacements. This procedure allowed
+the temporal firing structure to be retained in the shuffled data at the
+same time as the spatial structure was lost. Spatial information was then
+calculated for each shuffled map. The distribution of spatial information
+values across all 100 permutations of all cells in the sample was computed
+and finally the 95th percentile was determined. Place cells were defined as
+cells with spatial information scores above the 95th percentile of the
+distribution from shuffled data for the relevant group.
+
+The structure of all rate maps was evaluated for all cells by
+calculating the spatial autocorrelation for each smoothed rate map ( Sargolini et al., 2006 ; Fyhn et al., 2007 ). Autocorrelograms were based
+on Pearson’s product moment correlation coefficient with corrections
+for edge effects and unvisited locations. With λ ( x , y ) denoting the average rate of a
+cell at location ( x , y ), the
+autocorrelation between the fields with spatial lags of τ x and τ y was estimated as: r ( τ x , τ y ) = n ∑ λ ( x , y ) λ ( x − τ x , y − τ y ) − ∑ λ ( x , y ) ∑ λ ( x − τ x , y − τ y ) n ∑ λ ( x , y ) 2 − ( ∑ λ ( x , y ) ) 2 n ∑ λ ( x − τ x , y − τ y ) 2 − ( ∑ λ ( x − τ x , y − τ y ) ) 2 where the summation is over all n pixels in λ ( x , y ) for
+which rate was estimated for both λ ( x , y ) and λ ( x − τ x , y − τ y ).
+Autocorrelations were not estimated for lags of τ x , τ y where n < 20.
+
+The degree of spatial periodicity (‘gridness score’)
+was determined for each recorded cell by taking a circular sample of the
+autocorrelogram, centered on the central peak but with the central peak
+excluded, and comparing rotated versions of this sample. The Pearson
+correlation of this circle with its rotation in α degrees was
+obtained for angles of 60° and 120° on one side and
+30°, 90° and 150° on the other. The cell’s
+gridness score was defined as the minimum difference between any of the
+elements in the first group and any of the elements in the second. The
+radius of the excluded central peak was defined as either the first local
+minimum in a curve showing correlation as a function of average distance
+from the center, or as the first incidence where the correlation was
+negative, whichever occurred first.
+
+Grid cells were defined as cells in which rotational symmetry-based
+gridness scores exceeded the 95th percentile of a distribution of grid
+scores for shuffled recordings from the entire population of cells obtained
+from old WT mice. Shuffling was performed in the same way as for place
+cells, i.e. for each permutation trial, the entire sequence of spikes fired
+by the cell was time-shifted along the animal’s path by a random
+interval between 20 s and 20 s less than the length of the trial (usually
+600 – 20 = 580 s), with the end of the trial wrapped to the
+beginning. The shuffling procedure was repeated 100 times for each of the
+cells in the sample. For each permutation, a firing rate map and an
+autocorrelation map were constructed and a grid score was calculated. Grid
+scores were computed for all permutations for all cells and the 95th
+percentile was read out from the overall distribution. Grid cells were
+defined as cells with grid scores higher than the 95th percentile of the
+grid scores of the distribution for the shuffled data.
+
+Recently, an alternative method for shuffling spatial information
+and gridness score was introduced using single-cell data for defining
+spatially-tuned cells and grid cells ( Diehl
+et al., 2017 ). We reanalyzed our data using this method ( Fig. S9 ). Our result
+showed that, in CA1, the spatially tuned neurons did not differ in number
+between WT and APP-KI mice in both young and old mice (P>0.05,
+Wilcoxon rank sum test, Fig. S9A1 ). However, in the MEC, spatially tuned cells, as well
+as grid cells, were reduced in both young and old APP-KI mice (P<0.05
+or better, Wilcoxon rank sum test, Fig. S9 A 1 ). The
+analysis also confirmed the notion that the deterioration of spatially tuned
+cells in young APP-KI mice appeared only in MEC ( Fig. S9A 4 ).
+
+Remapping analysis was performed as described previously ( Miao et al., 2015 ). For experiments on
+the linear track, instantaneous firing rates on individual laps were
+estimated using a Gaussian kernel on the spike data for temporal smoothing: r ( t ) = ∑ i = 1 N g ( t i − t h ) where g is a 1D Gaussian kernel, h is bandwidth, N is the
+total number of spikes, and t i is the time of the i th spike. The bandwidth was set at 100 ms. Due to minimal coverage per bin,
+temporal smoothing gives more robust rate estimates compared to those based
+on spatial bins during fast running on the track. Spike rate at each track
+position (1 cm bin) on each lap was estimated using a linear interpolation
+method applied to the temporally-smoothed spike rates. Because the same
+cells often had different firing fields on left and right runs, firing
+fields of the same cell in each run direction were analyzed as two distinct
+data sets. A segment of 5 cm was excluded from each end of the linear track
+for analysis.
+
+Spatial correlation was obtained by calculating the Pearson
+correlation coefficient for mean firing rates across 1 cm wide bins from the
+track on a pair of sessions. For population vector analysis, population
+vectors were defined for each 3.6-cm bin of rate maps (25 bins in total)
+from all cells in the experimental group. To maintain independence of
+neighboring spatial bins, we estimated mean firing rates in spatial bins
+without smoothing. For lap-by-lap population vector analyses, a total of 10
+laps (defined as pairs of forward and backward runs) were taken from each
+recording session. Population vector correlations were determined for each
+spatial bin of each lap.
+
+The age-dependent progression of impairment in behavioral context
+discrimination, impaired spatial tuning, impaired remapping found in our
+results were plotted for CA1 and MEC. In these plots, Impairment
+Index (II) was defined as following: Each functional property
+(spatial tuning score for spatial tuning, PVec correlation for remapping and
+Discrimination Index for context discrimination) obtained from APP-KI mice
+was first normalized by the that obtained from age-matched WT mice. This
+ratio was then subtracted from 1 ( II = 1 − APP-KI /
+WT) so that II become 0 if there is no impairment and II become 1 if the functional property is completely
+impaired. We used the normalization by age-matched WT, rather than just
+normalizing by old mice data, in order to take age effects into
+consideration. For Aβ plaque where no data are available for
+correcting age effect, percent areas with Aβ plaque in young APP-KI
+mice were plotted so that the values obtained from the same area in old mice
+become 1 ( II Aβ =
+Aβ plaque area / Aβ plaque area old ).
+
+Animals with single-ended LFP recordings were used for the analysis.
+
+Time-resolved power across frequencies was computed using a wavelet
+transform method. Signals were convolved by a family of complex
+Morlet’s wavelets w ( t , f ), one for each frequency, as a function of time: w ( t , f ) = A exp ( − t 2 / σ t 2 ) exp ( 2 i π ft ) in which the family of wavelets was characterized by a
+constant ratio f / σ f ,
+which was set to 7, and with σ f =
+½π σ t .
+The coefficient A was set at: ( σ t σ ) − 1 / 2 in order to normalize the wavelets such that their total
+energy was equal to 1.
+
+To control for impedance differences between tetrodes, LFP power was
+normalized, for each tetrode, to the total power in 1–100 Hz
+band.
+
+An acausal (zero phase shift), frequency domain, finite impulse
+response bandpass filter was applied to the signals. For theta filtering, 5
+and 6 Hz were chosen for the stopband and passband, respectively, for the
+low cut-off frequencies; 10 and 11 Hz were chosen for passband and stopband
+high cut-off frequencies. For filtering of gamma oscillations, 19 and 20 Hz
+were chosen for the stopband and passband, respectively, for the low cut-off
+frequencies; 90 and 91 Hz were chosen for passband and stopband high cut-off
+frequencies. For filtering of slow gamma oscillations, 19 and 20 Hz were
+chosen for the stopband and passband, respectively, for the low cut-off
+frequencies; 40 and 41 Hz were chosen for passband and stopband high cut-off
+frequencies. For filtering of fast gamma oscillations, 39 and 40 Hz were
+chosen for the stopband and passband, respectively, for the low cut-off
+frequencies; 90 and 91 Hz were chosen for passband and stopband high cut-off
+frequencies.
+
+Theta cycles were selected by bandpass filtering the signal from
+6–10 Hz and selecting local minima in the filtered signal (i.e.,
+θ(t − 1) > θ(t) and θ(t + 1) >
+θ(t)). Segments of the recording were collected and defined as a
+theta cycle if the time between detected points fell within a range
+criterion that corresponded to the period of an ~8 Hz theta cycle
+(i.e. 125 ± 25 ms). Local minima of detected theta cycles were
+required to be separated by at least 100 ms.
+
+To extract periods of gamma oscillatory activity in the LFP, we
+first computed time-varying power within the frequency bands for each
+recording. Power at each time point was averaged across the frequency range
+to obtain time-varying estimates of oscillatory power. Time points were
+collected when the power exceeded 2 SD of the time-averaged power. Time
+windows, 160 ms in length, were cut around the identified time points. In
+each 160 ms segment, the maxima of gamma oscillatory amplitude were
+determined from the gamma bandpass filtered versions of the recordings.
+Duplicated gamma oscillatory periods, a common consequence of extracting
+overlapping time windows, were avoided by discarding identical maxima values
+within a given gamma oscillatory subtype and further requiring that maxima
+of a given subtype be separated by at least 100 ms. Individual gamma
+oscillatory windows were finally constructed from the original, non-bandpass
+filtered recordings as 400 ms long windows centered around the gamma
+oscillatory amplitude maxima.
+
+LFP recordings were bandpass-filtered in the theta range
+(6–10 Hz), and theta phases for each time point were estimated using
+the Hilbert transform function from the Signal Processing Toolbox in MATLAB.
+Theta phases at the time points associated with gamma maxima (determined as
+described above) as well as theta phases for spikes were collected. Theta
+phases for each gamma oscillatory event were sorted into 30° bins,
+allowing the phase distribution of each event to be determined. For a given
+recording, the distributions of gamma oscillations were normalized by
+dividing the bins by the total number of gamma oscillatory episodes within a
+given recording. In this analysis, and in all analyses involving oscillation
+phase, the oscillation peak was defined as 0°.
+
+Time-varying power in 2-Hz-wide frequency bands, from 2 Hz to 140
+Hz, was obtained for individual theta cycles using the wavelet transform
+method described above. Time frequency representations for multiple theta
+cycles recorded from the same site and session within the same animal were
+then averaged using the theta phase, and then normalized using the total
+average power in the individual 2-Hz bin across the phase ( Schomburg et al., 2014 ).
+
+The theta phase at the time of gamma oscillation maxima occurrence
+was calculated by bandpass-filtering the LFP in the theta range, performing
+a Hilbert transform on the filtered signal, and then locating theta phase of
+individual gamma oscillation maxima. Resultant vectors were calculated from
+the phase distributions of gamma maxima. Lengths of resultant vectors were
+used as an index for the strength of theta-gamma coupling.
+
+Neurons recorded in animals with single-ended LFP recordings were
+used for the analysis. The oscillatory phase at the time of spike occurrence
+was estimated. This was performed by first bandpass-filtering the LFP,
+performing a Hilbert transform on the filtered signal, and then extracting
+the phase component at the spike times. Cells were considered to be
+phase-locked if their phase distribution differed significantly from a
+uniform distribution (P < 0.05, Rayleigh test). Resultant vectors
+were calculated from the distributions of phase component. Lengths of
+resultant vectors were used as an index for the strength of
+phase-locking.
+
+Coherence was computed using a multitaper method from the Chronux
+open source MATLAB toolbox ( http://chronux.org/ ). We used 3 for time-bandwidth product
+and 5 for the number of tapers.
+
+All 200 ms time windows of LFP with fast gamma episodes in CA1 were
+extracted and averaged. Corresponding LFP time windows from the MEC were
+then extracted and averaged. Power of fast gamma oscillations were
+calculated from these averaged traces, and then MEC:CA1 power ratio was
+calculated.
+
+Electrode positions were confirmed by anaesthetizing the drive-implanted
+mice using isoflurane and performing small electrolytic lesions through passing
+current (10 μA for 20 s) through the electrodes. Immediately after this,
+the mice received an overdose of isoflurane and were perfused intracardially
+with saline followed by 4% freshly depolymerized paraformaldehyde in phosphate
+buffer (PFA). The brains were extracted and stored in the same fixative
+overnight. After overnight cryoprotection in phosphate buffer saline with 30%
+sucrose at 4°C, tissue samples were embedded in O.C.T. mounting medium
+and sagittal sections (40 μm) were cut and stained with cresyl violet.
+All tetrodes were identified, and the tip of each electrode was found by
+comparison with adjacent sections. Only data from tetrodes in the hippocampal
+CA1 or the layer 2/3 of dorsal MEC was collected for analysis. The electrical
+lesions often made tip holes in the brain section larger so that they span
+across cell layers. To ensure that the LFP was recorded from cell layers (either
+in pyramidal cell layer in CA1 or layers 2/3 in the MEC) we used LFP data only
+from tetrodes that had spiking activity of principal neurons for LFP
+analyses.
+
+For immunostaining, sections were rinsed 3 times for 10 min in 1 x PBS
+(pH 7.6) at room temperature, preincubated for 1 hr in 10% normal goat serum in
+PBST (1 x PBS with 0.5% Triton X-100). Between incubation steps, sections were
+rinsed in PBST. Sections were incubated with antibodies against Aβ,
+raised in mouse (MCSA1, Medimabs, 1:1000) for 24 hr in antibody-blocking buffer
+at 4°C. After three 15 min washes in PBST at room temperature, sections
+were incubated in a goat-anti mouse antibody conjugated with Alexa Fluor 568nm
+(Invitrogen, 1:250) for 2 hr at room temperature. After rinsing in PBS, sections
+were mounted onto glass slides with 40 ,60 -diamidino-2-phenylindole
+(DAPI)-containing Vectashield mounting medium (Vector Laboratories), and a
+coverslip was applied. Digital photomicrographs were acquired with an Olympus
+BX53 fluorescent microscope equipped with a digital camera.
+
+For amyloid beta plaque counting analysis, 500μm by 500 μm
+block images representing the recorded areas in CA1 or MEC were taken from the
+original section. All blocks were taken from sagittal sections. For CA1, four
+blocks from each animal were taken spanning 2.2 – 3.2mm lateral to
+midline. For the medial entorhinal cortex, four blocks from each animal were
+taken spanning 2.8 – 3.8mm lateral to midline. Blocks were taken from
+dorsal aspect of each region and they were chosen to reflect our recording
+positions. The areas of pixels with fluorescence values higher than two standard
+deviations of background were quantified for all blocks using Image J software,
+and then divided by the whole area of the image for percent Aβ plaque.
+Data from eight blocks from two mice were used for each area/genotype/age. All
+analyses were performed in a blind manner.
+
+We used a context discrimination task for mice used in McHugh et al (2007) . Four male and four female mice
+from each group (WT and APP-KI) between 3–5 months old for young group
+and 12–13 months old for old group were used in this experiment. All
+experiments were conducted and analyzed by scientists blind to the genotypes of
+the animals. The mice were caged in single housing at least one week prior to
+the experiment to become acclimatized. The mice were housed in plastic tubs and
+had ad libitum access to food and water and lived on a 12:12 hour dark/light
+cycle. All procedures occurred during the dark cycle. During fear conditioning,
+the mice received three days of conditioning in Context A before the
+discrimination phase of the task began, allowing for greater generalization in
+both genotypes of mice. Context A chamber consisted of black Plexiglas side
+walls while the front door, back wall, and ceiling were made of clear Plexiglas.
+The floor of each chamber consisted of 33 stainless steel rods, separated by 6
+mm, which were wired to a shock generator and scrambler. A stainless steel pan
+coated with isobenzaldehyde in 100% alcohol (0.25% concentration) was placed
+under the grid floor in each box to provide a distinct odor. Each chamber was
+cleaned thoroughly with an odorless 5% sodium hydroxide solution before the
+animals were placed in the chambers. The overhead fluorescent room lights
+remained on. Context B chamber consisted of Plexiglas side walls sloped inward
+at a 60 degrees angle from the floor (28 × 21 × 21 cm). As in
+context A, the floor of each chamber consisted of 33 stainless steel rods,
+separated by 6 mm, which were wired to a shock generator and scrambler. This
+context was cleaned and scented with a 1% acetic acid solution. The room was lit
+with a 30-W red overhead light and a 30-W red light located in the corner of the
+room opposite the chambers.
+
+Each day, the animals were transported to a room adjacent to the
+experimental room. They were left undisturbed for at least 20 min. On days
+1–3 the mice were carried to the A-context conditioning room in their
+home tub and placed into the conditioning chambers. After 192sec, they
+received a single foot shock (2 sec; 0.65mA) and were removed from the
+chambers 1min following foot shock termination.
+
+Across the subsequent two consecutive days (day 1 and 2 of
+familiarization), mice were placed into the A-context and B-context
+conditioning chambers in separate tests (counterbalanced order). Each
+session consisted of an 8-minute exposure to the chamber without the
+delivery of foot shock.
+
+On days 1 through 5 of discrimination training, mice were exposed to
+both A-context and B-context conditioning chambers daily. The order of
+exposure on each day followed a BAABA design such that on days 2, 3 and 5
+all animals were exposed to Chamber A first and Chamber B second. Across the
+entire discrimination phase, all animals received a single foots hock during
+each Chamber A exposure and never received foot shock during Chamber B
+exposures. The dependent measure employed was freezing behavior, defined as
+behavioral immobility except for movement necessary for respiration
+(Fanselow et al., J Biol Sci 1980). An observer, blind to the genotypes of
+the mice, scored each mouse as either freezing or not freezing every 8 s for
+the duration of each 192 s in each context on each day during spatial
+discrimination training. These scores were then converted into a percentage
+of observations spent freezing. Discrimination Index were calculated for
+discrimination training using these freezing percentage scores according to
+the following formula: (Chamber A − Chamber B)/(Chamber A + Chamber
+B).
+
+All statistical testing assumed a non-parametric distribution and the
+Wilcoxon rank sum test was used. For comparing the distribution of place cells
+and grid cells, Kolmogorov-Smirnov (KS) tests were applied. All statistical
+methods used are summarized in Supplementary Tables S2 . All data are represented as mean ±
+SEM.

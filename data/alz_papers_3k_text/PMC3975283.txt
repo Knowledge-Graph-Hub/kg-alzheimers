@@ -1,0 +1,5 @@
+# Title
+Mosaic Copy Number Variation in Human Neurons
+
+# Abstract
+We used single cell genomic approaches to map DNA copy number variation (CNV) in neurons obtained from human induced pluripotent stem cell (hiPSC) lines and post-mortem human brains. We identified aneuploid neurons as well as numerous subchromosomal CNVs in euploid neurons. Neurotypic hiPSC-derived neurons had larger CNVs than fibroblasts, and several large deletions were found in hiPSC-derived neurons but not in matched neural progenitor cells. Single cell sequencing of endogenous human frontal cortex neurons revealed that 13%-41% of neurons have at least one megabase-scale de novo CNV, that deletions are twice as common as duplications, and that a subset of neurons have highly aberrant genomes marked by multiple alterations. Our results show that mosaic copy number variation is abundant in human neurons.

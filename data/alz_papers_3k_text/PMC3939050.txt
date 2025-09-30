@@ -1,0 +1,408 @@
+# Title
+Axonal transport of TDP-43 mRNA granules in neurons is impaired by ALS-causing mutations
+
+# Abstract
+The RNA binding protein TDP-43 regulates RNA metabolism at multiple
+levels, including transcription, RNA splicing, and mRNA stability. TDP-43 is a
+major component of the cytoplasmic inclusions characteristic of amyotrophic
+lateral sclerosis and some types of frontotemporal lobar degeneration. The
+importance of TDP-43 in disease is underscored by the fact that dominant
+missense mutations are sufficient to cause disease, although the role of TDP-43
+in pathogenesis is unknown. Here we show that TDP-43 forms cytoplasmic mRNP
+granules that undergo bidirectional, microtubule-dependent transport in neurons in vitro and in vivo and facilitate
+delivery of target mRNA to distal neuronal compartments. TDP-43 mutations impair
+this mRNA transport function in vivo and in
+vitro , including in stem cell-derived motor neurons from ALS
+patients bearing any one of three different TDP-43 ALS-causing mutations. Thus,
+TDP43 mutations that cause ALS lead to partial loss of a novel cytoplasmic
+function of TDP-43.
+
+## Introduction
+Transactive response DNA-binding protein 43 (TDP-43) is a highly conserved,
+ubiquitously expressed heterogeneous ribonucleoprotein (hnRNP) that is primarily
+nuclear, but shuttles between the cytoplasm and nucleus. TDP-43 was initially
+identified as a transcription repressor ( Ou et al.,
+1995 ) and splicing regulator ( Buratti et
+al., 2001 ), but later recognized as the major component of pathological
+cytoplasmic inclusions characteristic of frontotemporal lobar degeneration (FTLD),
+amyotrophic lateral sclerosis (ALS), and inclusion body myopathy ( Neumann et al., 2006 ; Salajegheh et al., 2009 ). Dominant mutations in TDP-43 are
+sufficient to cause familial forms of those diseases, underscoring its role in
+pathogenesis ( Al-Chalabi et al., 2012 ). The
+identification of mutations in related RNA processing proteins has focused interest
+on perturbed RNA metabolism as a potential common defect underlying
+neurodegenerative diseases ( Kim et al., 2013 ; Kwiatkowski et al., 2009 ; Lefebvre et al., 1995 ; Ramaswami et al., 2013 ), yet the role(s) of TDP-43 in RNA
+metabolism is far from complete. How disease-causing mutations disrupt TDP-43
+function(s), the relative contribution of toxic gain vs. loss of function to
+disease, and the cellular compartment(s) in which this perturbation occurs, remains
+to be determined.
+
+TDP-43 binds to thousands of mRNAs, many of which are important in brain
+development and synaptic function, but regulates alternative splicing of a small
+subset of these ( Colombrita et al., 2012 ; Polymenidou et al., 2011 ; Tollervey et al., 2011 ; Xiao et al., 2011 ). Isolation of TDP-43 from a cytoplasmic
+fraction of human brain revealed binding to the 3'-UTR of numerous target mRNAs,
+suggesting a role in mRNA stability and/or transport ( Tollervey et al., 2011 ). TDP-43 co-purifies with proteins
+involved in RNA transport ( Freibaum et al.,
+2010 ), is trafficked in neurons ( Fallini
+et al., 2012 ; Wang et al., 2008 ),
+and is detected in distal compartments such as the presynaptic membrane of axon
+terminals in the neuromuscular junction in mice ( Narayanan et al., 2012 ). As such, it has been suggested that TDP-43
+plays a role in the transport of certain target mRNAs into distal neuronal
+processes, but direct evidence is lacking ( Lagier-Tourenne et al., 2010 ). The extent to which this hypothetical
+function might be compromised by disease mutations has not been explored.
+
+TDP-43 is highly conserved throughout the animal kingdom, and knockout of
+the gene encoding TDP-43 is lethal in mouse ( Sephton et al., 2010 ). We used several model systems, including Drosophila , mouse, and human stem cell–derived motor
+neurons to systematically study TDP-43 function and the consequence of disease
+mutations. Drosophila that lack TBPH, the TDP-43 ortholog,
+typically die as pupae and escapers exhibit motor neuron synaptic dysfunction,
+progressive loss of motor neurons, and reduced life span ( Diaper et al., 2013 ; Feiguin et al., 2009 ; Vanden†Broeck et al., 2013 ). This loss of function phenotype
+can be rescued by stably introducing wild-type human TDP-43
+(TDP-43 WT ) illustrating conservation of TDP-43 function and
+validating Drosophila as a relevant model system ( Fig. S1A ). By contrast,
+introduction of TDP-43 harboring ALS-causing mutations (TDP-43 M337V )
+at equivalent expression levels fails to rescue the motor neuron defect ( Fig. S1A ), suggesting
+that at least one consequence of disease-causing mutation is partial loss of
+function. To study TDP-43 in Drosophila in more detail we used
+PhiC31 integrase-mediated transgenesis to generate animals expressing equal
+levels of fluorescently tagged TDP-43 WT , or either of the two
+ALS-causing mutants TDP-43 M337V or TDP-43 A315T ,and
+monitored protein localization in motor neurons of animals with matched total
+expression levels ( Fig. S1
+G-H ). The distribution of TDP-43 WT was primarily nuclear
+as expected, ( Fig. S1 B-C,
+G ), but we also observed numerous cytoplasmic granules along the
+length of axons and extending into the neuromuscular junction (NMJ), where
+TDP-43 fluorescence was diffuse ( Fig. S1 G ). By contrast, TDP-43 M337V and
+TDP-43 A315T accumulated in the cell soma and proximal axons
+( Fig. S1 B-D ) but
+was absent or reduced at distal axons and the NMJ ( Fig. S1 E-F ). Live
+imaging of Drosophila motor neurons revealed that both
+wild-type ( Movie S1 )
+and mutant TDP-43 granules were transported bidirectionally for long distances
+with brief pauses ( Fig. 1 A ). We also
+observed that mutant TDP-43 granules were not transported efficiently along
+neuronal axons and displayed a less continuous movement that is evident when
+plotted using kymographs ( Fig. 1A-F ). The
+marked difference in subcellular distribution and transport behavior of
+wild-type and mutant TDP-43 prompted us to analyze the kinetics of TDP-43
+transport in motor neurons. We observed a significant reduction in net
+anterograde displacement of TDP-43 M337V and TDP-43 A315T granules relative to TDP-43 WT granules (p= 0.027 and 0.018
+respectively; Fig. 1G , Table S1 ). Interestingly,
+we also observed that a greater fraction of TDP-43 M337V and
+TDP-43 A315T granules moved in the retrograde direction relative
+to TDP-43 WT granules ( Fig. 1I ).
+These data suggest impaired anterograde movement of TDP-43 M337V and
+TDP-43 A315T granules along motor neuron axons in
+vivo , leading to mutant TDP-43 accumulation in the cytoplasm and
+proximal axons and deficiency at the NMJ.
+
+The presence of TDP-43 in cytoplasmic granules in vivo that are dynamic and transported along axons in Drosophila ,
+prompted us to study the biology of these motile granules in primary mouse
+cortical neurons. Under normal conditions, endogenous TDP-43 was predominantly
+nuclear, as described previously ( Barmada et al.,
+2010 ), though cytoplasmic puncta in neurites were also observed in
+most cells ( Fig. S2A ).
+Exogenous expression of mCherry-TDP-43 WT showed the same
+distribution, and enabled live imaging of TDP-43 ( Fig. S2B-C ). Time-lapse
+imaging of mCherry-tagged TDP-43 granules in the axons of cortical neurons
+maintained in culture for 5 to 7 days revealed rapid, bidirectional,
+intermittent movement ( Fig. 2A-B ),
+consistent with the kinetics of TDP-43 granule transport observed in Drosophila motor neurons. The instantaneous velocities of
+TDP-43 granules in vivo and in vitro ( Table S1 ) were consistent
+with microtubule-dependent fast axonal transport. TDP-43 granule movement was
+unaffected by treatment with latrunculin, which disrupts actin filaments, but
+abolished by treatment with nocodazole, which disrupts microtubules ( Fig. 2C ). This microtubule-dependent
+transport of TDP-43 granules is consistent with long-range axonal transport of
+protein complexes in neurons ( Brown,
+2013 ). To determine whether the ALS-causing mutations in TDP-43 influence
+granule trafficking, we compared trafficking parameters in neurons transfected
+with either mCherry-TDP-43 WT , mCherry–TDP-43 M337 ,
+or mCherry–TDP-43 A315T . Although the granule transport
+instantaneous velocities were indistinguishable,
+mCherry–TDP-43 M337 and
+mCherry–TDP-43 A315T granules were more frequently immotile
+(p=0.036 and 0.0027, respectively) and reversed direction significantly more
+frequently (p=0.0017 and 0.0032, respectively; Fig
+2 D-E ). These altered trafficking parameters of mutant TDP-43
+granules were reflected in significant reductions in net displacement of
+TDP-43 M337V and TDP-43 A315T (TDP-43 M337V :
+p<0.001 in both directions; TDP-43 A315T : p= 0.030 anterograde
+and 0.045 retrograde; Fig. 2F , Table S1 ). Interestingly,
+we observed a significant increase in retrograde movement of mutant TDP-43
+granules as compared to wild-type (TDP-43 M337V : p= 0.037;
+TDP-43 A315T : p= 0.042; Fig.
+2H ).
+
+To determine whether TDP-43 mutations result in generalized disruption of
+anterograde transport, we monitored mitochondrial trafficking and TDP-43 granule
+trafficking simultaneously in the same cells . In primary cortical neurons,
+axonal transport of mitochondria was indistinguishable between cells expressing
+WT or mutant TDP-43 (M337V or A315T mutants) at 5-7 days in culture ( Fig. 2G, I ; Table S1 ) despite a
+significant defect in axonal transport of TDP-43 granules. We conclude that
+TDP-43 mutation results in a selective defect in the trafficking of
+TDP-43-containing granules, although this could lead to broader cellular
+toxicity and a more generalized defect in axonal transport in neurons cultured
+for longer periods of time ( Wang et al.,
+2013 ).
+
+We and others have shown that TDP-43 interacts with a network of
+RNA-binding proteins ( Fallini et al.,
+2012 ; Freibaum et al., 2010 ; Ling et al., 2010 ). The TDP-43
+interactome includes numerous proteins involved in RNA trafficking, suggesting
+that some fraction of TDP-43 is a component of mRNP granules transported along
+neuronal axons. TDP-43 co-immunopurifies and colocalizes with the RNA
+trafficking protein Staufen ( Fig. S3 A-B ). Further, we determined that actively transported
+axonal TDP-43 granules stain positively with SYTO RNASelect Green fluorescent
+stain, consistent with the notion that TDP-43 granules transported along axons
+of cortical neurons contain RNA ( Fig. S3C ).
+
+A limitation of SYTO RNASelect stain is that it is a non-specific,
+general RNA dye. To investigate the association of TDP-43 with one of its
+well-characterized mRNA targets, we designed a “mRNA beacon”
+consisting of a Cy3-tagged oligonucleotide that specifically hybridizes to mouse
+or human Neurofilament-L ( Nefl or NEFL ,
+respectively) mRNA and studied mRNA trafficking in live cells ( Fig. 3A , Fig. S3 D-E ).
+Neurofilament-L mRNA has a consensus TDP-43 binding site in its 3’-UTR
+and binds TDP-43 in extracts from human and mouse brain tissue ( Polymenidou et al., 2011 ; Volkening et al., 2009 ). Fluorescence
+emission from the mRNA beacon is quenched until hybridization to Nefl mRNA and conjugation to a NeutrAvidin polypeptide
+prevents accumulation of beacon in the nucleus ( Fig. 3A ; Fig.
+S3E ). Live-fluorescent imaging of mouse cortical neurons showed that Nefl mRNA is present throughout the axonal compartment and
+can be observed distally, even in the growth cones ( Fig. 3B-C ). Nefl mRNP granules moved
+bidirectionally along axons with intermittent rapid movements indistinguishable
+from those of TDP-43 granules ( Fig. 3D , Movie S2 ). Nefl mRNP granules existed in two fractions: co-localized
+with fluorescently labeled TDP-43 ( Fig. 3E )
+and those without any TDP-43 staining. Importantly, these two fractions showed
+different trafficking behavior. Specifically, Nefl mRNP
+granules that contained TDP-43 showed net anterograde movement, whereas those Nefl mRNP granules without TDP-43 showed net retrograde
+movement ( Fig. 3F ). We conclude that TDP-43
+is specifically associated with mRNP granules that promote anterograde transport
+of certain mRNAs, is a marker of such granules, and could even participate in
+this process.
+
+The data derived from Drosophila motor neurons and mouse
+cortical neurons consistently show that TDP-43 granules undergo bidirectional
+transport and that this is selectively impaired by ALS-causing mutations in
+TDP-43. These data were generated by monitoring the trafficking of exogenous,
+fluorescently-tagged TDP-43. While this is standard in the trafficking field,
+there remains a possibility that over-expression of TDP-43 influences its
+behavior in these assays. The mRNA beacon we describe here, combined with recent
+advances in induced pluripotent stem (iPS) cell technology to generate motor
+neurons from ALS patients, affords a novel opportunity to corroborate our
+results in a relevant human cell type with endogenous wild-type or mutant TDP-43
+expressed at physiological levels. Thus, we analyzed NEFL transport in iPS cell-derived human motor neurons carrying both of the
+ALS-causing mutations we analyzed in Drosophila and mouse
+cortical neurons (M337V and A315T) and one additional ALS-causing mutation
+(G298S). The cells derived from an ALS patient with the M337V mutation were
+described previously ( Bilican et al.,
+2012 ). These motor neurons exhibit increased cytoplasmic TDP-43 in the
+soma, accumulation of insoluble TDP-43 and accelerated cell death relative to
+control cells ( Bilican et al., 2012 ). We
+monitored the movement of NEFL mRNP granules in axons of
+HB9-positive control or ALS motor neurons (TDP-43 M337V ; patient 31)
+in 3 time windows over 2 consecutive weeks following plating and prior to the
+observation of cell toxicity. NEFL mRNP granules underwent
+bidirectional, rapid movements that were interrupted by brief pauses in the
+axons of control and ALS motor neurons ( Fig.
+4B , Movie
+S3 ). The cells were monitored for a period of 2 weeks, after which it was
+not possible to clearly recognize individual axonal tracks extending from the
+cell soma to the growth cones without obstruction by glial cells or a
+significant decrease in the fluorescent intensity of the mRNA beacon. During the
+first week after plating, granule transport velocities, net displacement and
+directionality were indistinguishable between control and ALS motor neurons. By
+days 9-13, a defect in the transport of NEFL mRNP granules
+became apparent in ALS motor neurons. Specifically, anterograde transport of the NEFL mRNP granules significantly decreased ( Fig. 4C ). The frequency of reversals and the
+overall fraction of retrogradely moving granules also increased significantly in
+the ALS motor neurons (p=0.011 and p= 0.028, respectively), demonstrating less
+efficient transport mechanisms of NEFL mRNA ( Fig.
+4 C, E-F ).
+
+Given the inherent variability in motor neurons differentiated from
+human iPS cells, we generated additional control (Control line 2; patient 11
+( Boulting et al., 2011 )) and mutant
+iPS cell lines (TDP-43 G298S and TDP-43 A315T ; patients 47
+and RB20, respectively) ( Fig. 4A , Fig S4 ). Examining these
+additional cell lines permitted us to determine whether impaired TDP-43 granule
+trafficking is solely a consequence of the M337V mutation or occurs more broadly
+with other TDP-43 mutations. In these cells, we monitored the movement of NEFL mRNA granules in 4 time windows over 17 days following
+plating. Our results again showed significant decrease in anterograde
+displacement that was quite profound ~10 days after plating and becomes
+progressively worse with time ( Fig. 4D ). We
+observe a significant increase in the frequency of reversals and retrograde
+movement of NEFL mRNA granules in iPS cell-derived motor
+neurons from ALS patients as compared to wild type after 9 days in culture
+( Fig. 4 D-E ).
+
+## Discussion
+Here we establish that TDP-43 is a component of mRNP transport granules in
+neurons, including human stem cell-derived motor neurons, and identify a novel role
+for TDP-43 in the cytoplasm supporting anterograde axonal transport of target mRNAs
+from the soma to distal axonal compartments, including the NMJ. We also establish
+that three different ALS-causing mutations of TDP-43 impair this cytoplasmic
+function. This partial loss of function is consistent with the inability of mutant
+TDP-43 to complement a deficiency of endogenous TBPH in Drosophila . This transport defect is specific for
+TDP-43-positive mRNP granules, since another microtubule-dependent cargo in the same
+cells is transported normally during the same observation window. We conclude that
+deficient axonal transport of mRNA targeted by TDP-43 may contribute to pathogenesis
+of ALS and related diseases such as FTD.
+
+Given the dominant inheritance of TDP-43 mutations in ALS, this defect in
+TDP-43 trafficking is unlikely to be the sole contribution of mutant TDP-43 to
+disease. Nevertheless, this clear and consistent defect in TDP-43 granule transport
+is likely an important contributor to ALS, perhaps influencing specific disease
+features such as cell type specificity or the pattern of degeneration. ALS has been
+described as a “distal axonopathy” because morphological abnormalities
+of the distal axon, including dismantling of the NMJ leading to denervation, are
+among the earliest pathological features ( Fischer et
+al., 2004 ). Many of the mRNA targets of TDP-43 encode proteins that
+function in this compartment but only a subset show differential splicing with
+altered TDP-43 levels or TDP-43 mutations ( Arnold et
+al., 2013 ; Lagier-Tourenne et al.,
+2012 ; Polymenidou et al., 2011 ).
+One might speculate that a failure of TDP-43 to adequately support spatially
+appropriate translation of target mRNAs could contribute to this pattern of
+neurodegeneration.
+
+The mechanism whereby disease-causing mutations impair granule transport is
+unclear, but could involve a defect in the ability of mutant TDP-43 granules to
+engage motor proteins or a physical impediment to their movement based on some
+abnormality in their size or shape. However, it is worth noting that these disease
+mutations all impact a prion-like domain in the C-terminus of TDP-43. Prion-like
+domains in TDP-43 and related RNA-binding proteins mediate the assembly of RNA
+granules, and disease mutations in these prion-like domains disturb the dynamics of
+RNA granule assembly and disassembly ( Ramaswami et
+al., 2013 ). Normally, RNA transport granules in neurons are highly
+dynamic ( Barbee et al., 2006 ) and this relates
+to their ability to deliver mRNAs to distal sites for local translation ( Krichevsky and Kosik, 2001 ). The correlation
+between the impairment of RNA granule dynamics and impairment of RNA granule
+transport by ALS mutations suggests the possibility of a heretofore unappreciated
+role for RNA granule dynamism and transport that will require additional research to
+elucidate. The important take home messages from this study are that TDP-43 has a
+cytoplasmic function that is impaired by disease-causing mutations; TDP-43 is a
+component of neuronal RNA transport granules; association of target mRNAs with
+TDP-43 correlates with their anterograde transport; and ALS-causing mutations in
+TDP-43 impair this transport in vivo in Drosophila , in mouse cortical neurons, and in iPS-derived motor
+neurons from ALS patients.
+
+## Experimental Procedures
+3 rd instar Drosophila larvae genotypes
+OK371>Gal4/ UAS-Venus-TDP-43 WT, OK371>Gal4/ UAS-Venus-TDP-43
+M337V, and OK371>Gal4/UAS-YFP-TDP-43 A315T were used for axonal transport
+imaging. For TDP-43 quantification at the cell body and synaptic terminal,
+UAS-CD8-RFP (Bloomington Stock Center, Indiana U, Bloomington, IN; stock #27391)
+was co-expressed, resulting in the genotypes: OK371>Gal4, UAS-CD8-RFP/
+UAS-TDP-43 WT or OK371>Gal4, UAS-CD8-RFP/ UAS-TDP-43 M337V,
+OK371>Gal4, UAS-CD8-RFP/UAS-TDP-43 A315T, and negative control-
+OK371>Gal4, UAS-CD8-RFP/+. OK371-Gal4 driver was used for all Drosophila transgene expression except for the TBPH rescue
+cross where Armadillo Gal4 was used. In TBPH viability rescue cross, transgenes
+(UAS-Venus-TBPH, UAS-Venus-TDP-43, and UAS-Venus-TDP43 M337V) were expressed by
+Armadillo Gal4 in TBPH Δ23 homozygote mutants. Controls in this analysis
+included W1118, homozygotes and heterozygotes for the null TBPH Δ23
+mutation. Third instar larvae were sorted by genotype and placed in separate
+vials. The percentage of larvae that became living adults was recorded and
+graphed.
+
+Primary mouse cortical neuron culture and transfection were conducted as
+previously described ( Kaech and Banker,
+2006 ). Details are provided in supplemental methods .
+
+Imaging cortical neurons was done 5-8 days after plating, and human
+motor neurons 2-17 days after plating. For in vivo live
+imaging, wandering 3 rd instar Drosophila larvae were
+dissected live in HL3 medium ( Stewart et al.,
+1994 ); pinned to Sylgard in an imaging chamber; eviscerated keeping
+CNS, nerves and muscle intact; and covered with a coverslip. Time-lapse movies
+were obtained using a spinning disc confocal Marianas system (Intelligent
+Imaging Innovations, Denver, CO) configured on a Zeiss Axio Observer. Further
+details can be found in supplemental methods .
+
+In live Drosophila larvae samples, images of the NMJ at
+muscle 13 were examined for levels of Venus-TDP-43 fluorescence. Time-lapse
+movies were analyzed using SlideBook 5.5 or Imaris 7.6 (Bitplane Science
+Software, South Windsor, CT) with the manual particle-tracking module. Granules
+that moved >3 μm during the length of the movie were analyzed. In
+mouse cortical neurons, when granules changed direction, they were considered a
+new particle. However, in the moving vs. stationary analysis, granules changing
+direction were counted as 1 moving particle.
+
+For live-cell imaging of mitochondria, cells transfected with
+fluorescent TDP-43 (wild-type or mutant) were incubated for 20 min in imaging
+media containing either Mitotracker Red FM (25 nM; Invitrogen), or Mitotracker
+Green FM (20 nM; Invitrogen). The cells were then imaged using live fluorescent
+confocal microscopy as described above.
+
+FLAG-tagged expression plasmids were transfected into HEK293T cells
+using Fugene 6 as recommended by manufacturer. Mock-transfected cells were used
+as negative control, and a 10 cm plate was used for each co-immunoprecipitation.
+48 hrs later, cells were lysed and lysates were cleared by centrifugation at
+21,000g. Clarified lysates were pre-cleared with normal mouse IgG agarose and
+protein G agarose prior to co-immunoprecipitation with anti-FLAG (M2, Sigma)
+agarose. Beads were washed and immmunopurified proteins were eluted with FLAG
+peptide (Sigma). Proteins were separated by SDS-PAGE prior to protein
+identification by mass spectrometry. Where indicated, 45μg RNAse A was
+added to each lysate prior to co-immunoprecipitation.
+
+To study the interaction between Stau1 and TDP-43, samples were
+separated by SDS-PAGE using AnyKD tris-glycine gels (Bio-Rad) and transferred to
+PVDF membrane. To detect expression levels of TDP-43, 3 Drosophila 3 rd instar larvae brains were
+collected, homogenized, and reduced per lane. These samples were separated by
+SDS-PAGE using Novex NuPAGE Bis-Tris (Life Technologies) gels. Anti-TDP43 (Santa
+Cruz, sc-100871) and anti-STAU1 (ProteinTech, 14225-1-AP) were used.
+
+Beacon loop sequences of 23-25nt were designed manually to detect the
+mouse or human NFL transcript using 3 different programs in parallel; 1)
+OLIGOWALK, 2) mFold, and 3) MicroInspector. Using this approach, beacons were
+predicted to stably hybridize to single stranded regions of the transcript in
+areas not bound by endogenous microRNAs ( Bratu et
+al., 2003 ; Rusinov et al.,
+2005 ). Beacons were synthesized using a nuclease resistant
+2`-O-methylribonucleotide backbone and were prevented from nuclear localization
+by conjugation to NeutrAvidin ( Chen et al.,
+2009 ; Chen et al., 2010 ).
+Beacons were synthesized with a biotin-modified-dT nucleotide in the 3`stem
+sequence and were labeled with 5` Cy3 and 3` BHQ2 by Sigma Aldrich (St. Louis,
+MO). The beacon sequences are: Nefl 5`- Cy3 GCTCA ATCTTTCTTCTTAGCCACC (Bio-dt)gagc BHQ2-3`, NEFL 5`- Cy3 cacaG GTTCAATCTTTCTTCTTAGCTG C(Bio-dT)gtg BHQ2 -3`. Underlined sequences form the self-hybridizing stem sequence and upper
+case letters hybridize to the transcript. Nefl beacon
+hybridization to its target sequence was tested in vitro using
+synthetic oligonucleotides in solution. Nefl beacon hybridized
+rapidly with its target and high specific fluorescence was detected. Further
+details are provided in supplemental material .
+
+Novel iPS cell lines were characterized in this study:
+TDP-43 A315T and TDP-43 G298S . Dermal biopsies were
+obtained from 2 familial ALS patients with mutations in the TARDBP locus. From these explants, fibroblasts were
+generated and expanded in KO-DMEM (Life Technologies™) supplemented with
+10% FBS (Hyclone™). TDP-43 iPS cells were derived by transduction of
+fibroblasts with retroviruses expressing OCT4, SOX2 and KLF4 . After 3-4 weeks, primary iPS cell colonies were
+picked based on morphology and independently expanded in mTeSR™1 medium
+(STEMCELL Technologies) to generate 4-6 different iPS cell lines/patient. The
+presence of the mutations was confirmed by PCR amplification of a genomic region
+surrounding Exon 6, followed by Sanger DNA sequencing. The
+pluripotency of the iPS cell lines used was validated using the TaqMan®
+hPSC Scorecard™ Panel (Life Technologies™). Expression of
+transcription factors and cell surface antigens characteristic of the
+pluripotent state was confirmed using immunocytochemistry. Primary antibodies
+and dilution factors used for this purpose were NANOG (1:100, R&D), OCT3/4
+(1:500, Santa Cruz), SSEA-4 (1:1000, Santa Cruz) and TRA-1-81 (1:1000,
+Millipore).
+
+Detailed description can be found in the Supplemental Materials section. Briefly, iPS cells were maintained on a monolayer of neomycin selected
+mouse embryonic fibroblasts (MEFs; Millipore) in hiPS media ( Bilican et al., 2012 ; Dimos et al., 2008 ). To generate motor neurons,
+undifferentiated iPS cells were incubated with 10 μM Y27632 (Calbiochem)
+then passaged, triturated, and placed into ultra-low adherent culture dishes
+(Corning) for seeding of embryoid bodies (EBs). For the first 11 days, cells
+were kept in suspension in hiPS media without bFGF. At day 11, EBs were switched
+to neural induction medium. At day 28, EBs were dissociated, transfected using
+Lonza Nucleofector with mRNA beacons and HB9 (9Kb)-promoter-GFP, and plated onto
+PDL/laminin-coated (BD Biosciences) glass ( Kaech
+and Banker, 2006 ). To prepare the cells for live imaging, cells were
+allowed to settle on glass coverslips flipped over primary glial monolayers.
+
+Statistical analyses were performed with Prism6 (GraphPad Software Inc.,
+La Jolla, CA). Comparing the TDP-43 wild-type to TDP-43 (M337V) datasets yielded
+all p-values. A Mann-Whitney unpaired test with one-tailed p-value was completed
+for comparing distances travelled, velocity analysis, and the directional
+percentages of granules within populations. A One-Way Anova test followed by a
+Tukey test was completed for the TBPH rescue analysis. KaleidaGraph (Synergy
+software) was used to make the axonal particle trafficking distance and velocity
+bar graphs. All error bars are shown as mean ± SEM.

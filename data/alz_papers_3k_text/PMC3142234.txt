@@ -1,0 +1,176 @@
+# Title
+External review and validation of the Swedish national inpatient register
+
+# Abstract
+The Swedish National Inpatient Register (IPR), also called the Hospital Discharge Register, is a principal source of data for numerous research projects. The IPR is part of the National Patient Register. The Swedish IPR was launched in 1964 (psychiatric diagnoses from 1973) but complete coverage did not begin until 1987. Currently, more than 99% of all somatic (including surgery) and psychiatric hospital discharges are registered in the IPR. A previous validation of the IPR by the National Board of Health and Welfare showed that 85-95% of all diagnoses in the IPR are valid. The current paper describes the history, structure, coverage and quality of the Swedish IPR. In January 2010, we searched the medical databases, Medline and HighWire, using the search algorithm "validat* (inpatient or hospital discharge) Sweden". We also contacted 218 members of the Swedish Society of Epidemiology and an additional 201 medical researchers to identify papers that had validated the IPR. In total, 132 papers were reviewed. The positive predictive value (PPV) was found to differ between diagnoses in the IPR, but is generally 85-95%. In conclusion, the validity of the Swedish IPR is high for many but not all diagnoses. The long follow-up makes the register particularly suitable for large-scale population-based research, but for certain research areas the use of other health registers, such as the Swedish Cancer Register, may be more suitable.
+
+## Background
+The Swedish National Inpatient Register (IPR; Swedish: slutenvårdsregistret), also called the Hospital Discharge Register, was established in 1964 (Figure 1 ). The IPR has complete national coverage since 1987. The IPR is part of the National Patient Register (Swedish: patientregistret). Currently, more than 99% of all somatic and psychiatric hospital discharges are registered in the IPR. Diagnoses in the IPR are coded according to the Swedish international classification of disease (ICD) system, first introduced in 1964 (adapted from the WHO ICD classification system) (Figure 1 ). A history of the Swedish and Nordic ICD system has been published elsewhere [ 1 ]. It is mandatory for all physicians, private and publicly funded, to deliver data to the IPR (except for visits in primary care). A detailed description of the regulations relevant to the IPR has been given in the Appendix (Additional file 1 ).
+
+Timeline of the Swedish Inpatient Register . Years inside the arrow indicate the first year when an ICD classification was in use. ICD-10 was introduced in 1997, with the exception of the county of Skåne where ICD-9 was still in use throughout 1997. The one-year delay in introducing ICD-10 in Skåne has some implications when identifying patients with a certain disease/disorder in this county because about 8-9% of the Swedish population live in Skåne.
+
+The IPR was founded in 1964 when the NBHW (National Board of Health and Welfare; Swedish: Socialstyrelsen) began collecting data on somatic inpatient care in six Swedish counties (roughly the Uppsala region)(Figure 2 , red line)[ 2 ] (for the population statistics underlying Figures 2 and 3 , please see Additional file 2 ). In fact, the NBHW started to collect data on psychiatric care in 1962 but when the IPR was reconstructed in the 1990s, all psychiatric data originating before 1973 were removed (Figure 3 ). Beginning in about 1970, data collection for the IPR went from a pilot project to an all-inclusive effort to cover the entire country. In 1983, approximately 85% of all somatic care and almost all psychiatric care were reported to the NBHW [ 2 ]. In 1984, the NBHW asked permission from the National Data Inspection Board to link individual data to the personal identity number (PIN) (Swedish: personnummer) [ 3 ] of each individual. Although granted permission, the NBHW postponed the introduction of a PIN-based register because the Swedish attorney general objected to the use of the PIN in the IPR. Only in 1993 did the Swedish government declare that the IPR should use the PIN as the unique identifier in all hospital discharges. After 1993, all counties have collaborated on reconstructing earlier hospital discharges linked to the PIN for the years 1984-91. This linkage was possible for all but three counties: two counties were unable to reconstruct data for the year 1985 while the third did not enter the IPR until 1987.
+
+Somatic care: coverage of the Swedish population . Red = Proportion of the Swedish population living in counties that had started to report somatic hospital discharges to the Swedish Inpatient Register. Blue = Proportion of the Swedish population living in counties where all somatic hospital discharges were reported to the Swedish Inpatient Register (1964: 6%; 1972: 36%; 1982: 71%; 1984: 86%). In 1976, for the first time more than 50% of the Swedish population were covered. Complete coverage (100%) was attained in 1987. County population data obtained from the government agency Statistics Sweden (Appendix).
+
+Psychiatric care: coverage of the Swedish population . Blue = Proportion of the Swedish population living in counties where all psychiatric hospital discharges were reported to the Swedish Inpatient Register (1973: 86%; 1985: 94%; 1986: 98%). All counties in Sweden started to record psychiatric care in 1973. (Actually, psychiatric diagnoses were recorded before 1973 but then removed until 1973 - see text). County population data obtained from the government agency Statistics Sweden (Appendix).
+
+Each year, there are about 1.5 million hospital discharges in the IPR (Figure 4 ), with the majority of these taking place in somatic care. From 1997 and onwards, surgical day care procedures are reported to the NBHW, and since 2001, counties are obliged to report hospital-based outpatient physician visits. However, primary health care data are still not reported on a national level to the NBHW. Whereas coverage of the IPR is currently almost 100%; coverage of hospital-based outpatient care is considerably lower (about 80%)[ 2 ]. In the outpatient register, data from private caregivers are missing (coverage of data from public caregivers in outpatient care is almost 100%). The number of hospitals reporting to the IPR increased rapidly in the 1970s. In the 1960s, 20 hospitals and roughly 80 nursing homes reported to the IPR [ 2 ]. In the 1980s, the number of units reporting to the IPR had increased to 580. Because of organizational changes, the number of reporting units has since declined.
+
+Number of hospital discharges from 1964-2007 [ 2 ]. Surgery = General surgery.
+
+IPR variables can be divided into four categories: patient-related data, data about the caregiver, administrative data and medical data (Table 1 ). Figure 5 displays a typical dataset from the IPR as delivered to researchers.
+
+Variables in the Swedish IPR
+
+IPR = Inpatient Register. NBHW = National Board of Health and Welfare.
+
+Since January 2009, the NBHW collects additional data on compulsory psychiatric care (psychiatric care under certain laws) in addition to the IPR. The data are collected three times per year.
+
+In older versions of the IPR, the variable "Billing forms (between counties)" was also included.
+
+A sample of variables from the Swedish Inpatient Register (as seen with the statistics programme SPSS) . Each hospital discharge is listed on a row. This means that an individual may occupy several rows in the IPR (first, second, third hospital discharge, etc.). The variable lpnr (or lopnr) is constructed when the dataset is delivered to the researcher, and serves as unique serial number. In the original IPR dataset, each discharge is linked to a unique Personal Identity Number (PIN)[ 3 ]. Please note that the order of the variables above may differ from that in the original IPR dataset.
+
+The basic unit of the IPR is not the patient but the admission/discharge. Individual patients can be identified by their unique PIN.
+
+Each hospital discharge is keyed to an individual's PIN [ 3 ] (Table 1 ). Overall (1964-2008), the PIN is found missing in 2.9% of all hospital discharges.
+
+Overall, a primary diagnosis is listed in 99% of all hospital discharges. The highest rate of missing data occurred in 1968 (4.6%), which may be due to the change from ICD-7 to ICD-8 that occurred in that year. After 2000, missing primary diagnoses have been consistently more common in psychiatric care than in somatic care (5.7-9.4% in psychiatric care vs. 0.5-0.9% in somatic care). Since the start of the IPR, primary diagnoses are missing in 0.8% of somatic care, 2.4% of geriatric care, 3.1% of psychiatric care and 0.5% of general surgery.
+
+The proportion of patients without a primary diagnosis does not differ by hospital type (university hospitals 1.4%, county hospitals 0.7%, small local hospitals 0.8%) but is slightly higher in nursing homes (3.1%).
+
+All hospital admissions for injury or poisoning must be coded by an E code indicating the cause of the injury/poisoning (Figure 6 ).
+
+Percentage of hospital discharges for injury and poisoning with reported external cause [ 2 ]
+.
+
+The variables "mode of admission" and "mode of discharge" describe where the patient stays before and after admission, respectively (Table 1 ). These variables have generally been recorded in more than 95% of all hospital admissions (with the exception of the year 1979 and in single counties in 1997-2000).
+
+Even though the IPR contains important information on a wide spectrum of diagnoses, it is sometimes preferable to use other Swedish health registers, such as the Swedish Cancer Register )[ 4 ], the Cause of Death Register [ 5 ] and the Swedish Medical Birth Register [ 6 ]. There are also a large number of Swedish National Quality Registers (n = 89 in 2011)( http://www.kvalitetsregister.se , accessed April 19, 2011).
+
+The NBHW has previously examined the quality of the IPR on three separate occasions (one published study with data collection in 1986 (899 patients, patient chart validation)[ 7 ], one unpublished study with data collection in 1990 (n = 875, patient chart validation)[ 2 , 8 ] and one comparison between the IPR and the National Quality Registers in 2009. The two patient chart studies focused on three types of diagnostic coding error detected in medical records.
+
+1. Diagnostic errors , i.e. the patient received an incorrect diagnosis (the patient receives an ICD code that is not related to his or her actual main complaint). Diagnostic errors were more common in internal medicine records (especially in the 1986 study [ 7 ]) than in records from gynaecology departments, and slightly more common in older than in younger patients [ 2 ].
+
+2. Translation errors , i.e. the ICD code in the IPR is different from the code actually listed in the patient chart . This type of error was detected in less than 1% of all medical records.
+
+3. Coding errors , i.e. the faulty ICD code accompanies an otherwise correct diagnosis. Such coding errors occurred in 5.9% of hospital discharges in 1986 and in 8.3% in 1990.
+
+In the 1990 validation, the risk of an incorrect primary diagnosis correlated with the number of secondary diagnoses [ 8 ]. The overall proportion of incorrect diagnoses at the ICD code 3-digit/character level (e.g., ICD-9: 571 "chronic liver disease and liver cirrhosis") was 13% in 1986 and 12% in 1990; at the four-digit level (e.g., ICD-9: 571E "chronic hepatitis"), it was 15% in 1986 and 14% in 1990 (B. Smedby, personal communication, Jan 30, 2010).
+
+The comparison between the IPR and the National Quality Registers found that the IPR has high sensitivity for most surgical procedures (Table 2 )[ 9 ], whereas sensitivity varied between 76.4% and 96.0% for three diseases not requiring surgery (multiple sclerosis, incident stroke and prostate cancer)(Table 2 ).
+
+Comparison between Swedish Quality Registers and the National Patient Register [ 9 ]
+
+ERCP = endoscopic retrograde cholangiopancreatography
+
+* Quality register compared with the Patient Register (IPR and hospital-based outpatient data). In the other comparisons the Quality Register was compared only with the IPR.
+
+# Currently part of the Register Swedeheart .
+
+Systematic collection of medical data is essential for modern health care because such data are used to plan, evaluate and fund health care. Through the IPR, administrators, health care personnel and researchers are able to (a) evaluate the incidence and prevalence of diseases [ 10 ], (b) examine the effects and consequences of interventions (e.g., surgery [ 11 ]), including quality of care and (c) establish cohorts of patients with a certain disease [ 12 ] or condition.
+
+The primary purpose of this paper was to review and validate the IPR. A second objective was to describe its potential use in population-based epidemiological research.
+
+## Methods
+Sorensen et al suggest that administrative databases could be evaluated in three ways [ 13 ]:
+
+(a) Through comparison with other independent reference sources
+
+(b) Through patient chart reviews (medical records)
+
+(c) By comparing the total number of cases in different databases
+
+The majority of the evaluations in this paper were based on (b), i.e. patient chart reviews.
+
+In January 2010, we began identifying papers that might concern the validity of the IPR (Figure 7 ) using database searches in PubMed and HighWire. We used the following search algorithm: " validat* (inpatient or hospital discharge) Sweden" . We also contacted 218 members of the Swedish Society of Epidemiology and another 201 researchers with experience in register-based research. Altogether, we identified 132 papers, all of which were subsequently examined in detail. Tables 3 and 4 list papers that validated the IPR.
+
+Collection of validation studies . In both the PubMed and HighWire Press search, we used the following search algorithm to identify relevant papers: validat* (inpatient or hospital discharge) Sweden. Databases were searched from the start of the databases until January 2010. *In the HighWire Press literature search, JFL manually screened all titles, authors, keywords and, when available, abstracts for the 840 hits. If a validation of the inpatient register could not be ruled out, the corresponding author was contacted. A number of publications could then be excluded; 14 "new papers" remained that had not previously been identified.
+
+Validation of diagnoses in the Swedish Inpatient Register by Positive Predictive Values (PPVs)
+
+PC, Personal communication: All personal communications took place in 2010 (exact date is listed in the table).
+
+CDT, Connective tissue disease. GBS, Guillain-Barré Syndrome; HF, Heart Failure, IBD, Inflammatory bowel disease. IPR, Inpatient Register.
+
+MR, compared with Medical Records (patient charts).
+
+PPV, Positive Predictive Value.
+
+NPV, Negative Predictive Value.
+
+ULSAM, Uppsala Longitudinal Study of Adult Men) cohort.
+
+*From ICD-7 through ICD-9, no distinction was made between type 1 and type 2 diabetes. For practical reasons "diabetes" has been listed as an autoimmune disorder.
+
+† These studies took place when the county in question did not yet report inpatient data to the IPR, but results are deemed valid for the IPR.
+
+Validation of diagnoses in the Swedish Inpatient Register by sensitivity
+
+PC, Personal communication: All personal communications took place in 2010 (exact date is listed in the table).
+
+ICU, Intensive Care Unit. MI, Myocardial Infarction. MR, compared with Medical Records (patient charts). RA, Rheumatoid arthritis.
+
+ULSAM, Uppsala Longitudinal Study of Adult Men) cohort.
+
+*Data from all departments at the Lund Hospital including the emergency unit, general practitioners, community nurses, physicians at the Neurology department, autopsy registers, Forensic department, computerized searches of outpatient medical records
+
+## Results
+With few exceptions, validation of ICD codes from the IPR was made by comparing registered diagnoses in the IPR with information in medical records (Tables 3 and 4 ). The positive predictive values (PPVs) of IPR diagnoses were 85-95% for most diagnoses (3-digit level, see Table 3 ). In a review of patients dying in hospital 90-98% of patients with a primary discharge diagnosis of malignancy had the same malignancy as the underlying cause of death [ 5 ]. In addition, 90.3% of those with a primary discharge diagnosis of myocardial infarction (MI) had MI as the underlying cause of death and with a similar proportion of those with other vascular diseases (89.0%). Agreement between discharge diagnosis and death certificate was slightly lower for traffic accidents (87.8%), meningitis (74.3%) and ulcer of the stomach or duodenum (69.9%) to name a few [ 5 ].
+
+Sensitivity of the IPR was high (above 90%) for MI [ 14 ] as well as for surgery for carotid stenosis, surgery on the carotid arteries, or surgery on the arteries in the leg (infrainguinal) and aorta [ 15 ](Table 4 ) but low for lipid disorders and hypertension [ 14 ]. Few studies have examined to what extent an individual without a specific disease is assigned an ICD code for that disease.
+
+Some hospital admissions are due to trauma and not disease. In 2008, Backe et al [ 16 ] used ambulance records as gold standard to examine the proportion of injuries and suffocations that were then recorded in the IPR. Agreement between the two data sources varied, with high agreement for "falls" (W00-W19; 93.9%) but lower for "road traffic accidents" (ICD-10: V01-V99) and "suffocation, drowning/near drowning, etc." (ICD-10: W64-85), where the IPR recorded less than 50% of all injuries noted in the ambulance reports.
+
+Several studies have examined date of hospital admission. For instance, Nordgren found that for 62% (257/413) of spinal cord injuries, the hospital admission date agreed with the injury date (≤2 days within the injury date [ 17 ]).
+
+## Discussion
+This review found a high PPV for the majority of evaluated diagnoses but a lower sensitivity. The PPVs reported in this review are similar to those in the Danish IPR (febrile seizures in children: 93%[ 18 ], MIs: 92-94%[ 19 ], venous thromboembolism: 75%[ 20 ]). Furthermore, US hospital data suggest a PPV of about 90% for some diagnoses (e.g., acromegaly: 76% of the patients had a definite diagnosis and 14% a probable diagnosis [ 21 ]).
+
+The proportion of valid diagnoses in the IPR is probably higher in patients with severe as opposed to mild disease and higher among patients with causally related complications in contrast to those without complications. Baecklund et al reported that the IPR diagnosis of rheumatoid arthritis was correct in 93.5% of individuals with later lymphoma but only in 87.1% in individuals who had not developed later lymphoma [ 22 ]. In this case the positive association between lymphoma and rheumatoid arthritis leads to higher specificity for rheumatoid arthritis in patients with lymphoma.
+
+There are several ways to increase the specificity and the PPV of a diagnosis in the IPR. In a paper on sepsis in celiac disease by Ludvigsson et al [ 23 ] sensitivity analyses were performed among patients with (1) sepsis diagnosed in a department of infectious diseases (i.e. in a department where sepsis is likely to be correctly diagnosed), (2) sepsis listed as the primary diagnosis and (3) the risk of having at least two hospital admissions with sepsis. All these measures could increase the specificity of a diagnosis. For instance, there is a risk that individuals discharged from a dermatology department with a diagnosis of MI (ICD-10: I20.9) actually had an incorrectly recorded eczema (ICD-10: L20.9). When Parikh et al examined parity and risk of later cardiovascular disease, they restricted their discharges to patients with a primary diagnosis of cardiovascular disease (or death from cardiovascular disease)[ 24 ]. In their recent paper on schizophrenia, substance abuse and violent crime Fazel et al resolved to study patients with at least two hospital admissions with schizophrenia [ 25 ].
+
+The extent to which a condition has been reported and recorded in the IPR depends on several factors [ 26 ], including care-seeking behaviour of an individual, access to health care and the propensity of a physician to admit a patient. Hospital fees, however, are no major obstacle to inpatient care access in that the (public) health system in Sweden is almost free of charge.
+
+Over time, an increasing number of patients are treated as outpatients [ 27 ], a trend largely driven by economic restraints but also by data indicating that the prognosis of some diseases (e.g., stroke) has an improved prognosis in ambulatory care [ 28 ]. The trend towards outpatient care suggests that the sensitivity of the IPR may have decreased in recent years for some diseases. In fact, our validation showed that the IPR has low sensitivity for hypertension and lipid disorders. The introduction of day care anaesthesia has resulted in that certain procedures, such as small-intestinal biopsy preceding a diagnosis of celiac disease [ 29 ], which previously required inpatient care, are nowadays often performed on an outpatient basis.
+
+When Elmberg et al estimated mortality in patients with hereditary haemochromatosis (HH)[ 30 ], they found a relative risk of death of 2.15 among HH patients identified through the IPR, but only 1.09 in patients identified through regional clinic registers and 1.15 in those identified through outpatient data sources [ 30 ]. Some evidence suggests that patients with a certain disorder identified through the IPR may suffer from more intense disease than the average patient and be at higher risk of complications than patients identified outside the IPR (a phenomenon sometimes called Berkson's bias [ 31 ]).
+
+Another issue that deserves attention is that the first recorded admission with a disorder is not always equal to the incident admission. According to patient chart reviews, 1 in 3 patients with a hospital admission for stroke had had an earlier stroke (L. Olai, personal communication, Feb 4, 2010). In an effort to separate incident admissions from readmissions some authors have suggested using prediction models combining information from current and previous records in the IPR [ 32 ]. It should be noted that the Swedish ICD system does contain a number of codes representing late effects of disease, such as ICD code I69 ("late effects of cerebrovascular disease").
+
+A number of non-medical factors influence the coding of hospital discharges. Although originally used to collect data on health care use, today the IPR coding is also used as the basis for management and financing. Some hospitals have introduced compulsory use of certain secondary codes (when such codes apply) because these codes generate extra funding (e.g., a secondary code of diabetes mellitus is "valuable"). Further, international research suggests that the coding pattern may differ between hospitals and general practice [ 33 ]. Financial incitements have therefore led to a "diagnostic drift" in which more secondary diagnoses are listed [ 27 ] and where it is financially more rewarding to assign a patient a severe primary diagnosis than a severe secondary diagnosis (e.g., type 1 diabetes is more "valuable" as a primary diagnosis than as a secondary diagnosis). The effects of financial incitements on ICD coding have probably been underestimated and are likely to have changed the epidemiological pattern. A standardized behaviour of assigning ICD codes is therefore of importance for all stakeholders, including the Swedish state [ 27 ].
+
+Despite the extensive scope of the IPR, there is still a need for additional variables (Additional file 3 ), including laterality, index admission, earlier comorbidity and risk factors (e.g., smoking).
+
+## Conclusion
+In conclusion, the Swedish IPR is a valuable resource for large-scale register-based research. A number of diagnoses have already been validated by the NBHW and by individual researchers. Current data suggest that the overall PPV of diagnoses in the register is about 85-95%.
+
+## Competing interests
+The authors declare that they have no competing interests.
+
+The funding organizations played no role in the design or conduct of the study, in the collection, management, analysis, or interpretation of the data, and did not participate in preparation, review, or approval of the manuscript.
+
+## Authors' contributions
+JFL designed the study, collected the data, and wrote the first draft of the paper. JFL, EA, AE, MF, JLK, CR and POO examined the papers that were used when examining the validity of the Swedish Inpatient Register. All authors contributed to the interpretation of the results. All authors read and approved the final manuscript.
+
+## List of abbreviations
+IPR: Swedish Inpatient Register (Slutenvårdsregistret); MI: Myocardial infarction; NBHW: National Board of Health and Welfare (Socialstyrelsen); PIN: Personal Identity Number.
+
+## Pre-publication history
+The pre-publication history for this paper can be accessed here:
+
+http://www.biomedcentral.com/1471-2458/11/450/prepub
+
+## Supplementary Material
+Detailed description of the laws and regulations governing the Swedish Inpatient Register . Please see Title.
+
+Click here for file
+
+Population data used to construct Figures 2 and 3 . Population of Swedish Counties in1960 and 1990.
+
+Click here for file
+
+Variables that could potentially add value to the Inpatient Register . This file lists a number of variables that could be added to the Inpatient Register.
+
+Click here for file

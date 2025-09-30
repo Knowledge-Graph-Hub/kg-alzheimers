@@ -1,0 +1,817 @@
+# Title
+Apolipoprotein E and Alzheimer disease: pathobiology and targeting
+strategies
+
+# Abstract
+Polymorphism in the apolipoprotein E ( APOE ) gene is a
+major genetic risk determinant of late-onset Alzheimer disease (AD), with the APOE*ε4 allele conferring an increased risk and the APOE*ε2 allele conferring a decreased risk, relative
+to the common APOE*ε3 allele. Strong evidence from
+clinical and basic research suggests that a major pathway by which APOE4
+increases the risk of AD is by driving earlier and more abundant amyloid
+pathology in the brains of APOE*ε4 carriers. The list of
+amyloid-β (Aβ)-dependent and Aβ-independent pathways that
+are known to be differentially modulated by APOE isoforms is increasing. For
+example, evidence is accumulating that APOE influences tau pathology,
+tau-mediated neurodegeneration, and microglial responses to AD-related
+pathologies. In addition, APOE4 is either pathogenic or shows reduced efficiency
+in multiple brain homeostatic pathways, including lipid transport, synaptic
+integrity and plasticity, glucose metabolism, and cerebrovascular function.
+Here, we review the recent progress in clinical and basic research into the role
+of APOE in AD pathogenesis. We also discuss how APOE can be targeted for AD
+therapy using a precision medicine approach.
+
+## Introduction
+Polymorphism in the apolipoprotein E ( APOE ) gene is a major
+risk determinant of late-onset Alzheimer disease (AD), the symptoms of which develop
+after the age of 65 years ( Box
+1 ) 1 . AD is the
+leading cause of dementia in elderly individuals 2 , and its pathological hallmarks include the deposition of
+extracellular amyloid-β (Aβ) aggregates as amyloid plaques and
+intracellular hyperphosphorylated tau aggregates as neurofibrillary tangles, along
+with neuronal loss and glial activation 3 . Given that individuals with late-onset AD account for more than
+95% of the total AD population, efforts to elucidate the role of APOE , in particular its links to the pathological hallmarks of
+the disease, are relevant to the vast majority of patients with AD seeking new
+therapies.
+
+Of the three major APOE allelic variants, ε2,
+ε3 and ε4 , APOE*ε4 is associated with an increased risk 4 , 5 and APOE*ε2 is associated with a
+decreased risk 6 , 7 of AD relative to the common APOE*ε3 allele. Carrying one APOE*ε4 allele increases the risk of late-onset AD
+3–4-fold, and carrying two alleles increases the risk
+9–15-fold 6 , 8 , 9 .
+Among individuals with AD, APOE*ε4 is also associated with
+lower age of disease onset ( Box
+1 ) 4 , 10 . Mounting evidence suggests that the APOE4
+protein isoform drives amyloid pathology and impairs multiple aspects of normal
+brain function, thereby increasing the risk of AD 11 ( Table
+1 ). Studies have also shed light on the associations between APOE genotype and tau-mediated neurodegeneration 12 , the risk of dementia with Lewy
+bodies (DLB) 13 – 15 , Parkinson disease dementia (PDD) 15 – 18 and the degree of TAR DNA-binding protein 43 (TDP43)
+pathology in the brains of individuals with AD 19 – 21 . In
+addition, advances in disease modelling and molecular profiling technology have
+provided insights into the role of APOE in AD pathogenesis at the molecular,
+cellular and organism level.
+
+In light of these findings, in this Review we describe the emerging link
+between APOE genotype and pathogenic proteins found in the brains
+of individuals with AD. We summarize recent progress in understanding the mechanisms
+by which different APOE isoforms contribute to or counteract AD pathogenesis via
+Aβ-dependent and Aβ-independent pathways. Finally, we discuss
+opportunities and strategies for developing APOE-targeted AD therapies in the
+future.
+
+## Biology of APOE
+Human APOE is a 34 kDa glycoprotein 22 that is composed of 299 amino acids after cleavage of the
+18-amino-acid signal peptide. In the CNS, APOE is abundantly expressed in
+astrocytes, microglia, vascular mural cells and choroid plexus cells, and to a
+lesser extent in stressed neurons 23 , 24 . Once APOE has
+been secreted from the cells, the cell surface ATP-binding cassette transporters
+ABCA1 25 and
+ABCG1 26 transfer
+cholesterol and phospholipids to nascent APOE to form lipoprotein particles. The
+size and density of APOE lipoprotein particles in the cerebrospinal fluid (CSF) are
+similar to those of HDL 27 . APOE
+plays a critical role in redistributing cholesterol and other lipids to neurons
+through binding to cell-surface APOE receptors. The LDL receptor (LDLR) family
+members, including LDLR and LDLR-related protein 1 (LRP1), are major APOE receptors
+involved in APOE-mediated lipid metabolism. APOE has two main functional regions
+( FIG. 1 ): the receptor-binding region in
+the amino-terminal domain and the lipid-binding region in the carboxy-terminal
+domain 28 , 29 .
+
+Computer-assisted modelling has been performed to examine the conformational
+changes in APOE that potentially occur on lipid binding. Structural modelling of
+human APOE3 was accomplished using data on APOE from the Protein Data Bank 30 – 37 . The modelling technique has been well documented 38 – 44 and enables composite protein structures to be built from
+multiple structural templates. The resulting lipid-free and lipid-bound structures
+are shown in FIG. 1 45 – 48 . The structures show that the lipid-binding region (residues
+244–272) of APOE interacts directly with the lipid particle. Lipid binding to
+APOE increases the accessibility of the receptor-binding region (residues
+136–150), thereby enabling cellular lipid delivery. The structural changes to
+APOE that are predicted to take place on lipid binding are consistent with those
+documented in the existing structural literature for this protein 30 , 31 , 34 , 35 , 37 , 49 – 54 .
+
+The APOE isoforms encoded by the three corresponding gene alleles differ from
+one another only at positions 112 and 158 (APOE2: Cys112, Cys158; APOE3: Cys112,
+Arg158; APOE4: Arg112, Arg158). However, these single amino acid polymorphisms
+substantially alter the structure and function of APOE, thereby modulating its
+binding properties with regard to both lipids and receptors. For example, the
+binding of APOE2 to LDLR is more than 50 times weaker than the binding of APOE3 or
+APOE4 to this receptor 55 . In the
+periphery, the relatively low affinity of APOE2 for LDLR impairs the clearance of
+triglyceride-rich lipoprotein remnant particles and, as a consequence, APOE2
+contributes to the onset of type III hyperlipoproteinaemia 22 , 56 .
+By contrast, enhanced binding of APOE4 to VLDL particles, as compared with the other
+APOE isoforms 55 , impairs lipolytic
+processing of VLDL in the periphery; thus, APOE4 is associated with pro-atherogenic
+changes in lipoprotein distribution 56 .
+
+In addition to their role in lipid homeostasis in the periphery, APOE
+isoforms differentially modulate multiple pathways in the brain, including lipid
+transport, synaptic integrity and plasticity, glucose metabolism and cerebrovascular
+function. However, the correlation between the structure of individual APOE isoforms
+and their modulation of these pathways in the brain is less clear than for their
+actions on peripheral lipid metabolism. Possible mechanisms by which structural
+differences between APOE isoforms could modulate these brain pathways include
+differences in protein conformation, post-translational modification, lipoprotein
+preference and binding affinity for receptors 29 .
+
+Studies have also shed light on the potential role of plasma APOE in brain
+homeostasis. Synaptic dysfunction in Apoe -knockout mice can be
+partially restored, and cognition improved, by genetic restoration of peripheral
+APOE 57 . These effects
+occur despite the presence of the blood–brain barrier (BBB), which blocks
+APOE influx from the periphery. The relative ratio of APOE4 to APOE3 in plasma
+positively correlates with the loss of regional grey matter volume and abnormal
+cerebral glucose metabolism in cognitively healthy APOE * ε3/ε4 carriers 58 , linking the isoform composition
+of plasma APOE to structural and metabolic changes of the brain. Therefore, plasma
+APOE is a potential determinant of brain structure and function.
+
+In APOE*ε3/ ε4 individuals, the APOE4:APOE3
+ratio is >1 in the brain and CSF but <1 in the plasma 59 , 60 , suggesting that the metabolic pathways of APOE isoforms
+differ between the CNS and plasma. Thus, further studies exploring the similarities
+and differences in APOE metabolism between the CNS and periphery, and the functional
+crosstalk between brain and plasma APOE, would aid a better understanding of the
+impact of APOE isoforms on brain physiology.
+
+## APOE4 and Aβ pathology
+Although evidence from clinical and pathological studies shows a link
+between APOE genotype and multiple proteinopathies, including those
+involving tau, α-synuclein and TDP43, the best-established association is
+between APOE genotype and Aβ. Pathological studies of
+post-mortem brain tissue from patients with AD have found that APOE*ε4 exacerbates the intra-neuronal accumulation of
+Aβ 61 , plaque
+deposition in the brain parenchyma 62 – 65 , formation
+of neurotoxic Aβ oligomers 66 and the severity of cerebral amyloid angiopathy (CAA) 67 , 68 . By contrast, APOE*ε2 is associated
+with reduced numbers of neuritic plaques 69 but somewhat increased risks of CAA and CAA-related
+intracranial haemorrhage 70 – 73 .
+
+Imaging and CSF biomarker studies have shown that APOE*ε4 is consistently associated with greater
+Aβ deposition in the brains of cognitively healthy elderly
+individuals 74 – 78 , individuals with mild cognitive
+impairment (MCI) 79 and individuals
+with AD 80 . A longitudinal study
+also showed that APOE*ε4 carriers exhibit increased
+Aβ deposition in the cortex compared with APOE*ε4 non-carriers 81 . Of note, APOE*ε4 is associated with an increased rate of
+longitudinal Aβ accumulation among cognitively healthy individuals who are
+amyloid-negative, whereas no differences in rates of Aβ deposition are
+observed among amyloid-positive individuals with different APOE genotypes 82 . Assuming that
+longitudinal Aβ accumulation represents an early phase of amyloid deposition
+in amyloid-negative individuals and a later phase in amyloid-positive individuals,
+these results suggest that the effect of APOE*ε4 on
+Aβ metabolism and aggregation is most pronounced during the initiation phase
+of Aβ deposition. By contrast, in cross-sectional studies, APOE*ε2 was found to be associated with reduced brain
+Aβ deposition in cognitively healthy elderly people 77 , 83 , 84 and individuals with MCI 85 , particularly those without an APOE*ε4 allele. APOE*ε2 is also
+protective against longitudinal Aβ accumulation, especially among individuals
+without amyloid deposition 82 .
+Together, multiple layers of evidence indicate that the APOE genotype, in particular the presence of APOE*ε4 , modulates
+amyloid pathology in the brain.
+
+The effect of APOE4 in driving amyloid pathology is likely to outweigh the
+protective effect of APOE2 ( FIG. 2 , Table 2 ) 85 , as APOE*ε2/ε4 and APOE*ε3/ε4 individuals have comparable
+probabilities of exhibiting amyloid-β (Aβ) deposition on an
+amyloid-PET scan. In addition, among cognitively healthy individuals and people with
+MCI, the prevalence of amyloid pathology is higher in those with APOE*ε2/ε4 than in those with APOE*ε3/ε3 . These findings indicate that APOE4 is
+a strong driver of Aβ deposition irrespective of the presence of APOE2 or
+APOE3. Importantly, the pattern of estimated probabilities of amyloid positivity
+associated with different APOE genotypes is similar to that of AD
+risk 6 , 8 , 9 ( Table 2 ), reinforcing the idea that
+APOE4 increases the risk of AD largely by causing earlier and more abundant amyloid
+pathology in the brain. Likewise, the presence of APOE*ε2 might reduce AD risk by decreasing amyloid pathology, especially in the absence of APOE*ε4 . However, given that APOE*ε2 is associated not only with intact cognition but
+also, paradoxically, with increased AD pathology 86 in the oldest old population, the protective effect of APOE*ε2 might also be mediated by Aβ-independent
+mechanisms. Supporting this notion, APOE*ε2 is associated
+with reduced cognitive decline during ageing even after adjustment for Aβ
+pathologies 87 .
+
+As Aβ is continuously generated in the brain as a result of APP
+processing, efficient clearance is vital for preventing Aβ accumulation
+and subsequent aggregation 88 .
+The clearance of soluble Aβ from the brain interstitial fluid (ISF)
+occurs in an APOE isoform-dependent manner with APOE4 less efficient than APOE2
+or APOE3 89 . In addition,
+deficiency of ABCA1, which lipidates APOE, decreases Aβ clearance in
+APOE4-targeted replacement (TR) mice, in which murine Apoe is
+replaced by a specific allele of human APOE , whereas no such
+effect is observed in APOE3-TR mice 90 . Thus, the isoform and lipidation status of APOE is
+likely to influence the overall efficiency of Aβ clearance in the brain.
+Major pathways by which Aβ is removed from the brain include clearance
+through the BBB, cellular uptake and subsequent degradation, enzymatic
+degradation, clearance via ISF bulk flow, and CSF absorption into the
+circulatory and lymphatic systems 88 . The effects of individual APOE isoforms on each of these
+processes ( FIG. 3 ) could contribute in a
+synergistic manner to variations in Aβ metabolism rates, in particular
+under pathogenic conditions.
+
+The removal of Aβ via transport through the BBB is mediated by
+APOE in an isoform-dependent manner. An in vivo study showed that
+APOE2–Aβ and APOE3–Aβ complexes were cleared by both
+VLDLR and LRP1 at the BBB, whereas APOE4 binding to Aβ switched the
+clearance pathway of Aβ at the BBB from LRP1 to the VLDL receptor
+(VLDLR) 91 . As VLDLR
+mediates the internalization of APOE–Aβ complex at a slower rate
+than LRP1, redirection of the clearance pathway for the APOE4–Aβ
+complex might contribute to the slower clearance of Aβ at the BBB, when
+compared with APOE2–Aβ and APOE3–Aβ
+complexes 91 .
+Consistent with the findings in vivo, a study utilizing a tissue engineering
+approach to generate a 3D model of human brain blood vessels showed that APOE4
+was less efficient than APOE2 at promoting Aβ transport across vessel
+walls 92 . Furthermore,
+an in vitro study showed that clearance of Aβ aggregates by
+BBB-associated pericytes was impaired in the presence of astrocyte-derived APOE4
+compared with APOE3 93 . The
+precise mechanisms by which APOE isoforms interact with Aβ receptors to
+mediate Aβ efflux from or influx into the brain require further
+investigation.
+
+Cellular uptake and subsequent degradation of Aβ by glial cells
+represents a crucial Aβ clearance pathway in the brain. Human
+iPSC-derived astrocytes that are homozygous for APOE*ε4 show impaired uptake of Aβ 1–42 in vitro compared with APOE*ε3 -homozygous iPSCs 94 . A study using mouse brain slices
+indicated that astrocyte-mediated degradation of Aβ occurs through a
+mechanism that is dependent on both APOE and LRP1, suggesting that APOE is
+essential for receptor-mediated Aβ uptake by astrocytes 95 . However, another study showed
+that downregulation of LDLR reduced Aβ uptake, whereas upregulation of
+LDLR enhanced both the uptake and clearance of Aβ in astrocytes,
+independently of APOE 96 . A
+more recent study showed that the interaction between APOE and Aβ under
+physiological conditions is minimal, and that APOE might not be required for the
+cellular clearance of Aβ in astrocytes 97 . Instead, APOE competes with Aβ
+for the LRP1-dependent cellular uptake pathway, thereby blocking ~50% of
+the total Aβ cellular clearance by astrocytes in
+vitro 97 .
+Therefore, receptor-mediated internalization of Aβ in astrocytes might at
+least be partially affected by the presence of different APOE isoforms and APOE
+receptors, with APOE4 impairing the uptake of Aβ by these cells.
+
+Cellular uptake and degradation of Aβ by microglia is also
+differentially influenced by the various APOE isoforms. Degradation of Aβ
+peptides by neprilysin within microglia is markedly facilitated in the presence
+of APOE, with APOE4 being less efficient at promoting the degradation of soluble
+Aβ than APOE2 and APOE3 98 . In addition, APOE-mediated cholesterol efflux facilitates
+the delivery of Aβ to lysosomes and increases the efficiency of
+intracellular Aβ degradation in microglia 99 . The clearance of extracellular
+Aβ has been found to be impaired in human iPSC-derived microglia-like
+cells expressing APOE*ε4 compared with those expressing APOE*ε3 94 .
+
+Studies have also investigated the effects of APOE isoforms on other
+clearance pathways, including perivascular drainage and proteolytic degradation
+of Aβ by Aβ-degrading proteases (Aβ-DPs). A wide array of
+Aβ-DPs, including neprilysin and insulin degrading enzyme (IDE),
+determine Aβ levels in the brain 100 . Expression of neprilysin in both brain parenchyma and
+vasculature and that of IDE in hippocampus are significantly lower in
+post-mortem brains from individuals with at least one copy of APOE*ε4 than in those from individuals without APOE*ε4 101 , 102 . The
+perivascular drainage pathway has a major role in ISF bulk-flow clearance of
+Aβ 103 . In a
+study that examined this pathway, after intracerebral injections of
+Aβ 1–40 , aggregation of
+Aβ 1–40 in the peri-arterial drainage pathway was
+observed in APOE4-TR mice but not in APOE3-TR mice 104 . Thus, the clearance of Aβ
+mediated by proteolytic degradation and perivascular drainage pathways seems to
+be impaired by the presence of APOE4.
+
+The influence of APOE isoforms on the glymphatic clearance of
+Aβ 105 is less
+clear. In one study, APOE derived from the choroid plexus and CSF was shown to
+be delivered into the brain via the glymphatic fluid transporting system in an
+APOE isoform-dependent manner 106 , although the relevance of these findings to disease needs
+to be further investigated.
+
+Aβ aggregation occurs when Aβ is over-produced and/or
+inefficiently cleared. The formation of Aβ fibrils, a major component of
+amyloid plaques, follows three kinetic stages: a lag phase, a growth phase and a
+plateau phase 107 . Although
+the effects of APOE on the formation of Aβ fibrils are inconsistent in
+vitro 29 , 108 , in vivo studies have shown a crucial
+role for APOE in the initial seeding stage of Aβ deposition. Through a
+novel approach involving conditional expression of different APOE isoforms in a
+mouse model of amyloid pathology, astrocytic overexpression of APOE4, but not
+APOE3, during the initial Aβ seeding stage was found to exacerbate
+amyloid pathology. However, expression of APOE4 or APOE3 during the period of
+rapid plaque growth had no effect on Aβ deposition 109 . In another study published in
+parallel, reduction of APOE expression by antisense oligonucleotide (ASO)
+treatment beginning at postnatal day 0 (Aβ seeding stage) led to a
+significant reduction in amyloid pathology in amyloid mouse models that were
+homozygous for APOE*ε3 or APOE*ε4 110 . By contrast, ASO treatment beginning at the onset of
+amyloid deposition did not change the overall plaque load 110 . These in vivo results
+align with the notion that APOE, and in particular APOE4, promotes the formation
+of Aβ fibrils by accelerating the initial seeding or nucleation of
+Aβ peptides ( FIG. 3 ).
+
+Given that the generation of Aβ peptide from amyloid precursor
+protein (APP) represents a pivotal event in AD pathogenesis 111 , researchers have sought to identify
+the role of APOE in this process. A study published in 2017 found that HEK293
+cell-derived APOE induced APP transcription and Aβ
+production in human embryonic stem cell-derived and induced pluripotent stem
+cell (iPSC)-derived neurons. The effects were isoform-dependent, with APOE4
+stimulating Aβ production more potently than other isoforms 112 . Aβ secretion is
+significantly higher in human iPSC-derived neurons carrying APOE*ε4 than in those with APOE*ε3 , probably as a result of increased APP
+transcription or processing 94 , 113 . However, transcriptomic
+analysis of cortical tissue from APOE-TR mice did not reveal the transcriptional
+regulation of App associated with APOE4 114 . Furthermore, in mouse models of
+amyloid pathology that expressed human APOE, no APOE isoform-dependent
+differences in the amount of APP fragment C99 or β-secretase activity
+were observed, suggesting that amyloidogenic processing of APP does not vary in
+the presence of different APOE isoforms in vivo 89 . Species-dependent (human
+versus mouse) differences in APOE isoform-regulated Aβ
+production 113 may
+have contributed to these conflicting results.
+
+## APOE in AD pathogenesis: beyond amyloid
+APOE allele effects have also been implicated in
+proteinopathies characterized by tau, α-synuclein, and TDP43 pathology in the
+brains of individuals with AD. In addition, emerging evidence suggests that APOE can
+modulate tau-mediated neurodegeneration as well as microglial homeostasis, synaptic
+integrity, lipid transport, glucose metabolism and cerebrovascular function ( FIG. 4 ). In this section, we discuss the disease
+relevance of these findings within the context of APOE genotype and
+its association with the risk of AD.
+
+Findings suggest that APOE alleles exert an effect on
+neurodegenerative diseases marked by the aggregation of tau, a
+microtubule-associated protein encoded by the MAPT gene 115 . Individuals
+with primary tauopathies, such as progressive supranuclear palsy (PSP) and
+corticobasal degeneration (CBD) 115 , 116 , exhibit
+tau but not amyloid pathology. AD, though characterized by extensive tau
+pathology, is considered a secondary tauopathy as the tau pathology is
+accompanied by earlier development of amyloid pathology. Of note, postmortem
+brains from individuals carrying two APOE*ε4 alleles
+have more tau aggregates than those carrying either one or no APOE*ε4 alleles when Aβ pathology is
+present 65 , but no such
+association is observed in brains without Aβ 117 , 118 . Moreover, among patients with PSP, the presence of
+concomitant amyloid pathology is associated with an increased likelihood of
+carrying APOE*ε4 119 . Thus, APOE*ε4 is likely to be
+a risk factor for amyloid pathology but not necessarily for tau burden in
+primary tauopathies 119 , 120 . Interestingly, although APOE*ε2 is protective in the setting of AD, in the
+absence of amyloid pathology it has been implicated as a risk factor for
+tau-related neurodegeneration 121 . A study showed that APOE*ε 2 was
+associated with increased risk and greater severity of tau pathology in patients
+with PSP 122 . Taken together,
+these results indicate that the effects of APOE alleles on
+tauopathies are influenced by the presence of amyloid pathology.
+
+The pathological aggregation of tau strongly correlates with patterns of
+neurodegeneration and clinical manifestations in AD 123 – 126 . Studies have shown that neuron-specific
+overexpression of APOE4 increases tau phosphorylation in mice 127 . Subsequently, Shi et al.
+crossed the Tau P301S transgenic mouse model, which overexpresses
+human tau containing the frontotemporal dementia-linked Pro301Ser mutation, with
+human APOE-TR mice. Tau P301S –APOE4-TR mice developed markedly
+more brain atrophy and neuroinflammation than
+Tau P301S –APOE2-TR and Tau P301S –APOE3-TR mice
+at 9 months of age 12 . By
+contrast, Zhao et al. introduced tau with another frontotemporal dementia-linked
+mutation, Pro301Leu, to APOE-TR mice via viral delivery, and found more severe
+tau pathology and behavioural deficits at 6 months of age in
+Tau P301L –APOE2-TR mice than in
+Tau P301L –APOE3-TR and Tau P301L –APOE4-TR
+mice 122 . These
+seemingly contradictory results are likely to be a result of differences in the
+experimental model systems that the two groups used. Furthermore, Shi et al.
+measured tau-mediated neurodegeneration, whereas Zhao et al. focused on tau
+pathology.
+
+In addition to the findings from mouse models, human iPSC-derived APOE*ε4 -expressing neurons have higher levels of tau
+phosphorylation than neurons expressing APOE*ε3 113 . Taken together, these results suggest that APOE
+influences tau pathology and tau-mediated neuronal toxicity in an
+isoform-dependent manner. Understanding the relevance of these findings to
+different neurodegenerative diseases with tauopathy as either a primary or
+concurrent pathology will require further studies using models that are more
+relevant to the specific disease conditions.
+
+APOE*ε4 is also a genetic risk factor for
+DLB 13 – 15 and PDD 15 – 18 . These conditions are both classified as
+synucleinopathies, a spectrum of neurodegenerative disorders that also includes
+PD 128 , 129 and is characterized by the presence of
+hallmark accumulations of α-synuclein, termed Lewy bodies, within
+neuronal cell bodies 130 , 131 . Patients with DLB or PDD
+often have some degree of concomitant AD-type pathology 132 , 133 , and 30–40% of individuals with AD also present
+with Lewy bodies 134 .
+Therefore, determining whether APOE*ε4 contributes to
+α-synuclein pathology through an Aβ-dependent mechanism, similar
+to that proposed for tau pathology in the amyloid cascade hypothesis 135 , or through an
+Aβ-independent mechanism 136 remains challenging. However, a study published in 2018
+demonstrated that in individuals with Lewy body disease, APOE*ε4 was associated with increased
+α-synuclein pathology irrespective of the degree of AD
+pathology 137 ,
+suggesting that APOE*ε4 impacts the severity of
+α-synuclein pathology independently of tau and Aβ. Of note, the
+gene encoding LDLR-related protein 10 (LRP10), which is thought to play a role
+in the metabolism of APOE lipoproteins 138 and the trafficking of APP 139 , is associated with the development of
+inherited forms of DLB and PD 140 .
+
+APOE*ε4 might also directly increase the risk of
+TDP43 pathology in the brains of people with AD. TDP43 proteinopathy is a core
+pathological hallmark of amyotrophic lateral sclerosis and of frontotemporal
+lobar degeneration with TDP43 pathology 141 , and often coexists with AD pathology. Of note, APOE*ε4 is associated with the presence of comorbid
+TDP43 proteinopathy in the brains of individuals with AD 19 , as well as the severity of TDP43
+proteinopathy, even after adjusting for the presence of Aβ, tau and Lewy
+body pathologies 21 . These
+observations suggest that a direct association between APOE*ε4 and TDP43 proteinopathy exists in AD. A
+study published in 2018 confirmed that APOE*ε4 is
+associated with TDP43 pathology independently of Aβ in the brains of
+individuals with AD 20 .
+
+In summary, APOE allele-specific effects on tau and
+α-synuclein proteinopathies, and on TDP43 pathology in the brains of
+individuals with AD, have been identified; however, the relevance of these
+findings to AD risk and disease progression is currently unclear. Further
+studies addressing the associations between APOE isoforms and these pathogenic
+proteins, using a model that reflects disease-specific conditions, should
+increase our understanding of APOE pathobiology within the context of AD.
+
+Evidence suggests that APOE has an important role in regulating the
+innate immune response to amyloid pathology and neurodegeneration. Microglia
+play a central role in the immune response in the brain, highlighted by the
+abundant reactive microgliosis surrounding Aβ plaques in post-mortem
+brain tissue from individuals with AD 142 . These disease-associated microglia (DAM) 143 – 145 , also referred to as a microglial
+neurodegenerative (MGnD) phenotype 146 , have a conserved transcriptional signature across
+mouse models of AD. APOE is among these DAM-associated genes,
+as APOE expression by microglia is upregulated in association
+with ageing and amyloid and tau pathology 14 . By contrast, APOE deficiency diminishes the DAM
+signature in AD mouse models 146 , 147 ,
+highlighting the crucial role of APOE in regulating DAM phenotypes.
+
+The various APOE isoforms seem to modulate microglial functions
+differently in AD pathogenesis 148 . Human iPSC-derived microglia-like cells carrying APOE*ε4 exhibit altered morphologies and reduced
+levels of Aβ phagocytosis when compared with those carrying APOE*ε3 94 . APOE4 also increases microglial reactivity against
+Aβ plaques in a mouse model of amyloid pathology 149 . Furthermore, APOE4 boosts microglial
+proinflammatory activation and neurodegeneration in a tau transgenic mouse
+model 12 . One
+suggestion is that the specific lipid composition of the APOE4 lipoprotein
+affects lipid raft structures on microglial cell membranes to induce a stronger
+DAM phenotype, which exacerbates Aβ or tau pathogenesis and
+neurodegeneration 150 .
+
+APOE is an endogenous ligand of triggering receptor expressed on myeloid
+cells 2 (TREM2) 151 – 153 , a cell surface receptor
+expressed exclusively by microglia in the brain. A rare coding variant of TREM2 is associated with increased risk of AD, with an
+effect size comparable to that of APOE*ε4 154 , 155 . Furthermore, TREM2 is likely to mediate the
+APOE-dependent molecular signatures in microglia 146 , 150 , 156 . As such,
+the APOE–TREM2 pathway might contribute to AD pathogenesis through the
+modulation of microglial homeostasis 157 , 158 .
+
+A study published in 2019 demonstrated that amyloid plaque seeding was
+increased in the absence of functional TREM2, both in animal models and in
+individuals with AD 159 . Lack
+of TREM2 was also associated with a reduction in plaque-associated APOE. Of
+note, levels of plaque-associated APOE were substantially reduced on microglial
+depletion in a mouse model of amyloid pathology, indicating that microglia
+represent a prominent source of amyloid plaque-associated APOE. Thus, microglial
+APOE seems to be induced in a TREM2-dependent manner, suggesting an important
+association of APOE with TREM2 in the context of AD pathogenesis.
+
+Increasing evidence indicates that the presence of APOE*ε4 is associated with increased synaptic
+degeneration 160 and
+synaptic accumulation of Aβ oligomers 66 , along with reductions in dendritic density 161 , plasticity 160 and numbers of glutamate
+receptors 162 , in the
+brains of individuals with AD. In addition, the levels of the synaptic markers
+synaptophysin, syntaxin 1 and postsynaptic density protein 95 (PSD95) are
+reduced in the brains of APOE*ε4 carriers, and levels of
+PSD95 are increased in the brains of APOE*ε2 carriers 163 .
+Consistent with findings from post-mortem human brains, reduced expression of
+synaptic proteins 164 , 165 , reduced dendritic spine
+density and length 166 , and
+impaired synaptic transmission 167 , 168 have all
+been observed in APOE4-TR mice when compared with APOE3-TR mice. In addition,
+APOE4 reduces neuronal surface expression of the LDLR family member APOER2 (also
+known as LRP8), along with NMDA and AMPA receptors, by sequestering them in the
+intracellular endosomal compartments 169 , leading to suppression of reelin-mediated synaptic
+transmission. Therefore, the isoform-dependent effect of APOE on the
+intracellular trafficking of lipoprotein and glutamate receptors represents a
+potential mechanism by which APOE4 can impair synaptic plasticity 170 . Furthermore, hippocampal
+neurogenesis and hilar GABAergic neurotransmission are impaired in mice carrying APOE*ε4 171 – 173 .
+
+Collectively, these results suggest that APOE4 is either less efficient
+at maintaining synaptic integrity and neurogenesis than other AOPE isoforms or
+has a toxic effect 113 on
+these spine-related and synapse-related pathways. Given that synaptic loss
+strongly correlates with cognitive decline in AD, the impact of APOE4 on
+synaptic function and neurogenesis might combine with other APOE4-mediated
+pathways and AD pathology to contribute to the earlier onset of symptoms.
+
+Several lipid transport-related properties of APOE have been shown to be
+isoform-dependent. Although in vitro studies using cell systems with limited
+relevance to human brain physiology such as HEK293 cells and immortalized mouse
+astrocytes generated inconsistent results 174 , 175 , a more
+recent study using iPSC-derived astrocytes showed that APOE4 is less lipidated
+than APOE3, which could potentially diminish the neurotrophic function of
+APOE4 176 . In
+addition, in the CSF, APOE particles are larger in APOE*ε2/ε3 individuals and smaller in both APOE*ε3/ε4 and APOE*ε4/ε4 individuals than in APOE*ε3/ε3 individuals 177 . Furthermore, cholesterol efflux
+capacity is impaired in the CSF of individuals who are homozygous for APOE*ε4 178 . The amount of poorly lipidated APOE in the CSF is
+higher in APOE*ε4 carriers than in APOE*ε4 non-carriers 179 . Overall, the APOE isoform effects on
+the APOE–lipid interaction support a loss-of-function effect of APOE*ε4 , with APOE4 being less efficient than APOE2
+or APOE3 at transporting lipids to neurons.
+
+The overall lipid-transporting capacity of APOE could also be affected
+by the amount of this molecule within the brain 180 . In mice, the quantity of APOE in
+CSF 181 , 182 , ISF 183 and brain parenchyma 182 shows an isoform-dependent
+gradient, with APOE2 being the most abundant and APOE4 the least abundant of the
+three isoforms. By contrast, studies utilizing a mass spectrometry-based
+approach in young control individuals (aged 22–60 years, average 34.5
+± 10.3 years) 60 ,
+cognitively healthy people (aged 43–80 years, average 61 years) and
+patients with AD (aged 60–94 years, average 78 years) 59 found no isoform-dependent differences
+in APOE levels in the CSF. However, one of the studies found that in a cohort of
+Aβ-positive individuals composed of both cognitively healthy individuals
+and patients with MCI, APOE levels in the CSF were significantly lower in APOE*ε4 carriers than in non-carriers 60 . Thus, the presence of
+Aβ in APOE*ε4 carriers might further exacerbate
+APOE4-mediated loss of neuroprotective function by decreasing the amount of
+APOE4 available to transport lipids to neurons.
+
+Several studies have highlighted the need to consider the APOE*ε4 genotype when assessing the role of glucose
+metabolism and insulin signalling in AD. Cerebral glucose hypometabolism is an
+early biomarker of AD and exists in pre-symptomatic individuals long before the
+clinical onset of AD 184 – 187 .
+Altered levels of insulin, insulin receptors and insulin signalling are observed
+in the brain of individuals with AD compared with cognitively healthy
+individuals 188 – 190 , and epidemiological studies
+have confirmed that diabetes and midlife insulin resistance are risk factors for
+AD 191 , 192 . Interestingly, the APOE*ε4 genotype, independently of Aβ,
+contributes to age-related reductions in cerebral glucose metabolism and insulin
+signalling 193 – 197 . In the brain areas
+frequently affected in AD, APOE*ε4 carriers, both with
+and without dementia, have lower cerebral glucose metabolism than
+non-carriers 195 , 197 – 203 . Phase II clinical trials of an insulin
+nasal spray in individuals with AD have shown that the preventative effects of
+insulin on cognitive decline are modulated by APOE genotype
+status 204 – 206 . In the CSF, increased
+levels of insulin are associated with increased levels of total tau and
+phosphorylated tau among APOE*ε4 non-carriers 207 . Fasting plasma insulin
+levels and free fatty acid levels are also increased in APOE*ε4 non-carriers 208 .
+
+Consistent with the clinical findings, preclinical studies using APOE-TR
+mice have also revealed that APOE isoforms differentially influence brain
+glucose metabolism and insulin signalling. Compared with APOE3-TR mice, APOE4-TR
+mice display downregulation of brain peroxisome proliferator-activated receptor
+γ (PPARγ) and PPARγ coactivator 1 (PGC1α)
+signalling, which is involved in the regulation of glucose uptake and
+metabolism 209 .
+Following treatment with a high-fat diet, APOE4-TR mice show more profound
+cognitive impairment, reduced cerebral blood volume, decreased glucose uptake,
+and impaired insulin signalling compared with APOE3-TR mice 194 , 210 , providing additional evidence that human APOE isoforms
+differentially modulate brain bioenergetic metabolism. Furthermore, APOE4-TR
+mice exhibit impaired brain insulin signalling and insulin resistance compared
+with APOE3-TR mice in an age-dependent manner 194 . Importantly, APOE4 interacts with
+insulin receptors and traps them in the endosomes, thus impairing insulin
+receptor trafficking and related signalling 194 . APOE receptors are also involved in brain glucose
+metabolism and insulin signalling. Conditional deletion of the gene encoding a
+major APOE receptor, LRP1, in mouse forebrain neurons leads to impaired brain
+insulin signalling and a reduced capacity to metabolize glucose 211 .
+
+APOE*ε4 is a risk factor for vascular cognitive
+impairment 212 , 213 , suggesting a possible link
+between this allele and neurovascular unit dysfunction. Imaging studies have
+shown that the presence of APOE*ε4 is associated with
+increased severity of white matter hyperintensities independently of AD
+diagnosis 214 , 215 . In cognitively healthy
+individuals, APOE*ε4 carriers show a higher CSF:plasma
+albumin quotient than APOE*ε4 non-carriers 216 , suggesting that BBB
+integrity is disrupted in the carriers. APOE*ε4 carrier
+status is also associated with accelerated pericyte degeneration and loss of BBB
+integrity in AD, as observed in post-mortem brain tissue 217 . Thus, multiple layers of clinical
+evidence suggest a link between APOE*ε4 and impaired
+cerebrovascular integrity and function, both in the presence and absence of AD
+pathology.
+
+Consistent with these findings, reduced cerebral blood flow, vascular
+density and neurovascular coupling are observed in APOE4-TR mice compared with
+APOE2-TR and APOE3-TR mice 218 – 220 .
+Loss of BBB integrity has also been observed in APOE4-TR mice 218 , 219 , although conflicting results have been
+obtained 221 . Another
+study showed that cerebral hypoperfusion, white matter damage and cognitive
+impairment induced by bilateral carotid artery stenosis are more severe in
+APOE4-TR mice than in APOE3-TR mice 220 . Overall, these APOE isoform effects on
+cerebrovascular integrity and function suggest that APOE4 is less efficient than
+APOE2 or APOE3 at maintaining cerebrovascular homeostasis. Of note, analysis
+using data sets from the Alzheimer’s Disease Neuroimaging Initiative
+(ADNI) 222 , and a CSF
+biomarker study 223 both
+indicated a role for vascular dysregulation in the early stages of the AD
+cascade. Thus, determining how the cerebrovascular effects of APOE4 drive AD
+pathogenesis could represent an important area for future studies.
+
+The cerebrovascular contribution to cognitive decline and synaptic
+dysfunction probably combines with the accumulation of pathogenic proteins, such
+as Aβ 224 , 225 , in both a synergistic and an additive
+manner. Therefore, the role of cerebrovascular effects of APOE4 in AD
+pathogenesis needs to be investigated in the context of both Aβ-dependent
+and Aβ-independent mechanisms. Peripheral APOE4 might modulate
+cerebrovascular function by exerting direct actions on the endothelial
+cells 226 that form
+the BBB, which exists as an interface between the CNS and the peripheral
+circulation. In addition, peripheral APOE4 could indirectly modulate the
+functions of brain endothelial cells and neurons through its effects on lipid
+metabolism, atherosclerosis and peripheral inflammation, perhaps acting
+synergistically with other vascular risk factors 227 .
+
+Perhaps surprisingly, APOE*ε2 is associated with
+increased risk of CAA and CAA-related intracranial haemorrhage 70 – 73 and severity of cerebral small vessel
+disease 215 , 228 despite its protective effect against
+AD risk. However, the cerebrovascular effects of APOE2 remain relatively
+unexplored.
+
+## APOE-targeted therapies for AD
+The current strategies for targeting of APOE to treat AD fall into three
+main categories: modulating APOE quantity and lipidation, targeting APOE structural
+properties and interactions with Aβ, and targeting APOE receptors.
+
+As discussed above, APOE has crucial roles in lipid transport and
+maintenance of synaptic homeostasis. Therefore, AD-related pathways might be
+modulated by increasing the quantity and/or degree of lipidation of APOE. In
+particular, administration of agonists of the liver X receptor (LXR) and the
+retinoid X receptor (RXR) has been shown to positively regulate transcription
+and secretion of APOE 229 ,
+reduce Aβ deposition 98 , 230 – 233 and restore cognitive
+function 98 , 231 , 233 , 234 in mouse
+models of amyloid pathology. Oral administration of the RXR agonist bexarotene
+reduced Aβ deposition and improved cognitive function in amyloid mouse
+models 235 , including
+those that also expressed human APOE*ε3 and APOE*ε4 236 , and in APOE4-TR mice 237 . Bexarotene also seems to combat
+ageing-related loss of synaptic proteins in mice 238 . However, conflicting results with
+respect to the effects of bexarotene on amyloid pathology in mouse models have
+also been reported 236 , 239 – 241 . In addition, systemic adverse effects
+including liver toxicity are observed on bexarotene treatment in mice 238 , 242 .
+
+Bexarotene treatment does not reduce amyloid burden in patients with
+AD 243 . Oral
+administration of bexarotene to healthy individuals induced a 25% increase in
+CSF APOE levels but had no effect on CSF Aβ metabolism 244 and showed poor CNS
+penetration. The clinical utility of bexarotene as a drug for AD might also be
+hampered by systemic adverse effects, such as hypertriglyceridaemia 243 , which are mediated by the
+permissive action of the RXR–LXR heterodimer on target genes, leading to
+activation of specific metabolic pathways in the liver 245 . Therefore, the potential clinical
+application of bexarotene has major limitations. From the perspective of gaining
+insight into APOE-targeted therapeutic strategies, the extent to which these RXR
+and LXR treatment-related phenotypes are mediated by an increase in APOE
+lipidation remains unclear. High-throughput screening for APOE agonists using
+human astrocytes may help to identify APOE-inducing compounds with
+pharmacological actions that do not depend on the nuclear receptor–APOE
+axis 246 .
+
+Studies utilizing virus-mediated gene transfer approaches have also
+provided insights into whether increasing the expression of APOE isoforms that
+are considered protective halts AD pathogenesis. Virus-mediated human APOE gene expression in mice has been shown to have APOE
+isoform-dependent effects on brain Aβ pathology 247 – 249 and APOE lipidation 250 . Adeno-associated virus (AAV)-mediated
+expression of APOE*ε4 in a mouse model of amyloid
+pathology exacerbated synaptic loss and Aβ deposition, whereas expression
+of APOE*ε2 in the same model caused a reduction in brain
+Aβ levels 249 .
+Consistent with this finding, AAV-mediated delivery of APOE*ε2 reduced Aβ deposition in two
+different amyloid mouse models, crossed with APOE*ε4 knock-in mice 248 .
+Furthermore, overexpression of APOE*ε4 in APOE4-TR mice
+increased the levels of poorly lipidated APOE in the brain, whereas
+overexpression of APOE*ε2 in these mice enhanced APOE
+lipidation 250 .
+Therefore, increasing the expression of APOE*ε2 , but not APOE*ε4 , might be beneficial with regard to
+increasing APOE lipidation and reducing Aβ pathology.
+
+The therapeutic potential of decreasing the expression levels of
+specific APOE isoforms in order to reduce Aβ deposition has also been
+investigated in mouse models. Decreasing APOE expression by APOE haploinsufficiency in an amyloid mouse model carrying APOE*ε3 or APOE*ε4 led to a
+reduction in Aβ deposition, which was independent of APOE
+isoform 251 , 252 . Furthermore, a study published in 2017
+showed that reduction of APOE expression by ASOs significantly decreased
+Aβ pathology in an amyloid mouse model that was homozygous for APOE*ε3 or APOE*ε4 110 . Thus, decreasing the levels
+of APOE3 and APOE4, particularly during the initial Aβ seeding stage, may
+be beneficial.
+
+Given that APOE4 is associated with reduced levels of lipid in the
+CNS 179 , 253 , which could contribute to the
+APOE4-mediated loss of neuroprotective function, the question of whether an
+increase in APOE lipidation can reduce Aβ pathology has been
+investigated. Deletion of the gene encoding ABCA1, which lipidates APOE in the
+CNS, resulted in a decrease in APOE lipidation and an increase in Aβ
+deposition in amyloid mouse models 254 , 255 .
+Conversely, overexpression of ABCA1 in an amyloid mouse model decreased
+Aβ deposition — an effect that was probably mediated by an
+increase in APOE lipidation 256 . In addition, an Abca1 hemizygous
+knockout exacerbated memory deficits and Aβ deposition in an amyloid
+mouse model carrying human APOE*ε4 , but not in mice
+carrying APOE*ε3 90 . The exacerbation of Aβ pathology in the mice
+carrying APOE*ε4 could have been attributable to an
+increase in the amount of poorly lipidated APOE4 in the absence of one allele of Abca1 . Whether, and to what extent, increasing APOE4
+lipidation is beneficial in the presence of Aβ pathology remains to be
+fully determined.
+
+APOE-mediated plaque formation might also be targeted via APOE
+immunotherapy. Treatment with the anti-mouse APOE antibody HJ6.3 induced a
+significant reduction in Aβ deposition in a mouse model of amyloid
+pathology that expressed murine APOE 257 , 258 . In
+another study, Aβ deposition was reduced in an APOE*ε4 -positive amyloid mouse model following
+treatment with an anti-human APOE antibody, HAE-4, which preferentially binds
+the non-lipidated, aggregated form of APOE 259 . By binding to aggregated APOE in Aβ plaques,
+HAE-4 is likely to induce activation of plaque phagocytosis by microglia,
+thereby reducing Aβ deposition. Importantly, peripheral administration of
+HJ6.3 or HAE-4 does not change the total amount of APOE in plasma and brain
+parenchyma 257 – 259 . Thus, the targeting of APOE
+that is specifically associated with amyloid plaques is an attractive approach
+that would have minimal impact on the physiological function of APOE.
+
+Treatment with peptides that mimic the structural and biological
+properties of native APOE reduces Aβ deposition 260 , 261 , tau hyperphosphorylation 262 and glial activation 260 – 262 in mouse models of amyloid pathology.
+However, the effects of these peptides on Aβ deposition and other
+AD-related pathologies in the context of human APOE isoforms have not been fully
+determined.
+
+The pathological conformation of APOE4 is proposed to result from an
+interaction between its amino-terminal and carboxy-terminal domains 263 , 264 , 265 , and the
+use of small molecules to block this interaction has been explored in
+vitro 264 , 266 , 267 . The APOE4 structure corrector PH002, at a final
+concentration of 100 nM in the culture medium, was shown to decrease
+APOE4 fragmentation and reduce the effects of APOE4 on Aβ production, tau
+phosphorylation and GABAergic neuron degeneration in human iPSC-derived
+neurons 113 . Targeting
+the abnormal biophysical properties of APOE4 represents a potential therapeutic
+approach; however, the efficacy of this approach in vivo, in the context of
+human APOE isoforms and amyloid pathology, remains to be investigated.
+
+Conversion of the APOE4 amino acid sequence into that of APOE3 or APOE2
+seems to be a more straightforward approach to modulate the pathobiology of
+APOE4. Conversion of APOE*ε4 to APOE*ε3 by gene editing considerably alters cellular
+phenotypes 94 , 113 . Reductions in APOE
+fragmentation, Aβ production, tau phosphorylation and GABAergic neuron
+degeneration are observed in iPSC-derived neurons when APOE*ε4 is converted to APOE*ε3 , suggesting that the detrimental effect of
+APOE4 could be abolished by gene editing 113 . Similarly, converting APOE*ε4 to APOE*ε3 attenuates several AD-related phenotypes in
+glial cells and organoids: this intervention enhances the ability of glial cells
+to endocytose extracellular Aβ and significantly reduces the amount of
+Aβ deposition in organoids after 6 months of culture 94 . Despite these promising in vitro
+findings, the in vivo feasibility and clinical translatability of this
+therapeutic concept remain to be determined.
+
+Inhibition of the APOE–Aβ interaction by the synthetic
+peptide Aβ12–28P, which is homologous to the APOE binding site on
+the full-length Aβ molecule, reduced Aβ deposition 268 – 270 and insoluble tau
+accumulation 270 in AD
+mouse models, and intra-neuronal Aβ accumulation 271 in primary hippocampal neurons. In
+addition, treatment with Aβ12–28P decreased brain Aβ
+accumulation, co-deposition of APOE within Aβ plaques and neuritic
+degeneration in amyloid mouse models with APOE2-TR and APOE4-TR
+backgrounds 272 .
+Therefore, blocking APOE-mediated facilitation of Aβ assembly and/or
+deposition with a synthetic peptide seems to be beneficial in reducing Aβ
+pathology, irrespective of APOE isoforms.
+
+Given that clearance of Aβ in the brain is partially mediated by
+APOE receptors, including LDLR and LRP1 28 , 29 , 273 , increasing the expression of these
+receptors is a potential therapeutic strategy to reduce Aβ pathology. In
+mouse models of amyloid pathology, Ldlr deficiency is
+associated with increased Aβ deposition 274 , 275 , whereas overexpression of Ldlr leads to
+enhanced Aβ clearance and decreased Aβ deposition 276 . Conditional knockout of Lrp1 in neurons 277 , astrocytes 278 and vascular smooth muscle cells 279 led to increased Aβ deposition
+in amyloid mouse models. Furthermore, treatment of animal models with
+compounds 280 that
+have been clinically explored for AD therapy, including fluvastatin 281 , decreases Aβ
+deposition and/or enhances Aβ clearance, probably by increasing Lrp1 expression. Whether these APOE receptor-related
+effects are mediated by APOE remains to be elucidated.
+
+As with any attempts to target proteins that have essential
+physiological functions, a major challenge for APOE-targeted therapy is to
+minimize potential adverse effects on APOE-dependent brain homeostasis and
+systemic physiology. One individual with an ablative homozygous APOE frameshift mutation did not exhibit substantial
+neurocognitive deficits at the age of 40 years 282 . However, the impact of APOE deficiency
+on brain physiology in the context of ageing and AD development has not been
+documented. Thus, it will be crucial to monitor the effects of modulating APOE
+levels not only on AD pathogenesis, but also on brain physiology at different
+stages of AD development. The potential impact of APOE-targeted therapy on
+peripheral lipid metabolism and related physiology should also be considered.
+For example, modulating the amount of APOE or the expression of APOE receptors
+in the periphery could increase the risk of hyperlipidaemia, atherosclerosis and
+cardiovascular events, owing to impaired lipoprotein metabolism. Although
+increasing APOE2 levels in the brain might be beneficial, long-term expression
+of APOE2 could increase the risk of CAA, CAA-related intracerebral
+haemorrhage 70 – 73 and perhaps primary
+tauopathy 122 .
+
+These adverse effects could be managed by optimizing the treatment
+strategy for each APOE genotype, taking into consideration the
+treatment duration, the therapeutic window, and the specific biochemical
+properties and in vivo distribution of the pathogenic forms of APOE.
+Furthermore, the identification of APOE downstream effectors 219 that modulate AD
+pathogenesis could provide therapeutic options with a limited impact on
+APOE-related physiology. Finally, the development and integration of novel
+technologies, such as targeted in vivo gene editing and more efficient drug
+delivery methods, could accelerate the clinical translation of APOE-targeted
+therapeutic concepts that have been uncovered in basic studies.
+
+## Conclusions
+Strong evidence suggests that human APOE isoforms modulate AD pathogenesis
+primarily through their differential effects on Aβ clearance and aggregation.
+However, APOE isoforms also differentially affect multiple pathways that are not
+necessarily dependent on Aβ, with APOE4 exhibiting either a gain of toxic
+function or a loss of physiological function. Associations between APOE isoforms and
+tau-mediated neurodegeneration, and the risk of multiple neurodegenerative
+proteinopathies found in the brains of individuals with AD, are also recognized.
+Furthermore, a growing body of evidence links APOE with TREM2, highlighting the
+crucial role of APOE in the innate immune response in the brain.
+
+To elucidate the precise pathological mechanism by which the APOE polymorphism determines the risk of AD ( Table 1 ), several important yet underappreciated aspects
+of APOE pathobiology need to be determined. These aspects include the
+structure–function relationships for the different APOE isoforms, the impact
+of peripheral APOE on brain neurobiology and pathobiology, Aβ-dependent and
+independent protective pathways activated by APOE2, similarities and differences in
+the role of APOE in late-onset and early-onset AD ( Box 2 ), sex– APOE genotype
+interactions ( Box 3 ), and the role of
+APOE in immune responses and cerebrovascular pathways. As APOE is expressed by
+multiple cell types in the brain and periphery, the specific contributions of
+cell-autonomous versus cell-non-autonomous effects of APOE at different stages of AD
+development will also need to be investigated, perhaps using conditional mouse
+models and human cerebral organoids 283 , combined with human studies. Finally, a precision medicine
+approach based on APOE genotype status could facilitate the
+development of different AD treatment strategies ( Box 4 , FIG.
+5 ). Establishment of APOE-based therapeutics is a considerable challenge;
+however, the targeting of APOE and its pathogenic interconnections offers great
+promise for the prevention and/or treatment of AD.

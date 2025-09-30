@@ -1,0 +1,34 @@
+# Title
+Common polygenic variation contributes to risk of schizophrenia that
+overlaps with bipolar disorder
+
+# Abstract
+Schizophrenia (SCZ) is a severe mental disorder with a lifetime risk of
+about 1%, characterized by hallucinations, delusions and cognitive
+deficits with heritability estimated at up to 80% 1 , 2 . We adopted two analytic approaches to determine the
+extent to which common genetic variation underlies risk of SCZ using genome-wide
+association study (GWAS) data from 3,322 European individuals with SCZ and 3,587
+controls. First, we implicate the major histocompatibility complex (MHC).
+Second, we provide molecular genetic evidence for a substantial polygenic
+component to risk of SCZ involving thousands of common alleles of very small
+effect. We show that this component also contributes to risk of bipolar disorder
+(BPD), but not to multiple non-psychiatric diseases.
+
+## METHODS SUMMARY
+Cases satisfied criteria for SCZ. Clinical characteristics and copy number
+variation have been described previously 15 . DNA was extracted from whole blood, with approval from
+institutional review boards. Genotypes were called using the Birdseed/Birdsuite
+algorithm 25 and analyses
+were performed with PLINK v1.05 26 .
+Association analyses used a Cochran-Mantel-Haenszel test and logistic regression
+with covariates for sample site and ancestry. In the simulations, we generated
+datasets with pairs of unobserved variants and marker SNPs in varying degrees of
+within-pair LD, based on the effective number of independent SNPs in the ISC and
+assuming Hardy-Weinberg equilibrium and linkage equilibrium between different pairs
+of SNPs. We considered a large grid of possible values for allele frequency and
+effect size distributions, also varying the proportion of non-null variants and the
+LD between causal allele and observed marker. We retained models that produced
+similar profiles of target sample R 2 compared to the
+original ISC analysis, for the same range of p T thresholds, and
+calculated the implied total genetic variance under these models, assuming
+additivity within and across loci. See Supplementary Information for details.

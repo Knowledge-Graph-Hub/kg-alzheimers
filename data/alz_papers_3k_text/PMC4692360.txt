@@ -1,0 +1,5 @@
+# Title
+C9ORF72repeat expansions in mice cause TDP-43 pathology, neuronal loss, and behavioral deficits
+
+# Abstract
+The major genetic cause of frontotemporal dementia and amyotrophic lateral sclerosis is a G 4 C 2 repeat expansion in C9ORF72 . Efforts to combat neurodegeneration associated with “c9FTD/ALS” are hindered by a lack of animal models recapitulating disease features. We developed a mouse model to mimic both neuropathological and clinical c9FTD/ALS phenotypes. We expressed (G 4 C 2 ) 66 throughout the murine central nervous system by means of somatic brain transgenesis mediated by adeno-associated virus. Brains of 6-month-old mice contained nuclear RNA foci, inclusions of poly(Gly-Pro), poly(Gly-Ala), and poly(Gly-Arg) dipeptide repeat proteins, as well as TDP-43 pathology. These mouse brains also exhibited cortical neuron and cerebellar Purkinje cell loss, astrogliosis, and decreased weight. (G 4 C 2 ) 66 mice also developed behavioral abnormalities similar to clinical symptoms of c9FTD/ALS patients, including hyperactivity, anxiety, antisocial behavior, and motor deficits.

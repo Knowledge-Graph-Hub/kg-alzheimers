@@ -1,0 +1,305 @@
+# Title
+Sex-Specific Effects of Apolipoprotein E on Cerebrospinal Fluid
+Levels of Tau
+
+# Abstract
+The strongest genetic risk factor for AD, the apolipoprotein E
+( APOE ) gene, has a stronger association among females
+compared to males. Yet, limited work has evaluated the association between APOE alleles and markers of AD neuropathology in a
+sex-specific manner. Evaluate sex differences in the association between APOE and markers of AD neuropathology measured in
+cerebrospinal fluid (CSF) during life or in brain tissue at autopsy. This meta-analysis selected data from 10 longitudinal cohort studies
+of normal aging and AD. Cohorts had variable recruitment criteria and
+follow-up intervals, and included population based and clinic based samples.
+Inclusion in our analysis required APOE genotype data and
+either CSF data (n=1798, 48% female, 13% AD, 94% Caucasian, 70±9
+years) or autopsy data (n=5,109, 56% female, 97% Caucasian, 84±9
+years) available for analysis. Biomarker analyses included levels of Aβ−42, total tau
+(t-tau), and phosphorylated tau (p-tau) measured in CSF. Autopsy analyses
+included CERAD staging for neuritic plaques and Braak staging for
+neurofibrillary tangles. After correcting for multiple comparisons using the Bonferroni
+procedure, we observed a statistically significant interaction between APOE- ε4 and sex on CSF t-tau (β=0.41 [95%
+CI: 0.27, 0.55], p<0.001) and p-tau (β=0.24 [0.09, 0.38],
+p=0.001), whereby APOE showed a stronger association among
+females compared to males. Post hoc analyses suggested this sex difference
+was present in amyloid positive individuals (β=0.41 [0.20, 0.62],
+p<0.001), but not among amyloid negative individuals (β=0.06
+[−0.18, 0.31], p=0.62). We did not observe sex differences in the
+association between APOE and Aβ−42, neuritic
+plaque burden, or neurofibrillary tangle burden. We provide robust evidence of a stronger association between APOE- ε4 and CSF tau levels among females
+compared to males across multiple independent datasets. Interestingly, APOE- ε4 is not differentially associated with
+autopsy measures of neurofibrillary tangles. Together, the sex difference in
+the association between APOE and CSF measures of tau, and
+the lack of a sex difference in the association with neurofibrillary tangles
+at autopsy, suggests that APOE may modulate risk for
+neurodegeneration in a sex-specific manner, particularly in the presence of
+amyloidosis.
+
+## Introduction
+Apolipoprotein E ( APOE ) is the strongest genetic risk factor
+for sporadic Alzheimer disease (AD), 1 explaining approximately 13% of the phenotypic
+variance. 2 The ε4 allele
+increases risk for AD in a dose-dependent manner, and the strength of the
+association varies by age and sex. 3 The effect of APOE -ε4 is strongest prior to age 70, declines
+after age 85, and is more robust among females compared to males, 3 especially females between 55–70
+years of age. 4 Although this sex
+difference has been well established after a recent comprehensive
+meta-analysis, 4 very little is
+known about the underlying mechanism. APOE has been implicated in a
+variety of neuropathological cascades relevant to AD, including alterations in
+cerebral glucose metabolism, 5 , 6 cerebrovascular disease, 7 amyloidosis, 8 , 9 neurodegeneration, 10 and tau tangle pathology. 11 The present manuscript will focus on
+amyloid and tau as potential contributors to sex differences in the clinical effects
+of APOE.
+
+In the case of amyloid pathology, APOE -ε4 has a
+strong association with amyloidosis, 8 , 9 even among non-demented older adults, 12 likely through its role in amyloid
+clearance. 13 Research
+leveraging in vivo biomarkers of amyloid has indicated that the
+association between APOE- ε4 and amyloidosis is consistent
+across sexes, 8 , 14 – 16 yet other work has found evidence of
+age-dependent sex differences in the effects of APOE- ε4 on
+amyloidosis. 17 , 18 In the case of tau pathology, APOE -ε4 is associated with higher levels of cerebrospinal
+fluid (CSF) tau, 19 and more
+neurofibrillary tangles at autopsy, 11 although these associations are relegated to individuals
+with high levels of amyloid pathology. 16 The evidence of a sex difference in the association
+between APOE and tau pathology is also mixed, with some
+biomarker 15 , 19 and autopsy 18 work suggesting females show a more robust
+association between APOE- ε4 and tau, while other work has
+reported no sex difference. 14 , 20 , 21
+
+Collectively, the amyloid and tau findings to date provide mounting, although
+inconclusive, evidence of a sex difference in the association between APOE and both of the primary neuropathological hallmarks of AD.
+The objective of the present project was to provide a comprehensive understanding of
+the sex-specific associations between APOE and AD neuropathology in
+older adulthood. The pooled data resources for this project provide the opportunity
+to evaluate sex differences across the spectrum of normal aging and AD, including a
+broad range of age and cognitive status. The first set of analyses focused on four in vivo datasets that include CSF biomarkers of AD
+neuropathology. The second set focused on 6 autopsy datasets of AD leveraging direct
+measures of AD neuropathology. Together, these analyses provide a thorough and
+needed investigation into sex-specific effects of APOE on AD
+neuropathology.
+
+## Materials and Methods
+Data were acquired from well characterized studies of AD ( Tables 1 and 2 ).
+The biomarker database included four cohort studies. The Vanderbilt Memory &
+Aging Project ( VMAP ), launched in 2012, recruited
+participants age 60 and older from the community who were MRI eligible and free of
+dementia and clinical stroke. 22 The Wisconsin Registry of Alzheimer’s Prevention
+( WRAP ) began in 2001 recruiting participants 40–65
+years of age. 72% have a parent with either probable AD dementia ascertained through
+medical history review or autopsy-confirmed AD. 23 The Biomarkers of Cognitive Decline Among Normal
+Individuals ( BIOCARD ) study began in 1995. Enrollees were
+middle age at baseline and cognitively intact; 75% of participants had a first
+degree relative with AD. The study stopped in 2005 and was re-established in 2009,
+with annual assessments. 24 The
+Alzheimer’s Disease Neuroimaging Initiative ( ADNI )
+launched in 2003 and includes over 1,500 adults aged 55 to 90 years with normal
+cognition (NC), mild cognitive impairment (MCI), or AD ( www.adni-info.org ).
+
+The autopsy database was derived from data published by Beecham et al.
+evaluating genetic markers of AD neuropathology, which includes cohort
+descriptions. 25 The
+Translational Genomics Research Institute (TGEN), National Institute on Aging (NIA)
+Late–Onset Alzheimer’s Disease Family Study (LOAD), and Mayo Clinic
+(Mayo) were analyzed directly from the published data. 25 The dataset was updated using more recent
+data from the Religious Orders Study and Rush Memory and Aging Project (ROS/MAP),
+the Adult Changes in Thought (ACT) study, and the National Alzheimer Coordinating
+Center (NACC) dataset. Briefly, ROS began in 1994 and
+involves older Catholic nuns, priests, and brothers recruited from across the US.
+Rush MAP began in 1997 and involves older lay persons
+recruited from retirement communities, subsidized housing facilities, and social
+service agencies in the Chicago metropolitan area. Persons in both studies enrolled
+without dementia and agreed to annual clinical evaluations and organ donation at
+death. 26 , 27 ACT began in 1994 and recruited a random sample of
+non-demented older adults from the Seattle metropolitan area. A subset of
+participants in ACT (25–30%) also agreed to brain donation. 28 NACC maintains a database of participant information
+collected from 34 past and present NIA-funded Alzheimer Disease Centers. In 2005,
+NACC implemented a standard protocol (i.e., Uniform Dataset, UDS), including
+clinical, medical, neurological, and cognitive data. We only included autopsy
+participants who were at least 60 years of age at death. The collection of VMAP data
+and secondary analyses of all data were approved by the Vanderbilt University
+Medical Center IRB.
+
+As previously reported, 29 APOE haplotypes (ε2, ε3, ε4) were
+determined using SNPs rs7412 and rs429358 in ACT, BIOCARD, Mayo, NACC, NIA-LOAD,
+VMAP, and WRAP. Pyrosequencing, restriction fragment length polymorphism
+analysis, and high-throughput sequencing of APOE codons 112 and
+158 were performed in ADNI, ROS/MAP, and TGEN datasets to derive APOE haplotypes.
+
+CSF biomarkers have been measured in ADNI, BIOCARD, WRAP, and VMAP
+previously. ADNI 30 and
+BIOCARD 31 were analyzed by
+the same lab using the same procedure. Similarly, WRAP 32 and VMAP 22 were analyzed by the same lab using the same
+procedure. Given known batch effects, we analyzed variables as continuous
+square-root transformed outcomes within each dataset individually and used a
+meta-analysis based on standardized coefficients to summarize results across
+datasets.
+
+Within the autopsy datasets, we used a measure of neurofibrillary
+tangles (NFT; Braak staging) 33 and a measure of neuritic plaques (CERAD neuritic plaque score) 34 in each dataset. Both measures were
+analyzed as binary outcomes and as ordinal outcomes. The binary neuritic plaque
+positive score was defined based on CERAD, whereby scores of
+“none” or “sparse” neuritic plaques were considered
+“neuritic plaque negative”, and scores of “moderate”
+or “frequent” neuritic plaques were considered “neuritic
+plaque positive”. The binary NFT positive score was defined based on
+Braak staging, whereby stages none, I, or II were considered “NFT
+negative” and stages III, IV, V, or VI were considered “NFT
+positive”.
+
+Statistical analyses were completed using RStudio (Version 1.0.136; https://www.rstudio.com/ ). For the
+neuropathology analyses, two primary models were run. The first was a binary
+logistic regression with tangle positivity or neuritic plaque positivity set as
+the outcome. The second model was a proportional odds ordinal logistic
+regression setting either Braak stage or CERAD neuritic plaque score as the
+ordinal outcome. Predictors in the model included age at death, sex, APOE , and a sex x APOE interaction. APOE- ε2 and APOE- ε4 were
+evaluated in separate models, and the main effect models were assessed excluding
+the sex x APOE interaction term. We used a dominant model for
+ε2 and an additive model for ε4. Follow-up analyses were run
+stratified by sex. All models were run within each dataset individually.
+
+For the biomarker analyses, the same prediction models and covariates
+were assessed using linear regression with baseline CSF Aβ−42, CSF
+total tau (t-tau), or CSF phosphorylated tau (p-tau) set as the continuous
+outcome. Age at CSF acquisition was used as the age covariate term. Follow-up
+models were run stratified by sex. All models were run within each dataset
+individually.
+
+Meta-analyses within the CSF and autopsy cohorts were completed
+separately using the metafor package in R, including estimation of fixed effects
+and heterogeneity across datasets. Correction for multiple comparisons was
+performed using the Bonferroni procedure accounting for main effects and
+interactions on three biomarker outcomes (CSF Aβ−42, t-tau, and
+p-tau) and four autopsy outcomes (ordinal and binary outcomes of CERAD and Braak
+staging) resulting in 35 independent tests (corrected-α=0.0014).
+
+Post-hoc analyses evaluated sex x APOE- ε4
+interactions on CSF t-tau and p-tau among amyloid positive and amyloid negative
+individuals. Additional post-hoc analyses restricted the sample to cognitively
+normal individuals, stratified by age group, covaried for education level,
+restricted autopsy results to longitudinal cohort studies, removed ADNI from the
+CSF analyses, and restricted to APOE -ε4 homozygotes.
+
+## Results
+Participant characteristics are presented in Tables 1 and 2 . The biomarker
+dataset included individuals who were, on average, younger, with a higher percentage
+of males than the autopsy datasets.
+
+Main effect results are presented in Table 3 . Females showed higher levels of CSF t-tau, CERAD neuritic
+plaque score, and Braak tau tangle stage. Similarly, APOE- ε4 was associated with higher levels of biomarker
+levels and pathology and ε2 was associated with lower biomarker levels
+and pathology for all metrics.
+
+Interaction results are presented in Table 3 . A sex x APOE- ε4 interaction was
+observed on both t-tau ( Figure 1 ) and p-tau
+whereby the association between APOE- ε4 and tau levels
+was stronger in females than in males (see Figure
+2 ).
+
+Autopsy interaction results are also presented in Table 3 . There were no significant interactions
+between sex and APOE on neuropathology.
+
+In post-hoc analyses stratified by amyloid status, the sex x APOE- ε4 interaction was present among amyloid
+positive individuals (β=0.41 [95% CI: 0.20, 0.62], p<0.001, Supplemental Table 1 ) but
+not amyloid negative individuals (β=0.06 [−0.18, 0.31], p=0.62, Supplemental Table
+2 ). Additional post-hoc analyses stratified by age, restricting the
+sample to cognitively normal individuals, adjusting for education, restricted to
+longitudinal cohort studies, removing the ADNI dataset, and restricted to APOE- ε4 homozygotes are presented in Supplemental Tables 3–9 .
+
+## Discussion
+The present findings provide the most robust evidence to date of sex
+differences in the association between APOE -ε4 and CSF tau
+levels, whereby the effect of APOE is stronger among females
+compared to males. The observed sex difference was driven by amyloid positive
+individuals, suggesting APOE may confer sex-specific risk for
+downstream neurodegeneration in the presence of enhanced amyloidosis. In contrast to
+CSF tau levels, we did not observe sex differences in the association between APOE and any biomarkers of amyloidosis or autopsy measures of
+neurofibrillary tangles.
+
+The present analyses provide strong evidence of an enhanced association
+between APOE- ε4 and CSF tau levels among females compared to
+males, particularly among amyloid positive females. Previous work in ADNI has
+reported similar sex differences in CSF tau, 14 , 20 although results have been somewhat mixed depending on
+the sample included 21 and had
+never been replicated in an independent cohort. For the first time, we were able to
+replicate the sex difference of APOE effects on CSF tau in three
+additional datasets that differ substantially in baseline age and diagnostic status.
+We also provide evidence of a comparable sex difference in the association between APOE- ε4 and CSF phosphorylated tau for the first time.
+Several mechanisms could underlie this sex difference in tau, and the hormonal
+changes that take place during and following menopause represent one strong
+candidate pathway. For example, there is evidence that changes in estrogen levels
+among females could drive a more severe downstream response to amyloidosis; 35 – 37 an effect that could be enhanced among
+ε4 carriers given evidence that estradiol treatment drives APOE release from microglia. 38 A second possibility is that late-life changes in
+estrogen levels among females have a direct effect on tau. For example, estradiol
+appears to protect against tau hyperphosphorylation, particularly among female
+rats, 39 and estrogen receptor
+α co-localizes with neurofibrillary tangles at autopsy 40 . Interestingly, the α receptor also
+appears to be responsible for the estrogen-mediated upregulation of APOE expression, 41 suggesting a third possible mechanism in which estrogen
+and APOE act synergistically in post-menopausal women. Thoughtful,
+modern experimental approaches are needed to better understand the potential
+contribution of gonadal hormone differences between men and women in driving the
+observed APOE sex differences. 42
+
+In contrast to the CSF biomarker results, we did not observe a sex
+difference in the association between APOE and neurofibrillary
+tangle load at autopsy. There are a few potential explanations for this
+counterintuitive observation. Notably, there is growing evidence that CSF tau is a
+better marker of the intensity of neurodegeneration than the stage of
+neurofibrillary tangle deposition, 43 suggesting the autopsy and biomarker metrics may represent
+two distinct processes. Therefore, one possibility is that sex-specific effects of APOE contribute to differences in neurodegeneration that are
+not directly mediated by changes in neurofibrillary tangle burden. Other markers of
+neurodegeneration, including hippocampal volume 44 , 45 and cerebral hypometabolism, 21 show sex-specific effects of APOE- ε4 that may underlie the observed differences in
+CSF tau levels. A second possibility is that the age difference between the autopsy
+cohorts and biomarker cohorts in the present analysis contribute to the observed
+discrepancy between CSF and autopsy measures of tau. Recent and historic evidence
+indicates that both the detrimental effect of APOE -ε4 and
+the sex difference in APOE -ε4 effect diminishes among the
+oldest old, 3 , 4 suggesting that subtle age
+differences could have a large influence on results. In support of such a
+possibility, we do observe the strongest effects on CSF tau in the younger
+individuals when stratifying the CSF sample into younger-old and older-old adults
+( Supplemental Tables
+3–4 ). However, even among the younger-old adults we do not observe
+a sex-specific effect of APOE on autopsy metrics, suggesting this
+age difference does not fully account for the discrepancy.
+
+In all analyses, we observed a strong association between APOE and amyloidosis that was consistent across males and
+females. APOE appears to drive risk for clinical AD through an
+amyloid clearance pathway, 13 so it
+is not surprising that both here and previously 46 APOE shows a stronger association with amyloid deposition than tau.
+Notably, we did not observe differences in the APOE association
+when comparing younger-old to older-old individuals (see Supplementary Tables 3 and 4 ), although age differences
+have been reported. 47 The larger
+sample (and enhanced power) in the present analysis likely explains the discrepant
+findings, as the previous study observed patterns consistent with our findings but
+failed to observe a statistically significance association in the younger group.
+Importantly, our primary and post-hoc analyses support the notion that APOE shows a consistent association with amyloidosis across sex
+and age and is unlikely to drive observed sex differences in the association between APOE and clinical AD. 48
+
+This manuscript has multiple strengths, including the large sample size, the
+integration of both CSF biomarker data and autopsy data, and the extensive
+sensitivity analyses, including explorations into diagnostic status, age, amyloid
+status, and educational attainment. However, the study is not without weaknesses.
+One important limitation is the potential influence of sex differences in survival
+to older adulthood, which could contribute to a robust survivor effect among males
+compared to females. As others have previously highlighted, selective survival of
+men with substantially lower cardiovascular risk profiles may contribute to sex
+differences in AD risk in older adulthood. 49 It is also notable that the sex-specific effect of APOE -ε4 on microbleeds is actually in the inverse
+direction, 50 with males
+showing a stronger association than females, suggesting that sex-specific effects of APOE- ε4 may have differential effects on AD and non-AD
+pathologies, even in the face of potential survivor bias. Future work is needed to
+develop and integrate modern statistical approaches to estimate and account for the
+effect of survival bias, particularly in analyses of sex-specific molecular drivers
+of AD and non-AD neuropathologies. The cross-sectional nature of the biomarker and
+autopsy data also limits our ability to make causal inferences, particularly with
+respect to the sequential ordering of neuropathologies or CSF biomarker deposition.
+Finally, the cohorts were relatively homogeneous across race and ethnicity, with
+some cohorts being exclusively Caucasian. Thus, findings may not be generalizable to
+other racial and ethnic groups that may be at greater risk of AD. Results will need
+to be extended to cohorts with greater diversity.
+
+The present results provide strong evidence of sex differences in the
+association between APOE and CSF tau levels that do not appear
+to reflect differences in neurofibrillary tangle deposition. Future work should
+evaluate the genetic drivers of plaques, tangles, neurodegeneration, and
+cognitive impairment in a sex-specific manner to identify novel pathways of
+risk.

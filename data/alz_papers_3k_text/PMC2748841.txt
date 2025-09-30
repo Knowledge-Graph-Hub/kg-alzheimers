@@ -1,0 +1,14 @@
+# Title
+Cellular Prion Protein Mediates Impairment of Synaptic Plasticity by Amyloid-β Oligomers
+
+# Abstract
+A pathological hallmark of Alzheimer’s disease (AD) is an accumulation of insoluble plaque containing the amyloid-β peptide (Aβ) of 40–42 aa residues 1 . Prefibrillar, soluble oligomers of Aβ have been recognized to be early and key intermediates in AD-related synaptic dysfunction 2 – 9 . At nanomolar concentrations, soluble Aβ-oligomers block hippocampal long-term potentiation 7 , cause dendritic spine retraction from pyramidal cells 5 , 8 and impair rodent spatial memory 2 . Soluble Aβ-oligomers have been prepared from chemical syntheses, from transfected cell culture supernatants, from transgenic mouse brain and from human AD brain 2 , 4 , 7 , 9 . Together, these data imply a high affinity cell surface receptor for soluble Aβ-oligomers on neurons, one that is central to the pathophysiological process in AD. Here, we identify the cellular Prion Protein (PrP C ) as an Aβ-oligomer receptor by expression cloning. Aβ-oligomers bind with nanomolar affinity to PrP C , but the interaction does not require the infectious PrP Sc conformation. Synaptic responsiveness in hippocampal slices from young adult PrP null mice is normal, but the Aβ-oligomer blockade of long-term potentiation is absent. Anti-PrP antibodies prevent Aβ-oligomer binding to PrP C and rescue synaptic plasticity in hippocampal slices from oligomeric β. Thus, PrP C is a mediator of Aβoligomer induced synaptic dysfunction, and PrP C -specific pharmaceuticals may have therapeutic potential for Alzheimer’s disease.
+
+## METHODS SUMMARY
+Prnp −/− mice (Edinburgh strain) 21 on an inbred C57Bl6 background were obtained from Dr. Chesebro of the Rocky Mountain Laboratories and Prnp −/− mice (Zurich I) 20 on a mixed strain background from the European Mutant Mouse Archive.
+
+Aβ42 oligomer preparations were generated from synthetic peptide 4 . For binding assays, COS-7 cells were transiently transfected with cDNA expression plasmids or isolated hippocampal neurons were cultured from E18 embryos. Bound biotin-Aβ42 was detected using avidin conjugates.
+
+Hippocampal slices (400 µm) from C57Bl6J or Prnp −/− mice were bathed in oxygenated artificial cerebrospinal fluid. The Schaffer collateral pathway was stimulated at 0.033 Hz at levels that evoked less than 50% of maximal field EPSPs. Evoked CA1 field potentials were recorded and the slope of the EPSP determined (Clampfit, Molecular Devices). Aβ42 or antibodies were bath applied for 20–40 minutes before inducing LTP with ten 100 Hz trains at five pulses delivered at 5 Hz.
+
+Details are provided in the On-line Supplement .

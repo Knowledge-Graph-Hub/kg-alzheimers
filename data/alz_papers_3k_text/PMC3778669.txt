@@ -1,0 +1,2280 @@
+# Title
+Vascular Contributions to Cognitive Impairment and
+Dementia
+
+# Abstract
+This scientific statement provides an overview of the evidence on
+vascular contributions to cognitive impairment and dementia. Vascular
+contributions to cognitive impairment and dementia of later life are common.
+Definitions of vascular cognitive impairment (VCI), neuropathology, basic
+science and pathophysiological aspects, role of neuroimaging and vascular
+and other associated risk factors, and potential opportunities for
+prevention and treatment are reviewed. This statement serves as an overall
+guide for practitioners to gain a better understanding of VCI and dementia,
+prevention, and treatment. Writing group members were nominated by the writing group co-chairs
+on the basis of their previous work in relevant topic areas and were
+approved by the American Heart Association Stroke Council Scientific
+Statement Oversight Committee, the Council on Epidemiology and Prevention,
+and the Manuscript Oversight Committee. The writing group used systematic
+literature reviews (primarily covering publications from 1990 to May 1,
+2010), previously published guidelines, personal files, and expert opinion
+to summarize existing evidence, indicate gaps in current knowledge, and,
+when appropriate, formulate recommendations using standard American Heart
+Association criteria. All members of the writing group had the opportunity
+to comment on the recommendations and approved the final version of this
+document. After peer review by the American Heart Association, as well as
+review by the Stroke Council leadership, Council on Epidemiology and
+Prevention Council, and Scientific Statements Oversight Committee, the
+statement was approved by the American Heart Association Science Advisory
+and Coordinating Committee. The construct of VCI has been introduced to capture the entire
+spectrum of cognitive disorders associated with all forms of cerebral
+vascular brain injury—not solely stroke—ranging from mild
+cognitive impairment through fully developed dementia. Dysfunction of the
+neurovascular unit and mechanisms regulating cerebral blood flow are likely
+to be important components of the pathophysiological processes underlying
+VCI. Cerebral amyloid angiopathy is emerging as an important marker of risk
+for Alzheimer disease, microinfarction, microhemorrhage and macrohemorrhage
+of the brain, and VCI. The neuropathology of cognitive impairment in later
+life is often a mixture of Alzheimer disease and microvascular brain damage,
+which may overlap and synergize to heighten the risk of cognitive
+impairment. In this regard, magnetic resonance imaging and other
+neuroimaging techniques play an important role in the definition and
+detection of VCI and provide evidence that subcortical forms of VCI with
+white matter hyperintensities and small deep infarcts are common. In many
+cases, risk markers for VCI are the same as traditional risk factors for
+stroke. These risks may include but are not limited to atrial fibrillation,
+hypertension, diabetes mellitus, and hypercholesterolemia. Furthermore,
+these same vascular risk factors may be risk markers for Alzheimer disease.
+Carotid intimal-medial thickness and arterial stiffness are emerging as
+markers of arterial aging and may serve as risk markers for VCI. Currently,
+no specific treatments for VCI have been approved by the US Food and Drug
+Administration. However, detection and control of the traditional risk
+factors for stroke and cardiovascular disease may be effective in the
+prevention of VCI, even in older people. Vascular contributions to cognitive impairment and dementia are
+important. Understanding of VCI has evolved substantially in recent years,
+based on preclinical, neuropathologic, neuroimaging, physiological, and
+epidemiological studies. Transdisciplinary, translational, and transactional
+approaches are recommended to further our understanding of this entity and
+to better characterize its neuropsychological profile. There is a need for
+prospective, quantitative, clinical-pathological-neuroimaging studies to
+improve knowledge of the pathological basis of neuroimaging change and the
+complex interplay between vascular and Alzheimer disease pathologies in the
+evolution of clinical VCI and Alzheimer disease. Long-term vascular risk
+marker interventional studies beginning as early as midlife may be required
+to prevent or postpone the onset of VCI and Alzheimer disease. Studies of
+intensive reduction of vascular risk factors in high-risk groups are another
+important avenue of research.
+
+## 1. Introduction
+As people live longer, the burden of cognitive impairment in society becomes
+increasingly important. Although Alzheimer disease is the most commonly diagnosed
+cause of cognitive dysfunction among the aged, cognitive impairment caused by
+vascular disease, including subclinical brain injury, silent brain infarction (SBI),
+and clinically overt stroke are important as independent causes and contributors to
+cognitive dysfunction. There are challenges in interpreting the literature because
+of nosology, criteria, and measurement issues, but the construct of vascular
+contributions to cognitive impairment and dementia is sufficiently important to
+merit a detailed review.
+
+Our purpose in this scientific statement is to provide an overview of the
+evidence on vascular contributions to cognitive impairment and dementia. This
+statement also serves as an overall guide for practitioners to gain a better
+understanding of vascular cognitive impairment (VCI) and dementia, prevention, and
+treatment. Writing group members were nominated by the writing group cochairs on the
+basis of their previous work in relevant topic areas and were approved by the
+American Heart Association (AHA) Stroke Council Scientific Statement Oversight
+Committee, the Council on Epidemiology and Prevention, and the Manuscript Oversight
+Committee. The writing group used systematic literature reviews (primarily covering
+publications from 1990 to May 1, 2010), previously published guidelines, personal
+files, and expert opinion to summarize existing evidence, indicate gaps in current
+knowledge, and, when appropriate, formulate recommendations using standard AHA
+criteria ( Table 1 ). All members of the
+writing group had the opportunity to comment on the recommendations and approved the
+final version of this document. The document also underwent extensive internal peer
+review by the AHA, as well as review by the Stroke Council leadership, Council on
+Epidemiology and Prevention Council, and Scientific Statements Oversight Committee,
+before receiving consideration and approval from the AHA Science Advisory and
+Coordinating Committee.
+
+In addition, for the clinical trials section, the writing group searched for
+the key words vascular cognitive functioning , impairment , and dementia in the Cochrane
+Reviews of Clinical Trials, Cumulative Index to Nursing and Allied Health
+Literature, AMED Virtual Library, PubMed, and Medline. Subject headings were
+combined with treatment, including specific therapies. Past guidelines and previous
+consensus conference proceedings were reviewed, and a search for evidence for
+nonpharmacological cognitive-enhancing remedies was conducted on the National
+Institutes of Health National Center for Complementary and Alternative Medicine Web
+site and the American College of Physi cians PIER (Physician's Information and
+Education Resource) and Elsevier MD Consult databases.
+
+Some of the literature review was based on the expert panel's knowledge of
+the field and therefore may be subject to bias. Formal search strategies, however,
+were used as indicated for evaluation of clinical trial information.
+
+The overall prevalence of dementia in affluent countries is 5% to 10% in
+people ≥65 years of age. The prevalence of Alzheimer disease doubles every
+4.3 years, whereas the prevalence of vascular dementia (VaD) doubles every 5.3
+years. 1 VCI is also
+strongly age related. 2 A recent
+report from Alzheimer's Disease International indicates that in low- to
+middle-income countries, the prevalence of dementia is lower in less affluent
+countries but is still very strongly related to age. 3 Incidence rates are also quite variable and are age
+related. Age-adjusted rates for Alzheimer disease and VaD are 19.2 and 14.6,
+respectively, per 1000 person-years. 4
+
+A significant factor in interpreting the prevalence and incidence figures
+from Alzheimer disease and VaD pertains to the issue of diagnostic thresholds. Most
+older studies use the construct of VaD or multi-infarct dementia (MID) in estimating
+figures. More recently, the construct of VCI has been introduced to capture the
+entire spectrum of cognitive disorders ranging from mild cognitive impairment to
+fully developed dementia. 5 As the
+threshold is expanded, the frequency rates increase accordingly. Growing awareness
+of the resultant societal burden underlines the need to identify, prevent, and treat
+overt and covert cerebral vascular brain injury as early as possible. 6 The term VCI was
+proposed to embrace the spectrum of severity from prodrome (vascular cognitive
+impairment, no dementia [VCIND]) to full-blown manifestations of cognitive
+impairment, VaD, and the pathological spectrum from “pure” Alzheimer
+disease through degrees of vascular comorbidity, so-called mixed disease, to
+“pure” VaD. 7 Importantly, consensus-based recommendations for standardized imaging, cognitive,
+and pathological protocols have been developed. 5 , 8
+
+In addition to the threshold issue, multiple sets of criteria exist for the
+constructs of VCI and VaD. 9 For
+example, the more liberal criteria for VaD proposed by Hachinski et al result in
+large numbers, whereas the more conservative criteria such as those of the National
+Institute of Neurological Disorders and Stroke–Association Internationale
+pour la Recherché et l'Enseignement en Neurosciences (NINDS-AIREN) yield more
+modest rates. 10 , 11 An additional factor affecting the estimates of
+frequency pertains to the role of neuroimaging. Many recent proposals for criteria
+incorporate neuroimaging as a factor, and this can have a significant influence on
+frequency figures. A further complicating issue involves the role of combinations of
+various underlying pathophysiologies. Some studies contend that mixed pathologies,
+including the degenerative components caused by Alzheimer disease and vascular
+factors, are the most common explanation for cognitive impairment in
+aging. 12 , 13
+
+Newly proposed criteria for the fifth edition of the Diagnostic and
+Statistical Manual of Mental Disorders ( www.dsm5.org ) may use another term
+closely aligned with dementia, such as major neurocognitive
+disorder . T he predementia symptomatic stage similar to
+mild cognitive impairment may be termed mild neurocognitive
+disorder . Memory loss is still a prominent feature of the syndromes in
+the Alzheimer disease spectrum but is not required for the mild and major diagnoses,
+because impairment in any cognitive domain, including executive function, is
+sufficient. Use by clinicians and overall impact, however, remain to be seen.
+
+Meanwhile, population magnetic resonance imaging (MRI) studies have revealed
+the high prevalence of covert small-vessel disease in the elderly population (23%
+for silent lacunes 14 and 95% for
+incidental hyperintensities 15 )
+associated with increased risk for stroke and dementia. Population-autopsy series
+verified the high frequency and pathogenetic importance of combined Alzheimer
+disease and vascular disease in the expression of dementia as mentioned
+previously. 16 , 17
+
+From the pathological perspective, there is dispute about the role of
+various types of vascular lesions that contribute to cognitive impairment, including
+those of the formerly used term MID , large cortical infarcts,
+lacunar infarcts, subcortical white matter disease, strategically placed subcortical
+infarcts, or a combination of these. Furthermore, vascular lesions can lower the
+threshold for the clinical manifestation of Alzheimer disease. 16 , 18 Finally, there is pathological and clinical evidence for
+cholinergic compromise in both Alzheimer disease and VCI, and cholinesterase
+inhibitors have been tested for both disorders in clinical trials.
+
+The overall situation is complex yet vitally important if we are to
+understand, diagnose, and ultimately prevent and treat cognitive impairment caused
+by vascular disease. The present statement covers the current state of the field
+with respect to the definitions of Alzheimer disease and VCI, the basic
+pathophysiological underlying nature of VCI, challenges in defining vascular effects
+neuropathologically, and the role of neuroimaging in defining clinical presentation
+and course. In addition, midlife and late-life risk factors are discussed and
+clinical trials reviewed. Finally, recommendations for the prevention and treatment
+of VCI are made and directions for the future described.
+
+In this statement, we favor the use of the term VCI as
+defined below to represent the spectrum of cognitive impairment associated with
+frank stroke, vascular brain injury, or subclinical disease ranging from the least
+severe to the most severe clinical manifestations. The latter end of the cognitive
+severity spectrum of VCI has been referred to traditionally as VaD. The reader must keep in mind, however, that the definition of cognitive impairment
+associated with stroke or vascular brain disease has changed over time, and within
+individual sections of this statement, terms such as VaD, MID, poststroke
+dementia , or others may be used in accordance with the original source
+citations used to discuss key points in relation to the disorder.
+
+## 2. Defining Alzheimer Disease and VCI
+There has been significant evolution of the terminology to characterize
+the cognitive syndrome associated with risk factors for cerebrovascular disease
+and its manifestations, especially the description of dementia. Approximately 30
+years ago, the term MID 11 was used to identify patients who developed dementia
+after multiple strokes, although it was also used for patients with a single
+vascular insult. More recently, the term VaD has been used,
+regardless of the pathogenesis of the vascular lesion—ischemic or
+hemorrhagic or single or multiple infarct(s). 10 , 19 , 20
+
+Cerebrovascular disease can also cause mild cognitive deficits that can
+affect multiple cognitive functions, and some authors have proposed the term vascular mild cognitive impairment ( VaMCI ). 21 , 22 This is the
+“vascular” equivalent of mild cognitive impairment (MCI) commonly
+used to identify subjects in the transition from normalcy to Alzheimer
+disease. 23 By
+extension, VCI encompasses all the cognitive disorders associated with
+cerebrovascular disease, from frank dementia to mild cognitive deficits. Simply
+put, VCI is a syndrome with evidence of clinical stroke or subclinical vascular
+brain injury and cognitive impairment affecting at least 1 cognitive domain. The
+most severe form of VCI is VaD.
+
+The diagnostic criteria for VaD have been particularly important not
+only as diagnostic tools in clinical practice but also to establish prevalence
+and incidence in population studies, determine risk factors, and recruit
+homogenous cohorts for drug trials. The Diagnostic and Statistical Manual of
+Mental Disorders 24 and the
+International Classification of Diseases 25 provide criteria used for administrative purposes and
+tracking disease. In some cases there is low accuracy when these criteria are
+adopted as diagnostic criteria. The NINDS–AIREN 10 and State of California Alzheimer's Disease
+Diagnostic and Treatment Centers 19 criteria for VaD are used in research as diagnostic
+instruments that operationalize specific signs and symptoms of the VaD syndrome.
+More recently, clinical criteria have been proposed to capture subcortical VaD
+syndromes. 20
+
+To date, all diagnostic criteria to characterize cognitive syndromes
+associated with vascular disease should be based on 2 factors:
+demonstration of the presence of a cognitive disorder (dementia or VaMCI) by
+neuropsychological testing and history of clinical stroke or
+presence of vascular disease by neuroimaging that suggests a link between the
+cognitive disorder and vascular disease. There is substantial variability in the
+approach to these 2 core issues, however. We provide a practical approach to the
+classification of dementia and VaMCI ( Table
+2 ) and propose that the term VCI be used for all
+forms of cognitive disorder associated with cerebrovascular disease, regardless
+of the pathogenesis (eg, cardioembolic, atherosclerotic, ischemic, hemorrhagic,
+or genetic).
+
+All of the major criteria for VaD have a different definition of
+dementia, and this results in challenges in reliability studies. 26 Dementia criteria based on
+memory deficits are derived from concepts proposed for Alzheimer disease, but
+these may not be suitable for the dementia syndrome associated with
+cerebrovascular disease, in which memory-related structures (eg, mesial temporal
+lobe, thalamus) could be intact, resulting in relatively preserved memory
+functions. 27 , 28 Thus, a memory deficit should
+not be required for the diagnosis of VCI or VaD. 29
+
+The second critical clinical feature of VaD is determining the
+relationship of cerebrovascular disease to the cognitive symptoms. To
+appropriately diagnose VaD, it is critical to identify the presence of cortical
+or subcortical infarcts or other stroke lesions with neuroimaging, and these
+should be associated with clinical symptomatology. It may also be important to
+consider the source of the cardiac or vascular pathology that underlies the
+cerebrovascular disease associated with VCI to provide more specific
+clinicopathologic relationships. Although some authors propose that the symptoms
+should appear within 3 months after a stroke, 30 this is arbitrary, and symptoms may develop
+after this time frame. In addition, there are patients who have not had a
+clinical stroke, and severe cerebrovascular disease is evident only in
+neuroradiological studies. 31 , 32 Finally, the presence of white
+matter lesions (WMLs) or leukoaraiosis (rarefaction of the white matter thought
+to be secondary to small-vessel occlusive disease) is critical for the diagnosis
+of cerebral autosomal dominant arteriopathy with subcortical infarcts and
+leukoencephalopathy (CADASIL), 33 a genetic form of VaD in relatively young people. However,
+WMLs also occur in older subjects and patients with Alzheimer disease in
+epidemiological studies. 34 Therefore, although the presence of WMLs has less diagnostic value in the
+elderly, WMLs could be the only neuroimaging finding in younger people with
+cognitive deficits secondary to cerebrovascular disease. For example, WMLs with
+or without infarcts are associated with cognitive deficits and neuropsychiatric
+disorders in patients with autoimmune disorders (eg, systemic lupus
+erythematosus, Sjögren disease). 35 , 36
+
+VaD can coexist with multiple cerebral and systemic disorders that can
+affect cognition in the elderly, especially Alzheimer disease. Therefore, it is
+often difficult to determine whether the cognitive deterioration is solely a
+consequence of vascular factors or underlying Alzheimer disease. 37 Several studies have found
+that in patients with Alzheimer disease and cerebrovascular disease, less
+Alzheimer disease pathology is needed to express the dementia
+syndrome. 16 , 18 This synergistic effect
+between Alzheimer disease and cerebrovascular disease pathology may explain why
+patients with mesial temporal lobe atrophy, presumably attributable to Alzheimer
+disease, have an increased risk of dementia after stroke compared with those
+without atrophy, because hippocampal atrophy may also be caused by vascular
+disease. 38 , 39 This is the most difficult
+aspect of the clinical characterization of VaD, because the Alzheimer disease
+clinical syndrome can begin after a stroke, or patients with Alzheimer disease
+symptomatology can have strokes during the course of the disease. The present
+statement proposes to use the term probable to characterize the
+most “pure” forms of VaD and the term possible when the certainty of the diagnosis is diminished or the vascular syndrome is
+associated with another disease process that can cause cognitive deficits.
+Future studies using specific ligands for amyloid may help clarify the dynamic
+relationship between Alzheimer disease and VaD.
+
+We now shift our focus from VaD to less severe forms of VCI.
+
+The term amnestic MCI has been used to identify people
+at risk for Alzheimer disease. Although initially the term MCI applied solely to amnestic forms of the syndrome, 23 further studies found that these subjects had
+deficits in multiple cognitive domains. 40 , 41 Therefore,
+the current nomenclature for MCI is much broader and includes amnestic MCI,
+amnestic MCI plus other cognitive deficit, nonamnestic single domain, and
+nonamnestic multiple domains. 42 Because epidemiological studies detected executive deficits
+in subjects with subcortical vascular pathology, 43 it was recommended that VaMCI should be
+characterized by deficits in executive functions as memory could be
+normal. 21 However,
+clinical studies have shown that subjects with VaMCI can present with a broader
+cognitive impairment, which can also include memory deficits. 22 These definitions are
+primarily applied in research studies but may provide an initial useful platform
+for classifying patients in practice.
+
+Several studies have shown that patients with MCI can return to normal
+cognition. These people have multiple disease processes that may improve with or
+without specific treatments, such as depression, heart failure, or autoimmune
+disorders. 44 – 46
+
+Cerebrovascular disease with or without clinical strokes can be
+associated with depression. 47 , 48 This raises an important issue
+for VaMCI, because these behaviors (depression or depressive symptoms) can
+severely influence patients’ activities of daily living and cognitive
+performance, although some symptoms can revert with treatment (eg, depression),
+and consequently cognition can improve. This means that there may be a
+“reversibility” component in VaMCI. 47 , 48 An
+added component of VaMCI is poststroke recovery. Patients who are seen soon
+after stroke may show cognitive impairment. In some of these patients, cognition
+may improve as part of the stroke recovery process.
+
+The 2006 NINDS–Canadian Stroke Council VCI harmonization
+standards suggested different neuropsychological protocols for use in patients
+with suspected VCI. 5 Detailed
+discussion of these protocols is beyond the scope of this statement, and the
+reader is referred to the source reference by Hachinski et al 5 for suggestions for cognitive
+batteries that may be applied in practice.
+
+The neuropsychological assessment of patients with suspected VCI
+requires a comprehensive cognitive battery. Executive function has long been
+considered a salient feature of the disorder and should be included in the
+neuropsychological battery. 21 Operational definitions of cognitive impairment (eg, performance 1 or 1.5
+standard deviations below that of an appropriate comparison group) are preferred
+over qualitative descriptions of cognitive symptoms.
+
+Attempts to use neuropsychological assessment to differentiate Alzheimer
+disease from VCI have met with mixed success. Executive dysfunction has not been
+shown to specifically point to cerebrovascular disease, whereas a pattern of
+memory deficits may be associated more with Alzheimer disease and its associated
+pathology than with cerebrovascular disease. 49 , 50 This research
+area is complicated by the difficulty of clinically differentiating Alzheimer
+disease or VCI from mixed (Alzheimer disease plus cerebrovascular disease)
+disease, which may be more common than either “pure” Alzheimer
+disease or “pure” VCI. 9 In addition, the heterogeneity of cerebrovascular disease
+(eg, strokes that differ in location, size, and number) works against a single,
+unifying neurocognitive pattern of deficits in VCI.
+
+Traditionally, terms such as MID or VaD have been used in the classification of cognitive
+impairment associated with stroke. With newer research classification systems,
+the term VCI is now preferred. VCI represents a syndrome taking
+into account the spectrum of cognitive severity, which often includes executive
+dysfunction and the various types of brain vascular disease that could underlie
+cognitive symptoms, including subclinical vascular brain injury. The most severe
+form of VCI is VaD, and new subtypes with milder cognitive symptoms (eg, VaMCI)
+are being defined. The use of the VCI classification system may prove to be
+useful for clinicians in practice as they consider pathogenesis and ultimately
+prevention and treatment of the patient with cognitive impairment. A key to
+defining the spectrum of VCI is neuropsychological testing, bedside or office
+clinical examination, and neuroimaging ( Table
+2 ).
+
+## 3. Neuropathological Aspects
+For decades it has been recognized that cerebrovascular disease is
+associated with dementia, 11 , 51 yet defining the pathology
+underlying VCI has remained elusive. 2 , 5 , 52 There are many complexities. For instance,
+infarcts vary in size, number, and location; occur commonly in older people with and
+without dementia 13 , 39 , 53 – 56 ; often are not associated with
+clinical stroke 2 , 39 , 51 , 53 ; and typically are accompanied by
+Alzheimer disease and other pathologies. 12 , 13 , 16 , 17 , 54 – 57 Many of these obstacles can be navigated by studying people
+with and without dementia from community-based cohort studies, with clinical data
+proximate to death, and quantitative measurements of vascular and Alzheimer disease
+pathologies. Such studies 12 , 13 , 16 , 17 , 39 , 53 – 57 are accumulating and provide new
+insights into the pathological substrates of VCI and dementia and the importance of
+vascular pathology or brain injury.
+
+The most important cerebrovascular pathology that contributes to
+cognitive impairment is cerebral infarcts. Cerebral infarcts are discrete
+regions of tissue loss observed by the naked eye (macroscopic) or under the
+microscope (microscopic). Clinical-pathological studies typically focus on
+chronic (old) infarcts because cognitive evaluations are often performed months
+before death; the trajectory of cognitive impairment from a recent infarct may
+be difficult to ascertain; and recent infarcts may be related to perimortem
+factors. Chronic macroscopic infarcts are very common, occurring in
+approximately one third to one half of older people, 13 , 54 – 56 a
+frequency far greater than the frequency of clinical stroke. In some
+community-based studies, microscopic infarcts are more common than macroscopic
+infarcts. 13 , 56 In 1 study, 55 the inclusion of other
+measures of vascular pathology such as microscopic infarcts, small-vessel
+disease, and white matter changes increased the frequency of cerebrovascular
+disease in older people to >75%.
+
+In clinical-pathological studies, larger volumes 39 , 51 and an increased number 11 , 13 , 39 , 55 , 56 of
+macroscopic infarcts are as sociated with an increased likelihood of dementia.
+However, determining the volume or number necessary for VCI or dementia has
+proved difficult, and unlike with Alzheimer disease and other neurodegenerative
+diseases, there are no currently accepted neuropathological criteria to confirm
+a clinical diagnosis of VCI. Indeed, although Tomlinson et al described 100 mL
+of tissue loss as sufficient for dementia, those with lesser volumes of loss
+also had dementia. 51 Studies
+have generally shown an inconsistent relation between volume and number of
+infarcts and cognitive impairment. 13 , 58 Some of these
+inconsistencies may relate to infarct location. Regions such as the thalamus,
+angular gyrus, and basal ganglia may be more likely than other regions to result
+in cognitive impairment. 2 , 58 , 59 However, regional factors have not been clearly
+defined, and diverse cortical 13 , 39 , 56 and subcortical 13 , 16 , 58 , 59 regional infarcts have been
+related to dementia.
+
+Further challenging these relationships, some studies suggest that
+multiple microscopic infarcts are related to dementia, even after accounting for
+macroscopic infarcts. 13 , 56 Multiple microscopic infarcts
+may denote a more generalized phenomenon such as diffuse hypoxia, inflammation,
+oxidative stress, or disruption in the blood-brain barrier (BBB). Other factors
+governing whether infarcts are related to impairment may include variance in
+cognitive reserve 60 and
+coexisting pathologies.
+
+Infarcts frequently coexist with Alzheimer disease pathology in the
+brains of older people. 12 , 13 , 16 , 17 , 54 – 57 In addition, most people with
+dementia 12 and almost
+half of those with clinically probable Alzheimer disease 61 have mixed pathology, most
+commonly Alzheimer disease and infarcts. Although there are no pathological
+criteria to confirm mixed dementia, studies show that infarcts in a brain with
+Alzheimer disease pathology are not innocuous. One study showed that only people
+with Alzheimer disease pathology with subcortical infarcts had dementia, raising
+the possibility of an interaction (a multiplicative effect) between the 2
+pathologies. 16 Although the specific importance of subcortical infarcts and interaction has not
+been confirmed, subsequent studies have established that infarcts are additive
+with Alzheimer disease pathology in lowering cognitive function 17 , 57 and increasing the odds of dementia 17 , 18 , 62 , 63 or clinical Alzheimer
+disease. 61 Moreover,
+disturbances of episodic memory, considered the hallmark of Alzheimer disease,
+are associated with infarcts even after accounting for Alzheimer disease
+pathology. 17 , 59
+
+There are multiple implications. First, because they are often
+clinically unrecognized, the public health importance of infarcts and their role
+in dementia is likely underestimated. Second, risk factors for infarcts may be
+erroneously linked to the episodic memory and classic phenotype of clinical
+Alzheimer disease. Third, prevention and therapies that decrease cerebral
+infarcts are likely to lower the prevalence of clinically diagnosed
+dementia.
+
+Few studies have examined the pathological basis of MCI. 53 , 61 , 64 – 69 Alzheimer disease has been
+found to be the most common pathology, 61 , 65 , 66 , 69 but mixed pathologies are also common. 61 , 65 – 69 In 1
+study the frequency of pure infarct and mixed Alzheimer disease and infarct
+pathology was comparable to the frequency of pure Alzheimer disease pathology in
+both amnestic and nonamnestic MCI. 61 Thus, assuming the underlying neuropathological substrate
+of amnestic MCI is pure Alzheimer disease pathology rather than vascular or
+mixed pathology, the role of vascular pathology may be underestimated.
+
+There are other common vascular pathologies in the brains of older
+people, including white matter degeneration 70 , 71 and primary
+vessel disease (ie, arteriolosclerosis/lipohyalinosis, atherosclerosis, and
+cerebral amyloid angiopathy [CAA]). 70 , 72 , 73 Cerebral microbleeds,
+visualized by new imaging techniques, also appear to be a common vascular
+abnormality. 74 – 77 White matter degeneration and
+microbleeds most likely reflect direct tissue damage, 71 , 78 – 80 whereas primary vessel disease may be associated with focal (eg, infarct) or
+diffuse tissue damage (eg, white matter degeneration) or may result in
+nonmorphologic functional changes. Although neuroimaging studies 70 , 76 , 77 , 81 suggest a role for white
+matter degeneration and microbleeds in cognitive impairment, it is currently
+unclear whether these additional pathologies represent separate pathological
+substrates for VCI. In some studies, neuropathological measurements of WMLs have
+not been clearly associated with cognitive function unless as part of a combined
+vascular score that also includes infarcts. 52 Quantitative studies of multiple vascular pathologies
+in older people with and without dementia with clinical evaluation proximate to
+death are needed to determine the separate roles of these vascular pathologies
+in VCI and other dementias.
+
+Neuroimaging studies provide an excellent tool for identifying many
+types of vascular pathologies in older people through accurate determination of
+brain anatomy by high-resolution T1 but also tissue changes that can be
+quantified by fluid-attenuated inversion recovery, diffusion tensor,
+magnetization transfer, and even neurochemical changes with hydrogen
+spectroscopy. However, postmortem evaluations continue to complement
+neuroimaging studies in several important ways. First, neuroimaging detects
+macroscopic infarcts, ≈3 mm or more in size, but microscopic infarcts and
+small-vessel disease (eg, arteriolosclerosis) are currently not within the
+resolution of most scans. Second, some vascular pathologies may represent either
+vascular or degenerative processes. For instance, neuroimaging studies have
+shown that white matter degeneration, as measured by both fluid-attenuated
+inversion recovery and diffusion tensor imaging, and microbleeds are associated
+with both VCI and clinical Alzheimer disease, 70 , 72 , 76 , 77 , 81 and
+pathological studies demonstrate white matter degeneration and microbleeds are
+related to lipohyalinosis. 58 , 70 , 79 , 80 In addition,
+though, white matter degeneration is related to Alzheimer disease
+pathology 78 and
+microbleeds to CAA. Hippocampal volume visualized on antemortem neuroimaging may
+also be related to either Alzheimer disease or vascular pathology, 82 and pathological studies show
+that the hippocampus can atrophy as part of both degenerative or vascular
+processes. 83 Thus,
+white matter degeneration and microbleeds on MRI often considered specific for
+vascular disease may signify degenerative pathology, although recent
+pathological studies show no relationship between WMLs as measured by MRI and
+Alzheimer disease neuropathology, 82 whereas hippocampal volume loss, often considered a
+specific biomarker for early Alzheimer disease, 84 may reflect vascular pathology. These data
+emphasize the need for prospective quantitative
+clinical-pathological-neuroimaging studies to fully understand the pathological
+bases of neuroimaging change. Furthermore, they highlight the complex interplay
+between vascular and Alzheimer disease pathologies in the evolution of VCI,
+dementia, and clinical Alzheimer disease.
+
+The interplay between macroscopic and microscopic infarcts and other
+vascular and degenerative pathologies in the development of clinical Alzheimer
+disease and VCI is complex. Vascular and degenerative pathologies are 2 common
+disorders in later life and often coexist, and each separately adds to the
+likelihood of cognitive impairment and dementia. In addition, vascular and
+degenerative pathologies may result in overlapping clinical and imaging
+phenotypes. Longitudinal clinical-pathological-neuroimaging studies hold promise
+to help us better understand the pathophysiology and phenotypes of these common
+disorders of cognition in later life, which may lead to improved prevention and
+treatment strategies.
+
+## 4. Basic Science Aspects: Importance of the Neurovascular Unit and Cerebral Blood
+Flow
+Neurons, glia, and perivascular and vascular cells, collectively termed the neurovascular unit , are structurally, functionally, and
+developmentally interrelated and work in concert to maintain the homeostasis of the
+cerebral microenvironment. 85 Alterations in neurovascular function are involved in the pathogenesis of VCI.
+
+The brain depends on a continuous blood supply, and interruption of
+cerebral blood flow (CBF) leads to brain dysfunction and death. 86 Consequently, sophisticated
+cerebrovascular control mechanisms ensure that the brain's blood supply is well
+matched to its energy requirements. 87 Thus, neural activity induces a powerful increase in
+CBF (functional hyperemia) that is thought to deliver energy substrates and
+remove toxic byproducts of brain activity. 88
+
+Cerebrovascular autoregulation keeps CBF relatively constant within a
+range of blood pressures, protecting the brain from unwanted swings in perfusion
+pressure. 89 Specialized receptors on endothelial cells transduce mechanical (shear stress)
+and chemical stimuli and release potent signaling molecules such as nitric
+oxide, endothelin, and prostanoids. 90 These endothelial mediators subserve functions as
+varied as local flow distribution, 91 immune surveillance (in concert with perivascular
+cells), 92 and
+hemostatic balance. 93
+
+The tight junctions between cerebral endothelial cells, coupled with
+highly specialized membrane transporters, regulate the trafficking of molecules
+between blood and brain, which is at the basis of the BBB. 94 Conversely, transporters on
+the abluminal side of the vessels remove metabolic byproducts from the brain,
+including amyloid beta (A β ). 95 Endothelial cells exert trophic actions that
+are critical in brain development, neuroplasticity, and repair when endothelial
+growth factors orchestrate the migration and differentiation of
+neuroblasts. 96 – 99
+
+The neurovascular unit is profoundly disrupted in VCI and Alzheimer
+disease. 95 , 100 – 103 The present section will focus on the
+microvascular changes associated with cerebrovascular disease and
+neurodegeneration. The alterations that occur in the structure and function of
+large cerebral arteries are discussed elsewhere in this statement. VCI and
+Alzheimer disease are associated with marked alterations in cerebral
+microvascular structure. 104 , 105 Microvessels have thickened
+basement membranes, become tortuous, and are reduced in number. 71 , 105 – 107 Arterioles exhibit signs of “onion skin”–type changes and
+undergo hyaline degeneration (lipohyalinosis), a cause of
+microhemorrhages. 105 In the vulnerable periventricular white matter, reactive astrocytosis and
+microglial activation are associated with expression of hypoxia-inducible genes,
+suggesting local hypoxia. 71 , 108
+
+As examined in the next section, in Alzheimer disease and CAA,
+accumulation of A β in the media of cortical arterioles
+weakens the vessel wall and increases the chance of lobar hemorrhages. 109 In animal models, the major
+risk factors for VCI and Alzheimer disease —hypertension, aging, and
+diabetes 110 —impair endothelium-dependent responses in the cerebral
+microcirculation and blunt functional hyper-emia. 101 , 111 , 112 A β is a potent vasoconstrictor 113 , 114 and
+suppresses endothelium-dependent responses, functional hyperemia, and
+cerebrovascular autoregulation. 115 – 117 Cerebral smooth muscle cells of patients with Alzheimer disease have increased
+constrictor tone, 118 which
+may contribute to the CBF reduction observed in this condition. 100
+
+Vascular oxidative stress and inflammation are key pathogenic factors in
+neurovascular dysfunction. 101 , 119 – 121 Experimental studies suggest that radicals
+produced by the enzyme nicotinamide adenine dinucleotide phosphate oxidase are
+responsible for the cerebrovascular alterations induced by VCI risk factors and
+A β . 112 , 122 – 124 Although free radicals can
+induce inflammation by activating redox-sensitive proinflammatory transcription
+factors, the endothelial dysfunction induced by oxidative stress can release
+vascular endothelial growth factor and prostanoids, which promote vascular
+leakage, protein extravasation, and cytokine production. 125 Inflammation, in turn,
+enhances oxidative stress by upregulating the expression of reactive oxygen
+species–producing enzymes and downregulating antioxidant
+defenses. 126
+
+White matter BBB alterations are early findings in VCI. 127 In models of autoimmune
+white matter injury, extravasation of plasma protein triggers vascular
+inflammation and axonal demyelination, 127 which in turn disrupts saltatory conduction, 128 slowing the transmission of
+nerve impulses. In addition, loss of energy-saving saltatory conduction
+increases metabolic demands and enhances local energy deficit and
+hypoxia. 128 A similar
+process may contribute to the WMLs observed in Alzheimer disease and VCI, which
+play a prominent role in the expression of dementia. 110
+
+In addition, the low-density lipoprotein receptor–related
+protein-1, a critical A β brain clearance receptor, is
+downregulated in cerebral blood vessels of patients with Alzheimer disease,
+leading to accumulation of amyloid around blood vessels and worsening of
+vascular dysfunction. 129 Plasma A β , which is elevated in some patients with VCI
+and Alzheimer disease, induces cerebrovascular insufficiency and could play a
+role in the white matter alterations observed in both conditions. 130 , 131 Vascular oxidative stress and inflammation impede the
+proliferation, migration, and differentiation of oligodendrocyte progenitor
+cells and compromise repair of the damaged white matter. 108 , 132 , 133 Furthermore, loss of growth factors, such as the brain-derived neurotrophic
+factor, 96 may
+contribute to the brain atrophy associated with Alzheimer disease and
+VCI. 134 , 135
+
+Although there are relatively few animal models of cognitive impairment
+and white matter damage, models recapitulating features of CAA, CADASIL,
+cerebral hypoperfusion, and hypertensive vasculopathy have been developed,
+mainly in rodents. 5 However, it
+has proved difficult to reproducibly induce white matter damage and behavioral
+dysfunction by lowering CBF in a spatial-temporal pattern consistent with the
+human disease. Furthermore, little has been learned about the effects of BBB
+alterations and microvascular inflammation on the structure and function of
+white matter. Rodent models, although well suited to genetic manipulations and
+large-scale studies, can be problematic because of their small amount of white
+matter and limited behavioral repertoire. Models in higher-order species would
+be desirable because of the more complex behaviors and extensive white matter
+pathology that can be explored. Studies using these models to investigate the
+effects of CBF, microvascular inflammation, and BBB alterations on white matter
+and behavior should be a priority for the field.
+
+There is increasing evidence that alterations in neurovascular
+function play a key role not only in the pathobiology of VCI but also in
+Alzheimer disease.
+
+The neurovascular unit is a major target of the deleterious
+effects of vascular risk factors promoting VCI and Alzheimer disease and
+of A β .
+
+Neurovascular dysfunction increases the brain's susceptibility
+to injury by (a) altering regulation of the cerebral blood supply, (b)
+disrupting BBB function, and (c) reducing the trophic support and repair
+potential of the injured brain.
+
+Vascular oxidative stress and inflammation underlie many of
+these deleterious effects and are potential therapeutic targets.
+
+Therapies that enhance regenerative and reparative phenomena may
+also be beneficial, but our understanding is still limited and requires
+further inquiry. Use of viable animal models to explore the factors
+linking CBF, microvascular inflammation, and BBB dysfunction to white
+matter damage and behavioral deficits can provide mechanistic and
+therapeutic insights, and the development of these models should be
+eagerly pursued. In the absence of mechanism-based therapies to treat
+vascular and neurodegenerative dementia, approaches aimed at maintaining
+cerebrovascular health by controlling vascular risk factors are
+anticipated to be extremely valuable.
+
+## 5. Cerebral Amyloid Angiopathy and Hereditary Small-Vessel Syndromes
+Deposition of A β peptide in the walls of
+penetrating arterioles and capillaries of the leptomeninges and cortex is the
+hallmark of sporadic CAA, a common pathology in the elderly. CAA appears in
+≈10% to 30% of unselected brain autopsies and 80% to 100% when in the
+presence of accompanying Alzheimer disease. 136 Advanced CAA can trigger a series of destructive
+changes in the vessel wall, including loss of smooth muscle cells, development
+of microaneurysms, and concentric splitting and fibrinoid necrosis of the vessel
+wall and perivascular leakage of red blood cells. 137 – 139
+
+Although CAA is most commonly recognized as a cause of spontaneous
+intracerebral hemorrhage, there is growing evidence that it is an important
+contributor to age-related cognitive impairment as well. Population-based
+clinical-pathological studies have identified associations between advanced CAA
+and worse cognitive performance, and these associations remain independent after
+controlling for severity of Alzheimer disease pathology. 55 , 140 , 141 The
+precise pathogenic mechanisms responsible for this association have not been
+established. Possible explanations include radiographic lesions seen in advanced
+CAA, such as microbleeds, 142 microinfarcts, 143 – 146 WMLs on computed tomography or MRI, 147 , 148 and
+altered fractional anisotropy or mean diffusivity on diffusion tensor
+MRI. 149 CAA can also
+trigger vascular or perivascular inflammation, 150 , 151 manifesting as vasogenic edema of subcortical white matter and more rapidly
+progressive cognitive decline. 152
+
+In the absence of direct neuropathological assessment, CAA is most
+commonly diagnosed by the detection of hemorrhages confined to cortical or
+cortico-subcortical (“lobar”) brain regions. The presence of
+multiple strictly lobar hemorrhages in the absence of other definite causes such
+as head trauma, brain tumor, or supratherapeutic anticoagulation has been
+defined by the Boston criteria as “probable CAA” and validated
+against neuropathologically or genetically diagnosed CAA. 153 , 154 T2*-weighted gradient-echo MRI sequences provide
+substantially increased sensitivity for detection of cerebral microbleeds and
+are key to the diagnosis of probable CAA. Other potential diagnostic approaches
+have been explored, including detection of reduced A β in
+cerebrospinal fluid 155 or
+increased retention of the amyloid ligand Pittsburgh Compound B on positron
+emission tomography imaging. 156 , 157 Pittsburgh
+Compound B retention is not specific for CAA as opposed to Alzheimer disease,
+because the compound binds to both vascular and parenchymal amyloid 158 ; however, the 2 pathologies
+may be distinguishable in part by the relative occipital predominance of
+labeling in CAA. 156 , 157
+
+No treatments have been identified to successfully prevent or slow
+cognitive impairment caused by noninflammatory CAA. A recent study found an
+association between coincident hypertension and larger volumes of WMLs in
+patients with CAA, 159 raising
+the intriguing (but unproven) possibility that blood pressure control may be
+beneficial. For the subset of patients with CAA-related inflammation, treatment
+with a course of high-dose corticosteroids or cyclophosphamide has been reported
+to cause clinical and radiological improvement. 152
+
+Beyond the effects of A β deposits in CAA,
+soluble A β itself may also trigger altered vascular
+reactivity and brain injury. As discussed in the previous section, evidence for
+this possibility comes from animal models in which exogenously applied or
+genetically overexpressed A β production diminished
+vasodilation to pharmacological or physiological stimuli, even in the absence of
+vascular A β deposits. 115 , 160 , 161 Because
+A β concentration may be manipulated via
+direct 160 or
+indirect 162 metabolic
+pathways, these experiments raise the intriguing possibility that
+A β -induced vascular dysfunction might prove
+treatable. This possibility, however, has not been tested in human studies.
+
+The most commonly encountered hereditary cause of VCI is CADASIL. This
+disorder can present clinically as migraines with aura, mood disturbances,
+recurrent strokes, or cognitive impairment 163 and radiographically by the appearance of extensive
+WMLs, lacunar infarcts, microbleeds, and brain atrophy. 164 Nearly all cases of CADASIL
+are caused by missense mutations of the Notch3 gene that either
+create or eliminate cysteine residues. 165 Identification of such mutations, which can also occur
+de novo in sporadic cases of CADASIL, 166 , 167 has become
+the primary method of diagnosis. Most CADASIL patients also appear to
+demonstrate characteristic ultrastructural changes in skin and muscle vessels,
+in particular the deposition of granular osmiophilic material in the arteriolar
+media. 168 – 170 Although no treatments have
+been identified to modify the course of CADASIL, it is notable that
+cardiovascular risk factors such as hypertension, elevated hemoglobin A1c, and
+smoking may be associated with a worse clinical and radiographic
+phenotype. 171 , 172
+
+Other hereditary small-vessel syndromes of the brain are rare and have
+generally not been reported as causes of sporadic disease via de novo mutation.
+These syndromes include familial CAA caused by mutations or duplications of the APP β -amyloid precursor protein
+gene, 173 – 175 autosomal dominant retinal
+vasculopathy with cerebral leukodystrophy caused by frameshift deletions in the
+exonuclease TREX1 , 176 and cerebral autosomal recessive arteriopathy with
+subcortical infarcts and leukoencephalopathy caused by missense or nonsense
+mutations of the transforming growth factor- β 1 repressor HTRA1 . 177 Mutations of the COL4A1 type IV collagen
+subunit gene have also been reported in association with congenital
+porencephaly, leukoencephalopathy, or intracerebral hemorrhage. 178 , 179 Of note, a single nucleotide polymorphism in the COL4A1 gene was associated with pulse wave velocity, an
+index of arterial stiffness, in a population. 180
+
+CAA appears to be a relatively common and important contributor to
+age-related small-vessel dysfunction and VCI. Diagnostic approaches to CAA (and
+to CADASIL, the most common form of hereditary small-vessel disease) have
+improved, but no disease-modifying therapies have been identified. Coexisting
+vascular risk factors such as hypertension, diabetes, and smoking may worsen the
+effects of CAA and CADASIL and are therefore plausible targets for
+treatment.
+
+It is reasonable to use MRI with T2*-weighted gradient-echo
+sequences in patients with progressive cognitive impairment for
+detection of the multiple strictly lobar hemorrhagic lesions
+characteristic of probable CAA (Class IIa; Level of Evidence
+B).
+
+It is reasonable to perform genetic testing for
+cysteine-altering mutations in Notch3 in patients with
+progressive cognitive impairment, characteristic imaging findings, and a
+family history suggestive of autosomal dominant inheritance (Class IIa; Level of Evidence A).
+
+Notch3 testing may also be considered in
+sporadic patients with suggestive clinical and imaging findings,
+particularly in the absence of strong cardiovascular risk factors (Class IIb; Level of Evidence B).
+
+If genetic testing is either unavailable or demonstrates Notch3 mutations of unclear significance,
+ultrastructural examination of skin or muscle biopsy specimen for
+granular osmiophilic deposits may be considered as an alternative or
+complementary procedure (Class IIb; Level of Evidence
+B).
+
+In suspected CAA or CADASIL, treatment of cardiovascular risk
+factors is reasonable (Class IIa; Level of Evidence
+C).
+
+Patients with subacute cognitive decline and evidence of
+CAA-related inflammation should be treated with a course of
+immunosuppressive therapy such as corticosteroids or cyclophosphamide (Class I; Level of Evidence B).
+
+## 6. Pathophysiology of Arterial Structure and Function
+Vascular aging is well exemplified by the strong relationship between age
+and changes in large-artery structure and function. 181 Several arterial parameters have been selected
+for clinical investigation, based on the feasibility and repeatability of their
+measurement and their predictive value of cardiovascular events. 182 They include carotid wall
+thickening and aortic stiffening, which also likely reflect atherosclerosis and arteriosclerosis ,
+respectively. Recently a large number of studies have reported strong relationships
+between indices of vascular aging and either cognitive impairment or silent cerebral
+small-vessel disease. That these relationships were independent of age and classic
+cardiovascular risk factors suggests common pathophysiological mechanisms linking
+large-artery damage to cerebral small-vessel disease.
+
+Although a number of disease states can lead to vessel wall
+thickening, 143 cyclic
+vessel distention in normal aging (ie, beat-to-beat change in vessel diameter in
+response to the pulsatility of blood pressure) is thought to cause fragmentation
+and depletion of elastin and increased collagen deposition, resulting in a
+nearly 3-fold increase in intima-media thickness (IMT) between the ages of 20
+and 90 years. 145 The
+lumen-intima and media-adventitia separation can be determined to within
+≈0.1 mm on longitudinal B-mode ultrasound images of the extracranial
+carotid arteries where these interfaces are readily apparent. 183 , 184
+
+The relationship between carotid IMT and cognitive function has been
+analyzed cross-sectionally 185 , 186 and longitudinally 187 – 189 in few studies. The studies were
+heterogeneous for the study population (small groups, sex composition, healthy
+subjects or affected by Alzheimer-type dementia), the definition of carotid IMT
+(mean of left and right common carotid artery, IMT at bifurcation, sum of IMT at
+multiple carotid sites), and the neuropsychological test adopted to evaluate
+cognition (single or repeated measures of the Mini Mental State Examination
+[MMSE], a neuropsychological battery with specific tests for different cognitive
+domains). Despite this heterogeneity, a significant inverse relationship between
+carotid IMT and cognitive function was observed in all studies. Specifically,
+the thicker the artery, the lower the cognitive performance. This relationship
+was significant after controlling for age and education; some studies further
+adjusted for the presence of depressive symptoms 187 , 189 and/or cardiovascular risk factor level. 189
+
+The precise causal association of carotid IMT with VCI is uncertain.
+Carotid IMT can reflect either a media thickening in response to the increase in
+blood pressure in hypertensive patients, an intima thickening in response to
+atherosclerotic risk factors, or most often a combination of both. Nearly all
+types of vascular disease that may increase IMT may also affect cognitive
+function through a variety of mechanisms, directly or indirectly. Carotid
+atherosclerosis and IMT have been associated with cardiovascular risk factors,
+including metabolic, inflammatory, and dietary factors, that have also been
+associated with cognitive decline. 189 – 192 In
+addition, several studies have described associations between craniocervical
+artery atherosclerosis and cognitive impairment. For instance, in participants
+>90 years of age, intracranial atherosclerosis emerged as an important
+predictor of dementia in subjects with low Alzheimer disease pathology
+scores. 193 In an
+autopsy series, the presence of large-vessel cerebrovascular disease, or
+atherosclerosis, was strongly associated with an increased frequency of neuritic
+plaque. 194
+
+The mechanisms by which atherosclerotic cerebrovascular pathology might
+be associated with VCI include thrombotic occlusion of large vessels with
+subsequent chronic cerebral hypoperfusion; cerebral embolism originating from
+ruptured or thrombotic carotid plaques and targeting distal vessels; increased
+parenchymal oxidative stress; blood pressure dys-regulation affecting BBB
+integrity; and a common genetic vulnerability to atherosclerosis of large and
+small vessels. 189 , 195 – 198 In all likelihood, common cardiovascular
+factors influence both IMT and VCI independently, but the consequences of
+vascular disease may also directly affect cognitive function.
+
+The well-known, age-related arterial stiffening process
+( arteriosclerosis ) is associated with quantitatively less
+elastin and more collagen but is also associated with qualitative changes in the
+arterial wall. 143 , 199 , 200 The most simple, noninvasive, robust, and reproducible
+method with which to determine aortic stiffness is the measurement of
+carotid-femoral pulse wave velocity, using the foot-to-foot velocity method from
+various waveforms (pressure, Doppler, distention). 182 The analysis of aortic pressure waveform
+allows the calculation of central systolic blood pressure and pulse pressure,
+which are influenced by aortic stiffness and the geometry and vasomotor tone of
+small arteries. Central systolic blood pressure and pulse pressure can be
+estimated noninvasively either from the radial artery waveform, using a transfer
+function, or from the common carotid waveform. Both aortic pulse wave velocity
+and central systolic blood pressure and pulse pressure predict cardiovascular
+events independent of classic cardiovascular risk factors. 182
+
+Carotid-femoral pulse wave velocity, the “gold standard”
+for evaluating arterial stiffness, 182 was higher in any group of cognitively impaired
+subjects with or without dementia. 201 An inverse relationship between pulse wave velocity
+and cognitive performance was reported cross-sectionally. 186 , 202 , 203 Carotid
+femoral pulse wave velocity was also associated prospectively with cognitive
+decline before dementia in studies using a cognitive screening test 204 , 205 and more specifically tests of verbal learning and
+delayed recall and nonverbal memory. 205 These relationships remained significant after
+controlling for age, sex, education, and blood pressure levels. Other studies
+reported a significant positive relationship between arterial stiffness and
+volume or localization of WMLs, a known factor predisposing to
+dementia, 206 on
+neuroimaging. 207 , 208
+
+Several pathways may link aortic stiffness to microvascular brain
+damage. They include endothelial dysfunction and oxidative stress, 209 a mutually reinforcing
+remodeling of large and small vessels (ie, large-/small-artery cross
+talk), 210 and
+exposure of small vessels to the high-pressure fluctuations of the cerebral
+circulation, 211 which
+is perfused at high-volume flow throughout systole and diastole, with very low
+vascular resistance. Additionally, stiffer large arteries are associated with
+increased left ventricular mass. Of note, left ventricular remodeling and
+hypertrophy have been associated with higher frequency and severity of
+subclinical brain damage. 212 Recently, higher left ventricular mass in older people has been independently
+associated with a 2-fold higher likelihood of having dementia, independent of
+blood pressure levels. 213
+
+Direct investigation of small resistance arteries harvested from human
+subcutaneous and omental fat tissue has been possible using wire or pressure
+myography. 214 – 216 To the best of our
+knowledge, no study has investigated the relationship between small-artery
+remodeling and cognitive decline or WMLs. Noninvasive methods for measuring
+small-artery remodeling have focused on retinal vessels, using either a
+funduscopic methodology or scanning laser flowmetry. 217 , 218 Retinal arterial narrowing correlates with increased arterial
+stiffness 219 and
+cerebral small-vessel disease. 218 , 220 , 221
+
+There is increasing recognition that small-vessel disease is a systemic
+process. 222 Small-vessel disease increases with age and is accelerated by vascular risk
+factors, most notably, hypertension and diabetes. 223 Putative mechanisms for this are increasing
+thickening of the basement membrane of capillaries and perivascular deposition
+of collagen leading to occlusion of end arterioles. 224 This manifests as systemic arteriolar
+dysfunction. In addition, brain damage may arise from small-vessel endothelial
+leakage. 225
+
+The mechanistic pathways linking microvascular brain damage to carotid
+IMT, aortic stiffness, and small-artery remodeling are complementary. Aortic
+stiffness predicts cardiovascular events independent of carotid IMT. 226 A large-/small-artery
+cross-talk has already been described in hypertensive patients. 210 These data suggest that the
+noninvasive investigation of large and small arteries could demonstrate
+additional and independent predictive values for VCI and dementia. In addition,
+such a noninvasive investigation could help in determining the relative weight
+of each arterial parameter in contribution to all types of dementia (from VaD to
+Alzheimer disease) in the general population. 227 Finally, whether early vascular
+aging 228 , 229 is an important contributor
+to VCI and dementia and whether the latter can be prevented or delayed by
+targeted therapy remain to be demonstrated.
+
+## 7. Neuroimaging Factors That May Influence the Clinical Presentation and Course
+of VCI
+VCI is defined as a syndrome in which there is evidence of stroke or
+subclinical vascular brain injury based on clinical or neuroradiological features
+and that is linked to impairment in at least 1 cognitive domain. Although stroke is
+common in the elderly, 230 asymptomatic brain infarction is even more common, 231 and the full spectrum of cerebrovascular
+disease–associated brain injury (CVBI) measured on brain MRI includes WMLs,
+brain atrophy, and other findings. 232 This section discusses evidence from imaging studies that
+examine the influence of CVBI on cognition and cognitive decline. 10
+
+As previously discussed, VCI may have a variety of clinical
+presentations that may depend on the setting in which patients are evaluated.
+For example, in community-based studies, evidence of CVBI and cognitive
+impairment is often found without a history of a strokelike
+event. Furthermore, the relative contributions to VCI of microbleeds seen on MRI
+or microinfarcts discovered at autopsy remain uncertain, although both occur
+with increased frequency among people diagnosed with dementia during
+life. 77 , 233 Therefore, although the
+finding of CVBI on MRI is the most sensitive, the relationship between location
+and volume of infarcts and cognitive impairment is complex and the subject of
+ongoing investigation.
+
+Two issues related to the accuracy of MRI for detection of CVBI are
+important for a diagnosis of VCI. First is the sensitivity and specificity for
+detection of CVBI. Not all lesions attributed to CVBI on MRI are in fact caused
+by vascular injury, 234 and
+not all vascular lesions (eg, microinfarcts) can be detected by MRI. The second
+is the ability to relate these findings to specific domains of cognitive
+impairment in older people who often have coincident Alzheimer disease
+pathology. A number of studies have assessed the specificity of MRI findings
+through neuropathological correlations with postmortem measures of CVBI,
+particularly pathological correlates of WMLs. 71 , 108 In
+a study that examined the pathological correlates of in vivo MRI evidence of
+CVBI, 82 WMLs were
+highly correlated with pathological features of ischemic white matter injury but
+not Alzheimer disease pathology. Gray matter volumes, however, were associated
+with both vascular and Alzheimer disease processes, and hippocampal volumes were
+associated with both hippocampal sclerosis and Alzheimer disease. It is evident
+that firm conclusions about imaging of CVBI relate to lack of accurate measures
+of concurrent Alzheimer disease pathology. Recent amyloid imaging techniques
+have proved an association with Alzheimer disease pathology 235 and may prove useful for
+evaluating the independent and combined effects of vascular and Alzheimer
+disease brain injury on cognitive changes during normal aging in the future.
+Fortunately, studies using both modalities are currently under way.
+
+Although the specific independent effects of CVBI may remain somewhat
+uncertain at this time, 236 general conclusions can be drawn from clinical and imaging studies of subject
+groups with a high likelihood of having CVBI or conversely a low likelihood of
+concomitant Alzheimer disease. The following sections review key findings of
+studies of CVBI that may have an impact on the clinical presentation and course
+of VCI.
+
+Estimates of the prevalence of silent cerebral infarction on MRI in
+community-based samples vary between 5.8% and 17.7%, with an average of 11%,
+depending on age, ethnicity, presence of comorbidities, and imaging
+techniques. 237 In the
+Framingham study, for example, the prevalence of silent cerebral infarction
+between the fifth and seventh decades of life is ≈10% but increases
+rapidly in the eighth decade to 17% and in the ninth decade to nearly 30%. Most
+have a single lesion, and the infarcts are most often located in the basal
+ganglia (52%), followed by other subcortical (35%) and cortical (11%)
+areas. 237 Risk
+factors for silent cerebral infarction are generally the same as those for
+clinical stroke. 237 , 238
+
+WMLs are even more common and are generally present in most people
+>30 years of age, 231 increasing steadily in extent with advancing age. WMLs also share risk factors
+with stroke, 239 although
+advancing age remains a strong effect. Importantly, age-specific definitions of
+extensive WMLs can be created 240 and prove useful in defining risk for VCI in a community
+cohort. 240
+
+Numerous studies have examined the cross-sectional relationship between
+MRI evidence of CVBI and cognitive ability. A recent review 232 of large epidemiological
+studies summarizes cognitive and behavioral effects of both silent cerebral
+infarction and WMLs on cognition. Interestingly, although most studies suggest
+that these measures of CVBI are usually associated with
+non–memory-related cognitive deficits, 241 a number of studies also show similar
+associations with memory impairment. 240 , 242 , 243 These data are consistent
+with recent pathological findings of an association between infarctions found at
+autopsy and episodic memory performance. 12 , 59 Incident
+cognitive impairment also occurs in association with CVBI. For example, the
+presence of SBI more than doubles the risk of dementia and risk of
+stroke. 240 , 244 , 245 Similarly, WMLs have been associated with declining
+scores in the modified MMSE and the Digit Symbol Substitution Test, 246 , 247 as well as with incident MCI, dementia, and
+death. 240 Recent
+evidence also suggests that progression of WMLs is a better predictor of
+persistent cognitive impairment than baseline WML burden, 248 although there is a strong
+association between baseline WML volume and increase in WML volume. 249
+
+Among patients who have experienced a first stroke, the prevalence of
+poststroke dementia (PSD) varies in relation to the interval after stroke,
+definition of dementia, location and size of the infarct, and other inclusion
+and exclusion criteria. In a Rochester, MN, community-based study of stroke, the
+prevalence of dementia was 30% immediately after stroke, and the incidence of
+new-onset dementia increased from 7% after 1 year to 48% after 25
+years. 250 In general,
+having a stroke increases the risk of dementia 2-fold. Risk of dementia is
+higher with increased age and fewer years of education, history of diabetes
+mellitus and atrial fibrillation, and recurrent stroke. 251 Patients with PSD have
+degrees of functional impairment and high mortality rates. Long-term mortality
+is 2 to 6 times higher in patients with PSD after adjustment for demographic
+factors, associated cardiac diseases, stroke severity, and stroke recurrence
+(for review, see Leys et al 252 ).
+
+Among neuroimaging findings, silent cerebral infarcts, white matter
+changes, and global and medial temporal lobe atrophy are associated with
+increased risk of PSD. 252 Left hemisphere, anterior and posterior cerebral artery distribution, multiple
+infarcts, and strategic infarcts have been associated with PSD in at least 2
+studies. 40 On the
+basis of small case studies, locations considered to be
+“strategic” have traditionally included the left angular gyrus,
+inferomesial temporal, mesial frontal, anterior and dorsomedial thalamus, left
+capsular genu, and caudate nuclei. The concept of strategic infarction, however,
+needs to be reexamined in larger prospective MRI studies, with the extent and
+location of CVBI defined in relation to cognitive networks. 232
+
+It is difficult to determine to what extent cognitive impairment may be
+attributable to stroke versus concomitant Alzheimer disease. Estimates of the
+proportion of patients with PSD with presumed Alzheimer disease vary widely
+between 19% and 61%. 40 Approximately 15% to 30% of people with PSD have a history of dementia before
+stroke, 38 , 253 and approximately one third
+have significant medial temporal atrophy. 38 In the Lille study, the incidence of dementia 3 years
+after stroke was significantly greater in those patients with versus those
+without medial temporal atrophy (81% versus 58%). 38 It is plausible that the likelihood of
+Alzheimer disease is higher among patients with cognitive impairment preceding
+stroke or with medial temporal atrophy, but this remains conjectural in the
+absence of neuropathological confirmation.
+
+Cross-sectional studies of CVBI in convenience samples often find
+increased evidence of both SBI and WMLs in subjects with dementia, 254 , 255 consistent with recent community-based pathological
+studies. 12 Unfortunately, a clear pattern of effect of CVBI on cognition in convenience
+samples is confounded by a general focus on Alzheimer disease and the exclusion
+of people with coincident VCI. 232 In at least 1 study of people with subcortical vascular
+brain injury presenting with memory impairment, incident lacunar infarction was
+associated with subtle declines in executive function performance over
+time. 256 Conversely,
+measures of cerebral gray matter and hippocampal volume were both associated
+with declines in memory performance. 256 Interestingly, the combined effects of CVBI and
+atrophy persist even among people clinically diagnosed with VaD according to
+NINDS-AIREN criteria. 257
+
+Depression in late life may be associated with vascular
+disease. 258 , 259 There may be a higher
+frequency of brain white matter damage and other subcortical lesions, such as
+lacunar infarcts. It is believed that the associated brain changes in this
+condition are linked to atherosclerotic risk factors such as hypertension,
+diabetes mellitus, and hyperlipidemia. Neuro-psychological study may show
+evidence of executive dys-function and other findings. Proposed mechanisms for
+vascular depression in patients with cerebrovascular diseases include but are
+not limited to autonomic dysfunction, platelet activation,
+hypothalamic-pituitary axis activation, endothelial dysfunction, inflammatory
+mechanisms, genetic factors, and hyperhomocysteinemia. 258 Depression with a cerebrovascular basis may
+respond to treatment with certain selective serotonin-reuptake inhibitors.
+Depression is further discussed in the section on comorbid neuropsychiatric
+disease.
+
+The clinical presentation and course of CVBI are highly variable, with
+the classic phenotype of stepwise decline in association with stroke 10 being a relatively uncommon
+presentation for VCI. Structural MRI provides a fairly sensitive and specific
+marker for CVBI, but the relationship between CVBI and cognitive impairment is
+confounded by the frequent presence of Alzheimer disease changes of the brain
+and co-occurrence of depression on a cerebrovascular basis. Recent data from
+prospective population-based samples (where the likelihood of Alzheimer disease
+is relatively low) clearly show that progressive SBI and WMLs are correlated
+with worsening of cognitive impairment, especially executive function. Thus, SBI
+and WMLs at least offer a readily available surrogate marker for the early
+detection and prevention of VCI and when found in combination are likely to
+indicate significant underlying CVBI. However, the utility of MRI or computed
+tomography for the diagnosis of VCI is not yet clearly defined. 259a Ongoing research may
+further improve MRI detection of microinfarction, and, with the use of amyloid
+imaging in addition to detection of medial temporal atrophy, may further refine
+the biological mechanisms whereby imaging evidence of CVBI contributes to
+VCI.
+
+The use of brain imaging with computed tomography or MRI may be
+reasonable in making a diagnosis of VCI (Class IIb; Level of
+Evidence B) .
+
+## 8. Impact of Cardiovascular Risk Factors at Different Ages on the Risk of
+Cognitive Decline
+This section includes studies on the range of cognitive impairment,
+including VaD diagnosed with internationally recognized criteria. 10 , 19 , 25 The studies
+generally included tests that conformed to the NINDS-Canadian Stroke Council VCI
+harmonization standards, reported at the minimum 1 nonmemory cognitive test of a
+function typically affected in VCI, or included a diagnosis of VCI or VaD. Because
+the present statement is focused on VCI, studies reporting only on tests of global
+cognition, memory tests, total dementia, or Alzheimer disease were excluded. We
+recognize that this is a somewhat arbitrary choice, because many articles and
+reviews show that vascular risk factors are also importantly associated with
+Alzheimer disease, mixed dementia, and amnestic MCI. 110 , 260 , 261 Furthermore, several
+pathophysiological pathways leading to vascular and neurodegenerative processes are
+similar. 262 Also,
+neuropathic studies show a high proportion of older people have mixed pathology,
+with Alzheimer disease lesions and vascular lesions being the most
+prevalent. 18
+
+For most risk factors, we drew from studies providing Class I evidence(ie,
+the risk factor is reported as a major finding in a community-based study that is
+preferably prospective or part of an intervention, with a sample size >500).
+For specific factors, such as coronary artery bypass grafting and cardiac output, we
+reviewed studies based on Class II evidence according to carefully analyzed clinical
+data.
+
+Several issues specific to studying risk factors for cognitive impairment
+should be accounted for when interpreting the literature: Questionnaire data rely on the recall of subjects who by
+definition of the research may be cognitively impaired. 263 Reverse causation must be considered because it is possible
+that the risk factor level is a response to rather than a
+“cause” of the outcome. 260 This is a particular concern in
+studies that measure cognitive function in late life, shortly after or
+simultaneously with the measure of a risk factor. The activity of biomarkers in the brain generally cannot be
+measured directly. The cognitive tests for VCI are, to a degree, nonspecific for
+vascular disease, and different criteria for VaD identify different sets
+of people. 29 The brains of older people have multiple morbidities that can
+lead to the same phenotype. 18
+
+Questionnaire data rely on the recall of subjects who by
+definition of the research may be cognitively impaired. 263
+
+Reverse causation must be considered because it is possible
+that the risk factor level is a response to rather than a
+“cause” of the outcome. 260 This is a particular concern in
+studies that measure cognitive function in late life, shortly after or
+simultaneously with the measure of a risk factor.
+
+The activity of biomarkers in the brain generally cannot be
+measured directly.
+
+The cognitive tests for VCI are, to a degree, nonspecific for
+vascular disease, and different criteria for VaD identify different sets
+of people. 29
+
+The brains of older people have multiple morbidities that can
+lead to the same phenotype. 18
+
+Prevalence estimates of VaD vary widely. A recent study reporting
+on the prevalence of VaD in developing countries reported a range of 0.6% to
+2.1%. 3 , 33 In a pooled analysis of
+major European population–based studies, VaD was prevalent in 1.6% of
+subjects >65 years of age, but there was a large variation in 5-year
+age-specific prevalence. 264 In general, however, after age 65 years, there is an
+exponential increase in prevalence and incidence of VaD as age
+increases, 265 , 266 although the trends
+after 90 years of age have not been well established. 4 , 267 , 268 This
+age-related increase in VaD follows the pattern of stroke, 269 although dementia after
+stroke may be more frequent in people <80 years old. 270 Some studies report a
+higher incidence of VaD in men than in women, 4 , 271 although a pooled analysis of incidence studies found no
+difference. 272 MCI may not differ by sex, 273 but additional studies are needed to answer this
+question. The incidence of VaD appears to be higher in blacks than in
+whites 4 or in
+Hispanics with a history of stroke, 274 possibly reflecting group differences in
+cerebrovascular risk profile. Recent studies have shown that similar to
+Western countries, Alzheimer disease is the leading cause of dementia in
+Asian populations. 275 Until there is a harmonization of criteria and a better understanding of how
+the population-level vascular burden and mortality patterns affect frequency
+estimates, it will not be possible to exclude methodological differences in
+case definition as a reason for differences in estimates of prevalence and
+incidence of vascular-related cognitive disorders.
+
+The apolipoprotein E ε 4 allele is
+associated with increased levels of cardiovascular risk factors 276 and is a strong
+indicator of genetic risk for Alzheimer disease. Despite this, several
+studies report no association of the polymorphism with VaD. 34 , 277 Many more genetic candidates are expected to
+emerge with the publication of results from genome-wide association
+studies, 278 , 279 although the immediate
+clinical relevance of these findings is unclear. An important factor
+limiting the study of genetic factors of VCI is the lack of a clear
+determination of the phenotype, because superimposed Alzheimer disease
+processes cannot be ruled out.
+
+As with most neurocognitive disorders of late life, VCI is likely
+to be more common as age increases. There is no apparent association of
+apolipoprotein E ε 4 and VCI. However, more genetic
+candidates are expected to emerge as additional studies on endophenotypes of
+VCI are conducted. These traits include specific cognitive domains such as
+speed of processing, vascular lesions such as macrovascular infarcts
+detected on MRI, and microvascular lesions detected in neuropathological
+samples.
+
+Low educational level has been reported to be associated with an
+increased risk for VaD. 280 However, cognitive tests have an education component,
+which may reflect years or quality of schooling, socioeconomic status,
+chronic disease or less healthy lifestyle patterns, acculturation, racial
+socialization, or cognitive reserve. 281 Thus, there are a number of possible explanations
+or confounders in relation to education level and VCI.
+
+The association of diet with cognitive function has a long history
+grounded not only in studies of cardiovascular risk factors but also in
+studies of brain development and physiology.
+
+Antioxidants, which include vitamins E, 282 C, and beta carotene, 283 consumed either as a
+part of the diet (fruits and vegetables) or as supplements, have been
+reported to reduce the risk of cognitive impairment. 284 However, several
+prospective 285 and interventional 286 , 287 studies show no benefit
+of consuming antioxidants to preserve cognitive function or reduce
+decline.
+
+Fish oil n-3 polyunsaturated fatty acids are of interest because of
+their antioxidant and antiinflammatory properties and because they are major
+components of membrane phospholipids in the brain and play a critical role
+in neuronal function. 288 In studies of cognition, levels of n-3 polyunsaturated fatty acids are
+estimated by dietary intake or directly as blood markers. A 3-year
+observational study of cognitive decline in elderly men reported high fish
+intake to be inversely associated with cognitive impairment. 289 Some, 290 – 292 but not all, 293 studies of middle-aged and older
+subjects with 5 to 6 years of follow-up suggest increasing levels of n-3
+polyun-saturated fatty acids are associated with better cognitive function
+and less cognitive decline.
+
+Vitamin D is an emerging risk factor for an increased risk of
+cardiovascular disease and stroke. Recently, 1 study found an association of
+lower circulating vitamin D levels with poorer cognitive function, 294 but another found no
+association. 295 Additional studies are needed to further understand how vitamin D levels may
+be associated with cognitive function and impairment.
+
+Folic acid and vitamins B 12 and B 6 are key
+components of the pathways leading to the production and metabolism of
+homocysteine. 296 Homocysteine is a risk factor for vascular damage. 296 Cross-sectional and longitudinal studies
+consistently show that increasing levels of plasma homocysteine are
+associated with poorer performance in global as well as multiple cognitive
+domains. 297 – 299 In a randomized trial of women with cardiovascular disease or risk factors
+for cardiovascular disease, 285 , 300 there
+was no benefit to cognitive function from a 6-year intervention that used a
+supplement with B vitamins to lower plasma homocysteine levels.
+
+There is some evidence that a Mediterranean diet can reduce
+cognitive decline. 301 However, despite the key role studies of diet have played in shaping our
+understanding of cardiovascular disease, it has been much more difficult to
+study the role of diet in shaping late-life trajectories of cognition.
+Diet-cognition associations are difficult to interpret for the reasons
+described. To advance this area of research, we need better information on
+how dietary and peripheral biomarkers of nutritional status reflect brain
+resources and metabolism, more valid measures of remote diet, studies of
+dietary patterns, and studies of younger people.
+
+Physical activity may increase brain neurotrophins, such as
+brain-derived neurotrophic factor, improve cerebrovascular functioning and
+brain perfusion, reduce response to stress, and increase brain plasticity
+through synaptogenesis and neurogenesis. 302 The Chicago Health and Aging Project
+(CHAP), which was based on a cohort with low physical activity, found no
+association between cognitive decline and physical activity carried out in
+the 2 weeks before the study examination. 303 However, long-term regular physical
+activity, including vigorous activity and walking, was strongly associated
+with higher levels of cognitive function, less cognitive decline, and less
+VaD. 303 – 306 Physical activity or
+exercise is recommended to maintain aerobic fitness and function and for its
+potential cognitive benefits. 307 For those able to engage in exercise, the American
+Heart Association recommends 30 minutes of exercise of moderate intensity on
+most days. For those with a disability, a supervised therapeutic regimen may
+be implemented. Physical activity has been identified as having potential
+protective benefits in brain health and plasticity and in VCI and related
+conditions. 308 – 314
+
+There is a relative paucity of data on the type and frequency of
+physical activity and what the short- and long-term benefits of physical
+activity are for preservation of brain health. The Lifestyle Interventions
+and Independence for Elders Study (LIFE), 314a a clinical trial testing the effects of
+a 4-year exercise intervention on physical function, will measure cognitive
+function as a secondary outcome; it is expected to be completed in 2013.
+
+The risks and benefits of alcohol intake have been debated for
+years, with the only clear risk for cognitive impairment being heavy alcohol
+use. Comparisons of studies on cognitive dysfunction are made difficult by
+the disparate definitions of alcohol intake, reference groups (ie, people
+who never drink, prior drinkers who now abstain, or people who drink
+infrequently compared with drinkers), and different outcome measures.
+Despite this, several longitudinal studies, including those with measures of
+exposure in middle age, have found some benefit in relation to cognition of
+more use of alcohol compared with infrequent use or no
+(“never”) use of alcohol. 315 – 317 However, studies vary in the amount of alcohol associated with a positive
+effect; the relative significance of global, memory, and executive function;
+and whether the effect varies by sex.
+
+Obesity, or body fat, is an emerging risk marker of interest
+because of its metabolic consequences and recent reports of associations
+with total dementia. 318 Body mass index has a U-shaped relationship with total dementia and VaD, so
+that subjects at the lower and upper ends of body mass index distribution
+had a higher frequency of dementia relative to subjects with a normal body
+mass index. 319 Body mass
+index measured in midlife is more strongly associated with VCI, whereas body
+weight measured later in life has an inverse association with cognitive
+impairment, where obesity is associated with a lower risk of
+dementia. 320 The
+differences in study results may reflect the different weight trajectories
+in midlife and late life relative to the age when cognition is measured or
+dementia occurs. 321 In
+the Framingham Offspring Study, higher waist-hip ratio was associated with
+lower cognitive function, which was measured 12 years later. High waist-hip
+ratio strengthened the association with hypertension and dementia in the
+highest quartile of waist-hip ratio. It is unclear what confounding factors
+were taken into account in these analyses. 322 A recent meta-analysis shows that high
+waist-hip ratio is associated with greater risk of dementia in all
+studies. 319
+
+Smoking has well-known effects on the cardiovascular system and
+neurons, which are mediated generally by oxidative stress and inflammation.
+Several prospective studies show an increased risk for cognitive decline in
+smokers compared with nonsmokers, 323 , 324 although risk may be specific for certain cognitive domains, 325 possibly because
+nicotine may also stimulate cholinergic pathways within the brain. 326
+
+Social networks and patient and family support have been associated
+with cognitive functioning in elderly populations in longitudinal and
+cross-sectional epidemiological studies. 327 – 330 However, these observations have not been tested
+in randomized controlled trials, and data can only be extrapolated to
+patients with VCI.
+
+Lifestyle factors may be risk factors for VCI, and for many there
+is evidence for plausible biological mechanisms by which these factors may
+heighten risk of VCI. Gaps in knowledge about the role of such factors in
+VCI may be bridged by additional well-designed epidemiological studies,
+harmonization of how lifestyle activity is defined, and clinical trials.
+
+In people at risk for VCI, smoking cessation is reasonable (Class IIa; Level of Evidence A).
+
+In people at risk for VCI, the following lifestyle
+interventions may be reasonable: moderation of alcohol intake (Class IIb; Level of Evidence B) ; weight
+control (Class IIb; Level of Evidence B) ; and
+physical activity (Class IIb; Level of Evidence
+B) .
+
+In people at risk for VCI, the use of antioxidants and B
+vitamins is not beneficial, based on current evidence (Class
+III; Level of Evidence A) .
+
+Depression may impact cognitive functions and may mimic cognitive
+decline. It can be considered a comorbidity, prodromal factor, or a consequence
+of VCI rather than a factor that specifically alters vascular physiology or
+neuronal health, leading to cognitive impairment. 47 In general, large epidemiological studies of
+older people use measures of depression symptoms such as the Center for
+Epidemiological Studies Depression Scale. 331 Some studies suggest symptoms of depression predict
+cognitive decline. 332 – 334 However, when investigators
+in the Three City Study controlled for current depressive symptoms, there was
+attenuation of a significant association between 4-year cognitive decline and
+history of major depression. Investigators in the Cardiovascular Health Study
+(CHS) could not confirm that vascular factors mediated an association of
+depressive symptoms with incident MCI. 335
+
+Physiological factors are continuous traits that contribute to or are
+biomarkers of disease processes and can be measured in a clinical examination,
+with imaging, or in biological specimens.
+
+High blood pressure has long been known to cause stroke. 336 Midlife hypertension
+ranks as an important modifiable risk factor for late-life cognitive
+decline, 337 mild
+cognitive impairment, 338 , 339 and VaD. 340 , 341 In longitudinal cohort studies, higher
+systolic blood pressure has been associated with greater late-life cognitive
+decline, although some studies have reported a J- or U-shaped
+relation. 342 Findings from these prospective cohort studies for diastolic blood pressure
+and cognitive decline are less consistent; however, many have reported a
+similar inverse relation. The data on the role of blood pressure and
+hypertension in later life are not consistent, leaving open the issue of
+blood pressure treatment in older people. The controversy about the
+association between later life hypertension and cognitive decline arises
+because the longitudinal relationship between cognitive change and blood
+pressure is sensitive to the effects of age, duration of follow-up and
+number of blood pressure measurements, hypertensive treatment status,
+comorbidity with cardiovascular diseases and stroke, and possibly
+subclinical dementia. 343
+
+Multiple mechanisms related to diabetes-related glucose and insulin
+dysregulation can lead to vascular and neuronal damage. 344 Chronic hyperglycemia,
+increased insulin, the metabolic syndrome, and diabetes are associated with
+VCI, 337 , 345 – 348 as well as VaD or dementia with
+stroke. 349 , 350 Of note, hyperglycemia
+is associated with functional changes in cerebral blood flow that are
+reversible when good glycemic control is restored. 351 These findings have been reported across
+multiple populations. Studies suggest that the longer the duration of
+diabetes, the poorer the cognitive function. 347 , 348 , 352 It is
+remarkable to consider that recurrent episodes of hypoglycemia may cause
+permanent cognitive impairment in older subjects 353 and that cognitive disturbance, in turn,
+represents a risk factor for hypoglycemia in older adults.
+
+In the Finnish study Cardiovascular Risk Factors Aging and Dementia
+(CAIDE), midlife measures of total cholesterol significantly predicted
+cognitive impairment 21 years later, an association that was attenuated
+after accounting for statin therapy. 354 In a study based on medical records, high midlife
+cholesterol level increased the risk for VaD that developed over a 30-year
+period. 355 Findings in late-life cohorts vary, with some finding higher levels of
+cholesterol associated with a lower risk 356 and others finding a higher risk for
+VaD. 357 As with
+blood pressure, inconsistencies may reflect timing of the cholesterol
+measurements relative to age, older people possibly being less likely to
+receive lipid-lowering therapy (“generational effect”), and
+clinical onset of dementia. A trial of pravastatin in older people at risk
+for cardiovascular disease found no difference between the placebo and
+treatment arms in multiple cognitive domains. 358
+
+Inflammation is a key process linking many cardiovascular risk
+factors to vascular and neuronal damage. Plasma levels of inflammatory
+proteins, specifically α 1-antichymotrypsin and
+C-reactive protein, were found to be increased before the onset of VaD over
+an 8-year follow-up period 359 ; C-reactive protein levels were increased 25 years
+before the onset of VaD. 360 In the Conselice Study of Brain Aging, with 4 years of
+follow-up, the combination of high levels of C-reactive protein and
+interleukin-6 led to a nearly 3-fold increased risk of VaD. 361
+
+Midlife systolic and diastolic blood pressure, history of
+hypertension, and total cholesterol level predict VCI. The relation of
+late-life VCI to measures of blood pressure and cholesterol in later life
+remains uncertain and requires further study, although higher levels of
+exposure to these risk factors may prove to be beneficial. Diabetes and
+hyperglycemia are associated with VCI. C-reactive protein, a marker of
+inflammation, is associated with VaD.
+
+In people at risk for VCI, treatment of hypertension is
+recommended (Class I; Level of Evidence A).
+
+In people at risk for VCI, treatment of hyperglycemia may
+be reasonable (Class IIb; Level of Evidence C).
+
+In people at risk for VCI, treatment of
+hypercholesterolemia may be reasonable (Class IIb; Level of
+Evidence B).
+
+In people at risk for VCI, it is uncertain whether
+treatment of inflammation will reduce such risk (Class IIb;
+Level of Evidence C) .
+
+## 9. Concomitant Clinical Vascular Disease
+In the CHS and Age, Gene, Environment Susceptibility–Reykjavik
+Study (AGES-RS), computed tomography–based coronary artery calcium, a
+measure of severity of coronary atherosclerosis, was associated with a higher
+risk of cognitive impairment. 362 , 363 Adjustment
+for WMLs, SBI, cerebral microbleeds, and brain volumes attenuated the observed
+association between coronary artery calcium and cognition, implicating other
+vascular mechanisms. 363
+
+Coronary artery disease has also been identified as an independent risk
+factor for VaD. 34 Coronary
+artery bypass graft has been associated with poorer initial cognitive function
+and a higher late-life dementia risk. However, at 1- or 6-year follow-up, the
+cognitive decline in these patients was no different from that observed in
+controls with an equivalent burden of coronary artery disease who opted for
+medical treatment or percutaneous coronary intervention. 364 , 365
+
+The risk of new-onset dementia after a stroke is approximately twice
+the rate for age- and sex-matched control subjects 270 and averages ≈10% after the first
+stroke, depending on the location, volume of damaged brain tissue, 30 clinical severity, and
+presence of early poststroke complications (seizure, delirium, hypoxia,
+hypotension). A recent review identified older age, lower education, prestroke
+cognitive impairment, diabetes, and atrial fibrillation as factors that
+increased the risk, but one of the strongest predictors of cognitive decline
+after an initial stroke was the occurrence of a second stroke. 269 , 270 In people with recurrent stroke, the risk of dementia
+rose to ≈30%, regardless of the number and severity of vascular risk
+factors they had been exposed to before the stroke. 269
+
+Severe chronic kidney disease has been associated with metabolic
+(uremic) and hypertensive encephalopathy and an increased risk of
+stroke. 366 Data from
+multiple studies of different populations suggest that among all people with
+severe and moderate chronic kidney disease (estimated glomerular filtration rate
+<30 and <60 mL/min per 1.73 m 2 , respectively), there is
+a graded increase in the prevalence of cognitive impairment affecting multiple
+domains. 367 , 368 In the CHS, moderate chronic
+kidney disease was related to risk of incident VaD. 369 The association between chronic kidney
+disease and cognitive impairment could be confounded by shared vascular risk
+factors for small-vessel brain disease.
+
+Atrial fibrillation, especially if not treated with adequate
+anticoagulation, is a risk factor for stroke. 370 In several large community-based samples and
+in a prospectively studied registry of people undergoing cardiac
+catheterization, cross-sectionally it was an independent risk factor for lower
+cognitive performance and a higher risk of VaD. 371 – 374 However, a few studies did not observe an association of
+atrial fibrillation with dementia. 375 , 376 Some of
+these differences could be related to age or sex (the effect was weaker in women
+and older people) and the administration and effectiveness of
+anticoagulation.
+
+In the Honolulu-Asia Aging Study (HAAS) and CHS, a low ankle-brachial
+index, a measure of peripheral arterial disease, was associated with an
+increased risk of VaD. 377 , 378 A greater carotid-femoral
+pulse wave velocity was associated with lower cognitive function in the
+Maine-Syracuse Study. 379 There are scarce data relating flow-mediated endothelial dilatation (brachial
+artery reactivity) with cognition.
+
+A subclinical decrease in cardiac output has also been shown to be
+associated with lower cognitive function. 380 Specifically, reduced cardiac output has been
+associated with executive dysfunction (mainly sequencing and planning
+difficulties) 381 and
+regional WMLs adjacent to the subcortical nuclei. 382 Chronic reduced systemic perfusion may
+affect cerebral perfusion homeostasis. 383 , 384 Animal and
+human observations suggest that chronic hypoperfusion induces the development
+and progression of WMLs. 385 – 387
+
+Low cardiac output may represent a key factor in the onset and
+progression of cognitive impairment, especially in older people with systolic
+heart failure. 380 , 383
+
+Prevention of chronic vascular diseases may help reduce the population
+burden of vascular dementia. Initial and recurrent stroke significantly increase
+the risk of clinical dementia. Although this is caused in part by loss of brain
+tissue, it may also reflect a direct effect of vascular risk factors on both
+risk of stroke and cognitive function. That is, stroke could be serving as a
+marker of cumulative exposure to vascular risk factors. In an analogous manner,
+disease of the coronary or peripheral arterial circulations, atrial
+fibrillation, and clinically detectable renal and cardiac failure have each been
+associated with cognitive impairment.
+
+## 10. Clinical Trials in VCI and Symptomatic Treatment
+Over the past decade, the role of vascular brain disease as a cause of
+cognitive impairment has become increasingly evident, alone or combined with
+Alzheimer disease. Pivotal trials to test drugs approved for Alzheimer disease
+in patients with VaD, 388 however, have failed to achieve regulatory approval. Reasons include only modest
+benefit on standard cognitive measures, which undersampled executive
+functioning, and inconsistent benefits in global and daily function, which are
+difficult to evaluate when physical deficits with stroke coexist. Furthermore,
+high specificity but low sensitivity of VaD criteria 10 hampered recruitment, and the emphasis on
+inclusion of those with memory loss made it challenging to exclude concomitant
+Alzheimer disease. Finally, concern that frontline clinicians could not
+distinguish VaD from Alzheimer disease made regulators reluctant to grant a
+separate indication. 389
+
+Management of vascular risks and symptomatic pharmacotherapy targeting
+VaD has been the primary approach. 390 Nonpharmacological approaches have also been tried.
+Standardized screening and monitoring to document baseline, disease trajectory,
+and treatment response are essential. These include medical history, social and
+daily functioning, cognitive screening with more detailed assessment as
+appropriate, blood tests, and vascular and brain imaging. Also, factors that
+exacerbate clinical disease manifestations (eg, sleep disorders, pain, stress)
+must be addressed and specific efforts made to optimize quality of life of
+patients and caregivers. 391
+
+Many facets of dementia care do not involve therapies directed at
+disease modification. It is important for providers to also support caregivers,
+refer caregivers to educational offerings, and identify community resources,
+including assistance to support performance of activities of daily living and
+for living in the community, such as access to transportation and referral for
+assessment of driving safety. Other areas of care are to provide advice and help
+in the management of psychological symptoms and neurobehavioral complications,
+preparation for loss of capacity to make financial and medical and placement
+decisions, and arranging for provision of palliative care in the case of
+progressive disease. A full discussion of all of these important facets of care
+is clearly beyond the scope of the present statement; however, these aspects are
+important, and resources may be found elsewhere, such as in the recommendations
+for the comprehensive care of patients with dementia recently published by a
+Canadian consensus group and other evidence-based strategies for care based on
+those recommendations. 307 , 391 , 392
+
+There is pathological and clinical evidence for cholinergic compromise
+in VCI as occurs in Alzheimer disease. 393 – 395 Double-blind, placebo-controlled, randomized clinical trials lasting 6 months
+have tested the efficacy of cholinesterase inhibitors in cognitive, global, and
+daily functioning in VaD. The same assessment tools as used in Alzheimer disease
+trials were administered. 390 The resultant evidence is summarized in Table
+3 .
+
+The donepezil trials focused on “pure” VaD (n=1219), in
+which placebo groups were stable over 6 months, requiring improvement to show
+efficacy. Cognitive benefit was found, but global and functional efficacy was
+less consistent in the individual studies. 396 , 400 A post hoc
+analysis in a recent large randomized controlled trial of donepezil in VaD
+(n=974) showed that as assessed by a standardized visual rating scale, patients
+with hippocampal atrophy who received placebo declined more than those without
+hippocampal atrophy, who remained cognitively stable. This finding suggests that
+hippocampal volume may need to be accounted for in future VaD trials. 398 The side-effect profile was
+similar to that of donepezil for Alzheimer disease trials. In a recent study,
+however, more deaths occurred in the donepezil treatment group; this was
+attributed to the less than expected death rate in the placebo group. 398 An 18-week study of
+donepezil in 168 patients with CADASIL had a neutral result but showed benefit
+in executive function measures in secondary analysis. 408
+
+Galantamine was evaluated in patients with pure VaD (n=252) and
+Alzheimer disease/VaD (n=295). 403 There was statistically significant less decline in
+cognition, function, and behavior with galantamine, driven by the mixed
+subgroup, whereas subjects treated with placebo showed decline. The pure VaD
+subgroup was underpowered statistically to show definite benefit. A subsequent
+study of “pure” VaD patients (n=788) showed cognitive treatment
+benefits, including benefit for an executive measure but not for daily
+functions; however, there was an overall trend for global benefit
+( P =0.06). 401
+
+Rivastigmine has been less well studied, but beneficial effects on an
+executive measure were found in a 22-month, open-label controlled (n=16)
+study 409 and in a
+double-blind placebo-controlled trial targeting vascular cognitive impairment,
+no dementia (n=50). 405 Two
+studies with memantine, an N -methyl d -aspartate
+antagonist, likewise showed cognitive benefit without global or functional
+benefit. 406 , 407
+
+Cochrane reviews of VaD trials concluded that donepezil studies have
+provided the best available evidence for a beneficial effect for VaD 397 and galantamine for mixed
+states, 402 whereas a
+benefit of memantine 410 and
+rivastigmine is still not proven. 404 The adverse effect safety profile is generally similar
+to that of Alzheimer disease studies. One meta-analysis commented that the
+cognitive benefits of cholinergic agents and memantine were of uncertain
+clinical significance in VaD, and more data are required before widespread use
+of these agents is to be considered. 411 Whether there are any differential benefits within or
+between the drug classes is not clear from the available evidence, because no
+head-to-head trials have been conducted.
+
+Trials have been conducted with other compounds, including
+cytidinediphosphocholine, 412 , 413 nimodipine, 414 piracetam, 415 huperzine A, 416 and
+vinpocetine, 417 but
+so far without convincing data, although nimodipine and huperzine, especially
+for small-vessel disease, seem worthy of further study. A small study of
+sertraline showed benefits on the Executive Interview (EXIT-25), an executive
+function test. 418
+
+Specific pharmacotherapy trials targeting VaD have shown
+consistent, modest cognitive improvements with donepezil, galantamine, and
+memantine, but functional and global benefits have been less consistent,
+with evidence only from 2 large donepezil trials. In trials of galantamine,
+less decline in cognitive, functional and global outcomes was shown in trial
+results driven by participants with mixed VaD/Alzheimer disease. The adverse
+effect profile is similar to that seen in Alzheimer disease trials. More
+clinical trial evidence would be helpful, including pharmacoeconomic
+evaluations. In the future, case selection and outcomes should use the
+updated clinical criteria, more sensitive executive function measures, and
+advanced imaging biomarkers that better quantify atrophy and vascular brain
+injury, including diffusion tensor and perfusion imaging, and possibly
+amyloid labeling or cerebrospinal fluid markers to detect concomitant
+Alzheimer pathology.
+
+Donepezil can be useful for cognitive enhancement in
+patients with VaD (Class IIa; Level of Evidence
+A).
+
+Administration of galantamine can be beneficial for
+patients with mixed Alzheimer disease/VaD (Class IIa; Level
+of Evidence A).
+
+The benefits of rivastigmine and memantine are not well
+established in VaD (Class IIb; Level of Evidence
+A).
+
+Nondrug therapies have been examined for treatment or adjunctive
+management of VCI. Lifestyle factors such as diet, physical activity, and social
+support networks were reviewed in the lifestyle section of this statement. Few
+nonpharmaco-logical therapies have been tested and found to be beneficial in the
+VCI population. Two therapies reported in the Cochrane reviews are cognitive
+rehabilitation and acupuncture.
+
+Cognitive rehabilitation and cognitive stimulation so far have not
+proven effective. 419 , 420 However, there are few
+randomized controlled trials, and there are methodological limitations in
+existing studies in the area. Acupuncture showed cognitive benefit in a rodent
+model of VaD, 421 but a
+Cochrane review of acupuncture in human VaD was inconclusive, 422 which indicates that more
+studies are needed.
+
+Only limited evidence exists to support nonpharmacological
+modalities for management of VCI. No formal recommendations for therapy are
+offered. More research with rigorous designs to study the effects of
+nonpharmacological interventions, including cognitive rehabilitation and
+acupuncture, is needed.
+
+## 11. Prospects for Prevention of VCI and Alzheimer Disease by Risk Factor
+Control
+Because the most common forms of dementia affect the elderly, even a
+modest delay in the appearance or worsening of cognitive deterioration could
+translate into a relatively large reduction of the incidence of disease. Such
+people might die of competing causes before manifesting the symptoms of
+dementia. It has been estimated, for example, that among the 106 million cases
+of Alzheimer disease expected worldwide by the year 2050, ≈23 million
+could be avoided completely if it were possible to delay the onset of disease by
+2 years. 423
+
+In relation to the role of vascular risk factors, during midlife the
+population-attributable risk of dementia has been reported to be highest for
+hypertension (up to 30% of cases of late-life dementia). Furthermore, on the
+basis of observational epidemiological data, diabetes conveys a high risk of
+dementia. Vascular and metabolic risk factors should therefore be regarded as
+potential major targets for the prevention of dementia. The timing of such
+interventions may be important, because the association with dementia appears to
+be stronger for vascular factors and when measured in midlife rather than in old
+age, which suggests that midlife may be a critical period. 424 In addition, safeguarding
+normal cognitive development during childhood and adolescence based on the new
+understanding of the importance of early-life factors for adult health and
+disease, 425 as well
+as for cognitive function, is a prerequisite for prevention of cognitive
+impairment. 426 The
+importance of balanced nutrition in early life for normal neurocognitive
+development, a process that is not finished until late adolescence, has been
+widely recognized. 427
+
+An association between midlife hypertension and late-life
+cognitive decline or dementia has been found in a majority of
+observational studies, including cohort studies with follow-up spanning
+several decades. Results of studies on blood pressure measured in late
+life and dementia are less consistent, with most finding no association
+with hypertension or an association with low blood pressure and
+dementia. 343 , 428
+
+Several longitudinal studies have assessed the impact of the
+use of antihypertensive drugs on the risk of dementia ( Table 4 ). Mean duration of
+follow-up was ≤5 years for most studies, except 2 studies with a
+follow-up of 13 429 and 19 430 years and
+that included participants who were a younger age at inclusion. In HAAS
+there was a large enough range of duration of follow-up to study the
+effect of duration of treatment >12 years. 431 In none of these
+studies was antihypertensive treatment associated with an increased risk
+of dementia. In 3 studies there was no association between hypertension
+treatment and risk of Alzheimer disease, 432 – 434 whereas in others there was a decreased risk
+of Alzheimer disease among those receiving antihypertensive
+treatment. 429 , 431 , 435 – 437 Interestingly, 2 analyses of the same study
+showed different results according to the duration of follow-up: no
+effect on dementia and Alzheimer disease in a first study with only 2.2
+years of follow-up 432 and a 5% reduction in risk of dementia per year of treatment (6% for
+Alzheimer disease) in a study with a much longer follow-up. 429 Longer duration of
+treatment and lower age were associated with a stronger protective
+effect. 429 This pattern of increased protection for dementia and Alzheimer disease
+with an increased duration of antihypertensive treatment was also found
+in HAAS. 431
+
+Regarding type of treatment, results were less consistent.
+Several studies were unable to show any evidence of the effect of a
+particular class of antihypertensive drugs. 429 , 430 , 432 , 434 In both the
+Kungsholmen project 435 and the Cache County Study, 436 a stronger effect of
+diuretics and particularly potassium-sparing diuretics for the
+latter 436 was
+found compared with other antihypertensive drugs. These findings,
+however, were based on a limited follow-up, a relatively small number of
+dementia cases, and confounding by indication. In a recently published
+study, 3 treatment groups were compared in a large US Veterans Affairs
+administrative database composed almost exclusively of men (98%).
+Patients treated with angiotensin receptor blockers were found to have a
+lower risk of dementia and Alzheimer disease than those treated with
+lisinopril, an angiotensin-converting enzyme inhibitor, or with other
+cardiovascular drugs. 438 By comparing angiotensin receptor blockers with an
+angiotensin-converting enzyme inhibitor, 2 classes of drug similar in
+novelty and price, this study is a remarkable attempt to overcome
+confounding by indication. The use of administrative databases, however,
+is subject to limitations such as a lack of precision concerning
+diagnosis of dementia and Alzheimer disease or the impossibility of
+taking into account potential major confounders such as educational
+level. Furthermore, the follow-up was relatively short, and ethnic
+disparities were not assessed. These findings, therefore, need to be
+confirmed in similar settings or randomized trials.
+
+To summarize: Observational studies point to some benefit of
+antihypertensive treatment for risk for Alzheimer
+disease. The longer the duration of treatment, the stronger
+the preventive effect. Treatment appears more effective in the youngest
+old than in the oldest people. A few studies suggest a greater effect of some
+classes of antihypertensive therapy, but the evidence
+remains limited and is subject to bias so that no firm
+conclusion can be drawn about this relationship.
+
+Observational studies point to some benefit of
+antihypertensive treatment for risk for Alzheimer
+disease.
+
+The longer the duration of treatment, the stronger
+the preventive effect.
+
+Treatment appears more effective in the youngest
+old than in the oldest people.
+
+A few studies suggest a greater effect of some
+classes of antihypertensive therapy, but the evidence
+remains limited and is subject to bias so that no firm
+conclusion can be drawn about this relationship.
+
+Six large randomized trials of antihypertensive drugs included an
+assessment of dementia and cognitive function. 440 – 445 Four of these trials reported that treatment had
+no clear-cut effect on the risk of dementia 440 , 441 , 443 , 444 or cognitive
+function. 441 , 443 , 444 However, 1 study reported a beneficial
+effect on the risk of dementia, 442 and another reported an effect on the risk of
+PSD 445 ( Tables 5 and 6 ).
+
+In the Systolic Hypertension in the Elderly Program
+(SHEP), 440 a
+similar rate of dementia was found in the group receiving active treatment
+with a diuretic and/or β -blocker (1.6%) and the
+group receiving placebo (1.9%). A recent reanalysis of the SHEP data
+suggests that differential dropout may have biased the treatment effect
+toward the null. 447
+
+The Study on Cognition and Prognosis in the Elderly
+(SCOPE) 443 , 448 was designed to evaluate
+the effect of treatment with an angiotensin receptor blocker with or without
+a diuretic on cognitive function in 4937 nondemented elderly hypertensive
+subjects. There was no major treatment effect on cognition. 443 This lack of benefit
+must be interpreted in the context of small blood pressure differences
+observed between the active treatment group and the control group (3.2/1.6
+mm Hg). Although initially planned as a trial of an angiotensin receptor
+blocker versus placebo, during the trial and for ethical reasons,
+antihypertensive drugs were administered to patients in the control group.
+Therefore, between-group blood pressure differences and the study power were
+reduced. A post hoc reanalysis of the data in patients not receiving add-on
+therapy after randomization, although showing evidence of a stronger effect
+on cardiovascular events, mortality, and vascular mortality, did not change
+the neutral result on cognition and dementia. 448
+
+The most compelling support for the prevention of dementia by blood
+pressure lowering was observed in the Systolic Hypertension Europe
+(Syst-Eur) trial. 442 , 449 The trial was stopped
+prematurely after a median follow-up period of 2 years on evidence of
+significant benefits from treatment with nitrendipine for lowering the risk
+of stroke. Dementia was diagnosed in 21 patients from the placebo group and
+11 patients from the active treatment group, corresponding to a 50% (95%
+confidence interval 0% to 76%) decrease in the incidence of dementia in
+subjects receiving active treatment. Most cases of dementia were Alzheimer
+disease. In an open-label follow-up study of the same patients in the trial,
+the principal result was confirmed with twice as many cases of
+dementia. 450 In
+the extension study, both Alzheimer disease and VaD were reduced by
+treatment with nitrendipine.
+
+In the Perindopril Protection Against Recurrent Stroke Study
+(PROGRESS), 6105 patients with a history of stroke or transient ischemic
+attack were randomly assigned to an angiotensin-converting enzyme inhibitor,
+perindopril, with or without a diuretic compared with placebo. Combination
+therapy reduced systolic and diastolic blood pressure by 12 and 5 mm Hg,
+respectively, and stroke risk by 43%. 451 During the 4-year follow-up, dementia was
+diagnosed in 410 patients, of whom 108 had dementia preceded by a stroke.
+Overall, there was a nonsignificant 12% (range –8% to –28%)
+reduction in the risk of dementia in the active treatment group. Evaluation
+within 2 dementia subgroups (with or without prior stroke), however, showed
+a significant reduction in the risk of dementia with active treatment in
+patients with a prior history of stroke compared with patients without prior
+stroke (34% versus 1%; P =0.03). A similar result was
+observed for cognitive decline, defined as a drop of ≥3 points in the
+MMSE. 445 Furthermore, in a PROGRESS MRI substudy, it was shown that active blood
+pressure lowering stopped or delayed the progression of white matter
+hyperintensities. 452
+
+In the Hypertension in the Very Elderly Cognitive Function
+(HYVET-COG) study, 3336 patients >80 years of age with systolic blood
+pressure >160 mm Hg were treated with slow-release indapamide plus or
+minus perindopril or placebo. The treatment was found to have no effect on
+the risk of dementia or cognitive decline. 444 The trial was stopped prematurely,
+however, after a mean of 2.2 years of follow-up because of a significant
+reduction in stroke and total mortality.
+
+All published trials share common limitations: (1) short follow-up
+duration 442 , 444 ; (2) heterogeneity in
+screening and diagnosis of dementia 441 ; (3) patients at low risk for dementia (young mean
+age) 441 , 445 and with high baseline
+MMSE; (4) small numbers of incident cases and low statistical power; and (5)
+differential dropout, which could lead to overestimating or underestimating
+the treatment effect.
+
+To date, 5 meta-analyses have been published on the risk of
+dementia in antihypertensive trials ( Table
+7 ). To summarize: These studies had variable methods in relation to model
+type (fixed or random) and selection of patients. 453 , 454 None examined all 5 trials combined, even among those
+most recently published. 444 , 455 Only 1 trial found that the risk for dementia was
+significantly decreased, but it was embedded in the report of
+the HYVET results, and its description was scant, especially
+concerning selection criteria for the studies. Overall, the variance for reduction of risk for
+dementia ranged from 11% to 20% ( Table 7 ).
+
+These studies had variable methods in relation to model
+type (fixed or random) and selection of patients. 453 , 454
+
+None examined all 5 trials combined, even among those
+most recently published. 444 , 455
+
+Only 1 trial found that the risk for dementia was
+significantly decreased, but it was embedded in the report of
+the HYVET results, and its description was scant, especially
+concerning selection criteria for the studies.
+
+Overall, the variance for reduction of risk for
+dementia ranged from 11% to 20% ( Table 7 ).
+
+The Systolic Blood Pressure Intervention Trial (SPRINT) is designed
+to test whether lowering blood pressure beyond recommended levels can
+provide an added benefit. In this trial, 7500 patients >55 years of
+age with systolic blood pressure ≥130 mm Hg and at least 1 other
+vascular risk factor (hypercholesterolemia, smoking) will be randomized to
+an “aggressive” treatment arm with a target systolic blood
+pressure of <120 mm Hg and a more “routine” arm with a
+target systolic blood pressure of <140 mm Hg. Patients will be
+followed up for a minimum of 4 years. The trial began in the fall of 2010
+and includes a substudy of cognition (SPRINT-MIND) funded by the National
+Institute on Aging and NINDS.
+
+Observational studies point to some benefit of antihypertensive
+treatment on the risk for Alzheimer disease, the treatment being
+apparently more effective in the youngest old than in the oldest
+people.
+
+Few large blood pressure–lowering trials have
+incorporated cognitive assessment and diagnosis of dementia. They share
+several limitations, and therefore, considerable uncertainty remains
+about the efficacy of antihypertensive drugs for lowering the risk of
+dementia in general and Alzheimer disease in particular.
+
+Meta-analyses neither prove nor disprove the efficacy of
+antihypertensive treatment on the risk of dementia. They are subject to
+limitations similar to those of therapeutic trials and do not yield any
+substantial additional information. An individual patient data
+meta-analysis could be useful because it could allow proper assessment
+of potentially major effect modifiers such as age, blood pressure level,
+and cognitive level at baseline. It could also be of help in identifying
+high-risk groups for further trials.
+
+In patients with stroke, lowering blood pressure is
+effective for reducing the risk of PSD (Class I; Level
+of Evidence B).
+
+There is reasonable evidence that in the middle-aged
+and young-elderly, lowering blood pressure can be useful for the
+prevention of late-life dementia (Class IIa; Level of
+Evidence B).
+
+The usefulness of lowering blood pressure in people
+>80 years of age for the prevention of dementia is not
+well established (Class IIb; Level of Evidence
+B).
+
+Patients with diabetes of long duration are at increased risk of
+cognitive decline, dementia, and depression, as well as other phenotypes
+associated with aging. 438a Among risk factors for cognitive dysfunction and dementia, it has been
+documented that both hyperglycemia and hyperinsulinemia, as part of the
+metabolic process leading to type 2 diabetes mellitus, are associated with
+cognitive dysfunction and stroke dementia. This is often accompanied by other
+disturbances of mental function, such as depression or anxiety, all of these
+conditions being described as being more prevalent in established type 2
+diabetes mellitus. 438a
+
+The treatment of hyperglycemia is associated with prevention of both
+microvascular and, to some degree, macrovascular events, based on data from a
+recent meta-analysis. 457 However, the prevention of stroke has not been shown with careful control of
+blood glucose, and no studies have specifically investigated possible protective
+effects by reduction of hyperglycemia in mild VCI or early stages of dementia.
+Thus, intensified treatment of hyperglycemia is not protective of
+stroke, 457 a risk
+factor for cognitive decline. In severe cases of hyperglycemia, the cognitive
+dysfunction is acutely impaired by hyperosmolar influences and electrolyte
+disturbances, conditions that are possible to improve by acute insulin
+therapy.
+
+In the ADVANCE trial (Action in Diabetes and Vascular Disease: Preterax
+and Diamicron Modified Release Controlled Evaluation), the combined approach to
+treat both hyperglycemia and hypertension has been effective to reduce
+macrovascular end points and mortality. It was concluded that cognitive
+dysfunction is an independent predictor of clinical outcomes in patients with
+type 2 diabetes mellitus but does not modify the effects of blood pressure
+lowering or glucose control on the risk of major cardiovascular
+events. 458
+
+On the basis of a systematic review, there is no convincing evidence
+relating type or intensity of diabetic treatment to the prevention or management
+of cognitive impairment in type 2 diabetes mellitus. 459 The possible effect of intensive
+control–induced hypoglycemia on cognitive function represents a relevant
+and yet-to-be-explored aspect in older people with diabetes.
+
+Diabetes is an important risk factor for mental symptoms and
+cognitive impairment, but available data are based mostly on
+observational studies. The level of evidence for a protective effect of
+reduction of hyperglycemia is very low. Further intervention studies are
+needed to elucidate the role of reduction of hyperglycemia in prevention
+of cognitive impairment and dementia. Also, new antidiabetes drugs have
+to be tested in relation to prevention of cognitive impairment or
+dementia. There is a need to support new studies on the role of
+hyperglycemia and cognitive impairment and whether correction of
+hyperglycemia with old and new drugs could influence this process.
+
+The effectiveness of treating diabetes/hyperglycemia
+for the prevention of dementia is not well established (Class IIb; Level of Evidence C).
+
+Hyperlipidemia or dyslipidemia is a metabolic condition of importance
+for cognitive function. Treatment with statin therapy has been documented to
+protect against stroke, both in primary 460 and secondary studies, based on data from
+meta-analysis 36 and a
+single trial, Stroke Prevention by Aggressive Reduction in Cholesterol Levels
+(SPARCL). 461
+
+In the Prospective Study of Pravastatin in the Elderly at Risk
+(PROSPER), after 4 years of treatment, no difference in cognitive function was
+shown, as evaluated by the MMSE, between patients receiving pravastatin or
+placebo. 358 Several
+meta-analyses have concluded that there is no measurable influence of statin
+therapy on cognitive dysfunction in humans, 462 even if animal experiments in rodents have supported
+the notion that some protection is offered by statin therapy. 463 One statin intervention
+study completed in 2007 has not been presented thus far: the Cholesterol
+Lowering Agent to Slow Progression (CLASP) of Alzheimer's Disease
+Study. 463a In the
+recently published Lipitor's Effect in Alzheimer's Dementia (LEADe) trial, which
+included 640 randomized patients with mild Alzheimer disease, intensive lipid
+lowering by the addition of atorvastatin (80 mg) to donepezil did not improve
+cognitive function over a 72-week period. 464
+
+Although lipid control by statin therapy is able to prevent
+stroke, these drugs do not prevent cognitive decline in the elderly.
+There is scant evidence from observational studies on the effects of
+statin therapy on cognitive function, and the level of evidence is low.
+There is a need to support new studies on the role of hyperlipidemia and
+cognitive impairment and whether correction of hyperlipidemia with drug
+therapy could influence this process.
+
+The usefulness of treatment of hyperlipidemia for
+prevention of dementia is uncertain (Class IIb; Level of
+Evidence C).
+
+Some observational studies have suggested a beneficial effect of
+aspirin on cognition, 465 , 466 although this was not
+confirmed in others. 467 , 468 Few trials on
+antiplatelet therapy have included a cognitive evaluation. 441 , 469 In the Aspirin for Asymptomatic
+Atherosclerosis (AAA) trial, 3350 participants 50 to 75 years of age were
+randomly assigned to receive long-term use of enteric-coated aspirin 100 mg
+once daily or placebo. During a 5-year follow-up, no difference in cognitive
+ability was found between the aspirin and placebo arms. 469 In the Prevention
+Regimen for Effectively Avoiding Second Strokes (PRoFESS) trial, 20 332
+patients with ischemic stroke were randomly assigned in a 2×2
+factorial design to receive either 25 mg of aspirin and 200 mg of
+extended-release dipyridamole twice a day or 75 mg of clopidogrel once a day
+and either 80 mg of telmisartan or placebo once a day to test primarily for
+recurrent stroke prevention, with cognitive decline or dementia as a
+nonprimary end point. After a median follow-up of 2.4 years, no difference
+was observed between the 2 antiplatelet regimens on any measure of cognition
+(median MMSE score ≤24) or severe cognitive decline (decrease in MMSE
+score ≥3 points between baseline and penultimate visit) or
+dementia. 441
+
+A few observational studies have documented that people who consume
+a Mediterranean diet have better cognition and less risk of dementia than
+people consuming other diets. 470 Recently, a better adherence to a
+Mediterranean-type dietary pattern was associated with less cognitive
+decline in a community with older subjects. 471 There is no randomized controlled study
+of similar effects in healthy subjects.
+
+The same beneficial effects of increased physical activity on
+cognitive function have also been documented in observational
+studies, 472 but
+only 1 small intervention trial has followed up subjects for cognitive
+improvement after increasing physical exercise. Aerobic exercise has been
+shown to be useful. A study of 6 months’ duration in elderly women
+provides support, using rigorous controlled methodology, for a potent
+nonpharmacological intervention that improves executive control processes
+for older women at high risk of cognitive decline. 473 At the same time, it would be
+informative to understand why some cognitive functions seem to improve with
+aerobic physical exercise whereas other functions seem to be insensitive to
+physical exercise. 474 The
+results of a recently published meta-analysis on the effect of physical
+activity on cognitive decline, based on 15 observational studies, suggest a
+significant and consistent protection afforded by all levels of physical
+activity against the occurrence of cognitive decline. 475
+
+Smoking is a risk factor for stroke-associated dementia. There are
+no intervention studies to prove the benefits of smoking cessation on
+preserving cognitive function.
+
+Studies have been performed to test whether vitamin supplements
+might improve cognitive function. According to 1 systematic review, there
+was no beneficial effect of folic acid 750 μ g/d on
+measures of cognition or mood in healthy older women. 476
+
+In patients with mild to moderate cognitive decline and different
+forms of dementia, there was no benefit from folic acid on measures of
+cognition or mood. 476 However, in another study from The Netherlands, supplementation with 800 μ g daily of oral folic acid for 3 years in 818
+participants significantly improved domains of cognitive function that tend
+to decline with age. 477
+
+With regard to lowering homocysteine by vitamin B supplementation,
+no benefit was shown in 1 Australian study that included 276 healthy elderly
+subjects with repeated tests of cognitive function after 1 and 2
+years. 478
+
+Adherence to a Mediterranean-type dietary pattern has been
+associated with less cognitive decline in several observational
+studies.
+
+There is generally a lack of evidence for a positive benefit of
+antiaggregants and vitamin supplementation on cognitive function. No
+improvement of cognitive function has been proven when reduction of
+homocysteine was reached with supplementation with vitamin B. Therefore,
+evidence for these interventions is lacking, and they cannot be
+recommended.
+
+A few observational studies and very few intervention trials
+have shown that lifestyle modification (eg, diet, physical activity) may
+improve cognitive function. Even though smoking is a well-known risk
+factor for vascular pathology, the role of smoking cessation has not
+been studied in relation to changes in cognitive function.
+
+There is only limited evidence to support the idea that
+physical therapy could contribute to prevention of cognitive decline.
+There is a need to support new studies on the role of lifestyle
+interventions to prevent cognitive impairment and whether smoking
+cessation could influence this process.
+
+A Mediterranean-type dietary pattern has been
+associated with less cognitive decline in several studies and
+may be reasonable (Class IIb; Level of Evidence
+B).
+
+Vitamin supplementation is not proven to improve
+cognitive function, even if homocysteine levels have been
+positively influenced, and its usefulness is not well
+established (Class IIb; Level of Evidence
+B).
+
+Physical activity might be considered for the
+prevention of cognitive impairment (Class IIb; Level of
+Evidence B), but the usefulness of other lifestyle
+or vitamin interventions is uncertain (Class IIb; Level
+of Evidence B).
+
+The effectiveness of antiaggregant therapy for VCI is
+not well established (Class IIb; Level of Evidence
+B).
+
+## 12. Summary and Course of Action
+In developed countries, a rapid increase in the aged population is
+anticipated. In 2000, for example, there were 600 million people ≥60 years of
+age; it is estimated that by 2025 there will be 1.2 billion people in this age
+group, and by 2050, 2 billion. The oldest people in our population (≥80 years
+old) are a fast-growing group, and ≈20% experience important difficulties in
+performance of activities of daily living. Furthermore, cognitive impairment is a
+relatively common condition of the elderly that significantly affects their ability
+to live independently. The prevalence of dementia increases with advancing age and
+is estimated to affect ≥30% of people >80 years of age, 264 , 479 , 480 with the
+annual cost of care being >$40 000 per patient in the United States.
+Identification of people at risk for cognitive impairment or mild forms of cognitive
+impairment (eg, MCI, VaMCI) holds promise for prevention or postponement of dementia
+and its sequelae and for public health cost savings. 23 , 481 , 482 The opportunity to prevent or
+postpone cognitive impairment may be realized by assessment of cardiovascular and
+stroke risks and appropriate treatment of such risk markers. Cognitive function, an
+important predictor of morbidity and mortality in the elderly, however, is
+frequently not screened for in clinical practice as part of global cardiovascular
+risk and target-organ damage assessments.
+
+As discussed in this statement, understanding of common causes of late-life
+cognitive impairment and dementia—Alzheimer disease and VCI—has
+advanced. 483 It is now
+accepted that many of the traditional risk factors for stroke are also risk markers
+for Alzheimer disease and VCI. 16 , 31 , 340 , 484 – 491 In fact, there is an
+angiogenesis hypothesis for Alzheimer disease and a possible role for genes in
+neurovascular unit dysfunction in Alzheimer disease. 107 , 492 Therefore, it has been proposed that there may be a convergence of pathogenic
+mechanisms in vascular and neurodegenerative processes that cause impairment of
+cognition. 101 , 493 Epidemiological evidence to
+support the convergence of mechanisms is observed in studies that show traditional
+cardiovascular risk factors also heighten risk of Alzheimer disease. For example, in
+a cohort in Finland, the combination of elevated systolic blood pressure,
+hypercholesterolemia, and obesity increased the risk of Alzheimer disease by
+≈6 times, whereas individually, any of these factors alone increased risk by
+≈2 times. 494
+
+The epidemiological observations mentioned previously coupled with
+preclinical study findings have allowed us to consider shifting our prevention focus
+to more “upstream” targets such as shared vascular risk
+markers, 484 – 486 extrinsic (eg, somatic and
+mitochondrial mutations, advanced glycation end products, proinflammatory cytokines)
+and intrinsic (eg, telomere shortening, decreased decline in growth factors,
+apoptosis) mechanistic pathways that may influence prevention outcomes, 495 and other novel
+approaches. 107 Furthermore, we may now consider the possibility that Alzheimer disease is actually
+Alzheimer diseases, a group of disorders that could possibly be driven by different
+pathophysiological mechanisms. 496 Support for this notion is based on evidence of disparate pathophysiological
+mechanisms by which vascular risk factors such as hypertension, diabetes, and
+dyslipidemia might cause or potentiate Alzheimer disease. Other data (F.T., P.B.G.,
+unpublished data, 2010).
+
+In addition, as subclinical CVBI, stroke, and vascular risk factors have
+been a major focus of this statement, a better understanding of the prevention of
+“silent” strokes and WMLs (ie, “covert” brain injury) is
+necessary, because these events may be associated with neuropsychological deficits
+and contribute to VCI and eventual manifest stroke sequelae risk. 498 It is estimated that
+“silent” strokes outnumber clinically manifest ones by a factor of
+>9:1, and the proportion of those with a milder form of VCI is approximately
+2-fold greater than those with a severe form of VCI (ie, VaD). This group of
+patients with covert brain injury might be one that is well suited for
+proof-of-concept studies of vascular risk factor control strategies.
+
+In summary, this statement has discussed controversies in relation to
+vascular causes of cognitive impairment and dementia and the evidence for the role
+of vascular factors, arterial aging, and CVBI in cognitive impairment. A current
+course of action for furthering our understanding of vascular contributions to
+cognitive impairment and dementia has been recommended previously. 499 It takes into account
+transdisciplinary, translational, and transactional opportunities and recommends
+taking advantage of shared pathophysiological mechanisms of many brain diseases that
+may influence cognition, cross-disciplinary expertise, new therapeutic targets for
+planning clinical trials, the underexplored and under-exploited borderlands between
+stroke and Alzheimer disease, the “brain at risk” or in the
+disease-induction stage, and systematic integration strategies.
+
+To develop an action plan, we need to consider establishment of the
+following research programs to advance the field: Continued development, validation, and refinement of
+practicable cognitive batteries for testing people with VCI within and
+across geographic, cultural, and ethnic regions. 5 Continued pursuit of novel neuroimaging methodology to identify
+biomarkers and risks for CVBI associated with VCI. 500 Establishment of additional longitudinal
+clinical-neuropathological studies with neuroradiological
+correlation. Development of nationally funded centers of excellence for the
+study of CVBI and vascular contributions to cognitive impairment and
+dementia with transdisciplinary, translational, and transactional links
+within and between centers. Midlife and later-life cost-effectiveness research and proper,
+statistically powered, randomized controlled clinical trials targeting
+key vascular risk markers and the influence of their control on
+prevention of VCI and Alzheimer disease. 496 Preclinical and clinical studies to better understand the
+influence of aging on major arteries and the neurovascular unit. Studies to identify novel risk markers for vascular
+contributions to cognitive impairment and dementia. Studies to better understand the relationship between location,
+severity, and extent of vascular brain injury and the resultant
+cognitive syndromes, while simultaneously accounting for coexisting
+age-related pathologies and cognitive reserve. These programs should
+include a search for genetic and other novel factors with an overarching
+goal to identify new strategies for prevention or treatment of VCI.
+Preliminary study of interventions among people with vascular risk
+factors and clinically defined CVBI may be a first step for testing
+prevention strategies before embarking on full-scale clinical
+trials. With such advances in the field in basic science, pharmacology,
+epidemiology, neuroradiology, and neuropathology, we will then be better positioned
+to guide clinicians in relation to practice challenges such as the following: Choice of neuropsychological test battery and frequency of
+neuropsychological testing to detect VCI and related forms of cognitive
+impairment. Value of and targets for control of various cardiovascular risk
+factors to prevent cognitive impairment. Application and interpretation of genetic and other novel
+vascular risk markers for VCI. Currently, in the absence of such definitive data for guidance, we encourage
+clinicians to use screening tools to detect cognitive impairment in their older
+patients (eg, www.mocatest.org ) and to continue to treat vascular risks according
+to nationally or regionally accepted guidelines. Recently published statements in
+2011 from the American Heart Association on the prevention of first and recurrent
+stroke provide useful targets for risk factor management, although these
+recommendations have not been specifically tested in patients with VCI. 501 , 502
+
+Continued development, validation, and refinement of
+practicable cognitive batteries for testing people with VCI within and
+across geographic, cultural, and ethnic regions. 5
+
+Continued pursuit of novel neuroimaging methodology to identify
+biomarkers and risks for CVBI associated with VCI. 500
+
+Establishment of additional longitudinal
+clinical-neuropathological studies with neuroradiological
+correlation.
+
+Development of nationally funded centers of excellence for the
+study of CVBI and vascular contributions to cognitive impairment and
+dementia with transdisciplinary, translational, and transactional links
+within and between centers.
+
+Midlife and later-life cost-effectiveness research and proper,
+statistically powered, randomized controlled clinical trials targeting
+key vascular risk markers and the influence of their control on
+prevention of VCI and Alzheimer disease. 496
+
+Preclinical and clinical studies to better understand the
+influence of aging on major arteries and the neurovascular unit.
+
+Studies to identify novel risk markers for vascular
+contributions to cognitive impairment and dementia.
+
+Studies to better understand the relationship between location,
+severity, and extent of vascular brain injury and the resultant
+cognitive syndromes, while simultaneously accounting for coexisting
+age-related pathologies and cognitive reserve. These programs should
+include a search for genetic and other novel factors with an overarching
+goal to identify new strategies for prevention or treatment of VCI.
+Preliminary study of interventions among people with vascular risk
+factors and clinically defined CVBI may be a first step for testing
+prevention strategies before embarking on full-scale clinical
+trials.
+
+Choice of neuropsychological test battery and frequency of
+neuropsychological testing to detect VCI and related forms of cognitive
+impairment.
+
+Value of and targets for control of various cardiovascular risk
+factors to prevent cognitive impairment.
+
+Application and interpretation of genetic and other novel
+vascular risk markers for VCI.

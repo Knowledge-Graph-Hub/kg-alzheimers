@@ -1,0 +1,656 @@
+# Title
+A multivariate nonlinear mixed effects model for longitudinal image
+analysis: Application to amyloid imaging
+
+# Abstract
+It is important to characterize the temporal trajectories of
+disease-related biomarkers in order to monitor progression and identify
+potential points of intervention. These are especially important for
+neurodegenerative diseases, as therapeutic intervention is most likely to be
+effective in the preclinical disease stages prior to significant neuronal
+damage. Neuroimaging allows for the measurement of structural, functional, and
+metabolic integrity of the brain at the level of voxels, whose volumes are on
+the order of mm 3 . These voxelwise measurements provide a rich
+collection of disease indicators. Longitudinal neuroimaging studies enable the
+analysis of changes in these voxelwise measures. However, commonly used
+longitudinal analysis approaches, such as linear mixed effects models, do not
+account for the fact that individuals enter a study at various disease stages
+and progress at different rates, and generally consider each voxelwise measure
+independently. We propose a multivariate nonlinear mixed effects model for
+estimating the trajectories of voxelwise neuroimaging biomarkers from
+longitudinal data that accounts for such differences across individuals. The
+method involves the prediction of a progression score for each visit based on a
+collective analysis of voxelwise biomarker data within an
+expectation-maximization framework that efficiently handles large amounts of
+measurements and variable number of visits per individual, and accounts for
+spatial correlations among voxels. This score allows individuals with similar
+progressions to be aligned and analyzed together, which enables the construction
+of a trajectory of brain changes as a function of an underlying progression or
+disease stage. We apply our method to studying cortical β-amyloid
+deposition, a hallmark of preclinical Alzheimer's disease, as measured using
+positron emission tomography. Results on 104 individuals with a total of 300
+visits suggest that precuneus is the earliest cortical region to accumulate
+amyloid, closely followed by the cingulate and frontal cortices, then by the
+lateral parietal cortex. The extracted progression scores reveal a pattern
+similar to mean cortical distribution volume ratio (DVR), an index of global
+brain amyloid levels. The proposed method can be applied to other types of
+longitudinal imaging data, including metabolism, blood flow, tau, and structural
+imaging-derived measures, to extract individualized summary scores indicating
+disease progression and to provide voxelwise trajectories that can be compared
+between brain regions.
+
+## 1. Introduction
+It is important to characterize the temporal trajectories of disease-related
+biomarkers in order to monitor progression and to identify potential points of
+intervention. Such a characterization is especially important for neurodegenerative
+diseases, as therapeutic intervention is most likely to be effective in the
+preclinical disease stages prior to significant neuronal damage. For example, in
+Alzheimer's disease, brain changes evident in structural, functional, and metabolic
+imaging may occur more than a decade before the onset of cognitive symptoms ( Bateman et al., 2012 ), with cortical
+amyloid-β (Aβ) accumulation being one of the earliest changes ( Jack et al., 2013 ; Sperling et al., 2014a ; Villemagne et al., 2013 ). Such brain changes can be measured using
+neuroimaging techniques and can be tracked over time at the individual level via
+longitudinal studies.
+
+Given the focus on preventing and delaying the onset of incurable
+neurodegenerative diseases, the emphasis of clinical trials has shifted to studying
+clinically normal individuals with positive biomarkers, for example those exhibiting
+brain amyloid in the case of AD, in order to identify early intervention
+opportunities in the preclinical stages of disease ( Sperling et al., 2014b ). It is important to determine the temporal
+trajectories of hypothesized biomarkers in the early disease stages in order to
+better understand their associations with disease progression. Current neuroimaging
+methods allow for the characterization of the brain at the mm 3 level,
+generating hundreds of thousands of measurements that can be used as potential
+biomarkers of neurodegenerative diseases. Understanding the temporal trajectories of
+these voxelwise measurements can provide clues into disease mechanisms by
+identifying the earliest and fastest changing brain regions.
+
+Changes in voxelwise neuroimaging measurements over time are commonly studied
+using linear mixed effects models ( Bernal-Rusiel et
+al., 2012 , 2013 ; Ziegler et al., 2015 ). Univariate linear mixed
+effects models use time or age to characterize changes in a single imaging measure.
+However, time or age may not be the appropriate metric for measuring disease
+progression due to variability across individuals. While covariates can be included
+in linear mixed effects models to account for this variability, choosing the correct
+set of covariates is difficult and covariates generally have a more complicated
+association with disease progression than the assumed linear relationship of linear
+mixed effects models. Instead, this variability can be accounted for by aligning
+individuals in time based on their longitudinal biomarker profiles within a
+multivariate framework. This is the premise of the Disease Progression Score method,
+which has been applied to studying changes in cognitive and biological markers
+related to Alzheimer's disease ( Jedynak et al.,
+2012 , 2014 ; Bilgel et al., 2014 ). It is assumed that there is an underlying
+progression score (PS) for each subject visit that is an affine transform of the
+subject's age, and given this PS, it is possible to place biomarker measurements
+across a group of subjects onto a common timeline. The affine transformation of age
+removes across-subject variability in baseline biomarker measures as well as in
+their rates of longitudinal progression. Each biomarker is associated with a
+parametric trajectory as a function of PS, whose parameters are estimated along with
+the PS for each subject. This allows one to “stitch” data across
+subjects to obtain temporal biomarker trajectories that fit an underlying model
+( Fig. 1 ).
+
+Previous approaches have used certain cognitive measures, such as ADAS-Cog
+( Caroli and Frisoni, 2010 ; Yang et al., 2011 ), MMSE ( Doody et al., 2010 ) or CDR-SB ( Delor et al., 2013 ) as a surrogate for disease progression to delineate
+the trajectories of other AD-related cognitive measurements. These methods operate
+with the assumption that disease progression is reflected by a single cognitive
+measurement rather than a profile of multiple measurements, and therefore are
+inherently limited in their characterization of disease evolution. Younes et al. (2014) fitted a piecewise linear
+model to longitudinal data assuming that each biomarker becomes abnormal a certain
+number of years before clinical diagnosis, and this duration was estimated for each
+biomarker to yield longitudinal trajectories as a function of time to diagnosis. A
+quantile regression approach was employed by Schmidt-Richberg et al. (2015) to align a sample of cognitively normals
+and mild cognitively impaired (MCI) with a sample of MCI and AD, and then to
+estimate biomarker trajectories. These approaches assume that all individuals are on
+a path to disease and require knowledge of clinical diagnosis. Therefore, they are
+not suitable for studying the earliest changes in individuals who have not converted
+to a clinical diagnosis. Donohue et al.
+(2014) applied a self-modeling regression model within a multivariate
+framework to characterize the longitudinal trajectories of a set of cognitive, CSF,
+and neuroimaging-based biomarkers. This approach allows for across-subject
+variability only in the age of onset, not in progression speed. Models incorporating
+fixed effects as well as individual-level random effects have been proposed to study
+ADAS-Cog ( Ito et al., 2011 ; Schiratti et al., 2015b ) and regional cortical
+atrophy ( Schiratti et al., 2015b ), and Schulam et al. (2015) used a spline model that
+incorporates longitudinal clustering and modeling of individual-level effects to
+study trajectories of scleroderma markers. These mixed effects models take into
+consideration each measure separately rather than using them within a unifying
+framework. Others have used event-based probabilistic frameworks to determine the
+ordering of changes in longitudinal biomarker measures as well as the appropriate
+thresholds for separating normal from abnormal measures ( Fonteijn et al., 2012 ; Young et
+al., 2014 ). These methods characterize longitudinal biomarker
+trajectories in a discrete framework rather than a continuous one. Schiratti et al. (2015a) proposed an extension
+to their earlier approach to model multiple measures together. Biomarker
+trajectories are assumed to be identical except for a shift along the disease
+timeline, and this assumption prevents hypothesis testing regarding rate of change
+across biomarkers. Furthermore, biomarkers are assumed to be conditionally
+independent given the subject-level random effects, but this assumption is not
+realistic when biomarkers are voxel-based neuroimaging measurements.
+
+Here, we adapt the disease progression score principle to studying
+longitudinal neuroimaging data by making substantial innovations to the progression
+score model and parameter estimation procedure. First, voxelwise imaging measures
+constitute the biomarkers in the model, and are analyzed together in a multivariate
+framework. Studying progression at the voxel level rather than using region of
+interest (ROI)-based measures allows for the discovery of patterns that may not be
+confined within any given ROI. Second, since voxelwise imaging measures have an
+underlying spatial correlation, we incorporate the modeling of the spatial
+correlations among the biomarker error terms. Modeling spatial correlations makes
+the inference of the subject-specific progression scores less susceptible to the
+inherent correlations among the voxels. Third, we incorporate a bivariate normal
+prior on the subject-specific variables that define the relationship between age and
+PS. The prior allows a better modeling of the variance within individuals and
+enables the incorporation of individuals with a single visit into the model fitting
+procedure. Fourth, instead of using an alternating least-squares approach for
+parameter estimation as presented by Jedynak et al.
+(2012) , we formulate the model fitting as an expectation-maximization
+(EM) algorithm, which guarantees convergence to a local maximum and allows for an
+efficient model fitting framework for a large number of biomarkers. Finally, we
+present a statistical framework for comparing the onset and rate of progression
+across different regions. This paper extends our previous approach for analyzing
+longitudinal voxelwise imaging measures using the progression score framework by
+incorporating a prior on the subject-specific variables, presenting a hypothesis
+testing framework for determining biomarker ordering, and performing an extensive
+validation of the method ( Bilgel et al.,
+2015c ).
+
+We first show using simulated data that the model parameters are estimated
+accurately and that modeling spatial correlations improves parameter estimation. We
+then apply the method to distribution volume ratio (DVR) images derived from
+Pittsburgh compound B (PiB) PET imaging, which show the distribution of cerebral
+fibrillar amyloid. Models fitted using data for 104 participants with a total of 300
+PiB-PET visits reveal that the precuneus and frontal cortex show the greatest
+longitudinal increases in fibrillar amyloid, with smaller increases in lateral
+temporal and temporoparietal regions, and minimal increases in the occipital cortex
+and the sensorimotor strip. Our results suggest that the precuneus is the earliest
+cortical region to accumulate amyloid. The results are consistent across the two
+hemispheres, and the estimated PS agrees with a widely used PET-based global index
+of brain amyloid known as mean cortical DVR. The presented method can be applied to
+other types of longitudinal imaging data to understand voxelwise trajectories and to
+quantify each individual scan against the estimated progression pattern.
+
+## 2. Method
+Our goal is to characterize the progression of disease or an underlying
+process as measured using a collection of relevant biomarkers. Disease or
+process stage, as indicated by a progression score (PS), s, is intrinsically
+related to time t , measured as the age of a subject. Since
+individuals differ in their onset and rate of progression, the relationship
+between s and t varies across individuals. We
+model the progression s as a linear function of time t for each individual and allow for the prediction of
+separate slopes and intercepts to account for this variability across
+individuals.
+
+Generally, there is a particular presentation of symptoms and biomarker
+measurements at a given progression stage. Furthermore, as the disease or
+process progresses, there is a particular temporal progression of the
+biomarkers. In this work, we consider voxelwise PET measures as biomarkers and
+model the temporal trajectory of each biomarker, or voxel, as a linear function
+of the progression s . Considering voxelwise neuroimaging
+measures as biomarkers may appear unusual; however, these measures fit the NIH
+definition of a biomarker: “a characteristic that is objectively measured
+and evaluated as an indicator of normal biological processes, pathogenic
+processes, or pharmacologic responses to a therapeutic intervention”
+( Biomarkers Definitions Working Group,
+2001 ). As illustrated in Figure
+1 , PS aligns longitudinal biomarker measures better than age since it
+accounts for differences across individuals in rates as well as baseline levels
+of progression. After this alignment in time, the estimated biomarker
+trajectories can be compared on the common PS scale.
+
+In the following subsections, we describe the progression score model in
+detail.
+
+The progression score s ij for subject i at visit j is assumed to be an
+affine transformation of the subject's age t ij : (1) s i j = α i t i j + β i = q i j T u i , where q i j = [ t i j 1 ] , and u i = [ α i β i ] . The subject-specific variables,
+α i and
+β i contained in the vector u i , are assumed to follow a
+bivariate normal distribution, i.e., u i ~ N 2 ( m , V ) , which are independent and identically
+distributed across subjects. This model accounts for differences between
+subjects in the rate of progression via α, and in the baseline levels
+of disease progression via β.
+
+The prior covariance V is modeled as a 2×2
+unstructured covariance matrix. Log-Cholesky parametrization of V , given by ν , ensures that V ≡ V ( ν )
+is positive definite ( Pinheiro and Bates,
+1996 ). Let U = [ U 11 U 12 0 U 22 ] be an upper triangular matrix such that V = U T U . If the diagonal
+elements of U are constrained to be positive, then this
+Cholesky decomposition is unique. To ensure that the diagonal elements of U are positive in an unconstrained optimization
+framework, we use the natural logarithm of the diagonal elements of U as parameters. We then vectorize the upper triangular
+elements (including the diagonal) of U to obtain the
+parameter vector ν = [log U 11 U 12 log U 22 ] T , which
+uniquely parameterizes V and ensures its positive
+definiteness.
+
+The collection of K biomarker measurements form the K × 1 vector y ij for subject i at visit j . Longitudinal
+trajectories associated with these biomarkers are assumed to be linear and
+parameterized by K × 1 vectors a and b : (2) y i j = a s i j + b + ϵ i j . Here, a = [ a 1 , a 2 , …, a K ] T , b = [ b 1 , b 2 , …, b K ] T , and ϵ i j ~ N K ( 0 , R ) is the observation noise. ϵ ij are assumed to be
+independent and identically distributed across subjects and visits.
+
+The matrix R is assumed to have the form R = Λ C Λ, where Λ
+is a diagonal matrix with positive diagonal elements λ and C is a correlation matrix parameterized by ρ . This parameterization guarantees that R is a positive definite matrix ( Galecki and Burzykowski, 2013 ). For ease of notation,
+we let Λ ≡ Λ( λ ), C ≡ C ( ρ ), and R ≡ R ( λ , ρ ).
+
+When the biomarkers under consideration have a spatial organization,
+i.e., if they are voxelwise measurements from medical images, then the
+correlation matrix C can be described as a function of the
+spatial distance d ≡ d ( k , k ′)
+between pairs of voxels indexed by k and k ′ as well as the spatial correlation parameter ρ . Possible univariate parameterizations (i.e., ρ = ρ ∈ R ) of C are presented in Table 1 . All of these spatial
+correlation functions ensure that C is a valid correlation
+matrix ( Galecki and Burzykowski,
+2013 ).
+
+The overall model, diagrammatically summarized using plate notation
+in Fig. 2 , is described by the
+following equations: (3) s i j = q i j T u i (4) y i j = a s i j + b + ϵ i j (5) u i ∼ N 2 ( m , V ( ν ) ) (6) ϵ i j ∼ N K ( 0 , R ( λ , ρ ) ) .
+
+While this model is a mixed effects model since it incorporates the
+fixed effects a , b as well as the individual-level
+random effects u i , and is nonlinear
+in the parameters, it departs from the form of the nonlinear mixed effects
+model described by Lindstrom and Bates
+(1990) . Therefore, instead of pursuing a restricted maximum
+likelihood approach, we use an expectation-maximization (EM) approach, as
+described below.
+
+Let θ be the collection of model parameters m , ν , a , b , λ , ρ . The complete
+log-likelihood for the model is (7) ℓ ( y , u ; θ ) = ∑ i ℓ ( y i , u i ; θ ) (8) = ∑ i log f ( y i ∣ u i ; θ ) + log f ( u i ; θ ) (9) = − 1 2 ∑ i , j log ∣ 2 π R ∣ − 1 2 ∑ i , j ( y i j − Z i j u i − b ) T R − 1 ( y i j − Z i j u i − b ) − 1 2 ∑ i log ∣ 2 π V ∣ − 1 2 ∑ i ( u i − m ) T V − 1 ( u i − m ) , where Z i j = aq i j T . y i is a vector of all biomarker
+measures stacked across all visits of individual i , and y ij is a vector of all
+biomarker measures for individual i at visit j . Given n individuals, we use the
+summation notation Σ i,j as a shorthand
+for ∑ i = 1 n ∑ j = 1 v i , where v i is
+the number of visits for individual i .
+
+Since the marginal likelihood f ( y ;
+θ) involves an integral over all possible values of u i , maximizing it directly
+is difficult. Therefore, we use the expectation-maximization (EM) approach,
+where we consider the subject-specific variables
+{ u i } as hidden. EM allows
+us to reformulate the maximization problem in terms of the complete
+log-likelihood ℓ( y , u ; θ). The
+observations y include biomarker measurements
+{ y ij } at each visit. The
+unknown parameters are the subject-specific variable distribution parameters m and ν , the trajectory parameters a and b , and the noise covariance parameters λ and ρ .
+
+( y , u ) are the complete data. Let θ ′ = { m ′, ν ′, a ′, b ′, λ ′, ρ ′} be the previous parameter estimates. By
+Proposition A.1, the E-step integral is proportional to Σ i ∫ Φ ( u ~ i ; u ^ i ′ , Σ i ′ ) ℓ ( y i , u ~ i ; θ ) d u ~ i , where Φ is the
+multivariate normal probability density function with mean (10) u ^ i ′ = ( ∑ j Z i j ′ T R ′ − 1 Z i j ′ + V ′ − 1 ) − 1 ( ∑ j Z i j ′ T R ′ − 1 ( y i j − b ′ ) + V ′ − 1 m ′ ) , and covariance Σ i ′ = ( Σ j Z i j ′ T R ′ − 1 Z i j ′ + V ′ − 1 ) − 1 . Note that for individuals with a single visit, Σ j Z i j ′ T R ′ − 1 Z i j ′ is a singular matrix. Considering u i as parameters, as in Jedynak et al. (2012) or Bilgel et al. (2015c) , is equivalent to
+assuming that V has infinitely large diagonal elements (i.e.,
+an uninformative uniform prior) such that its inverse disappears. Therefore, it
+is not possible to compute u ^ i ′ for individuals having only one visit using
+this approach. On the other hand, incorporation of a bivariate normal prior on
+the subject-specific variables u i allows Eq. 10 to be computed for
+individuals with a single visit.
+
+Evaluation of the E-step integral involves second moments of a Gaussian
+random variable. We ignore the terms that do not depend on θ as they will not be relevant in the maximization step and obtain: (11) Q ( θ , θ ′ ) = − 1 2 ∑ i , j log ∣ R ∣ − 1 2 ∑ i , j ( y i j − Z i j u ^ i ′ − b ) T R − 1 ( y i j − Z i j u ^ i ′ − b ) − 1 2 ∑ i , j Tr ( Z i j T R − 1 Z i j Σ i ′ ) − 1 2 ∑ i log ∣ V ∣ − 1 2 ∑ i ( u ^ i ′ − m ) T V − 1 ( u ^ i ′ − m ) − 1 2 ∑ i Tr ( V − 1 Σ i ′ ) .
+
+Here, we provide the update equations for the EM algorithm obtained by
+maximizing Q ( θ , θ ′) with respect to each parameter, and provide
+derivations for these update equations in the Appendix . The update equations depend on previous parameter
+estimates θ ′ = { m ′, ν ′, a ′, b ′, λ ′, ρ ′} as well as the progression score estimates s i j ′ = q i j T u ^ i ′ , where u ^ i ′ is as given in Eq. 10 : (12) a = ( ∑ i v i ) ( ∑ i , j y i j s i j ′ ) − ( ∑ i , j y i j ) ( ∑ i , j s i j ′ ) ( ∑ i v i ) ( ∑ i , j q i j T Σ i ′ q i j + s i j ′ 2 ) − ( ∑ i , j s i j ′ ) 2 , (13) b = ( ∑ i , j y i j ) ( ∑ i , j q i j T Σ i ′ q i j + s i j ′ 2 ) − ( ∑ i , j y i j s i j ′ ) ( ∑ i , j s i j ′ ) ( ∑ i v i ) ( ∑ i , j q i j T Σ i ′ q i j + s i j ′ 2 ) − ( ∑ i , j s i j ′ ) 2 , (14) m = 1 n ∑ i u ^ i ′ , (15) ν = ν arg max Q ( θ , θ ′ ) , (16) λ , ρ = λ , ρ arg max Q ( θ , θ ′ ) . Note that if C is fixed to be the identity
+matrix, a closed form solution for λ exists, as given in Equation A.15 . Once the
+optimal parameters are found, the subject-specific variables are predicted using Eq. (10) .
+
+As described in Proposition A.2, there are certain reparameterizations
+that yield identical models. For example, one can multiply the trajectory slope
+parameters by 2 and divide all progression scores by 2 (which is achieved by
+dividing all α and β values by 2) without altering the model. This
+is the scaling degree of freedom. There is also a translation degree of freedom.
+We account for these degrees of freedom and anchor the model by calibrating the
+progression score scale. We calibrate such that baseline PS has a mean of 0 and
+a standard deviation of 1. This involves replacing the model parameters
+{ m , V ( ν ), a , b , R ( λ , ρ )} with { w m + [ 0 z ] , w 2 V ( ν ) , 1 w a , b − z w a , R ( λ , ρ ) } , where − z w = 1 n Σ i s i 1 is the mean progression score at baseline, and 1 w = 1 n Σ i ( s i 1 − 1 n Σ i s i 1 ) 2 is the standard deviation of baseline
+progression scores. We standardize the subject-specific estimates
+α i ,
+β i , and s ij accordingly: α i ∗ = w α i , β i ∗ = w β i + z , and s i j ∗ = w s i j + z . This reparametrization yields a PS scale where
+0 corresponds to the sample average at baseline and the variance of PS at
+baseline is 1.
+
+We first fit the model assuming that C = I K × K and Λ is a diagonal matrix with positive elements λ .
+We denote the estimated Λ in this model as Λ ^ . The estimates obtained from this model for the
+parameters a , b , m , V are used as initializations in the model where C = C (ρ). In this model where correlations are taken
+into account, we assume that Λ = λ Λ ^ , where λ is an unknown parameter to be
+estimated. The spatial correlation function among those presented in Table 1 that results in the highest
+log-likelihood value is chosen for the final model.
+
+The EM algorithm is implemented in MATLAB 8.1 and Statistics Toolbox 8.2
+(The MathWorks Inc., Natick, MA). Our code is freely available online. 1
+
+We use bootstrapping via Monte Carlo resampling to estimate confidence
+intervals for each model parameter. We sample with replacement from the original
+collection of subjects to generate a new dataset containing an equal number of
+subjects and fit the model on this generated sample. This sampling and fitting
+procedure is repeated to generate bootstrap estimates. We then compute 95%
+confidence intervals for each parameter across the bootstrap estimates. In the
+bootstrap experiments, we fix the value of ρ at its estimate on the whole
+sample to enable faster computation.
+
+We compared our model to a linear mixed effects (LME) model that
+included random intercepts and slopes at each voxel. The LME model for subject i , visit j and voxel k is
+given by (17) y ijk = ( η k + η i k ) t i j + ( γ k + γ i k ) + ε ijk , where ( η k γ k ) are the fixed effects, ( η i k γ i k ) ~ N ( 0 , Ξ k ) are the random effects and ε ijk ~ N ( 0 , σ k 2 ) is the observation noise. We used the LME
+implementation in MATLAB Statistics Toolbox 8.2.
+
+We simulated visits such that the sample was similar to our PET data in
+terms of number of visits per subjects and age range. We generated a data set
+with 100 individuals, each with up to 7 visits with 5 × 5 × 5
+images with 4 mm isotropic voxels. We fixed the ground truth values of the model
+parameters θ = { m , ν , a , b , λ , ρ} at values
+close to those we observed in exploratory models fitted to DVR data. We
+generated u i from a bivariate normal
+distribution with mean m and variance V ( ν ). The progression score for each visit was then
+computed as s i j = q i j T u , and observations were generated using the PS
+model. We performed 1000 bootstrap iterations to obtain 95% confidence intervals
+for each parameter and subject-specific variable. We computed the cosine
+similarity for each variable for each bootstrap experiment using (18) ϕ T ϕ ^ ‖ ϕ ‖ 2 ‖ ϕ ^ ‖ 2 , where ϕ ^ is the estimate of the variable of interest
+( a , b , α , β , or s ) and ϕ is the
+corresponding ground truth value. A value of 1 indicates a perfect estimate.
+
+We used longitudinal positron emission tomography (PET) data for
+participants from the Baltimore Longitudinal Study of Aging ( Shock et al., 1984 ) neuroimaging substudy
+( Resnick et al., 2000 ). Participant
+demographics are presented in Table 2 .
+Starting in 2005, amyloid-beta (Aβ) PET scans were acquired on a GE
+Advance scanner over 70 minutes following an intravenous bolus injection of
+Pittsburgh compound B (PiB), yielding dynamic PET scans with 33 time frames. PET
+images were reconstructed using filtered backprojection with a ramp filter,
+yielding a spatial resolution of approximately 4.5 mm full width at half max at
+the center of the field of view (image matrix = 128 × 128, 35 slices,
+pixel size = 2 × 2 mm, slice thickness = 4.25 mm).
+
+The frames of each dynamic PiB-PET scan were aligned to the average of
+the first two minutes to remove motion ( Jenkinson et al., 2002 ). For registration purposes, we obtained
+static images by averaging the first 20 minutes of the dynamic PiB-PET scan.
+Follow-up PiB-PET scans were rigidly registered onto the baseline PiB-PET within
+each participant using the 20-minute average images. Baseline magnetic resonance
+images (MRIs) were rigidly registered onto their corresponding 20-minute PiB-PET
+average, and their FreeSurfer segmentations ( Dale et al., 1999 ; Desikan et al.,
+2006 ) were transformed accordingly. Distribution volume ratio (DVR)
+images were calculated in the native space of each PiB-PET image using the
+simplified reference tissue model with the cerebellar gray matter as reference
+tissue ( Zhou et al., 2003 ). The MRIs
+coregistered with the PET were deformably registered ( Avants et al., 2008 ) onto a study-specific template ( Avants et al., 2010 ; Bilgel et al., 2015b ) and transformed to 4 mm isotropic MNI
+space using a pre-calculated affine transformation. The resulting mappings were
+applied to the DVR images that have been registered to baseline to bring them
+into the MNI space. We used all voxels within the brain mask in the MNI space to
+fit the PS model.
+
+Mean cortical DVR is a widely used measure obtained from PiB-PET images
+for quantifying the level of brain amyloid. We computed mean cortical DVR for
+each PiB-PET image by averaging the voxelwise DVR values across cingulate,
+frontal, parietal, lateral temporal, and lateral occipital cortices, excluding
+the sensorimotor strip. We used a mean cortical DVR threshold of 1.06, which was
+computed from a two-class Gaussian mixture model fitted on baseline measures, to
+separate individuals into PiB- and PiB+ groups, as described in Bilgel et al. (2015a) .
+
+The confidence intervals obtained via bootstrapping allow for hypothesis
+testing. For the amyloid images, we focus on studying the precuneus, since
+previous cross-sectional amyloid imaging studies have suggested that precuneus
+has the highest deposition levels ( Mintun et
+al., 2006 ) and provided preliminary evidence that it may be the most
+rapid accumulator ( Rodrigue et al., 2012 )
+among cortical regions. Our specific hypotheses are as follows: The precuneus has the highest amyloid load along stages of
+amyloid accumulation. The precuneus accumulates amyloid faster than other cortical
+regions. We refer to the progression scores calculated using the DVR images as
+Aβ-PS. To test the first hypothesis, we compare the amyloid levels in the
+precuneus with other regions at various Aβ-PS values spanning the range
+observed in our data set. Our purpose in performing these comparisons is to shed
+light onto the temporal ordering of changes in di erent cortical regions. For
+each bootstrap experiment, we average the predicted DVR levels y ^ k ( s ) = a k s + b k within each ROI to obtain (19) y ^ r ( s ) = 1 ∣ ROI r ∣ ∑ k ∈ ROI r y ^ k ( s ) , where k is the voxel index and r is the ROI index. We then compute the following statistic
+for each bootstrap: (20) T = y ^ precuneus ( s ) − max r ≠ precuneus y ^ r ( s ) . We reject the null hypothesis that the amyloid load in the
+precuneus at Aβ-PS = s is not different from other
+regions at significance level γ if the two-sided 100(1−γ)
+confidence interval of the test statistic T , computed using the
+bootstrap estimates of T , does not contain 0. The smallest
+value of γ such that the two-sided 100(1−γ) confidence
+interval of the test statistic T contains 0 is the p -value of the test.
+
+The precuneus has the highest amyloid load along stages of
+amyloid accumulation.
+
+The precuneus accumulates amyloid faster than other cortical
+regions.
+
+To test the second hypothesis, we pursue a similar approach using the
+trajectory slope parameter a. For each bootstrap experiment, we obtain the
+average a k per cortical ROI to
+obtain a r , where r the ROI index. We then compute the following statistic for each bootstrap: (21) T = a precuneus − max r ≠ precuneus a r . The condition for the rejection of the null hypothesis that the
+rate of amyloid accumulation in the precuneus is not different from that of
+other regions is as described previously.
+
+## 3. Results
+The Akaike information criterion (AIC) was 39.0 × 10 3 for the LME model, 32.0 × 10 3 for the PS model where C = I K × K ,
+and −1.6 × 10 3 for the PS model where C = C (ρ), indicating that the PS
+model where spatial correlations are modeled fits the data the best. We computed
+the percentage of variables that are “correct” by counting the
+variables whose ground truth values fell within the 95% confidence interval
+computed via bootstrapping. For example, for a and b ,
+a value of 10% indicates that 10% of the biomarkers had a correct estimate for a k and b k . For α and
+β, 10% indicates that 10% of the individuals had a correct estimate for
+α i and
+β i . For s , 10% indicates
+that 10% of the visits had a correct estimate for s ij . Simulation results are
+presented in Table 3 . When there are
+correlations in the data, not modeling them yields inaccurate estimates for the
+trajectory slope parameter a , the subject-specific variables
+α i ,
+β i , and the progression scores s ij . Using the correlation
+model improves these estimates significantly.
+
+In our preliminary analysis of the noise spatial correlation structure
+using the semivariogram ( Cressie and Hawkins,
+1980 ; Bilgel et al., 2015c ), we
+observed that the rational quadratic had the best fit to the empirical
+semivariogram ( Inline
+Supplementary Fig. 1 ). Rational quadratic also yielded the fit with
+largest log-likelihood, and thus was selected as the correlation function for
+the model. AIC was −1.2 × 10 7 for the LME model,
+−1.1 × 10 7 for the model where C = I K × K ,
+and −2.0 × 10 7 for the model where C = C (ρ), indicating that the PS model where spatial
+correlations are modeled fits the data the best. The spatial correlation
+parameter ρ for the rational quadratic correlation model was estimated to
+be 4.5 mm, and λ was estimated to be 0.929. A comparison of the PS values
+obtained from the di erent correlation models are presented in the Supplementary Material (Inline
+Supplementary Fig. 2) . Model fitting using 104 subjects with a total
+of 300 visits each having about 30, 000 brain voxels took approximately 5
+seconds on an Intel Xeon 8-core 3.1 GHz machine with 128 GB RAM for the case
+where voxels are assumed to be independent (i.e., C = I K × K ).
+The following model fitting with C = C (ρ) took approximately 30 minutes per EM iteration,
+with convergence achieved in 2 to 6 iterations depending on the correlation
+structure.
+
+We compared the subject-specific variables obtained from model
+fitting to empirical values obtained from mean cortical DVR, which is the
+widely used measure for quantifying levels of brain amyloid ( Fig. 5 ). For each individual with at
+least two visits, we fit a line to the mean cortical DVR data to estimate
+the slope of amyloid accumulation as well as the intercept. The
+subject-specific variable α i , which
+represents the rate of amyloid progression, explained 62% of the variability
+in the empirical slope of amyloid accumulation computed from longitudinal
+mean cortical DVR. We observed a much higher correlation between mean
+cortical DVR and Aβ-PS ( R 2 = 0.95 at
+baseline and 0.96 at last visit).
+
+When plotted against age, mean cortical DVR and Aβ-PS
+revealed similar patterns ( Fig. 6 ). The
+progression as measured using voxelwise DVR data is not linearly associated
+with age, and the Aβ-PS was able to capture this.
+
+The trajectory slope parameters a k obtained from the PS
+model ( Fig. 7 ) revealed symmetric
+patterns across the cerebral hemispheres. The precuneus and frontal lobe
+showed the greatest increases in DVR with Aβ-PS, smaller increases in
+lateral temporal and temporoparietal regions, and minimal increases in the
+occipital lobe and the sensorimotor strip. Voxelwise trajectories are
+further illustrated in Fig. 8 , which
+shows the predicted DVR values on the cortical surface at three Aβ-PS
+levels.
+
+In order to better investigate regional trends, we averaged the PS
+model results within each cortical ROI and plotted these ROI averages as a
+function of Aβ-PS ( Fig. 9 ). We
+used bootstrap results to compute 95% confidence bands for these ROI
+averages. Based on the 95% confidence band of the precuneus illustrated in Fig. 9 , precuneus appears to be the
+earliest accumulator and has the highest amyloid levels through late stages
+of amyloid accumulation (Aβ-PS≥ 2). We present confidence
+bands for other cortical regions in Fig.
+10 .
+
+Based on our hypothesis testing procedure, we found that precuneus
+had the highest amyloid levels at Aβ-PS values of −0.5, 0, 1,
+2, and 3 (all p < 0.01). On the other hand, while
+the estimated rate of amyloid accumulation was highest in the precuneus,
+this was not statistically significant ( p = 0.33). A
+comparison of the levels of amyloid at Aβ-PS= 0 and rates of
+accumulation across ROIs is presented in Fig.
+11 .
+
+The trajectories we obtained using the PS model were consistent with
+the results of the LME model ( Inline Supplementary Figs. 3, 4 ). However, the fixed
+effects obtained from the LME model did not describe the observed data as
+well as the trajectory slopes obtained from the PS model ( Inline Supplementary Fig.
+5 ). Using the LME model estimates and a bootstrapping procedure
+similar to the one we applied for the PS model, we found that the precuneus
+had the highest regional amyloid levels compared to other cortical regions
+at ages 70, 80, and 90 (all p < 0.01), but not at
+age 65 ( p = 0.12). Similar to our findings based on the PS
+model, the rate of amyloid accumulation was highest in the precuneus, but
+this was not statistically significant ( p = 0.75). A
+comparison of the levels of amyloid at the mean baseline age of the sample
+and rates of accumulation across ROIs is presented in Inline Supplementary Fig.
+6 .
+
+## 4. Discussion
+We presented a statistical model for estimating longitudinal trajectories of
+voxelwise neuroimaging data. Our model is based on the concept that age is not a
+good metric for disease progression since each individual has his or her own onset
+and rate of progression of disease. We accounted for these inter-individual di
+erences to temporally align individuals based on their collection of voxelwise
+measurements. As a result of this temporal alignment, we obtained a metric of
+disease or underlying biological process stage as reflected in the neuroimaging
+data, and we call this metric “progression score”. By analyzing
+voxelwise neuroimaging data as a function of progression score rather than time, we
+constructed trajectories that better represent changes occurring with disease
+stage.
+
+Simulation results showed that the progression score model fits the data
+better than the linear mixed effects model, as evidenced by AIC. Furthermore, the
+results showed that modeling spatial correlations is important for extracting
+accurate summary scores from data with underlying correlations. In the absence of
+correlation modeling when the underlying data are correlated, estimates of the
+trajectory slopes a as well as subject-specific variables α, β, and s were adversely affected. The difference in the
+subject-specific variables was mainly due to inaccurate estimates of the prior
+covariance V . Note that (22) Cov ( y i j ) = aq i j T V q i j a T + R , which explains why both a and V are
+affected when correlations are not modeled through the covariance matrix R . This highlights the importance of modeling spatial
+correlations in data where such effects are evident, especially in order to estimate
+correct trajectory slopes and individualized progression scores. To further
+understand this phenomenon, we conducted simulations (data not presented) where we
+duplicated biomarkers with lower signal-to-noise ratios and repeated model fitting
+including these duplicate biomarkers. We observed that the parameter estimates as
+well as the PS values were biased if we assumed independence across biomarkers. This
+might be because the model interprets each of the duplicated biomarkers as a
+separate piece of evidence towards the computation of individual progression scores.
+However, when we included a proper noise correlation model, we were able to recover
+our original results on the collection of unique biomarkers.
+
+The proposed EM framework simplifies the estimation of spatial correlation
+parameters, and accurately estimates the trajectory parameters a and b as well as predicting the progression scores s .
+The performance of the fitting procedure in predicting α and β is
+worse than for s . This may be due to the modeling of α and
+β as random variables that do not directly contribute to the observations y . We observed a similar pattern in the amyloid data: the agreement
+between estimated Aβ-PS and mean cortical DVR was greater than the agreement
+between estimated α and the rate of change of mean cortical DVR per
+individual. This suggests that the progression scores are more reliable than the
+subject-specific variables. Aβ-PS was highly correlated with mean cortical
+DVR, a widely used measure for quantifying PiB-PET scans and assessing longitudinal
+change. This indicates that Aβ-PS is a meaningful score extracted from
+voxelwise imaging data. Unlike mean cortical DVR, there are no a
+priori assumptions regarding which regions or voxels should be included
+in the computation of Aβ-PS. This property of PS allows for the discovery of
+new patterns in longitudinal data.
+
+Trajectories obtained from the PS model captured a wider dynamic range of
+DVR values and had a better fit to the observed data compared to the trajectories
+obtained using the LME model fixed effects. This difference between the PS and LME
+models underscores the fact that age is not an appropriate metric for staging
+amyloid accumulation. By aligning individuals based on their amyloid scans, the PS
+model enables a better temporal metric of amyloid staging.
+
+Aβ-PS allows for the exploration of longitudinal voxelwise
+trajectories within a hypothesis testing framework due to its underlying statistical
+model. Our results suggest that the precuneus exhibits the earliest cortical amyloid
+changes, but that its rate of amyloid accumulation does not differ significantly
+from other cortical regions. Based on a qualitative evaluation of our estimated
+trajectories, we found that amyloid accumulation in the precuneus is followed by
+cingulate and frontal cortices, then by lateral parietal cortex, followed by insula
+and lateral temporal cortex. We observed minimal amyloid accumulation in visual
+cortex, hippocampal formation and the sensorimotor strip, which agrees with previous
+reports that these regions accumulate amyloid in later stages of AD ( Braak and Braak, 1991 ). Previous reports have
+highlighted precuneus as an early amyloid accumulator ( Mintun et al., 2006 ; Rodrigue
+et al., 2012 ) as well as frontal, cingulate, and parietal regions ( Jack et al., 2008 ). Contrary to our finding
+highlighting precuneus as the earliest cortical accumulator, a study of cognitively
+normal adults found that the right medial frontal cortex accumulates amyloid the
+earliest, closely followed by bilateral precuneus based on cross-sectional voxelwise
+analyses ( Villeneuve et al., 2015 ). We
+presented regional trajectories averaged bilaterally in this work; however,
+hemisphere-specific trajectories were consistent with our bilaterally-averaged
+trajectories and we did not observe that medial frontal cortex precedes precuneus.
+Further studies with larger samples will be instrumental in elucidating the regional
+progression of amyloid accumulation.
+
+One of the strengths of our model for the progression scores s is that there are no a priori assumptions on
+the global form of s ( t ), which can be thought of
+as an underlying function that describes the evolution of progression score over
+time. Instead, the model makes linear local approximations to s ( t ) per individual. The linear form we use
+makes the EM approach analytically tractable and enables the discovery of the global
+form of s ( t ). On the other hand, the linear
+relationship we assume between s and t is also a
+limitation since it may be an oversimplification over long follow-up durations. In
+order to capture dynamics over longer periods more accurately, it is necessary to
+investigate the relationship between the progression scores s and
+time t , and select an appropriate function to link these
+variables.
+
+Another limitation of our model is the assumption of linear biomarker
+trajectories. This assumption is not reflective of the fact that voxelwise DVR has a
+theoretical minimum of 1 (while in practice, there are DVR values lower than 1 due
+to noise). Furthermore, several studies of longitudinal amyloid deposition have
+found evidence for a ceiling effect in amyloid deposition in late AD, suggesting a
+sigmoid trajectory for amyloid levels ( Villemagne et
+al., 2013 ; Villain et al., 2012 ).
+Our use of a linear rather than sigmoid trajectory inevitably results in
+inaccuracies in PS calculation for individuals whose voxelwise data lie along the
+plateaus of the sigmoid in reality. The linear trajectory assumption may also
+prevent us from characterizing subtler differences in the temporal ordering of the
+onset of amyloid accumulation across different regions. However, linear
+trajectories, unlike sigmoid trajectories, yield closed-form update equations for
+trajectory parameters, greatly facilitating the model fitting procedure.
+
+The spatial covariance functions we used in our analyses are covariance
+functions of strictly stationary isotropic processes. The underlying spatial noise
+process is affected by the PET scanner, image reconstruction algorithm, radiotracer
+delivery and binding in different brain regions, kinetic parameter estimation
+algorithm, and registration methods used to bring all scans in alignment. To
+accurately model these influences on noise, complex noise spatial covariance models
+are needed. In this work, we made simplifying assumptions on the noise properties to
+facilitate the study of longitudinal trajectories of amyloid images. As a result of
+these simplifications, our model does not accurately capture noise properties;
+however, by eliminating the inaccurate assumption of independence across voxels, our
+approach improves the accuracy of the estimated trajectories and progression scores.
+Refined spatial noise models incorporating non-stationarity and anisotropy may
+further improve the estimation accuracy.
+
+Our model can be applied to studying higher resolution images. To reduce
+computational memory burden, it may be necessary to impose sparsity on the spatial
+correlation matrix, which can be done by imposing a correlation value of 0 at large
+distances. The sparsity property of the correlation matrix can be taken advantage of
+to yield Cholesky decompositions using less memory and time.
+
+In conclusion, the progression score model allows for extracting summary
+scores from longitudinal data for each scan. In this work, we have extended the
+progression score model proposed by Jedynak et al.
+(2012) to voxelwise imaging data by accounting for spatial correlations
+and enabling efficient handling of the large number of voxels through the EM
+framework. The incorporation of a prior on subject-specific variables allowed for
+the inclusion of individuals with a single visit in the model. Our method can be
+extended to the analysis of other types of imaging data, and in cases where a
+summary score such as mean cortical DVR is not available, the progression score
+estimates can be highly informative for progression staging.

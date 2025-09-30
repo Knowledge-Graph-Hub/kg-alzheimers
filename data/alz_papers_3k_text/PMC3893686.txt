@@ -1,0 +1,535 @@
+# Title
+The Columbia–Suicide Severity Rating Scale: Initial Validity
+and Internal Consistency Findings From Three Multisite Studies With Adolescents
+and Adults
+
+# Abstract
+Research on suicide prevention and interventions requires a standard
+method for assessing both suicidal ideation and behavior to identify those
+at risk and to track treatment response. The Columbia–Suicide
+Severity Rating Scale (C-SSRS) was designed to quantify the severity of
+suicidal ideation and behavior. The authors examined the psychometric
+properties of the scale. The C-SSRS’s validity relative to other measures of suicidal
+ideation and behavior and the internal consistency of its intensity of
+ideation subscale were analyzed in three multisite studies: a treatment
+study of adolescent suicide attempters (N=124); a medication
+efficacy trial with depressed adolescents (N=312); and a study of
+adults presenting to an emergency department for psychiatric reasons
+(N=237). The C-SSRS demonstrated good convergent and divergent validity with
+other multi-informant suicidal ideation and behavior scales and had high
+sensitivity and specificity for suicidal behavior classifications compared
+with another behavior scale and an independent suicide evaluation board.
+Both the ideation and behavior subscales were sensitive to change over time.
+The intensity of ideation subscale demonstrated moderate to strong internal
+consistency. In the adolescent suicide attempters study, worst-point
+lifetime suicidal ideation on the C-SSRS predicted suicide attempts during
+the study, whereas the Scale for Suicide Ideation did not. Participants with
+the two highest levels of ideation severity (intent or intent with plan) at
+baseline had higher odds for attempting suicide during the study. These findings suggest that the C-SSRS is suitable for assessment of
+suicidal ideation and behavior in clinical and research settings.
+
+## Method
+The studies used in the analyses are described below. More detailed
+descriptions of the studies and the relevant scales are included in a data
+supplement that accompanies the online edition of this article. Convergent validity,
+divergent validity, sensitivity, specificity, sensitivity to change, predictive and
+incremental validity, and internal consistency, as defined in Table 1 , were analyzed as shown in Table 2 . Rates of suicidal ideation at study entry and
+lifetime actual suicide attempts for the three studies are presented in Figure 1 .
+
+The Treatment of Adolescent Suicide Attempters study was a National
+Institute of Mental Health multisite feasibility study designed to develop
+and evaluate treatments to prevent suicide reattempts in adolescents.
+Participants were 124 male and female patients 12–18 years of age
+with a suicide attempt or interrupted attempt during the 90 days before
+enrollment ( 34 – 36 ). Participants were evaluated at
+baseline and at treatment weeks 6, 12, 18, and 24, as well as during
+intervening unscheduled visits. Evaluations included the C-SSRS, the
+Columbia Suicide History Form, the Scale for Suicide Ideation, and
+Beck’s Lethality Scale. All instruments were administered by
+independent evaluators, who were Ph.D.-, R.N.-, or master’s-level
+clinicians. Assessment of participants also included the self-report Beck
+Depression Inventory (BDI) at the same visits, as well as ratings by the
+treating psychopharmacologist (who was not the independent evaluator) on the
+Montgomery-Åsberg Depression Rating Scale (MADRS). Any potential
+suicidal events in the study were rated by the suicide evaluation board,
+which was an independent panel of suicidology experts uninvolved in the
+day-to-day management of the trial. The board, which was blind to original
+event classifications, treatment status, and other potentially biasing
+information, rated narratives according to predetermined criteria and
+definitions of potential suicidal events. Unanimous consensus was reached in
+cases where there was any initial disagreement.
+
+Most participants (N=96, 77.4%) were assessed at
+week 12; 87 (70.2%) were evaluated at week 18, and 83
+(66.9%) at week 24. Attrition between the study visits was due to
+participants refusing to continue study treatment or assessments.
+Participants who refused treatment but continued with assessments were
+included in the analyses. There was one death by suicide in the study during
+the follow-up period. As previously reported ( 36 ), participants who remained in the study for
+longer than the median duration were similar to those who were followed for
+less than the median duration on all baseline predictors of suicidal events
+except income.
+
+Study 2 was an industry-sponsored multisite, double-blind,
+placebo-controlled, parallel-group, fixed-dose clinical trial to evaluate
+the efficacy of the selective serotonin reuptake inhibitor escitalopram
+relative to placebo in the treatment of major depressive disorder ( 37 ). Participants were 312 adolescents
+11–17 years of age with a diagnosis of major depressive disorder.
+The study excluded patients who were considered a “suicide
+risk” by the investigators, including those who had suicidal
+ideation or had made a suicide attempt, although approximately 5.5%
+reported some level of ideation at study entry ( Figure 1 ).
+
+The self-report Suicidal Ideation Questionnaire–Junior (the
+version for grades 7–9) ( 38 )
+and the C-SSRS were administered by the study clinicians at initial
+screening, at baseline, and at weeks 4, 8, 16, and 24 (or on early
+termination). Patients who completed at least one postbaseline assessment
+were included in the present analysis (N=259). The characteristics
+of the validation sample were similar to the baseline characteristics of the
+total sample ( 37 ).
+
+Study 3, funded by the American Foundation for Suicide Prevention,
+evaluated the identification and classification of recent suicide attempts
+and nonsuicidal self-injurious behavior by emergency department providers at
+three sites. Participants (N=237) were at least 18 years of age and
+presented to an emergency department for psychiatric reasons. They were
+categorized as having made a suicide attempt prior to the emergency
+evaluation, having engaged in nonsuicidal self-injurious behavior in the
+week prior to the evaluation, or reporting psychiatric symptoms without a
+suicide attempt or nonsuicidal self-injurious behavior prior to the
+evaluation. Study clinicians administered measures in the emergency
+department, including the C-SSRS, the Scale for Suicide Ideation,
+Beck’s Lethality Scale, and the Columbia Suicide History Form.
+
+Analyses of data from studies 1 and 2 were conducted with SAS, version
+9.1 (SAS Institute, Cary, N.C.). Analyses of data from study 3 were conducted
+with SPSS, version 19 (SPSS, Chicago).
+
+In study 1, to examine the convergent and divergent validity of the
+ideation and behavior components of the C-SSRS, associations between the
+scale and other instruments measuring corresponding constructs were
+initially tested using Pearson’s r. Effect sizes were computed
+(Cohen’s d=2r/sqrt[1−r 2 ])
+in order to compare the magnitude of the correlations. A mixed-effects
+regression model was used to adjust for the effect of repeated assessments
+over the course of the study. The C-SSRS ideation scores were entered as
+dependent variables and the scores from corresponding scales as independent
+variables. Unstructured covariance structure was specified.
+
+The choice of random effects was based on the following assumption:
+each participant has his or her own systematic baseline on the measures, and
+each starting point is treated as the result of a random deviation from some
+mean intercept. This model captures both the repeated-measures effect and
+random-intercept effect in individuals when the correlation between measures
+is assessed. Intercept and time (days in treatment) were included as
+random-effect variables. A Steiger’s z test for comparison of
+correlated correlations evaluated whether the severity and intensity
+subscales were more related to the suicidal ideation item than items
+measuring somatic features of depression on the MADRS and the BDI.
+
+In study 2, the analysis was parallel to that in study 1 except that
+the self-report Suicidal Ideation Questionnaire–Junior total score
+was used as the criterion measure for the convergent validity of the
+intensity subscale. The convergent and divergent validity of the C-SSRS
+behavior subscale and the lethality subscales were not examined in study 2
+because no other behavior measure was available for comparison.
+
+In study 3, the convergent validity of the severity subscale,
+intensity subscale, and behavior subscale was evaluated with the phi
+coefficient.
+
+Analysis of specificity in studies 1 and 3 examined the rate of true
+negatives on the C-SSRS behavior subscale relative to behavior ratings on
+the Columbia Suicide History Form and, in study 1, also to the suicide
+evaluation board ratings. The rate of true positives relative to the ratings
+on the Columbia Suicide History Form and the suicide evaluation board
+ratings was used to show the sensitivity of the behavior subscale.
+
+In studies 1 and 2, mixed-effects linear regression was used to test
+sensitivity to change of the severity and behavior subscales over the study
+period as measured by criterion scales. The C-SSRS scores were entered as
+dependent variables, and the scores from the Scale for Suicide Ideation
+(study 1) or the Suicidal Ideation Questionnaire–Junior (study 2)
+were entered as independent variables. Unstructured covariance structure was
+specified, and intercept and time (days in treatment) were included as
+random-effect variables.
+
+In study 1, the predictive validity of the worst-point lifetime
+ideation on the severity sub-scale for 1) actual attempts and 2) actual,
+interrupted, and aborted attempts combined as reported on the Columbia
+Suicide History Form between weeks 1 and 24 was examined using logistic
+regression. Similarly, the predictive validity of the severity subscale was
+tested for the actual attempts classified by the evaluation board. The
+C-SSRS severity scores were entered as a continuous variable, and suicidal
+behavior, including multiple attempts, as a dichotomous variable. The
+average length of time between the baseline administration of the C-SSRS and
+the week 24 Columbia Suicide History Form ratings was 134.63 days
+(SD=65.48), as some subjects had their week 24 visit beyond 168
+days. This variability was addressed in the model by including time as a
+covariate.
+
+Incremental validity was evaluated by comparing the predictive
+validity of the lifetime worst-point ideation (including past week) on the
+C-SSRS severity subscale to the predictive validity of 1) the total score
+and 2) the suicidal intent items on the Scale for Suicide Ideation for the
+same time period. Because intent to die appears to confer heightened risk
+for suicide ( 14 , 15 , 39 ),
+it was hypothesized a priori that presence of ideation with at least some
+intent (the two most severe levels of ideation on the C-SSRS) would confer
+greater risk than presence of ideation without intent. Logistic regression
+was used to test whether a history of ideation with at least some intent in
+contrast to levels of ideation on the C-SSRS without intent resulted in a
+greater risk of suicide attempts or combined ratings of aborted,
+interrupted, and actual attempts classified on the Columbia Suicide History
+Form and actual attempts classified by the evaluation board.
+
+The internal consistency of the C-SSRS ideation subscale in all
+three studies was tested with Cronbach’s alpha. The severity and
+behavior subscales use an ordinal scale and are therefore not subject to
+internal consistency analysis. Other types of reliability (e.g., interrater)
+could not be examined because of the design of the studies.
+
+## Results
+At baseline, the C-SSRS severity subscale and the Scale for Suicide
+Ideation assessment of worst-point ideation both capture the most suicidal
+period during the patient’s lifetime; at all subsequent assessments, the
+since-last-visit and worst-point assessments both measure the most severe
+suicidal ideation since the last assessment.
+
+The C-SSRS severity subscale was moderately correlated with the
+worst-point score on the Scale for Suicide Ideation (r=0.52, p<0.001;
+effect size=1.22, N=472). The C-SSRS intensity subscale
+containing the frequency, duration, controllability, certainty, and deterrents
+items for the most severe ideation was moderately correlated with the
+worst-point ideation total score on the Scale for Suicide Ideation
+(r=0.56, p<0.001; effect size=1.36, N=487). For the
+since-last-visit assessments, there was a strong relationship between the C-SSRS
+severity subscale and the MADRS suicidal ideation item (r=0.63,
+p<0.001; effect size=1.61) as well as the BDI suicide item, which
+asks subjects to rate on a 4-point scale their thoughts of killing themselves
+(r=0.80, p<0.001; effect size=2.66) ( Table 3 ). For the since-last-visit assessments,
+there was also a strong relationship between the C-SSRS intensity subscale and
+the MADRS suicidal ideation item (r=0.69, p<0.001; effect
+size=1.93) as well as the BDI suicide item (r=0.51, p<0.001;
+effect size=1.19).
+
+In study 2, the convergent validity of the C-SSRS with the self-report
+Suicidal Ideation Questionnaire–Junior total score over the course of
+the study was moderate for the C-SSRS severity subscale (r=0.36,
+p<0.01; effect size=0.77) and low for the C-SSRS intensity subscale
+(r=0.23, p<0.001, effect size=0.47) based on pair
+correlations at multiple time points across the study (total number of
+pairs=234).
+
+In study 3, the correlation between the C-SSRS severity subscale and the
+Scale for Suicide Ideation total score was moderate (r=0.69, p<0.001,
+N=211). The C-SSRS intensity subscale total score correlated modestly
+with the Scale for Suicide Ideation total score (r=0.34, p<0.001;
+N=193).
+
+In study 1, the C-SSRS’s sensitivity and specificity of behavior
+classifications relative to the behavior classifications on the Columbia Suicide
+History Form and those by the evaluation board were examined. A total of 15
+study subjects had at least one actual, interrupted, or aborted attempt. The
+total number of these three behaviors in the study based on all visits was 24,
+including unscheduled (emergency) visits. Relative to the Columbia Suicide
+History Form, the C-SSRS had 99.4% specificity and 100%
+sensitivity in correctly identifying aborted attempts and 100%
+sensitivity and specificity for both interrupted and actual attempts ( Figure 2 ). Two aborted attempts were
+identified by the behavior subscale that were not identified using the Columbia
+Suicide History Form. The C-SSRS demonstrated 100% sensitivity and
+96% specificity relative to the evaluation board ratings using the
+combined classifications of actual and interrupted attempts. Five cases of
+behavior were identified on the behavior subscale but not by the evaluation
+board. Because the board did not classify aborted attempts (of which two were
+identified by the C-SSRS), the total number of attempts analyzed here is 22, not
+24.
+
+In study 2, the convergent validity of behavior classifications was not
+examined because no parallel measure of suicidal behavior was available.
+
+In study 3, the degree of association regarding the identification of
+lifetime (including past week) actual, interrupted, and aborted attempts using
+the C-SSRS and the Columbia Suicide History Form was high (phi values, 0.99,
+0.92, and 0.94, respectively; all p values <0.001; N=237). The C-SSRS
+had 100% specificity and 100% sensitivity in correctly
+identifying lifetime actual attempts and 99% specificity and 94%
+sensitivity in correctly identifying lifetime interrupted attempts that were
+recorded on the Columbia Suicide History Form. Two lifetime interrupted attempts
+were identified on the Columbia Suicide History Form that were not identified
+using the C-SSRS. The scale had 99% specificity and 93%
+sensitivity in correctly identifying lifetime aborted attempts that were
+recorded on the Columbia Suicide History Form. Four lifetime aborted attempts
+were identified on the Columbia Suicide History Form that were not identified
+using the C-SSRS.
+
+The actual lethality subscale was robustly correlated with the
+Beck’s Lethality Scale score from the Columbia Suicide History Form
+(r=0.79, p<0.001; N=237). The lethality subscale is rated on
+a 6-point scale (running from 0 to 5) using general anchors for lethality,
+whereas the Columbia Suicide History Form lethality subscale is rated on a
+10-point scale (running from 0 to 9) using anchors that correspond to the method
+of injury.
+
+In study 1, the divergent validity of the C-SSRS severity subscale was
+examined by correlating raw scores on the fatigue, sleep, appetite, and loss of
+energy items on the self-report BDI and similar items on the MADRS, administered
+by the psychopharmacologist, with the C-SSRS’s most severe ideation
+since last visit, administered by a different clinician. Effect sizes using
+Cohen’s d were computed to evaluate the strength of the significant
+correlations. As in the analyses of convergent validity, mixed-effects
+regression was used to adjust for the effect of multiple assessments over time
+( Table 3 ).
+
+For the since-last-visit assessments, weak or moderate correlations were
+observed between the C-SSRS severity and intensity subscales and the BDI and
+MADRS somatic depression items. A much stronger association with the BDI and
+MADRS suicidal ideation items, in contrast to the weak relationship with
+nonsuicidal items demonstrated by the Steiger’s z test for comparison of
+correlated correlations, further supports the divergent validity of the C-SSRS
+( Table 3 ). When adjusted for the
+effect of multiple assessments, the findings were similar—for example, a
+one-unit increase in the severity subscale score for the since-last-visit
+assessments correlated (on average) with 0.278 units on the BDI sleep
+disturbance item ( Table 3 ).
+
+The relationship of the C-SSRS intensity subscale total score to somatic
+symptoms of depression on the BDI and MADRS was also examined. As seen in Table 3 , correlations between the intensity
+subscale and the BDI and MADRS items were generally small to moderate, in
+contrast to larger correlations with the C-SSRS severity sub-scale. Effect sizes
+for these associations varied from small to large. When adjusted for the effect
+of repeated assessments, a one-unit change on the BDI and MADRS scores expressed
+in standard deviation units corresponded to measurable changes in the intensity
+subscale, indicated by the beta coefficients.
+
+The divergent validity of the C-SSRS severity and intensity subscales in
+studies 2 and 3 was not examined.
+
+In study 1, results from the random-effects mixed linear regression that
+tested sensitivity to change of the C-SSRS on the criterion scales over the
+study period showed that the scale’s ideation and behavior ratings were
+related to other measures over time. In the linear regression, a one-unit
+decrease in the “total current” ideation score on the Scale for
+Suicide Ideation corresponded to a decrease of 0.106 units in the C-SSRS
+severity subscale score (p<0.001). Similarly, change in the Scale for Suicide
+Ideation worst-point ideation corresponded to a significant change on the C-SSRS
+intensity subscale for since-last-visit assessments (beta=0.071,
+p<0.001). Figure 3 demonstrates that the
+mean severity subscale scores and the mean intensity subscale scores responded
+similarly to the change on the Scale for Suicide Ideation. All
+unscheduled/emergency visits (N=39) occurring between baseline and week
+24 were excluded from these analyses.
+
+To assess the behavior subscale’s sensitivity to change, three
+types of suicidal behaviors (aborted, interrupted, and actual attempts)
+identified by the independent evaluators were plotted against those identified
+by the Columbia Suicide History Form at weeks 6, 12, 18, and 24 ( Figure 2 ) and against interrupted, actual, and one
+completed attempt combined, as classified by the evaluation board. There was
+full agreement for interrupted and actual attempts and moderate agreement for
+aborted attempts relative to the Columbia Suicide History Form classifications
+(kappa=0.66, 95% confidence interval
+[CI]=0.23–1.00) and high agreement
+(kappa=0.88, 95% CI=0.77–0.98) with the attempt
+and interrupted attempt classifications made by the evaluation board ( Figure 4 ). Only cases in which both the
+C-SSRS and Columbia Suicide History Form ratings (N=364) from the same
+assessments were available were included in the analysis. All
+unscheduled/emergency visits occurring between baseline and week 24 were
+excluded from the analysis. All potential events on the C-SSRS were later
+classified by the evaluation board and included in the analyses. One suicide
+rated by the board after the study was completed was not rated on the scale.
+
+In study 2, linear regression showed that a one-unit decrease in total
+score on the Suicidal Ideation Questionnaire–Junior corresponded to an
+average decrease of 0.31 units in the C-SSRS severity subscale score
+(p=0.01) and to a decrease of 0.17 units in the intensity of ideation
+scores (p<0.001).
+
+The predictive validity of the C-SSRS was evaluated using the Columbia
+Suicide History Form and the suicide evaluation board classifications; the
+severity subscale was examined continuously and categorically (with or without
+intent). The results were comparable with either approach.
+
+In study 1, baseline C-SSRS ratings (based on worst-point lifetime
+suicidal ideation and conducted before patients received any treatment)
+significantly predicted suicide attempts during treatment (odds
+ratio=1.45, 95% CI=1.07–1.98, p=0.02) as
+well as actual, interrupted, and aborted attempts combined on the Columbia
+Suicide History Form between week 1 and week 24 (odds ratio=1.34,
+95% CI=1.05–1.70, p=0.02) and classifications
+made by the suicide evaluation board. In the parallel analyses predicting the
+behavior classifications made by the suicide evaluation board from the baseline
+severity of ideation ratings, for a one-standard-deviation increase in the
+lifetime (including past week) severity of ideation on the C-SSRS, the odds of
+actual attempts increased by 43% (odds ratio=1.43, 95%
+CI=0.99–2.05, p=0.05). Analyses included all 124
+participants who were assessed at baseline, using intent-to-treat model.
+
+For every one-standard-deviation increase in the level of lifetime
+suicidal ideation reported at study entry, the odds of attempting suicide during
+the study increased by 45%. The odds of actual, interrupted, or aborted
+suicide attempts combined as assessed by the Columbia Suicide History Form
+increased by 34% for every one-standard-deviation increase in lifetime
+severity of ideation score. Predictive validity was also evaluated using a
+lifetime history of the most severe ideation with and without intent on the
+C-SSRS severity subscale. The odds of suicide attempts scored on the Columbia
+Suicide History Form during follow-up were compared in participants who endorsed
+a lifetime history of the two most severe levels of ideation (where at least
+some intent to die was present) reported at baseline and those who endorsed a
+history of less severe ideation (types 0–3) (odds ratio=3.26,
+95% CI=1.02–10.45, p=0.047). The lifetime
+history of the two highest severity levels of ideation reported on the C-SSRS at
+baseline were also associated with higher odds of actual, interrupted, and
+aborted attempts combined on the Columbia Suicide History Form (odds
+ratio=2.76, 95% CI=1.07–7.12, p=0.036).
+In the parallel analyses, predicting from the dichotomously scored lifetime
+severity of ideation to the behavior classifications by the evaluation board,
+the odds of actual attempts were almost four times higher for those with a
+lifetime history (including past week) of the two most severe levels of ideation
+at baseline (odds ratio=3.85, 95% CI=1.07–13.86,
+p=0.039).
+
+We conducted similar analyses of predictive validity with the total
+score (lifetime) and with the intent items of the Scale for Suicide Ideation. No
+significant results were observed for any of the outcomes. A
+one-standard-deviation increase in the total score (lifetime) was not associated
+with an increase in odds of suicide attempts on the Columbia Suicide History
+Form (odds ratio=1.02, 95% CI=0.95–1.11,
+p=0.57) or in odds of actual, interrupted, and aborted attempts combined
+on the Columbia Suicide History Form at follow-up (odds ratio=1.01,
+95% CI=0.95–1.07, p=0.79).
+
+In the categorical analysis based on the intent items (a score
+≥1 on item 4 or 5) from the Scale for Suicide Ideation, the odds of
+attempts during the study were not higher for actual attempts (odds
+ratio=1.44, p=0.76; all of the attempters endorsed intent) or
+for the combined ratings of actual, interrupted, and aborted attempts (odds
+ratio=2.19, p=0.49; all of the attempters endorsed intent).
+
+Because baseline Scale for Suicide Ideation scores (either total score
+or score on the intent items) were not significantly associated with attempts
+during the study, the incremental predictive validity of the C-SSRS severity
+sub-scale relative to the Scale for Suicide Ideation could not be estimated.
+
+In study 1, the C-SSRS intensity subscale was examined at two assessment
+intervals: since last visit and past week. The internal consistency of the
+intensity subscale was high, with a Cronbach’s alpha of 0.937 for since
+last visit and 0.946 for the past week. In studies 2 and 3, the internal
+consistency of the intensity subscale across all visits was moderate, with a
+Cronbach’s alpha of 0.73.
+
+## Discussion
+We examined the psychometric properties of the C-SSRS and demonstrated
+convergent, divergent, and predictive validity; sensitivity to change; sensitivity
+and specificity of the instrument; and internal consistency of the intensity
+subscale. The study design precluded examination of other indices of reliability,
+although interrater reliability has already been demonstrated ( 31 , 32 , 36 ). In all three studies analyzed, the C-SSRS
+ideation and behavior sub-scales showed strong convergent validity with established
+ideation and behavior scales. The finding of only a moderate convergent relationship
+between the C-SSRS severity and intensity of ideation scores and the Scale for
+Suicide Ideation total score, as well as the Suicidal Ideation
+Questionnaire–Junior score, was expected and was likely due to nonoverlap in
+items and different construct operationalization. The C-SSRS demonstrated strong
+divergent validity with items on the BDI and the MADRS that were not expected to
+overlap with suicidal ideation and behavior (e.g., somatic depression symptoms such
+as fatigue). Because suicide risk and protective factors are not orthogonal to
+psychiatric diagnosis ( 40 ), establishing
+divergent validity with measures of other constructs is essential. In suicidal
+adolescents, ideation was most closely related to suicide-related items in other
+measures, in contrast to other types of symptoms of psychiatric disorders or
+physical illnesses.
+
+Several other findings have important implications. In study 1, a decrease
+in the severity of ideation from “active suicidal thoughts” to
+“wish to die” or “no ideation” was accompanied by
+corresponding decreases in Scale for Suicide Ideation score, suggesting that the
+C-SSRS severity subscale is sensitive to clinical change. Similarly, the C-SSRS
+identified almost an identical number of cases with specific types of suicidal
+behavior compared to the Columbia Suicide History Form and the suicide evaluation
+board ratings, and this agreement held over the course of the study. There was a
+high degree of agreement in the classification of suicidal behavior between the
+Columbia Suicide History Form, the evaluation board ratings, and the C-SSRS. The
+behavior subscale demonstrated high sensitivity and specificity relative to behavior
+classifications on the Columbia Suicide History Form and by the evaluation
+board.
+
+A striking finding in this study was that the C-SSRS demonstrated predictive
+validity but the Scale for Suicide Ideation did not. The Scale for Suicide Ideation
+has shown predictive validity for death by suicide with adults in other long-term
+follow-up studies ( 41 , 42 ), but it did not predict near-term nonfatal suicidal
+behavior in this study. As with any cross-study comparison, differences in
+predictive validity may result from differences in clinical populations, assessment
+context, and time. Another plausible explanation for this divergent finding is
+scoring differences between the two scales. The Scale for Suicide Ideation total
+score aggregates many characteristics of suicidal ideation along a continuum,
+whereas the C-SSRS identifies types of ideation and classifies individuals as having
+intent, as well as having intent and a plan. Factor structure analyses of the Scale
+for Suicide Ideation have shown that certain clusters of items assessing
+“plans” and “desire” show differential prediction of
+past attempts and eventual suicide ( 21 , 43 ). The present study raises the question of
+whether identifying specific types of suicidal ideation may be more useful for
+prospective research and for risk stratification. Further prospective studies of
+suicide risk using standardized measures are warranted.
+
+Of particular interest are the results from study 1 suggesting that a
+history of severe ideation with at least some intent to die may confer a greater
+risk for suicidal behavior than a history of ideation with no intent to die.
+Establishing clinically meaningful thresholds that indicate heightened suicide risk
+and predict which individuals will go on to engage in suicidal behavior have been
+elusive in efforts at suicide prevention ( 3 ).
+Because ideation severity can be used to set criteria for clinical referral and
+inclusion or exclusion criteria in research, operationalization of clinical
+thresholds could facilitate enrollment of patients with suicidal behavior in
+research studies, as well as clinical management more broadly.
+
+As with any instrument, one must be mindful of the population one is working
+with. Depending on the population, 25% to 60% of attempts are
+considered “impulsive” ( 44 – 46 ), but the role of
+impulsivity in suicide is far from clear ( 41 , 42 ), and “impulsive”
+attempts may include prior ideation and planning ( 41 ). The results should be replicated in studies designed to test
+psychometric properties of the scale, and the application of the scale in different
+populations deserves further study, particularly in light of the different potential
+routes to suicidal behavior (e.g., which severity items predict which behaviors, and
+what other factors, such as substance abuse or family history, modify the risk
+associated with the severity or intensity of ideation).
+
+There are several significant limitations to this analysis. The studies
+on which our analyses are based were not prospectively designed to examine
+psychometric properties of the instruments, although the replication of findings
+across three different studies is reassuring. The significant associations
+between the C-SSRS and the Scale for Suicide Ideation and the Columbia Suicide
+History Form may be attributed in part to the fact that the same interviewers
+contemporaneously administered the scales; while this may be an advantage in
+demonstrating convergent validity, it also increases the risk of interviewer or
+rater bias. To address this issue, self-report measures (the BDI and the
+Suicidal Ideation Questionnaire–Junior), ratings (on the MADRS) by a
+study psychopharmacologist who was not administering the C-SSRS, and ratings by
+the independent suicide evaluation board were analyzed, and the results were
+similar. Nevertheless, further examination of concurrent and incremental
+validity and interrater reliability of this scale with other measures of
+suicidal ideation and behavior is warranted.
+
+The incidence of aborted, interrupted, and actual attempts was very low
+in the two prospective studies (studies 1 and 2), which limits the precision of
+the sensitivity and specificity estimates. The generalizability of the
+predictive validity findings is limited in study 1 because only adolescent
+attempters were included in the sample (thus, predictive validity for that study
+refers to prediction of re-attempt). Although there are advantages to using
+diverse populations in these analyses, there may be limitations to the
+generalizability of results. While study 1 included only adolescent attempters,
+study 2 excluded individuals with current ideation or a history of suicide
+attempt, and study 3 was a clinical sample of adults presenting to an emergency
+department for psychiatric treatment. These findings must be replicated with
+community samples.
+
+## Conclusions
+These analyses of the C-SSRS using data from three studies provide initial
+promising data on the convergent and divergent validity, predictive validity,
+sensitivity, specificity, sensitivity to change, and internal consistency of the
+C-SSRS. Greater precision in the assessment of suicidal behavior and ideation is
+necessary for improving identification and clinical management, as well as for
+research-derived risk-benefit analyses. The use of a standardized measure such as
+the C-SSRS that comprehensively assesses suicidal behavior and ideation permits
+comparison of findings across research and clinical populations, as well as trends
+over time, providing data to guide treatment recommendations for suicidal patients
+and suicide prevention efforts.
