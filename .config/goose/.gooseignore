@@ -1,0 +1,5 @@
+# Block only sensitive files, allow everything else
+.env
+*.key
+*.pem
+secrets/
