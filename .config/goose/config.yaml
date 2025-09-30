@@ -16,7 +16,7 @@ extensions:
     bundled: null
     cmd: uvx
     description: Git version control system integration
-    enabled: false
+    enabled: true
     env_keys: []
     envs: {}
     name: git
@@ -51,5 +51,17 @@ extensions:
     env_keys: []
     envs: {}
     name: pdfreader
+    timeout: 300
+    type: stdio
+  artl:
+    args:
+    - artl-mcp
+    bundled: null
+    cmd: uvx
+    description: Retrieve and analyze scientific literature from DOI, PMID, PMCID
+    enabled: true
+    env_keys: []
+    envs: {}
+    name: artl
     timeout: 300
     type: stdio
