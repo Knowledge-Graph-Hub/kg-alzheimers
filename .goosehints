@@ -145,6 +145,17 @@ Multiple studies have shown this effect (PMC10027402, PMC10031303, PMC10042173).
 - **grep/rg**: Search through curated papers
 - **Read tool**: Read full paper contents
 - **ARTL MCP**: Fetch external papers by DOI/PMID/PMCID
+- **gh command**: Search and read GitHub issues/discussions
+
+### GitHub Issues & Discussions
+- **Search previous discussions**: Use `gh issue list --search "keyword"` to find relevant past discussions
+- **Reference prior conversations**: Link to related issues when relevant (e.g., "This was discussed in #42")
+- **Important**: Issues are **discussions, not authoritative sources**
+  - Treat as researcher perspectives and ongoing debates
+  - Don't cite issues as scientific evidence
+  - Do reference them to connect conversations and avoid redundancy
+  - Good: "This topic came up in issue #42, where researchers discussed..."
+  - Bad: "According to issue #42, tau protein causes..." (cite papers instead)
 
 ### Git Operations
 - **Git MCP**: Repository operations (for code/documentation changes if needed)
