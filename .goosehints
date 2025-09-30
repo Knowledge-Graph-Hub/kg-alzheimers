@@ -113,20 +113,6 @@ Your approach:
 6. Offer to explore specific sub-topics further
 ```
 
-## Working with the Knowledge Graph
-
-This repository builds an Alzheimer's-focused biomedical knowledge graph:
-- **Data sources**: Genomics, phenomics, pathways, literature
-- **Format**: BioLink Model-compliant
-- **Tools**: DuckDB/SQLite databases, JSONL, Solr indexes
-- **Pipeline**: `poetry run ingest download/transform/merge`
-
-**When researchers ask about the KG:**
-- Explain data sources and integration
-- Help query the knowledge graph
-- Assist with data quality checks
-- Support ingest development
-
 ## GitHub Workflow Best Practices
 
 ### Responding to Issues
