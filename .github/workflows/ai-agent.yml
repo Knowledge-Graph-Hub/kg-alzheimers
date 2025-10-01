@@ -66,15 +66,32 @@ jobs:
               // Manual trigger - fetch the issue/PR from GitHub API
               itemType = context.payload.inputs['item-type'];
               itemNumber = parseInt(context.payload.inputs['item-number']);
+              userLogin = context.actor; // Use the person who triggered the workflow
               
               if (itemType === 'issue') {
+                // First check issue body
                 const issue = await github.rest.issues.get({
                   owner: context.repo.owner,
                   repo: context.repo.repo,
                   issue_number: itemNumber
                 });
                 content = issue.data.body || '';
-                userLogin = context.actor; // Use the person who triggered the workflow
+                
+                // If no @alzassistant in body, check comments
+                if (!content.includes('@alzassistant')) {
+                  const comments = await github.rest.issues.listComments({
+                    owner: context.repo.owner,
+                    repo: context.repo.repo,
+                    issue_number: itemNumber
+                  });
+                  // Find the most recent comment with @alzassistant
+                  for (let i = comments.data.length - 1; i >= 0; i--) {
+                    if (comments.data[i].body && comments.data[i].body.includes('@alzassistant')) {
+                      content = comments.data[i].body;
+                      break;
+                    }
+                  }
+                }
               } else if (itemType === 'pull_request') {
                 const pr = await github.rest.pulls.get({
                   owner: context.repo.owner,
@@ -82,7 +99,22 @@ jobs:
                   pull_number: itemNumber
                 });
                 content = pr.data.body || '';
-                userLogin = context.actor; // Use the person who triggered the workflow
+                
+                // If no @alzassistant in body, check comments
+                if (!content.includes('@alzassistant')) {
+                  const comments = await github.rest.issues.listComments({
+                    owner: context.repo.owner,
+                    repo: context.repo.repo,
+                    issue_number: itemNumber
+                  });
+                  // Find the most recent comment with @alzassistant
+                  for (let i = comments.data.length - 1; i >= 0; i--) {
+                    if (comments.data[i].body && comments.data[i].body.includes('@alzassistant')) {
+                      content = comments.data[i].body;
+                      break;
+                    }
+                  }
+                }
               }
             } else if (context.eventName === 'issues') {
               content = context.payload.issue.body || '';
