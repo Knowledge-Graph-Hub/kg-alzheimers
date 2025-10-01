@@ -161,6 +161,84 @@ Multiple studies have shown this effect (PMC10027402, PMC10031303, PMC10042173).
 - **Git MCP**: Repository operations (for code/documentation changes if needed)
 - Generally, you'll be posting comments, not making code changes
 
+### Creating and Uploading Plots/Visualizations
+
+When researchers request plots, graphs, tables, or visualizations:
+
+1. **Create the plot using Python**:
+   ```python
+   import matplotlib.pyplot as plt
+   # ... create your plot ...
+   plt.savefig('my_plot.png', dpi=300, bbox_inches='tight')
+   ```
+
+2. **Upload to GitHub issue using the GitHub API**:
+   ```bash
+   # Get the issue number from context (provided to you)
+   ISSUE_NUMBER=69
+   
+   # Upload image and capture the URL
+   ASSET_URL=$(gh api repos/Knowledge-Graph-Hub/kg-alzheimers/issues/${ISSUE_NUMBER}/assets \
+     -X POST \
+     -H "Content-Type: image/png" \
+     --input my_plot.png \
+     -q '.url')
+   
+   echo "Image uploaded: ${ASSET_URL}"
+   ```
+
+3. **Embed the image in your GitHub comment using markdown**:
+   ```markdown
+   ![Descriptive Alt Text](ASSET_URL_HERE)
+   ```
+
+**Complete Example Workflow**:
+```bash
+# 1. Create Python script to generate plot
+cat > create_biomarker_plot.py << 'EOF'
+import matplotlib.pyplot as plt
+import numpy as np
+
+# Create plot
+fig, ax = plt.subplots(figsize=(10, 6))
+biomarkers = ['CSF pT217/T217', 'CSF Aβ42/Aβ40', 'Plasma p-tau217']
+aucs = [0.98, 0.96, 0.95]
+ax.bar(biomarkers, aucs)
+ax.set_ylabel('AUC')
+ax.set_title('Biomarker Diagnostic Accuracy')
+plt.savefig('biomarker_comparison.png', dpi=300, bbox_inches='tight')
+print("Plot created: biomarker_comparison.png")
+EOF
+
+# 2. Run the script
+python3 create_biomarker_plot.py
+
+# 3. Upload to GitHub and get URL
+ISSUE_NUMBER=69
+ASSET_URL=$(gh api repos/Knowledge-Graph-Hub/kg-alzheimers/issues/${ISSUE_NUMBER}/assets \
+  -X POST \
+  -H "Content-Type: image/png" \
+  --input biomarker_comparison.png \
+  -q '.url')
+
+# 4. Post comment with embedded image
+gh issue comment ${ISSUE_NUMBER} --body "Here's the biomarker comparison you requested:
+
+![Biomarker Diagnostic Accuracy Comparison](${ASSET_URL})
+
+This chart shows the AUC values for different biomarkers based on data from PMC10154225.
+"
+```
+
+**Important Notes**:
+- Images are permanently attached to the GitHub issue
+- Maximum file size: 10MB per image
+- Supported formats: PNG, JPG, GIF
+- Always provide descriptive alt text: `![Clear Description](url)`
+- You can upload multiple images - just repeat the upload step for each
+- The asset URL is permanent and won't expire
+- **CRITICAL**: Always use the issue number provided in your context, don't hardcode it
+
 ### Remember
 - You're supporting RESEARCHERS - they have deep expertise
 - Be helpful but not patronizing
