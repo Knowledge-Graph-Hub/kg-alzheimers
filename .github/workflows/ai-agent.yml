@@ -9,6 +9,19 @@ on:
     types: [opened, edited]
   pull_request_review_comment:
     types: [created, edited]
+  workflow_dispatch:
+    inputs:
+      item-type:
+        description: 'Type of item (issue or pull_request)'
+        required: true
+        type: choice
+        options:
+          - issue
+          - pull_request
+      item-number:
+        description: 'Issue or PR number'
+        required: true
+        type: number
 
 jobs:
   check-mention:
@@ -49,7 +62,29 @@ jobs:
             let itemType = '';
             let itemNumber = 0;
             
-            if (context.eventName === 'issues') {
+            if (context.eventName === 'workflow_dispatch') {
+              // Manual trigger - fetch the issue/PR from GitHub API
+              itemType = context.payload.inputs['item-type'];
+              itemNumber = parseInt(context.payload.inputs['item-number']);
+              
+              if (itemType === 'issue') {
+                const issue = await github.rest.issues.get({
+                  owner: context.repo.owner,
+                  repo: context.repo.repo,
+                  issue_number: itemNumber
+                });
+                content = issue.data.body || '';
+                userLogin = context.actor; // Use the person who triggered the workflow
+              } else if (itemType === 'pull_request') {
+                const pr = await github.rest.pulls.get({
+                  owner: context.repo.owner,
+                  repo: context.repo.repo,
+                  pull_number: itemNumber
+                });
+                content = pr.data.body || '';
+                userLogin = context.actor; // Use the person who triggered the workflow
+              }
+            } else if (context.eventName === 'issues') {
               content = context.payload.issue.body || '';
               userLogin = context.payload.issue.user.login;
               itemType = 'issue';
